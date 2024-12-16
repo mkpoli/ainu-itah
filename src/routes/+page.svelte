@@ -1,7 +1,7 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages.js';
-	import data from '$lib/data.json';
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
+	import DictionaryTable from '$lib/components/DictionaryTable.svelte';
 </script>
 
 <LanguageSwitcher />
@@ -9,34 +9,7 @@
 <h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
 <h2 class="my-10 text-center text-xl font-bold">{m.dictionaries()}</h2>
 
-<table
-	class="mx-auto max-w-screen-md table-auto border-collapse border border-gray-300 text-center"
->
-	<thead>
-		<tr>
-			<th>{m.aynu()}</th>
-			<th>{m.sisan()}</th>
-			<th>{m.nuca()}</th>
-			<th>{m.ikiri()}</th>
-		</tr>
-	</thead>
-	<tbody>
-		{#each data as item}
-			<tr class="odd:bg-gray-100 even:bg-gray-200">
-				<td class="flex flex-col gap-2">
-					{item.lemma}
-				</td>
-				<td>
-					{item.glosses}
-				</td>
-				<td></td>
-				<td>
-					{item.poses}
-				</td>
-			</tr>
-		{/each}
-	</tbody>
-</table>
+<DictionaryTable />
 
 <h3 class="my-4 text-center text-xl font-bold">{m.kanpi()}</h3>
 
