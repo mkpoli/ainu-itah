@@ -54,11 +54,11 @@
 				<td lang="ja">
 					{(item.ja ?? []).join('、')}
 				</td>
-				<td lang="en">
-					{(item.en ?? []).join(', ')}
-				</td>
 				<td lang="ru">
 					{(item.ru ?? []).join(', ')}
+				</td>
+				<td lang="en">
+					{(item.en ?? []).join(', ')}
 				</td>
 				<td>
 					{#each item.poses as pos}
