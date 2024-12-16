@@ -15,7 +15,15 @@
 			}
 		})
 	);
-	let filtered = $derived(sorted.filter((item) => item.lemma?.includes(search)));
+	let filtered = $derived(
+		sorted.filter(
+			(item) =>
+				item.lemma?.includes(search) ||
+				item.ja?.includes(search) ||
+				item.en?.includes(search) ||
+				item.ru?.includes(search)
+		)
+	);
 </script>
 
 <form class="mx-auto my-4 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4">
