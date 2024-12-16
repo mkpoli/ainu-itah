@@ -4,6 +4,11 @@
 	import DictionaryTable from '$lib/components/DictionaryTable.svelte';
 </script>
 
+<svelte:head>
+	<title>{m.aynu_itah()}</title>
+	<meta name="description" content={m.aynu_itah_description()} />
+</svelte:head>
+
 <LanguageSwitcher />
 
 <h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
