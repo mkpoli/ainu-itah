@@ -41,6 +41,7 @@
 			<th>{m.aynu()}</th>
 			<th>{m.sisan()}</th>
 			<th>{m.nuca()}</th>
+			<th>{m.ankiris()}</th>
 			<th>{m.ikiri()}</th>
 		</tr>
 	</thead>
@@ -53,6 +54,7 @@
 				<td>
 					{item.glosses}
 				</td>
+				<td></td>
 				<td></td>
 				<td>
 					{item.poses}
