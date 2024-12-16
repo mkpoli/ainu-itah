@@ -48,17 +48,21 @@
 	<tbody>
 		{#each filtered as item}
 			<tr class="odd:bg-gray-100 even:bg-gray-200">
-				<td class="flex flex-col gap-2">
+				<td class="flex flex-col gap-2" lang="ain-Latn">
 					{item.lemma}
 				</td>
-				<td>
-					{item.glosses}
+				<td lang="ja">
+					{(item.ja ?? []).join('、')}
 				</td>
-				<td></td>
-				<td></td>
+				<td lang="en">
+					{(item.en ?? []).join(', ')}
+				</td>
+				<td lang="ru">
+					{(item.ru ?? []).join(', ')}
+				</td>
 				<td>
 					{#each item.poses as pos}
-						<abbr title={m[`pos_${pos}` as keyof typeof m]()}>{pos}</abbr>
+						<abbr title={m[`pos_${pos}` as keyof typeof m]?.() ?? pos}>{pos}</abbr>
 					{/each}
 				</td>
 			</tr>
