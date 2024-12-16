@@ -3,6 +3,7 @@
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 	import DictionaryTable from '$lib/components/DictionaryTable.svelte';
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -53,3 +54,5 @@
 		</a>
 	</li>
 </ul>
+
+<Footer />
