@@ -2,9 +2,9 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"dictionaries": "Словарь",
 	"aynu_itah": "Сахалинская айну",
-	"aynu": "Айну",
+	"aynu": "Айнский",
 	"sisan": "Японский",
 	"nuca": "Русский",
-	"part_of_speech": "Часть речи",
+	"ikiri": "Часть речи",
 	"kanpi": "Ссылки"
 }
