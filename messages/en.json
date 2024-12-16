@@ -8,5 +8,9 @@
 	"nuca": "Russian",
 	"ikiri": "POS",
 	"kanpi": "References",
-	"discord": "Discord Community"
+	"discord": "Discord Community",
+	"sort_by": "Sort by",
+	"abc": "ABC",
+	"freq": "Frequency",
+	"pos": "POS"
 }
