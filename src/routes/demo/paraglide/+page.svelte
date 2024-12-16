@@ -17,4 +17,7 @@
 	<button onclick={() => switchToLanguage('en')}>en</button>
 	<button onclick={() => switchToLanguage('ja')}>ja</button>
 	<button onclick={() => switchToLanguage('ru')}>ru</button>
+	<button onclick={() => switchToLanguage('ain-Cyrl')}>ain-Cyrl</button>
+	<button onclick={() => switchToLanguage('ain-Latn')}>ain-Latn</button>
+	<button onclick={() => switchToLanguage('ain-Kana')}>ain-Kana</button>
 </div>
