@@ -29,7 +29,7 @@
 <LanguageSwitcher />
 
 <h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
-<h2 class="my-10 text-center text-xl font-bold">{m.dictionaries()}</h2>
+<h2 class="my-6 text-center text-2xl font-bold">{m.dictionaries()}</h2>
 
 <DictionaryTable />
 
