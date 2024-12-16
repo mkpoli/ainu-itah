@@ -2,11 +2,26 @@
 	import * as m from '$lib/paraglide/messages.js';
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 	import DictionaryTable from '$lib/components/DictionaryTable.svelte';
+	import { CANONICAL_HOSTNAME } from '$lib/consts';
 </script>
 
 <svelte:head>
 	<title>{m.aynu_itah()}</title>
 	<meta name="description" content={m.aynu_itah_description()} />
+	<meta
+		name="keywords"
+		content="アイヌ語, 樺太アイヌ語, サハリンアイヌ語, 辞典, 言語復興, 辞書, Ainu, Sakhalin Ainu, Ainu Language, Language Revitalization, Dictionary, Ainu Dictionary, Словарь, Соловарь, Айну, Сахалинский айнский язык, Сахалин"
+	/>
+	<meta property="og:title" content={m.aynu_itah()} />
+	<meta property="og:description" content={m.aynu_itah_description()} />
+	<meta property="og:image" content={new URL('/og.png', CANONICAL_HOSTNAME).toString()} />
+	<meta property="og:url" content={CANONICAL_HOSTNAME} />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={m.aynu_itah()} />
+	<meta name="twitter:description" content={m.aynu_itah_description()} />
+	<meta name="twitter:creator" content="@mkpoli" />
+	<meta name="twitter:image" content={new URL('/og.png', CANONICAL_HOSTNAME).toString()} />
 </svelte:head>
 
 <LanguageSwitcher />
