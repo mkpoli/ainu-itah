@@ -1,7 +1,10 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages.js';
 	import data from '$lib/data.json';
+	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 </script>
+
+<LanguageSwitcher />
 
 <h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
 <h2 class="my-10 text-center text-xl font-bold">{m.dictionaries()}</h2>
