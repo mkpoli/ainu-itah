@@ -57,7 +57,9 @@
 				<td></td>
 				<td></td>
 				<td>
-					{item.poses}
+					{#each item.poses as pos}
+						<abbr title={m[`pos_${pos}` as keyof typeof m]()}>{pos}</abbr>
+					{/each}
 				</td>
 			</tr>
 		{/each}
