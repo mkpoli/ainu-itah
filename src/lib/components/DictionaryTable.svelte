@@ -63,3 +63,10 @@
 		{/each}
 	</tbody>
 </table>
+
+<style lang="postcss">
+	th,
+	td {
+		@apply p-2;
+	}
+</style>
