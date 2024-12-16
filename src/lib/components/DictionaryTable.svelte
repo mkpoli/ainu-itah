@@ -9,7 +9,7 @@
 			if (sortBy === 'abc') {
 				return a.lemma?.localeCompare(b.lemma) ?? 0;
 			} else if (sortBy === 'freq') {
-				return a.frequency - b.frequency;
+				return -1 * (a.frequency - b.frequency);
 			} else if (sortBy === 'pos') {
 				return a.poses?.[0]?.localeCompare(b.poses?.[0]) ?? 0;
 			}
