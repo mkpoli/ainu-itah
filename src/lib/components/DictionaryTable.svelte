@@ -3,7 +3,7 @@
 	import data from '$lib/data.json';
 
 	let sortBy: 'abc' | 'freq' | 'pos' = $state('freq');
-
+	let search = $state('');
 	let sorted = $derived(
 		data.toSorted((a, b) => {
 			if (sortBy === 'abc') {
@@ -15,9 +15,14 @@
 			}
 		})
 	);
+	let filtered = $derived(sorted.filter((item) => item.lemma?.includes(search)));
 </script>
 
-<form class="mx-auto my-4 flex justify-center gap-2">
+<form class="mx-auto my-4 flex flex-col items-center justify-center gap-2">
+	<label>
+		<span>{m.search()}</span>
+		<input type="text" bind:value={search} />
+	</label>
 	<label>
 		<span>{m.sort_by()}</span>
 		<select bind:value={sortBy}>
@@ -40,7 +45,7 @@
 		</tr>
 	</thead>
 	<tbody>
-		{#each sorted as item}
+		{#each filtered as item}
 			<tr class="odd:bg-gray-100 even:bg-gray-200">
 				<td class="flex flex-col gap-2">
 					{item.lemma}
