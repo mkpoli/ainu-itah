@@ -17,6 +17,7 @@
 	<meta property="og:image" content={new URL('/og.png', CANONICAL_HOSTNAME).toString()} />
 	<meta property="og:url" content={CANONICAL_HOSTNAME} />
 	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Aynu Itah" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={m.aynu_itah()} />
 	<meta name="twitter:description" content={m.aynu_itah_description()} />
