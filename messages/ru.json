@@ -1,4 +1,10 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from ru!"
+	"dictionaries": "Словарь",
+	"aynu_itah": "Сахалинская айну",
+	"aynu": "Айну",
+	"sisan": "Японский",
+	"nuca": "Русский",
+	"part_of_speech": "Часть речи",
+	"kanpi": "Ссылки"
 }

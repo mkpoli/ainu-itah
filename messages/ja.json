@@ -1,4 +1,10 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from ja!"
+	"dictionaries": "辞書",
+	"aynu_itah": "樺太アイヌ語",
+	"aynu": "アイヌ語",
+	"sisan": "日本語",
+	"nuca": "ロシア語",
+	"ikiri": "品詞",
+	"kanpi": "参考文献"
 }

@@ -1,19 +1,20 @@
 <script lang="ts">
+	import * as m from '$lib/paraglide/messages.js';
 	import data from '$lib/data.json';
 </script>
 
-<h1 class="my-10 text-center text-3xl font-bold">Aynu Itah</h1>
-<h2 class="my-10 text-center text-xl font-bold">Solowari</h2>
+<h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
+<h2 class="my-10 text-center text-xl font-bold">{m.dictionaries()}</h2>
 
 <table
 	class="mx-auto max-w-screen-md table-auto border-collapse border border-gray-300 text-center"
 >
 	<thead>
 		<tr>
-			<th>Aynu</th>
-			<th>Sisan</th>
-			<th>Nuca</th>
-			<th>Ikiri</th>
+			<th>{m.aynu()}</th>
+			<th>{m.sisan()}</th>
+			<th>{m.nuca()}</th>
+			<th>{m.ikiri()}</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -34,7 +35,7 @@
 	</tbody>
 </table>
 
-<h3 class="my-4 text-center text-xl font-bold">Kanpi</h3>
+<h3 class="my-4 text-center text-xl font-bold">{m.kanpi()}</h3>
 
 <ul class="mx-auto my-4 max-w-screen-md list-inside list-disc">
 	<li>
