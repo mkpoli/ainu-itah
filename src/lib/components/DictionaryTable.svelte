@@ -18,12 +18,12 @@
 	let filtered = $derived(sorted.filter((item) => item.lemma?.includes(search)));
 </script>
 
-<form class="mx-auto my-4 flex flex-col items-center justify-center gap-2">
-	<label>
+<form class="mx-auto my-4 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4">
+	<label class="flex items-center gap-2">
 		<span>{m.search()}</span>
 		<input type="text" bind:value={search} />
 	</label>
-	<label>
+	<label class="flex items-center gap-2">
 		<span>{m.sort_by()}</span>
 		<select bind:value={sortBy}>
 			<option value="abc">{m.abc()}</option>
