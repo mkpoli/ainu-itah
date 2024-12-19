@@ -7444,8 +7444,8 @@
 	{
 		"lemma": "manu",
 		"ja": ["という", "そうだ"],
-		"en": ["to say", "it seems"],
-		"ru": ["говорить", "кажется"],
+		"en": ["called", "it seems"],
+		"ru": ["называется", "кажется"],
 		"poses": ["auxv"],
 		"frequency": 2388
 	},
@@ -8666,137 +8666,25 @@
 		"poses": ["n"],
 		"frequency": 0
 	},
-	{ "lemma": "neya", "ja": ["その"], "poses": [], "frequency": 438, "en": ["that"], "ru": ["это"] },
-	{
-		"lemma": "ohta",
-		"ja": ["～のところに"],
-		"poses": ["colloc"],
-		"frequency": 435,
-		"en": ["in the place of ~"],
-		"ru": ["в месте ~"]
-	},
-	{
-		"lemma": "neeteh",
-		"ja": ["それで"],
-		"poses": [],
-		"frequency": 317,
-		"en": ["and then"],
-		"ru": ["и тогда"]
-	},
-	{
-		"lemma": "acahcipo",
-		"ja": ["婆"],
-		"poses": [],
-		"frequency": 269,
-		"en": ["old woman"],
-		"ru": ["старая женщина"]
-	},
-	{
-		"lemma": "omantene",
-		"ja": ["してから"],
-		"poses": [],
-		"frequency": 190,
-		"en": ["after doing"],
-		"ru": ["после того, как сделали"]
-	},
-	{
-		"lemma": "iineahsuy",
-		"ja": ["ねえ", "どれどれ"],
-		"poses": [],
-		"frequency": 189,
-		"en": ["eh"],
-		"ru": ["эй"]
-	},
-	{
-		"lemma": "anayne",
-		"ja": ["そうして"],
-		"poses": [],
-		"frequency": 165,
-		"en": ["so then"],
-		"ru": ["так что"]
-	},
-	{
-		"lemma": "uta",
-		"ja": ["～たち"],
-		"poses": [],
-		"frequency": 1000159,
-		"en": ["(plural)"],
-		"ru": ["(множественное число)"]
-	},
-	{
-		"lemma": "okaaketa",
-		"ja": ["その後で", "それから"],
-		"poses": [],
-		"frequency": 80,
-		"en": ["after that", "then"],
-		"ru": ["после этого", "тогда"]
-	},
-	{
-		"lemma": "waa",
-		"ja": ["～ておくれ", "～なさい"],
-		"poses": [],
-		"frequency": 77,
-		"en": ["do ~ for me", "do ~ for yourself"],
-		"ru": ["сделай ~ для меня", "сделай ~ для себя"]
-	},
-	{
-		"lemma": "hawehe",
-		"ja": ["～の声"],
-		"poses": ["n"],
-		"frequency": 63,
-		"en": ["the voice of ~"],
-		"ru": ["голос ~"]
-	},
-	{
-		"lemma": "otakaata",
-		"ja": ["浜に"],
-		"poses": [],
-		"frequency": 62,
-		"en": ["on the beach"],
-		"ru": ["на берегу"]
-	},
-	{
-		"lemma": "sani",
-		"ja": ["下りる"],
-		"poses": ["n"],
-		"frequency": 61,
-		"en": ["to go down"],
-		"ru": ["спускаться"]
-	},
-	{ "lemma": "hii", "ja": ["か", "よ"], "poses": [], "frequency": 96, "en": ["lah"], "ru": ["же"] },
-	{
-		"lemma": "taata",
-		"ja": ["そこに"],
-		"poses": [],
-		"frequency": 59,
-		"en": ["there"],
-		"ru": ["там"]
-	},
-	{ "lemma": "kayki", "ja": ["も"], "poses": [], "frequency": 59, "en": ["also"], "ru": ["также"] },
-	{
-		"lemma": "kimma",
-		"ja": ["山から"],
-		"poses": [],
-		"frequency": 53,
-		"en": ["from the mountain"],
-		"ru": ["с горы"]
-	},
-	{
-		"lemma": "makanihi",
-		"ja": ["登ること"],
-		"poses": [],
-		"frequency": 53,
-		"en": ["to climb"],
-		"ru": ["взбираться"]
-	},
-	{
-		"lemma": "inoskun",
-		"ja": ["真ん中の"],
-		"poses": [],
-		"frequency": 51,
-		"en": ["middle"],
-		"ru": ["средний"]
-	},
+	{ "lemma": "neya", "ja": [], "poses": [], "frequency": 438 },
+	{ "lemma": "ohta", "ja": [], "poses": ["colloc"], "frequency": 435 },
+	{ "lemma": "neeteh", "ja": [], "poses": [], "frequency": 317 },
+	{ "lemma": "acahcipo", "ja": [], "poses": [], "frequency": 269 },
+	{ "lemma": "omantene", "ja": [], "poses": [], "frequency": 190 },
+	{ "lemma": "iineahsuy", "ja": [], "poses": [], "frequency": 189 },
+	{ "lemma": "anayne", "ja": [], "poses": [], "frequency": 165 },
+	{ "lemma": "uta", "ja": [], "poses": [], "frequency": 159 },
+	{ "lemma": "okaaketa", "ja": [], "poses": [], "frequency": 80 },
+	{ "lemma": "waa", "ja": [], "poses": [], "frequency": 77 },
+	{ "lemma": "hawehe", "ja": [], "poses": ["n"], "frequency": 63 },
+	{ "lemma": "otakaata", "ja": [], "poses": [], "frequency": 62 },
+	{ "lemma": "sani", "ja": [], "poses": ["n"], "frequency": 61 },
+	{ "lemma": "hii", "ja": [], "poses": [], "frequency": 96 },
+	{ "lemma": "taata", "ja": [], "poses": [], "frequency": 59 },
+	{ "lemma": "kayki", "ja": [], "poses": [], "frequency": 59 },
+	{ "lemma": "kimma", "ja": [], "poses": [], "frequency": 53 },
+	{ "lemma": "makanihi", "ja": [], "poses": [], "frequency": 53 },
+	{ "lemma": "inoskun", "ja": [], "poses": [], "frequency": 51 },
 	{
 		"lemma": "niinahci",
 		"ja": ["薪をとる"],
@@ -8805,158 +8693,25 @@
 		"en": ["to gather firewood"],
 		"ru": ["собирать дрова"]
 	},
-	{
-		"lemma": "macihi",
-		"ja": ["～の妻", "～の女"],
-		"poses": ["n"],
-		"frequency": 46,
-		"en": ["the wife of ~", "the woman of ~"],
-		"ru": ["жена ~", "женщина ~"]
-	},
-	{
-		"lemma": "toyree",
-		"ja": ["濡れる"],
-		"poses": [],
-		"frequency": 46,
-		"en": ["to get wet"],
-		"ru": ["мочиться"]
-	},
-	{
-		"lemma": "hecirehci",
-		"ja": ["踊る（複数）"],
-		"poses": [],
-		"frequency": 1000045,
-		"en": ["to dance (plural)"],
-		"ru": ["танцевать (множественное число)"]
-	},
-	{
-		"lemma": "soyta",
-		"ja": ["外に"],
-		"poses": [],
-		"frequency": 43,
-		"en": ["outside"],
-		"ru": ["снаружи"]
-	},
-	{
-		"lemma": "soosika",
-		"ja": ["（擬音）"],
-		"poses": [],
-		"frequency": 43,
-		"en": ["(onomatopoeia)"],
-		"ru": ["(наговор)"]
-	},
-	{
-		"lemma": "kinataa",
-		"ja": ["蕗取り"],
-		"poses": [],
-		"frequency": 42,
-		"en": ["to take the leaves of the kelp"],
-		"ru": ["отбирать листья ламинарии"]
-	},
-	{
-		"lemma": "yeesu",
-		"ja": ["男の人？"],
-		"poses": [],
-		"frequency": 40,
-		"en": ["a man?"],
-		"ru": ["мужчина?"]
-	},
-	{
-		"lemma": "kinta",
-		"ja": ["山に"],
-		"poses": [],
-		"frequency": 40,
-		"en": ["on the mountain"],
-		"ru": ["на горе"]
-	},
-	{
-		"lemma": "sinkeikehe",
-		"ja": ["翌日"],
-		"poses": [],
-		"frequency": 40,
-		"en": ["the next day"],
-		"ru": ["следующий день"]
-	},
-	{
-		"lemma": "ahcahcipo",
-		"ja": ["婆"],
-		"poses": [],
-		"frequency": 40,
-		"en": ["old woman"],
-		"ru": ["старая женщина"]
-	},
-	{
-		"lemma": "simah",
-		"ja": ["女"],
-		"poses": [],
-		"frequency": 39,
-		"en": ["woman"],
-		"ru": ["женщина"]
-	},
-	{
-		"lemma": "cehkoyki",
-		"ja": ["魚を取る"],
-		"poses": [],
-		"frequency": 39,
-		"en": ["to catch fish"],
-		"ru": ["ловить рыбу"]
-	},
-	{
-		"lemma": "roo",
-		"ja": ["よ"],
-		"poses": [],
-		"frequency": 38,
-		"en": ["(sentence-final particle)"],
-		"ru": ["(частица в конце предложения)"]
-	},
-	{
-		"lemma": "yoy",
-		"ja": ["良い"],
-		"poses": [],
-		"frequency": 37,
-		"en": ["good"],
-		"ru": ["хорошо"]
-	},
-	{
-		"lemma": "nukaraha",
-		"ja": ["見ると"],
-		"poses": [],
-		"frequency": 37,
-		"en": ["after seeing"],
-		"ru": ["когда видишь"]
-	},
-	{
-		"lemma": "soyun",
-		"ja": ["外へ"],
-		"poses": [],
-		"frequency": 37,
-		"en": ["outside"],
-		"ru": ["снаружи"]
-	},
-	{
-		"lemma": "sannupista",
-		"ja": ["サンヌピシ村"],
-		"poses": [],
-		"frequency": 37,
-		"en": ["Sannupista village"],
-		"ru": ["деревня Саннуписи"]
-	},
-	{
-		"lemma": "pis",
-		"ja": ["-つ"],
-		"poses": ["n"],
-		"frequency": 36,
-		"en": ["(number suffix)"],
-		"ru": ["(суффикс числа)"]
-	},
-	{
-		"lemma": "sinenehka",
-		"ja": ["一人で"],
-		"poses": [],
-		"frequency": 35,
-		"en": ["alone"],
-		"ru": ["один"]
-	},
+	{ "lemma": "macihi", "ja": [], "poses": ["n"], "frequency": 46 },
+	{ "lemma": "toyree", "ja": [], "poses": [], "frequency": 46 },
+	{ "lemma": "hecirehci", "ja": [], "poses": [], "frequency": 45 },
+	{ "lemma": "soyta", "ja": [], "poses": [], "frequency": 43 },
+	{ "lemma": "soosika", "ja": [], "poses": [], "frequency": 43 },
+	{ "lemma": "kinataa", "ja": [], "poses": [], "frequency": 42 },
+	{ "lemma": "yeesu", "ja": [], "poses": [], "frequency": 40 },
+	{ "lemma": "kinta", "ja": [], "poses": [], "frequency": 40 },
+	{ "lemma": "sinkeikehe", "ja": [], "poses": [], "frequency": 40 },
+	{ "lemma": "ahcahcipo", "ja": [], "poses": [], "frequency": 40 },
+	{ "lemma": "simah", "ja": [], "poses": [], "frequency": 39 },
+	{ "lemma": "cehkoyki", "ja": [], "poses": [], "frequency": 39 },
+	{ "lemma": "roo", "ja": [], "poses": [], "frequency": 38 },
+	{ "lemma": "yoy", "ja": [], "poses": [], "frequency": 37 },
+	{ "lemma": "nukaraha", "ja": [], "poses": [], "frequency": 37 },
+	{ "lemma": "soyun", "ja": [], "poses": [], "frequency": 37 },
+	{ "lemma": "sannupista", "ja": [], "poses": [], "frequency": 37 },
+	{ "lemma": "pis", "ja": [], "poses": ["n"], "frequency": 36 },
+	{ "lemma": "sinenehka", "ja": [], "poses": [], "frequency": 35 },
 	{ "lemma": "kiitun", "ja": [], "poses": [], "frequency": 34 },
 	{ "lemma": "ii", "ja": [], "poses": [], "frequency": 34 },
 	{ "lemma": "enean", "ja": [], "poses": [], "frequency": 35 },
@@ -10643,7 +10398,14 @@
 	{ "lemma": "cokay", "ja": [], "poses": [], "frequency": 32 },
 	{ "lemma": "itaku", "ja": [], "poses": [], "frequency": 20 },
 	{ "lemma": "opista", "ja": ["すべて"], "poses": ["adv"], "frequency": 18 },
-	{ "lemma": "manuy", "ja": [], "poses": [], "frequency": 17 },
+	{
+		"lemma": "manuy",
+		"ja": ["という", "そうだ"],
+		"poses": ["auxv"],
+		"frequency": 2388,
+		"en": ["called", "it seems"],
+		"ru": ["называется", "кажется"]
+	},
 	{ "lemma": "ci=", "ja": [], "poses": ["v", "pfx"], "frequency": 17 },
 	{ "lemma": "=hci", "ja": [], "poses": [], "frequency": 18 },
 	{ "lemma": "porono", "ja": [], "poses": [], "frequency": 15 },
@@ -10783,6 +10545,206 @@
 		"frequency": 1
 	},
 	{
+		"lemma": "neya",
+		"ja": ["その"],
+		"en": ["that"],
+		"ru": ["это"],
+		"poses": ["adn"],
+		"frequency": 0
+	},
+	{
+		"lemma": "ohta",
+		"ja": ["～のところに"],
+		"en": ["in the place of ~"],
+		"ru": ["в месте ~"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "neeteh",
+		"ja": ["それで"],
+		"en": ["and then"],
+		"ru": ["и тогда"],
+		"poses": ["adv"],
+		"frequency": 0
+	},
+	{
+		"lemma": "acahcipo",
+		"ja": ["婆"],
+		"en": ["old woman"],
+		"ru": ["старая женщина"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
+		"lemma": "omantene",
+		"ja": ["してから"],
+		"en": ["after doing"],
+		"ru": ["после того, как сделали"],
+		"poses": ["padv"],
+		"frequency": 0
+	},
+	{
+		"lemma": "iineahsuy",
+		"ja": ["ねえ", "どれどれ"],
+		"en": ["eh"],
+		"ru": ["эй"],
+		"poses": ["interj"],
+		"frequency": 0
+	},
+	{
+		"lemma": "anayne",
+		"ja": ["そうして"],
+		"en": ["so then"],
+		"ru": ["так что"],
+		"poses": ["adv"],
+		"frequency": 0
+	},
+	{
+		"lemma": "okaaketa",
+		"ja": ["その後で", "それから"],
+		"en": ["after that", "then"],
+		"ru": ["после этого", "тогда"],
+		"poses": ["adv"],
+		"frequency": 0
+	},
+	{
+		"lemma": "waa",
+		"ja": ["～ておくれ", "～なさい"],
+		"en": ["do ~ for me", "do ~ for yourself"],
+		"ru": ["сделай ~ для меня", "сделай ~ для себя"],
+		"poses": ["sfp"],
+		"frequency": 0
+	},
+	{
+		"lemma": "hawehe",
+		"ja": ["～の声"],
+		"en": ["the voice of ~"],
+		"ru": ["голос ~"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
+		"lemma": "otakaata",
+		"ja": ["浜に"],
+		"en": ["on the beach"],
+		"ru": ["на берегу"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "sani",
+		"ja": ["下りる"],
+		"en": ["to go down"],
+		"ru": ["спускаться"],
+		"poses": ["vi"],
+		"frequency": 0
+	},
+	{
+		"lemma": "hii",
+		"ja": ["か", "よ"],
+		"en": ["lah"],
+		"ru": ["же"],
+		"poses": ["sfp"],
+		"frequency": 0
+	},
+	{
+		"lemma": "uta",
+		"ja": ["～たち"],
+		"en": ["(plural)"],
+		"ru": ["(множественное число)"],
+		"poses": ["sfx"],
+		"frequency": 1000000
+	},
+	{
+		"lemma": "taata",
+		"ja": ["そこに"],
+		"en": ["there"],
+		"ru": ["там"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "kayki",
+		"ja": ["も"],
+		"en": ["also"],
+		"ru": ["также"],
+		"poses": ["advp"],
+		"frequency": 0
+	},
+	{
+		"lemma": "kimma",
+		"ja": ["山から"],
+		"en": ["from the mountain"],
+		"ru": ["с горы"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "makanihi",
+		"ja": ["登ること"],
+		"en": ["to climb"],
+		"ru": ["взбираться"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "inoskun",
+		"ja": ["真ん中の"],
+		"en": ["middle"],
+		"ru": ["средний"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "macihi",
+		"ja": ["～の妻", "～の女"],
+		"en": ["the wife of ~", "the woman of ~"],
+		"ru": ["жена ~", "женщина ~"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
+		"lemma": "toyree",
+		"ja": ["濡れる"],
+		"en": ["to get wet"],
+		"ru": ["мочиться"],
+		"poses": ["vi"],
+		"frequency": 0
+	},
+	{
+		"lemma": "hecirehci",
+		"ja": ["踊る（複数）"],
+		"en": ["to dance (plural)"],
+		"ru": ["танцевать (множественное число)"],
+		"poses": ["sfx"],
+		"frequency": 1000000
+	},
+	{
+		"lemma": "soyta",
+		"ja": ["外に"],
+		"en": ["outside"],
+		"ru": ["снаружи"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "soosika",
+		"ja": ["（擬音）"],
+		"en": ["(onomatopoeia)"],
+		"ru": ["(наговор)"],
+		"poses": ["interj"],
+		"frequency": 0
+	},
+	{
+		"lemma": "kinataa",
+		"ja": ["蕗取り"],
+		"en": ["to take the leaves of the kelp"],
+		"ru": ["отбирать листья ламинарии"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
 		"lemma": "hetunaa",
 		"ja": ["（擬音）"],
 		"en": ["(onomatopoeia)"],
@@ -10797,5 +10759,126 @@
 		"ru": ["ты"],
 		"poses": ["pers"],
 		"frequency": 0
+	},
+	{
+		"lemma": "yeesu",
+		"ja": ["男の人？"],
+		"en": ["a man?"],
+		"ru": ["мужчина?"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
+		"lemma": "kinta",
+		"ja": ["山に"],
+		"en": ["on the mountain"],
+		"ru": ["на горе"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "sinkeikehe",
+		"ja": ["翌日"],
+		"en": ["the next day"],
+		"ru": ["следующий день"],
+		"poses": ["adv"],
+		"frequency": 0
+	},
+	{
+		"lemma": "ahcahcipo",
+		"ja": ["婆"],
+		"en": ["old woman"],
+		"ru": ["старая женщина"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
+		"lemma": "simah",
+		"ja": ["女"],
+		"en": ["woman"],
+		"ru": ["женщина"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
+		"lemma": "cehkoyki",
+		"ja": ["魚を取る"],
+		"en": ["to catch fish"],
+		"ru": ["ловить рыбу"],
+		"poses": ["vi"],
+		"frequency": 0
+	},
+	{
+		"lemma": "roo",
+		"ja": ["よ"],
+		"en": ["(sentence-final particle)"],
+		"ru": ["(частица в конце предложения)"],
+		"poses": ["sfp"],
+		"frequency": 0
+	},
+	{
+		"lemma": "yoy",
+		"ja": ["良い"],
+		"en": ["good"],
+		"ru": ["хорошо"],
+		"poses": ["adj"],
+		"frequency": 0
+	},
+	{
+		"lemma": "nukaraha",
+		"ja": ["見ると"],
+		"en": ["after seeing"],
+		"ru": ["когда видишь"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "soyun",
+		"ja": ["外へ"],
+		"en": ["outside"],
+		"ru": ["снаружи"],
+		"poses": ["colloc"],
+		"frequency": 0
+	},
+	{
+		"lemma": "sannupista",
+		"ja": ["サンヌピシ村"],
+		"en": ["Sannupista village"],
+		"ru": ["деревня Саннуписи"],
+		"poses": ["n"],
+		"frequency": 0
+	},
+	{
+		"lemma": "pis",
+		"ja": ["-つ"],
+		"en": ["(number suffix)"],
+		"ru": ["(суффикс числа)"],
+		"poses": ["sfx"],
+		"frequency": 0
+	},
+	{
+		"lemma": "sinenehka",
+		"ja": ["一人で"],
+		"en": ["alone"],
+		"ru": ["один"],
+		"poses": ["adv"],
+		"frequency": 0
+	},
+	{
+		"lemma": "turaeh",
+		"ja": ["～を持って来る"],
+		"en": ["to bring ~ "],
+		"ru": ["принести ~ "],
+		"poses": ["vt"],
+		"frequency": 0
+	},
+	{
+		"lemma": "masara",
+		"ja": ["浜辺"],
+		"en": ["beach"],
+		"ru": ["берег"],
+		"poses": ["n"],
+		"frequency": 0,
+		"hokkaido": ["masar"]
 	}
 ]
