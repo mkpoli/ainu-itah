@@ -71,9 +71,11 @@
 					{(item.en ?? []).join(', ')}
 				</td>
 				<td>
-					{#each item.poses as pos}
-						<abbr title={m[`pos_${pos}` as keyof typeof m]?.() ?? pos}>{pos}</abbr>
-					{/each}
+					<div class="flex flex-wrap gap-2">
+						{#each item.poses as pos}
+							<abbr title={m[`pos_${pos}` as keyof typeof m]?.() ?? pos}>{pos}</abbr>
+						{/each}
+					</div>
 				</td>
 				<td>
 					<a
