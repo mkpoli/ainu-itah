@@ -4,6 +4,16 @@
 	import DictionaryTable from '$lib/components/DictionaryTable.svelte';
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
 	import Footer from '$lib/components/Footer.svelte';
+	import { languageTag, type AvailableLanguageTag } from '$lib/paraglide/runtime';
+
+	let wikipediaLink: Record<AvailableLanguageTag, string> = {
+		ja: 'https://ja.wikipedia.org/wiki/%E6%A8%BA%E5%A4%AA%E3%82%A2%E3%82%A4%E3%83%8C%E8%AA%9E',
+		en: 'https://en.wikipedia.org/wiki/Sakhalin_Ainu_language',
+		ru: 'https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA', // TODO: Add Sakhalin Ainu to Russian Wikipedia
+		'ain-Cyrl': 'https://wiki.aynu.org/ain/Karapto_Aynuitak', // TODO: Add Cyrillic conversion to Aynuwiki
+		'ain-Latn': 'https://wiki.aynu.org/ain/Karapto_Aynuitak',
+		'ain-Kana': 'https://wiki.aynu.org/ain-kana/Karapto_Aynuitak'
+	};
 </script>
 
 <svelte:head>
@@ -29,6 +39,25 @@
 <LanguageSwitcher />
 
 <h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
+
+<p class="text-center">
+	<a href={wikipediaLink[languageTag()]} target="_blank" class="text-blue-500 hover:underline">
+		{#if languageTag() === 'ja'}
+			ウィキペディア - 樺太アイヌ語
+		{:else if languageTag() === 'en'}
+			Wikipedia - Sakhalin Ainu language
+		{:else if languageTag() === 'ru'}
+			Википедия - Айнский язык
+		{:else if languageTag() === 'ain-Latn'}
+			Aynuwiki - Karapto Aynuitak
+		{:else if languageTag() === 'ain-Kana'}
+			Aynuwiki - カラㇷ゚ト・アイヌイタㇵ
+		{:else if languageTag() === 'ain-Cyrl'}
+			Айнувики - Карапто Айнуитак
+		{/if}
+	</a>
+</p>
+
 <h2 class="my-6 text-center text-2xl font-bold">{m.dictionaries()}</h2>
 
 <DictionaryTable />
