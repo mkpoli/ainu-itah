@@ -1,6 +1,7 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages.js';
 	import data from '$lib/data.json';
+	import KampisosIcon from '$lib/icons/Kampisos.svg.svelte';
 
 	let sortBy: 'abc' | 'freq' | 'pos' = $state('freq');
 	let search = $state('');
@@ -51,6 +52,7 @@
 			<th>{m.nuca()}</th>
 			<th>{m.ankiris()}</th>
 			<th>{m.ikiri()}</th>
+			<th></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -72,6 +74,15 @@
 					{#each item.poses as pos}
 						<abbr title={m[`pos_${pos}` as keyof typeof m]?.() ?? pos}>{pos}</abbr>
 					{/each}
+				</td>
+				<td>
+					<a
+						href={`https://kampisos.aynu.io/search?q=${encodeURIComponent(item.lemma.replace(/^-/, ''))}`}
+						target="_blank"
+						class="flex items-center justify-center hover:text-blue-500"
+					>
+						<KampisosIcon class="h-6 w-6" />
+					</a>
 				</td>
 			</tr>
 		{/each}
