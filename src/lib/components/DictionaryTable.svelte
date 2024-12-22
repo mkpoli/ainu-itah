@@ -52,6 +52,7 @@
 			<th>{m.nuca()}</th>
 			<th>{m.ankiris()}</th>
 			<th>{m.ikiri()}</th>
+			<th>{m.hokkaido()} </th>
 			<th></th>
 		</tr>
 	</thead>
@@ -77,6 +78,7 @@
 						{/each}
 					</div>
 				</td>
+				<td>{[...(item.cognates ?? []), ...(item.noncognates ?? [])].join(', ')}</td>
 				<td>
 					<a
 						href={`https://kampisos.aynu.io/search?q=${encodeURIComponent(item.lemma.replace(/^-/, ''))}`}
