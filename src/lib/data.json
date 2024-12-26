@@ -7854,9 +7854,9 @@
 		"ja": ["は", "それ"],
 		"en": ["is", "that"],
 		"ru": ["есть", "это"],
-		"poses": ["nmlz"],
+		"poses": ["nmlz", "n"],
 		"frequency": 935,
-		"cognates": [],
+		"cognates": ["neanpe"],
 		"noncognates": []
 	},
 	{
@@ -11994,9 +11994,9 @@
 		"ja": ["～のところに"],
 		"en": ["in the place of ~"],
 		"ru": ["в месте ~"],
-		"poses": ["colloc"],
+		"poses": ["colloc", "colloc"],
 		"frequency": 435,
-		"cognates": [],
+		"cognates": ["or ta"],
 		"noncognates": []
 	},
 	{
@@ -12144,10 +12144,10 @@
 		"ja": ["星"],
 		"en": ["star"],
 		"ru": ["звезда"],
-		"poses": [],
+		"poses": ["n"],
 		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
+		"cognates": ["keta"],
+		"noncognates": ["nociw"]
 	},
 	{
 		"lemma": "ukopakari",
@@ -12314,9 +12314,9 @@
 		"ja": ["さようなら"],
 		"en": ["goodbye"],
 		"ru": ["прощай"],
-		"poses": [],
+		"poses": ["interj"],
 		"frequency": 2,
-		"cognates": [],
+		"cognates": ["sarampa"],
 		"noncognates": []
 	},
 	{
@@ -12464,10 +12464,10 @@
 		"ja": ["も"],
 		"en": ["also"],
 		"ru": ["также"],
-		"poses": [],
+		"poses": ["advp"],
 		"frequency": 59,
 		"cognates": [],
-		"noncognates": []
+		"noncognates": ["ka"]
 	},
 	{
 		"lemma": "ok",
@@ -12494,9 +12494,9 @@
 		"ja": ["～たち"],
 		"en": ["(plural)"],
 		"ru": ["(множественное число)"],
-		"poses": [],
+		"poses": ["sfx"],
 		"frequency": 1000159,
-		"cognates": [],
+		"cognates": ["utar"],
 		"noncognates": []
 	},
 	{
@@ -12584,9 +12584,9 @@
 		"ja": ["その"],
 		"en": ["that"],
 		"ru": ["это"],
-		"poses": [],
+		"poses": ["adn"],
 		"frequency": 438,
-		"cognates": [],
+		"cognates": ["nea"],
 		"noncognates": []
 	},
 	{
@@ -12594,17 +12594,17 @@
 		"ja": ["それで"],
 		"en": ["and then"],
 		"ru": ["и тогда"],
-		"poses": [],
+		"poses": ["adv"],
 		"frequency": 317,
 		"cognates": [],
-		"noncognates": []
+		"noncognates": ["ne wa"]
 	},
 	{
 		"lemma": "acahcipo",
 		"ja": ["婆"],
 		"en": ["old woman"],
 		"ru": ["старая женщина"],
-		"poses": [],
+		"poses": ["n"],
 		"frequency": 269,
 		"cognates": [],
 		"noncognates": []
@@ -12614,7 +12614,7 @@
 		"ja": ["してから"],
 		"en": ["after doing"],
 		"ru": ["после того, как сделали"],
-		"poses": [],
+		"poses": ["padv"],
 		"frequency": 190,
 		"cognates": [],
 		"noncognates": []
@@ -12624,9 +12624,9 @@
 		"ja": ["ねえ", "どれどれ"],
 		"en": ["eh"],
 		"ru": ["эй"],
-		"poses": [],
+		"poses": ["interj"],
 		"frequency": 189,
-		"cognates": [],
+		"cognates": ["íne assuy"],
 		"noncognates": []
 	},
 	{
@@ -12634,9 +12634,9 @@
 		"ja": ["そうして"],
 		"en": ["so then"],
 		"ru": ["так что"],
-		"poses": [],
+		"poses": ["adv"],
 		"frequency": 165,
-		"cognates": [],
+		"cognates": ["an ayne"],
 		"noncognates": []
 	},
 	{
@@ -12644,9 +12644,9 @@
 		"ja": ["その後で", "それから"],
 		"en": ["after that", "then"],
 		"ru": ["после этого", "тогда"],
-		"poses": [],
+		"poses": ["adv"],
 		"frequency": 80,
-		"cognates": [],
+		"cognates": ["okaketa"],
 		"noncognates": []
 	},
 	{
@@ -12654,9 +12654,9 @@
 		"ja": ["～ておくれ", "～なさい"],
 		"en": ["do ~ for me", "do ~ for yourself"],
 		"ru": ["сделай ~ для меня", "сделай ~ для себя"],
-		"poses": [],
+		"poses": ["sfp"],
 		"frequency": 77,
-		"cognates": [],
+		"cognates": ["wa"],
 		"noncognates": []
 	},
 	{
@@ -12664,9 +12664,9 @@
 		"ja": ["～の声"],
 		"en": ["the voice of ~"],
 		"ru": ["голос ~"],
-		"poses": ["n"],
+		"poses": ["n", "n"],
 		"frequency": 63,
-		"cognates": [],
+		"cognates": ["hawehe"],
 		"noncognates": []
 	},
 	{
@@ -12674,7 +12674,7 @@
 		"ja": ["浜に"],
 		"en": ["on the beach"],
 		"ru": ["на берегу"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 62,
 		"cognates": [],
 		"noncognates": []
@@ -12684,9 +12684,9 @@
 		"ja": ["下りる"],
 		"en": ["to go down"],
 		"ru": ["спускаться"],
-		"poses": ["n"],
+		"poses": ["n", "vi"],
 		"frequency": 61,
-		"cognates": [],
+		"cognates": ["san"],
 		"noncognates": []
 	},
 	{
@@ -12694,9 +12694,9 @@
 		"ja": ["か", "よ"],
 		"en": ["lah"],
 		"ru": ["же"],
-		"poses": [],
+		"poses": ["sfp"],
 		"frequency": 96,
-		"cognates": [],
+		"cognates": ["hí"],
 		"noncognates": []
 	},
 	{
@@ -12704,19 +12704,19 @@
 		"ja": ["そこに"],
 		"en": ["there"],
 		"ru": ["там"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 59,
 		"cognates": [],
-		"noncognates": []
+		"noncognates": ["te ta"]
 	},
 	{
 		"lemma": "kimma",
 		"ja": ["山から"],
 		"en": ["from the mountain"],
 		"ru": ["с горы"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 53,
-		"cognates": [],
+		"cognates": ["kim wa"],
 		"noncognates": []
 	},
 	{
@@ -12724,7 +12724,7 @@
 		"ja": ["登ること"],
 		"en": ["to climb"],
 		"ru": ["взбираться"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 53,
 		"cognates": [],
 		"noncognates": []
@@ -12734,7 +12734,7 @@
 		"ja": ["真ん中の"],
 		"en": ["middle"],
 		"ru": ["средний"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 51,
 		"cognates": [],
 		"noncognates": []
@@ -12754,7 +12754,7 @@
 		"ja": ["～の妻", "～の女"],
 		"en": ["the wife of ~", "the woman of ~"],
 		"ru": ["жена ~", "женщина ~"],
-		"poses": ["n"],
+		"poses": ["n", "n"],
 		"frequency": 46,
 		"cognates": [],
 		"noncognates": []
@@ -12764,7 +12764,7 @@
 		"ja": ["濡れる"],
 		"en": ["to get wet"],
 		"ru": ["мочиться"],
-		"poses": [],
+		"poses": ["vi"],
 		"frequency": 46,
 		"cognates": [],
 		"noncognates": []
@@ -12774,7 +12774,7 @@
 		"ja": ["踊る（複数）"],
 		"en": ["to dance (plural)"],
 		"ru": ["танцевать (множественное число)"],
-		"poses": [],
+		"poses": ["sfx"],
 		"frequency": 1000045,
 		"cognates": [],
 		"noncognates": []
@@ -12784,7 +12784,7 @@
 		"ja": ["外に"],
 		"en": ["outside"],
 		"ru": ["снаружи"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 43,
 		"cognates": [],
 		"noncognates": []
@@ -12794,7 +12794,7 @@
 		"ja": ["（擬音）"],
 		"en": ["(onomatopoeia)"],
 		"ru": ["(наговор)"],
-		"poses": [],
+		"poses": ["interj"],
 		"frequency": 43,
 		"cognates": [],
 		"noncognates": []
@@ -12804,7 +12804,7 @@
 		"ja": ["蕗取り"],
 		"en": ["to take the leaves of the kelp"],
 		"ru": ["отбирать листья ламинарии"],
-		"poses": [],
+		"poses": ["n"],
 		"frequency": 42,
 		"cognates": [],
 		"noncognates": []
@@ -12814,7 +12814,7 @@
 		"ja": ["男の人？"],
 		"en": ["a man?"],
 		"ru": ["мужчина?"],
-		"poses": [],
+		"poses": ["n"],
 		"frequency": 40,
 		"cognates": [],
 		"noncognates": []
@@ -12824,9 +12824,9 @@
 		"ja": ["山に"],
 		"en": ["on the mountain"],
 		"ru": ["на горе"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 40,
-		"cognates": [],
+		"cognates": ["kim ta"],
 		"noncognates": []
 	},
 	{
@@ -12834,7 +12834,7 @@
 		"ja": ["翌日"],
 		"en": ["the next day"],
 		"ru": ["следующий день"],
-		"poses": [],
+		"poses": ["adv"],
 		"frequency": 40,
 		"cognates": [],
 		"noncognates": []
@@ -12844,7 +12844,7 @@
 		"ja": ["婆"],
 		"en": ["old woman"],
 		"ru": ["старая женщина"],
-		"poses": [],
+		"poses": ["n"],
 		"frequency": 40,
 		"cognates": [],
 		"noncognates": []
@@ -12854,9 +12854,9 @@
 		"ja": ["女"],
 		"en": ["woman"],
 		"ru": ["женщина"],
-		"poses": [],
+		"poses": ["n"],
 		"frequency": 39,
-		"cognates": [],
+		"cognates": ["símat"],
 		"noncognates": []
 	},
 	{
@@ -12864,9 +12864,9 @@
 		"ja": ["魚を取る"],
 		"en": ["to catch fish"],
 		"ru": ["ловить рыбу"],
-		"poses": [],
+		"poses": ["vi"],
 		"frequency": 39,
-		"cognates": [],
+		"cognates": ["cepkoyki"],
 		"noncognates": []
 	},
 	{
@@ -12874,9 +12874,9 @@
 		"ja": ["よ"],
 		"en": ["(sentence-final particle)"],
 		"ru": ["(частица в конце предложения)"],
-		"poses": [],
+		"poses": ["sfp"],
 		"frequency": 38,
-		"cognates": [],
+		"cognates": ["ro"],
 		"noncognates": []
 	},
 	{
@@ -12884,9 +12884,9 @@
 		"ja": ["良い"],
 		"en": ["good"],
 		"ru": ["хорошо"],
-		"poses": [],
+		"poses": ["adj"],
 		"frequency": 37,
-		"cognates": [],
+		"cognates": ["yey"],
 		"noncognates": []
 	},
 	{
@@ -12894,7 +12894,7 @@
 		"ja": ["見ると"],
 		"en": ["after seeing"],
 		"ru": ["когда видишь"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 37,
 		"cognates": [],
 		"noncognates": []
@@ -12904,7 +12904,7 @@
 		"ja": ["外へ"],
 		"en": ["outside"],
 		"ru": ["снаружи"],
-		"poses": [],
+		"poses": ["colloc"],
 		"frequency": 37,
 		"cognates": [],
 		"noncognates": []
@@ -12914,7 +12914,7 @@
 		"ja": ["サンヌピシ村"],
 		"en": ["Sannupista village"],
 		"ru": ["деревня Саннуписи"],
-		"poses": [],
+		"poses": ["n"],
 		"frequency": 37,
 		"cognates": [],
 		"noncognates": []
@@ -12924,7 +12924,7 @@
 		"ja": ["-つ"],
 		"en": ["(number suffix)"],
 		"ru": ["(суффикс числа)"],
-		"poses": ["n"],
+		"poses": ["n", "sfx"],
 		"frequency": 36,
 		"cognates": [],
 		"noncognates": []
@@ -12934,7 +12934,7 @@
 		"ja": ["一人で"],
 		"en": ["alone"],
 		"ru": ["один"],
-		"poses": [],
+		"poses": ["adv"],
 		"frequency": 35,
 		"cognates": [],
 		"noncognates": []
@@ -21381,12 +21381,12 @@
 	},
 	{
 		"lemma": "niikah",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
+		"ja": ["樹皮"],
+		"en": ["tree bark"],
+		"ru": ["кора дерева"],
+		"poses": ["n"],
 		"frequency": 3,
-		"cognates": [],
+		"cognates": ["níkap"],
 		"noncognates": []
 	},
 	{
@@ -27723,7 +27723,8 @@
 		"en": ["alcohol", "strong wine"],
 		"ru": ["алкоголь", "сильное вино"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"cognates": ["arakke"]
 	},
 	{
 		"lemma": "hapah",
@@ -27731,7 +27732,8 @@
 		"en": ["lungs"],
 		"ru": ["легкие"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"cognates": ["hapap"]
 	},
 	{
 		"lemma": "hetunaa",
@@ -27755,7 +27757,8 @@
 		"en": ["to bring ~ "],
 		"ru": ["принести ~ "],
 		"poses": ["vt"],
-		"frequency": 0
+		"frequency": 0,
+		"cognates": ["turaek"]
 	},
 	{
 		"lemma": "masara",
@@ -27764,7 +27767,7 @@
 		"ru": ["берег"],
 		"poses": ["n"],
 		"frequency": 0,
-		"cognates": ["masara"]
+		"cognates": ["masar"]
 	},
 	{
 		"lemma": "ikara",
@@ -27772,7 +27775,8 @@
 		"en": ["to sew"],
 		"ru": ["шить"],
 		"poses": ["vi"],
-		"frequency": 0
+		"frequency": 0,
+		"cognates": ["ikar"]
 	},
 	{
 		"lemma": "orunpe",
@@ -27780,6 +27784,16 @@
 		"en": ["food", "equipment", "kitchenware"],
 		"ru": ["продукты", "снаряжение", "кухонные принадлежности"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 0,
+		"cognates": ["orunpe"]
+	},
+	{
+		"lemma": "kohnekuh",
+		"ja": ["婿"],
+		"en": ["son-in-law"],
+		"ru": ["сын-в-зале"],
+		"poses": ["n"],
+		"frequency": 0,
+		"cognates": ["koknekur"]
 	}
 ]
