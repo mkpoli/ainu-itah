@@ -19,14 +19,24 @@
 		})
 	);
 	let filtered = $derived(
-		sorted.filter(
-			(item) =>
-				item.lemma?.includes(search) ||
-				item.ja?.includes(search) ||
-				item.en?.includes(search) ||
-				item.ru?.includes(search) ||
-				item.lemma?.includes(extrapolateSakhalinFromHokkaido(search))
-		)
+		sorted
+			.filter(
+				(item) =>
+					item.lemma?.includes(search) ||
+					item.ja?.includes(search) ||
+					item.en?.includes(search) ||
+					item.ru?.includes(search) ||
+					item.lemma?.includes(extrapolateSakhalinFromHokkaido(search))
+			)
+			.toSorted((a, b) => {
+				if (a.lemma === search) {
+					return -1;
+				}
+				if (b.lemma === search) {
+					return 1;
+				}
+				return 0;
+			})
 	);
 </script>
 
