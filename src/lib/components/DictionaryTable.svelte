@@ -2,6 +2,7 @@
 	import * as m from '$lib/paraglide/messages.js';
 	import data from '$lib/data.json';
 	import KampisosIcon from '$lib/icons/Kampisos.svg.svelte';
+	import { extrapolateSakhalinFromHokkaido } from '$lib/utils/itah';
 
 	let sortBy: 'abc' | 'freq' | 'pos' = $state('freq');
 	let search = $state('');
@@ -22,7 +23,8 @@
 				item.lemma?.includes(search) ||
 				item.ja?.includes(search) ||
 				item.en?.includes(search) ||
-				item.ru?.includes(search)
+				item.ru?.includes(search) ||
+				item.lemma?.includes(extrapolateSakhalinFromHokkaido(search))
 		)
 	);
 </script>
