@@ -15,6 +15,7 @@
 			} else if (sortBy === 'pos') {
 				return a.poses?.[0]?.localeCompare(b.poses?.[0]) ?? 0;
 			}
+			return 0;
 		})
 	);
 	let filtered = $derived(
