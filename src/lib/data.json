@@ -11070,17 +11070,317 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "he",
-		"ja": ["頭"],
+		"lemma": "cokay",
+		"ja": [],
 		"en": [],
 		"ru": [],
-		"poses": ["parti"],
-		"frequency": 22,
+		"poses": [],
+		"frequency": 32,
 		"cognates": [],
 		"noncognates": []
 	},
 	{
-		"lemma": "tuura",
+		"lemma": "itaku",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 20,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "po",
+		"ja": ["子", "子供"],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 38,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "opista",
+		"ja": ["すべて"],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 18,
+		"cognates": ["opitta", "opitta"],
+		"noncognates": []
+	},
+	{
+		"lemma": "manuy",
+		"ja": ["という", "そうだ"],
+		"en": ["called", "it seems"],
+		"ru": ["называется", "кажется"],
+		"poses": ["auxv"],
+		"frequency": 2388,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ci=",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["v", "pfx"],
+		"frequency": 17,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "=hci",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 18,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ki",
+		"ja": ["ものを"],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 20,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "porono",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 15,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "pateki",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 15,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "sonko",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 14,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "iani",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 12,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kanpi",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 16,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "cep",
+		"ja": ["魚"],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 10,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "nu",
+		"ja": ["〜を聞く", "目"],
+		"en": [],
+		"ru": [],
+		"poses": ["v", "root"],
+		"frequency": 12,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "uneno",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 9,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kikanay",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 8,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "monasno",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 8,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "bagunke",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 7,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "sahne",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 8,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "cikin",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 7,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "anokay",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["pron"],
+		"frequency": 7,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "mauka",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 6,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "pa",
+		"ja": ["口", "頭", "年"],
+		"en": [],
+		"ru": [],
+		"poses": ["sfx", "adv", "v", "auxv", "root", "n"],
+		"frequency": 10,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "peko",
+		"ja": ["牛"],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 6,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "uma",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 27,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "go",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "seraroka",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "nure",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "pakno",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "neciki",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ucakasno",
 		"ja": [],
 		"en": [],
 		"ru": [],
@@ -11090,32 +11390,42 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "anahcihi",
-		"ja": [],
+		"lemma": "ni",
+		"ja": ["木"],
 		"en": [],
 		"ru": [],
-		"poses": [],
-		"frequency": 2,
+		"poses": ["n"],
+		"frequency": 4,
 		"cognates": [],
 		"noncognates": []
 	},
 	{
-		"lemma": "henpara",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
-		"frequency": 6,
-		"cognates": ["hempara"],
-		"noncognates": []
-	},
-	{
-		"lemma": "irenka",
-		"ja": [],
+		"lemma": "te",
+		"ja": ["ここ"],
 		"en": [],
 		"ru": [],
 		"poses": ["n"],
-		"frequency": 2,
+		"frequency": 14,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "otasan",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 4,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "woya",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 4,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -11130,6 +11440,186 @@
 		"noncognates": []
 	},
 	{
+		"lemma": "caca",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["v", "n"],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "danilka",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ki=",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "nuye",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 12,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "rorey",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "spa",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ihoku",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "en",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 6,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "toko",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 12,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "co",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "mo",
+		"ja": ["静かだ", "静けさ"],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 7,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tere",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "naibuci",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "no",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["colloc", "sfx"],
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "oruspe",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 6,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kesanto",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tanpa",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tutekose",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
 		"lemma": "=",
 		"ja": [],
 		"en": [],
@@ -11140,12 +11630,362 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "anahci",
+		"lemma": "hoko",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
-		"frequency": 9,
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tokyo",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "sinep",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["num"],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "y",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 4,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "taronzi",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tup",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["num"],
+		"frequency": 4,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "cornaya",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "recka",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "sta",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "nte",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "hetuku",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "si",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["root", "n"],
+		"frequency": 14,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "mona",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "cukita",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "korsakov",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "utari",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "siska",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "rep",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["v", "num", "n"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "cipiya",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "korope",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "meroko",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "hospi",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "somo",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "dobukiy",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "hakodate",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ikasiw",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tekoro",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "anki",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "potora",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "yki",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "yoponi",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "may",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "wenokay",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "minseeshoo",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ra",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ponciku",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -11160,17 +12000,277 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "henpah",
+		"lemma": "pak",
 		"ja": [],
 		"en": [],
 		"ru": [],
-		"poses": ["adv"],
-		"frequency": 5,
-		"cognates": ["hempak"],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
 		"noncognates": []
 	},
 	{
-		"lemma": "oroun",
+		"lemma": "urenkare",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "sisratoka",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "=ci",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "wepekere",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "etokota",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "iyuni",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "utuyaskara",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "hetane",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 6,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tunnayca",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ramurahkino",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ainu",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "seraroko",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kusunkotan",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "keta",
+		"ja": ["星"],
+		"en": ["star"],
+		"ru": ["звезда"],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ukopakari",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "nanko",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 21,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "monitahno",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "usoro",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "isra",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "cup",
+		"ja": ["日"],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ariksandoru",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "iwanke",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "o",
+		"ja": ["ある", "～にある", "尻", "付く", "生える", "たくさんある"],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "inunuka",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ci",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "irenka",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "man",
 		"ja": [],
 		"en": [],
 		"ru": [],
@@ -11180,22 +12280,302 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "kotanta",
+		"lemma": "kestoono",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
-		"frequency": 8,
+		"frequency": 2,
 		"cognates": [],
 		"noncognates": []
 	},
 	{
-		"lemma": "rewsi",
+		"lemma": "orowano",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 14,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ho",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
-		"frequency": 10,
+		"frequency": 5,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "saranpa",
+		"ja": ["さようなら"],
+		"en": ["goodbye"],
+		"ru": ["прощай"],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "hosiki",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 13,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ca",
+		"ja": ["口"],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "sinen",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["num"],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ramma",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "eki",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 22,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ipere",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 29,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kawarini",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "pahko",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "pu",
+		"ja": ["蔵"],
+		"en": [],
+		"ru": [],
+		"poses": ["n"],
+		"frequency": 1,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "nahta",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 4,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "he",
+		"ja": ["頭"],
+		"en": [],
+		"ru": [],
+		"poses": ["parti"],
+		"frequency": 22,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "uwekari",
+		"ja": ["集う"],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 1,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "iku",
+		"ja": ["酒を飲む"],
+		"en": [],
+		"ru": [],
+		"poses": ["v"],
+		"frequency": 1,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kasiketa",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kayki",
+		"ja": ["も"],
+		"en": ["also"],
+		"ru": ["также"],
+		"poses": [],
+		"frequency": 59,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ok",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kane",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["auxv", "parti", "n"],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "uta",
+		"ja": ["～たち"],
+		"en": ["(plural)"],
+		"ru": ["(множественное число)"],
+		"poses": [],
+		"frequency": 1000159,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "u",
+		"ja": ["互いに"],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 1,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "in",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "sa",
+		"ja": ["前"],
+		"en": [],
+		"ru": [],
+		"poses": ["root", "n"],
+		"frequency": 7,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "h",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 12,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "nani",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 21,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ye",
+		"ja": ["人が"],
+		"en": [],
+		"ru": [],
+		"poses": ["v", "n"],
+		"frequency": 1,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "ikusta",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "okayan",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 4,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -11256,16 +12636,6 @@
 		"ru": ["так что"],
 		"poses": [],
 		"frequency": 165,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "uta",
-		"ja": ["～たち"],
-		"en": ["(plural)"],
-		"ru": ["(множественное число)"],
-		"poses": [],
-		"frequency": 1000159,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -11334,16 +12704,6 @@
 		"ja": ["そこに"],
 		"en": ["there"],
 		"ru": ["там"],
-		"poses": [],
-		"frequency": 59,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kayki",
-		"ja": ["も"],
-		"en": ["also"],
-		"ru": ["также"],
 		"poses": [],
 		"frequency": 59,
 		"cognates": [],
@@ -11760,16 +13120,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "ipere",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 29,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "ecikiiki",
 		"ja": [],
 		"en": [],
@@ -12090,16 +13440,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "uma",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 27,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "nannahahcin",
 		"ja": [],
 		"en": [],
@@ -12126,16 +13466,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 21,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "eki",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 22,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -12210,32 +13540,12 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "nani",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
-		"frequency": 21,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "tehkupihi",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
 		"frequency": 19,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "po",
-		"ja": ["子", "子供"],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 38,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -12436,16 +13746,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 18,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "nanko",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 21,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -13080,16 +14380,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "orowano",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
-		"frequency": 14,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "huhro",
 		"ja": [],
 		"en": [],
@@ -13246,16 +14536,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 12,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "hosiki",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 13,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -13456,16 +14736,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 12,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "si",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["root", "n"],
-		"frequency": 14,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -13810,16 +15080,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "te",
-		"ja": ["ここ"],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 14,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "huh",
 		"ja": [],
 		"en": [],
@@ -13976,16 +15236,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 9,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "toko",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 12,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -14220,12 +15470,12 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "nuye",
+		"lemma": "rewsi",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
-		"frequency": 12,
+		"frequency": 10,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -14386,16 +15636,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 8,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "h",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 12,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -15196,6 +16436,16 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 7,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "kotanta",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 8,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -16016,16 +17266,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 6,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "sa",
-		"ja": ["前"],
-		"en": [],
-		"ru": [],
-		"poses": ["root", "n"],
-		"frequency": 7,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -17590,16 +18830,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "ho",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 5,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "oskoro",
 		"ja": [],
 		"en": [],
@@ -17716,16 +18946,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ki",
-		"ja": ["ものを"],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 20,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -18060,16 +19280,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "mo",
-		"ja": ["静かだ", "静けさ"],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 7,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "ihuureka",
 		"ja": [],
 		"en": [],
@@ -18136,16 +19346,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "hetane",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 6,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -18506,16 +19706,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "pa",
-		"ja": ["口", "頭", "年"],
-		"en": [],
-		"ru": [],
-		"poses": ["sfx", "adv", "v", "auxv", "root", "n"],
-		"frequency": 10,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -19340,16 +20530,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "nu",
-		"ja": ["〜を聞く", "目"],
-		"en": [],
-		"ru": [],
-		"poses": ["v", "root"],
-		"frequency": 12,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "neyah",
 		"ja": [],
 		"en": [],
@@ -19697,16 +20877,6 @@
 		"poses": ["n"],
 		"frequency": 3,
 		"cognates": ["kat", "kap", "kap", "kat"],
-		"noncognates": []
-	},
-	{
-		"lemma": "korope",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 5,
-		"cognates": [],
 		"noncognates": []
 	},
 	{
@@ -20630,16 +21800,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "okayan",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "hamo",
 		"ja": [],
 		"en": [],
@@ -20756,16 +21916,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "nahta",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 4,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -21070,16 +22220,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "en",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 6,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "koipisi",
 		"ja": [],
 		"en": [],
@@ -21156,16 +22296,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "pahko",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -22390,6 +23520,16 @@
 		"noncognates": []
 	},
 	{
+		"lemma": "henpara",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 6,
+		"cognates": ["hempara"],
+		"noncognates": []
+	},
+	{
 		"lemma": "wahkauskamuy",
 		"ja": [],
 		"en": [],
@@ -23180,6 +24320,16 @@
 		"noncognates": []
 	},
 	{
+		"lemma": "henpah",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": ["adv"],
+		"frequency": 5,
+		"cognates": ["hempak"],
+		"noncognates": []
+	},
+	{
 		"lemma": "mosiripa",
 		"ja": [],
 		"en": [],
@@ -23406,16 +24556,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ramma",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
-		"frequency": 3,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -23920,16 +25060,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "ikusta",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "hunkara",
 		"ja": [],
 		"en": [],
@@ -23956,16 +25086,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "no",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["colloc", "sfx"],
-		"frequency": 5,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -24770,22 +25890,22 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "in",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "peci",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "oroun",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 3,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -24936,16 +26056,6 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "man",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -26230,22 +27340,12 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "ci",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kasiketa",
+		"lemma": "anahci",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
-		"frequency": 2,
+		"frequency": 9,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -26280,42 +27380,12 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "y",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "oya",
 		"ja": ["他の"],
 		"en": [],
 		"ru": [],
 		"poses": [],
 		"frequency": 1,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "sinen",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["num"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "utari",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 3,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -26350,16 +27420,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "ca",
-		"ja": ["口"],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "sokonii",
 		"ja": [],
 		"en": [],
@@ -26376,6 +27436,16 @@
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
+		"cognates": [],
+		"noncognates": []
+	},
+	{
+		"lemma": "tuura",
+		"ja": [],
+		"en": [],
+		"ru": [],
+		"poses": [],
+		"frequency": 4,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -26430,52 +27500,12 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "ra",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "anki",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "o",
-		"ja": ["ある", "～にある", "尻", "付く", "生える", "たくさんある"],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "sitaunpe",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "keta",
-		"ja": ["星"],
-		"en": ["star"],
-		"ru": ["звезда"],
-		"poses": [],
-		"frequency": 3,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -26496,16 +27526,6 @@
 		"ru": ["кровать"],
 		"poses": ["n"],
 		"frequency": 1,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ok",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -26560,16 +27580,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "nam",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "tukar",
 		"ja": [],
 		"en": [],
@@ -26600,16 +27610,6 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "oruspe",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 6,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
 		"lemma": "hatagoya",
 		"ja": [],
 		"en": [],
@@ -26620,17 +27620,7 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "sahne",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 8,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kestoono",
+		"lemma": "anahcihi",
 		"ja": [],
 		"en": [],
 		"ru": [],
@@ -26665,16 +27655,6 @@
 		"en": [],
 		"ru": [],
 		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kane",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["auxv", "parti", "n"],
 		"frequency": 3,
 		"cognates": [],
 		"noncognates": []
@@ -26720,992 +27700,12 @@
 		"noncognates": []
 	},
 	{
-		"lemma": "kawarini",
+		"lemma": "nam",
 		"ja": [],
 		"en": [],
 		"ru": [],
 		"poses": [],
 		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "cokay",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 32,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "itaku",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 20,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "opista",
-		"ja": ["すべて"],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
-		"frequency": 18,
-		"cognates": ["opitta", "opitta"],
-		"noncognates": []
-	},
-	{
-		"lemma": "manuy",
-		"ja": ["という", "そうだ"],
-		"en": ["called", "it seems"],
-		"ru": ["называется", "кажется"],
-		"poses": ["auxv"],
-		"frequency": 2388,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ci=",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["v", "pfx"],
-		"frequency": 17,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "=hci",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 18,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "porono",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 15,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "pateki",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 15,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "sonko",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 14,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "iani",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 12,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kanpi",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 16,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "cep",
-		"ja": ["魚"],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 10,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "uneno",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 9,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kikanay",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 8,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "monasno",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 8,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "bagunke",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 7,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "cikin",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 7,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "anokay",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["pron"],
-		"frequency": 7,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "mauka",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 6,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "peko",
-		"ja": ["牛"],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 6,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "go",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 5,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "seraroka",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 5,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "nure",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 5,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "pakno",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
-		"frequency": 5,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "neciki",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 5,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ucakasno",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ni",
-		"ja": ["木"],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "otasan",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "woya",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "caca",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["v", "n"],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "danilka",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ki=",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "rorey",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "spa",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ihoku",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "co",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "tere",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "naibuci",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kesanto",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "tanpa",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "tutekose",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "hoko",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "tokyo",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "sinep",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["num"],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "taronzi",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "tup",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["num"],
-		"frequency": 4,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "cornaya",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "recka",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "sta",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "nte",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "hetuku",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 3,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "mona",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "cukita",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "korsakov",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "siska",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "rep",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["v", "num", "n"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "cipiya",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "meroko",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "hospi",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "somo",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "dobukiy",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "hakodate",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ikasiw",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "tekoro",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "potora",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "yki",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "yoponi",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "may",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "wenokay",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "minseeshoo",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ponciku",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "pak",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "urenkare",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "sisratoka",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "=ci",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "wepekere",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "etokota",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "iyuni",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "utuyaskara",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "tunnayca",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ramurahkino",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ainu",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "seraroko",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "kusunkotan",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ukopakari",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "monitahno",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "usoro",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "isra",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "cup",
-		"ja": ["日"],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ariksandoru",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "iwanke",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "inunuka",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "saranpa",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 2,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "pu",
-		"ja": ["蔵"],
-		"en": [],
-		"ru": [],
-		"poses": ["n"],
-		"frequency": 1,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "uwekari",
-		"ja": ["集う"],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 1,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "iku",
-		"ja": ["酒を飲む"],
-		"en": [],
-		"ru": [],
-		"poses": ["v"],
-		"frequency": 1,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "u",
-		"ja": ["互いに"],
-		"en": [],
-		"ru": [],
-		"poses": [],
-		"frequency": 1,
-		"cognates": [],
-		"noncognates": []
-	},
-	{
-		"lemma": "ye",
-		"ja": ["人が"],
-		"en": [],
-		"ru": [],
-		"poses": ["v", "n"],
-		"frequency": 1,
 		"cognates": [],
 		"noncognates": []
 	},
@@ -27765,5 +27765,21 @@
 		"poses": ["n"],
 		"frequency": 0,
 		"cognates": ["masara"]
+	},
+	{
+		"lemma": "ikara",
+		"ja": ["裁縫する"],
+		"en": ["to sew"],
+		"ru": ["шить"],
+		"poses": ["vi"],
+		"frequency": 0
+	},
+	{
+		"lemma": "orunpe",
+		"ja": ["糧食", "装備", "食器"],
+		"en": ["food", "equipment", "kitchenware"],
+		"ru": ["продукты", "снаряжение", "кухонные принадлежности"],
+		"poses": ["n"],
+		"frequency": 0
 	}
 ]
