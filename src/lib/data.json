@@ -3791,12 +3791,12 @@
 	},
 	{
 		"lemma": "kanne",
-		"ja": ["よ", "ね"],
-		"en": ["yo", "ne"],
-		"ru": ["ё", "нэ"],
-		"poses": ["sconj"],
+		"ja": ["よ", "ね", "～しつつ"],
+		"en": ["yo", "ne", "while doing ~"],
+		"ru": ["ё", "нэ", "пока делаешь ~"],
+		"poses": ["sconj", "sconj"],
 		"frequency": 105,
-		"cognates": [],
+		"cognates": ["kane"],
 		"noncognates": []
 	},
 	{
@@ -4491,10 +4491,10 @@
 	},
 	{
 		"lemma": "kosiwpu",
-		"ja": ["～を一生懸命やる4"],
+		"ja": ["～を一生懸命やる"],
 		"en": ["to do ~ with all one's effort"],
 		"ru": ["делать ~ изо всех сил"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1,
 		"cognates": [],
 		"noncognates": []
@@ -5154,7 +5154,7 @@
 		"ja": ["一生懸命やる"],
 		"en": ["to do one's best"],
 		"ru": ["стараться"],
-		"poses": ["n"],
+		"poses": ["vi"],
 		"frequency": 9,
 		"cognates": [],
 		"noncognates": []
@@ -11891,13 +11891,13 @@
 	},
 	{
 		"lemma": "tekoro",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
+		"ja": ["とても"],
+		"en": ["very"],
+		"ru": ["очень"],
+		"poses": ["adv"],
 		"frequency": 2,
 		"cognates": [],
-		"noncognates": []
+		"noncognates": ["earkinne"]
 	},
 	{
 		"lemma": "anki",
@@ -15201,12 +15201,12 @@
 	},
 	{
 		"lemma": "nospa",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": [],
+		"ja": ["～を追う"],
+		"en": ["to chase ~"],
+		"ru": ["догонять ~"],
+		"poses": ["vt"],
 		"frequency": 10,
-		"cognates": [],
+		"cognates": ["nospa"],
 		"noncognates": []
 	},
 	{
@@ -23521,12 +23521,12 @@
 	},
 	{
 		"lemma": "henpara",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
+		"ja": ["いつ"],
+		"en": ["when"],
+		"ru": ["когда"],
+		"poses": ["adv", "adv"],
 		"frequency": 6,
-		"cognates": ["hempara"],
+		"cognates": ["hempara", "hempara"],
 		"noncognates": []
 	},
 	{
@@ -24321,12 +24321,12 @@
 	},
 	{
 		"lemma": "henpah",
-		"ja": [],
-		"en": [],
-		"ru": [],
-		"poses": ["adv"],
+		"ja": ["いくつ"],
+		"en": ["how many"],
+		"ru": ["сколько"],
+		"poses": ["adv", "adv"],
 		"frequency": 5,
-		"cognates": ["hempak"],
+		"cognates": ["hempak", "hempak"],
 		"noncognates": []
 	},
 	{
@@ -27795,5 +27795,14 @@
 		"poses": ["n"],
 		"frequency": 0,
 		"cognates": ["koknekur"]
+	},
+	{
+		"lemma": "teekoro",
+		"ja": ["とても"],
+		"en": ["very"],
+		"ru": ["очень"],
+		"poses": ["adv"],
+		"frequency": 0,
+		"noncognates": ["earkinne"]
 	}
 ]
