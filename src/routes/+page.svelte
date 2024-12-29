@@ -87,7 +87,15 @@
 			class="text-blue-500 hover:underline"
 			href="http://tommy1949.world.coocan.jp/aynudictionary.htm"
 		>
-			富田隆 - アイヌ語電子辞書
+			富田隆『アイヌ語電子辞書』
+		</a>
+	</li>
+	<li>
+		<a
+			class="text-blue-500 hover:underline"
+			href="http://www.aa.tufs.ac.jp/~mmine/kiki_gen/murasaki/asai01.html"
+		>
+			村崎恭子 編訳『浅井タケ昔話全集 I, II』
 		</a>
 	</li>
 </ul>
