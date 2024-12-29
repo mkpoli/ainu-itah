@@ -37,6 +37,24 @@
 				}
 				return 0;
 			})
+			.toSorted((a, b) => {
+				if (!a.poses) {
+					return 1;
+				}
+				if (!b.poses) {
+					return -1;
+				}
+				return 0;
+			})
+			.toSorted((a, b) => {
+				if (!a.ja) {
+					return 1;
+				}
+				if (!b.ja) {
+					return -1;
+				}
+				return 0;
+			})
 	);
 </script>
 
