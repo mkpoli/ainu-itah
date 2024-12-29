@@ -4,7 +4,7 @@
 	import KampisosIcon from '$lib/icons/Kampisos.svg.svelte';
 	import { extrapolateSakhalinFromHokkaido } from '$lib/utils/itah';
 	import { languageTag } from '$lib/paraglide/runtime';
-	import { latn2cyrl, latn2kana } from '$lib/script';
+	import { cyrl2latn, latn2cyrl, latn2kana, kana2latn } from '$lib/script';
 
 	let sortBy: 'abc' | 'freq' | 'pos' = $state('freq');
 	let search = $state('');
@@ -28,7 +28,11 @@
 					item.ja?.includes(search) ||
 					item.en?.includes(search) ||
 					item.ru?.includes(search) ||
-					item.lemma?.includes(extrapolateSakhalinFromHokkaido(search))
+					item.lemma?.includes(extrapolateSakhalinFromHokkaido(search)) ||
+					latn2kana(item.lemma)?.includes(search) ||
+					latn2cyrl(item.lemma)?.includes(search) ||
+					item.lemma?.includes(kana2latn(search)) ||
+					item.lemma?.includes(cyrl2latn(search))
 			)
 			.toSorted((a, b) => {
 				if (a.lemma === search) {
