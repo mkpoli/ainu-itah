@@ -3,6 +3,8 @@
 	import data from '$lib/data.json';
 	import KampisosIcon from '$lib/icons/Kampisos.svg.svelte';
 	import { extrapolateSakhalinFromHokkaido } from '$lib/utils/itah';
+	import { languageTag } from '$lib/paraglide/runtime';
+	import { latn2cyrl, latn2kana } from '$lib/script';
 
 	let sortBy: 'abc' | 'freq' | 'pos' = $state('freq');
 	let search = $state('');
@@ -91,7 +93,13 @@
 		{#each filtered as item}
 			<tr class="odd:bg-gray-100 even:bg-gray-200">
 				<td class="flex flex-col gap-2" lang="ain-Latn">
-					{item.lemma}
+					{#if ['ja', 'ain-Kana'].includes(languageTag())}
+						{latn2kana(item.lemma)}
+					{:else if ['ru', 'ain-Cyrl'].includes(languageTag())}
+						{latn2cyrl(item.lemma)}
+					{:else}
+						{item.lemma}
+					{/if}
 				</td>
 				<td lang="ja">
 					{(item.ja ?? []).join('、')}
