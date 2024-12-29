@@ -109,7 +109,9 @@
 						{/each}
 					</div>
 				</td>
-				<td>{[...(item.cognates ?? []), ...(item.noncognates ?? [])].join(', ')}</td>
+				<td>
+					{[...new Set([...(item.cognates ?? []), ...(item.noncognates ?? [])])].join(', ')}
+				</td>
 				<td>
 					<a
 						href={`https://kampisos.aynu.io/search?q=${encodeURIComponent(item.lemma.replace(/^-/, ''))}`}
