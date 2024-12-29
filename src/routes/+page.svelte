@@ -82,6 +82,14 @@
 			日本語ウィクショナリー「カテゴリ:アイヌ語」
 		</a>
 	</li>
+	<li>
+		<a
+			class="text-blue-500 hover:underline"
+			href="http://tommy1949.world.coocan.jp/aynudictionary.htm"
+		>
+			富田隆 - アイヌ語電子辞書
+		</a>
+	</li>
 </ul>
 
 <Footer />
