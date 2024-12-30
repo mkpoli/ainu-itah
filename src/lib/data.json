@@ -20,7 +20,7 @@
 		"ja": ["歩く"],
 		"en": ["walk"],
 		"ru": ["ходить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 39
 	},
 	{
@@ -76,7 +76,7 @@
 		"ja": ["～をかける"],
 		"en": ["to apply", "to pour"],
 		"ru": ["применять", "наливать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 11
 	},
 	{
@@ -100,7 +100,7 @@
 		"ja": ["雨宿りする"],
 		"en": ["to take shelter from the rain"],
 		"ru": ["прятаться от дождя"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -124,7 +124,7 @@
 		"ja": ["座る"],
 		"en": ["sit"],
 		"ru": ["сидеть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 25
 	},
 	{
@@ -164,7 +164,7 @@
 		"ja": ["細い"],
 		"en": ["thin"],
 		"ru": ["тонкий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 16
 	},
 	{
@@ -229,7 +229,7 @@
 		"ja": ["～を閉める"],
 		"en": ["to close ~"],
 		"ru": ["закрывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -253,7 +253,7 @@
 		"ja": ["新しい"],
 		"en": ["new"],
 		"ru": ["новый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -261,7 +261,7 @@
 		"ja": ["出る"],
 		"en": ["to go out", "to exit"],
 		"ru": ["выйти", "выходить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 192
 	},
 	{
@@ -269,7 +269,7 @@
 		"ja": ["出ると"],
 		"en": ["when going out"],
 		"ru": ["когда выходишь"],
-		"poses": ["vt", "sconj"],
+		"poses": ["vi", "sconj"],
 		"frequency": 1
 	},
 	{
@@ -366,7 +366,7 @@
 		"ja": ["入る"],
 		"en": ["to enter"],
 		"ru": ["входить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -374,7 +374,7 @@
 		"ja": ["入る"],
 		"en": ["to enter"],
 		"ru": ["входить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -390,7 +390,7 @@
 		"ja": ["入る"],
 		"en": ["to enter"],
 		"ru": ["входить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -398,7 +398,7 @@
 		"ja": ["入ること"],
 		"en": ["the act of entering"],
 		"ru": ["действие входа"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 50
 	},
 	{
@@ -406,7 +406,7 @@
 		"ja": ["入る"],
 		"en": ["to enter"],
 		"ru": ["входить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 40
 	},
 	{
@@ -414,7 +414,7 @@
 		"ja": ["入る"],
 		"en": ["to enter"],
 		"ru": ["входить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 171
 	},
 	{
@@ -431,7 +431,7 @@
 		"ja": ["置く"],
 		"en": ["to place", "to put"],
 		"ru": ["класть", "положить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 55
 	},
 	{
@@ -463,7 +463,7 @@
 		"ja": ["ひっかく"],
 		"en": ["to scratch"],
 		"ru": ["царапать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -487,7 +487,7 @@
 		"ja": ["痛む"],
 		"en": ["to hurt", "to ache"],
 		"ru": ["болеть", "испытывать боль"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 7
 	},
 	{
@@ -519,7 +519,7 @@
 		"ja": ["来る"],
 		"en": ["to come"],
 		"ru": ["приходить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 7
 	},
 	{
@@ -527,7 +527,7 @@
 		"ja": ["来る"],
 		"en": ["to come"],
 		"ru": ["приходить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 4
 	},
 	{
@@ -535,7 +535,7 @@
 		"ja": ["来ること"],
 		"en": ["the act of coming"],
 		"ru": ["действие прихода"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -559,7 +559,7 @@
 		"ja": ["ある", "いる"],
 		"en": ["to be", "exist"],
 		"ru": ["быть", "существовать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 816
 	},
 	{
@@ -583,7 +583,7 @@
 		"ja": ["～を持つ", "抱える"],
 		"en": ["to have ~", "to carry ~"],
 		"ru": ["иметь ~", "нести ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 85
 	},
 	{
@@ -647,7 +647,7 @@
 		"ja": ["～を言う"],
 		"en": ["to say ~"],
 		"ru": ["говорить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 100
 	},
 	{
@@ -655,7 +655,7 @@
 		"ja": ["～を言う"],
 		"en": ["to say ~"],
 		"ru": ["говорить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 535
 	},
 	{
@@ -679,7 +679,7 @@
 		"ja": ["あまる"],
 		"en": ["to be left over", "to remain"],
 		"ru": ["оставаться", "оставлять"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -687,7 +687,7 @@
 		"ja": ["手伝いをする"],
 		"en": ["to help"],
 		"ru": ["помогать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -695,7 +695,7 @@
 		"ja": ["ふるまう", "行動する"],
 		"en": ["to behave", "to act"],
 		"ru": ["вести себя", "действовать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 36
 	},
 	{
@@ -703,7 +703,7 @@
 		"ja": ["ふるまう", "行動する"],
 		"en": ["to behave", "to act"],
 		"ru": ["вести себя", "действовать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -727,7 +727,7 @@
 		"ja": ["踊る"],
 		"en": ["to dance"],
 		"ru": ["танцевать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -735,7 +735,7 @@
 		"ja": ["無い", "亡くなる", "しない"],
 		"en": ["not have", "to pass away", "not do"],
 		"ru": ["не иметь", "умереть", "не делать"],
-		"poses": ["vt", "auxv"],
+		"poses": ["vi", "auxv"],
 		"frequency": 83
 	},
 	{
@@ -743,7 +743,7 @@
 		"ja": ["無い", "亡くなる", "しない"],
 		"en": ["not have", "to pass away", "not do"],
 		"ru": ["не иметь", "умереть", "не делать"],
-		"poses": ["vt", "auxv"],
+		"poses": ["vi", "auxv"],
 		"frequency": 4
 	},
 	{
@@ -751,7 +751,7 @@
 		"ja": ["無い", "亡くなる", "しない"],
 		"en": ["not have", "to pass away", "not do"],
 		"ru": ["не иметь", "умереть", "не делать"],
-		"poses": ["vt", "auxv"],
+		"poses": ["vi", "auxv"],
 		"frequency": 36
 	},
 	{
@@ -759,7 +759,7 @@
 		"ja": ["ではないか"],
 		"en": ["isn't it?", "right?"],
 		"ru": ["не так ли?", "верно?"],
-		"poses": ["vt", "auxv"],
+		"poses": ["vi", "auxv"],
 		"frequency": 1
 	},
 	{
@@ -791,7 +791,7 @@
 		"ja": ["話す", "言葉"],
 		"en": ["to speak", "word"],
 		"ru": ["говорить", "слово"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 38
 	},
 	{
@@ -831,7 +831,7 @@
 		"ja": ["ものを切る"],
 		"en": ["to cut things"],
 		"ru": ["резать вещи"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -847,7 +847,7 @@
 		"ja": ["祭りをする", "木幣を作る"],
 		"en": ["to hold a festival", "to make wooden beads"],
 		"ru": ["проводить фестиваль", "делать деревянные бусины"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -887,7 +887,7 @@
 		"ja": ["食べ物", "食事する"],
 		"en": ["food", "to eat"],
 		"ru": ["еда", "есть"],
-		"poses": ["n", "vt"],
+		"poses": ["n", "vi"],
 		"frequency": 39
 	},
 	{
@@ -895,7 +895,7 @@
 		"ja": ["食事を作る"],
 		"en": ["to prepare a meal"],
 		"ru": ["готовить еду"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 30
 	},
 	{
@@ -903,7 +903,7 @@
 		"ja": ["空腹である"],
 		"en": ["to be hungry"],
 		"ru": ["быть голодным"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -911,7 +911,7 @@
 		"ja": ["買い物をする"],
 		"en": ["to shop"],
 		"ru": ["ходить по магазинам"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -959,7 +959,7 @@
 		"ja": ["食べ物を分ける", "分配"],
 		"en": ["to distribute food", "to share"],
 		"ru": ["распределять еду", "делиться"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 1
 	},
 	{
@@ -983,7 +983,7 @@
 		"ja": ["酔う"],
 		"en": ["to get drunk"],
 		"ru": ["напиваться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -991,7 +991,7 @@
 		"ja": ["挨拶", "挨拶する"],
 		"en": ["greeting", "to greet"],
 		"ru": ["приветствие", "приветствовать"],
-		"poses": ["n", "vt"],
+		"poses": ["n", "vi"],
 		"frequency": 1
 	},
 	{
@@ -999,7 +999,7 @@
 		"ja": ["好もしい"],
 		"en": ["desirable", "pleasant"],
 		"ru": ["желательный", "приятный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -1007,7 +1007,7 @@
 		"ja": ["腹を立てる"],
 		"en": ["to get angry"],
 		"ru": ["сердиться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 47
 	},
 	{
@@ -1015,7 +1015,7 @@
 		"ja": ["厚い"],
 		"en": ["thick"],
 		"ru": ["толстый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -1039,7 +1039,7 @@
 		"ja": ["目を向ける", "見る"],
 		"en": ["to look", "to watch"],
 		"ru": ["смотреть", "наблюдать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 28
 	},
 	{
@@ -1047,7 +1047,7 @@
 		"ja": ["目を向けたこと"],
 		"en": ["the act of looking"],
 		"ru": ["действие смотреть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 15
 	},
 	{
@@ -1055,7 +1055,7 @@
 		"ja": ["見たい"],
 		"en": ["to want to see"],
 		"ru": ["хотеть видеть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -1063,7 +1063,7 @@
 		"ja": ["～を消す"],
 		"en": ["to erase ~", "to extinguish ~"],
 		"ru": ["стирать ~", "потушить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1079,7 +1079,7 @@
 		"ja": ["～を取る"],
 		"en": ["to take ~"],
 		"ru": ["брать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 44
 	},
 	{ "lemma": "uuna", "ja": ["灰"], "en": ["ash"], "ru": ["пепел"], "poses": ["n"], "frequency": 2 },
@@ -1088,7 +1088,7 @@
 		"ja": ["～を取る"],
 		"en": ["to take ~"],
 		"ru": ["брать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -1112,7 +1112,7 @@
 		"ja": ["集まる"],
 		"en": ["to gather"],
 		"ru": ["собираться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -1120,7 +1120,7 @@
 		"ja": ["集まる"],
 		"en": ["to gather"],
 		"ru": ["собираться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -1128,7 +1128,7 @@
 		"ja": ["集まる"],
 		"en": ["to gather"],
 		"ru": ["собираться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -1136,7 +1136,7 @@
 		"ja": ["伝える"],
 		"en": ["to convey", "to communicate"],
 		"ru": ["передавать", "общаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -1144,7 +1144,7 @@
 		"ja": ["悪い"],
 		"en": ["bad"],
 		"ru": ["плохой"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 46
 	},
 	{
@@ -1152,7 +1152,7 @@
 		"ja": ["～の様子を見る"],
 		"en": ["to observe ~"],
 		"ru": ["наблюдать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 10
 	},
 	{
@@ -1160,7 +1160,7 @@
 		"ja": ["～を取る"],
 		"en": ["to take ~"],
 		"ru": ["брать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 29
 	},
 	{
@@ -1176,7 +1176,7 @@
 		"ja": ["けんかをする"],
 		"en": ["to fight"],
 		"ru": ["драться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -1184,7 +1184,7 @@
 		"ja": ["会話をする"],
 		"en": ["to converse"],
 		"ru": ["разговаривать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -1224,7 +1224,7 @@
 		"ja": ["遊びに行く"],
 		"en": ["to go out to play"],
 		"ru": ["ходить гулять"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 9
 	},
 	{
@@ -1264,7 +1264,7 @@
 		"ja": ["～に使いをさせる"],
 		"en": ["to make someone use ~"],
 		"ru": ["заставлять кого-то использовать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1304,7 +1304,7 @@
 		"ja": ["紫である"],
 		"en": ["to be purple"],
 		"ru": ["быть пурпурным"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -1312,7 +1312,7 @@
 		"ja": ["夫婦になる", "夫婦"],
 		"en": ["to become a couple", "couple"],
 		"ru": ["стать парой", "пара"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 1
 	},
 	{
@@ -1328,7 +1328,7 @@
 		"ja": ["励ましあう"],
 		"en": ["to encourage each other"],
 		"ru": ["поощрять друг друга"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -1336,7 +1336,7 @@
 		"ja": ["暮らす", "暮らし"],
 		"en": ["to live", "living"],
 		"ru": ["жить", "жизнь"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 1
 	},
 	{
@@ -1368,7 +1368,7 @@
 		"ja": ["火を起こす"],
 		"en": ["to start a fire"],
 		"ru": ["разжечь огонь"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -1400,7 +1400,7 @@
 		"ja": ["来る"],
 		"en": ["to come"],
 		"ru": ["приходить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 65
 	},
 	{
@@ -1408,7 +1408,7 @@
 		"ja": ["～を食べる"],
 		"en": ["to eat ~"],
 		"ru": ["есть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 96
 	},
 	{
@@ -1416,7 +1416,7 @@
 		"ja": ["来させる"],
 		"en": ["to make come"],
 		"ru": ["заставлять приходить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -1424,7 +1424,7 @@
 		"ja": ["～を食べる"],
 		"en": ["to eat ~"],
 		"ru": ["есть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 117
 	},
 	{
@@ -1432,7 +1432,7 @@
 		"ja": ["～を食べる事"],
 		"en": ["the act of eating ~"],
 		"ru": ["действие есть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -1456,7 +1456,7 @@
 		"ja": ["できる"],
 		"en": ["can", "be able to"],
 		"ru": ["мочь", "быть способным"],
-		"poses": ["vi", "auxv"],
+		"poses": ["vt", "auxv"],
 		"frequency": 4
 	},
 	{
@@ -1464,7 +1464,7 @@
 		"ja": ["～を用いて射る"],
 		"en": ["to shoot using ~"],
 		"ru": ["стрелять используя ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1472,7 +1472,7 @@
 		"ja": ["～のために出かける"],
 		"en": ["to go out for ~"],
 		"ru": ["выйти для ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -1480,7 +1480,7 @@
 		"ja": ["できない"],
 		"en": ["cannot", "unable to"],
 		"ru": ["не могу", "не способен"],
-		"poses": ["vi", "auxv"],
+		"poses": ["vt", "auxv"],
 		"frequency": 2
 	},
 	{
@@ -1504,7 +1504,7 @@
 		"ja": ["～を守る"],
 		"en": ["to protect ~"],
 		"ru": ["защищать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1536,7 +1536,7 @@
 		"ja": ["～を迎える"],
 		"en": ["to welcome ~"],
 		"ru": ["приветствовать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1560,7 +1560,7 @@
 		"ja": ["来ること"],
 		"en": ["the act of coming"],
 		"ru": ["действие прихода"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 6
 	},
 	{
@@ -1568,7 +1568,7 @@
 		"ja": ["が楽しい"],
 		"en": ["is fun"],
 		"ru": ["это весело"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -1576,7 +1576,7 @@
 		"ja": ["で帯をする"],
 		"en": ["to wear a belt"],
 		"ru": ["носить пояс"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1608,7 +1608,7 @@
 		"ja": ["～に夢でお告げをする"],
 		"en": ["to prophesy in a dream to ~"],
 		"ru": ["пророчить во сне ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1632,7 +1632,7 @@
 		"ja": ["で席を作る"],
 		"en": ["to make a seat at ~"],
 		"ru": ["устроить место у ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1648,7 +1648,7 @@
 		"ja": ["立つ"],
 		"en": ["to stand"],
 		"ru": ["стоять"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -1721,7 +1721,7 @@
 		"ja": ["～を～で切る"],
 		"en": ["to cut ~ with ~"],
 		"ru": ["резать ~ ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{ "lemma": "etuhu", "ja": ["鼻"], "en": ["nose"], "ru": ["нос"], "poses": ["n"], "frequency": 0 },
@@ -1738,7 +1738,7 @@
 		"ja": ["～を嫌がる"],
 		"en": ["to dislike ~"],
 		"ru": ["не любить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 10
 	},
 	{
@@ -1794,7 +1794,7 @@
 		"ja": ["近い"],
 		"en": ["near", "close"],
 		"ru": ["близко", "рядом"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 4
 	},
 	{
@@ -1810,7 +1810,7 @@
 		"ja": ["で～をあやす", "子守する"],
 		"en": ["to lull ~", "to take care of children"],
 		"ru": ["усыплять ~", "ухаживать за детьми"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -1818,7 +1818,7 @@
 		"ja": ["咲く"],
 		"en": ["to bloom"],
 		"ru": ["цвести"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -1834,7 +1834,7 @@
 		"ja": ["倒れる"],
 		"en": ["to fall down"],
 		"ru": ["падать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -1842,7 +1842,7 @@
 		"ja": ["黄色い"],
 		"en": ["yellow"],
 		"ru": ["жёлтый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -1858,7 +1858,7 @@
 		"ja": ["～に吠える"],
 		"en": ["to bark at ~"],
 		"ru": ["лаять на ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -1866,7 +1866,7 @@
 		"ja": ["～に突き当たる"],
 		"en": ["to bump into ~"],
 		"ru": ["натолкнуться на ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -1874,7 +1874,7 @@
 		"ja": ["安心する"],
 		"en": ["to feel relieved"],
 		"ru": ["чувствовать облегчение"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -2067,7 +2067,7 @@
 		"ja": ["～に乗る"],
 		"en": ["to ride ~"],
 		"ru": ["ехать на ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 25
 	},
 	{
@@ -2091,7 +2091,7 @@
 		"ja": ["硬い"],
 		"en": ["hard"],
 		"ru": ["твердый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -2107,7 +2107,7 @@
 		"ja": ["～を忘れる"],
 		"en": ["to forget ~"],
 		"ru": ["забывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 8
 	},
 	{
@@ -2147,7 +2147,7 @@
 		"ja": ["いる"],
 		"en": ["to exist"],
 		"ru": ["существовать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 67
 	},
 	{
@@ -2179,7 +2179,7 @@
 		"ja": ["いる"],
 		"en": ["to exist"],
 		"ru": ["существовать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 291
 	},
 	{
@@ -2195,7 +2195,7 @@
 		"ja": ["小便する", "小便"],
 		"en": ["to urinate", "urine"],
 		"ru": ["мочиться", "моча"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 29
 	},
 	{
@@ -2203,7 +2203,7 @@
 		"ja": ["強い尿意を感じる"],
 		"en": ["to feel a strong urge to urinate"],
 		"ru": ["чувствовать сильное желание помочиться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -2227,7 +2227,7 @@
 		"ja": ["～を引きずる"],
 		"en": ["to drag ~"],
 		"ru": ["тащить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -2235,7 +2235,7 @@
 		"ja": ["大便する", "大便"],
 		"en": ["to defecate", "feces"],
 		"ru": ["испражняться", "фекалии"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 11
 	},
 	{
@@ -2259,7 +2259,7 @@
 		"ja": ["強い便意に襲われる"],
 		"en": ["to feel a strong urge to defecate"],
 		"ru": ["чувствовать сильное желание испражниться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -2267,7 +2267,7 @@
 		"ja": ["短い"],
 		"en": ["short"],
 		"ru": ["короткий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 4
 	},
 	{
@@ -2283,7 +2283,7 @@
 		"ja": ["～を食べつくす"],
 		"en": ["to eat up ~"],
 		"ru": ["съесть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -2299,7 +2299,7 @@
 		"ja": ["長い"],
 		"en": ["long"],
 		"ru": ["длинный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -2307,7 +2307,7 @@
 		"ja": ["～を捨てる"],
 		"en": ["to throw away ~"],
 		"ru": ["выбросить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 73
 	},
 	{
@@ -2355,7 +2355,7 @@
 		"ja": ["ただ", "ただの", "空である"],
 		"en": ["only", "just", "empty"],
 		"ru": ["только", "просто", "пустой"],
-		"poses": ["adv", "adn", "vt"],
+		"poses": ["adv", "adn", "vi"],
 		"frequency": 8
 	},
 	{
@@ -2363,7 +2363,7 @@
 		"ja": ["浅い"],
 		"en": ["shallow"],
 		"ru": ["мелкий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -2403,7 +2403,7 @@
 		"ja": ["尽きる"],
 		"en": ["to run out"],
 		"ru": ["закончиться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -2411,7 +2411,7 @@
 		"ja": ["遅れる", "遅い"],
 		"en": ["to be late", "slow"],
 		"ru": ["опоздать", "медленный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -2427,7 +2427,7 @@
 		"ja": ["～に入る"],
 		"en": ["to enter ~"],
 		"ru": ["входить в ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -2451,7 +2451,7 @@
 		"ja": ["歩き回る", "旅をする"],
 		"en": ["to walk around", "to travel"],
 		"ru": ["гулять", "путешествовать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -2475,7 +2475,7 @@
 		"ja": ["行く", "でかける"],
 		"en": ["to go", "to leave"],
 		"ru": ["идти", "отправляться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 271
 	},
 	{
@@ -2483,7 +2483,7 @@
 		"ja": ["～を行かせる", "送る"],
 		"en": ["to send ~", "to let go ~"],
 		"ru": ["отправить ~", "позволить уйти ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 28
 	},
 	{
@@ -2531,7 +2531,7 @@
 		"ja": ["低い"],
 		"en": ["low"],
 		"ru": ["низкий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -2563,7 +2563,7 @@
 		"ja": ["酌をする", "酌"],
 		"en": ["to pour (drinks)", "pouring drinks"],
 		"ru": ["наливать (напитки)", "наливание"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 0
 	},
 	{
@@ -2595,7 +2595,7 @@
 		"ja": ["拝礼する", "拝礼"],
 		"en": ["to bow in worship", "worship bow"],
 		"ru": ["кланяться в поклонении", "поклонение"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 0
 	},
 	{
@@ -2603,7 +2603,7 @@
 		"ja": ["風邪をひく"],
 		"en": ["to catch a cold"],
 		"ru": ["простудиться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -2635,7 +2635,7 @@
 		"ja": ["～の方へ"],
 		"en": ["towards ~"],
 		"ru": ["по направлению к ~"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 243
 	},
 	{
@@ -2716,7 +2716,7 @@
 		"ja": ["糸撚りする", "糸撚り"],
 		"en": ["to twist thread", "thread twisting"],
 		"ru": ["крутить нить", "скручивание нити"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 1
 	},
 	{
@@ -2724,7 +2724,7 @@
 		"ja": ["～を手伝う"],
 		"en": ["to help ~"],
 		"ru": ["помогать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -2756,7 +2756,7 @@
 		"ja": ["折れる"],
 		"en": ["to break", "to snap"],
 		"ru": ["ломаться", "трещать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 10
 	},
 	{
@@ -2764,7 +2764,7 @@
 		"ja": ["～を折る"],
 		"en": ["to break ~"],
 		"ru": ["ломать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -2772,7 +2772,7 @@
 		"ja": ["～を折る"],
 		"en": ["to break ~"],
 		"ru": ["ломать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -2804,7 +2804,7 @@
 		"ja": ["～を越える"],
 		"en": ["to cross ~"],
 		"ru": ["пересекать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -2812,7 +2812,7 @@
 		"ja": ["薄い"],
 		"en": ["thin"],
 		"ru": ["тонкий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -2828,7 +2828,7 @@
 		"ja": ["薄い"],
 		"en": ["thin"],
 		"ru": ["тонкий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -2852,7 +2852,7 @@
 		"ja": ["～を覆う"],
 		"en": ["to cover ~"],
 		"ru": ["покрывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{ "lemma": "kamuy", "ja": ["神"], "en": ["god"], "ru": ["бог"], "poses": ["n"], "frequency": 92 },
@@ -2925,7 +2925,7 @@
 		"ja": ["～を呼ぶ"],
 		"en": ["to call ~"],
 		"ru": ["звать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -2933,7 +2933,7 @@
 		"ja": ["～を呼ぶ"],
 		"en": ["to call ~"],
 		"ru": ["звать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -2941,7 +2941,7 @@
 		"ja": ["作る"],
 		"en": ["to make", "to create"],
 		"ru": ["делать", "создавать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 214
 	},
 	{
@@ -2949,7 +2949,7 @@
 		"ja": ["作る"],
 		"en": ["to make", "to create"],
 		"ru": ["делать", "создавать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 46
 	},
 	{
@@ -2990,7 +2990,7 @@
 		"ja": ["～を握る", "つかむ", "抱く"],
 		"en": ["to grasp ~", "to hold ~", "to hug ~"],
 		"ru": ["схватить ~", "держать ~", "обнимать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 10
 	},
 	{
@@ -2998,7 +2998,7 @@
 		"ja": ["～をする"],
 		"en": ["to do ~"],
 		"ru": ["делать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 156
 	},
 	{
@@ -3014,7 +3014,7 @@
 		"ja": ["～をする"],
 		"en": ["to do ~"],
 		"ru": ["делать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 273
 	},
 	{
@@ -3070,7 +3070,7 @@
 		"ja": ["山仕事をする"],
 		"en": ["to work in the mountains"],
 		"ru": ["работать в горах"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -3078,7 +3078,7 @@
 		"ja": ["年長である"],
 		"en": ["to be senior"],
 		"ru": ["быть старше"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 61
 	},
 	{
@@ -3086,7 +3086,7 @@
 		"ja": ["逃げる"],
 		"en": ["to run away", "to escape"],
 		"ru": ["убегать", "сбежать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 28
 	},
 	{
@@ -3094,7 +3094,7 @@
 		"ja": ["～を逃がす"],
 		"en": ["to let ~ escape"],
 		"ru": ["отпустить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -3118,7 +3118,7 @@
 		"ja": ["騒ぐ", "取り乱す"],
 		"en": ["to make noise", "to panic"],
 		"ru": ["шуметь", "паниковать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -3136,10 +3136,10 @@
 		"ja": ["～を飲む"],
 		"en": ["to drink ~"],
 		"ru": ["пить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
-	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["vi"], "frequency": 62 },
+	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["vt"], "frequency": 62 },
 	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["n"], "frequency": 0 },
 	{ "lemma": "kuuhe", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["n"], "frequency": 0 },
 	{
@@ -3171,7 +3171,7 @@
 		"ja": ["～を舟で渡す"],
 		"en": ["to ferry ~ by boat"],
 		"ru": ["переправлять ~ на лодке"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -3203,7 +3203,7 @@
 		"ja": ["～をあける"],
 		"en": ["to open ~"],
 		"ru": ["открывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -3235,7 +3235,7 @@
 		"ja": ["～にかみつく"],
 		"en": ["to bite ~"],
 		"ru": ["укусить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -3283,7 +3283,7 @@
 		"ja": ["黒い"],
 		"en": ["black"],
 		"ru": ["чёрный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 17
 	},
 	{
@@ -3348,7 +3348,7 @@
 		"ja": ["おいしい"],
 		"en": ["delicious"],
 		"ru": ["вкусный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -3388,7 +3388,7 @@
 		"ja": ["針仕事する", "針仕事"],
 		"en": ["to do needlework", "needlework"],
 		"ru": ["шить", "шитьё"],
-		"poses": ["n", "vt"],
+		"poses": ["n", "vi"],
 		"frequency": 1
 	},
 	{
@@ -3404,7 +3404,7 @@
 		"ja": ["すると"],
 		"en": ["and then"],
 		"ru": ["и тогда"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 31
 	},
 	{
@@ -3420,7 +3420,7 @@
 		"ja": ["すると"],
 		"en": ["and then"],
 		"ru": ["и тогда"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 222
 	},
 	{
@@ -3460,7 +3460,7 @@
 		"ja": ["～をせめる"],
 		"en": ["to attack ~"],
 		"ru": ["атаковать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 35
 	},
 	{
@@ -3468,7 +3468,7 @@
 		"ja": ["～に話す"],
 		"en": ["to speak to ~"],
 		"ru": ["говорить с ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -3476,7 +3476,7 @@
 		"ja": ["～に分け与える"],
 		"en": ["to distribute to ~"],
 		"ru": ["распределять между ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -3484,7 +3484,7 @@
 		"ja": ["と交流する", "遊ぶ"],
 		"en": ["to interact with", "to play"],
 		"ru": ["взаимодействовать с", "играть"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -3500,7 +3500,7 @@
 		"ja": ["～を一生懸命やる"],
 		"en": ["to do ~ with all one's effort"],
 		"ru": ["делать ~ изо всех сил"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -3508,7 +3508,7 @@
 		"ja": ["～に着く"],
 		"en": ["to arrive at ~"],
 		"ru": ["прибывать в ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 48
 	},
 	{
@@ -3556,7 +3556,7 @@
 		"ja": ["～に向かって押しずらす"],
 		"en": ["to push and slide towards ~"],
 		"ru": ["толкать и скользить к ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -3564,7 +3564,7 @@
 		"ja": ["～に口論をしかける"],
 		"en": ["to start an argument with ~"],
 		"ru": ["начать спор с ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 8
 	},
 	{
@@ -3572,7 +3572,7 @@
 		"ja": ["～に通す"],
 		"en": ["to pass through ~"],
 		"ru": ["проходить через ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 5
 	},
 	{
@@ -3596,7 +3596,7 @@
 		"ja": ["～を好む"],
 		"en": ["to like ~"],
 		"ru": ["нравиться ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -3612,7 +3612,7 @@
 		"ja": ["ができない"],
 		"en": ["cannot do"],
 		"ru": ["не могу сделать"],
-		"poses": ["vi", "auxv"],
+		"poses": ["vt", "auxv"],
 		"frequency": 30
 	},
 	{
@@ -3620,7 +3620,7 @@
 		"ja": ["～に感謝する"],
 		"en": ["to thank ~"],
 		"ru": ["благодарить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -3628,7 +3628,7 @@
 		"ja": ["～を持つ"],
 		"en": ["to have ~"],
 		"ru": ["иметь ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 125
 	},
 	{
@@ -3636,7 +3636,7 @@
 		"ja": ["～を持つ"],
 		"en": ["to have ~"],
 		"ru": ["иметь ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 58
 	},
 	{
@@ -3676,7 +3676,7 @@
 		"ja": ["が欲しい"],
 		"en": ["want"],
 		"ru": ["хотеть"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -3692,7 +3692,7 @@
 		"ja": ["乾く"],
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 6
 	},
 	{
@@ -3700,7 +3700,7 @@
 		"ja": ["乾く"],
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -3716,7 +3716,7 @@
 		"ja": ["乾く"],
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -3732,7 +3732,7 @@
 		"ja": ["～を干す"],
 		"en": ["to air-dry ~"],
 		"ru": ["сушить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 8
 	},
 	{
@@ -3740,7 +3740,7 @@
 		"ja": ["乾く"],
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 6
 	},
 	{
@@ -3836,7 +3836,7 @@
 		"ja": ["下りる"],
 		"en": ["to descend"],
 		"ru": ["спускаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 129
 	},
 	{
@@ -3876,7 +3876,7 @@
 		"ja": ["下りる"],
 		"en": ["to descend"],
 		"ru": ["спускаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 285
 	},
 	{
@@ -3884,7 +3884,7 @@
 		"ja": ["そば"],
 		"en": ["nearby", "next to"],
 		"ru": ["рядом", "близко"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 44
 	},
 	{
@@ -3900,7 +3900,7 @@
 		"ja": ["～を下ろす"],
 		"en": ["to lower ~"],
 		"ru": ["опустить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -3916,7 +3916,7 @@
 		"ja": ["一杯にする"],
 		"en": ["to fill up"],
 		"ru": ["наполнить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -3940,7 +3940,7 @@
 		"ja": ["生きる"],
 		"en": ["to live"],
 		"ru": ["жить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -3988,7 +3988,7 @@
 		"ja": ["休む"],
 		"en": ["to rest"],
 		"ru": ["отдыхать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -4028,7 +4028,7 @@
 		"ja": ["生まれる"],
 		"en": ["to be born"],
 		"ru": ["родиться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -4036,7 +4036,7 @@
 		"ja": ["～を生み出す"],
 		"en": ["to create ~"],
 		"ru": ["создавать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -4044,7 +4044,7 @@
 		"ja": ["丸い"],
 		"en": ["round"],
 		"ru": ["круглый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{ "lemma": "siki", "ja": ["目"], "en": ["eye"], "ru": ["глаз"], "poses": ["n"], "frequency": 0 },
@@ -4077,7 +4077,7 @@
 		"ja": ["～を巻き起こす"],
 		"en": ["to stir up ~"],
 		"ru": ["возбудить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -4085,7 +4085,7 @@
 		"ja": ["支度する"],
 		"en": ["to prepare"],
 		"ru": ["готовить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -4149,7 +4149,7 @@
 		"ja": ["遊ぶ"],
 		"en": ["to play"],
 		"ru": ["играть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -4181,7 +4181,7 @@
 		"ja": ["世を去りたい"],
 		"en": ["to want to leave the world"],
 		"ru": ["хотеть покинуть мир"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -4189,7 +4189,7 @@
 		"ja": ["～を叩く"],
 		"en": ["to hit ~"],
 		"ru": ["ударить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -4237,7 +4237,7 @@
 		"ja": ["～に到着する"],
 		"en": ["to arrive at ~"],
 		"ru": ["прибыть в ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -4253,7 +4253,7 @@
 		"ja": ["疲れる"],
 		"en": ["to get tired"],
 		"ru": ["устать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -4277,7 +4277,7 @@
 		"ja": ["寒く感じる"],
 		"en": ["to feel cold"],
 		"ru": ["чувствовать холод"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -4285,7 +4285,7 @@
 		"ja": ["お供えをする"],
 		"en": ["to offer (as a ritual)"],
 		"ru": ["приносить в жертву"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -4333,7 +4333,7 @@
 		"ja": ["～を料理する"],
 		"en": ["to cook ~"],
 		"ru": ["готовить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 54
 	},
 	{
@@ -4341,7 +4341,7 @@
 		"ja": ["～を料理する"],
 		"en": ["to cook ~"],
 		"ru": ["готовить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 26
 	},
 	{
@@ -4421,7 +4421,7 @@
 		"ja": ["～を背負う"],
 		"en": ["to carry ~ on one's back"],
 		"ru": ["нести ~ на спине"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 28
 	},
 	{
@@ -4429,7 +4429,7 @@
 		"ja": ["熱い"],
 		"en": ["hot"],
 		"ru": ["горячий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 5
 	},
 	{
@@ -4485,7 +4485,7 @@
 		"ja": ["太い"],
 		"en": ["thick"],
 		"ru": ["толстый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -4557,7 +4557,7 @@
 		"ja": ["踊る", "踊り"],
 		"en": ["to dance", "a dance"],
 		"ru": ["танцевать", "танец"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 6
 	},
 	{
@@ -4565,7 +4565,7 @@
 		"ja": ["～を掘る"],
 		"en": ["to dig ~"],
 		"ru": ["копать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -4589,7 +4589,7 @@
 		"ja": ["樹皮を剥ぐ", "樹皮剥ぎ"],
 		"en": ["to peel bark", "bark peeling"],
 		"ru": ["снимать кору", "снятие коры"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 0
 	},
 	{
@@ -4597,7 +4597,7 @@
 		"ja": ["あの", "その"],
 		"en": ["that"],
 		"ru": ["тот", "этот"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 6712
 	},
 	{
@@ -4605,7 +4605,7 @@
 		"ja": ["あの", "その"],
 		"en": ["that"],
 		"ru": ["тот", "этот"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -4669,7 +4669,7 @@
 		"ja": ["～を招く"],
 		"en": ["to invite ~"],
 		"ru": ["приглашать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -4677,7 +4677,7 @@
 		"ja": ["～を何度も叩く"],
 		"en": ["to hit ~ repeatedly"],
 		"ru": ["бить ~ много раз"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -4781,7 +4781,7 @@
 		"ja": ["泣く"],
 		"en": ["to cry"],
 		"ru": ["плакать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 52
 	},
 	{
@@ -4805,7 +4805,7 @@
 		"ja": ["焼く", "火を通す"],
 		"en": ["to grill", "to cook with heat"],
 		"ru": ["жарить", "готовить на огне"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -4813,7 +4813,7 @@
 		"ja": ["～を突く"],
 		"en": ["to poke ~"],
 		"ru": ["тыкать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 81
 	},
 	{ "lemma": "ceh", "ja": ["魚"], "en": ["fish"], "ru": ["рыба"], "poses": ["n"], "frequency": 58 },
@@ -4838,7 +4838,7 @@
 		"ja": ["開闢する（？）"],
 		"en": ["to create the world (uncertain)"],
 		"ru": ["создавать мир (неопределённо)"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -4878,7 +4878,7 @@
 		"ja": ["泣く"],
 		"en": ["to cry"],
 		"ru": ["плакать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 49
 	},
 	{
@@ -4902,7 +4902,7 @@
 		"ja": ["自動車に乗る"],
 		"en": ["to ride in a car"],
 		"ru": ["ехать в машине"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -4926,7 +4926,7 @@
 		"ja": ["走る"],
 		"en": ["to run"],
 		"ru": ["бегать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -4934,7 +4934,7 @@
 		"ja": ["物語を語る"],
 		"en": ["to tell a story"],
 		"ru": ["рассказывать историю"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -4942,7 +4942,7 @@
 		"ja": ["～を開ける"],
 		"en": ["to open ~"],
 		"ru": ["открыть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 11
 	},
 	{
@@ -4950,7 +4950,7 @@
 		"ja": ["走る", "滑る"],
 		"en": ["to run", "to slide"],
 		"ru": ["бежать", "скользить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 42
 	},
 	{
@@ -4975,7 +4975,7 @@
 		"ja": ["口を持つ"],
 		"en": ["to have a mouth"],
 		"ru": ["иметь рот"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -5032,7 +5032,7 @@
 		"ja": ["～を射る"],
 		"en": ["to shoot ~"],
 		"ru": ["стрелять в ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 6
 	},
 	{
@@ -5072,7 +5072,7 @@
 		"ja": ["～を突く"],
 		"en": ["to stab ~"],
 		"ru": ["воткнуть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -5144,7 +5144,7 @@
 		"ja": ["～を待つ"],
 		"en": ["to wait for ~"],
 		"ru": ["ждать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 9
 	},
 	{
@@ -5152,7 +5152,7 @@
 		"ja": ["～を待つ"],
 		"en": ["to wait for ~"],
 		"ru": ["ждать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 17
 	},
 	{ "lemma": "teki", "ja": ["手"], "en": ["hand"], "ru": ["рука"], "poses": ["n"], "frequency": 1 },
@@ -5177,7 +5177,7 @@
 		"ja": ["白い"],
 		"en": ["white"],
 		"ru": ["белый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -5185,7 +5185,7 @@
 		"ja": ["白い"],
 		"en": ["white"],
 		"ru": ["белый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -5330,7 +5330,7 @@
 		"ja": ["はねる", "飛ぶ"],
 		"en": ["to hop", "to fly"],
 		"ru": ["прыгать", "летать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 32
 	},
 	{
@@ -5362,7 +5362,7 @@
 		"ja": ["早い"],
 		"en": ["fast", "early"],
 		"ru": ["быстрый", "ранний"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 7
 	},
 	{
@@ -5370,7 +5370,7 @@
 		"ja": ["早い"],
 		"en": ["fast", "early"],
 		"ru": ["быстрый", "ранний"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 6
 	},
 	{
@@ -5386,7 +5386,7 @@
 		"ja": ["遠い"],
 		"en": ["far"],
 		"ru": ["далёкий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -5410,7 +5410,7 @@
 		"ja": ["早い"],
 		"en": ["fast", "early"],
 		"ru": ["быстрый", "ранний"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -5442,7 +5442,7 @@
 		"ja": ["と連れ立つ"],
 		"en": ["to accompany"],
 		"ru": ["сопровождать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 277
 	},
 	{
@@ -5570,7 +5570,7 @@
 		"ja": ["～をさく", "破る", "割る"],
 		"en": ["to tear", "to break"],
 		"ru": ["рвать", "ломать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -5698,7 +5698,7 @@
 		"ja": ["～をさく", "破る", "割る"],
 		"en": ["to tear", "to break"],
 		"ru": ["рвать", "ломать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{ "lemma": "nanu", "ja": ["顔"], "en": ["face"], "ru": ["лицо"], "poses": ["n"], "frequency": 1 },
@@ -5723,7 +5723,7 @@
 		"ja": ["～に頬ずりする"],
 		"en": ["to rub cheeks against ~"],
 		"ru": ["тереть щёки о ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -5796,7 +5796,7 @@
 		"ja": ["～をすする"],
 		"en": ["to slurp ~"],
 		"ru": ["сёрбать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -5804,7 +5804,7 @@
 		"ja": ["木"],
 		"en": ["tree"],
 		"ru": ["дерево"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 160
 	},
 	{
@@ -5836,7 +5836,7 @@
 		"ja": ["薪をとる"],
 		"en": ["to gather firewood"],
 		"ru": ["собирать дрова"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 161
 	},
 	{
@@ -5900,7 +5900,7 @@
 		"ja": ["～を聞く"],
 		"en": ["to listen to ~"],
 		"ru": ["слушать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 36
 	},
 	{
@@ -5916,7 +5916,7 @@
 		"ja": ["～を聞きたがる"],
 		"en": ["to want to listen to ~"],
 		"ru": ["хотеть слушать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -5948,7 +5948,7 @@
 		"ja": ["～を隠す"],
 		"en": ["to hide ~"],
 		"ru": ["прятать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -5956,7 +5956,7 @@
 		"ja": ["～を見る"],
 		"en": ["to see ~"],
 		"ru": ["видеть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 145
 	},
 	{
@@ -5964,7 +5964,7 @@
 		"ja": ["～を見たい"],
 		"en": ["to want to see ~"],
 		"ru": ["хотеть увидеть ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -6004,7 +6004,7 @@
 		"ja": ["起きる"],
 		"en": ["to wake up"],
 		"ru": ["просыпаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 53
 	},
 	{
@@ -6012,7 +6012,7 @@
 		"ja": ["～をまく"],
 		"en": ["to scatter ~"],
 		"ru": ["разбрасывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -6020,7 +6020,7 @@
 		"ja": ["～をしゃぶる"],
 		"en": ["to suck on ~"],
 		"ru": ["сосать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -6269,7 +6269,7 @@
 		"ja": ["～に祈る"],
 		"en": ["to pray to ~"],
 		"ru": ["молиться ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -6301,7 +6301,7 @@
 		"ja": ["転ぶ"],
 		"en": ["to fall"],
 		"ru": ["упасть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 47
 	},
 	{
@@ -6309,7 +6309,7 @@
 		"ja": ["～を落とす"],
 		"en": ["to drop ~"],
 		"ru": ["уронить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 11
 	},
 	{
@@ -6317,7 +6317,7 @@
 		"ja": ["足りない"],
 		"en": ["insufficient"],
 		"ru": ["недостаточно"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 5
 	},
 	{
@@ -6365,7 +6365,7 @@
 		"ja": ["小さい"],
 		"en": ["small"],
 		"ru": ["маленький"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 30
 	},
 	{
@@ -6486,7 +6486,7 @@
 		"ja": ["～を敬う"],
 		"en": ["to respect ~"],
 		"ru": ["уважать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -6494,7 +6494,7 @@
 		"ja": ["年配である"],
 		"en": ["to be elderly"],
 		"ru": ["быть пожилым"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -6510,7 +6510,7 @@
 		"ja": ["行く"],
 		"en": ["to go"],
 		"ru": ["идти"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 17
 	},
 	{
@@ -6518,7 +6518,7 @@
 		"ja": ["行く"],
 		"en": ["to go"],
 		"ru": ["идти"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 66
 	},
 	{
@@ -6526,7 +6526,7 @@
 		"ja": ["行くこと"],
 		"en": ["the act of going"],
 		"ru": ["путь"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 12
 	},
 	{
@@ -6542,7 +6542,7 @@
 		"ja": ["起きる"],
 		"en": ["to wake up"],
 		"ru": ["проснуться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -6566,7 +6566,7 @@
 		"ja": ["歩き回る", "旅をする"],
 		"en": ["to walk around", "to travel"],
 		"ru": ["гулять", "путешествовать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -6582,7 +6582,7 @@
 		"ja": ["～を数える"],
 		"en": ["to count ~"],
 		"ru": ["считать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -6598,7 +6598,7 @@
 		"ja": ["～をほどく"],
 		"en": ["to untie ~"],
 		"ru": ["развязать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -6614,7 +6614,7 @@
 		"ja": ["良い", "美しい", "健康である"],
 		"en": ["good", "beautiful", "healthy"],
 		"ru": ["хороший", "красивый", "здоровый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 69
 	},
 	{
@@ -6646,7 +6646,7 @@
 		"ja": ["古い"],
 		"en": ["old"],
 		"ru": ["старый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 7
 	},
 	{
@@ -6694,7 +6694,7 @@
 		"ja": ["赤い"],
 		"en": ["red"],
 		"ru": ["красный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 15
 	},
 	{
@@ -6710,7 +6710,7 @@
 		"ja": ["燃える"],
 		"en": ["to burn"],
 		"ru": ["гореть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -6718,7 +6718,7 @@
 		"ja": ["～を探す"],
 		"en": ["to search for ~"],
 		"ru": ["искать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 23
 	},
 	{
@@ -6750,7 +6750,7 @@
 		"ja": ["～を通す"],
 		"en": ["to pass through ~"],
 		"ru": ["проходить через ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -6766,7 +6766,7 @@
 		"ja": ["ぶっぶっと音を立てる"],
 		"en": ["to make a bubbling sound"],
 		"ru": ["издавать пузырящийся звук"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -6774,7 +6774,7 @@
 		"ja": ["～を持ち上げる"],
 		"en": ["to lift ~"],
 		"ru": ["поднимать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -6854,7 +6854,7 @@
 		"ja": ["引っ張る"],
 		"en": ["to pull"],
 		"ru": ["тянуть"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -6862,7 +6862,7 @@
 		"ja": ["引っ張る"],
 		"en": ["to pull"],
 		"ru": ["тянуть"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -6878,7 +6878,7 @@
 		"ja": ["遊ぶ", "遊び", "歌", "踊り"],
 		"en": ["to play", "play", "song", "dance"],
 		"ru": ["играть", "игра", "песня", "танец"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 52
 	},
 	{
@@ -6886,7 +6886,7 @@
 		"ja": ["～を遊ばせる"],
 		"en": ["to let ~ play"],
 		"ru": ["позволить ~ играть"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -6910,7 +6910,7 @@
 		"ja": ["終える"],
 		"en": ["to finish"],
 		"ru": ["заканчивать"],
-		"poses": ["vi", "auxv"],
+		"poses": ["vt", "auxv"],
 		"frequency": 36
 	},
 	{
@@ -6934,7 +6934,7 @@
 		"ja": ["腰をかがめる"],
 		"en": ["to bend the waist"],
 		"ru": ["согнуть поясницу"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -7022,7 +7022,7 @@
 		"ja": ["～を買う"],
 		"en": ["to buy ~"],
 		"ru": ["купить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 7
 	},
 	{
@@ -7070,7 +7070,7 @@
 		"ja": ["帰る", "戻る"],
 		"en": ["to return"],
 		"ru": ["возвращаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 39
 	},
 	{
@@ -7078,7 +7078,7 @@
 		"ja": ["帰る", "戻る"],
 		"en": ["to return"],
 		"ru": ["возвращаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 14
 	},
 	{
@@ -7086,7 +7086,7 @@
 		"ja": ["立つ"],
 		"en": ["to stand"],
 		"ru": ["стоять"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -7094,7 +7094,7 @@
 		"ja": ["立てる"],
 		"en": ["to stand up"],
 		"ru": ["встать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -7118,7 +7118,7 @@
 		"ja": ["やわらかい"],
 		"en": ["soft"],
 		"ru": ["мягкий"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -7134,7 +7134,7 @@
 		"ja": ["～を倒す", "崩す"],
 		"en": ["to knock down", "to collapse"],
 		"ru": ["сбить", "обрушить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 5
 	},
 	{
@@ -7214,7 +7214,7 @@
 		"ja": ["年下である"],
 		"en": ["younger"],
 		"ru": ["младший"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 74
 	},
 	{
@@ -7238,7 +7238,7 @@
 		"ja": ["大きい"],
 		"en": ["big"],
 		"ru": ["большой"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 99
 	},
 	{
@@ -7246,7 +7246,7 @@
 		"ja": ["大きい"],
 		"en": ["big"],
 		"ru": ["большой"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -7270,7 +7270,7 @@
 		"ja": ["小さい"],
 		"en": ["small"],
 		"ru": ["маленький"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 85
 	},
 	{
@@ -7351,7 +7351,7 @@
 		"ja": ["焼く"],
 		"en": ["to grill"],
 		"ru": ["жарить"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 24
 	},
 	{
@@ -7359,7 +7359,7 @@
 		"ja": ["焼く"],
 		"en": ["to grill"],
 		"ru": ["жарить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -7383,7 +7383,7 @@
 		"ja": ["登る"],
 		"en": ["to climb"],
 		"ru": ["подниматься"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 5
 	},
 	{
@@ -7391,7 +7391,7 @@
 		"ja": ["登る"],
 		"en": ["to climb"],
 		"ru": ["подниматься"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 222
 	},
 	{
@@ -7415,7 +7415,7 @@
 		"ja": ["～を開く"],
 		"en": ["to open ~"],
 		"ru": ["открывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -7472,7 +7472,7 @@
 		"ja": ["～を着る"],
 		"en": ["to wear ~"],
 		"ru": ["носить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 29
 	},
 	{
@@ -7480,7 +7480,7 @@
 		"ja": ["笑う"],
 		"en": ["to laugh"],
 		"ru": ["смеяться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -7528,7 +7528,7 @@
 		"ja": ["～を束ねる"],
 		"en": ["to bundle ~"],
 		"ru": ["связывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -7544,7 +7544,7 @@
 		"ja": ["山菜を取る"],
 		"en": ["to collect mountain vegetables"],
 		"ru": ["собирать горные овощи"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -7552,7 +7552,7 @@
 		"ja": ["～をはがす"],
 		"en": ["to peel ~"],
 		"ru": ["снимать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -7560,7 +7560,7 @@
 		"ja": ["吠える"],
 		"en": ["to bark"],
 		"ru": ["лаять"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 7
 	},
 	{
@@ -7568,7 +7568,7 @@
 		"ja": ["寒く感じる"],
 		"en": ["to feel cold"],
 		"ru": ["чувствовать холод"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -7576,7 +7576,7 @@
 		"ja": ["～をはがず"],
 		"en": ["to peel ~"],
 		"ru": ["снимать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 33
 	},
 	{
@@ -7608,7 +7608,7 @@
 		"ja": ["目を覚ます"],
 		"en": ["to wake up"],
 		"ru": ["проснуться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -7616,7 +7616,7 @@
 		"ja": ["眠る"],
 		"en": ["to sleep"],
 		"ru": ["спать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 119
 	},
 	{
@@ -7632,7 +7632,7 @@
 		"ja": ["ひどく眠い"],
 		"en": ["extremely sleepy"],
 		"ru": ["очень сонный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -7688,7 +7688,7 @@
 		"ja": ["働く", "仕事"],
 		"en": ["to work", "job"],
 		"ru": ["работать", "работа"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 0
 	},
 	{
@@ -7712,7 +7712,7 @@
 		"ja": ["上陸する"],
 		"en": ["to land"],
 		"ru": ["высаживаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -7745,7 +7745,7 @@
 		"ja": ["恋歌を歌う", "恋歌"],
 		"en": ["to sing a love song", "love song"],
 		"ru": ["петь любовную песню", "любовная песня"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 0
 	},
 	{
@@ -7769,7 +7769,7 @@
 		"ja": ["警戒する"],
 		"en": ["to be cautious"],
 		"ru": ["быть осторожным"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -7777,7 +7777,7 @@
 		"ja": ["居をかまえる"],
 		"en": ["to settle"],
 		"ru": ["поселиться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -7785,7 +7785,7 @@
 		"ja": ["一人で遊ぶ"],
 		"en": ["to play alone"],
 		"ru": ["играть одному"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -7793,7 +7793,7 @@
 		"ja": ["閉まる"],
 		"en": ["to close"],
 		"ru": ["закрыться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -7833,7 +7833,7 @@
 		"ja": ["上陸する"],
 		"en": ["to land"],
 		"ru": ["высаживаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 4
 	},
 	{
@@ -7849,7 +7849,7 @@
 		"ja": ["閉まる"],
 		"en": ["to close"],
 		"ru": ["закрываться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -7897,7 +7897,7 @@
 		"ja": ["上陸する"],
 		"en": ["to land"],
 		"ru": ["высаживаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 83
 	},
 	{
@@ -7905,7 +7905,7 @@
 		"ja": ["陸に上げる"],
 		"en": ["to bring ashore"],
 		"ru": ["выводить на берег"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -7929,7 +7929,7 @@
 		"ja": ["激しい"],
 		"en": ["intense"],
 		"ru": ["интенсивный"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 5
 	},
 	{
@@ -8041,7 +8041,7 @@
 		"ja": ["下りる"],
 		"en": ["to descend"],
 		"ru": ["спускаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -8049,7 +8049,7 @@
 		"ja": ["～をかける"],
 		"en": ["to hang ~"],
 		"ru": ["повесить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 5
 	},
 	{
@@ -8057,7 +8057,7 @@
 		"ja": ["利口である"],
 		"en": ["to be smart"],
 		"ru": ["быть умным"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 0
 	},
 	{
@@ -8073,7 +8073,7 @@
 		"ja": ["死ぬ"],
 		"en": ["to die"],
 		"ru": ["умирать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 54
 	},
 	{
@@ -8081,7 +8081,7 @@
 		"ja": ["～を押しずらす"],
 		"en": ["to push and slide ~"],
 		"ru": ["толкать и скользить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -8089,7 +8089,7 @@
 		"ja": ["～を殺す"],
 		"en": ["to kill ~"],
 		"ru": ["убивать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 42
 	},
 	{
@@ -8105,7 +8105,7 @@
 		"ja": ["下りる"],
 		"en": ["to descend"],
 		"ru": ["спускаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -8113,7 +8113,7 @@
 		"ja": ["思う", "心"],
 		"en": ["to think", "heart"],
 		"ru": ["думать", "сердце"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 26
 	},
 	{
@@ -8121,7 +8121,7 @@
 		"ja": ["心が穏やかである"],
 		"en": ["to be calm"],
 		"ru": ["быть спокойным"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 5
 	},
 	{
@@ -8161,7 +8161,7 @@
 		"ja": ["下りる"],
 		"en": ["to descend"],
 		"ru": ["спускаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 25
 	},
 	{
@@ -8169,7 +8169,7 @@
 		"ja": ["～を下す"],
 		"en": ["to lower ~"],
 		"ru": ["опускать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 59
 	},
 	{
@@ -8185,7 +8185,7 @@
 		"ja": ["～をむしる", "ちぎる"],
 		"en": ["to pluck ~", "to tear ~"],
 		"ru": ["щипать ~", "рвать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -8209,7 +8209,7 @@
 		"ja": ["上る"],
 		"en": ["to ascend"],
 		"ru": ["подниматься"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -8217,7 +8217,7 @@
 		"ja": ["上る"],
 		"en": ["to ascend"],
 		"ru": ["подниматься"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 6
 	},
 	{
@@ -8225,7 +8225,7 @@
 		"ja": ["上る"],
 		"en": ["to ascend"],
 		"ru": ["подниматься"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 10
 	},
 	{
@@ -8233,7 +8233,7 @@
 		"ja": ["～をむしる", "ちぎる"],
 		"en": ["to pluck ~", "to tear ~"],
 		"ru": ["щипать ~", "рвать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -8257,7 +8257,7 @@
 		"ja": ["～を飲み込む"],
 		"en": ["to swallow ~"],
 		"ru": ["глотать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -8297,7 +8297,7 @@
 		"ja": ["～を運ぶ"],
 		"en": ["to carry ~"],
 		"ru": ["нести ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 5
 	},
 	{
@@ -8305,7 +8305,7 @@
 		"ja": ["砥石"],
 		"en": ["whetstone"],
 		"ru": ["точильный камень"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 7
 	},
 	{
@@ -8353,7 +8353,7 @@
 		"ja": ["～を飲み込む"],
 		"en": ["to swallow ~"],
 		"ru": ["глотать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -8401,7 +8401,7 @@
 		"ja": ["凍る"],
 		"en": ["to freeze"],
 		"ru": ["замерзать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 13
 	},
 	{
@@ -8417,7 +8417,7 @@
 		"ja": ["～を育てる"],
 		"en": ["to raise ~"],
 		"ru": ["воспитывать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 66
 	},
 	{
@@ -8465,7 +8465,7 @@
 		"ja": ["～を曲げる"],
 		"en": ["to bend ~"],
 		"ru": ["сгибать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -8473,7 +8473,7 @@
 		"ja": ["～を曲げる"],
 		"en": ["to bend ~"],
 		"ru": ["сгибать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 0
 	},
 	{
@@ -8505,7 +8505,7 @@
 		"ja": ["沖へでる"],
 		"en": ["to head offshore"],
 		"ru": ["выйти в открытое море"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{
@@ -8521,7 +8521,7 @@
 		"ja": ["承知する"],
 		"en": ["to agree"],
 		"ru": ["соглашаться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -8545,7 +8545,7 @@
 		"ja": ["～を立てる"],
 		"en": ["to stand ~ up"],
 		"ru": ["ставить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 13
 	},
 	{
@@ -8553,7 +8553,7 @@
 		"ja": ["～を立てる"],
 		"en": ["to stand ~ up"],
 		"ru": ["ставить ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -8561,7 +8561,7 @@
 		"ja": ["座る"],
 		"en": ["to sit"],
 		"ru": ["сидеть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
 	},
 	{
@@ -8569,7 +8569,7 @@
 		"ja": ["座る"],
 		"en": ["to sit"],
 		"ru": ["сидеть"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 7
 	},
 	{
@@ -8633,7 +8633,7 @@
 		"ja": ["がわかる"],
 		"en": ["to understand"],
 		"ru": ["понимать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 19
 	},
 	{
@@ -8641,7 +8641,7 @@
 		"ja": ["がわかる"],
 		"en": ["to understand"],
 		"ru": ["понимать"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -8668,39 +8668,361 @@
 		"poses": ["n"],
 		"frequency": 0
 	},
+	{ "lemma": "cokay", "frequency": 32 },
+	{ "lemma": "itaku", "frequency": 20 },
 	{
-		"lemma": "he",
-		"ja": ["頭"],
-		"en": ["head"],
-		"ru": ["голова"],
-		"poses": ["parti"],
-		"frequency": 24
+		"lemma": "po",
+		"ja": ["子", "子供"],
+		"en": ["child"],
+		"ru": ["ребенок"],
+		"poses": ["n"],
+		"frequency": 38
 	},
-	{ "lemma": "heta", "frequency": 4 },
+	{ "lemma": "=hci", "frequency": 18 },
 	{
-		"lemma": "henpara",
-		"ja": ["いつ"],
-		"en": ["when"],
-		"ru": ["когда"],
-		"poses": ["adv", "adv"],
-		"frequency": 7,
-		"cognates": ["hempara", "hempara"]
+		"lemma": "opista",
+		"ja": ["すべて"],
+		"en": ["all"],
+		"ru": ["всё"],
+		"poses": ["adv"],
+		"frequency": 18,
+		"cognates": ["opitta", "opitta"]
 	},
 	{
-		"lemma": "kunine",
-		"ja": ["～するように"],
-		"en": ["to do so", "in order to"],
-		"ru": ["чтобы сделать так"],
+		"lemma": "ci=",
+		"ja": ["私たちが", "神の一人称"],
+		"en": ["we", "us (divine)"],
+		"ru": ["мы (божественное)"],
+		"poses": ["pfx", "v"],
+		"frequency": 17
+	},
+	{
+		"lemma": "manuy",
+		"ja": ["という", "そうだ"],
+		"en": ["called", "it seems"],
+		"ru": ["называется", "кажется"],
+		"poses": ["auxv"],
+		"frequency": 2388
+	},
+	{
+		"lemma": "ki",
+		"ja": ["ものを"],
+		"en": ["thing"],
+		"ru": ["вещь"],
+		"poses": ["v"],
+		"frequency": 38
+	},
+	{ "lemma": "porono", "frequency": 16 },
+	{ "lemma": "pateki", "frequency": 15 },
+	{
+		"lemma": "sonko",
+		"ja": ["便り", "知らせ", "手紙", "伝言", "言伝"],
+		"en": ["news", "letter", "message"],
+		"ru": ["новость", "письмо", "сообщение"],
+		"poses": ["n"],
+		"frequency": 14
+	},
+	{ "lemma": "iani", "frequency": 12 },
+	{ "lemma": "kanpi", "frequency": 16 },
+	{ "lemma": "cep", "ja": ["魚"], "en": ["fish"], "ru": ["рыба"], "poses": ["n"], "frequency": 10 },
+	{
+		"lemma": "uneno",
+		"ja": ["そっくり", "互いに似ている", "同じく"],
+		"en": ["identical", "similar to each other"],
+		"ru": ["одинаковые", "похожи друг на друга"],
+		"frequency": 9
+	},
+	{
+		"lemma": "nu",
+		"ja": ["〜を聞く", "目"],
+		"en": ["to listen to", "eye"],
+		"ru": ["слушать", "глаз"],
+		"poses": ["v", "root"],
+		"frequency": 14
+	},
+	{ "lemma": "monasno", "frequency": 8 },
+	{
+		"lemma": "kikanay",
+		"ja": ["元気だ"],
+		"en": ["to be healthy"],
+		"ru": ["быть здоровым"],
+		"frequency": 8
+	},
+	{ "lemma": "sahne", "frequency": 8 },
+	{
+		"lemma": "anokay",
+		"ja": [
+			"あなた",
+			"参考　asinuma",
+			"不定",
+			"何か",
+			"私たち",
+			"尊敬の二人称",
+			"誰か",
+			"人",
+			"包括的一人称複数",
+			"我々"
+		],
+		"en": ["you (formal)", "someone", "we"],
+		"ru": ["вы (уважительное)", "кто-то", "мы"],
+		"poses": ["pron"],
+		"frequency": 8
+	},
+	{ "lemma": "bagunke", "frequency": 7 },
+	{ "lemma": "cikin", "frequency": 7 },
+	{ "lemma": "uma", "frequency": 27 },
+	{
+		"lemma": "peko",
+		"ja": ["牛"],
+		"en": ["cow"],
+		"ru": ["корова"],
+		"poses": ["n"],
+		"frequency": 6
+	},
+	{ "lemma": "mauka", "frequency": 6 },
+	{
+		"lemma": "pa",
+		"ja": ["口", "頭", "年"],
+		"en": ["mouth", "head", "year"],
+		"ru": ["рот", "голова", "год"],
+		"poses": ["n", "adv", "v", "auxv", "sfx", "root"],
+		"frequency": 16
+	},
+	{ "lemma": "seraroka", "frequency": 5 },
+	{ "lemma": "neciki", "frequency": 5 },
+	{ "lemma": "go", "frequency": 5 },
+	{
+		"lemma": "pakno",
+		"ja": ["～まで", "並外れた", "～ほど", "これほど", "～くらい"],
+		"en": ["up to ~", "to the extent of ~"],
+		"ru": ["до ~", "вплоть до ~"],
+		"poses": ["adv"],
+		"frequency": 8
+	},
+	{ "lemma": "nure", "frequency": 5 },
+	{ "lemma": "ucakasno", "frequency": 4 },
+	{ "lemma": "ni", "ja": ["木"], "en": ["tree"], "ru": ["дерево"], "poses": ["n"], "frequency": 6 },
+	{ "lemma": "otasan", "frequency": 4 },
+	{
+		"lemma": "oruspe",
+		"ja": ["～の事柄", "～の噂", "～の事", "～の話"],
+		"en": ["matter of ~", "rumor of ~", "story of ~"],
+		"ru": ["дело о ~", "слух о ~", "история о ~"],
+		"poses": ["n"],
+		"frequency": 7
+	},
+	{
+		"lemma": "te",
+		"ja": ["ここ"],
+		"en": ["here"],
+		"ru": ["здесь"],
+		"poses": ["n"],
+		"frequency": 14
+	},
+	{ "lemma": "woya", "frequency": 4 },
+	{
+		"lemma": "tup",
+		"ja": ["二つ", "二人", "二匹"],
+		"en": ["two (things/people/animals)"],
+		"ru": ["два (объекта/человека/животных)"],
+		"poses": ["num"],
+		"frequency": 5
+	},
+	{
+		"lemma": "tere",
+		"ja": ["♪テレながら待つ"],
+		"en": ["to wait shyly"],
+		"ru": ["ждать застенчиво"],
+		"frequency": 3
+	},
+	{ "lemma": "co", "frequency": 3 },
+	{ "lemma": "cornaya", "frequency": 3 },
+	{ "lemma": "recka", "frequency": 3 },
+	{ "lemma": "tutekose", "frequency": 3 },
+	{ "lemma": "toko", "frequency": 12 },
+	{
+		"lemma": "no",
+		"ja": ["-noを参照"],
+		"en": ["see -no"],
+		"ru": ["см. -no"],
+		"poses": ["sfx"],
+		"frequency": 11
+	},
+	{
+		"lemma": "tanpa",
+		"ja": ["本年", "今年"],
+		"en": ["this year"],
+		"ru": ["этот год"],
+		"poses": ["n"],
+		"frequency": 3
+	},
+	{ "lemma": "rorey", "frequency": 3 },
+	{
+		"lemma": "caca",
+		"ja": ["鋸で切る"],
+		"en": ["to saw"],
+		"ru": ["пилить"],
+		"poses": ["v", "n"],
 		"frequency": 3
 	},
 	{
-		"lemma": "wo",
-		"ja": ["ウォ（親指と人差し指を反対に伸ばして測る長さ", "アイヌ尺", "ウォで測る"],
-		"en": ["wo (Ainu traditional length, span of thumb and forefinger)"],
-		"ru": ["во (традиционная длина айнов, расстояние между большим и указательным пальцем)"],
+		"lemma": "mo",
+		"ja": ["静かだ", "静けさ"],
+		"en": ["quiet", "silence"],
+		"ru": ["тихий", "тишина"],
+		"frequency": 7
+	},
+	{ "lemma": "taronzi", "frequency": 3 },
+	{
+		"lemma": "hetuku",
+		"ja": [
+			"生まれる",
+			"昇る",
+			"生える",
+			"出て来る",
+			"芽を吹く",
+			"輝き出る",
+			"伸びる",
+			"射し出づる",
+			"差し始める",
+			"出る",
+			"生長する",
+			"芽が出る",
+			"顔を出す",
+			"頭を出す"
+		],
+		"en": ["to be born", "to rise", "to sprout", "to emerge"],
+		"ru": ["родиться", "подниматься", "пускать ростки", "появляться"],
+		"poses": ["v"],
 		"frequency": 3
 	},
-	{ "lemma": "h", "frequency": 12 },
+	{ "lemma": "spa", "frequency": 3 },
+	{ "lemma": "tokyo", "frequency": 3 },
+	{ "lemma": "ihoku", "frequency": 3 },
+	{ "lemma": "en", "ja": ["～へ"], "en": ["to ~"], "ru": ["к ~"], "frequency": 6 },
+	{
+		"lemma": "i",
+		"ja": ["意味的に目的語を補い", "それ", "tranverb}}を{{intrverb}}化する"],
+		"en": ["it (object complement)", "to transform"],
+		"ru": ["оно (дополнение объекта)", "преобразовывать"],
+		"poses": ["pfx"],
+		"frequency": 15
+	},
+	{ "lemma": "naibuci", "frequency": 3 },
+	{ "lemma": "=", "frequency": 6 },
+	{
+		"lemma": "nuye",
+		"ja": ["彫る", "描く", "書く", "記す", "入れ墨をする"],
+		"en": ["to carve", "to draw", "to write", "to tattoo"],
+		"ru": ["вырезать", "рисовать", "писать", "делать татуировку"],
+		"frequency": 12
+	},
+	{
+		"lemma": "y",
+		"ja": ["その間に挿入される"],
+		"en": ["inserted in between"],
+		"ru": ["вставляется между"],
+		"frequency": 4
+	},
+	{ "lemma": "ki=", "frequency": 3 },
+	{
+		"lemma": "sinep",
+		"ja": ["一つ", "一人", "一頭"],
+		"en": ["one (thing/person/animal)"],
+		"ru": ["один (объект/человек/животное)"],
+		"poses": ["num"],
+		"frequency": 4
+	},
+	{
+		"lemma": "hoko",
+		"ja": ["焚いた火"],
+		"en": ["kindled fire"],
+		"ru": ["разожженный огонь"],
+		"frequency": 3
+	},
+	{ "lemma": "danilka", "frequency": 3 },
+	{ "lemma": "kesanto", "frequency": 3 },
+	{ "lemma": "isra", "poses": ["v"], "frequency": 2, "cognates": ["ikra"] },
+	{ "lemma": "ainu", "frequency": 2 },
+	{ "lemma": "cipiya", "frequency": 2 },
+	{ "lemma": "nte", "frequency": 2 },
+	{ "lemma": "wenokay", "frequency": 2 },
+	{ "lemma": "mona", "frequency": 2 },
+	{
+		"lemma": "keta",
+		"ja": ["星"],
+		"en": ["star"],
+		"ru": ["звезда"],
+		"poses": ["n"],
+		"frequency": 3,
+		"cognates": ["keta"],
+		"noncognates": ["nociw"]
+	},
+	{ "lemma": "yoponi", "frequency": 2 },
+	{
+		"lemma": "pak",
+		"ja": ["～ほど～ほどの"],
+		"en": ["as much as ~", "to the extent of ~"],
+		"ru": ["настолько как ~", "в мере ~"],
+		"frequency": 2
+	},
+	{ "lemma": "korsakov", "frequency": 2 },
+	{ "lemma": "etokota", "frequency": 2 },
+	{ "lemma": "minseeshoo", "frequency": 2 },
+	{ "lemma": "yki", "frequency": 2 },
+	{
+		"lemma": "iwanke",
+		"ja": ["達者である", "元気だ", "健康だ"],
+		"en": ["to be healthy", "to be well"],
+		"ru": ["быть здоровым", "чувствовать себя хорошо"],
+		"poses": ["v"],
+		"frequency": 2
+	},
+	{ "lemma": "hospi", "frequency": 2 },
+	{ "lemma": "utuyaskara", "frequency": 2 },
+	{ "lemma": "hakodate", "frequency": 2 },
+	{ "lemma": "sisratoka", "frequency": 2 },
+	{ "lemma": "ramurahkino", "frequency": 2 },
+	{ "lemma": "iyuni", "frequency": 2 },
+	{
+		"lemma": "si",
+		"ja": ["糞", "大便", "ウンチ"],
+		"en": ["feces", "excrement"],
+		"ru": ["кал", "испражнения"],
+		"poses": ["n", "root"],
+		"frequency": 14
+	},
+	{
+		"lemma": "ra",
+		"ja": ["下下の方低い所"],
+		"en": ["lower place", "beneath"],
+		"ru": ["нижнее место", "внизу"],
+		"frequency": 3
+	},
+	{ "lemma": "dobukiy", "frequency": 2 },
+	{ "lemma": "cukita", "frequency": 2 },
+	{ "lemma": "tunnayca", "frequency": 2 },
+	{ "lemma": "ariksandoru", "frequency": 2 },
+	{ "lemma": "kusunkotan", "frequency": 2 },
+	{ "lemma": "hetane", "frequency": 6 },
+	{
+		"lemma": "may",
+		"ja": ["気持ちがいい響き"],
+		"en": ["pleasant sound"],
+		"ru": ["приятный звук"],
+		"poses": ["n"],
+		"frequency": 2
+	},
+	{
+		"lemma": "rep",
+		"ja": ["拍子をとる"],
+		"en": ["to keep rhythm"],
+		"ru": ["держать ритм"],
+		"poses": ["n", "v", "num"],
+		"frequency": 3
+	},
+	{ "lemma": "korope", "frequency": 5 },
+	{ "lemma": "usoro", "frequency": 2 },
 	{
 		"lemma": "ohta",
 		"ja": ["～のところに"],
@@ -8710,24 +9032,124 @@
 		"frequency": 435,
 		"cognates": ["or ta"]
 	},
-	{ "lemma": "wahkayki", "frequency": 2 },
 	{
-		"lemma": "p",
-		"ja": ["もの/こと", "-p , -pe も参照"],
-		"en": ["thing", "matter"],
-		"ru": ["вещь", "дело"],
-		"poses": ["sfx"],
+		"lemma": "somo",
+		"ja": ["いや", "～しない", "～ない", "いいえ"],
+		"en": ["no", "not ~", "to not do ~"],
+		"ru": ["нет", "не ~", "не делать ~"],
+		"poses": ["adv"],
+		"frequency": 8
+	},
+	{
+		"lemma": "nanko",
+		"ja": ["…だろう"],
+		"en": ["probably"],
+		"ru": ["вероятно"],
+		"poses": ["auxv"],
 		"frequency": 6
 	},
+	{ "lemma": "sta", "frequency": 2 },
 	{
-		"lemma": "henpah",
-		"ja": ["いくつ"],
-		"en": ["how many"],
-		"ru": ["сколько"],
-		"poses": ["adv", "adv"],
-		"frequency": 5,
-		"cognates": ["hempak", "hempak"]
+		"lemma": "urenkare",
+		"ja": ["全部揃える～を決める", "～解決する"],
+		"en": ["to assemble everything", "to resolve ~"],
+		"ru": ["собрать всё", "разрешить ~"],
+		"frequency": 2
 	},
+	{ "lemma": "=ci", "frequency": 2 },
+	{ "lemma": "monitahno", "frequency": 2 },
+	{
+		"lemma": "tekoro",
+		"ja": ["とても"],
+		"en": ["very"],
+		"ru": ["очень"],
+		"poses": ["adv"],
+		"frequency": 2,
+		"noncognates": ["earkinne"]
+	},
+	{
+		"lemma": "anki",
+		"ja": ["もう少しで～するところだった"],
+		"en": ["almost about to ~"],
+		"ru": ["почти собирался ~"],
+		"frequency": 3
+	},
+	{ "lemma": "potora", "frequency": 2 },
+	{ "lemma": "cup", "ja": ["日"], "en": ["day"], "ru": ["день"], "poses": ["n"], "frequency": 3 },
+	{ "lemma": "ponciku", "frequency": 2 },
+	{ "lemma": "siska", "frequency": 2 },
+	{ "lemma": "ikasiw", "frequency": 2 },
+	{ "lemma": "ukopakari", "frequency": 2 },
+	{
+		"lemma": "utari",
+		"ja": ["utarの所属形"],
+		"en": ["belonging to utar (people)"],
+		"ru": ["принадлежность утару (люди)"],
+		"poses": ["n"],
+		"frequency": 9
+	},
+	{ "lemma": "seraroko", "frequency": 2 },
+	{ "lemma": "wepekere", "frequency": 2 },
+	{
+		"lemma": "inunuka",
+		"ja": ["人を大事にする"],
+		"en": ["to value people"],
+		"ru": ["ценить людей"],
+		"frequency": 2
+	},
+	{ "lemma": "meroko", "frequency": 2 },
+	{
+		"lemma": "hene",
+		"ja": ["～でも"],
+		"en": ["even if"],
+		"ru": ["даже если"],
+		"poses": ["parti"],
+		"frequency": 9
+	},
+	{
+		"lemma": "yakka",
+		"ja": ["～でも", "～しても"],
+		"en": ["even if", "even though"],
+		"ru": ["даже если", "несмотря на"],
+		"poses": ["parti"],
+		"frequency": 17
+	},
+	{ "lemma": "eki", "frequency": 22 },
+	{ "lemma": "ca", "ja": ["口"], "en": ["mouth"], "ru": ["рот"], "frequency": 2 },
+	{
+		"lemma": "nani",
+		"ja": ["まもなく", "すぐに"],
+		"en": ["soon", "immediately"],
+		"ru": ["скоро", "немедленно"],
+		"poses": ["adv"],
+		"frequency": 21
+	},
+	{
+		"lemma": "irenka",
+		"ja": ["意図", "ルール"],
+		"en": ["intention", "rule"],
+		"ru": ["намерение", "правило"],
+		"poses": ["n"],
+		"frequency": 2
+	},
+	{ "lemma": "in", "frequency": 3 },
+	{ "lemma": "kasiketa", "frequency": 2 },
+	{ "lemma": "okayan", "frequency": 4 },
+	{ "lemma": "ituyaskara", "frequency": 2 },
+	{ "lemma": "in=", "frequency": 3 },
+	{ "lemma": "kestoono", "frequency": 2 },
+	{
+		"lemma": "orowano",
+		"ja": ["それから", "次に", "その後に"],
+		"en": ["after that", "next"],
+		"ru": ["после этого", "затем"],
+		"poses": ["adv"],
+		"frequency": 23
+	},
+	{ "lemma": "h", "frequency": 12 },
+	{ "lemma": "kawarini", "frequency": 2 },
+	{ "lemma": "ikusta", "frequency": 3 },
+	{ "lemma": "man", "frequency": 3 },
 	{
 		"lemma": "kane",
 		"ja": ["様子"],
@@ -8736,40 +9158,176 @@
 		"poses": ["parti", "auxv", "n"],
 		"frequency": 17
 	},
-	{ "lemma": "oro’oo", "frequency": 2 },
 	{
-		"lemma": "orun",
-		"ja": ["～へ"],
-		"en": ["towards ~", "to ~"],
-		"ru": ["в направлении ~", "к ~"],
-		"frequency": 5
+		"lemma": "ke",
+		"ja": ["～の", "前には位置{{noun}}の具体形が来る"],
+		"en": ["of ~", "belonging to ~"],
+		"ru": ["из ~", "принадлежащий ~"],
+		"poses": ["rel"],
+		"frequency": 2
 	},
-	{ "lemma": "kawarini", "frequency": 2 },
-	{ "lemma": "hunpe", "frequency": 13 },
 	{
-		"lemma": "kore",
-		"ja": ["～に与える"],
-		"en": ["to give to ~"],
-		"ru": ["давать ~"],
+		"lemma": "he",
+		"ja": ["頭"],
+		"en": ["head"],
+		"ru": ["голова"],
+		"poses": ["parti"],
+		"frequency": 24
+	},
+	{ "lemma": "hosiki", "frequency": 13 },
+	{
+		"lemma": "sinen",
+		"ja": ["一人"],
+		"en": ["one person"],
+		"ru": ["один человек"],
+		"poses": ["num"],
+		"frequency": 2
+	},
+	{ "lemma": "u", "ja": ["互いに"], "en": ["mutually"], "ru": ["взаимно"], "frequency": 1 },
+	{
+		"lemma": "ci",
+		"ja": ["それそこ自ら"],
+		"en": ["itself", "oneself"],
+		"ru": ["само", "себя"],
+		"poses": ["v"],
+		"frequency": 3
+	},
+	{
+		"lemma": "saranpa",
+		"ja": ["さようなら"],
+		"en": ["goodbye"],
+		"ru": ["прощай"],
+		"poses": ["interj"],
+		"frequency": 2,
+		"cognates": ["sarampa"]
+	},
+	{
+		"lemma": "ye",
+		"ja": ["人が"],
+		"en": ["person"],
+		"ru": ["человек"],
+		"poses": ["v", "n"],
+		"frequency": 3
+	},
+	{
+		"lemma": "o",
+		"ja": ["ある", "～にある", "尻", "付く", "生える", "たくさんある"],
+		"en": ["to exist", "to be at ~", "buttocks", "to stick", "to grow", "to abound"],
+		"ru": [
+			"существовать",
+			"находиться в ~",
+			"ягодицы",
+			"прикрепляться",
+			"расти",
+			"быть в изобилии"
+		],
+		"poses": ["v"],
+		"frequency": 3
+	},
+	{
+		"lemma": "sino",
+		"ja": ["本当の", "本当に"],
+		"en": ["true", "truly"],
+		"ru": ["правда", "по-настоящему"],
+		"poses": ["adv"],
+		"frequency": 16
+	},
+	{
+		"lemma": "sa",
+		"ja": ["前"],
+		"en": ["front"],
+		"ru": ["перед"],
+		"poses": ["n", "root"],
+		"frequency": 7
+	},
+	{
+		"lemma": "uwekari",
+		"ja": ["集う"],
+		"en": ["to gather"],
+		"ru": ["собираться"],
 		"poses": ["v"],
 		"frequency": 1
 	},
-	{ "lemma": "tuura", "frequency": 4 },
-	{ "lemma": "hunke", "frequency": 8 },
 	{
-		"lemma": "us",
-		"ja": ["生える", "消える", "つく"],
-		"en": ["to grow", "to disappear", "to attach"],
-		"ru": ["расти", "исчезать", "прикрепляться"],
+		"lemma": "patek",
+		"ja": ["～だけ", "～ばかり"],
+		"en": ["only", "just"],
+		"ru": ["только", "лишь"],
+		"poses": ["adv"],
+		"frequency": 2
+	},
+	{ "lemma": "pahko", "frequency": 3 },
+	{
+		"lemma": "iku",
+		"ja": ["酒を飲む"],
+		"en": ["to drink alcohol"],
+		"ru": ["пить алкоголь"],
 		"poses": ["v"],
-		"frequency": 9
+		"frequency": 1
 	},
 	{
-		"lemma": "hure",
-		"ja": ["赤い"],
-		"en": ["red"],
-		"ru": ["красный"],
+		"lemma": "ipere",
+		"ja": ["～にものを食べさせる", "たべものを与える", "食事をさせる"],
+		"en": ["to feed ~", "to give food to ~"],
+		"ru": ["кормить ~", "давать еду ~"],
 		"poses": ["v"],
+		"frequency": 29
+	},
+	{ "lemma": "nahta", "frequency": 4 },
+	{
+		"lemma": "ramma",
+		"ja": ["ずっと", "普段から", "相変わらず", "いつも"],
+		"en": ["continuously", "always"],
+		"ru": ["постоянно", "всегда"],
+		"poses": ["adv"],
+		"frequency": 4
+	},
+	{
+		"lemma": "katu",
+		"ja": ["訳", "仕方", "様子", "katの所属形"],
+		"en": ["method", "manner", "way"],
+		"ru": ["способ", "манера", "путь"],
+		"poses": ["n"],
+		"frequency": 2
+	},
+	{
+		"lemma": "uta",
+		"ja": ["杵", "～たち"],
+		"en": ["(plural)"],
+		"ru": ["(множественное число)"],
+		"poses": ["sfx"],
+		"frequency": 1000159,
+		"cognates": ["utar"]
+	},
+	{
+		"lemma": "ho",
+		"ja": ["尻", "腰", "陰部", "陰門"],
+		"en": ["buttocks", "waist", "genitals"],
+		"ru": ["ягодицы", "талия", "гениталии"],
+		"frequency": 5
+	},
+	{
+		"lemma": "pu",
+		"ja": ["蔵"],
+		"en": ["storehouse"],
+		"ru": ["хранилище"],
+		"poses": ["n"],
+		"frequency": 3
+	},
+	{
+		"lemma": "kayki",
+		"ja": ["～も", "も"],
+		"en": ["also"],
+		"ru": ["также"],
+		"poses": ["advp"],
+		"frequency": 59,
+		"noncognates": ["ka"]
+	},
+	{
+		"lemma": "ok",
+		"ja": ["うつむいている", "うなだれている"],
+		"en": ["to look down", "to hang one's head"],
+		"ru": ["опустить голову", "поникнуть"],
 		"frequency": 2
 	},
 	{ "lemma": "ne'anpe", "frequency": 919 },
@@ -8817,15 +9375,6 @@
 		"poses": ["adv"],
 		"frequency": 165,
 		"cognates": ["an ayne"]
-	},
-	{
-		"lemma": "uta",
-		"ja": ["杵", "～たち"],
-		"en": ["(plural)"],
-		"ru": ["(множественное число)"],
-		"poses": ["sfx"],
-		"frequency": 1000159,
-		"cognates": ["utar"]
 	},
 	{
 		"lemma": "hii",
@@ -8890,15 +9439,6 @@
 		"noncognates": ["te ta"]
 	},
 	{
-		"lemma": "kayki",
-		"ja": ["～も", "も"],
-		"en": ["also"],
-		"ru": ["также"],
-		"poses": ["advp"],
-		"frequency": 59,
-		"noncognates": ["ka"]
-	},
-	{
 		"lemma": "makanihi",
 		"ja": ["登ること"],
 		"en": ["to climb"],
@@ -8928,7 +9468,7 @@
 		"ja": ["薪をとる"],
 		"en": ["to gather firewood"],
 		"ru": ["собирать дрова"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 51
 	},
 	{
@@ -9090,7 +9630,7 @@
 		"ja": ["逃げる"],
 		"en": ["to run away"],
 		"ru": ["убегать"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 33
 	},
 	{ "lemma": "oy", "frequency": 33 },
@@ -9106,7 +9646,13 @@
 		"ru": ["почему", "по какой причине"],
 		"frequency": 31
 	},
-	{ "lemma": "asinke", "frequency": 31 },
+	{
+		"lemma": "asinke",
+		"ja": ["を罰金として出す"],
+		"en": ["to impose as a fine"],
+		"ru": ["наложить штраф"],
+		"frequency": 31
+	},
 	{ "lemma": "hankii", "frequency": 31 },
 	{ "lemma": "nuhsu", "frequency": 30 },
 	{ "lemma": "ecikiiki", "frequency": 28 },
@@ -9120,14 +9666,6 @@
 	},
 	{ "lemma": "ciri", "frequency": 28 },
 	{ "lemma": "kooko", "frequency": 28 },
-	{
-		"lemma": "ipere",
-		"ja": ["～にものを食べさせる", "たべものを与える", "食事をさせる"],
-		"en": ["to feed ~", "to give food to ~"],
-		"ru": ["кормить ~", "давать еду ~"],
-		"poses": ["v"],
-		"frequency": 29
-	},
 	{
 		"lemma": "situ",
 		"ja": ["尾根峰つね"],
@@ -9150,7 +9688,7 @@
 		"ja": ["～を見る"],
 		"en": ["to see ~"],
 		"ru": ["смотреть на ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 26
 	},
 	{ "lemma": "sapahkahahcin", "frequency": 26 },
@@ -9208,9 +9746,7 @@
 		"poses": ["adv"],
 		"frequency": 21
 	},
-	{ "lemma": "eki", "frequency": 22 },
 	{ "lemma": "ci'ee", "frequency": 21 },
-	{ "lemma": "uma", "frequency": 27 },
 	{ "lemma": "ha'ii", "frequency": 21 },
 	{ "lemma": "nannahahcin", "frequency": 21 },
 	{ "lemma": "ankisma", "frequency": 20 },
@@ -9223,14 +9759,6 @@
 		"poses": ["n"],
 		"frequency": 20
 	},
-	{
-		"lemma": "nani",
-		"ja": ["まもなく", "すぐに"],
-		"en": ["soon", "immediately"],
-		"ru": ["скоро", "немедленно"],
-		"poses": ["adv"],
-		"frequency": 21
-	},
 	{ "lemma": "wehtaa", "frequency": 20 },
 	{ "lemma": "hawa", "frequency": 20 },
 	{ "lemma": "kotahmarehci", "frequency": 20 },
@@ -9239,19 +9767,11 @@
 	{ "lemma": "tohpa", "frequency": 19 },
 	{ "lemma": "omani", "frequency": 19 },
 	{
-		"lemma": "po",
-		"ja": ["子", "子供"],
-		"en": ["child"],
-		"ru": ["ребенок"],
-		"poses": ["n"],
-		"frequency": 38
-	},
-	{
 		"lemma": "turahci",
 		"ja": ["と連れ立つ"],
 		"en": ["to go with ~"],
 		"ru": ["идти вместе с ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 19
 	},
 	{ "lemma": "uu", "frequency": 19 },
@@ -9292,18 +9812,10 @@
 		"ja": ["食事を作る"],
 		"en": ["to prepare a meal"],
 		"ru": ["готовить еду"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 17
 	},
 	{ "lemma": "iperehci", "frequency": 17 },
-	{
-		"lemma": "nanko",
-		"ja": ["…だろう"],
-		"en": ["probably"],
-		"ru": ["вероятно"],
-		"poses": ["auxv"],
-		"frequency": 6
-	},
 	{
 		"lemma": "asini",
 		"ja": ["厠"],
@@ -9313,7 +9825,13 @@
 	},
 	{ "lemma": "asinihi", "frequency": 17 },
 	{ "lemma": "reskehci", "frequency": 17 },
-	{ "lemma": "haa", "frequency": 17 },
+	{
+		"lemma": "haa",
+		"ja": ["ああ", "はあ"],
+		"en": ["ah", "huh"],
+		"ru": ["ах", "ага"],
+		"frequency": 17
+	},
 	{ "lemma": "ciseta", "frequency": 17 },
 	{ "lemma": "penka'ankuh", "frequency": 17 },
 	{ "lemma": "ene'ani", "frequency": 17 },
@@ -9337,7 +9855,7 @@
 		"ja": ["～を持つ", "抱える"],
 		"en": ["to hold ~", "to carry ~"],
 		"ru": ["держать ~", "нести ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 16
 	},
 	{
@@ -9414,14 +9932,6 @@
 	{ "lemma": "omanu", "frequency": 13 },
 	{ "lemma": "caro'oykihci", "frequency": 13 },
 	{ "lemma": "re'usi", "frequency": 13 },
-	{
-		"lemma": "orowano",
-		"ja": ["それから", "次に", "その後に"],
-		"en": ["after that", "next"],
-		"ru": ["после этого", "затем"],
-		"poses": ["adv"],
-		"frequency": 23
-	},
 	{ "lemma": "kon", "frequency": 13 },
 	{ "lemma": "koore", "frequency": 13 },
 	{ "lemma": "nayne", "frequency": 13 },
@@ -9445,19 +9955,10 @@
 	{ "lemma": "yuhpohohcin", "frequency": 12 },
 	{ "lemma": "ciraa", "frequency": 12 },
 	{ "lemma": "haw'iki", "frequency": 12 },
-	{
-		"lemma": "si",
-		"ja": ["糞", "大便", "ウンチ"],
-		"en": ["feces", "excrement"],
-		"ru": ["кал", "испражнения"],
-		"poses": ["n", "root"],
-		"frequency": 14
-	},
 	{ "lemma": "kaata", "frequency": 12 },
 	{ "lemma": "weeka", "frequency": 12 },
 	{ "lemma": "situ'us", "frequency": 12 },
 	{ "lemma": "keesinta", "frequency": 12 },
-	{ "lemma": "hosiki", "frequency": 13 },
 	{ "lemma": "tunkasapahka", "frequency": 12 },
 	{ "lemma": "ommohohcin", "frequency": 12 },
 	{
@@ -9500,7 +10001,7 @@
 		"ja": ["腹を立てる"],
 		"en": ["to get angry"],
 		"ru": ["сердиться"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 12
 	},
 	{ "lemma": "oyantura", "frequency": 12 },
@@ -9510,6 +10011,7 @@
 	{ "lemma": "etaakara", "frequency": 11 },
 	{ "lemma": "kokarikari", "frequency": 11 },
 	{ "lemma": "ta'ah", "frequency": 11 },
+	{ "lemma": "hunpe", "frequency": 13 },
 	{ "lemma": "ranka'orii", "frequency": 11 },
 	{
 		"lemma": "woro",
@@ -9570,14 +10072,6 @@
 	},
 	{ "lemma": "e'ani", "frequency": 10 },
 	{ "lemma": "naske", "frequency": 10 },
-	{
-		"lemma": "te",
-		"ja": ["ここ"],
-		"en": ["here"],
-		"ru": ["здесь"],
-		"poses": ["n"],
-		"frequency": 14
-	},
 	{ "lemma": "ii'i", "frequency": 10 },
 	{ "lemma": "hanki", "frequency": 10 },
 	{
@@ -9603,14 +10097,6 @@
 	{ "lemma": "kakan", "frequency": 9 },
 	{ "lemma": "ukoykihci", "frequency": 9 },
 	{ "lemma": "hetesuu", "frequency": 9 },
-	{
-		"lemma": "nuye",
-		"ja": ["彫る", "描く", "書く", "記す", "入れ墨をする"],
-		"en": ["to carve", "to draw", "to write", "to tattoo"],
-		"ru": ["вырезать", "рисовать", "писать", "делать татуировку"],
-		"frequency": 12
-	},
-	{ "lemma": "toko", "frequency": 12 },
 	{ "lemma": "a'ii", "frequency": 9 },
 	{ "lemma": "honkoyki", "frequency": 9 },
 	{ "lemma": "kootan", "frequency": 9 },
@@ -9647,6 +10133,14 @@
 	{ "lemma": "yeepe", "frequency": 8 },
 	{ "lemma": "taraa", "frequency": 8 },
 	{ "lemma": "ahupahcihi", "frequency": 8 },
+	{
+		"lemma": "us",
+		"ja": ["生える", "消える", "つく"],
+		"en": ["to grow", "to disappear", "to attach"],
+		"ru": ["расти", "исчезать", "прикрепляться"],
+		"poses": ["v"],
+		"frequency": 9
+	},
 	{ "lemma": "uwas", "frequency": 8 },
 	{ "lemma": "ku'imiyehe", "frequency": 8 },
 	{ "lemma": "pohka", "frequency": 8 },
@@ -9679,14 +10173,6 @@
 	{ "lemma": "kotahmareyan", "frequency": 8 },
 	{ "lemma": "rihpa", "frequency": 8 },
 	{ "lemma": "sii", "frequency": 8 },
-	{
-		"lemma": "i",
-		"ja": ["意味的に目的語を補い", "それ", "tranverb}}を{{intrverb}}化する"],
-		"en": ["it (object complement)", "to transform"],
-		"ru": ["оно (дополнение объекта)", "преобразовывать"],
-		"poses": ["pfx"],
-		"frequency": 15
-	},
 	{ "lemma": "tapa", "frequency": 8 },
 	{
 		"lemma": "onnaykehe",
@@ -9740,7 +10226,7 @@
 		"ja": ["置く"],
 		"en": ["to place"],
 		"ru": ["поместить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 7
 	},
 	{ "lemma": "kaawa", "frequency": 7 },
@@ -9773,6 +10259,7 @@
 		"frequency": 7
 	},
 	{ "lemma": "cah", "frequency": 7 },
+	{ "lemma": "hunke", "frequency": 8 },
 	{ "lemma": "makiriyehe", "frequency": 7 },
 	{ "lemma": "rayahci", "frequency": 7 },
 	{ "lemma": "kuyee", "frequency": 7 },
@@ -9783,7 +10270,7 @@
 		"ja": ["終える"],
 		"en": ["to finish"],
 		"ru": ["закончить"],
-		"poses": ["vi", "auxv"],
+		"poses": ["vt", "auxv"],
 		"frequency": 7
 	},
 	{ "lemma": "tootoo", "frequency": 7 },
@@ -9916,14 +10403,6 @@
 	{ "lemma": "remonimahpo", "frequency": 6 },
 	{ "lemma": "miire", "frequency": 6 },
 	{ "lemma": "saaketa", "frequency": 6 },
-	{
-		"lemma": "sa",
-		"ja": ["前"],
-		"en": ["front"],
-		"ru": ["перед"],
-		"poses": ["n", "root"],
-		"frequency": 7
-	},
 	{ "lemma": "iihii", "frequency": 6 },
 	{ "lemma": "hanneh", "frequency": 6 },
 	{ "lemma": "poye", "frequency": 6 },
@@ -10127,7 +10606,7 @@
 		"ja": ["～を消す"],
 		"en": ["to erase", "to extinguish"],
 		"ru": ["стереть", "потушить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 5
 	},
 	{ "lemma": "heekopo", "frequency": 5 },
@@ -10196,14 +10675,6 @@
 	{ "lemma": "huhteh", "frequency": 4 },
 	{ "lemma": "tunka", "frequency": 4 },
 	{ "lemma": "cahkehe", "frequency": 4 },
-	{
-		"lemma": "ki",
-		"ja": ["ものを"],
-		"en": ["thing"],
-		"ru": ["вещь"],
-		"poses": ["v"],
-		"frequency": 38
-	},
 	{ "lemma": "omanteyne", "frequency": 4 },
 	{
 		"lemma": "ciray",
@@ -10223,7 +10694,7 @@
 		"ja": ["大便する", "大便"],
 		"en": ["to defecate", "feces"],
 		"ru": ["испражняться", "кал"],
-		"poses": ["vt", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 4
 	},
 	{ "lemma": "neyaa", "frequency": 4 },
@@ -10264,7 +10735,6 @@
 		"poses": ["n"],
 		"frequency": 4
 	},
-	{ "lemma": "hetane", "frequency": 6 },
 	{ "lemma": "waawa", "frequency": 4 },
 	{ "lemma": "tusuhci", "frequency": 4 },
 	{ "lemma": "rure'atu", "frequency": 4 },
@@ -10338,23 +10808,9 @@
 	{ "lemma": "niinankorope", "frequency": 4 },
 	{ "lemma": "moromahpoo", "frequency": 4 },
 	{ "lemma": "kante", "frequency": 4 },
-	{
-		"lemma": "ho",
-		"ja": ["尻", "腰", "陰部", "陰門"],
-		"en": ["buttocks", "waist", "genitals"],
-		"ru": ["ягодицы", "талия", "гениталии"],
-		"frequency": 5
-	},
 	{ "lemma": "honikarahcihi", "frequency": 4 },
 	{ "lemma": "neenanko", "frequency": 4 },
 	{ "lemma": "okakara", "frequency": 4 },
-	{
-		"lemma": "mo",
-		"ja": ["静かだ", "静けさ"],
-		"en": ["quiet", "silence"],
-		"ru": ["тихий", "тишина"],
-		"frequency": 7
-	},
 	{ "lemma": "taara", "frequency": 4 },
 	{ "lemma": "pecikahci", "frequency": 4 },
 	{ "lemma": "osakanke", "frequency": 4 },
@@ -10390,14 +10846,6 @@
 	{ "lemma": "kancinine", "frequency": 4 },
 	{ "lemma": "pitahke", "frequency": 4 },
 	{ "lemma": "nukarahcihi", "frequency": 4 },
-	{
-		"lemma": "pa",
-		"ja": ["口", "頭", "年"],
-		"en": ["mouth", "head", "year"],
-		"ru": ["рот", "голова", "год"],
-		"poses": ["n", "adv", "v", "auxv", "sfx", "root"],
-		"frequency": 16
-	},
 	{ "lemma": "roskiyan", "frequency": 4 },
 	{ "lemma": "kopunkante", "frequency": 4 },
 	{ "lemma": "ta'ii", "frequency": 4 },
@@ -10428,7 +10876,6 @@
 	{ "lemma": "konoye", "frequency": 3 },
 	{ "lemma": "kuruu", "frequency": 3 },
 	{ "lemma": "tooto", "frequency": 3 },
-	{ "lemma": "en", "ja": ["～へ"], "en": ["to ~"], "ru": ["к ~"], "frequency": 6 },
 	{ "lemma": "ipecikare", "frequency": 3 },
 	{ "lemma": "sannupitun", "frequency": 3 },
 	{ "lemma": "annukaraha", "frequency": 3 },
@@ -10633,7 +11080,13 @@
 	{ "lemma": "ta'ene", "frequency": 3 },
 	{ "lemma": "ayyayne", "frequency": 3 },
 	{ "lemma": "kohaw'iki", "frequency": 3 },
-	{ "lemma": "apaha", "frequency": 3 },
+	{
+		"lemma": "apaha",
+		"ja": ["が多く使われる"],
+		"en": ["used frequently", "often used"],
+		"ru": ["часто используется"],
+		"frequency": 3
+	},
 	{ "lemma": "e'ee", "frequency": 3 },
 	{ "lemma": "kitayketa", "frequency": 3 },
 	{ "lemma": "cireskee", "frequency": 3 },
@@ -10657,22 +11110,19 @@
 	{ "lemma": "epunte", "frequency": 3 },
 	{ "lemma": "itumunke", "frequency": 3 },
 	{ "lemma": "suhtonke", "frequency": 3 },
-	{ "lemma": "nahta", "frequency": 4 },
 	{ "lemma": "matutah", "frequency": 3 },
-	{
-		"lemma": "nu",
-		"ja": ["〜を聞く", "目"],
-		"en": ["to listen to", "eye"],
-		"ru": ["слушать", "глаз"],
-		"poses": ["v", "root"],
-		"frequency": 14
-	},
 	{ "lemma": "hohpateh", "frequency": 3 },
 	{ "lemma": "acahci", "frequency": 3 },
 	{ "lemma": "nipaapo", "frequency": 3 },
-	{ "lemma": "okayan", "frequency": 4 },
 	{ "lemma": "kayta", "frequency": 3 },
 	{ "lemma": "atusihci", "frequency": 3 },
+	{
+		"lemma": "orun",
+		"ja": ["～へ"],
+		"en": ["towards ~", "to ~"],
+		"ru": ["в направлении ~", "к ~"],
+		"frequency": 5
+	},
 	{ "lemma": "canpo", "frequency": 3 },
 	{ "lemma": "itumunkepe", "frequency": 3 },
 	{ "lemma": "imekihi", "frequency": 3 },
@@ -10797,13 +11247,12 @@
 		"frequency": 3
 	},
 	{ "lemma": "anreske", "frequency": 3 },
-	{ "lemma": "korope", "frequency": 5 },
 	{
 		"lemma": "hunarahci",
 		"ja": ["～を探す"],
 		"en": ["to search for ~"],
 		"ru": ["искать ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 3
 	},
 	{ "lemma": "rikinke", "frequency": 3 },
@@ -10869,7 +11318,6 @@
 	{ "lemma": "omanike", "frequency": 2 },
 	{ "lemma": "ankemahaa", "frequency": 2 },
 	{ "lemma": "otuytura", "frequency": 2 },
-	{ "lemma": "man", "frequency": 3 },
 	{ "lemma": "kiike", "frequency": 2 },
 	{ "lemma": "ekirawa", "frequency": 2 },
 	{ "lemma": "ankamihi", "frequency": 2 },
@@ -10888,6 +11336,15 @@
 	{ "lemma": "ranneeno", "frequency": 2 },
 	{ "lemma": "yuhkihci", "frequency": 2 },
 	{ "lemma": "moymoyehe", "frequency": 2 },
+	{
+		"lemma": "henpah",
+		"ja": ["いくつ"],
+		"en": ["how many"],
+		"ru": ["сколько"],
+		"poses": ["adv", "adv"],
+		"frequency": 5,
+		"cognates": ["hempak", "hempak"]
+	},
 	{ "lemma": "mosiripa", "frequency": 2 },
 	{ "lemma": "rukunpahci", "frequency": 2 },
 	{ "lemma": "muhrunekorohci", "frequency": 2 },
@@ -10918,7 +11375,6 @@
 	{ "lemma": "imokanekoro", "frequency": 2 },
 	{ "lemma": "nospahci", "frequency": 2 },
 	{ "lemma": "episka'ene", "frequency": 2 },
-	{ "lemma": "pahko", "frequency": 3 },
 	{ "lemma": "sumai", "frequency": 2 },
 	{ "lemma": "hohko", "frequency": 2 },
 	{ "lemma": "caytom", "frequency": 2 },
@@ -10977,7 +11433,7 @@
 		"ja": ["目を向ける", "見る"],
 		"en": ["to look at ~"],
 		"ru": ["смотреть на ~"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 2
 	},
 	{ "lemma": "untapiipi", "frequency": 2 },
@@ -11233,7 +11689,6 @@
 		"ru": ["когда ~", "место"],
 		"frequency": 2
 	},
-	{ "lemma": "ikusta", "frequency": 3 },
 	{ "lemma": "e'iworoho", "frequency": 2 },
 	{
 		"lemma": "sumihi",
@@ -11299,6 +11754,15 @@
 	{ "lemma": "niiteh", "frequency": 2 },
 	{ "lemma": "kiikunpe", "frequency": 2 },
 	{ "lemma": "wahkaha", "frequency": 2 },
+	{
+		"lemma": "henpara",
+		"ja": ["いつ"],
+		"en": ["when"],
+		"ru": ["когда"],
+		"poses": ["adv", "adv"],
+		"frequency": 7,
+		"cognates": ["hempara", "hempara"]
+	},
 	{ "lemma": "numare", "frequency": 2 },
 	{ "lemma": "oro'un", "frequency": 2 },
 	{ "lemma": "iciw", "frequency": 2 },
@@ -11334,14 +11798,6 @@
 	{ "lemma": "weyruwa", "frequency": 2 },
 	{ "lemma": "e'iskahci", "frequency": 2 },
 	{ "lemma": "korupus", "frequency": 2 },
-	{
-		"lemma": "ramma",
-		"ja": ["ずっと", "普段から", "相変わらず", "いつも"],
-		"en": ["continuously", "always"],
-		"ru": ["постоянно", "всегда"],
-		"poses": ["adv"],
-		"frequency": 4
-	},
 	{ "lemma": "ohacirunahci", "frequency": 2 },
 	{ "lemma": "ni'atus", "frequency": 2 },
 	{ "lemma": "acikacika", "frequency": 2 },
@@ -11489,7 +11945,6 @@
 	{ "lemma": "yooni'unparee", "frequency": 2 },
 	{ "lemma": "en'eere", "frequency": 2 },
 	{ "lemma": "otaka'ene", "frequency": 2 },
-	{ "lemma": "in", "frequency": 3 },
 	{ "lemma": "uko'anpahci", "frequency": 2 },
 	{ "lemma": "hunpahci", "frequency": 2 },
 	{ "lemma": "sarakewkante", "frequency": 2 },
@@ -11499,14 +11954,6 @@
 	{ "lemma": "ecitokihihcin", "frequency": 2 },
 	{ "lemma": "ku'ekira", "frequency": 2 },
 	{ "lemma": "imokaha", "frequency": 2 },
-	{
-		"lemma": "no",
-		"ja": ["-noを参照"],
-		"en": ["see -no"],
-		"ru": ["см. -no"],
-		"poses": ["sfx"],
-		"frequency": 11
-	},
 	{
 		"lemma": "kokera",
 		"ja": ["死人を埋める大きな穴"],
@@ -11529,16 +11976,6 @@
 		"frequency": 3
 	},
 	{ "lemma": "onuman", "ja": ["夕方晩"], "en": ["evening"], "ru": ["вечер"], "frequency": 2 },
-	{
-		"lemma": "keta",
-		"ja": ["星"],
-		"en": ["star"],
-		"ru": ["звезда"],
-		"poses": ["n"],
-		"frequency": 3,
-		"cognates": ["keta"],
-		"noncognates": ["nociw"]
-	},
 	{ "lemma": "anahci", "frequency": 9 },
 	{ "lemma": "turanno", "frequency": 3 },
 	{
@@ -11551,33 +11988,12 @@
 	},
 	{ "lemma": "oya", "ja": ["他の"], "en": ["other"], "ru": ["другой"], "frequency": 1 },
 	{
-		"lemma": "ok",
-		"ja": ["うつむいている", "うなだれている"],
-		"en": ["to look down", "to hang one's head"],
-		"ru": ["опустить голову", "поникнуть"],
-		"frequency": 2
-	},
-	{
-		"lemma": "y",
-		"ja": ["その間に挿入される"],
-		"en": ["inserted in between"],
-		"ru": ["вставляется между"],
-		"frequency": 4
-	},
-	{
 		"lemma": "sehci",
 		"ja": ["ベッド"],
 		"en": ["bed"],
 		"ru": ["кровать"],
 		"poses": ["n"],
 		"frequency": 1
-	},
-	{
-		"lemma": "ra",
-		"ja": ["下下の方低い所"],
-		"en": ["lower place", "beneath"],
-		"ru": ["нижнее место", "внизу"],
-		"frequency": 3
 	},
 	{
 		"lemma": "ekah",
@@ -11592,26 +12008,10 @@
 		"ja": ["～を握る", "つかむ", "抱く"],
 		"en": ["to hold", "to grasp"],
 		"ru": ["держать", "схватить"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
-	{ "lemma": "kasiketa", "frequency": 2 },
-	{
-		"lemma": "utari",
-		"ja": ["utarの所属形"],
-		"en": ["belonging to utar (people)"],
-		"ru": ["принадлежность утару (люди)"],
-		"poses": ["n"],
-		"frequency": 9
-	},
 	{ "lemma": "sita'unpe", "frequency": 2 },
-	{
-		"lemma": "anki",
-		"ja": ["もう少しで～するところだった"],
-		"en": ["almost about to ~"],
-		"ru": ["почти собирался ~"],
-		"frequency": 3
-	},
 	{
 		"lemma": "neyta",
 		"ja": ["何処に", "何処で"],
@@ -11627,6 +12027,7 @@
 		"poses": ["n"],
 		"frequency": 4
 	},
+	{ "lemma": "tuura", "frequency": 4 },
 	{
 		"lemma": "mihci",
 		"ja": ["孫"],
@@ -11640,7 +12041,7 @@
 		"ja": ["～の様子を見る"],
 		"en": ["to check the condition of ~"],
 		"ru": ["проверить состояние ~"],
-		"poses": ["vi"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -11651,39 +12052,15 @@
 		"poses": ["v"],
 		"frequency": 1
 	},
-	{ "lemma": "ca", "ja": ["口"], "en": ["mouth"], "ru": ["рот"], "frequency": 2 },
 	{ "lemma": "maka", "ja": ["開く"], "en": ["to open"], "ru": ["открывать"], "frequency": 1 },
-	{
-		"lemma": "o",
-		"ja": ["ある", "～にある", "尻", "付く", "生える", "たくさんある"],
-		"en": ["to exist", "to be at ~", "buttocks", "to stick", "to grow", "to abound"],
-		"ru": [
-			"существовать",
-			"находиться в ~",
-			"ягодицы",
-			"прикрепляться",
-			"расти",
-			"быть в изобилии"
-		],
-		"poses": ["v"],
-		"frequency": 3
-	},
 	{ "lemma": "siina", "frequency": 3 },
 	{
 		"lemma": "pirikahci",
 		"ja": ["良い", "美しい", "健康である"],
 		"en": ["good", "beautiful", "healthy"],
 		"ru": ["хороший", "красивый", "здоровый"],
-		"poses": ["vt"],
+		"poses": ["vi"],
 		"frequency": 1
-	},
-	{
-		"lemma": "sinen",
-		"ja": ["一人"],
-		"en": ["one person"],
-		"ru": ["один человек"],
-		"poses": ["num"],
-		"frequency": 2
 	},
 	{
 		"lemma": "on",
@@ -11711,24 +12088,56 @@
 		"frequency": 1
 	},
 	{
-		"lemma": "ci",
-		"ja": ["それそこ自ら"],
-		"en": ["itself", "oneself"],
-		"ru": ["само", "себя"],
-		"poses": ["v"],
+		"lemma": "nam",
+		"ja": ["冷たい", "ぬるい"],
+		"en": ["cold", "lukewarm"],
+		"ru": ["холодный", "тепловатый"],
+		"frequency": 2
+	},
+	{ "lemma": "heta", "frequency": 4 },
+	{
+		"lemma": "kunine",
+		"ja": ["～するように"],
+		"en": ["to do so", "in order to"],
+		"ru": ["чтобы сделать так"],
 		"frequency": 3
+	},
+	{
+		"lemma": "wo",
+		"ja": ["ウォ（親指と人差し指を反対に伸ばして測る長さ", "アイヌ尺", "ウォで測る"],
+		"en": ["wo (Ainu traditional length, span of thumb and forefinger)"],
+		"ru": ["во (традиционная длина айнов, расстояние между большим и указательным пальцем)"],
+		"frequency": 3
+	},
+	{ "lemma": "wahkayki", "frequency": 2 },
+	{
+		"lemma": "p",
+		"ja": ["もの/こと", "-p , -pe も参照"],
+		"en": ["thing", "matter"],
+		"ru": ["вещь", "дело"],
+		"poses": ["sfx"],
+		"frequency": 6
+	},
+	{ "lemma": "oro’oo", "frequency": 2 },
+	{
+		"lemma": "kore",
+		"ja": ["～に与える"],
+		"en": ["to give to ~"],
+		"ru": ["давать ~"],
+		"poses": ["v"],
+		"frequency": 1
+	},
+	{
+		"lemma": "hure",
+		"ja": ["赤い"],
+		"en": ["red"],
+		"ru": ["красный"],
+		"poses": ["v"],
+		"frequency": 2
 	},
 	{ "lemma": "wooyaan", "frequency": 3 },
 	{ "lemma": "tukar", "frequency": 3 },
 	{ "lemma": "ihohcise", "frequency": 2 },
-	{
-		"lemma": "oruspe",
-		"ja": ["～の事柄", "～の噂", "～の事", "～の話"],
-		"en": ["matter of ~", "rumor of ~", "story of ~"],
-		"ru": ["дело о ~", "слух о ~", "история о ~"],
-		"poses": ["n"],
-		"frequency": 7
-	},
 	{
 		"lemma": "inoka",
 		"ja": ["イノカ"],
@@ -11745,406 +12154,7 @@
 		"poses": ["parti"],
 		"frequency": 7
 	},
-	{ "lemma": "kestoono", "frequency": 2 },
-	{ "lemma": "sahne", "frequency": 8 },
 	{ "lemma": "anahcihi", "frequency": 2 },
-	{
-		"lemma": "nam",
-		"ja": ["冷たい", "ぬるい"],
-		"en": ["cold", "lukewarm"],
-		"ru": ["холодный", "тепловатый"],
-		"frequency": 2
-	},
-	{ "lemma": "cokay", "frequency": 32 },
-	{ "lemma": "itaku", "frequency": 20 },
-	{ "lemma": "=hci", "frequency": 18 },
-	{
-		"lemma": "opista",
-		"ja": ["すべて"],
-		"en": ["all"],
-		"ru": ["всё"],
-		"poses": ["adv"],
-		"frequency": 18,
-		"cognates": ["opitta", "opitta"]
-	},
-	{
-		"lemma": "ci=",
-		"ja": ["私たちが", "神の一人称"],
-		"en": ["we", "us (divine)"],
-		"ru": ["мы (божественное)"],
-		"poses": ["pfx", "v"],
-		"frequency": 17
-	},
-	{
-		"lemma": "manuy",
-		"ja": ["という", "そうだ"],
-		"en": ["called", "it seems"],
-		"ru": ["называется", "кажется"],
-		"poses": ["auxv"],
-		"frequency": 2388
-	},
-	{ "lemma": "porono", "frequency": 16 },
-	{ "lemma": "pateki", "frequency": 15 },
-	{
-		"lemma": "sonko",
-		"ja": ["便り", "知らせ", "手紙", "伝言", "言伝"],
-		"en": ["news", "letter", "message"],
-		"ru": ["новость", "письмо", "сообщение"],
-		"poses": ["n"],
-		"frequency": 14
-	},
-	{ "lemma": "iani", "frequency": 12 },
-	{ "lemma": "kanpi", "frequency": 16 },
-	{ "lemma": "cep", "ja": ["魚"], "en": ["fish"], "ru": ["рыба"], "poses": ["n"], "frequency": 10 },
-	{
-		"lemma": "uneno",
-		"ja": ["そっくり", "互いに似ている", "同じく"],
-		"en": ["identical", "similar to each other"],
-		"ru": ["одинаковые", "похожи друг на друга"],
-		"frequency": 9
-	},
-	{ "lemma": "monasno", "frequency": 8 },
-	{
-		"lemma": "kikanay",
-		"ja": ["元気だ"],
-		"en": ["to be healthy"],
-		"ru": ["быть здоровым"],
-		"frequency": 8
-	},
-	{
-		"lemma": "anokay",
-		"ja": [
-			"あなた",
-			"参考　asinuma",
-			"不定",
-			"何か",
-			"私たち",
-			"尊敬の二人称",
-			"誰か",
-			"人",
-			"包括的一人称複数",
-			"我々"
-		],
-		"en": ["you (formal)", "someone", "we"],
-		"ru": ["вы (уважительное)", "кто-то", "мы"],
-		"poses": ["pron"],
-		"frequency": 8
-	},
-	{ "lemma": "bagunke", "frequency": 7 },
-	{ "lemma": "cikin", "frequency": 7 },
-	{
-		"lemma": "peko",
-		"ja": ["牛"],
-		"en": ["cow"],
-		"ru": ["корова"],
-		"poses": ["n"],
-		"frequency": 6
-	},
-	{ "lemma": "mauka", "frequency": 6 },
-	{ "lemma": "seraroka", "frequency": 5 },
-	{ "lemma": "neciki", "frequency": 5 },
-	{ "lemma": "go", "frequency": 5 },
-	{
-		"lemma": "pakno",
-		"ja": ["～まで", "並外れた", "～ほど", "これほど", "～くらい"],
-		"en": ["up to ~", "to the extent of ~"],
-		"ru": ["до ~", "вплоть до ~"],
-		"poses": ["adv"],
-		"frequency": 8
-	},
-	{ "lemma": "nure", "frequency": 5 },
-	{ "lemma": "ucakasno", "frequency": 4 },
-	{ "lemma": "ni", "ja": ["木"], "en": ["tree"], "ru": ["дерево"], "poses": ["n"], "frequency": 6 },
-	{ "lemma": "otasan", "frequency": 4 },
-	{ "lemma": "woya", "frequency": 4 },
-	{
-		"lemma": "tup",
-		"ja": ["二つ", "二人", "二匹"],
-		"en": ["two (things/people/animals)"],
-		"ru": ["два (объекта/человека/животных)"],
-		"poses": ["num"],
-		"frequency": 5
-	},
-	{
-		"lemma": "tere",
-		"ja": ["♪テレながら待つ"],
-		"en": ["to wait shyly"],
-		"ru": ["ждать застенчиво"],
-		"frequency": 3
-	},
-	{ "lemma": "co", "frequency": 3 },
-	{ "lemma": "cornaya", "frequency": 3 },
-	{ "lemma": "recka", "frequency": 3 },
-	{ "lemma": "tutekose", "frequency": 3 },
-	{
-		"lemma": "tanpa",
-		"ja": ["本年", "今年"],
-		"en": ["this year"],
-		"ru": ["этот год"],
-		"poses": ["n"],
-		"frequency": 3
-	},
-	{ "lemma": "rorey", "frequency": 3 },
-	{
-		"lemma": "caca",
-		"ja": ["鋸で切る"],
-		"en": ["to saw"],
-		"ru": ["пилить"],
-		"poses": ["v", "n"],
-		"frequency": 3
-	},
-	{ "lemma": "taronzi", "frequency": 3 },
-	{
-		"lemma": "hetuku",
-		"ja": [
-			"生まれる",
-			"昇る",
-			"生える",
-			"出て来る",
-			"芽を吹く",
-			"輝き出る",
-			"伸びる",
-			"射し出づる",
-			"差し始める",
-			"出る",
-			"生長する",
-			"芽が出る",
-			"顔を出す",
-			"頭を出す"
-		],
-		"en": ["to be born", "to rise", "to sprout", "to emerge"],
-		"ru": ["родиться", "подниматься", "пускать ростки", "появляться"],
-		"poses": ["v"],
-		"frequency": 3
-	},
-	{ "lemma": "spa", "frequency": 3 },
-	{ "lemma": "tokyo", "frequency": 3 },
-	{ "lemma": "ihoku", "frequency": 3 },
-	{ "lemma": "naibuci", "frequency": 3 },
-	{ "lemma": "=", "frequency": 6 },
-	{ "lemma": "ki=", "frequency": 3 },
-	{
-		"lemma": "sinep",
-		"ja": ["一つ", "一人", "一頭"],
-		"en": ["one (thing/person/animal)"],
-		"ru": ["один (объект/человек/животное)"],
-		"poses": ["num"],
-		"frequency": 4
-	},
-	{
-		"lemma": "hoko",
-		"ja": ["焚いた火"],
-		"en": ["kindled fire"],
-		"ru": ["разожженный огонь"],
-		"frequency": 3
-	},
-	{ "lemma": "danilka", "frequency": 3 },
-	{ "lemma": "kesanto", "frequency": 3 },
-	{ "lemma": "isra", "poses": ["v"], "frequency": 2, "cognates": ["ikra"] },
-	{ "lemma": "ainu", "frequency": 2 },
-	{ "lemma": "cipiya", "frequency": 2 },
-	{ "lemma": "nte", "frequency": 2 },
-	{ "lemma": "wenokay", "frequency": 2 },
-	{ "lemma": "mona", "frequency": 2 },
-	{ "lemma": "yoponi", "frequency": 2 },
-	{
-		"lemma": "pak",
-		"ja": ["～ほど～ほどの"],
-		"en": ["as much as ~", "to the extent of ~"],
-		"ru": ["настолько как ~", "в мере ~"],
-		"frequency": 2
-	},
-	{ "lemma": "korsakov", "frequency": 2 },
-	{ "lemma": "etokota", "frequency": 2 },
-	{ "lemma": "minseeshoo", "frequency": 2 },
-	{ "lemma": "yki", "frequency": 2 },
-	{
-		"lemma": "iwanke",
-		"ja": ["達者である", "元気だ", "健康だ"],
-		"en": ["to be healthy", "to be well"],
-		"ru": ["быть здоровым", "чувствовать себя хорошо"],
-		"poses": ["v"],
-		"frequency": 2
-	},
-	{ "lemma": "hospi", "frequency": 2 },
-	{ "lemma": "utuyaskara", "frequency": 2 },
-	{ "lemma": "hakodate", "frequency": 2 },
-	{ "lemma": "sisratoka", "frequency": 2 },
-	{ "lemma": "ramurahkino", "frequency": 2 },
-	{ "lemma": "iyuni", "frequency": 2 },
-	{ "lemma": "dobukiy", "frequency": 2 },
-	{ "lemma": "cukita", "frequency": 2 },
-	{ "lemma": "tunnayca", "frequency": 2 },
-	{ "lemma": "ariksandoru", "frequency": 2 },
-	{ "lemma": "kusunkotan", "frequency": 2 },
-	{
-		"lemma": "may",
-		"ja": ["気持ちがいい響き"],
-		"en": ["pleasant sound"],
-		"ru": ["приятный звук"],
-		"poses": ["n"],
-		"frequency": 2
-	},
-	{
-		"lemma": "rep",
-		"ja": ["拍子をとる"],
-		"en": ["to keep rhythm"],
-		"ru": ["держать ритм"],
-		"poses": ["n", "v", "num"],
-		"frequency": 3
-	},
-	{ "lemma": "usoro", "frequency": 2 },
-	{
-		"lemma": "somo",
-		"ja": ["いや", "～しない", "～ない", "いいえ"],
-		"en": ["no", "not ~", "to not do ~"],
-		"ru": ["нет", "не ~", "не делать ~"],
-		"poses": ["adv"],
-		"frequency": 8
-	},
-	{ "lemma": "sta", "frequency": 2 },
-	{
-		"lemma": "urenkare",
-		"ja": ["全部揃える～を決める", "～解決する"],
-		"en": ["to assemble everything", "to resolve ~"],
-		"ru": ["собрать всё", "разрешить ~"],
-		"frequency": 2
-	},
-	{ "lemma": "=ci", "frequency": 2 },
-	{ "lemma": "monitahno", "frequency": 2 },
-	{
-		"lemma": "tekoro",
-		"ja": ["とても"],
-		"en": ["very"],
-		"ru": ["очень"],
-		"poses": ["adv"],
-		"frequency": 2,
-		"noncognates": ["earkinne"]
-	},
-	{ "lemma": "potora", "frequency": 2 },
-	{ "lemma": "cup", "ja": ["日"], "en": ["day"], "ru": ["день"], "poses": ["n"], "frequency": 3 },
-	{ "lemma": "ponciku", "frequency": 2 },
-	{ "lemma": "siska", "frequency": 2 },
-	{ "lemma": "ikasiw", "frequency": 2 },
-	{ "lemma": "ukopakari", "frequency": 2 },
-	{ "lemma": "seraroko", "frequency": 2 },
-	{ "lemma": "wepekere", "frequency": 2 },
-	{
-		"lemma": "inunuka",
-		"ja": ["人を大事にする"],
-		"en": ["to value people"],
-		"ru": ["ценить людей"],
-		"frequency": 2
-	},
-	{ "lemma": "meroko", "frequency": 2 },
-	{
-		"lemma": "hene",
-		"ja": ["～でも"],
-		"en": ["even if"],
-		"ru": ["даже если"],
-		"poses": ["parti"],
-		"frequency": 9
-	},
-	{
-		"lemma": "yakka",
-		"ja": ["～でも", "～しても"],
-		"en": ["even if", "even though"],
-		"ru": ["даже если", "несмотря на"],
-		"poses": ["parti"],
-		"frequency": 17
-	},
-	{
-		"lemma": "irenka",
-		"ja": ["意図", "ルール"],
-		"en": ["intention", "rule"],
-		"ru": ["намерение", "правило"],
-		"poses": ["n"],
-		"frequency": 2
-	},
-	{ "lemma": "ituyaskara", "frequency": 2 },
-	{ "lemma": "in=", "frequency": 3 },
-	{
-		"lemma": "ke",
-		"ja": ["～の", "前には位置{{noun}}の具体形が来る"],
-		"en": ["of ~", "belonging to ~"],
-		"ru": ["из ~", "принадлежащий ~"],
-		"poses": ["rel"],
-		"frequency": 2
-	},
-	{ "lemma": "u", "ja": ["互いに"], "en": ["mutually"], "ru": ["взаимно"], "frequency": 1 },
-	{
-		"lemma": "saranpa",
-		"ja": ["さようなら"],
-		"en": ["goodbye"],
-		"ru": ["прощай"],
-		"poses": ["interj"],
-		"frequency": 2,
-		"cognates": ["sarampa"]
-	},
-	{
-		"lemma": "ye",
-		"ja": ["人が"],
-		"en": ["person"],
-		"ru": ["человек"],
-		"poses": ["v", "n"],
-		"frequency": 3
-	},
-	{
-		"lemma": "sino",
-		"ja": ["本当の", "本当に"],
-		"en": ["true", "truly"],
-		"ru": ["правда", "по-настоящему"],
-		"poses": ["adv"],
-		"frequency": 16
-	},
-	{
-		"lemma": "uwekari",
-		"ja": ["集う"],
-		"en": ["to gather"],
-		"ru": ["собираться"],
-		"poses": ["v"],
-		"frequency": 1
-	},
-	{
-		"lemma": "patek",
-		"ja": ["～だけ", "～ばかり"],
-		"en": ["only", "just"],
-		"ru": ["только", "лишь"],
-		"poses": ["adv"],
-		"frequency": 2
-	},
-	{
-		"lemma": "iku",
-		"ja": ["酒を飲む"],
-		"en": ["to drink alcohol"],
-		"ru": ["пить алкоголь"],
-		"poses": ["v"],
-		"frequency": 1
-	},
-	{
-		"lemma": "katu",
-		"ja": ["訳", "仕方", "様子", "katの所属形"],
-		"en": ["method", "manner", "way"],
-		"ru": ["способ", "манера", "путь"],
-		"poses": ["n"],
-		"frequency": 2
-	},
-	{
-		"lemma": "pu",
-		"ja": ["蔵"],
-		"en": ["storehouse"],
-		"ru": ["хранилище"],
-		"poses": ["n"],
-		"frequency": 3
-	},
-	{
-		"lemma": "monrayke",
-		"ja": ["仕事"],
-		"en": ["work", "job"],
-		"ru": ["работа", "дело"],
-		"poses": ["adv"],
-		"frequency": 2
-	},
 	{
 		"lemma": "a=",
 		"ja": [
@@ -12243,7 +12253,14 @@
 		"frequency": 7
 	},
 	{ "lemma": "nep", "ja": ["何"], "en": ["what"], "ru": ["что"], "poses": ["n"], "frequency": 6 },
-	{ "lemma": "anakne", "poses": ["parti"], "frequency": 6 },
+	{
+		"lemma": "anakne",
+		"ja": ["は"],
+		"en": ["is", "as for"],
+		"ru": ["есть", "что касается"],
+		"poses": ["parti"],
+		"frequency": 6
+	},
 	{ "lemma": "easka", "frequency": 6 },
 	{
 		"lemma": "oar",
@@ -12389,7 +12406,13 @@
 	{ "lemma": "apkor", "frequency": 3 },
 	{ "lemma": "topaha", "frequency": 3 },
 	{ "lemma": "oyamokte", "frequency": 3 },
-	{ "lemma": "emik", "frequency": 3 },
+	{
+		"lemma": "emik",
+		"ja": ["を見てほえる"],
+		"en": ["to bark at (after seeing)"],
+		"ru": ["лаять на (увидев)"],
+		"frequency": 3
+	},
 	{ "lemma": "ruyehe", "frequency": 3 },
 	{
 		"lemma": "koraci",
@@ -12462,7 +12485,13 @@
 		"frequency": 2
 	},
 	{ "lemma": "hotke", "frequency": 2 },
-	{ "lemma": "ayke", "frequency": 2 },
+	{
+		"lemma": "ayke",
+		"ja": ["したのだが", "すると"],
+		"en": ["then", "so"],
+		"ru": ["тогда", "и"],
+		"frequency": 2
+	},
 	{
 		"lemma": "mokor",
 		"ja": ["眠る", "寝る"],
@@ -12628,6 +12657,14 @@
 		"ru": ["путь", "след", "немного"],
 		"poses": ["n"],
 		"frequency": 1
+	},
+	{
+		"lemma": "monrayke",
+		"ja": ["仕事"],
+		"en": ["work", "job"],
+		"ru": ["работа", "дело"],
+		"poses": ["adv"],
+		"frequency": 2
 	},
 	{
 		"lemma": "itak",
