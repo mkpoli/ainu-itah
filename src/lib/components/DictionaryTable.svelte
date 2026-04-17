@@ -126,7 +126,7 @@
 				</td>
 				<td>
 					<a
-						href={`https://kampisos.aynu.io/search?q=${encodeURIComponent(item.lemma.replace(/^-/, ''))}`}
+						href={`https://kampisos.aynu.io/search?q=${encodeURIComponent(item.lemma.replace(/^-/, ''))}&dialect_lv1=樺太`}
 						target="_blank"
 						class="flex items-center justify-center hover:text-blue-500"
 					>
