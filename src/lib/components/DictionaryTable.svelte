@@ -90,6 +90,7 @@
 			<th>{m.ankiris()}</th>
 			<th>{m.ikiri()}</th>
 			<th>{m.hokkaido()} </th>
+			<th>{m.frequency()}</th>
 			<th></th>
 		</tr>
 	</thead>
@@ -123,6 +124,9 @@
 				</td>
 				<td>
 					{[...new Set([...(item.cognates ?? []), ...(item.noncognates ?? [])])].join(', ')}
+				</td>
+				<td lang="en" class="tabular-nums">
+					{item.frequency}
 				</td>
 				<td>
 					<a
