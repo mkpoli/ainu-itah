@@ -13,7 +13,7 @@
 		"en": ["five"],
 		"ru": ["пять"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "ahkas",
@@ -21,7 +21,7 @@
 		"en": ["walk"],
 		"ru": ["ходить"],
 		"poses": ["vi"],
-		"frequency": 39
+		"frequency": 45
 	},
 	{
 		"lemma": "ahkapo",
@@ -45,7 +45,7 @@
 		"en": ["more than", "above"],
 		"ru": ["более чем", "выше"],
 		"poses": ["padv"],
-		"frequency": 5
+		"frequency": 6
 	},
 	{
 		"lemma": "ahsuy",
@@ -61,7 +61,7 @@
 		"en": ["grandmother"],
 		"ru": ["бабушка"],
 		"poses": ["n"],
-		"frequency": 35
+		"frequency": 39
 	},
 	{
 		"lemma": "ahcihi",
@@ -69,7 +69,7 @@
 		"en": ["grandmother"],
 		"ru": ["бабушка"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "ahte",
@@ -77,7 +77,7 @@
 		"en": ["to apply", "to pour"],
 		"ru": ["применять", "наливать"],
 		"poses": ["vt"],
-		"frequency": 11
+		"frequency": 13
 	},
 	{
 		"lemma": "ahto",
@@ -85,7 +85,7 @@
 		"en": ["rain"],
 		"ru": ["дождь"],
 		"poses": ["n"],
-		"frequency": 19
+		"frequency": 21
 	},
 	{
 		"lemma": "ahturi",
@@ -101,7 +101,7 @@
 		"en": ["to take shelter from the rain"],
 		"ru": ["прятаться от дождя"],
 		"poses": ["vi"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "ahni",
@@ -125,7 +125,7 @@
 		"en": ["sit"],
 		"ru": ["сидеть"],
 		"poses": ["vi"],
-		"frequency": 25
+		"frequency": 27
 	},
 	{
 		"lemma": "aatay",
@@ -181,7 +181,7 @@
 		"en": ["arrow"],
 		"ru": ["стрела"],
 		"poses": ["n"],
-		"frequency": 75
+		"frequency": 73
 	},
 	{
 		"lemma": "aynu",
@@ -189,7 +189,7 @@
 		"en": ["human", "male", "Ainu people"],
 		"ru": ["человек", "мужчина", "айны"],
 		"poses": ["n"],
-		"frequency": 135
+		"frequency": 155
 	},
 	{
 		"lemma": "aynuitah",
@@ -197,7 +197,7 @@
 		"en": ["Ainu language"],
 		"ru": ["язык айнов"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 4
 	},
 	{
 		"lemma": "ayne",
@@ -205,7 +205,7 @@
 		"en": ["as a result of continuously doing ~"],
 		"ru": ["в результате постоянного выполнения ~"],
 		"poses": ["sconj"],
-		"frequency": 29
+		"frequency": 52
 	},
 	{
 		"lemma": "ayhe",
@@ -262,7 +262,7 @@
 		"en": ["to go out", "to exit"],
 		"ru": ["выйти", "выходить"],
 		"poses": ["vi"],
-		"frequency": 192
+		"frequency": 208
 	},
 	{
 		"lemma": "asinkoh",
@@ -278,7 +278,7 @@
 		"en": ["price", "value"],
 		"ru": ["цена", "значение"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "acapo",
@@ -286,9 +286,9 @@
 		"en": ["uncle"],
 		"ru": ["дядя"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 4
 	},
-	{ "lemma": "atuy", "ja": ["海"], "en": ["sea"], "ru": ["море"], "poses": ["n"], "frequency": 37 },
+	{ "lemma": "atuy", "ja": ["海"], "en": ["sea"], "ru": ["море"], "poses": ["n"], "frequency": 42 },
 	{
 		"lemma": "atuhu",
 		"ja": ["ひも"],
@@ -311,7 +311,7 @@
 		"en": ["if", "when"],
 		"ru": ["если", "когда"],
 		"poses": ["sconj"],
-		"frequency": 20
+		"frequency": 22
 	},
 	{
 		"lemma": "=anahci",
@@ -319,7 +319,7 @@
 		"en": ["we", "us"],
 		"ru": ["мы"],
 		"poses": ["pers"],
-		"frequency": 4
+		"frequency": 14
 	},
 	{
 		"lemma": "=anahcihi",
@@ -327,7 +327,7 @@
 		"en": ["our doing ~"],
 		"ru": ["наше выполнение ~"],
 		"poses": ["pers"],
-		"frequency": 0
+		"frequency": 2
 	},
 	{
 		"lemma": "ani",
@@ -335,7 +335,7 @@
 		"en": ["using ~", "in the state of ~"],
 		"ru": ["используя ~", "в состоянии ~"],
 		"poses": ["padv"],
-		"frequency": 244
+		"frequency": 267
 	},
 	{
 		"lemma": "anihi",
@@ -343,7 +343,7 @@
 		"en": ["oneself"],
 		"ru": ["себя"],
 		"poses": ["pron"],
-		"frequency": 75
+		"frequency": 82
 	},
 	{
 		"lemma": "anunokaype",
@@ -351,7 +351,7 @@
 		"en": ["little person", "dwarf"],
 		"ru": ["маленький человек", "карлик"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "anoka",
@@ -359,7 +359,7 @@
 		"en": ["we", "I"],
 		"ru": ["мы", "я"],
 		"poses": ["pron"],
-		"frequency": 11
+		"frequency": 14
 	},
 	{
 		"lemma": "ahap",
@@ -367,7 +367,7 @@
 		"en": ["to enter"],
 		"ru": ["входить"],
 		"poses": ["vi"],
-		"frequency": 0
+		"frequency": 9
 	},
 	{
 		"lemma": "ahapahci",
@@ -383,7 +383,7 @@
 		"en": ["doorway"],
 		"ru": ["дверной проём"],
 		"poses": ["n"],
-		"frequency": 38
+		"frequency": 39
 	},
 	{
 		"lemma": "ahuh",
@@ -415,7 +415,7 @@
 		"en": ["to enter"],
 		"ru": ["входить"],
 		"poses": ["vi"],
-		"frequency": 171
+		"frequency": 177
 	},
 	{
 		"lemma": "apunitara",
@@ -432,7 +432,7 @@
 		"en": ["to place", "to put"],
 		"ru": ["класть", "положить"],
 		"poses": ["vt"],
-		"frequency": 55
+		"frequency": 60
 	},
 	{
 		"lemma": "amam",
@@ -488,7 +488,7 @@
 		"en": ["to hurt", "to ache"],
 		"ru": ["болеть", "испытывать боль"],
 		"poses": ["vi"],
-		"frequency": 7
+		"frequency": 8
 	},
 	{
 		"lemma": "arapenneimii",
@@ -512,7 +512,7 @@
 		"en": ["seven"],
 		"ru": ["семь"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "ariki",
@@ -520,7 +520,7 @@
 		"en": ["to come"],
 		"ru": ["приходить"],
 		"poses": ["vi"],
-		"frequency": 7
+		"frequency": 10
 	},
 	{
 		"lemma": "arikihcihi",
@@ -552,7 +552,7 @@
 		"en": ["we", "us"],
 		"ru": ["мы"],
 		"poses": ["pers"],
-		"frequency": 93
+		"frequency": 1528
 	},
 	{
 		"lemma": "an",
@@ -560,7 +560,7 @@
 		"en": ["to be", "exist"],
 		"ru": ["быть", "существовать"],
 		"poses": ["vi"],
-		"frequency": 816
+		"frequency": 1528
 	},
 	{
 		"lemma": "an=",
@@ -568,7 +568,7 @@
 		"en": ["our", "my", "someone's"],
 		"ru": ["наш", "мой", "чей-то"],
 		"poses": ["pers"],
-		"frequency": 133
+		"frequency": 1528
 	},
 	{
 		"lemma": "annoski",
@@ -584,7 +584,7 @@
 		"en": ["to have ~", "to carry ~"],
 		"ru": ["иметь ~", "нести ~"],
 		"poses": ["vt"],
-		"frequency": 85
+		"frequency": 79
 	},
 	{
 		"lemma": "anpe",
@@ -592,7 +592,7 @@
 		"en": ["thing", "object"],
 		"ru": ["вещь", "предмет"],
 		"poses": ["nmlz"],
-		"frequency": 24
+		"frequency": 26
 	},
 	{
 		"lemma": "anpene",
@@ -600,7 +600,7 @@
 		"en": ["really", "indeed"],
 		"ru": ["действительно", "в самом деле"],
 		"poses": ["adv"],
-		"frequency": 99
+		"frequency": 115
 	},
 	{
 		"lemma": "i=",
@@ -608,7 +608,7 @@
 		"en": ["us", "me"],
 		"ru": ["нас", "меня"],
 		"poses": ["pers"],
-		"frequency": 33
+		"frequency": 63
 	},
 	{
 		"lemma": "iike",
@@ -632,7 +632,7 @@
 		"en": ["hey"],
 		"ru": ["эй"],
 		"poses": ["intj"],
-		"frequency": 0
+		"frequency": 46
 	},
 	{
 		"lemma": "iineh",
@@ -640,7 +640,7 @@
 		"en": ["four"],
 		"ru": ["четыре"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "yehci",
@@ -648,7 +648,7 @@
 		"en": ["to say ~"],
 		"ru": ["говорить ~"],
 		"poses": ["vt"],
-		"frequency": 100
+		"frequency": 103
 	},
 	{
 		"lemma": "yee",
@@ -656,7 +656,7 @@
 		"en": ["to say ~"],
 		"ru": ["говорить ~"],
 		"poses": ["vt"],
-		"frequency": 535
+		"frequency": 550
 	},
 	{
 		"lemma": "yeehe",
@@ -664,7 +664,7 @@
 		"en": ["the act of saying ~"],
 		"ru": ["действие говорить ~"],
 		"poses": ["n"],
-		"frequency": 34
+		"frequency": 36
 	},
 	{
 		"lemma": "yeeruye",
@@ -696,7 +696,7 @@
 		"en": ["to behave", "to act"],
 		"ru": ["вести себя", "действовать"],
 		"poses": ["vi"],
-		"frequency": 36
+		"frequency": 44
 	},
 	{
 		"lemma": "ikihci",
@@ -720,7 +720,7 @@
 		"en": ["doing"],
 		"ru": ["делая"],
 		"poses": ["sconj"],
-		"frequency": 1208
+		"frequency": 1213
 	},
 	{
 		"lemma": "ikoas",
@@ -736,7 +736,7 @@
 		"en": ["not have", "to pass away", "not do"],
 		"ru": ["не иметь", "умереть", "не делать"],
 		"poses": ["vi", "auxv"],
-		"frequency": 83
+		"frequency": 87
 	},
 	{
 		"lemma": "isamahci",
@@ -752,7 +752,7 @@
 		"en": ["not have", "to pass away", "not do"],
 		"ru": ["не иметь", "умереть", "не делать"],
 		"poses": ["vi", "auxv"],
-		"frequency": 36
+		"frequency": 38
 	},
 	{
 		"lemma": "isanka",
@@ -760,7 +760,7 @@
 		"en": ["isn't it?", "right?"],
 		"ru": ["не так ли?", "верно?"],
 		"poses": ["vi", "auxv"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "isankekamuy",
@@ -792,7 +792,7 @@
 		"en": ["to speak", "word"],
 		"ru": ["говорить", "слово"],
 		"poses": ["vi", "n"],
-		"frequency": 38
+		"frequency": 49
 	},
 	{
 		"lemma": "itakihi",
@@ -816,7 +816,7 @@
 		"en": ["bowl"],
 		"ru": ["миска"],
 		"poses": ["n"],
-		"frequency": 10
+		"frequency": 17
 	},
 	{
 		"lemma": "ica",
@@ -840,7 +840,7 @@
 		"en": ["wooden beads"],
 		"ru": ["деревянные бусины"],
 		"poses": ["n"],
-		"frequency": 8
+		"frequency": 9
 	},
 	{
 		"lemma": "inawkarahci",
@@ -880,7 +880,7 @@
 		"en": ["lullaby"],
 		"ru": ["колыбельная"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 8
 	},
 	{
 		"lemma": "ipe",
@@ -888,7 +888,7 @@
 		"en": ["food", "to eat"],
 		"ru": ["еда", "есть"],
 		"poses": ["n", "vi"],
-		"frequency": 39
+		"frequency": 43
 	},
 	{
 		"lemma": "ipekara",
@@ -936,7 +936,7 @@
 		"en": ["kimono", "clothes"],
 		"ru": ["кимоно", "одежда"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 6
 	},
 	{
 		"lemma": "imiye",
@@ -968,7 +968,7 @@
 		"en": ["souvenir"],
 		"ru": ["сувенир"],
 		"poses": ["n"],
-		"frequency": 8
+		"frequency": 9
 	},
 	{
 		"lemma": "iyayraykire",
@@ -1000,7 +1000,7 @@
 		"en": ["desirable", "pleasant"],
 		"ru": ["желательный", "приятный"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{
 		"lemma": "iruska",
@@ -1008,7 +1008,7 @@
 		"en": ["to get angry"],
 		"ru": ["сердиться"],
 		"poses": ["vi"],
-		"frequency": 47
+		"frequency": 49
 	},
 	{
 		"lemma": "ironne",
@@ -1024,7 +1024,7 @@
 		"en": ["six"],
 		"ru": ["шесть"],
 		"poses": ["adn"],
-		"frequency": 4
+		"frequency": 6
 	},
 	{
 		"lemma": "iwanpe",
@@ -1032,7 +1032,7 @@
 		"en": ["six"],
 		"ru": ["шесть"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "inkara",
@@ -1040,7 +1040,7 @@
 		"en": ["to look", "to watch"],
 		"ru": ["смотреть", "наблюдать"],
 		"poses": ["vi"],
-		"frequency": 28
+		"frequency": 34
 	},
 	{
 		"lemma": "inkaraha",
@@ -1048,7 +1048,7 @@
 		"en": ["the act of looking"],
 		"ru": ["действие смотреть"],
 		"poses": ["vi"],
-		"frequency": 15
+		"frequency": 20
 	},
 	{
 		"lemma": "inkanrusuy",
@@ -1080,7 +1080,7 @@
 		"en": ["to take ~"],
 		"ru": ["брать ~"],
 		"poses": ["vt"],
-		"frequency": 44
+		"frequency": 47
 	},
 	{ "lemma": "uuna", "ja": ["灰"], "en": ["ash"], "ru": ["пепел"], "poses": ["n"], "frequency": 2 },
 	{
@@ -1145,7 +1145,7 @@
 		"en": ["bad"],
 		"ru": ["плохой"],
 		"poses": ["vi"],
-		"frequency": 46
+		"frequency": 54
 	},
 	{
 		"lemma": "wooneka",
@@ -1169,7 +1169,7 @@
 		"en": ["last night", "night"],
 		"ru": ["прошлой ночью", "ночь"],
 		"poses": ["adv", "n"],
-		"frequency": 5
+		"frequency": 3
 	},
 	{
 		"lemma": "ukoyki",
@@ -1185,7 +1185,7 @@
 		"en": ["to converse"],
 		"ru": ["разговаривать"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "usa",
@@ -1193,7 +1193,7 @@
 		"en": ["various"],
 		"ru": ["различные"],
 		"poses": ["adv"],
-		"frequency": 7
+		"frequency": 9
 	},
 	{
 		"lemma": "usahpa",
@@ -1217,7 +1217,7 @@
 		"en": ["people", "they"],
 		"ru": ["люди", "они"],
 		"poses": ["n"],
-		"frequency": 264
+		"frequency": 293
 	},
 	{
 		"lemma": "utasa",
@@ -1225,7 +1225,7 @@
 		"en": ["to go out to play"],
 		"ru": ["ходить гулять"],
 		"poses": ["vi"],
-		"frequency": 9
+		"frequency": 10
 	},
 	{
 		"lemma": "utara",
@@ -1233,7 +1233,7 @@
 		"en": ["people", "they"],
 		"ru": ["люди", "они"],
 		"poses": ["n"],
-		"frequency": 24
+		"frequency": 23
 	},
 	{
 		"lemma": "utarike",
@@ -1241,7 +1241,7 @@
 		"en": ["people", "they"],
 		"ru": ["люди", "они"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "utarikehe",
@@ -1257,7 +1257,7 @@
 		"en": ["people", "they"],
 		"ru": ["люди", "они"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 5
 	},
 	{
 		"lemma": "utehkara",
@@ -1265,7 +1265,7 @@
 		"en": ["to make someone use ~"],
 		"ru": ["заставлять кого-то использовать ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "uturuke",
@@ -1273,7 +1273,7 @@
 		"en": ["between", "interval"],
 		"ru": ["между", "интервал"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "unahpe",
@@ -1329,7 +1329,7 @@
 		"en": ["to encourage each other"],
 		"ru": ["поощрять друг друга"],
 		"poses": ["vi"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "ureske",
@@ -1361,7 +1361,7 @@
 		"en": ["fire"],
 		"ru": ["огонь"],
 		"poses": ["n"],
-		"frequency": 83
+		"frequency": 85
 	},
 	{
 		"lemma": "unciaare",
@@ -1393,7 +1393,7 @@
 		"en": ["your", "you"],
 		"ru": ["твой", "ты"],
 		"poses": ["pers"],
-		"frequency": 79
+		"frequency": 145
 	},
 	{
 		"lemma": "eh",
@@ -1401,7 +1401,7 @@
 		"en": ["to come"],
 		"ru": ["приходить"],
 		"poses": ["vi"],
-		"frequency": 65
+		"frequency": 69
 	},
 	{
 		"lemma": "ehci",
@@ -1409,7 +1409,7 @@
 		"en": ["to eat ~"],
 		"ru": ["есть ~"],
 		"poses": ["vt"],
-		"frequency": 96
+		"frequency": 100
 	},
 	{
 		"lemma": "ehte",
@@ -1425,7 +1425,7 @@
 		"en": ["to eat ~"],
 		"ru": ["есть ~"],
 		"poses": ["vt"],
-		"frequency": 117
+		"frequency": 135
 	},
 	{
 		"lemma": "eehe",
@@ -1457,7 +1457,7 @@
 		"en": ["can", "be able to"],
 		"ru": ["мочь", "быть способным"],
 		"poses": ["vt", "auxv"],
-		"frequency": 4
+		"frequency": 9
 	},
 	{
 		"lemma": "eah",
@@ -1481,7 +1481,7 @@
 		"en": ["cannot", "unable to"],
 		"ru": ["не могу", "не способен"],
 		"poses": ["vt", "auxv"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "eani",
@@ -1489,7 +1489,7 @@
 		"en": ["you"],
 		"ru": ["ты"],
 		"poses": ["pron"],
-		"frequency": 15
+		"frequency": 31
 	},
 	{
 		"lemma": "eosma",
@@ -1505,7 +1505,7 @@
 		"en": ["to protect ~"],
 		"ru": ["защищать ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "ekasi",
@@ -1529,7 +1529,7 @@
 		"en": ["to overdo", "to excess"],
 		"ru": ["перестараться", "превышать"],
 		"poses": ["auxv"],
-		"frequency": 0
+		"frequency": 2
 	},
 	{
 		"lemma": "ekanuh",
@@ -1545,7 +1545,7 @@
 		"en": ["to do ~ to ~"],
 		"ru": ["делать ~ для ~"],
 		"poses": ["vd"],
-		"frequency": 7
+		"frequency": 9
 	},
 	{
 		"lemma": "ekari",
@@ -1577,7 +1577,7 @@
 		"en": ["to wear a belt"],
 		"ru": ["носить пояс"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "ekoweepekere",
@@ -1609,7 +1609,7 @@
 		"en": ["to prophesy in a dream to ~"],
 		"ru": ["пророчить во сне ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "esinohtekara",
@@ -1633,7 +1633,7 @@
 		"en": ["to make a seat at ~"],
 		"ru": ["устроить место у ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 4
 	},
 	{
 		"lemma": "etaspe",
@@ -1657,7 +1657,7 @@
 		"en": ["your", "yours"],
 		"ru": ["ваш", "ваше"],
 		"poses": ["pers"],
-		"frequency": 45
+		"frequency": 52
 	},
 	{
 		"lemma": "ecioka",
@@ -1665,7 +1665,7 @@
 		"en": ["you (plural)"],
 		"ru": ["вы"],
 		"poses": ["pron"],
-		"frequency": 2
+		"frequency": 5
 	},
 	{
 		"lemma": "eciokayahcin",
@@ -1697,7 +1697,7 @@
 		"en": ["ear ornaments with hanging decorations"],
 		"ru": ["украшения для ушей с висячими украшениями"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "etooro",
@@ -1724,7 +1724,7 @@
 		"poses": ["vt"],
 		"frequency": 1
 	},
-	{ "lemma": "etuhu", "ja": ["鼻"], "en": ["nose"], "ru": ["нос"], "poses": ["n"], "frequency": 0 },
+	{ "lemma": "etuhu", "ja": ["鼻"], "en": ["nose"], "ru": ["нос"], "poses": ["n"], "frequency": 1 },
 	{
 		"lemma": "eturus",
 		"ja": ["フクロウ"],
@@ -1747,7 +1747,7 @@
 		"en": ["tip", "front of a moving object"],
 		"ru": ["кончик", "передняя часть движущегося объекта"],
 		"poses": ["nl"],
-		"frequency": 4
+		"frequency": 7
 	},
 	{
 		"lemma": "etokoho",
@@ -1771,7 +1771,7 @@
 		"en": ["like this", "in this way"],
 		"ru": ["таким образом", "в таком виде"],
 		"poses": ["postp"],
-		"frequency": 237
+		"frequency": 265
 	},
 	{
 		"lemma": "ene",
@@ -1779,7 +1779,7 @@
 		"en": ["like this", "in this way"],
 		"ru": ["таким образом", "в таком виде"],
 		"poses": ["adv"],
-		"frequency": 0
+		"frequency": 265
 	},
 	{
 		"lemma": "eneka",
@@ -1787,7 +1787,7 @@
 		"en": ["like this", "in this way"],
 		"ru": ["таким образом", "в таком виде"],
 		"poses": ["pl"],
-		"frequency": 3
+		"frequency": 5
 	},
 	{
 		"lemma": "ehanke",
@@ -1803,7 +1803,7 @@
 		"en": ["nearby"],
 		"ru": ["близко"],
 		"poses": ["adv"],
-		"frequency": 13
+		"frequency": 12
 	},
 	{
 		"lemma": "ehunkikara",
@@ -1851,7 +1851,7 @@
 		"en": ["all"],
 		"ru": ["всё"],
 		"poses": ["adv"],
-		"frequency": 5
+		"frequency": 15
 	},
 	{
 		"lemma": "emeh",
@@ -1867,7 +1867,7 @@
 		"en": ["to bump into ~"],
 		"ru": ["натолкнуться на ~"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{
 		"lemma": "eramusinne",
@@ -1907,7 +1907,7 @@
 		"en": ["me"],
 		"ru": ["меня"],
 		"poses": ["pers"],
-		"frequency": 20
+		"frequency": 35
 	},
 	{
 		"lemma": "enka",
@@ -1931,7 +1931,7 @@
 		"en": ["human", "Ainu people"],
 		"ru": ["человек", "айны"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{
 		"lemma": "enpoh",
@@ -1947,7 +1947,7 @@
 		"en": ["did"],
 		"ru": ["сделал"],
 		"poses": ["nl"],
-		"frequency": 7
+		"frequency": 2
 	},
 	{
 		"lemma": "osmah",
@@ -1963,7 +1963,7 @@
 		"en": ["after (a stationary object)"],
 		"ru": ["после (неподвижного объекта)"],
 		"poses": ["nl"],
-		"frequency": 4
+		"frequency": 10
 	},
 	{
 		"lemma": "osmakehe",
@@ -1979,7 +1979,7 @@
 		"en": ["place", "inside"],
 		"ru": ["место", "внутри"],
 		"poses": ["n"],
-		"frequency": 35
+		"frequency": 43
 	},
 	{
 		"lemma": "oh",
@@ -1987,7 +1987,7 @@
 		"en": ["place", "inside"],
 		"ru": ["место", "внутри"],
 		"poses": ["nl"],
-		"frequency": 0
+		"frequency": 43
 	},
 	{
 		"lemma": "ohkayo",
@@ -1995,7 +1995,7 @@
 		"en": ["man"],
 		"ru": ["мужчина"],
 		"poses": ["n"],
-		"frequency": 38
+		"frequency": 39
 	},
 	{ "lemma": "ohke", "ja": ["屁"], "en": ["fart"], "ru": ["пук"], "poses": ["n"], "frequency": 14 },
 	{
@@ -2004,7 +2004,7 @@
 		"en": ["to put ~ into ~"],
 		"ru": ["положить ~ в ~"],
 		"poses": ["vd"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "ohcikeh",
@@ -2012,7 +2012,7 @@
 		"en": ["tray", "meal table"],
 		"ru": ["поднос", "обеденный столик"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 12
 	},
 	{
 		"lemma": "ohcara",
@@ -2076,7 +2076,7 @@
 		"en": ["around ~"],
 		"ru": ["вокруг ~"],
 		"poses": ["padv"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "oysuh",
@@ -2092,7 +2092,7 @@
 		"en": ["hard"],
 		"ru": ["твердый"],
 		"poses": ["vi"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "oyna",
@@ -2108,7 +2108,7 @@
 		"en": ["to forget ~"],
 		"ru": ["забывать ~"],
 		"poses": ["vt"],
-		"frequency": 8
+		"frequency": 9
 	},
 	{
 		"lemma": "oka",
@@ -2116,7 +2116,7 @@
 		"en": ["want to do"],
 		"ru": ["хочу сделать"],
 		"poses": ["nl"],
-		"frequency": 11
+		"frequency": 18
 	},
 	{
 		"lemma": "oka",
@@ -2124,7 +2124,7 @@
 		"en": ["want to do"],
 		"ru": ["хочу сделать"],
 		"poses": ["auxv"],
-		"frequency": 0
+		"frequency": 18
 	},
 	{
 		"lemma": "okaakara",
@@ -2132,7 +2132,7 @@
 		"en": ["through ~"],
 		"ru": ["через ~"],
 		"poses": ["padv"],
-		"frequency": 25
+		"frequency": 29
 	},
 	{
 		"lemma": "okaakari",
@@ -2148,7 +2148,7 @@
 		"en": ["to exist"],
 		"ru": ["существовать"],
 		"poses": ["vi"],
-		"frequency": 67
+		"frequency": 91
 	},
 	{
 		"lemma": "okake",
@@ -2180,7 +2180,7 @@
 		"en": ["to exist"],
 		"ru": ["существовать"],
 		"poses": ["vi"],
-		"frequency": 291
+		"frequency": 297
 	},
 	{
 		"lemma": "oken",
@@ -2188,7 +2188,7 @@
 		"en": ["protective talisman (nankorope, senisteh)"],
 		"ru": ["оберег (нанкоропэ, сенистэх)"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 14
 	},
 	{
 		"lemma": "okoyse",
@@ -2212,7 +2212,7 @@
 		"en": ["everything", "all"],
 		"ru": ["всё"],
 		"poses": ["adv"],
-		"frequency": 251
+		"frequency": 253
 	},
 	{
 		"lemma": "osukeh",
@@ -2228,7 +2228,7 @@
 		"en": ["to drag ~"],
 		"ru": ["тащить ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 4
 	},
 	{
 		"lemma": "osoma",
@@ -2300,7 +2300,7 @@
 		"en": ["long"],
 		"ru": ["длинный"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{
 		"lemma": "ociwe",
@@ -2308,7 +2308,7 @@
 		"en": ["to throw away ~"],
 		"ru": ["выбросить ~"],
 		"poses": ["vt"],
-		"frequency": 73
+		"frequency": 74
 	},
 	{
 		"lemma": "otoopenpe",
@@ -2332,7 +2332,7 @@
 		"en": ["kneading bowl", "long tray"],
 		"ru": ["миска для замеса", "длинный поднос"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{
 		"lemma": "onaha",
@@ -2340,7 +2340,7 @@
 		"en": ["father"],
 		"ru": ["отец"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 5
 	},
 	{
 		"lemma": "onuuman",
@@ -2420,7 +2420,7 @@
 		"en": ["from behind"],
 		"ru": ["сзади"],
 		"poses": ["padv"],
-		"frequency": 15
+		"frequency": 16
 	},
 	{
 		"lemma": "oma",
@@ -2428,7 +2428,7 @@
 		"en": ["to enter ~"],
 		"ru": ["входить в ~"],
 		"poses": ["vt"],
-		"frequency": 4
+		"frequency": 3
 	},
 	{
 		"lemma": "omay",
@@ -2476,7 +2476,7 @@
 		"en": ["to go", "to leave"],
 		"ru": ["идти", "отправляться"],
 		"poses": ["vi"],
-		"frequency": 271
+		"frequency": 287
 	},
 	{
 		"lemma": "omante",
@@ -2524,7 +2524,7 @@
 		"en": ["village name"],
 		"ru": ["название деревни"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "oram",
@@ -2548,7 +2548,7 @@
 		"en": ["place", "inside"],
 		"ru": ["место", "внутри"],
 		"poses": ["vd"],
-		"frequency": 14
+		"frequency": 16
 	},
 	{
 		"lemma": "oro",
@@ -2556,7 +2556,7 @@
 		"en": ["place", "inside"],
 		"ru": ["место", "внутри"],
 		"poses": ["nl"],
-		"frequency": 0
+		"frequency": 16
 	},
 	{
 		"lemma": "oroo",
@@ -2588,7 +2588,7 @@
 		"en": ["then", "after that"],
 		"ru": ["тогда", "после этого"],
 		"poses": ["adv", "cconj"],
-		"frequency": 902
+		"frequency": 942
 	},
 	{
 		"lemma": "onkami",
@@ -2628,7 +2628,7 @@
 		"en": ["inside"],
 		"ru": ["внутри"],
 		"poses": ["nl"],
-		"frequency": 20
+		"frequency": 24
 	},
 	{
 		"lemma": "onne",
@@ -2636,7 +2636,7 @@
 		"en": ["towards ~"],
 		"ru": ["по направлению к ~"],
 		"poses": ["vi"],
-		"frequency": 243
+		"frequency": 261
 	},
 	{
 		"lemma": "onne",
@@ -2644,7 +2644,7 @@
 		"en": ["towards ~"],
 		"ru": ["по направлению к ~"],
 		"poses": ["postp"],
-		"frequency": 0
+		"frequency": 261
 	},
 	{
 		"lemma": "onnew",
@@ -2660,7 +2660,7 @@
 		"en": ["up", "above"],
 		"ru": ["вверх", "над"],
 		"poses": ["advp"],
-		"frequency": 378
+		"frequency": 405
 	},
 	{
 		"lemma": "ka",
@@ -2668,7 +2668,7 @@
 		"en": ["up", "above"],
 		"ru": ["вверх", "над"],
 		"poses": ["nl"],
-		"frequency": 0
+		"frequency": 405
 	},
 	{
 		"lemma": "kaske",
@@ -2676,7 +2676,7 @@
 		"en": ["up", "above"],
 		"ru": ["вверх", "над"],
 		"poses": ["nl"],
-		"frequency": 9
+		"frequency": 14
 	},
 	{
 		"lemma": "kaskehe",
@@ -2694,14 +2694,14 @@
 		"poses": ["n"],
 		"frequency": 1
 	},
-	{ "lemma": "kam", "ja": ["肉"], "en": ["meat"], "ru": ["мясо"], "poses": ["n"], "frequency": 9 },
+	{ "lemma": "kam", "ja": ["肉"], "en": ["meat"], "ru": ["мясо"], "poses": ["n"], "frequency": 10 },
 	{
 		"lemma": "kampi",
 		"ja": ["紙"],
 		"en": ["paper"],
 		"ru": ["бумага"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 5
 	},
 	{
 		"lemma": "kaa",
@@ -2709,7 +2709,7 @@
 		"en": ["thread"],
 		"ru": ["нить"],
 		"poses": ["n"],
-		"frequency": 55
+		"frequency": 72
 	},
 	{
 		"lemma": "kaaeka",
@@ -2725,7 +2725,7 @@
 		"en": ["to help ~"],
 		"ru": ["помогать ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "kaani",
@@ -2741,7 +2741,7 @@
 		"en": ["to set a trap"],
 		"ru": ["устанавливать ловушку"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 6
 	},
 	{
 		"lemma": "kaari",
@@ -2749,7 +2749,7 @@
 		"en": ["via ~", "through ~"],
 		"ru": ["через ~", "посредством ~"],
 		"poses": ["padv"],
-		"frequency": 70
+		"frequency": 79
 	},
 	{
 		"lemma": "kay",
@@ -2757,7 +2757,7 @@
 		"en": ["to break", "to snap"],
 		"ru": ["ломаться", "трещать"],
 		"poses": ["vi"],
-		"frequency": 10
+		"frequency": 12
 	},
 	{
 		"lemma": "kaye",
@@ -2773,7 +2773,7 @@
 		"en": ["to break ~"],
 		"ru": ["ломать ~"],
 		"poses": ["vt"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "kawsen",
@@ -2853,9 +2853,16 @@
 		"en": ["to cover ~"],
 		"ru": ["покрывать ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 2
 	},
-	{ "lemma": "kamuy", "ja": ["神"], "en": ["god"], "ru": ["бог"], "poses": ["n"], "frequency": 92 },
+	{
+		"lemma": "kamuy",
+		"ja": ["神"],
+		"en": ["god"],
+		"ru": ["бог"],
+		"poses": ["n"],
+		"frequency": 123
+	},
 	{
 		"lemma": "kamuycikah",
 		"ja": ["神の鳥"],
@@ -2894,7 +2901,7 @@
 		"en": ["god"],
 		"ru": ["бог"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "kamuyhenke",
@@ -2942,7 +2949,7 @@
 		"en": ["to make", "to create"],
 		"ru": ["делать", "создавать"],
 		"poses": ["vt"],
-		"frequency": 214
+		"frequency": 262
 	},
 	{
 		"lemma": "karahci",
@@ -2950,7 +2957,7 @@
 		"en": ["to make", "to create"],
 		"ru": ["делать", "создавать"],
 		"poses": ["vt"],
-		"frequency": 46
+		"frequency": 50
 	},
 	{
 		"lemma": "karus",
@@ -2966,7 +2973,7 @@
 		"en": ["again"],
 		"ru": ["снова"],
 		"poses": ["adv"],
-		"frequency": 3
+		"frequency": 8
 	},
 	{
 		"lemma": "kanne",
@@ -2974,7 +2981,7 @@
 		"en": ["yo", "ne", "while doing ~"],
 		"ru": ["ё", "нэ", "пока делаешь ~"],
 		"poses": ["sconj", "sconj"],
-		"frequency": 106,
+		"frequency": 120,
 		"cognates": ["kane"]
 	},
 	{
@@ -2983,7 +2990,7 @@
 		"en": ["yo", "ne"],
 		"ru": ["ё", "нэ"],
 		"poses": ["sfp"],
-		"frequency": 0
+		"frequency": 120
 	},
 	{
 		"lemma": "kisma",
@@ -2999,7 +3006,7 @@
 		"en": ["to do ~"],
 		"ru": ["делать ~"],
 		"poses": ["vt"],
-		"frequency": 156
+		"frequency": 167
 	},
 	{
 		"lemma": "kim",
@@ -3015,7 +3022,7 @@
 		"en": ["to do ~"],
 		"ru": ["делать ~"],
 		"poses": ["vt"],
-		"frequency": 273
+		"frequency": 359
 	},
 	{
 		"lemma": "kiw",
@@ -3031,7 +3038,7 @@
 		"en": ["ear"],
 		"ru": ["ухо"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 6
 	},
 	{
 		"lemma": "kito",
@@ -3047,7 +3054,7 @@
 		"en": ["grass"],
 		"ru": ["трава"],
 		"poses": ["n"],
-		"frequency": 25
+		"frequency": 31
 	},
 	{
 		"lemma": "kinaepuy",
@@ -3119,7 +3126,7 @@
 		"en": ["to make noise", "to panic"],
 		"ru": ["шуметь", "паниковать"],
 		"poses": ["vi"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "ku=",
@@ -3127,10 +3134,10 @@
 		"en": ["I (of)"],
 		"ru": ["я (о)"],
 		"poses": ["pers"],
-		"frequency": 71
+		"frequency": 100
 	},
 	{ "lemma": "kuh", "ja": ["帯"], "en": ["belt"], "ru": ["пояс"], "poses": ["n"], "frequency": 16 },
-	{ "lemma": "kuh", "ja": ["帯"], "en": ["belt"], "ru": ["пояс"], "poses": ["n"], "frequency": 0 },
+	{ "lemma": "kuh", "ja": ["帯"], "en": ["belt"], "ru": ["пояс"], "poses": ["n"], "frequency": 16 },
 	{
 		"lemma": "kuhci",
 		"ja": ["～を飲む"],
@@ -3139,8 +3146,8 @@
 		"poses": ["vt"],
 		"frequency": 1
 	},
-	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["vt"], "frequency": 62 },
-	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["n"], "frequency": 0 },
+	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["vt"], "frequency": 70 },
+	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["n"], "frequency": 70 },
 	{ "lemma": "kuuhe", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["n"], "frequency": 0 },
 	{
 		"lemma": "kuani",
@@ -3148,7 +3155,7 @@
 		"en": ["I", "me"],
 		"ru": ["я", "мне"],
 		"poses": ["pron"],
-		"frequency": 7
+		"frequency": 51
 	},
 	{
 		"lemma": "kuy",
@@ -3180,7 +3187,7 @@
 		"en": ["because", "so", "for"],
 		"ru": ["потому что", "так что", "для"],
 		"poses": ["auxv"],
-		"frequency": 1218
+		"frequency": 1306
 	},
 	{
 		"lemma": "kusu",
@@ -3188,7 +3195,7 @@
 		"en": ["because", "so", "for"],
 		"ru": ["потому что", "так что", "для"],
 		"poses": ["sconj"],
-		"frequency": 0
+		"frequency": 1306
 	},
 	{
 		"lemma": "kusuiki",
@@ -3220,7 +3227,7 @@
 		"en": ["should", "to do as", "to try to do"],
 		"ru": ["следует", "делать так", "пытаться сделать"],
 		"poses": ["auxv"],
-		"frequency": 17
+		"frequency": 15
 	},
 	{
 		"lemma": "kuniine",
@@ -3268,7 +3275,7 @@
 		"en": ["should", "to do as", "to try to do"],
 		"ru": ["следует", "делать так", "пытаться сделать"],
 		"poses": ["auxv"],
-		"frequency": 27
+		"frequency": 33
 	},
 	{
 		"lemma": "kunkutu",
@@ -3284,7 +3291,7 @@
 		"en": ["black"],
 		"ru": ["чёрный"],
 		"poses": ["vi"],
-		"frequency": 17
+		"frequency": 24
 	},
 	{
 		"lemma": "kunnecuh",
@@ -3300,7 +3307,7 @@
 		"en": ["what should be done"],
 		"ru": ["то, что должно быть сделано"],
 		"poses": ["nmlz"],
-		"frequency": 20
+		"frequency": 4
 	},
 	{
 		"lemma": "kesto",
@@ -3326,7 +3333,7 @@
 		"poses": ["n"],
 		"frequency": 10
 	},
-	{ "lemma": "kee", "ja": ["油"], "en": ["oil"], "ru": ["масло"], "poses": ["n"], "frequency": 12 },
+	{ "lemma": "kee", "ja": ["油"], "en": ["oil"], "ru": ["масло"], "poses": ["n"], "frequency": 15 },
 	{
 		"lemma": "keeh",
 		"ja": ["さあ"],
@@ -3349,7 +3356,7 @@
 		"en": ["delicious"],
 		"ru": ["вкусный"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{
 		"lemma": "kewtum",
@@ -3365,7 +3372,7 @@
 		"en": ["alder tree"],
 		"ru": ["ольха"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 2
 	},
 	{
 		"lemma": "kema",
@@ -3373,7 +3380,7 @@
 		"en": ["leg (whole)"],
 		"ru": ["нога (целиком)"],
 		"poses": ["n"],
-		"frequency": 26
+		"frequency": 27
 	},
 	{
 		"lemma": "kemaha",
@@ -3381,7 +3388,7 @@
 		"en": ["leg (whole)"],
 		"ru": ["нога (целиком)"],
 		"poses": ["n"],
-		"frequency": 55
+		"frequency": 56
 	},
 	{
 		"lemma": "kemeiki",
@@ -3405,7 +3412,7 @@
 		"en": ["and then"],
 		"ru": ["и тогда"],
 		"poses": ["vt"],
-		"frequency": 31
+		"frequency": 33
 	},
 	{
 		"lemma": "ko",
@@ -3413,7 +3420,7 @@
 		"en": ["and then"],
 		"ru": ["и тогда"],
 		"poses": ["sconj"],
-		"frequency": 0
+		"frequency": 33
 	},
 	{
 		"lemma": "koh",
@@ -3421,7 +3428,7 @@
 		"en": ["and then"],
 		"ru": ["и тогда"],
 		"poses": ["vt"],
-		"frequency": 222
+		"frequency": 236
 	},
 	{
 		"lemma": "koh",
@@ -3429,7 +3436,7 @@
 		"en": ["and then"],
 		"ru": ["и тогда"],
 		"poses": ["sconj"],
-		"frequency": 0
+		"frequency": 236
 	},
 	{
 		"lemma": "kohsaa",
@@ -3461,7 +3468,7 @@
 		"en": ["to attack ~"],
 		"ru": ["атаковать ~"],
 		"poses": ["vt"],
-		"frequency": 35
+		"frequency": 37
 	},
 	{
 		"lemma": "koytah",
@@ -3517,7 +3524,7 @@
 		"en": ["village"],
 		"ru": ["деревня"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "kotanuhu",
@@ -3525,7 +3532,7 @@
 		"en": ["village"],
 		"ru": ["деревня"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 8
 	},
 	{
 		"lemma": "kotanuhuhcin",
@@ -3541,7 +3548,7 @@
 		"en": ["village"],
 		"ru": ["деревня"],
 		"poses": ["n"],
-		"frequency": 74
+		"frequency": 89
 	},
 	{
 		"lemma": "kotankoronispa",
@@ -3573,7 +3580,7 @@
 		"en": ["to pass through ~"],
 		"ru": ["проходить через ~"],
 		"poses": ["vt"],
-		"frequency": 5
+		"frequency": 6
 	},
 	{
 		"lemma": "kotoro",
@@ -3581,7 +3588,7 @@
 		"en": ["chest"],
 		"ru": ["грудь"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{
 		"lemma": "kotoroho",
@@ -3629,7 +3636,7 @@
 		"en": ["to have ~"],
 		"ru": ["иметь ~"],
 		"poses": ["vt"],
-		"frequency": 125
+		"frequency": 140
 	},
 	{
 		"lemma": "korohci",
@@ -3653,7 +3660,7 @@
 		"en": ["gold"],
 		"ru": ["золото"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 17
 	},
 	{
 		"lemma": "konci",
@@ -3669,7 +3676,7 @@
 		"en": ["to give ~ to ~"],
 		"ru": ["давать ~ ~"],
 		"poses": ["vd"],
-		"frequency": 52
+		"frequency": 54
 	},
 	{
 		"lemma": "konrusuy",
@@ -3701,7 +3708,7 @@
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
 		"poses": ["vi"],
-		"frequency": 0
+		"frequency": 6
 	},
 	{
 		"lemma": "sah",
@@ -3709,7 +3716,7 @@
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 6
 	},
 	{
 		"lemma": "sah",
@@ -3717,7 +3724,7 @@
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
 		"poses": ["vi"],
-		"frequency": 0
+		"frequency": 6
 	},
 	{
 		"lemma": "sahka",
@@ -3725,7 +3732,7 @@
 		"en": ["chopsticks"],
 		"ru": ["палочки для еды"],
 		"poses": ["n"],
-		"frequency": 23
+		"frequency": 24
 	},
 	{
 		"lemma": "sahke",
@@ -3741,7 +3748,7 @@
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
 		"poses": ["vi"],
-		"frequency": 6
+		"frequency": 7
 	},
 	{
 		"lemma": "sahpe",
@@ -3797,7 +3804,7 @@
 		"en": ["sake", "alcohol"],
 		"ru": ["саке", "алкоголь"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 8
 	},
 	{
 		"lemma": "sanihi",
@@ -3813,7 +3820,7 @@
 		"en": ["head"],
 		"ru": ["голова"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{
 		"lemma": "sapahka",
@@ -3821,7 +3828,7 @@
 		"en": ["head"],
 		"ru": ["голова"],
 		"poses": ["n"],
-		"frequency": 23
+		"frequency": 25
 	},
 	{
 		"lemma": "sapahkahcin",
@@ -3845,7 +3852,7 @@
 		"en": ["head"],
 		"ru": ["голова"],
 		"poses": ["n"],
-		"frequency": 18
+		"frequency": 20
 	},
 	{
 		"lemma": "sapahahcin",
@@ -3877,7 +3884,7 @@
 		"en": ["to descend"],
 		"ru": ["спускаться"],
 		"poses": ["vi"],
-		"frequency": 285
+		"frequency": 297
 	},
 	{
 		"lemma": "sanke",
@@ -3885,7 +3892,7 @@
 		"en": ["nearby", "next to"],
 		"ru": ["рядом", "близко"],
 		"poses": ["vt"],
-		"frequency": 44
+		"frequency": 53
 	},
 	{
 		"lemma": "sanke",
@@ -3893,7 +3900,7 @@
 		"en": ["nearby", "next to"],
 		"ru": ["рядом", "близко"],
 		"poses": ["nl"],
-		"frequency": 0
+		"frequency": 53
 	},
 	{
 		"lemma": "sankehci",
@@ -3965,7 +3972,7 @@
 		"en": ["Japan", "Japanese person"],
 		"ru": ["Япония", "японец"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 8
 	},
 	{
 		"lemma": "siisan",
@@ -3981,7 +3988,7 @@
 		"en": ["yes", "of course", "naturally"],
 		"ru": ["да", "конечно", "естественно"],
 		"poses": ["intj"],
-		"frequency": 0
+		"frequency": 12
 	},
 	{
 		"lemma": "siine",
@@ -4021,7 +4028,7 @@
 		"en": ["to do one's best"],
 		"ru": ["стараться"],
 		"poses": ["vi"],
-		"frequency": 9
+		"frequency": 8
 	},
 	{
 		"lemma": "sikah",
@@ -4029,7 +4036,7 @@
 		"en": ["to be born"],
 		"ru": ["родиться"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "sikahte",
@@ -4054,7 +4061,7 @@
 		"en": ["eye"],
 		"ru": ["глаз"],
 		"poses": ["n"],
-		"frequency": 9
+		"frequency": 10
 	},
 	{
 		"lemma": "sike",
@@ -4062,7 +4069,7 @@
 		"en": ["luggage"],
 		"ru": ["багаж"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{
 		"lemma": "sikerepe",
@@ -4118,7 +4125,7 @@
 		"en": ["one"],
 		"ru": ["один"],
 		"poses": ["adn"],
-		"frequency": 480
+		"frequency": 490
 	},
 	{
 		"lemma": "sineh",
@@ -4126,7 +4133,7 @@
 		"en": ["one"],
 		"ru": ["один"],
 		"poses": ["n"],
-		"frequency": 113
+		"frequency": 117
 	},
 	{
 		"lemma": "sinepisan",
@@ -4142,7 +4149,7 @@
 		"en": ["nine"],
 		"ru": ["девять"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "sinoh",
@@ -4158,7 +4165,7 @@
 		"en": ["song"],
 		"ru": ["песня"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "sinohca",
@@ -4206,7 +4213,7 @@
 		"en": ["appearance"],
 		"ru": ["внешний вид"],
 		"poses": ["n"],
-		"frequency": 9
+		"frequency": 16
 	},
 	{
 		"lemma": "sirihi",
@@ -4214,7 +4221,7 @@
 		"en": ["appearance"],
 		"ru": ["внешний вид"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 7
 	},
 	{
 		"lemma": "siripirika",
@@ -4222,7 +4229,7 @@
 		"en": ["good weather"],
 		"ru": ["хорошая погода"],
 		"poses": ["vc"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "sirimemamnoo",
@@ -4238,7 +4245,7 @@
 		"en": ["to arrive at ~"],
 		"ru": ["прибыть в ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 4
 	},
 	{
 		"lemma": "sirokaani",
@@ -4246,7 +4253,7 @@
 		"en": ["silver"],
 		"ru": ["серебро"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 16
 	},
 	{
 		"lemma": "sinka",
@@ -4254,7 +4261,7 @@
 		"en": ["to get tired"],
 		"ru": ["устать"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{
 		"lemma": "sinkehe",
@@ -4310,7 +4317,7 @@
 		"en": ["pot", "pan"],
 		"ru": ["кастрюля", "сковорода"],
 		"poses": ["n"],
-		"frequency": 17
+		"frequency": 22
 	},
 	{
 		"lemma": "suukaukakaa",
@@ -4326,7 +4333,7 @@
 		"en": ["again", "number of times"],
 		"ru": ["снова", "количество раз"],
 		"poses": ["adv", "n"],
-		"frequency": 481
+		"frequency": 529
 	},
 	{
 		"lemma": "suke",
@@ -4334,7 +4341,7 @@
 		"en": ["to cook ~"],
 		"ru": ["готовить ~"],
 		"poses": ["vt"],
-		"frequency": 54
+		"frequency": 58
 	},
 	{
 		"lemma": "sukehci",
@@ -4382,7 +4389,7 @@
 		"en": ["stone"],
 		"ru": ["камень"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "sumari",
@@ -4398,7 +4405,7 @@
 		"en": ["Yezo spruce"],
 		"ru": ["Езо ель"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 1
 	},
 	{
 		"lemma": "sunke",
@@ -4406,7 +4413,7 @@
 		"en": ["to lie", "a lie"],
 		"ru": ["лгать", "ложь"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "seh",
@@ -4430,7 +4437,7 @@
 		"en": ["hot"],
 		"ru": ["горячий"],
 		"poses": ["vi"],
-		"frequency": 5
+		"frequency": 6
 	},
 	{
 		"lemma": "seta",
@@ -4438,7 +4445,7 @@
 		"en": ["dog"],
 		"ru": ["собака"],
 		"poses": ["n"],
-		"frequency": 102
+		"frequency": 79
 	},
 	{
 		"lemma": "setaha",
@@ -4502,7 +4509,7 @@
 		"en": ["mat"],
 		"ru": ["циновка"],
 		"poses": ["n"],
-		"frequency": 25
+		"frequency": 28
 	},
 	{
 		"lemma": "soo",
@@ -4510,7 +4517,7 @@
 		"en": ["floor", "seat"],
 		"ru": ["пол", "сиденье"],
 		"poses": ["n"],
-		"frequency": 8
+		"frequency": 9
 	},
 	{
 		"lemma": "soy",
@@ -4518,7 +4525,7 @@
 		"en": ["outside"],
 		"ru": ["снаружи"],
 		"poses": ["nl"],
-		"frequency": 3
+		"frequency": 8
 	},
 	{
 		"lemma": "sonno",
@@ -4526,7 +4533,7 @@
 		"en": ["really", "true"],
 		"ru": ["действительно", "правда"],
 		"poses": ["adv", "adn"],
-		"frequency": 45
+		"frequency": 39
 	},
 	{
 		"lemma": "ta",
@@ -4534,7 +4541,7 @@
 		"en": ["at", "in"],
 		"ru": ["в", "на"],
 		"poses": ["postp"],
-		"frequency": 127
+		"frequency": 183
 	},
 	{
 		"lemma": "tah",
@@ -4542,7 +4549,7 @@
 		"en": ["birch"],
 		"ru": ["береза"],
 		"poses": ["pron"],
-		"frequency": 208
+		"frequency": 229
 	},
 	{
 		"lemma": "tah",
@@ -4550,7 +4557,7 @@
 		"en": ["birch"],
 		"ru": ["береза"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 229
 	},
 	{
 		"lemma": "tahkara",
@@ -4558,7 +4565,7 @@
 		"en": ["to dance", "a dance"],
 		"ru": ["танцевать", "танец"],
 		"poses": ["vi", "n"],
-		"frequency": 6
+		"frequency": 23
 	},
 	{
 		"lemma": "tahci",
@@ -4574,7 +4581,7 @@
 		"en": ["white birch"],
 		"ru": ["белая береза"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 7
 	},
 	{
 		"lemma": "tahhepuh",
@@ -4598,7 +4605,7 @@
 		"en": ["that"],
 		"ru": ["тот", "этот"],
 		"poses": ["vt"],
-		"frequency": 6712
+		"frequency": 6745
 	},
 	{
 		"lemma": "taa",
@@ -4606,7 +4613,7 @@
 		"en": ["that"],
 		"ru": ["тот", "этот"],
 		"poses": ["vt"],
-		"frequency": 0
+		"frequency": 6745
 	},
 	{
 		"lemma": "taa",
@@ -4614,7 +4621,7 @@
 		"en": ["that"],
 		"ru": ["тот", "этот"],
 		"poses": ["adn"],
-		"frequency": 0
+		"frequency": 6745
 	},
 	{
 		"lemma": "taah",
@@ -4622,7 +4629,7 @@
 		"en": ["that"],
 		"ru": ["то", "это"],
 		"poses": ["pron"],
-		"frequency": 9
+		"frequency": 20
 	},
 	{
 		"lemma": "taanoka",
@@ -4654,7 +4661,7 @@
 		"en": ["is it?"],
 		"ru": ["разве?"],
 		"poses": ["int", "advp"],
-		"frequency": 9
+		"frequency": 13
 	},
 	{
 		"lemma": "takahka",
@@ -4686,7 +4693,7 @@
 		"en": ["now", "already"],
 		"ru": ["сейчас", "уже"],
 		"poses": ["pl"],
-		"frequency": 1072
+		"frequency": 1190
 	},
 	{
 		"lemma": "tanoka",
@@ -4710,7 +4717,7 @@
 		"en": ["ball", "jewel"],
 		"ru": ["шар", "драгоценность"],
 		"poses": ["n"],
-		"frequency": 6
+		"frequency": 7
 	},
 	{
 		"lemma": "tamaha",
@@ -4726,7 +4733,7 @@
 		"en": ["that"],
 		"ru": ["тот", "этот"],
 		"poses": ["adn"],
-		"frequency": 25
+		"frequency": 30
 	},
 	{
 		"lemma": "taranoka",
@@ -4734,7 +4741,7 @@
 		"en": ["that"],
 		"ru": ["тот", "этот"],
 		"poses": ["adn"],
-		"frequency": 8
+		"frequency": 11
 	},
 	{
 		"lemma": "tawara",
@@ -4750,7 +4757,7 @@
 		"en": ["this"],
 		"ru": ["этот"],
 		"poses": ["adn"],
-		"frequency": 80
+		"frequency": 81
 	},
 	{
 		"lemma": "tanto",
@@ -4758,7 +4765,7 @@
 		"en": ["today"],
 		"ru": ["сегодня"],
 		"poses": ["adv", "n"],
-		"frequency": 9
+		"frequency": 11
 	},
 	{
 		"lemma": "tanpaku",
@@ -4774,7 +4781,7 @@
 		"en": ["this"],
 		"ru": ["это"],
 		"poses": ["pron"],
-		"frequency": 10
+		"frequency": 11
 	},
 	{
 		"lemma": "cis",
@@ -4782,7 +4789,7 @@
 		"en": ["to cry"],
 		"ru": ["плакать"],
 		"poses": ["vi"],
-		"frequency": 52
+		"frequency": 61
 	},
 	{
 		"lemma": "cispo",
@@ -4798,7 +4805,7 @@
 		"en": ["boat"],
 		"ru": ["лодка"],
 		"poses": ["n"],
-		"frequency": 26
+		"frequency": 28
 	},
 	{
 		"lemma": "ciire",
@@ -4814,9 +4821,9 @@
 		"en": ["to poke ~"],
 		"ru": ["тыкать ~"],
 		"poses": ["vt"],
-		"frequency": 81
+		"frequency": 87
 	},
-	{ "lemma": "ceh", "ja": ["魚"], "en": ["fish"], "ru": ["рыба"], "poses": ["n"], "frequency": 58 },
+	{ "lemma": "ceh", "ja": ["魚"], "en": ["fish"], "ru": ["рыба"], "poses": ["n"], "frequency": 79 },
 	{
 		"lemma": "ceetuytahpe",
 		"ja": ["名高いもの"],
@@ -4831,7 +4838,7 @@
 		"en": ["bundle of fish"],
 		"ru": ["пучок рыбы"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "cieas",
@@ -4847,7 +4854,7 @@
 		"en": ["bird"],
 		"ru": ["птица"],
 		"poses": ["n"],
-		"frequency": 58
+		"frequency": 71
 	},
 	{
 		"lemma": "cikaripe",
@@ -4863,7 +4870,7 @@
 		"en": ["if done"],
 		"ru": ["если сделать"],
 		"poses": ["sconj"],
-		"frequency": 101
+		"frequency": 99
 	},
 	{
 		"lemma": "cikiripe",
@@ -4887,7 +4894,7 @@
 		"en": ["house"],
 		"ru": ["дом"],
 		"poses": ["n"],
-		"frequency": 405
+		"frequency": 444
 	},
 	{
 		"lemma": "cisehe",
@@ -4895,7 +4902,7 @@
 		"en": ["house"],
 		"ru": ["дом"],
 		"poses": ["n"],
-		"frequency": 17
+		"frequency": 18
 	},
 	{
 		"lemma": "citosyaoo",
@@ -4911,7 +4918,7 @@
 		"en": ["necklace with decorative plate"],
 		"ru": ["ожерелье с декоративной пластиной"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{
 		"lemma": "cipuynupihi",
@@ -4919,7 +4926,7 @@
 		"en": ["earring"],
 		"ru": ["серьга"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "cas",
@@ -4943,7 +4950,7 @@
 		"en": ["to open ~"],
 		"ru": ["открыть ~"],
 		"poses": ["vt"],
-		"frequency": 11
+		"frequency": 12
 	},
 	{
 		"lemma": "cahse",
@@ -4959,7 +4966,7 @@
 		"en": ["slope entrance", "shore"],
 		"ru": ["вход в склон", "берег"],
 		"poses": ["nl"],
-		"frequency": 3
+		"frequency": 15
 	},
 	{
 		"lemma": "caake",
@@ -4967,7 +4974,7 @@
 		"en": ["slope entrance", "shore"],
 		"ru": ["вход в склон", "берег"],
 		"poses": ["nl"],
-		"frequency": 1
+		"frequency": 6
 	},
 	{ "lemma": "cara", "ja": ["口"], "en": ["mouth"], "ru": ["рот"], "poses": ["n"], "frequency": 0 },
 	{
@@ -4993,7 +5000,7 @@
 		"en": ["mouth"],
 		"ru": ["рот"],
 		"poses": ["n"],
-		"frequency": 18
+		"frequency": 19
 	},
 	{
 		"lemma": "cuh",
@@ -5001,7 +5008,7 @@
 		"en": ["sun", "moon"],
 		"ru": ["солнце", "луна"],
 		"poses": ["n"],
-		"frequency": 9
+		"frequency": 8
 	},
 	{
 		"lemma": "cuhceh",
@@ -5065,7 +5072,7 @@
 		"en": ["guardian deity of Yairesupo"],
 		"ru": ["защитное божество Яиреспо"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 7
 	},
 	{
 		"lemma": "ciwahci",
@@ -5073,7 +5080,7 @@
 		"en": ["to stab ~"],
 		"ru": ["воткнуть ~"],
 		"poses": ["vt"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "cinki",
@@ -5105,7 +5112,7 @@
 		"en": ["doing"],
 		"ru": ["делая"],
 		"poses": ["sconj"],
-		"frequency": 1353
+		"frequency": 1509
 	},
 	{
 		"lemma": "tehkotoroho",
@@ -5162,7 +5169,7 @@
 		"en": ["hand"],
 		"ru": ["рука"],
 		"poses": ["n"],
-		"frequency": 48
+		"frequency": 49
 	},
 	{
 		"lemma": "tekunpe",
@@ -5210,7 +5217,7 @@
 		"en": ["how"],
 		"ru": ["как"],
 		"poses": ["int"],
-		"frequency": 30
+		"frequency": 35
 	},
 	{
 		"lemma": "temo",
@@ -5242,7 +5249,7 @@
 		"en": ["milk"],
 		"ru": ["молоко"],
 		"poses": ["n"],
-		"frequency": 121
+		"frequency": 162
 	},
 	{
 		"lemma": "too",
@@ -5250,7 +5257,7 @@
 		"en": ["milk"],
 		"ru": ["молоко"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 162
 	},
 	{
 		"lemma": "too",
@@ -5258,7 +5265,7 @@
 		"en": ["milk"],
 		"ru": ["молоко"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 162
 	},
 	{
 		"lemma": "tookes",
@@ -5274,7 +5281,7 @@
 		"en": ["daytime"],
 		"ru": ["дневное время"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 13
 	},
 	{
 		"lemma": "toonoski",
@@ -5306,7 +5313,7 @@
 		"en": ["soil", "earth"],
 		"ru": ["земля", "почва"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 6
 	},
 	{
 		"lemma": "toysuu",
@@ -5322,9 +5329,9 @@
 		"en": ["two (of)"],
 		"ru": ["два (из)"],
 		"poses": ["adn"],
-		"frequency": 46
+		"frequency": 47
 	},
-	{ "lemma": "tuh", "ja": ["２つ"], "en": ["two"], "ru": ["два"], "poses": ["n"], "frequency": 25 },
+	{ "lemma": "tuh", "ja": ["２つ"], "en": ["two"], "ru": ["два"], "poses": ["n"], "frequency": 27 },
 	{
 		"lemma": "tuhse",
 		"ja": ["はねる", "飛ぶ"],
@@ -5347,7 +5354,7 @@
 		"en": ["between ~", "inside"],
 		"ru": ["между ~", "внутри"],
 		"poses": ["nl"],
-		"frequency": 3
+		"frequency": 2
 	},
 	{
 		"lemma": "tuuki",
@@ -5371,7 +5378,7 @@
 		"en": ["fast", "early"],
 		"ru": ["быстрый", "ранний"],
 		"poses": ["vi"],
-		"frequency": 6
+		"frequency": 7
 	},
 	{
 		"lemma": "tuytah",
@@ -5379,7 +5386,7 @@
 		"en": ["folk tale"],
 		"ru": ["народная сказка"],
 		"poses": ["n"],
-		"frequency": 50
+		"frequency": 49
 	},
 	{
 		"lemma": "tuyma",
@@ -5387,7 +5394,7 @@
 		"en": ["far"],
 		"ru": ["далёкий"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 7
 	},
 	{
 		"lemma": "tuymano",
@@ -5395,7 +5402,7 @@
 		"en": ["far away"],
 		"ru": ["вдали"],
 		"poses": ["adv"],
-		"frequency": 5
+		"frequency": 4
 	},
 	{
 		"lemma": "tusu",
@@ -5435,7 +5442,7 @@
 		"en": ["belt with decorative metal fittings"],
 		"ru": ["пояс с декоративной металлической отделкой"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "tura",
@@ -5443,7 +5450,7 @@
 		"en": ["to accompany"],
 		"ru": ["сопровождать"],
 		"poses": ["vt"],
-		"frequency": 277
+		"frequency": 296
 	},
 	{
 		"lemma": "turano",
@@ -5491,7 +5498,7 @@
 		"en": ["guardian deity"],
 		"ru": ["хранитель"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "tunke",
@@ -5499,7 +5506,7 @@
 		"en": ["between ~", "inside"],
 		"ru": ["между ~", "внутри"],
 		"poses": ["nl"],
-		"frequency": 12
+		"frequency": 15
 	},
 	{
 		"lemma": "tuntu",
@@ -5531,7 +5538,7 @@
 		"en": ["Asian fawnlily"],
 		"ru": ["азиатский горицвет"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 7
 	},
 	{
 		"lemma": "tonkori",
@@ -5563,7 +5570,7 @@
 		"en": ["(assertive particle)"],
 		"ru": ["(утвердительная частица)"],
 		"poses": ["sfp"],
-		"frequency": 32
+		"frequency": 36
 	},
 	{
 		"lemma": "naspa",
@@ -5579,7 +5586,7 @@
 		"en": ["where"],
 		"ru": ["где"],
 		"poses": ["adv"],
-		"frequency": 1092
+		"frequency": 1146
 	},
 	{
 		"lemma": "nah",
@@ -5587,7 +5594,7 @@
 		"en": ["where"],
 		"ru": ["где"],
 		"poses": ["advp"],
-		"frequency": 0
+		"frequency": 1146
 	},
 	{
 		"lemma": "nah",
@@ -5595,7 +5602,7 @@
 		"en": ["where"],
 		"ru": ["где"],
 		"poses": ["int"],
-		"frequency": 0
+		"frequency": 1146
 	},
 	{
 		"lemma": "nahtaan",
@@ -5603,7 +5610,7 @@
 		"en": ["which"],
 		"ru": ["какой"],
 		"poses": ["int"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "nahwaan",
@@ -5611,7 +5618,7 @@
 		"en": ["which"],
 		"ru": ["какой"],
 		"poses": ["int"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "naa",
@@ -5619,7 +5626,7 @@
 		"en": ["already", "yet"],
 		"ru": ["уже", "ещё"],
 		"poses": ["advp"],
-		"frequency": 288
+		"frequency": 338
 	},
 	{
 		"lemma": "naa",
@@ -5627,7 +5634,7 @@
 		"en": ["already", "yet"],
 		"ru": ["уже", "ещё"],
 		"poses": ["adv"],
-		"frequency": 0
+		"frequency": 338
 	},
 	{
 		"lemma": "naah",
@@ -5643,7 +5650,7 @@
 		"en": ["who"],
 		"ru": ["кто"],
 		"poses": ["int"],
-		"frequency": 10
+		"frequency": 13
 	},
 	{
 		"lemma": "naaruy",
@@ -5651,7 +5658,7 @@
 		"en": ["even more"],
 		"ru": ["ещё больше"],
 		"poses": ["adv"],
-		"frequency": 0
+		"frequency": 2
 	},
 	{
 		"lemma": "nay",
@@ -5659,7 +5666,7 @@
 		"en": ["river", "stream"],
 		"ru": ["река", "ручей"],
 		"poses": ["n"],
-		"frequency": 89
+		"frequency": 103
 	},
 	{
 		"lemma": "naykorokamuy",
@@ -5675,7 +5682,7 @@
 		"en": ["to where"],
 		"ru": ["куда"],
 		"poses": ["int"],
-		"frequency": 25
+		"frequency": 26
 	},
 	{
 		"lemma": "nakoroun",
@@ -5683,7 +5690,7 @@
 		"en": ["of where"],
 		"ru": ["откуда"],
 		"poses": ["int"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "nakorokehe",
@@ -5724,7 +5731,7 @@
 		"en": ["to rub cheeks against ~"],
 		"ru": ["тереть щёки о ~"],
 		"poses": ["vt"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "nankoro",
@@ -5740,7 +5747,7 @@
 		"en": ["one who has a face"],
 		"ru": ["тот, у кого есть лицо"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 11
 	},
 	{
 		"lemma": "nanna",
@@ -5789,7 +5796,7 @@
 		"en": ["gentleman", "wealthy person"],
 		"ru": ["джентльмен", "богач"],
 		"poses": ["n"],
-		"frequency": 27
+		"frequency": 24
 	},
 	{
 		"lemma": "nihci",
@@ -5805,7 +5812,7 @@
 		"en": ["tree"],
 		"ru": ["дерево"],
 		"poses": ["vt"],
-		"frequency": 160
+		"frequency": 175
 	},
 	{
 		"lemma": "nii",
@@ -5813,7 +5820,7 @@
 		"en": ["tree"],
 		"ru": ["дерево"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 175
 	},
 	{
 		"lemma": "niisahno",
@@ -5821,7 +5828,7 @@
 		"en": ["suddenly"],
 		"ru": ["внезапно"],
 		"poses": ["adv"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "niitohtoki",
@@ -5861,7 +5868,7 @@
 		"en": ["morning"],
 		"ru": ["утро"],
 		"poses": ["n", "adv"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "nisoro",
@@ -5901,7 +5908,7 @@
 		"en": ["to listen to ~"],
 		"ru": ["слушать ~"],
 		"poses": ["vt"],
-		"frequency": 36
+		"frequency": 49
 	},
 	{
 		"lemma": "nuuman",
@@ -5909,7 +5916,7 @@
 		"en": ["yesterday"],
 		"ru": ["вчера"],
 		"poses": ["adv", "n"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "nuurusuyahci",
@@ -5925,7 +5932,7 @@
 		"en": ["to let someone hear ~"],
 		"ru": ["дать кому-то услышать ~"],
 		"poses": ["vd"],
-		"frequency": 8
+		"frequency": 11
 	},
 	{
 		"lemma": "nuurehci",
@@ -5933,7 +5940,7 @@
 		"en": ["to let someone hear ~"],
 		"ru": ["дать кому-то услышать ~"],
 		"poses": ["vd"],
-		"frequency": 3
+		"frequency": 6
 	},
 	{
 		"lemma": "nuurehe",
@@ -5957,7 +5964,7 @@
 		"en": ["to see ~"],
 		"ru": ["видеть ~"],
 		"poses": ["vt"],
-		"frequency": 145
+		"frequency": 153
 	},
 	{
 		"lemma": "nukanrusuy",
@@ -5981,7 +5988,7 @@
 		"en": ["Russia", "Russian person"],
 		"ru": ["Россия", "русский"],
 		"poses": ["n"],
-		"frequency": 25
+		"frequency": 27
 	},
 	{
 		"lemma": "nupuri",
@@ -6029,7 +6036,7 @@
 		"en": ["which"],
 		"ru": ["который"],
 		"poses": ["int"],
-		"frequency": 211
+		"frequency": 172
 	},
 	{
 		"lemma": "neh",
@@ -6037,7 +6044,7 @@
 		"en": ["what"],
 		"ru": ["что"],
 		"poses": ["int"],
-		"frequency": 22
+		"frequency": 23
 	},
 	{
 		"lemma": "nee",
@@ -6045,7 +6052,7 @@
 		"en": ["to be"],
 		"ru": ["быть"],
 		"poses": ["cop"],
-		"frequency": 292
+		"frequency": 345
 	},
 	{
 		"lemma": "neene",
@@ -6053,7 +6060,7 @@
 		"en": ["to where"],
 		"ru": ["куда"],
 		"poses": ["int"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "neeno",
@@ -6061,7 +6068,7 @@
 		"en": ["like ~"],
 		"ru": ["как ~"],
 		"poses": ["padv"],
-		"frequency": 26
+		"frequency": 44
 	},
 	{
 		"lemma": "neehe",
@@ -6077,7 +6084,7 @@
 		"en": ["how"],
 		"ru": ["как"],
 		"poses": ["int"],
-		"frequency": 16
+		"frequency": 17
 	},
 	{
 		"lemma": "neeraanpe",
@@ -6085,7 +6092,7 @@
 		"en": ["what kind of thing"],
 		"ru": ["какая вещь"],
 		"poses": ["int"],
-		"frequency": 1
+		"frequency": 4
 	},
 	{
 		"lemma": "neewa",
@@ -6093,7 +6100,7 @@
 		"en": ["and"],
 		"ru": ["и"],
 		"poses": ["advp"],
-		"frequency": 47
+		"frequency": 52
 	},
 	{
 		"lemma": "nea",
@@ -6101,7 +6108,7 @@
 		"en": ["that"],
 		"ru": ["тот"],
 		"poses": ["adn"],
-		"frequency": 11
+		"frequency": 102
 	},
 	{
 		"lemma": "neanokay",
@@ -6117,7 +6124,7 @@
 		"en": ["that"],
 		"ru": ["тот"],
 		"poses": ["adn"],
-		"frequency": 5
+		"frequency": 317
 	},
 	{
 		"lemma": "neanpe",
@@ -6125,7 +6132,7 @@
 		"en": ["as of ~", "that"],
 		"ru": ["на ~", "это"],
 		"poses": ["nmlz", "n"],
-		"frequency": 16,
+		"frequency": 969,
 		"cognates": ["neanpe"]
 	},
 	{
@@ -6134,7 +6141,7 @@
 		"en": ["as of ~"],
 		"ru": ["на ~"],
 		"poses": ["advp"],
-		"frequency": 0
+		"frequency": 969
 	},
 	{
 		"lemma": "neyke",
@@ -6142,7 +6149,7 @@
 		"en": ["as of ~"],
 		"ru": ["на ~"],
 		"poses": ["advp"],
-		"frequency": 311
+		"frequency": 339
 	},
 	{
 		"lemma": "neoro",
@@ -6326,7 +6333,7 @@
 		"en": ["voice"],
 		"ru": ["голос"],
 		"poses": ["n"],
-		"frequency": 50
+		"frequency": 52
 	},
 	{
 		"lemma": "haworo",
@@ -6334,7 +6341,7 @@
 		"en": ["voice"],
 		"ru": ["голос"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "hawki",
@@ -6366,7 +6373,7 @@
 		"en": ["small"],
 		"ru": ["маленький"],
 		"poses": ["vi"],
-		"frequency": 30
+		"frequency": 35
 	},
 	{
 		"lemma": "hacuhceh",
@@ -6398,7 +6405,7 @@
 		"en": ["not (negative)"],
 		"ru": ["не (отрицание)"],
 		"poses": ["adv"],
-		"frequency": 21
+		"frequency": 25
 	},
 	{
 		"lemma": "hanka",
@@ -6406,7 +6413,7 @@
 		"en": ["don't (prohibition)"],
 		"ru": ["не (запрет)"],
 		"poses": ["adv"],
-		"frequency": 63
+		"frequency": 65
 	},
 	{
 		"lemma": "hankata",
@@ -6438,7 +6445,7 @@
 		"en": ["not (negative)"],
 		"ru": ["не (отрицание)"],
 		"poses": ["adv"],
-		"frequency": 37
+		"frequency": 40
 	},
 	{
 		"lemma": "paskuncikah",
@@ -6470,9 +6477,9 @@
 		"en": ["up to", "as far as"],
 		"ru": ["до", "настолько, как"],
 		"poses": ["advp"],
-		"frequency": 16
+		"frequency": 17
 	},
-	{ "lemma": "paa", "ja": ["年"], "en": ["year"], "ru": ["год"], "poses": ["n"], "frequency": 29 },
+	{ "lemma": "paa", "ja": ["年"], "en": ["year"], "ru": ["год"], "poses": ["n"], "frequency": 28 },
 	{
 		"lemma": "paakuy",
 		"ja": ["ゴマフアザラシ"],
@@ -6511,7 +6518,7 @@
 		"en": ["to go"],
 		"ru": ["идти"],
 		"poses": ["vi"],
-		"frequency": 17
+		"frequency": 29
 	},
 	{
 		"lemma": "payehci",
@@ -6543,7 +6550,7 @@
 		"en": ["to wake up"],
 		"ru": ["проснуться"],
 		"poses": ["vi"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "pateh",
@@ -6551,7 +6558,7 @@
 		"en": ["only"],
 		"ru": ["только"],
 		"poses": ["advp"],
-		"frequency": 66
+		"frequency": 69
 	},
 	{
 		"lemma": "patuere",
@@ -6615,7 +6622,7 @@
 		"en": ["good", "beautiful", "healthy"],
 		"ru": ["хороший", "красивый", "здоровый"],
 		"poses": ["vi"],
-		"frequency": 69
+		"frequency": 85
 	},
 	{
 		"lemma": "pirikahno",
@@ -6631,7 +6638,7 @@
 		"en": ["well", "beautifully", "healthily"],
 		"ru": ["хорошо", "красиво", "здорово"],
 		"poses": ["adv"],
-		"frequency": 57
+		"frequency": 68
 	},
 	{
 		"lemma": "pinni",
@@ -6647,7 +6654,7 @@
 		"en": ["old"],
 		"ru": ["старый"],
 		"poses": ["vi"],
-		"frequency": 7
+		"frequency": 16
 	},
 	{
 		"lemma": "hci",
@@ -6655,7 +6662,7 @@
 		"en": ["plural"],
 		"ru": ["множественное число"],
 		"poses": ["sfx"],
-		"frequency": 10
+		"frequency": 32
 	},
 	{
 		"lemma": "hcin",
@@ -6687,7 +6694,7 @@
 		"en": ["whale"],
 		"ru": ["кит"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 13
 	},
 	{
 		"lemma": "huure",
@@ -6695,7 +6702,7 @@
 		"en": ["red"],
 		"ru": ["красный"],
 		"poses": ["vi"],
-		"frequency": 15
+		"frequency": 18
 	},
 	{
 		"lemma": "huurenii",
@@ -6751,7 +6758,7 @@
 		"en": ["to pass through ~"],
 		"ru": ["проходить через ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "pukusakina",
@@ -6791,7 +6798,7 @@
 		"en": ["how much"],
 		"ru": ["сколько"],
 		"poses": ["int"],
-		"frequency": 0
+		"frequency": 5
 	},
 	{
 		"lemma": "hempahno",
@@ -6799,7 +6806,7 @@
 		"en": ["how much"],
 		"ru": ["сколько"],
 		"poses": ["int"],
-		"frequency": 0
+		"frequency": 4
 	},
 	{
 		"lemma": "hempara",
@@ -6807,7 +6814,7 @@
 		"en": ["to exist"],
 		"ru": ["существовать"],
 		"poses": ["int"],
-		"frequency": 0
+		"frequency": 6
 	},
 	{
 		"lemma": "hee",
@@ -6815,7 +6822,7 @@
 		"en": ["? (question)"],
 		"ru": ["? (вопрос)"],
 		"poses": ["advp"],
-		"frequency": 77
+		"frequency": 82
 	},
 	{
 		"lemma": "heekopohcin",
@@ -6863,7 +6870,7 @@
 		"en": ["to pull"],
 		"ru": ["тянуть"],
 		"poses": ["vt"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "hetah",
@@ -6911,7 +6918,7 @@
 		"en": ["to finish"],
 		"ru": ["заканчивать"],
 		"poses": ["vt", "auxv"],
-		"frequency": 36
+		"frequency": 47
 	},
 	{
 		"lemma": "hemata",
@@ -6919,7 +6926,7 @@
 		"en": ["what"],
 		"ru": ["что"],
 		"poses": ["int"],
-		"frequency": 181
+		"frequency": 196
 	},
 	{
 		"lemma": "hemoy",
@@ -6959,7 +6966,7 @@
 		"en": ["grandfather"],
 		"ru": ["дедушка"],
 		"poses": ["n"],
-		"frequency": 19
+		"frequency": 42
 	},
 	{
 		"lemma": "henkehe",
@@ -6975,7 +6982,7 @@
 		"en": ["even if ~"],
 		"ru": ["даже если ~"],
 		"poses": ["advp"],
-		"frequency": 7
+		"frequency": 8
 	},
 	{
 		"lemma": "pe",
@@ -6983,7 +6990,7 @@
 		"en": ["thing"],
 		"ru": ["вещь"],
 		"poses": ["nmlz"],
-		"frequency": 47
+		"frequency": 46
 	},
 	{
 		"lemma": "peka",
@@ -6991,7 +6998,7 @@
 		"en": ["around ~"],
 		"ru": ["вокруг ~"],
 		"poses": ["postp"],
-		"frequency": 2
+		"frequency": 5
 	},
 	{
 		"lemma": "hos",
@@ -7007,7 +7014,7 @@
 		"en": ["ahead", "tip"],
 		"ru": ["вперед", "кончик"],
 		"poses": ["adv", "adn"],
-		"frequency": 13
+		"frequency": 15
 	},
 	{
 		"lemma": "hoskiramuhu",
@@ -7055,7 +7062,7 @@
 		"en": ["husband"],
 		"ru": ["муж"],
 		"poses": ["n"],
-		"frequency": 48
+		"frequency": 49
 	},
 	{
 		"lemma": "hokure",
@@ -7071,7 +7078,7 @@
 		"en": ["to return"],
 		"ru": ["возвращаться"],
 		"poses": ["vi"],
-		"frequency": 39
+		"frequency": 47
 	},
 	{
 		"lemma": "hosipihci",
@@ -7079,7 +7086,7 @@
 		"en": ["to return"],
 		"ru": ["возвращаться"],
 		"poses": ["vi"],
-		"frequency": 14
+		"frequency": 17
 	},
 	{
 		"lemma": "hotari",
@@ -7087,7 +7094,7 @@
 		"en": ["to stand"],
 		"ru": ["стоять"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 6
 	},
 	{
 		"lemma": "hotarika",
@@ -7095,7 +7102,7 @@
 		"en": ["to stand up"],
 		"ru": ["встать"],
 		"poses": ["vt"],
-		"frequency": 4
+		"frequency": 8
 	},
 	{
 		"lemma": "honi",
@@ -7143,7 +7150,7 @@
 		"en": ["male (in stories)"],
 		"ru": ["мужчина (в рассказах)"],
 		"poses": ["n"],
-		"frequency": 897
+		"frequency": 915
 	},
 	{
 		"lemma": "hontom",
@@ -7183,7 +7190,7 @@
 		"en": ["children"],
 		"ru": ["дети"],
 		"poses": ["n"],
-		"frequency": 34
+		"frequency": 35
 	},
 	{
 		"lemma": "poopoh",
@@ -7191,7 +7198,7 @@
 		"en": ["feast"],
 		"ru": ["пир"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 18
 	},
 	{
 		"lemma": "poah",
@@ -7207,7 +7214,7 @@
 		"en": ["to", "through"],
 		"ru": ["к", "через"],
 		"poses": ["postp"],
-		"frequency": 20
+		"frequency": 22
 	},
 	{
 		"lemma": "poniwne",
@@ -7239,7 +7246,7 @@
 		"en": ["big"],
 		"ru": ["большой"],
 		"poses": ["vi"],
-		"frequency": 99
+		"frequency": 107
 	},
 	{
 		"lemma": "poroo",
@@ -7271,7 +7278,7 @@
 		"en": ["small"],
 		"ru": ["маленький"],
 		"poses": ["vi"],
-		"frequency": 85
+		"frequency": 104
 	},
 	{
 		"lemma": "poncikahpo",
@@ -7311,7 +7318,7 @@
 		"en": ["a little"],
 		"ru": ["немного"],
 		"poses": ["adv"],
-		"frequency": 42
+		"frequency": 44
 	},
 	{
 		"lemma": "ponhekaci",
@@ -7336,7 +7343,7 @@
 		"en": ["woman"],
 		"ru": ["женщина"],
 		"poses": ["n"],
-		"frequency": 27
+		"frequency": 31
 	},
 	{
 		"lemma": "mahpoo",
@@ -7360,7 +7367,7 @@
 		"en": ["to grill"],
 		"ru": ["жарить"],
 		"poses": ["vt"],
-		"frequency": 0
+		"frequency": 24
 	},
 	{
 		"lemma": "maareh",
@@ -7368,7 +7375,7 @@
 		"en": ["hooked harpoon"],
 		"ru": ["гарпун с крюком"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 9
 	},
 	{
 		"lemma": "mawhe",
@@ -7384,7 +7391,7 @@
 		"en": ["to climb"],
 		"ru": ["подниматься"],
 		"poses": ["vi"],
-		"frequency": 5
+		"frequency": 8
 	},
 	{
 		"lemma": "makan",
@@ -7392,7 +7399,7 @@
 		"en": ["to climb"],
 		"ru": ["подниматься"],
 		"poses": ["vi"],
-		"frequency": 222
+		"frequency": 231
 	},
 	{
 		"lemma": "makiri",
@@ -7400,7 +7407,7 @@
 		"en": ["knife"],
 		"ru": ["нож"],
 		"poses": ["n"],
-		"frequency": 10
+		"frequency": 12
 	},
 	{
 		"lemma": "makirihi",
@@ -7441,7 +7448,7 @@
 		"en": ["wound"],
 		"ru": ["рана"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "manu",
@@ -7449,7 +7456,7 @@
 		"en": ["called", "it seems"],
 		"ru": ["называется", "кажется"],
 		"poses": ["auxv"],
-		"frequency": 2388
+		"frequency": 2502
 	},
 	{
 		"lemma": "manuyke",
@@ -7457,7 +7464,7 @@
 		"en": ["saying", "it seems"],
 		"ru": ["говоря", "кажется"],
 		"poses": ["sconj"],
-		"frequency": 265
+		"frequency": 374
 	},
 	{
 		"lemma": "mih",
@@ -7497,7 +7504,7 @@
 		"en": ["grandchild"],
 		"ru": ["внук"],
 		"poses": ["n"],
-		"frequency": 7
+		"frequency": 8
 	},
 	{
 		"lemma": "micihihcin",
@@ -7513,7 +7520,7 @@
 		"en": ["grandchildren"],
 		"ru": ["внуки"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "mitutarikehe",
@@ -7593,7 +7600,7 @@
 		"en": ["woman"],
 		"ru": ["женщина"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 2
 	},
 	{
 		"lemma": "merekopo",
@@ -7617,7 +7624,7 @@
 		"en": ["to sleep"],
 		"ru": ["спать"],
 		"poses": ["vi"],
-		"frequency": 119
+		"frequency": 126
 	},
 	{
 		"lemma": "mokoroho",
@@ -7649,7 +7656,7 @@
 		"en": ["land", "country", "world"],
 		"ru": ["земля", "страна", "мир"],
 		"poses": ["n"],
-		"frequency": 8
+		"frequency": 14
 	},
 	{
 		"lemma": "moso",
@@ -7665,7 +7672,7 @@
 		"en": ["woman"],
 		"ru": ["женщина"],
 		"poses": ["n"],
-		"frequency": 810
+		"frequency": 819
 	},
 	{
 		"lemma": "monpeci",
@@ -7673,7 +7680,7 @@
 		"en": ["finger"],
 		"ru": ["палец"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 2
 	},
 	{
 		"lemma": "monpecihi",
@@ -7689,7 +7696,7 @@
 		"en": ["to work", "job"],
 		"ru": ["работать", "работа"],
 		"poses": ["vi", "n"],
-		"frequency": 0
+		"frequency": 2
 	},
 	{
 		"lemma": "monraykihi",
@@ -7705,7 +7712,7 @@
 		"en": ["question particle"],
 		"ru": ["вопросительная частица"],
 		"poses": ["sfp"],
-		"frequency": 15
+		"frequency": 10
 	},
 	{
 		"lemma": "yah",
@@ -7721,7 +7728,7 @@
 		"en": ["even if"],
 		"ru": ["даже если"],
 		"poses": ["sconj"],
-		"frequency": 110
+		"frequency": 112
 	},
 	{
 		"lemma": "yahkayki",
@@ -7731,7 +7738,7 @@
 		"poses": ["sconj"],
 		"frequency": 41
 	},
-	{ "lemma": "yaa", "ja": ["網"], "en": ["net"], "ru": ["сеть"], "poses": ["n"], "frequency": 19 },
+	{ "lemma": "yaa", "ja": ["網"], "en": ["net"], "ru": ["сеть"], "poses": ["n"], "frequency": 21 },
 	{
 		"lemma": "yayekota",
 		"ja": ["自分で"],
@@ -7762,7 +7769,7 @@
 		"en": ["dangerous"],
 		"ru": ["опасный"],
 		"poses": ["intj"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "yaysopikante",
@@ -7802,7 +7809,7 @@
 		"en": ["while doing"],
 		"ru": ["пока делаете"],
 		"poses": ["sconj"],
-		"frequency": 340
+		"frequency": 350
 	},
 	{
 		"lemma": "yayramani",
@@ -7818,7 +7825,7 @@
 		"en": ["cultural hero"],
 		"ru": ["культурный герой"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 16
 	},
 	{
 		"lemma": "yanihi",
@@ -7842,7 +7849,7 @@
 		"en": ["leaf"],
 		"ru": ["лист"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "yayasi",
@@ -7898,7 +7905,7 @@
 		"en": ["to land"],
 		"ru": ["высаживаться"],
 		"poses": ["vi"],
-		"frequency": 83
+		"frequency": 108
 	},
 	{
 		"lemma": "yanke",
@@ -7906,7 +7913,7 @@
 		"en": ["to bring ashore"],
 		"ru": ["выводить на берег"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 13
 	},
 	{
 		"lemma": "yuh",
@@ -7922,7 +7929,7 @@
 		"en": ["older brother"],
 		"ru": ["старший брат"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 3
 	},
 	{
 		"lemma": "yuhke",
@@ -7962,7 +7969,7 @@
 		"en": ["improvised song"],
 		"ru": ["импровизированная песня"],
 		"poses": ["n"],
-		"frequency": 27
+		"frequency": 30
 	},
 	{
 		"lemma": "yupi",
@@ -8042,7 +8049,7 @@
 		"en": ["to descend"],
 		"ru": ["спускаться"],
 		"poses": ["vi"],
-		"frequency": 0
+		"frequency": 7
 	},
 	{
 		"lemma": "rahki",
@@ -8066,7 +8073,7 @@
 		"en": ["heart", "mind"],
 		"ru": ["сердце", "разум"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{
 		"lemma": "ray",
@@ -8090,7 +8097,7 @@
 		"en": ["to kill ~"],
 		"ru": ["убивать ~"],
 		"poses": ["vt"],
-		"frequency": 42
+		"frequency": 50
 	},
 	{
 		"lemma": "ranihi",
@@ -8114,7 +8121,7 @@
 		"en": ["to think", "heart"],
 		"ru": ["думать", "сердце"],
 		"poses": ["vi", "n"],
-		"frequency": 26
+		"frequency": 36
 	},
 	{
 		"lemma": "ramupirika",
@@ -8162,7 +8169,7 @@
 		"en": ["to descend"],
 		"ru": ["спускаться"],
 		"poses": ["vi"],
-		"frequency": 25
+		"frequency": 28
 	},
 	{
 		"lemma": "ranke",
@@ -8170,7 +8177,7 @@
 		"en": ["to lower ~"],
 		"ru": ["опускать ~"],
 		"poses": ["vt"],
-		"frequency": 59
+		"frequency": 70
 	},
 	{
 		"lemma": "ranneno",
@@ -8266,7 +8273,7 @@
 		"en": ["road"],
 		"ru": ["дорога"],
 		"poses": ["n"],
-		"frequency": 26
+		"frequency": 29
 	},
 	{
 		"lemma": "ruusicihi",
@@ -8282,7 +8289,7 @@
 		"en": ["appearance", "state"],
 		"ru": ["внешний вид", "состояние"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 6
 	},
 	{
 		"lemma": "ruuhehcin",
@@ -8314,7 +8321,7 @@
 		"en": ["whetstone"],
 		"ru": ["точильный камень"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 7
 	},
 	{
 		"lemma": "ruyno",
@@ -8330,7 +8337,7 @@
 		"en": ["butterbur (plant)"],
 		"ru": ["буттербур (растение)"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 4
 	},
 	{
 		"lemma": "ruwekinayam",
@@ -8346,7 +8353,7 @@
 		"en": ["slope"],
 		"ru": ["склон"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 8
 	},
 	{
 		"lemma": "ruki",
@@ -8378,7 +8385,7 @@
 		"en": ["to want to do"],
 		"ru": ["хотеть сделать"],
 		"poses": ["auxv"],
-		"frequency": 80
+		"frequency": 83
 	},
 	{
 		"lemma": "rusuyhi",
@@ -8410,7 +8417,7 @@
 		"en": ["three"],
 		"ru": ["три"],
 		"poses": ["adn"],
-		"frequency": 90
+		"frequency": 89
 	},
 	{
 		"lemma": "reske",
@@ -8426,7 +8433,7 @@
 		"en": ["three"],
 		"ru": ["три"],
 		"poses": ["n"],
-		"frequency": 15
+		"frequency": 16
 	},
 	{
 		"lemma": "rehni",
@@ -8442,7 +8449,7 @@
 		"en": ["very", "extremely"],
 		"ru": ["очень", "крайне"],
 		"poses": ["adv"],
-		"frequency": 52
+		"frequency": 166
 	},
 	{
 		"lemma": "reehe",
@@ -8450,7 +8457,7 @@
 		"en": ["name"],
 		"ru": ["имя"],
 		"poses": ["n"],
-		"frequency": 7
+		"frequency": 9
 	},
 	{
 		"lemma": "reera",
@@ -8482,7 +8489,7 @@
 		"en": ["neck", "throat"],
 		"ru": ["шея", "горло"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 3
 	},
 	{
 		"lemma": "rekucihi",
@@ -8506,7 +8513,7 @@
 		"en": ["to head offshore"],
 		"ru": ["выйти в открытое море"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{
 		"lemma": "reraru",
@@ -8530,7 +8537,7 @@
 		"en": ["a lot"],
 		"ru": ["много"],
 		"poses": ["adv"],
-		"frequency": 56
+		"frequency": 66
 	},
 	{
 		"lemma": "renneno",
@@ -8546,7 +8553,7 @@
 		"en": ["to stand ~ up"],
 		"ru": ["ставить ~"],
 		"poses": ["vt"],
-		"frequency": 13
+		"frequency": 16
 	},
 	{
 		"lemma": "roskihci",
@@ -8594,7 +8601,7 @@
 		"en": ["doing"],
 		"ru": ["делая"],
 		"poses": ["n"],
-		"frequency": 588
+		"frequency": 631
 	},
 	{
 		"lemma": "wahka",
@@ -8602,7 +8609,7 @@
 		"en": ["water"],
 		"ru": ["вода"],
 		"poses": ["n"],
-		"frequency": 94
+		"frequency": 106
 	},
 	{
 		"lemma": "wahkarayki",
@@ -8626,7 +8633,7 @@
 		"en": ["ten"],
 		"ru": ["десять"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 1
 	},
 	{
 		"lemma": "wante",
@@ -8634,7 +8641,7 @@
 		"en": ["to understand"],
 		"ru": ["понимать"],
 		"poses": ["vt"],
-		"frequency": 19
+		"frequency": 20
 	},
 	{
 		"lemma": "wantehci",
@@ -8658,7 +8665,7 @@
 		"en": ["to make someone understand ~"],
 		"ru": ["заставить кого-то понять ~"],
 		"poses": ["vd"],
-		"frequency": 1
+		"frequency": 2
 	},
 	{
 		"lemma": "wanpe",
@@ -8666,7 +8673,7 @@
 		"en": ["ten (pieces)"],
 		"ru": ["десять (штук)"],
 		"poses": ["n"],
-		"frequency": 0
+		"frequency": 1
 	},
 	{ "lemma": "cokay", "frequency": 32 },
 	{ "lemma": "itaku", "frequency": 20 },
@@ -8676,9 +8683,9 @@
 		"en": ["child"],
 		"ru": ["ребенок"],
 		"poses": ["n"],
-		"frequency": 38
+		"frequency": 39
 	},
-	{ "lemma": "=hci", "frequency": 18 },
+	{ "lemma": "=hci", "frequency": 32 },
 	{
 		"lemma": "opista",
 		"ja": ["すべて"],
@@ -8694,7 +8701,7 @@
 		"en": ["we", "us (divine)"],
 		"ru": ["мы (божественное)"],
 		"poses": ["pfx", "v"],
-		"frequency": 17
+		"frequency": 22
 	},
 	{
 		"lemma": "manuy",
@@ -8702,7 +8709,7 @@
 		"en": ["called", "it seems"],
 		"ru": ["называется", "кажется"],
 		"poses": ["auxv"],
-		"frequency": 2388
+		"frequency": 17
 	},
 	{
 		"lemma": "ki",
@@ -8710,7 +8717,7 @@
 		"en": ["thing"],
 		"ru": ["вещь"],
 		"poses": ["v"],
-		"frequency": 38
+		"frequency": 40
 	},
 	{ "lemma": "porono", "frequency": 16 },
 	{ "lemma": "pateki", "frequency": 15 },
@@ -8723,7 +8730,7 @@
 		"frequency": 14
 	},
 	{ "lemma": "iani", "frequency": 12 },
-	{ "lemma": "kanpi", "frequency": 16 },
+	{ "lemma": "kanpi", "frequency": 11 },
 	{ "lemma": "cep", "ja": ["魚"], "en": ["fish"], "ru": ["рыба"], "poses": ["n"], "frequency": 10 },
 	{
 		"lemma": "uneno",
@@ -8738,7 +8745,7 @@
 		"en": ["to listen to", "eye"],
 		"ru": ["слушать", "глаз"],
 		"poses": ["v", "root"],
-		"frequency": 14
+		"frequency": 13
 	},
 	{ "lemma": "monasno", "frequency": 8 },
 	{
@@ -8766,7 +8773,7 @@
 		"en": ["you (formal)", "someone", "we"],
 		"ru": ["вы (уважительное)", "кто-то", "мы"],
 		"poses": ["pron"],
-		"frequency": 8
+		"frequency": 7
 	},
 	{ "lemma": "bagunke", "frequency": 7 },
 	{ "lemma": "cikin", "frequency": 7 },
@@ -8786,30 +8793,30 @@
 		"en": ["mouth", "head", "year"],
 		"ru": ["рот", "голова", "год"],
 		"poses": ["n", "adv", "v", "auxv", "sfx", "root"],
-		"frequency": 16
+		"frequency": 10
 	},
-	{ "lemma": "seraroka", "frequency": 5 },
+	{ "lemma": "seraroka", "frequency": 1 },
 	{ "lemma": "neciki", "frequency": 5 },
-	{ "lemma": "go", "frequency": 5 },
+	{ "lemma": "go", "frequency": 6 },
 	{
 		"lemma": "pakno",
 		"ja": ["～まで", "並外れた", "～ほど", "これほど", "～くらい"],
 		"en": ["up to ~", "to the extent of ~"],
 		"ru": ["до ~", "вплоть до ~"],
 		"poses": ["adv"],
-		"frequency": 8
+		"frequency": 5
 	},
 	{ "lemma": "nure", "frequency": 5 },
 	{ "lemma": "ucakasno", "frequency": 4 },
-	{ "lemma": "ni", "ja": ["木"], "en": ["tree"], "ru": ["дерево"], "poses": ["n"], "frequency": 6 },
-	{ "lemma": "otasan", "frequency": 4 },
+	{ "lemma": "ni", "ja": ["木"], "en": ["tree"], "ru": ["дерево"], "poses": ["n"], "frequency": 5 },
+	{ "lemma": "otasan", "frequency": 1 },
 	{
 		"lemma": "oruspe",
 		"ja": ["～の事柄", "～の噂", "～の事", "～の話"],
 		"en": ["matter of ~", "rumor of ~", "story of ~"],
 		"ru": ["дело о ~", "слух о ~", "история о ~"],
 		"poses": ["n"],
-		"frequency": 7
+		"frequency": 6
 	},
 	{
 		"lemma": "te",
@@ -8817,7 +8824,7 @@
 		"en": ["here"],
 		"ru": ["здесь"],
 		"poses": ["n"],
-		"frequency": 14
+		"frequency": 20
 	},
 	{ "lemma": "woya", "frequency": 4 },
 	{
@@ -8826,14 +8833,14 @@
 		"en": ["two (things/people/animals)"],
 		"ru": ["два (объекта/человека/животных)"],
 		"poses": ["num"],
-		"frequency": 5
+		"frequency": 4
 	},
 	{
 		"lemma": "tere",
 		"ja": ["♪テレながら待つ"],
 		"en": ["to wait shyly"],
 		"ru": ["ждать застенчиво"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{ "lemma": "co", "frequency": 3 },
 	{ "lemma": "cornaya", "frequency": 3 },
@@ -8846,7 +8853,7 @@
 		"en": ["see -no"],
 		"ru": ["см. -no"],
 		"poses": ["sfx"],
-		"frequency": 11
+		"frequency": 7
 	},
 	{
 		"lemma": "tanpa",
@@ -8854,7 +8861,7 @@
 		"en": ["this year"],
 		"ru": ["этот год"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 2
 	},
 	{ "lemma": "rorey", "frequency": 3 },
 	{
@@ -8870,7 +8877,7 @@
 		"ja": ["静かだ", "静けさ"],
 		"en": ["quiet", "silence"],
 		"ru": ["тихий", "тишина"],
-		"frequency": 7
+		"frequency": 8
 	},
 	{ "lemma": "taronzi", "frequency": 3 },
 	{
@@ -8899,14 +8906,14 @@
 	{ "lemma": "spa", "frequency": 3 },
 	{ "lemma": "tokyo", "frequency": 3 },
 	{ "lemma": "ihoku", "frequency": 3 },
-	{ "lemma": "en", "ja": ["～へ"], "en": ["to ~"], "ru": ["к ~"], "frequency": 6 },
+	{ "lemma": "en", "ja": ["～へ"], "en": ["to ~"], "ru": ["к ~"], "frequency": 35 },
 	{
 		"lemma": "i",
 		"ja": ["意味的に目的語を補い", "それ", "tranverb}}を{{intrverb}}化する"],
 		"en": ["it (object complement)", "to transform"],
 		"ru": ["оно (дополнение объекта)", "преобразовывать"],
 		"poses": ["pfx"],
-		"frequency": 15
+		"frequency": 63
 	},
 	{ "lemma": "naibuci", "frequency": 3 },
 	{ "lemma": "=", "frequency": 6 },
@@ -8922,16 +8929,16 @@
 		"ja": ["その間に挿入される"],
 		"en": ["inserted in between"],
 		"ru": ["вставляется между"],
-		"frequency": 4
+		"frequency": 6
 	},
-	{ "lemma": "ki=", "frequency": 3 },
+	{ "lemma": "ki=", "frequency": 40 },
 	{
 		"lemma": "sinep",
 		"ja": ["一つ", "一人", "一頭"],
 		"en": ["one (thing/person/animal)"],
 		"ru": ["один (объект/человек/животное)"],
 		"poses": ["num"],
-		"frequency": 4
+		"frequency": 3
 	},
 	{
 		"lemma": "hoko",
@@ -8983,14 +8990,14 @@
 	{ "lemma": "hakodate", "frequency": 2 },
 	{ "lemma": "sisratoka", "frequency": 2 },
 	{ "lemma": "ramurahkino", "frequency": 2 },
-	{ "lemma": "iyuni", "frequency": 2 },
+	{ "lemma": "iyuni", "frequency": 1 },
 	{
 		"lemma": "si",
 		"ja": ["糞", "大便", "ウンチ"],
 		"en": ["feces", "excrement"],
 		"ru": ["кал", "испражнения"],
 		"poses": ["n", "root"],
-		"frequency": 14
+		"frequency": 3
 	},
 	{
 		"lemma": "ra",
@@ -9019,7 +9026,7 @@
 		"en": ["to keep rhythm"],
 		"ru": ["держать ритм"],
 		"poses": ["n", "v", "num"],
-		"frequency": 3
+		"frequency": 2
 	},
 	{ "lemma": "korope", "frequency": 5 },
 	{ "lemma": "usoro", "frequency": 2 },
@@ -9029,7 +9036,7 @@
 		"en": ["in the place of ~"],
 		"ru": ["в месте ~"],
 		"poses": ["colloc", "colloc"],
-		"frequency": 435,
+		"frequency": 497,
 		"cognates": ["or ta"]
 	},
 	{
@@ -9038,7 +9045,7 @@
 		"en": ["no", "not ~", "to not do ~"],
 		"ru": ["нет", "не ~", "не делать ~"],
 		"poses": ["adv"],
-		"frequency": 8
+		"frequency": 2
 	},
 	{
 		"lemma": "nanko",
@@ -9046,17 +9053,17 @@
 		"en": ["probably"],
 		"ru": ["вероятно"],
 		"poses": ["auxv"],
-		"frequency": 6
+		"frequency": 27
 	},
-	{ "lemma": "sta", "frequency": 2 },
+	{ "lemma": "sta", "frequency": 1 },
 	{
 		"lemma": "urenkare",
 		"ja": ["全部揃える～を決める", "～解決する"],
 		"en": ["to assemble everything", "to resolve ~"],
 		"ru": ["собрать всё", "разрешить ~"],
-		"frequency": 2
+		"frequency": 5
 	},
-	{ "lemma": "=ci", "frequency": 2 },
+	{ "lemma": "=ci", "frequency": 22 },
 	{ "lemma": "monitahno", "frequency": 2 },
 	{
 		"lemma": "tekoro",
@@ -9072,12 +9079,12 @@
 		"ja": ["もう少しで～するところだった"],
 		"en": ["almost about to ~"],
 		"ru": ["почти собирался ~"],
-		"frequency": 3
+		"frequency": 5
 	},
 	{ "lemma": "potora", "frequency": 2 },
-	{ "lemma": "cup", "ja": ["日"], "en": ["day"], "ru": ["день"], "poses": ["n"], "frequency": 3 },
+	{ "lemma": "cup", "ja": ["日"], "en": ["day"], "ru": ["день"], "poses": ["n"], "frequency": 2 },
 	{ "lemma": "ponciku", "frequency": 2 },
-	{ "lemma": "siska", "frequency": 2 },
+	{ "lemma": "siska", "frequency": 1 },
 	{ "lemma": "ikasiw", "frequency": 2 },
 	{ "lemma": "ukopakari", "frequency": 2 },
 	{
@@ -9086,7 +9093,7 @@
 		"en": ["belonging to utar (people)"],
 		"ru": ["принадлежность утару (люди)"],
 		"poses": ["n"],
-		"frequency": 9
+		"frequency": 4
 	},
 	{ "lemma": "seraroko", "frequency": 2 },
 	{ "lemma": "wepekere", "frequency": 2 },
@@ -9104,7 +9111,7 @@
 		"en": ["even if"],
 		"ru": ["даже если"],
 		"poses": ["parti"],
-		"frequency": 9
+		"frequency": 1
 	},
 	{
 		"lemma": "yakka",
@@ -9112,7 +9119,7 @@
 		"en": ["even if", "even though"],
 		"ru": ["даже если", "несмотря на"],
 		"poses": ["parti"],
-		"frequency": 17
+		"frequency": 1
 	},
 	{ "lemma": "eki", "frequency": 22 },
 	{ "lemma": "ca", "ja": ["口"], "en": ["mouth"], "ru": ["рот"], "frequency": 2 },
@@ -9122,7 +9129,7 @@
 		"en": ["soon", "immediately"],
 		"ru": ["скоро", "немедленно"],
 		"poses": ["adv"],
-		"frequency": 21
+		"frequency": 25
 	},
 	{
 		"lemma": "irenka",
@@ -9132,31 +9139,31 @@
 		"poses": ["n"],
 		"frequency": 2
 	},
-	{ "lemma": "in", "frequency": 3 },
+	{ "lemma": "in", "frequency": 6 },
 	{ "lemma": "kasiketa", "frequency": 2 },
-	{ "lemma": "okayan", "frequency": 4 },
+	{ "lemma": "okayan", "frequency": 7 },
 	{ "lemma": "ituyaskara", "frequency": 2 },
-	{ "lemma": "in=", "frequency": 3 },
-	{ "lemma": "kestoono", "frequency": 2 },
+	{ "lemma": "in=", "frequency": 6 },
+	{ "lemma": "kestoono", "frequency": 3 },
 	{
 		"lemma": "orowano",
 		"ja": ["それから", "次に", "その後に"],
 		"en": ["after that", "next"],
 		"ru": ["после этого", "затем"],
 		"poses": ["adv"],
-		"frequency": 23
+		"frequency": 18
 	},
 	{ "lemma": "h", "frequency": 12 },
 	{ "lemma": "kawarini", "frequency": 2 },
 	{ "lemma": "ikusta", "frequency": 3 },
-	{ "lemma": "man", "frequency": 3 },
+	{ "lemma": "man", "frequency": 4 },
 	{
 		"lemma": "kane",
 		"ja": ["様子"],
 		"en": ["appearance", "condition"],
 		"ru": ["внешний вид", "состояние"],
 		"poses": ["parti", "auxv", "n"],
-		"frequency": 17
+		"frequency": 5
 	},
 	{
 		"lemma": "ke",
@@ -9164,7 +9171,7 @@
 		"en": ["of ~", "belonging to ~"],
 		"ru": ["из ~", "принадлежащий ~"],
 		"poses": ["rel"],
-		"frequency": 2
+		"frequency": 9
 	},
 	{
 		"lemma": "he",
@@ -9172,7 +9179,7 @@
 		"en": ["head"],
 		"ru": ["голова"],
 		"poses": ["parti"],
-		"frequency": 24
+		"frequency": 29
 	},
 	{ "lemma": "hosiki", "frequency": 13 },
 	{
@@ -9183,14 +9190,14 @@
 		"poses": ["num"],
 		"frequency": 2
 	},
-	{ "lemma": "u", "ja": ["互いに"], "en": ["mutually"], "ru": ["взаимно"], "frequency": 1 },
+	{ "lemma": "u", "ja": ["互いに"], "en": ["mutually"], "ru": ["взаимно"], "frequency": 10 },
 	{
 		"lemma": "ci",
 		"ja": ["それそこ自ら"],
 		"en": ["itself", "oneself"],
 		"ru": ["само", "себя"],
 		"poses": ["v"],
-		"frequency": 3
+		"frequency": 22
 	},
 	{
 		"lemma": "saranpa",
@@ -9198,7 +9205,7 @@
 		"en": ["goodbye"],
 		"ru": ["прощай"],
 		"poses": ["interj"],
-		"frequency": 2,
+		"frequency": 1,
 		"cognates": ["sarampa"]
 	},
 	{
@@ -9207,7 +9214,7 @@
 		"en": ["person"],
 		"ru": ["человек"],
 		"poses": ["v", "n"],
-		"frequency": 3
+		"frequency": 2
 	},
 	{
 		"lemma": "o",
@@ -9222,7 +9229,7 @@
 			"быть в изобилии"
 		],
 		"poses": ["v"],
-		"frequency": 3
+		"frequency": 10
 	},
 	{
 		"lemma": "sino",
@@ -9230,7 +9237,7 @@
 		"en": ["true", "truly"],
 		"ru": ["правда", "по-настоящему"],
 		"poses": ["adv"],
-		"frequency": 16
+		"frequency": 1
 	},
 	{
 		"lemma": "sa",
@@ -9238,7 +9245,7 @@
 		"en": ["front"],
 		"ru": ["перед"],
 		"poses": ["n", "root"],
-		"frequency": 7
+		"frequency": 2
 	},
 	{
 		"lemma": "uwekari",
@@ -9254,7 +9261,7 @@
 		"en": ["only", "just"],
 		"ru": ["только", "лишь"],
 		"poses": ["adv"],
-		"frequency": 2
+		"frequency": 1
 	},
 	{ "lemma": "pahko", "frequency": 3 },
 	{
@@ -9273,14 +9280,14 @@
 		"poses": ["v"],
 		"frequency": 29
 	},
-	{ "lemma": "nahta", "frequency": 4 },
+	{ "lemma": "nahta", "frequency": 5 },
 	{
 		"lemma": "ramma",
 		"ja": ["ずっと", "普段から", "相変わらず", "いつも"],
 		"en": ["continuously", "always"],
 		"ru": ["постоянно", "всегда"],
 		"poses": ["adv"],
-		"frequency": 4
+		"frequency": 3
 	},
 	{
 		"lemma": "katu",
@@ -9296,7 +9303,7 @@
 		"en": ["(plural)"],
 		"ru": ["(множественное число)"],
 		"poses": ["sfx"],
-		"frequency": 1000159,
+		"frequency": 159,
 		"cognates": ["utar"]
 	},
 	{
@@ -9304,7 +9311,7 @@
 		"ja": ["尻", "腰", "陰部", "陰門"],
 		"en": ["buttocks", "waist", "genitals"],
 		"ru": ["ягодицы", "талия", "гениталии"],
-		"frequency": 5
+		"frequency": 10
 	},
 	{
 		"lemma": "pu",
@@ -9312,7 +9319,7 @@
 		"en": ["storehouse"],
 		"ru": ["хранилище"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 1
 	},
 	{
 		"lemma": "kayki",
@@ -9320,7 +9327,7 @@
 		"en": ["also"],
 		"ru": ["также"],
 		"poses": ["advp"],
-		"frequency": 59,
+		"frequency": 66,
 		"noncognates": ["ka"]
 	},
 	{
@@ -9330,14 +9337,14 @@
 		"ru": ["опустить голову", "поникнуть"],
 		"frequency": 2
 	},
-	{ "lemma": "ne'anpe", "frequency": 919 },
+	{ "lemma": "ne'anpe", "frequency": 969 },
 	{
 		"lemma": "neya",
 		"ja": ["その"],
 		"en": ["that"],
 		"ru": ["это"],
 		"poses": ["adn"],
-		"frequency": 438,
+		"frequency": 440,
 		"cognates": ["nea"]
 	},
 	{
@@ -9346,7 +9353,7 @@
 		"en": ["and then"],
 		"ru": ["и тогда"],
 		"poses": ["adv"],
-		"frequency": 317,
+		"frequency": 318,
 		"noncognates": ["ne wa"]
 	},
 	{
@@ -9357,14 +9364,14 @@
 		"poses": ["n"],
 		"frequency": 269
 	},
-	{ "lemma": "ne'an", "frequency": 195 },
+	{ "lemma": "ne'an", "frequency": 317 },
 	{
 		"lemma": "omantene",
 		"ja": ["してから"],
 		"en": ["after doing"],
 		"ru": ["после того, как сделали"],
 		"poses": ["padv"],
-		"frequency": 190
+		"frequency": 202
 	},
 	{ "lemma": "iine'ahsuy", "frequency": 189 },
 	{
@@ -9373,7 +9380,7 @@
 		"en": ["so then"],
 		"ru": ["так что"],
 		"poses": ["adv"],
-		"frequency": 165,
+		"frequency": 167,
 		"cognates": ["an ayne"]
 	},
 	{
@@ -9382,7 +9389,7 @@
 		"en": ["lah"],
 		"ru": ["же"],
 		"poses": ["sfp"],
-		"frequency": 96,
+		"frequency": 104,
 		"cognates": ["hí"]
 	},
 	{
@@ -9400,7 +9407,7 @@
 		"en": ["do ~ for me", "do ~ for yourself"],
 		"ru": ["сделай ~ для меня", "сделай ~ для себя"],
 		"poses": ["sfp"],
-		"frequency": 77,
+		"frequency": 96,
 		"cognates": ["wa"]
 	},
 	{
@@ -9409,7 +9416,7 @@
 		"en": ["the voice of ~"],
 		"ru": ["голос ~"],
 		"poses": ["n", "n"],
-		"frequency": 63,
+		"frequency": 70,
 		"cognates": ["hawehe"]
 	},
 	{
@@ -9435,7 +9442,7 @@
 		"en": ["there"],
 		"ru": ["там"],
 		"poses": ["colloc"],
-		"frequency": 59,
+		"frequency": 66,
 		"noncognates": ["te ta"]
 	},
 	{
@@ -9485,7 +9492,7 @@
 		"en": ["the wife of ~", "the woman of ~"],
 		"ru": ["жена ~", "женщина ~"],
 		"poses": ["n", "n"],
-		"frequency": 46
+		"frequency": 48
 	},
 	{
 		"lemma": "hecirehci",
@@ -9493,7 +9500,7 @@
 		"en": ["to dance (plural)"],
 		"ru": ["танцевать (множественное число)"],
 		"poses": ["sfx"],
-		"frequency": 1000045
+		"frequency": 45
 	},
 	{
 		"lemma": "soyta",
@@ -9560,10 +9567,10 @@
 		"en": ["to catch fish"],
 		"ru": ["ловить рыбу"],
 		"poses": ["vi"],
-		"frequency": 39,
+		"frequency": 44,
 		"cognates": ["cepkoyki"]
 	},
-	{ "lemma": "ku'ani", "frequency": 38 },
+	{ "lemma": "ku'ani", "frequency": 51 },
 	{
 		"lemma": "roo",
 		"ja": ["よ"],
@@ -9579,7 +9586,7 @@
 		"en": ["after seeing"],
 		"ru": ["когда видишь"],
 		"poses": ["colloc"],
-		"frequency": 37
+		"frequency": 40
 	},
 	{
 		"lemma": "yoy",
@@ -9612,9 +9619,9 @@
 		"en": ["(number suffix)"],
 		"ru": ["(суффикс числа)"],
 		"poses": ["n", "sfx"],
-		"frequency": 36
+		"frequency": 40
 	},
-	{ "lemma": "ene'an", "frequency": 35 },
+	{ "lemma": "ene'an", "frequency": 36 },
 	{
 		"lemma": "sinenehka",
 		"ja": ["一人で"],
@@ -9631,9 +9638,9 @@
 		"en": ["to run away"],
 		"ru": ["убегать"],
 		"poses": ["vi"],
-		"frequency": 33
+		"frequency": 35
 	},
-	{ "lemma": "oy", "frequency": 33 },
+	{ "lemma": "oy", "frequency": 42 },
 	{ "lemma": "kuruhci", "frequency": 33 },
 	{ "lemma": "makapahci", "frequency": 32 },
 	{ "lemma": "tuuneh", "frequency": 32 },
@@ -9651,7 +9658,7 @@
 		"ja": ["を罰金として出す"],
 		"en": ["to impose as a fine"],
 		"ru": ["наложить штраф"],
-		"frequency": 31
+		"frequency": 32
 	},
 	{ "lemma": "hankii", "frequency": 31 },
 	{ "lemma": "nuhsu", "frequency": 30 },
@@ -9662,9 +9669,9 @@
 		"en": ["to know", "to understand"],
 		"ru": ["знать", "понимать"],
 		"poses": ["v"],
-		"frequency": 30
+		"frequency": 28
 	},
-	{ "lemma": "ciri", "frequency": 28 },
+	{ "lemma": "ciri", "frequency": 29 },
 	{ "lemma": "kooko", "frequency": 28 },
 	{
 		"lemma": "situ",
@@ -9689,16 +9696,16 @@
 		"en": ["to see ~"],
 		"ru": ["смотреть на ~"],
 		"poses": ["vt"],
-		"frequency": 26
+		"frequency": 27
 	},
 	{ "lemma": "sapahkahahcin", "frequency": 26 },
 	{ "lemma": "cihpo", "frequency": 26 },
 	{ "lemma": "peepeko", "frequency": 25 },
 	{ "lemma": "ipehci", "frequency": 25 },
 	{ "lemma": "uki", "frequency": 25 },
-	{ "lemma": "i'i", "frequency": 24 },
+	{ "lemma": "i'i", "frequency": 36 },
 	{ "lemma": "sapahcihi", "frequency": 24 },
-	{ "lemma": "sayayse", "frequency": 24 },
+	{ "lemma": "sayayse", "frequency": 26 },
 	{ "lemma": "saawa", "frequency": 24 },
 	{ "lemma": "paata", "frequency": 24 },
 	{ "lemma": "sitaykihi", "frequency": 24 },
@@ -9714,7 +9721,7 @@
 		"en": ["about ~", "they eat", "at ~", "to ~"],
 		"ru": ["о ~", "они едят", "в ~", "к ~"],
 		"poses": ["intj", "v", "root"],
-		"frequency": 30
+		"frequency": 145
 	},
 	{ "lemma": "ku'inkaara", "frequency": 23 },
 	{ "lemma": "kayteh", "frequency": 23 },
@@ -9727,7 +9734,7 @@
 	},
 	{ "lemma": "ekuhteh", "frequency": 23 },
 	{ "lemma": "sanketa", "frequency": 22 },
-	{ "lemma": "oro'oo", "frequency": 22 },
+	{ "lemma": "oro'oo", "frequency": 33 },
 	{
 		"lemma": "ruwehe",
 		"ja": ["ruの所属形"],
@@ -9750,17 +9757,17 @@
 	{ "lemma": "ha'ii", "frequency": 21 },
 	{ "lemma": "nannahahcin", "frequency": 21 },
 	{ "lemma": "ankisma", "frequency": 20 },
-	{ "lemma": "hohpa", "frequency": 20 },
+	{ "lemma": "hohpa", "frequency": 22 },
 	{
 		"lemma": "teeta",
 		"ja": ["昔"],
 		"en": ["long ago"],
 		"ru": ["давным-давно"],
 		"poses": ["n"],
-		"frequency": 20
+		"frequency": 21
 	},
 	{ "lemma": "wehtaa", "frequency": 20 },
-	{ "lemma": "hawa", "frequency": 20 },
+	{ "lemma": "hawa", "frequency": 22 },
 	{ "lemma": "kotahmarehci", "frequency": 20 },
 	{ "lemma": "rih", "frequency": 19 },
 	{ "lemma": "tehkupihi", "frequency": 19 },
@@ -9774,8 +9781,8 @@
 		"poses": ["vt"],
 		"frequency": 19
 	},
-	{ "lemma": "uu", "frequency": 19 },
-	{ "lemma": "karaha", "frequency": 20 },
+	{ "lemma": "uu", "frequency": 20 },
+	{ "lemma": "karaha", "frequency": 21 },
 	{ "lemma": "wahkataa", "frequency": 19 },
 	{ "lemma": "koyaykusahci", "frequency": 19 },
 	{ "lemma": "ehahtaa", "frequency": 19 },
@@ -9791,7 +9798,7 @@
 		"en": ["to put in", "to allow to enter"],
 		"ru": ["помещать", "разрешать войти"],
 		"poses": ["v"],
-		"frequency": 18
+		"frequency": 21
 	},
 	{ "lemma": "cisehehcin", "frequency": 18 },
 	{ "lemma": "uuoh", "frequency": 18 },
@@ -9803,7 +9810,7 @@
 		"en": ["tide"],
 		"ru": ["прилив"],
 		"poses": ["n"],
-		"frequency": 17,
+		"frequency": 19,
 		"cognates": ["rur", "rur"]
 	},
 	{ "lemma": "ociwehe", "frequency": 17 },
@@ -9845,8 +9852,8 @@
 	{ "lemma": "o'ara", "frequency": 16 },
 	{ "lemma": "uurah", "frequency": 16 },
 	{ "lemma": "hetaa", "frequency": 16 },
-	{ "lemma": "imuu", "frequency": 16 },
-	{ "lemma": "ruh", "poses": ["n"], "frequency": 16, "cognates": ["rup"] },
+	{ "lemma": "imuu", "frequency": 22 },
+	{ "lemma": "ruh", "poses": ["n"], "frequency": 17, "cognates": ["rup"] },
 	{ "lemma": "konkas", "frequency": 16 },
 	{ "lemma": "soroo", "frequency": 16 },
 	{ "lemma": "ehahtahci", "frequency": 16 },
@@ -9864,7 +9871,7 @@
 		"en": ["trash", "weeds"],
 		"ru": ["мусор", "сорняки"],
 		"poses": ["n"],
-		"frequency": 16
+		"frequency": 17
 	},
 	{ "lemma": "sapahkaha", "frequency": 15 },
 	{
@@ -9913,13 +9920,13 @@
 	{ "lemma": "numaha", "frequency": 14 },
 	{ "lemma": "ma'ii", "frequency": 14 },
 	{ "lemma": "ikehe", "frequency": 14 },
-	{ "lemma": "kiihi", "frequency": 15 },
+	{ "lemma": "kiihi", "frequency": 16 },
 	{
 		"lemma": "repun",
 		"ja": ["沖へ出る海外へ行く沖の～"],
 		"en": ["to go offshore", "to go abroad"],
 		"ru": ["выйти в открытое море", "уехать за границу"],
-		"frequency": 13
+		"frequency": 20
 	},
 	{
 		"lemma": "toyre",
@@ -9928,7 +9935,7 @@
 		"ru": ["грохотать", "сотрясать землю"],
 		"frequency": 13
 	},
-	{ "lemma": "oyas", "frequency": 13 },
+	{ "lemma": "oyas", "frequency": 26 },
 	{ "lemma": "omanu", "frequency": 13 },
 	{ "lemma": "caro'oykihci", "frequency": 13 },
 	{ "lemma": "re'usi", "frequency": 13 },
@@ -9936,7 +9943,7 @@
 	{ "lemma": "koore", "frequency": 13 },
 	{ "lemma": "nayne", "frequency": 13 },
 	{ "lemma": "nutanne", "frequency": 13 },
-	{ "lemma": "cehkihci", "frequency": 14 },
+	{ "lemma": "cehkihci", "frequency": 15 },
 	{ "lemma": "ahka", "frequency": 13 },
 	{
 		"lemma": "atu",
@@ -9951,11 +9958,11 @@
 	{ "lemma": "huhro", "frequency": 13 },
 	{ "lemma": "toy'aynu", "frequency": 13 },
 	{ "lemma": "yayreske", "frequency": 12 },
-	{ "lemma": "suukawka", "frequency": 12 },
+	{ "lemma": "suukawka", "frequency": 14 },
 	{ "lemma": "yuhpohohcin", "frequency": 12 },
 	{ "lemma": "ciraa", "frequency": 12 },
 	{ "lemma": "haw'iki", "frequency": 12 },
-	{ "lemma": "kaata", "frequency": 12 },
+	{ "lemma": "kaata", "frequency": 13 },
 	{ "lemma": "weeka", "frequency": 12 },
 	{ "lemma": "situ'us", "frequency": 12 },
 	{ "lemma": "keesinta", "frequency": 12 },
@@ -9967,7 +9974,7 @@
 		"en": ["to shine"],
 		"ru": ["светиться"],
 		"poses": ["v", "n"],
-		"frequency": 12,
+		"frequency": 13,
 		"cognates": ["ak", "at", "ak", "at"]
 	},
 	{
@@ -10010,7 +10017,7 @@
 	{ "lemma": "arikihci", "frequency": 12 },
 	{ "lemma": "etaakara", "frequency": 11 },
 	{ "lemma": "kokarikari", "frequency": 11 },
-	{ "lemma": "ta'ah", "frequency": 11 },
+	{ "lemma": "ta'ah", "frequency": 20 },
 	{ "lemma": "hunpe", "frequency": 13 },
 	{ "lemma": "ranka'orii", "frequency": 11 },
 	{
@@ -10034,13 +10041,13 @@
 	{ "lemma": "hunpo", "frequency": 10 },
 	{ "lemma": "e'ohayohayne", "frequency": 10 },
 	{ "lemma": "ku'ee", "frequency": 10 },
-	{ "lemma": "nakapuru", "frequency": 10 },
+	{ "lemma": "nakapuru", "frequency": 11 },
 	{ "lemma": "awwen", "frequency": 10 },
 	{ "lemma": "situ'usahci", "frequency": 10 },
 	{ "lemma": "nakapuru'aynu", "frequency": 10 },
 	{ "lemma": "huh", "frequency": 10 },
 	{ "lemma": "kiruu", "frequency": 10 },
-	{ "lemma": "ii", "frequency": 10 },
+	{ "lemma": "ii", "frequency": 36 },
 	{ "lemma": "amahkahahcin", "frequency": 10 },
 	{ "lemma": "wah", "frequency": 10 },
 	{ "lemma": "are'anno", "frequency": 10 },
@@ -10070,7 +10077,7 @@
 		"poses": ["n"],
 		"frequency": 10
 	},
-	{ "lemma": "e'ani", "frequency": 10 },
+	{ "lemma": "e'ani", "frequency": 31 },
 	{ "lemma": "naske", "frequency": 10 },
 	{ "lemma": "ii'i", "frequency": 10 },
 	{ "lemma": "hanki", "frequency": 10 },
@@ -10083,7 +10090,7 @@
 	},
 	{ "lemma": "hera'oh", "frequency": 10 },
 	{ "lemma": "ahciyehe", "frequency": 10 },
-	{ "lemma": "kohko", "frequency": 10 },
+	{ "lemma": "kohko", "frequency": 12 },
 	{ "lemma": "huyoo", "frequency": 10 },
 	{ "lemma": "sih", "frequency": 10 },
 	{ "lemma": "iihi", "frequency": 10 },
@@ -10102,7 +10109,7 @@
 	{ "lemma": "kootan", "frequency": 9 },
 	{ "lemma": "unkayo", "frequency": 9 },
 	{ "lemma": "imuuyara", "frequency": 9 },
-	{ "lemma": "hosipihi", "frequency": 9 },
+	{ "lemma": "hosipihi", "frequency": 10 },
 	{ "lemma": "ine'ahsuy", "frequency": 9 },
 	{ "lemma": "anmahnuure", "frequency": 9 },
 	{ "lemma": "ecimacihi", "frequency": 9 },
@@ -10113,7 +10120,7 @@
 	{ "lemma": "terekee", "frequency": 9 },
 	{ "lemma": "ecisapahka", "frequency": 9 },
 	{ "lemma": "kira'uu", "frequency": 9 },
-	{ "lemma": "rewsi", "frequency": 10 },
+	{ "lemma": "rewsi", "frequency": 9 },
 	{ "lemma": "siipe", "frequency": 9 },
 	{ "lemma": "carara", "frequency": 9 },
 	{ "lemma": "puuyu", "frequency": 9 },
@@ -10124,13 +10131,13 @@
 		"en": ["to shake"],
 		"ru": ["трясти"],
 		"poses": ["v"],
-		"frequency": 9
+		"frequency": 10
 	},
 	{ "lemma": "tope'enke", "frequency": 9 },
 	{ "lemma": "nisapu'aane", "frequency": 9 },
 	{ "lemma": "okayahcihi", "frequency": 9 },
 	{ "lemma": "etuyehe", "frequency": 8 },
-	{ "lemma": "yeepe", "frequency": 8 },
+	{ "lemma": "yeepe", "frequency": 9 },
 	{ "lemma": "taraa", "frequency": 8 },
 	{ "lemma": "ahupahcihi", "frequency": 8 },
 	{
@@ -10141,9 +10148,9 @@
 		"poses": ["v"],
 		"frequency": 9
 	},
-	{ "lemma": "uwas", "frequency": 8 },
+	{ "lemma": "uwas", "frequency": 9 },
 	{ "lemma": "ku'imiyehe", "frequency": 8 },
-	{ "lemma": "pohka", "frequency": 8 },
+	{ "lemma": "pohka", "frequency": 10 },
 	{ "lemma": "pi", "ja": ["かすかに"], "en": ["slightly"], "ru": ["слегка"], "frequency": 8 },
 	{ "lemma": "cepehtekamuy", "frequency": 8 },
 	{ "lemma": "siru", "frequency": 8 },
@@ -10161,12 +10168,12 @@
 		"en": ["to", "exists at"],
 		"ru": ["в", "находится в"],
 		"poses": ["parti", "v"],
-		"frequency": 17
+		"frequency": 23
 	},
 	{ "lemma": "ni'osuhtaa", "frequency": 8 },
 	{ "lemma": "ni'osuh", "frequency": 8 },
 	{ "lemma": "raniine", "frequency": 8 },
-	{ "lemma": "ahkasahci", "frequency": 8 },
+	{ "lemma": "ahkasahci", "frequency": 9 },
 	{ "lemma": "siskew", "frequency": 8 },
 	{ "lemma": "amahkaha", "frequency": 8 },
 	{ "lemma": "rehpis", "frequency": 8 },
@@ -10209,9 +10216,9 @@
 		"en": ["thing", "to build", "place"],
 		"ru": ["вещь", "строить", "место"],
 		"poses": ["n"],
-		"frequency": 18
+		"frequency": 15
 	},
-	{ "lemma": "nuhci", "frequency": 8 },
+	{ "lemma": "nuhci", "frequency": 9 },
 	{ "lemma": "ku'e'ocis", "frequency": 8 },
 	{ "lemma": "takara", "frequency": 8 },
 	{ "lemma": "hohciri", "frequency": 8 },
@@ -10230,7 +10237,7 @@
 		"frequency": 7
 	},
 	{ "lemma": "kaawa", "frequency": 7 },
-	{ "lemma": "kotanta", "frequency": 8 },
+	{ "lemma": "kotanta", "frequency": 7 },
 	{ "lemma": "sapanu", "frequency": 7 },
 	{
 		"lemma": "hekota",
@@ -10259,7 +10266,7 @@
 		"frequency": 7
 	},
 	{ "lemma": "cah", "frequency": 7 },
-	{ "lemma": "hunke", "frequency": 8 },
+	{ "lemma": "hunke", "frequency": 10 },
 	{ "lemma": "makiriyehe", "frequency": 7 },
 	{ "lemma": "rayahci", "frequency": 7 },
 	{ "lemma": "kuyee", "frequency": 7 },
@@ -10279,7 +10286,7 @@
 	{ "lemma": "ehah", "frequency": 7 },
 	{ "lemma": "uukante", "frequency": 7 },
 	{ "lemma": "utukanahci", "frequency": 7 },
-	{ "lemma": "ma", "ja": ["船着き場"], "en": ["pier"], "ru": ["пристань"], "frequency": 7 },
+	{ "lemma": "ma", "ja": ["船着き場"], "en": ["pier"], "ru": ["пристань"], "frequency": 8 },
 	{ "lemma": "mahmicihi", "frequency": 7 },
 	{ "lemma": "yanuu", "frequency": 7 },
 	{ "lemma": "koorehe", "frequency": 7 },
@@ -10301,12 +10308,12 @@
 		"en": ["to stop"],
 		"ru": ["остановиться"],
 		"poses": ["v"],
-		"frequency": 7
+		"frequency": 8
 	},
 	{ "lemma": "ekii", "frequency": 7 },
 	{ "lemma": "kukii", "frequency": 7 },
 	{ "lemma": "cape", "ja": ["猫"], "en": ["cat"], "ru": ["кошка"], "poses": ["n"], "frequency": 7 },
-	{ "lemma": "yuhkii", "frequency": 7 },
+	{ "lemma": "yuhkii", "frequency": 11 },
 	{ "lemma": "heekopohohcin", "frequency": 7 },
 	{ "lemma": "usamahci", "frequency": 7 },
 	{ "lemma": "ciyehe", "frequency": 7 },
@@ -10322,7 +10329,7 @@
 	},
 	{ "lemma": "sihkewe", "frequency": 7 },
 	{ "lemma": "ahkapohohcin", "frequency": 7 },
-	{ "lemma": "siina'an", "frequency": 7 },
+	{ "lemma": "siina'an", "frequency": 12 },
 	{ "lemma": "oorin", "frequency": 7 },
 	{ "lemma": "pohpoki", "frequency": 7 },
 	{ "lemma": "etusuu", "frequency": 7 },
@@ -10348,7 +10355,7 @@
 	},
 	{ "lemma": "ecihawe", "frequency": 6 },
 	{ "lemma": "nise'asin", "frequency": 6 },
-	{ "lemma": "nuwah", "frequency": 6 },
+	{ "lemma": "nuwah", "frequency": 9 },
 	{ "lemma": "oro'onna", "frequency": 6 },
 	{ "lemma": "eerehe", "frequency": 6 },
 	{ "lemma": "situri", "frequency": 6 },
@@ -10382,13 +10389,13 @@
 		"en": ["voice", "words"],
 		"ru": ["голос", "слова"],
 		"poses": ["n"],
-		"frequency": 12
+		"frequency": 9
 	},
 	{ "lemma": "yaynuynakahci", "frequency": 6 },
 	{ "lemma": "kosmahne", "frequency": 6 },
 	{ "lemma": "kunoosetaha", "frequency": 6 },
 	{ "lemma": "teen", "frequency": 6 },
-	{ "lemma": "tetahcikah", "frequency": 6 },
+	{ "lemma": "tetahcikah", "frequency": 7 },
 	{ "lemma": "nahpoka", "frequency": 6 },
 	{
 		"lemma": "sey",
@@ -10405,7 +10412,7 @@
 	{ "lemma": "saaketa", "frequency": 6 },
 	{ "lemma": "iihii", "frequency": 6 },
 	{ "lemma": "hanneh", "frequency": 6 },
-	{ "lemma": "poye", "frequency": 6 },
+	{ "lemma": "poye", "frequency": 7 },
 	{ "lemma": "kontee", "frequency": 6 },
 	{ "lemma": "pontara", "frequency": 6 },
 	{ "lemma": "enruura", "frequency": 6 },
@@ -10433,7 +10440,7 @@
 	{ "lemma": "rinnu", "frequency": 6 },
 	{ "lemma": "yaycisekorohci", "frequency": 6 },
 	{ "lemma": "tuu", "frequency": 6 },
-	{ "lemma": "ekiroro'an", "frequency": 6 },
+	{ "lemma": "ekiroro'an", "frequency": 8 },
 	{ "lemma": "teepoka", "frequency": 6 },
 	{ "lemma": "e'imiyehe", "frequency": 6 },
 	{ "lemma": "toomus", "frequency": 6 },
@@ -10450,7 +10457,7 @@
 	},
 	{ "lemma": "otakaawa", "frequency": 5 },
 	{ "lemma": "po'us", "frequency": 5 },
-	{ "lemma": "cehkii", "frequency": 5 },
+	{ "lemma": "cehkii", "frequency": 7 },
 	{ "lemma": "unci'uwaare", "frequency": 5 },
 	{ "lemma": "ankara", "frequency": 5 },
 	{ "lemma": "kayo", "frequency": 5 },
@@ -10470,7 +10477,7 @@
 		"ru": ["гребень волны"],
 		"frequency": 5
 	},
-	{ "lemma": "kihcihi", "frequency": 5 },
+	{ "lemma": "kihcihi", "frequency": 6 },
 	{
 		"lemma": "kan",
 		"ja": ["上にある"],
@@ -10488,7 +10495,7 @@
 		"en": ["many"],
 		"ru": ["много"],
 		"poses": ["auxv", "v"],
-		"frequency": 7
+		"frequency": 13
 	},
 	{ "lemma": "asinkehci", "frequency": 5 },
 	{ "lemma": "uturuketa", "frequency": 5 },
@@ -10505,7 +10512,7 @@
 		"ja": ["茂み"],
 		"en": ["bush", "thicket"],
 		"ru": ["куст", "заросли"],
-		"frequency": 5
+		"frequency": 13
 	},
 	{ "lemma": "kanciine", "frequency": 5 },
 	{ "lemma": "iyohte", "frequency": 5 },
@@ -10523,14 +10530,14 @@
 		"en": ["newly"],
 		"ru": ["заново"],
 		"poses": ["adv"],
-		"frequency": 5
+		"frequency": 7
 	},
 	{ "lemma": "sapan", "frequency": 5 },
 	{ "lemma": "epooho", "frequency": 5 },
 	{ "lemma": "ikisiw", "frequency": 5 },
 	{ "lemma": "niyaniya", "frequency": 5 },
 	{ "lemma": "etaa", "frequency": 5 },
-	{ "lemma": "wooya'an", "frequency": 5 },
+	{ "lemma": "wooya'an", "frequency": 8 },
 	{ "lemma": "onumaha", "frequency": 5 },
 	{ "lemma": "nanpe", "frequency": 5 },
 	{ "lemma": "epunteh", "frequency": 5 },
@@ -10551,7 +10558,7 @@
 	{ "lemma": "etoorohci", "frequency": 5 },
 	{ "lemma": "caroke'ene", "frequency": 5 },
 	{ "lemma": "monka", "frequency": 5 },
-	{ "lemma": "ne'ani", "frequency": 5 },
+	{ "lemma": "ne'ani", "frequency": 6 },
 	{ "lemma": "yoonohka", "frequency": 5 },
 	{
 		"lemma": "soyke",
@@ -10563,18 +10570,18 @@
 	},
 	{ "lemma": "o'issikaarinpa", "frequency": 5 },
 	{ "lemma": "ekuhtehkahci", "frequency": 5 },
-	{ "lemma": "episkan", "frequency": 5 },
+	{ "lemma": "episkan", "frequency": 6 },
 	{
 		"lemma": "ota",
 		"ja": ["砂浜", "砂"],
 		"en": ["sand", "beach"],
 		"ru": ["песок", "пляж"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 9
 	},
-	{ "lemma": "e'askay", "frequency": 5 },
+	{ "lemma": "e'askay", "frequency": 9 },
 	{ "lemma": "ehekenpaha", "frequency": 5 },
-	{ "lemma": "yaykotanpa", "frequency": 6 },
+	{ "lemma": "yaykotanpa", "frequency": 1 },
 	{
 		"lemma": "turi",
 		"ja": ["turの所属形"],
@@ -10590,7 +10597,7 @@
 	{ "lemma": "otuyunpe", "frequency": 5 },
 	{ "lemma": "woosehci", "frequency": 5 },
 	{ "lemma": "utarihihcin", "frequency": 5 },
-	{ "lemma": "uneeno", "frequency": 5 },
+	{ "lemma": "uneeno", "frequency": 6 },
 	{
 		"lemma": "rupuska",
 		"ja": ["凍らせる"],
@@ -10620,7 +10627,7 @@
 		"ja": ["年下の息子"],
 		"en": ["younger son"],
 		"ru": ["младший сын"],
-		"frequency": 7
+		"frequency": 5
 	},
 	{ "lemma": "aynuhuhcin", "frequency": 5 },
 	{ "lemma": "eyraykihci", "frequency": 5 },
@@ -10681,7 +10688,7 @@
 		"ja": ["伊富魚"],
 		"en": ["Iwo fish (species)"],
 		"ru": ["рыба Иво (вид)"],
-		"frequency": 4
+		"frequency": 20
 	},
 	{ "lemma": "imokaa", "frequency": 4 },
 	{ "lemma": "kukonte", "frequency": 4 },
@@ -10721,7 +10728,7 @@
 	{ "lemma": "a'ih", "frequency": 4 },
 	{ "lemma": "u'aare", "frequency": 4 },
 	{ "lemma": "kukonopuru", "frequency": 4 },
-	{ "lemma": "saanu", "frequency": 4 },
+	{ "lemma": "saanu", "frequency": 5 },
 	{ "lemma": "muhru", "frequency": 4 },
 	{ "lemma": "rewsihci", "frequency": 4 },
 	{ "lemma": "cikii", "frequency": 4 },
@@ -10762,7 +10769,7 @@
 		"poses": ["n"],
 		"frequency": 4
 	},
-	{ "lemma": "e'utehkara", "frequency": 4 },
+	{ "lemma": "e'utehkara", "frequency": 7 },
 	{ "lemma": "uturahci", "frequency": 4 },
 	{ "lemma": "ihuureka", "frequency": 4 },
 	{ "lemma": "kesito'asinkoh", "frequency": 4 },
@@ -10784,7 +10791,7 @@
 	{ "lemma": "taawa", "frequency": 4 },
 	{ "lemma": "setarus", "frequency": 4 },
 	{ "lemma": "suhki", "frequency": 4 },
-	{ "lemma": "amaa", "frequency": 4 },
+	{ "lemma": "amaa", "frequency": 6 },
 	{ "lemma": "ku'acaapoh", "frequency": 4 },
 	{ "lemma": "ehuu'oh", "frequency": 4 },
 	{ "lemma": "noyyee", "frequency": 4 },
@@ -10810,7 +10817,7 @@
 	{ "lemma": "kante", "frequency": 4 },
 	{ "lemma": "honikarahcihi", "frequency": 4 },
 	{ "lemma": "neenanko", "frequency": 4 },
-	{ "lemma": "okakara", "frequency": 4 },
+	{ "lemma": "okakara", "frequency": 5 },
 	{ "lemma": "taara", "frequency": 4 },
 	{ "lemma": "pecikahci", "frequency": 4 },
 	{ "lemma": "osakanke", "frequency": 4 },
@@ -10820,7 +10827,7 @@
 		"en": ["ceremonial sword"],
 		"ru": ["церемониальный меч"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 7
 	},
 	{ "lemma": "co'oma", "frequency": 4 },
 	{ "lemma": "unci'acahcipo", "frequency": 4 },
@@ -10829,14 +10836,14 @@
 	{ "lemma": "ci'oka", "frequency": 4 },
 	{ "lemma": "senra", "frequency": 4 },
 	{ "lemma": "omantehci", "frequency": 4 },
-	{ "lemma": "karahcihi", "frequency": 4 },
+	{ "lemma": "karahcihi", "frequency": 6 },
 	{ "lemma": "mahmicihihcin", "frequency": 4 },
-	{ "lemma": "ciso", "frequency": 4 },
+	{ "lemma": "ciso", "frequency": 5 },
 	{ "lemma": "inoskuh", "frequency": 4 },
 	{ "lemma": "moomare", "frequency": 4 },
 	{ "lemma": "keekara", "frequency": 4 },
 	{ "lemma": "manna", "frequency": 4 },
-	{ "lemma": "hawehehcin", "frequency": 4 },
+	{ "lemma": "hawehehcin", "frequency": 5 },
 	{ "lemma": "honkapuhu", "frequency": 4 },
 	{ "lemma": "ecikonte", "frequency": 4 },
 	{ "lemma": "horah", "frequency": 4 },
@@ -10904,7 +10911,7 @@
 		"en": ["thick"],
 		"ru": ["толстый"],
 		"poses": ["v", "n"],
-		"frequency": 8
+		"frequency": 3
 	},
 	{ "lemma": "otaka", "frequency": 3 },
 	{ "lemma": "ko'ipisi", "frequency": 3 },
@@ -10915,7 +10922,7 @@
 		"en": ["hand"],
 		"ru": ["рука"],
 		"poses": ["n", "root"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{ "lemma": "eetunne", "frequency": 3 },
 	{ "lemma": "yaykotanpa'etuhturihci", "frequency": 3 },
@@ -10926,7 +10933,7 @@
 		"en": ["belonging to kitay"],
 		"ru": ["принадлежащий китай"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 3
 	},
 	{
 		"lemma": "yuukarahci",
@@ -10941,7 +10948,7 @@
 		"ja": ["夢見る"],
 		"en": ["to dream"],
 		"ru": ["мечтать"],
-		"frequency": 3,
+		"frequency": 6,
 		"cognates": ["tarap"]
 	},
 	{ "lemma": "sipoososoo", "frequency": 3 },
@@ -10966,7 +10973,7 @@
 	{ "lemma": "kiyehe", "frequency": 3 },
 	{ "lemma": "ehcin", "frequency": 3 },
 	{ "lemma": "cihpoho", "frequency": 3 },
-	{ "lemma": "tuy", "ja": ["切れる"], "en": ["to cut"], "ru": ["резать"], "frequency": 4 },
+	{ "lemma": "tuy", "ja": ["切れる"], "en": ["to cut"], "ru": ["резать"], "frequency": 5 },
 	{ "lemma": "etuhkaha", "frequency": 3 },
 	{ "lemma": "asinkehe", "frequency": 3 },
 	{ "lemma": "konkenii", "frequency": 3 },
@@ -10978,7 +10985,7 @@
 	{ "lemma": "hokokohse", "frequency": 3 },
 	{ "lemma": "cisukepe", "frequency": 3 },
 	{ "lemma": "ewante", "frequency": 3 },
-	{ "lemma": "aniike", "frequency": 3 },
+	{ "lemma": "aniike", "frequency": 8 },
 	{ "lemma": "hacikoope", "frequency": 3 },
 	{ "lemma": "yay'ikisiw", "frequency": 3 },
 	{
@@ -10993,7 +11000,7 @@
 	{ "lemma": "inkarah", "frequency": 3 },
 	{ "lemma": "hamo", "frequency": 3 },
 	{ "lemma": "itakahci", "frequency": 3 },
-	{ "lemma": "pee", "frequency": 3 },
+	{ "lemma": "pee", "frequency": 4 },
 	{ "lemma": "rehtehci", "frequency": 3 },
 	{ "lemma": "hocaa", "frequency": 3 },
 	{ "lemma": "ecisapahkaha", "frequency": 3 },
@@ -11016,7 +11023,7 @@
 	{ "lemma": "saraku", "frequency": 3 },
 	{ "lemma": "rankaha", "frequency": 3 },
 	{ "lemma": "neyah", "frequency": 3 },
-	{ "lemma": "wooya", "frequency": 4 },
+	{ "lemma": "wooya", "frequency": 5 },
 	{ "lemma": "poonekoro", "frequency": 3 },
 	{
 		"lemma": "putaha",
@@ -11039,18 +11046,18 @@
 		"frequency": 3
 	},
 	{ "lemma": "ehahsuke", "frequency": 3 },
-	{ "lemma": "hesoyne", "frequency": 3 },
+	{ "lemma": "hesoyne", "frequency": 4 },
 	{ "lemma": "rankehci", "frequency": 3 },
 	{ "lemma": "ninkaarihi", "frequency": 3 },
 	{ "lemma": "citaanii", "frequency": 3 },
-	{ "lemma": "aynu'itah", "frequency": 3 },
+	{ "lemma": "aynu'itah", "frequency": 4 },
 	{ "lemma": "moya", "frequency": 3 },
 	{ "lemma": "kahkoo", "frequency": 3 },
 	{ "lemma": "nonna", "frequency": 3 },
 	{ "lemma": "ku'oman", "frequency": 3 },
 	{ "lemma": "anhunarahci", "frequency": 3 },
 	{ "lemma": "rankoro", "frequency": 3 },
-	{ "lemma": "ne'anah", "frequency": 3 },
+	{ "lemma": "ne'anah", "frequency": 7 },
 	{ "lemma": "ekanraye", "frequency": 3 },
 	{ "lemma": "hekaye", "frequency": 3 },
 	{ "lemma": "osmaketa", "frequency": 3 },
@@ -11070,7 +11077,7 @@
 		"en": ["belonging to kem"],
 		"ru": ["принадлежащий кем"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 5
 	},
 	{ "lemma": "unpaa", "frequency": 3 },
 	{ "lemma": "ekara", "frequency": 3 },
@@ -11085,7 +11092,7 @@
 		"ja": ["が多く使われる"],
 		"en": ["used frequently", "often used"],
 		"ru": ["часто используется"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{ "lemma": "e'ee", "frequency": 3 },
 	{ "lemma": "kitayketa", "frequency": 3 },
@@ -11096,11 +11103,11 @@
 	{ "lemma": "ruskahci", "frequency": 3 },
 	{ "lemma": "hunkante", "frequency": 3 },
 	{ "lemma": "kumahnuure", "frequency": 3 },
-	{ "lemma": "eci'oka", "frequency": 3 },
+	{ "lemma": "eci'oka", "frequency": 5 },
 	{ "lemma": "eciyee", "frequency": 3 },
 	{ "lemma": "keerakoro", "frequency": 3 },
 	{ "lemma": "hooh", "frequency": 3 },
-	{ "lemma": "usiw", "frequency": 3 },
+	{ "lemma": "usiw", "frequency": 4 },
 	{ "lemma": "enkokehehcin", "frequency": 3 },
 	{ "lemma": "nakapuruhu", "frequency": 3 },
 	{ "lemma": "mokon", "frequency": 3 },
@@ -11109,7 +11116,7 @@
 	{ "lemma": "utusneeka", "frequency": 3 },
 	{ "lemma": "epunte", "frequency": 3 },
 	{ "lemma": "itumunke", "frequency": 3 },
-	{ "lemma": "suhtonke", "frequency": 3 },
+	{ "lemma": "suhtonke", "frequency": 4 },
 	{ "lemma": "matutah", "frequency": 3 },
 	{ "lemma": "hohpateh", "frequency": 3 },
 	{ "lemma": "acahci", "frequency": 3 },
@@ -11136,7 +11143,7 @@
 		"en": ["to devastate", "to ruin"],
 		"ru": ["разрушать", "портить"],
 		"poses": ["v"],
-		"frequency": 3
+		"frequency": 4
 	},
 	{
 		"lemma": "kah",
@@ -11147,7 +11154,7 @@
 		"frequency": 3,
 		"cognates": ["kat", "kap", "kap", "kat"]
 	},
-	{ "lemma": "yaysiyuhte", "frequency": 3 },
+	{ "lemma": "yaysiyuhte", "frequency": 13 },
 	{ "lemma": "cahka", "frequency": 3 },
 	{ "lemma": "ene'oka", "frequency": 3 },
 	{ "lemma": "pisehe", "frequency": 3 },
@@ -11173,7 +11180,7 @@
 	{ "lemma": "ecinukara", "frequency": 3 },
 	{ "lemma": "yeeyanu", "frequency": 3 },
 	{ "lemma": "amaha", "frequency": 3 },
-	{ "lemma": "enpoketa", "frequency": 3 },
+	{ "lemma": "enpoketa", "frequency": 1 },
 	{
 		"lemma": "otuy",
 		"ja": ["埃が溜まる"],
@@ -11188,7 +11195,7 @@
 		"en": ["belonging to kat"],
 		"ru": ["принадлежащий кат"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 6
 	},
 	{ "lemma": "keepuci", "frequency": 3 },
 	{ "lemma": "ecitura", "frequency": 3 },
@@ -11284,7 +11291,7 @@
 	{ "lemma": "uriwahne", "frequency": 2 },
 	{ "lemma": "ankowente", "frequency": 2 },
 	{ "lemma": "omantehe", "frequency": 2 },
-	{ "lemma": "manuu", "frequency": 2 },
+	{ "lemma": "manuu", "frequency": 3 },
 	{ "lemma": "sikewente", "frequency": 2 },
 	{ "lemma": "iramasreno'an", "frequency": 2 },
 	{ "lemma": "haciko'oope", "frequency": 2 },
@@ -11292,12 +11299,12 @@
 	{ "lemma": "cahkehci", "frequency": 2 },
 	{ "lemma": "haw'an", "frequency": 2 },
 	{ "lemma": "ku'utasa", "frequency": 2 },
-	{ "lemma": "iko'astehci", "frequency": 2 },
+	{ "lemma": "iko'astehci", "frequency": 3 },
 	{ "lemma": "osewa", "frequency": 2 },
 	{ "lemma": "ekirahci", "frequency": 2 },
 	{ "lemma": "ecaroykikara", "frequency": 2 },
 	{ "lemma": "poy", "frequency": 2 },
-	{ "lemma": "saniike", "frequency": 2 },
+	{ "lemma": "saniike", "frequency": 3 },
 	{ "lemma": "canpoho", "frequency": 2 },
 	{ "lemma": "enreskehci", "frequency": 2 },
 	{ "lemma": "enociwehci", "frequency": 2 },
@@ -11308,7 +11315,7 @@
 	{ "lemma": "niinahcihi", "frequency": 2 },
 	{ "lemma": "ociwehcihi", "frequency": 2 },
 	{ "lemma": "monpe", "frequency": 2 },
-	{ "lemma": "nn", "frequency": 2 },
+	{ "lemma": "nn", "frequency": 4 },
 	{ "lemma": "yaymosiripa'etuhturi", "frequency": 2 },
 	{ "lemma": "ku'eekunpe", "frequency": 2 },
 	{ "lemma": "omayekara", "frequency": 2 },
@@ -11318,11 +11325,11 @@
 	{ "lemma": "omanike", "frequency": 2 },
 	{ "lemma": "ankemahaa", "frequency": 2 },
 	{ "lemma": "otuytura", "frequency": 2 },
-	{ "lemma": "kiike", "frequency": 2 },
+	{ "lemma": "kiike", "frequency": 3 },
 	{ "lemma": "ekirawa", "frequency": 2 },
 	{ "lemma": "ankamihi", "frequency": 2 },
 	{ "lemma": "keeraha", "frequency": 2 },
-	{ "lemma": "yuhkam", "frequency": 2 },
+	{ "lemma": "yuhkam", "frequency": 3 },
 	{ "lemma": "usa'ipe", "frequency": 2 },
 	{ "lemma": "tehkupi", "frequency": 2 },
 	{ "lemma": "ruutonta", "frequency": 2 },
@@ -11389,7 +11396,7 @@
 	{ "lemma": "waan", "frequency": 2 },
 	{ "lemma": "makaphci", "frequency": 2 },
 	{ "lemma": "rukihi", "frequency": 2 },
-	{ "lemma": "yuhkoyki", "frequency": 2 },
+	{ "lemma": "yuhkoyki", "frequency": 3 },
 	{ "lemma": "otokonponihi", "frequency": 2 },
 	{ "lemma": "eerehcihi", "frequency": 2 },
 	{ "lemma": "annospa", "frequency": 2 },
@@ -11401,7 +11408,7 @@
 		"ja": ["～したことがない"],
 		"en": ["to have never done ~"],
 		"ru": ["никогда не делал ~"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{ "lemma": "oyahta", "frequency": 2 },
 	{ "lemma": "yaata", "frequency": 2 },
@@ -11463,7 +11470,7 @@
 	{ "lemma": "oyaskipi", "frequency": 2 },
 	{ "lemma": "urenkemaha", "frequency": 2 },
 	{ "lemma": "hokorewpo", "frequency": 2 },
-	{ "lemma": "reeko", "frequency": 2 },
+	{ "lemma": "reeko", "frequency": 3 },
 	{ "lemma": "acahipo", "frequency": 2 },
 	{ "lemma": "ciihin", "frequency": 2 },
 	{ "lemma": "esa'ipe", "frequency": 2 },
@@ -11487,7 +11494,7 @@
 		"ru": ["проходить через"],
 		"frequency": 2
 	},
-	{ "lemma": "neera'anpe", "frequency": 2 },
+	{ "lemma": "neera'anpe", "frequency": 4 },
 	{ "lemma": "pirikaa", "frequency": 2 },
 	{ "lemma": "ukotayan", "frequency": 2 },
 	{ "lemma": "ene'anpe", "frequency": 2 },
@@ -11534,7 +11541,7 @@
 	{ "lemma": "cahsehci", "frequency": 2 },
 	{ "lemma": "ko'asi", "frequency": 2 },
 	{ "lemma": "saphakaha", "frequency": 2 },
-	{ "lemma": "repunkusun", "frequency": 2 },
+	{ "lemma": "repunkusun", "frequency": 1 },
 	{ "lemma": "uncihi", "frequency": 2 },
 	{ "lemma": "ta'un", "frequency": 2 },
 	{ "lemma": "mokoro'an", "frequency": 2 },
@@ -11565,7 +11572,7 @@
 	{ "lemma": "rewsihi", "frequency": 2 },
 	{ "lemma": "sooka'ene", "frequency": 2 },
 	{ "lemma": "peeketu", "frequency": 2 },
-	{ "lemma": "weepekerehe", "frequency": 2 },
+	{ "lemma": "weepekerehe", "frequency": 3 },
 	{ "lemma": "yaykoherawkihci", "frequency": 2 },
 	{ "lemma": "usahcihi", "frequency": 2 },
 	{ "lemma": "tuuriri", "frequency": 2 },
@@ -11576,13 +11583,13 @@
 	{ "lemma": "tuhsehe", "frequency": 2 },
 	{ "lemma": "omantente", "frequency": 2 },
 	{ "lemma": "kunoo", "frequency": 2 },
-	{ "lemma": "ikuu", "frequency": 2 },
+	{ "lemma": "ikuu", "frequency": 4 },
 	{
 		"lemma": "yam",
 		"ja": ["冷たい=nam"],
 		"en": ["cold (same as 'nam')"],
 		"ru": ["холодный (то же, что 'nam')"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{ "lemma": "mawa'an", "frequency": 2 },
 	{ "lemma": "atus", "frequency": 2 },
@@ -11634,9 +11641,9 @@
 	{ "lemma": "cinunukapuyehe", "frequency": 2 },
 	{ "lemma": "e'ommoho", "frequency": 2 },
 	{ "lemma": "riih", "frequency": 2 },
-	{ "lemma": "eweepekere", "frequency": 2 },
+	{ "lemma": "eweepekere", "frequency": 3 },
 	{ "lemma": "tanpoho", "frequency": 2 },
-	{ "lemma": "ne'ene", "frequency": 2 },
+	{ "lemma": "ne'ene", "frequency": 3 },
 	{ "lemma": "ruyahci", "frequency": 2 },
 	{ "lemma": "ramo'ekayehci", "frequency": 2 },
 	{ "lemma": "eysikaha", "frequency": 2 },
@@ -11648,7 +11655,7 @@
 	{ "lemma": "koowehtaa", "frequency": 2 },
 	{ "lemma": "untohpa", "frequency": 2 },
 	{ "lemma": "hukuru", "frequency": 2 },
-	{ "lemma": "ha", "ja": ["？"], "en": ["?"], "ru": ["?"], "frequency": 2 },
+	{ "lemma": "ha", "ja": ["？"], "en": ["?"], "ru": ["?"], "frequency": 7 },
 	{ "lemma": "yon", "frequency": 2 },
 	{ "lemma": "kaskeketa", "frequency": 2 },
 	{
@@ -11670,7 +11677,7 @@
 	{ "lemma": "a'aa", "frequency": 2 },
 	{ "lemma": "sapahakahahcin", "frequency": 2 },
 	{ "lemma": "ehahcikaripe", "frequency": 2 },
-	{ "lemma": "okaake", "frequency": 2 },
+	{ "lemma": "okaake", "frequency": 7 },
 	{ "lemma": "ku'imii", "frequency": 2 },
 	{
 		"lemma": "kucihi",
@@ -11712,7 +11719,7 @@
 		"en": ["fish, person"],
 		"ru": ["рыба, человек"],
 		"poses": ["sfx"],
-		"frequency": 6
+		"frequency": 7
 	},
 	{ "lemma": "seyehe", "frequency": 2 },
 	{ "lemma": "kaske'ene", "frequency": 2 },
@@ -11760,11 +11767,11 @@
 		"en": ["when"],
 		"ru": ["когда"],
 		"poses": ["adv", "adv"],
-		"frequency": 7,
+		"frequency": 6,
 		"cognates": ["hempara", "hempara"]
 	},
 	{ "lemma": "numare", "frequency": 2 },
-	{ "lemma": "oro'un", "frequency": 2 },
+	{ "lemma": "oro'un", "frequency": 3 },
 	{ "lemma": "iciw", "frequency": 2 },
 	{ "lemma": "cikutakutaha", "frequency": 2 },
 	{ "lemma": "yaykotanpa'etuhturi", "frequency": 2 },
@@ -11780,13 +11787,13 @@
 	},
 	{ "lemma": "uhpa", "frequency": 2 },
 	{ "lemma": "okoysehe", "frequency": 2 },
-	{ "lemma": "neeko", "frequency": 3 },
+	{ "lemma": "neeko", "frequency": 4 },
 	{
 		"lemma": "kimun",
 		"ja": ["山へ入る山行き"],
 		"en": ["to go into the mountains"],
 		"ru": ["идти в горы"],
-		"frequency": 2
+		"frequency": 3
 	},
 	{ "lemma": "pecikare", "frequency": 2 },
 	{ "lemma": "naatah", "frequency": 2 },
@@ -11813,7 +11820,7 @@
 	},
 	{ "lemma": "hihcin", "frequency": 2 },
 	{ "lemma": "moro", "poses": ["n"], "frequency": 2, "cognates": ["mor"] },
-	{ "lemma": "cipe", "frequency": 2 },
+	{ "lemma": "cipe", "frequency": 3 },
 	{ "lemma": "tukew", "frequency": 2 },
 	{ "lemma": "kih", "frequency": 2 },
 	{ "lemma": "sohkarakarayan", "frequency": 2 },
@@ -11825,7 +11832,7 @@
 	{ "lemma": "hokuhuhcin", "frequency": 2 },
 	{ "lemma": "mahna", "frequency": 2 },
 	{ "lemma": "raykire", "frequency": 2 },
-	{ "lemma": "rawta", "frequency": 2 },
+	{ "lemma": "rawta", "frequency": 3 },
 	{ "lemma": "muhrune", "frequency": 2 },
 	{
 		"lemma": "ehosipi",
@@ -11860,7 +11867,7 @@
 		"en": ["inside", "middle"],
 		"ru": ["внутри", "середина"],
 		"poses": ["num"],
-		"frequency": 2,
+		"frequency": 3,
 		"cognates": ["tum"]
 	},
 	{
@@ -11874,7 +11881,7 @@
 	{ "lemma": "raykihcihi", "frequency": 2 },
 	{ "lemma": "repunke", "frequency": 2 },
 	{ "lemma": "oktakaata", "frequency": 2 },
-	{ "lemma": "repunkus'un", "frequency": 2 },
+	{ "lemma": "repunkus'un", "frequency": 1 },
 	{ "lemma": "pon'unkayoh", "frequency": 2 },
 	{ "lemma": "pi'inkarahcihi", "frequency": 2 },
 	{ "lemma": "ne'anpte", "frequency": 2 },
@@ -11910,7 +11917,7 @@
 		"en": ["as expected"],
 		"ru": ["как и ожидалось"],
 		"poses": ["adv"],
-		"frequency": 2
+		"frequency": 4
 	},
 	{ "lemma": "iwanniw", "frequency": 2 },
 	{ "lemma": "temma", "frequency": 2 },
@@ -11966,18 +11973,18 @@
 		"ja": ["承諾の返事をする答える納得する"],
 		"en": ["to agree", "to respond", "to consent"],
 		"ru": ["соглашаться", "отвечать", "давать согласие"],
-		"frequency": 2
+		"frequency": 1
 	},
 	{
 		"lemma": "kotanpa",
 		"ja": ["村の上端", "村の入り口"],
 		"en": ["village entrance", "upper end of the village"],
 		"ru": ["вход в деревню", "верхний конец деревни"],
-		"frequency": 3
+		"frequency": 1
 	},
-	{ "lemma": "onuman", "ja": ["夕方晩"], "en": ["evening"], "ru": ["вечер"], "frequency": 2 },
-	{ "lemma": "anahci", "frequency": 9 },
-	{ "lemma": "turanno", "frequency": 3 },
+	{ "lemma": "onuman", "ja": ["夕方晩"], "en": ["evening"], "ru": ["вечер"], "frequency": 1 },
+	{ "lemma": "anahci", "frequency": 14 },
+	{ "lemma": "turanno", "frequency": 1 },
 	{
 		"lemma": "sirarahci",
 		"ja": ["岩磯"],
@@ -11986,7 +11993,7 @@
 		"poses": ["n"],
 		"frequency": 1
 	},
-	{ "lemma": "oya", "ja": ["他の"], "en": ["other"], "ru": ["другой"], "frequency": 1 },
+	{ "lemma": "oya", "ja": ["他の"], "en": ["other"], "ru": ["другой"], "frequency": 3 },
 	{
 		"lemma": "sehci",
 		"ja": ["ベッド"],
@@ -12011,13 +12018,13 @@
 		"poses": ["vt"],
 		"frequency": 1
 	},
-	{ "lemma": "sita'unpe", "frequency": 2 },
+	{ "lemma": "sita'unpe", "frequency": 1 },
 	{
 		"lemma": "neyta",
 		"ja": ["何処に", "何処で"],
 		"en": ["where"],
 		"ru": ["где", "куда"],
-		"frequency": 2
+		"frequency": 1
 	},
 	{
 		"lemma": "hemanta",
@@ -12025,7 +12032,7 @@
 		"en": ["what"],
 		"ru": ["что"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 1
 	},
 	{ "lemma": "tuura", "frequency": 4 },
 	{
@@ -12094,7 +12101,7 @@
 		"ru": ["холодный", "тепловатый"],
 		"frequency": 2
 	},
-	{ "lemma": "heta", "frequency": 4 },
+	{ "lemma": "heta", "frequency": 5 },
 	{
 		"lemma": "kunine",
 		"ja": ["～するように"],
@@ -12116,9 +12123,9 @@
 		"en": ["thing", "matter"],
 		"ru": ["вещь", "дело"],
 		"poses": ["sfx"],
-		"frequency": 6
+		"frequency": 2
 	},
-	{ "lemma": "oro’oo", "frequency": 2 },
+	{ "lemma": "oro’oo", "frequency": 33 },
 	{
 		"lemma": "kore",
 		"ja": ["～に与える"],
@@ -12133,9 +12140,9 @@
 		"en": ["red"],
 		"ru": ["красный"],
 		"poses": ["v"],
-		"frequency": 2
+		"frequency": 1
 	},
-	{ "lemma": "wooyaan", "frequency": 3 },
+	{ "lemma": "wooyaan", "frequency": 8 },
 	{ "lemma": "tukar", "frequency": 3 },
 	{ "lemma": "ihohcise", "frequency": 2 },
 	{
@@ -12152,7 +12159,7 @@
 		"en": ["but", "although"],
 		"ru": ["но", "однако"],
 		"poses": ["parti"],
-		"frequency": 7
+		"frequency": 1
 	},
 	{ "lemma": "anahcihi", "frequency": 2 },
 	{
@@ -12171,7 +12178,7 @@
 		"en": ["you (plural)", "someone", "we", "they"],
 		"ru": ["вы", "кто-то", "мы", "они"],
 		"poses": ["pfx", "v"],
-		"frequency": 51
+		"frequency": 13
 	},
 	{
 		"lemma": "kor",
@@ -12179,7 +12186,7 @@
 		"en": ["to hold", "to have"],
 		"ru": ["держать", "иметь"],
 		"poses": ["parti", "v"],
-		"frequency": 22
+		"frequency": 2
 	},
 	{
 		"lemma": "utar",
@@ -12195,7 +12202,7 @@
 		"en": ["already", "now"],
 		"ru": ["уже", "сейчас"],
 		"poses": ["adv", "n"],
-		"frequency": 16
+		"frequency": 2
 	},
 	{
 		"lemma": "inne",
@@ -12218,7 +12225,7 @@
 		"en": ["to see", "to observe"],
 		"ru": ["видеть", "наблюдать"],
 		"poses": ["v"],
-		"frequency": 9
+		"frequency": 1
 	},
 	{
 		"lemma": "katkemat",
@@ -12242,7 +12249,7 @@
 		"en": ["leaf"],
 		"ru": ["лист"],
 		"poses": ["n"],
-		"frequency": 7
+		"frequency": 6
 	},
 	{
 		"lemma": "wano",
@@ -12292,7 +12299,7 @@
 		"en": ["place", "there"],
 		"ru": ["место", "там"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 1
 	},
 	{ "lemma": "ramukittararke", "frequency": 5 },
 	{
@@ -12316,7 +12323,7 @@
 		"frequency": 5
 	},
 	{ "lemma": "nukar", "poses": ["v"], "frequency": 4 },
-	{ "lemma": "rékoro", "frequency": 4 },
+	{ "lemma": "rékoro", "frequency": 1 },
 	{
 		"lemma": "sirpeker",
 		"ja": ["昼間"],
@@ -12332,7 +12339,7 @@
 		"en": ["breast", "milk"],
 		"ru": ["грудь", "молоко"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 15
 	},
 	{ "lemma": "nahteh", "frequency": 4 },
 	{
@@ -12358,7 +12365,7 @@
 		"en": ["like ~", "in that way"],
 		"ru": ["как ~", "так же как"],
 		"poses": ["adv"],
-		"frequency": 4
+		"frequency": 2
 	},
 	{
 		"lemma": "hine",
@@ -12366,7 +12373,7 @@
 		"en": ["after", "when", "then"],
 		"ru": ["после", "когда", "затем"],
 		"poses": ["parti", "conj"],
-		"frequency": 4
+		"frequency": 1
 	},
 	{
 		"lemma": "terke",
@@ -12438,7 +12445,7 @@
 		"frequency": 2
 	},
 	{ "lemma": "corpoke", "frequency": 2 },
-	{ "lemma": "irutaspano", "frequency": 2 },
+	{ "lemma": "irutaspano", "frequency": 1 },
 	{
 		"lemma": "rok",
 		"ja": ["alang=ain"],
@@ -12451,7 +12458,7 @@
 	{ "lemma": "ne>", "frequency": 2 },
 	{ "lemma": "tam", "ja": ["刀"], "en": ["sword"], "ru": ["меч"], "poses": ["n"], "frequency": 2 },
 	{ "lemma": "yay’iráykire", "frequency": 2 },
-	{ "lemma": "nakan", "frequency": 2 },
+	{ "lemma": "nakan", "frequency": 1 },
 	{ "lemma": "ukoramuwen", "frequency": 2 },
 	{ "lemma": "kouekarpa", "frequency": 2 },
 	{
@@ -12589,7 +12596,7 @@
 		"en": ["to happen"],
 		"ru": ["происходить"],
 		"poses": ["v", "sfx"],
-		"frequency": 2
+		"frequency": 1
 	},
 	{
 		"lemma": "ku",
@@ -12597,9 +12604,9 @@
 		"en": ["to drink (beer)"],
 		"ru": ["пить (пиво)"],
 		"poses": ["v", "n"],
-		"frequency": 2
+		"frequency": 100
 	},
-	{ "lemma": "renkáyne", "frequency": 2 },
+	{ "lemma": "renkáyne", "frequency": 66 },
 	{
 		"lemma": "kot",
 		"ja": ["死ぬ"],
@@ -12614,7 +12621,7 @@
 		"en": ["summit", "peak"],
 		"ru": ["вершина", "пик"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 1
 	},
 	{
 		"lemma": "huskotoy",
@@ -12656,7 +12663,7 @@
 		"en": ["path", "trace", "a little"],
 		"ru": ["путь", "след", "немного"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 11
 	},
 	{
 		"lemma": "monrayke",
@@ -12664,7 +12671,7 @@
 		"en": ["work", "job"],
 		"ru": ["работа", "дело"],
 		"poses": ["adv"],
-		"frequency": 2
+		"frequency": 1
 	},
 	{
 		"lemma": "itak",
@@ -12759,7 +12766,7 @@
 		"en": ["(plural)"],
 		"ru": ["(множественное число)"],
 		"poses": ["sfx"],
-		"frequency": 1000000
+		"frequency": 39
 	},
 	{
 		"lemma": "arahke",
@@ -12785,7 +12792,7 @@
 		"en": ["eh"],
 		"ru": ["эй"],
 		"poses": ["interj"],
-		"frequency": 0,
+		"frequency": 189,
 		"cognates": ["íne assuy"]
 	},
 	{
@@ -12794,7 +12801,7 @@
 		"en": ["(onomatopoeia)"],
 		"ru": ["(наговор)"],
 		"poses": ["interj"],
-		"frequency": 0
+		"frequency": 42
 	},
 	{
 		"lemma": "eci=",
@@ -12802,7 +12809,7 @@
 		"en": ["you"],
 		"ru": ["ты"],
 		"poses": ["pers"],
-		"frequency": 0
+		"frequency": 52
 	},
 	{
 		"lemma": "sinkeikehe",
@@ -12810,7 +12817,7 @@
 		"en": ["the next day"],
 		"ru": ["следующий день"],
 		"poses": ["adv"],
-		"frequency": 0
+		"frequency": 40
 	},
 	{
 		"lemma": "turaeh",
@@ -12845,7 +12852,7 @@
 		"en": ["food", "equipment", "kitchenware"],
 		"ru": ["продукты", "снаряжение", "кухонные принадлежности"],
 		"poses": ["n"],
-		"frequency": 0,
+		"frequency": 1,
 		"cognates": ["orunpe"]
 	},
 	{
@@ -12865,5 +12872,77 @@
 		"poses": ["adv"],
 		"frequency": 0,
 		"noncognates": ["earkinne"]
+	},
+	{
+		"lemma": "ro",
+		"ja": ["～しましょう", "～しよう"],
+		"en": ["let's (hortative)"],
+		"ru": ["давайте"],
+		"poses": ["sfp"],
+		"frequency": 16
+	},
+	{
+		"lemma": "ruro",
+		"ja": ["畝"],
+		"en": ["ridge", "furrow"],
+		"ru": ["борозда", "гряда"],
+		"poses": ["n"],
+		"frequency": 13
+	},
+	{
+		"lemma": "ukowente",
+		"ja": ["互いに壊す", "互いに滅ぼす"],
+		"en": ["to destroy one another"],
+		"ru": ["разрушать друг друга"],
+		"poses": ["vt"],
+		"frequency": 9
+	},
+	{
+		"lemma": "ucaskuma",
+		"ja": ["由来語り", "由来譚"],
+		"en": ["oral tradition", "tale of origins"],
+		"ru": ["устное предание"],
+		"poses": ["n", "vi"],
+		"frequency": 7
+	},
+	{
+		"lemma": "ranma",
+		"ja": ["いつも", "ふだん", "相変わらず"],
+		"en": ["always", "as usual"],
+		"ru": ["всегда", "как обычно"],
+		"poses": ["adv"],
+		"frequency": 7
+	},
+	{
+		"lemma": "hosip",
+		"ja": ["帰る", "戻る"],
+		"en": ["to return", "to go back"],
+		"ru": ["возвращаться"],
+		"poses": ["vi"],
+		"frequency": 6
+	},
+	{
+		"lemma": "nohkiri",
+		"ja": ["あご"],
+		"en": ["jaw", "chin"],
+		"ru": ["челюсть", "подбородок"],
+		"poses": ["n"],
+		"frequency": 5
+	},
+	{
+		"lemma": "tanne",
+		"ja": ["長い"],
+		"en": ["long", "to be long"],
+		"ru": ["длинный"],
+		"poses": ["vi"],
+		"frequency": 3
+	},
+	{
+		"lemma": "hoku",
+		"ja": ["夫"],
+		"en": ["husband"],
+		"ru": ["муж"],
+		"poses": ["n"],
+		"frequency": 5
 	}
 ]
