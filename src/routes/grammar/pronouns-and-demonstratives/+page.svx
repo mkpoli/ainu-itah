@@ -1,0 +1,275 @@
+---
+title: Pronouns and Demonstratives
+num: '12'
+part: The Noun Phrase
+status: draft
+blurb: Free personal pronouns, the demonstrative and anaphoric determiners, and the interrogative pro-forms of Sakhalin Ainu.
+sources:
+  - Chiri 1942
+  - Furukawa 1967
+  - Sakaguchi 2024
+  - Dal Corso 2024
+  - ainu-corpora (樺太)
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+This chapter surveys the closed classes of pro-forms and determiners: the free
+personal pronouns, the demonstrative and anaphoric determiners that precede the
+noun, and the interrogative pro-forms. Two facts shape the whole domain. First,
+Sakhalin Ainu is head-marking and pro-drop: the verb obligatorily cross-references
+its core arguments with personal affixes (treated in the chapter on
+[person marking](/grammar/person-marking-alignment)), so a free pronoun is never
+required to identify an argument and appears only for emphasis or contrast
+<Cite key="Furukawa 1967" page="103-4" />. Second, all of these forms are
+**right-headed modifiers**: a demonstrative, like a numeral or a relative clause,
+precedes the noun it determines <Cite key="Chiri 1942" page="§95" />.
+
+## Free personal pronouns
+
+The free personal pronouns are transparently built on the existential and
+"be"-forms — *anokay* / *kuani* contain the existential <W w="an" gloss="exist" />,
+and the second-person forms contain the corresponding affixes — but synchronically
+they function as independent words. <Cite key="Chiri 1942" paren={false} page="§90" />
+gives the Sakhalin set as *anokaj* ~ *kuani* (1sg), *eani* (2sg), *ani* (3sg),
+*anokaj* (1pl), *ečiokaj* ~ *ešiokaj* (2pl), *okaj* (3pl); Furukawa's Rayciska
+fieldwork records the West-coast variants *ku'ani*, *'e'ani*, *'anoka*, *'eci'oka*
+<Cite key="Furukawa 1967" page="103" />. Sakaguchi's East-coast paradigm aligns
+the pronouns with the affix series as *kuani* (1sg), *ciokay* (1pl excl.),
+*eani* (2sg), *eciokay* (2pl), *ani(hi)* (3sg) and *anoka(y)* for the
+fourth/<Gl t="PRM" /> person <Cite key="Sakaguchi 2024" page="18" />.
+
+| Person | West (Furukawa) | Sakhalin general (Chiri) | East (Sakaguchi) |
+| --- | --- | --- | --- |
+| 1sg | *ku'ani* | *anokaj ~ kuani* | *kuani* |
+| 1pl | *'anoka* | *anokaj* | *ciokay* (excl.) |
+| 2sg | *'e'ani* | *eani* | *eani* |
+| 2pl | *'eci'oka* | *ečiokaj ~ ešiokaj* | *eciokay* |
+| 3sg | — | *ani* | *ani(hi)* |
+| 3pl | — | *okaj* | — |
+| <Gl t="PRM" /> (4th) | — | — | *anoka(y)* |
+
+A crucial point is that the free pronoun is **not** itself the agreement marker:
+it co-occurs with, and is redundant to, the prefix on the verb. In the East-coast
+example below the 1sg pronoun *kuani* stands beside the possessor prefix *ku-* and
+again beside the A-prefix *ku-* on the verb, all referring to the same speaker.
+
+<Example
+	ain="tan cis neanpe kuani ku-cip-ihi nee"
+	gloss="this boat TOP PRO.1SG 1SG.A-boat-POSS COP"
+	free="This boat is my boat."
+	cite="Sakaguchi 2024" page="19"
+	dialect="East" />
+
+Because the affix already carries the reference, the free pronoun is reserved for
+**contrast and emphasis**. The same is observable on the West coat: in the corpus
+text below, *kuani* is fronted and set off ("on my part") against an implied other
+party.
+
+<Example
+	ain="kuani orowano ponopono ku-ki katu wen pe"
+	gloss="PRO.1SG from a.little 1SG.A-do manner be.bad NMLZ"
+	free="‘What I did, on my part, a little, was bad.’"
+	cite="ainu-corpora (樺太)" page="chiba-358/4/2-2#7"
+	dialect="West" />
+
+The second-person pronoun *eani* behaves the same way. In Sentoku Tarōji's
+East-coast letters it is used contrastively and as the head of oblique phrases —
+here as the addressee whom the writer reproaches:
+
+<Example
+	ain="eani maci po tura oyra taka"
+	gloss="PRO.2SG wife child with forget even"
+	free="‘Have you really forgotten your wife and child?’"
+	cite="ainu-corpora (樺太)" page="sentoku/2#163"
+	dialect="East" />
+
+A pervasive complication is that the **fourth person** (<Cite key="Sakaguchi 2024" paren={false} page="13" />'s
+term for the <Gl t="PRM" /> set <W w="an" gloss="-an" />/*an-*/*i-*) is in fact the
+ordinary, unmarked way of referring to a first-person narrator in connected
+narrative. Its free pronoun is *anoka(y)*, and it triggers the *an-* series on the
+verb even when the referent is a single speaker:
+
+<Example
+	ain="anoka hekaci an-nee"
+	gloss="PRO.4 child 4.A-COP"
+	free="I am a child."
+	cite="Sakaguchi 2024" page="21"
+	dialect="East" />
+
+The choice between *kuani* (the *ku-* series) and *anoka(y)* (the *an-* series) for
+a single first-person referent is thus partly a register and discourse choice
+rather than a number contrast: the fourth person is "the most common way to say
+⟪1sg⟫ in narrative" and is historically a plural form, which is why a
+number-distinguishing verb takes its **plural** stem under *-an* regardless of the
+referent's actual number <Cite key="Sakaguchi 2024" page="127-8" /> (see
+[person marking](/grammar/person-marking-alignment)). A further dialect split
+bears directly on the 1pl pronouns: the exclusive set *ciokay* / *ci-* / *-as* is
+robust on the **East** coast (Piłsudski's corpus) but is essentially absent in
+West Sakhalin (Rayciska), where the fourth-person *anoka(y)* covers ⟪1pl⟫ and there
+is consequently no formal inclusive/exclusive contrast <Cite key="Dal Corso 2024" page="717-18" />.
+
+## Demonstrative determiners
+
+Demonstratives are adnominal determiners that precede their noun. Sakhalin
+distinguishes a **proximal** *tan* 'this', a **medial/distal** *tara* ~ *taa*
+'that', and an emphatic distal *tara-an* ~ *ta'a(a)n* 'that (yonder)'. The
+proximal also has a dedicated plural *tanoka(y)* ~ *tanokaj* 'these'
+<Cite key="Chiri 1942" page="§97" />. Furukawa's Rayciska series is fuller, with
+*tan* (proximal), *tara* ~ *taa* (medial) and *ta'a(a)n* (distal)
+<Cite key="Furukawa 1967" page="106-7" />.
+
+| Category | West (Furukawa) | Sakhalin general (Chiri) | Meaning |
+| --- | --- | --- | --- |
+| Proximal sg | *tan* | *tan* | 'this' |
+| Proximal pl | *tanoka(j)* | *tanokaj* ~ *tanoka* | 'these' |
+| Medial | *tara* ~ *taa* | *tan* (medial), *tara* | 'that' |
+| Distal | *ta'a(a)n* | *tara-an* ~ *tara* | 'that (yonder)' |
+| Anaphoric | *ne'an*, *neya* | *nea*, *nean*, *nan*, *ne* | 'the aforementioned' |
+
+The proximal *tan* is abundantly attested across both coasts. In the West-central
+corpus it determines *kotan* 'village':
+
+<Example
+	ain="tan kotan ohta utasa-an kusu ariki-an"
+	gloss="this village LOC visit-PRM.S because come.PL-PRM.S"
+	free="‘I have come to visit this village.’"
+	cite="ainu-corpora (樺太)" page="chiba-358/4/1#0"
+	dialect="West" />
+
+The chief diachronic and areal point is **negative**: the Hokkaidō distal *to(an)*
+'that (over there)' is *absent* in Sakhalin, its functional slot filled instead by
+*tara(-an)* <Cite key="Chiri 1942" page="§97" />. Where Hokkaidō would use *to-* in
+the place-deictic series (see below), Sakhalin uses the *ta-* / *tara-* forms. This
+is one of the clean lexical isoglosses separating the two language areas.
+
+## Anaphoric determiners
+
+Distinct from the spatial demonstratives is a set of **anaphoric** determiners —
+*nea*, *nean*, *neya*, *ne* — meaning 'the aforementioned, the said', built on the
+copula/identifier *ne(e)*. They track a referent already introduced into the
+discourse rather than locating it in physical space <Cite key="Chiri 1942" page="§104" />.
+In the folktale below, *nea* picks out the girl introduced earlier in the tale:
+
+<Example
+	ain="nea pon moromahpo pon kapariw ohkayo teekoro raanuh"
+	gloss="that.AphR small young.woman small flatfish man very 3SG.A/love"
+	free="That young woman loved the little flatfish-man very much."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#13"
+	dialect="East" />
+
+Both A and O here are third person and therefore leave the verb unmarked for
+person; the anaphoric *nea* alone signals that the participants are the ones
+already established. The West-coast variant *neya* works identically, as in
+Furukawa's question about a previously-mentioned visitor:
+
+<Example
+	ain="neya nispa eh wa"
+	gloss="that.AphR noble.man come.SG Q"
+	free="‘Did that gentleman come?’"
+	cite="Furukawa 1967" page="105"
+	dialect="West"
+	note="Falling intonation on the final particle wa marks the past interrogative." />
+
+The same anaphoric *nea* underlies the very frequent topic/clause-linker
+*neanpe* ~ *nanpe* 'as for that; and so' (the demonstrative *nea* plus the
+nominaliser *-an-pe* 'that thing'), which chains narrative clauses and reactivates
+the preceding referent as topic <Cite key="Chiri 1942" page="§104" />. It is treated
+as a topic marker in the chapters on [information structure](/grammar/information-structure)
+and [clause linking](/grammar/clause-linking).
+
+## Interrogative pro-forms
+
+Sakhalin Ainu has a small set of content interrogatives, which double as the bases
+for indefinites. The principal members are the pro-noun *hemata* 'what'; the
+adnominal determiners *heman(u)* 'which' and *makan* 'what kind of'; the quantity
+word *hempak* (West *hempah*) 'how many'; the person interrogative *naata* 'who';
+and the place/direction forms built on *nak-* (*nak-ene* 'to where', *nahta*
+'where') <Cite key="Chiri 1942" page="§97, §104" /><Cite key="Furukawa 1967" page="106-7" />.
+
+The 'what' interrogative *hemata* is the most frequent and is well attested in
+Murasaki's West-coast conversation primer, where it questions the object of a verb:
+
+<Example
+	ain="hemata e-kuu rusuy"
+	gloss="what 2SG.A-drink DESID"
+	free="‘What do you want to drink?’"
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/09#2"
+	dialect="West" />
+
+Predicatively, *hemata* combines with the determiner *tan* and a question particle
+to mean 'what is this?', showing the demonstrative and interrogative systems
+interacting in a single phrase:
+
+<Example
+	ain="tanpe hemata he"
+	gloss="this.NMLZ what Q"
+	free="‘What is this?’"
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-beginner/26#1"
+	dialect="Sakhalin" />
+
+In the corpus *hemata* also serves as a causal/manner interrogative in collocation
+with *kusu* 'because' — *hemata kusu* 'why, for what reason':
+
+<Example
+	ain="hemata kusu ene an pon kapariw e-raanu-pihi hetaneana"
+	gloss="what because thus exist.SG small flatfish 2SG.A-love-NMLZ.POSS Q"
+	free="‘Why is it that you love such a little flatfish-man?’"
+	cite="ainu-corpora (樺太)" page="chiba-354/43#11"
+	dialect="East" />
+
+As determiners, *heman(u)* 'which' and *makan* 'what kind of' precede the noun like
+any other modifier. Under negation, an interrogative-indefinite plus the additive
+*ka* yields a negative-polarity 'no … at all', a pan-Ainu construction
+<Cite key="Furukawa 1967" page="106-7" />:
+
+<Example
+	ain="ne aynu ka isam"
+	gloss="which person ADD not.exist"
+	free="‘There is no one at all.’"
+	cite="Furukawa 1967" page="106-7"
+	dialect="West"
+	note="Interrogative-indefinite ne 'which/what kind' + additive ka under the negative existential isam." />
+
+## Place deixis and directional frames
+
+Spatial reference is also organised by a set of bare locative roots that take case
+particles directly: *te* 'here', *ta* 'there', and the relational base *or* 'place'.
+These combine with the locative-lative *ta*, the allative *un*/*ene*, and the
+ablative *wa*/*orowa* to form place adverbs — *te-ta* 'here (at)', *te-un* 'hither',
+*te-wa* 'hence' <Cite key="Chiri 1942" page="§97" />. As with the demonstrative
+determiners, the Hokkaidō distal *to(an)* of this series is absent. The
+demonstrative *taa(ta)* 'there' is attested predicatively with the existential in
+Murasaki's primer:
+
+<Example
+	ain="taata hemata ani hii"
+	gloss="there what exist.SG Q"
+	free="‘What is there?’"
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/05#1"
+	dialect="West" />
+
+Layered on top of the place deictics is a distinctively Sakhalin **directional
+frame** that marks motion toward versus away from a landmark with the prefixes
+*he-* / *ho-* on a locative root: *he-kim-o* 'toward the forest' versus *ho-kim-o*
+'from the forest', *he-pis-o* 'toward the shore' versus *ho-pis-o* 'from the shore'
+<Cite key="Chiri 1942" page="§87" />. These *he-/ho-* frames have no exact Hokkaidō
+counterpart and are described more fully in the chapter on
+[clause structure and adverbs](/grammar/clause-structure-word-order).
+
+## Open issues
+
+A few points remain unsettled. The relationship between the West-coast linkers
+*neanpe* and *nanpe* is reported as not yet distinguishable, and Sakaguchi glosses
+both uniformly <Cite key="Sakaguchi 2024" page="18" />. The exact membership and
+glossing of the place-deictic and interrogative-indefinite series for each West-coast
+sub-variety is incompletely documented; segmentations in the corpus folktale texts
+are in places the editor's tentative readings and should not be over-interpreted.
+Finally, whether the fourth-person *anoka(y)* is best treated as a genuine pronoun
+or as a frozen existential phrase is a question the descriptive literature has not
+fully resolved, given its biverbal origin and grammatically-plural agreement.

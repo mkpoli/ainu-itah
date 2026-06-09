@@ -1,0 +1,401 @@
+---
+title: Personal Agreement and Alignment
+num: '16'
+part: The Verb and the Predicate
+status: draft
+blurb: How the Sakhalin Ainu verb indexes its core arguments, and the mixed nominative–neutral–inverse alignment that results.
+sources:
+  - Dal Corso 2025
+  - Sakaguchi 2024
+  - Dal Corso 2024
+  - Chiri 1942
+  - Piłsudski 1912
+  - Satō 1985
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## The S / A / O function series
+
+Sakhalin Ainu is a head-marking, pro-drop language: a finite verb obligatorily
+cross-references its core arguments by means of **personal affixes**, and the
+arguments themselves need not be expressed by a free noun phrase or pronoun.
+The affixes fall into three functional series — <Gl t="S" /> for the single
+argument of an intransitive verb, <Gl t="A" /> for the subject of a transitive
+verb (and, identically, for the possessor of a possessed noun), and <Gl t="O" />
+for the object of a transitive verb (and for the ground argument of a locative
+noun). These three series are distributed across four morphological persons:
+first, second, third, and a fourth set traditionally called "indefinite" and
+labelled here <Gl t="PRM" /> (participant-referentiality mismatch), following
+<Cite key="Dal Corso 2025" paren={false} />.
+
+The valency-sensitive picture is easiest to see in the possessor and
+locative-noun uses, which recur throughout the noun phrase. The A-series prefix
+that marks a transitive subject is the very same prefix that marks a possessor
+on a bound noun:
+
+<Example
+	ain="ku-sapa-ha"
+	gloss="1SG.PSR-head-POSS"
+	free="my head"
+	cite="Dal Corso 2025" page="190"
+	dialect="Sakhalin" />
+
+<Example
+	ain="ku-cip-ihi"
+	gloss="1SG.A-boat-POSS"
+	free="my boat"
+	cite="Sakaguchi 2024" page="19"
+	dialect="East"
+	note="From tan cis neanpe kuani ku-cip-ihi nee ‘This boat is my boat’; the free pronoun kuani co-occurs with the prefix ku-." />
+
+Conversely, the O-series form appears on **locative (relational) nouns**, where
+it marks the ground:
+
+<Example
+	ain="i-osmak-e ene"
+	gloss="PRM.O-back-POSS to"
+	free="to behind me"
+	cite="Sakaguchi 2024" page="19"
+	dialect="East"
+	note="The O-form / PRM prefix i- on a relational noun; here the fourth person stands for ⟪1sg⟫." />
+
+A point worth stressing at the outset is that these affixes are **not**
+pronouns. The free pronoun <W w="kuani" gloss="I" /> can and does co-occur with
+the prefix <W w="ku" gloss="1SG" /> in the same clause, as the boat example
+shows; the prefix is obligatory agreement, the pronoun an optional emphatic
+nominal. <Cite key="Dal Corso 2025" page="156" paren={false} /> warns, however,
+that the neat valency-based generalisation is only a first approximation: it
+breaks down precisely in the interactions between two speech-act participants,
+to which most of this chapter is devoted.
+
+## The basic affix paradigm
+
+The core paradigm is given in Table 1. Third person, singular and plural alike,
+is **zero-marked** in every function. The set is overwhelmingly **prefixal**, but
+two forms — the S-form <Gl t="EXCL" /> 1pl suffix `-as` and the PRM S-form `-an` —
+are **suffixes** (separate prosodic words), which produces **discontinuous
+agreement** in some transitive cells. The prefixes `ku-`, `en-`, `ci-`, `in-`,
+`e-`, `i-` shift accent; `eci-` and `an-` do not <Cite key="Dal Corso 2025" page="190" />.
+
+| Person | S | A | O |
+| --- | --- | --- | --- |
+| 1sg | `ku-` | `ku-` | `en-` |
+| 1pl.excl | `-as` | `ci-` | `in-` |
+| 2sg | `e-` | `e-` | `e-` |
+| 2pl | `eci-` | `eci-` | `eci-` |
+| 3sg/pl | — (Ø) | — (Ø) | — (Ø) |
+| prm (4th) | `-an` | `an-` | `i-` |
+
+*Table 1. Basic person-agreement affixes <Cite key="Dal Corso 2025" page="201" />.*
+
+The S-form `-an` is realised `-yan` with an epenthetic glide on vowel-final
+verbs <Cite key="Dal Corso 2025" page="210" />. The contrast between the
+prefixal 1sg A-form and the suffixal 1pl S-form is the diagnostic Chiri used to
+divide verbs into "complete" (intransitive, suffix-taking) and "incomplete"
+(transitive, prefix-taking) classes <Cite key="Chiri 1942" page="§27" />; see
+the [verb-structure chapter](/grammar/verb-structure-transitivity).
+
+A few sample cells in their functional environments. The 2pl prefix `eci-`
+sits before a verb stem; on a verb with verbal number it selects the plural
+stem:
+
+<Example
+	ain="eci-ahuh"
+	gloss="2PL.S-enter.PL"
+	free="you (pl.) enter"
+	cite="Sakaguchi 2024" page="20"
+	dialect="East"
+	note="The 2pl prefix eci- on the plural stem ahuh (singular ahun)." />
+
+The PRM S-suffix `-an` follows an intransitive stem, with the subject left to
+pro-drop:
+
+<Example
+	ain="inkara-an"
+	gloss="look-PRM.S"
+	free="I looked around"
+	cite="Sakaguchi 2024" page="20"
+	dialect="East" />
+
+A transitive verb with a second-person plural subject and a zero third-person
+object shows that the only overt marking can be the subject prefix `eci-`,
+itself selected over the singular `e-` to express plural number; the unexpressed
+third-person object is recovered from context.
+
+## Mixed nominative–neutral alignment
+
+How the three series are distributed across the persons yields a **mixed**
+alignment <Cite key="Dal Corso 2025" />. Only the **first person singular**
+distinguishes its S/A marker `ku-` from its O marker `en-`: this is
+**nominative** alignment of the 1 versus 2/3 type. The **second persons** and
+the **third person** use a single form across S, A and O — `e-` for 2sg, `eci-`
+for 2pl, zero for 3 — which is **neutral** (or "direct"). The traditional
+three-way **tripartite** analysis (after <Cite key="Satō 1985" paren={false} />
+and others), in which each of S, A and O has its own marker, survives only for
+the PRM set (`-an`/`an-`/`i-`) and the exclusive 1pl (`-as`/`ci-`/`in-`).
+
+<Cite key="Dal Corso 2025" page="207" paren={false} /> reconstructs the
+distribution diachronically and ultimately **dismisses tripartite as a
+free-standing alignment**, deriving its apparent three-way contrasts from
+layered historical accretion onto a basic nominative–neutral split. On this
+view the 1pl S-form `-as` and A-form `ci-` belong to one underlying category,
+and the PRM set is itself nominative (S/A `-an`/`an-` versus O `i-`). The
+reconstruction is summarised in Table 2.
+
+| | S | A | O | resulting alignment |
+| --- | --- | --- | --- | --- |
+| 1sg | `ku-` | `ku-` | `en-` | nominative |
+| 1pl | `-as` | `ci-` | `in-` | (tripartite, secondary) |
+| 2sg | `e-` | `e-` | `e-` | neutral |
+| 2pl | `eci-` | `eci-` | `eci-` | neutral |
+| 3 | — | — | — | neutral |
+| prm | `-an` | `an-` | `i-` | nominative |
+
+*Table 2. Reconstructed series and alignment <Cite key="Dal Corso 2025" page="207" />.*
+
+A competing account is offered by <Cite key="Satō 2024" paren={false} />, who
+treats the unitary expression of the second persons not as the **loss** of an
+older patientive S/A versus O split, but as a patientive second person that was
+**never developed** — an empathy / deferred-control strategy with a typological
+parallel in Central Pomo.
+
+## The PRM / fourth-person set
+
+The set `-an` / `an-` / `i-` is functionally the richest part of the system, and
+the only means the language has of cross-referencing an **inclusive first-person
+plural** <Cite key="Dal Corso 2025" page="196" />. Beyond inclusive 'we', the
+same forms encode a cluster of further values: a **logophoric** first-person
+narrator inside folklore, an **indefinite** agent ('someone…'), and the **agent
+of an impersonal passive**. <Cite key="Dal Corso 2025" paren={false} /> unifies
+these under the single notion of a **participant-referentiality mismatch**: the
+affix signals that the cross-referenced participant sits in an unexpected place
+on a referentiality hierarchy.
+
+On a copula or transitive verb the PRM A-form `an-` may simply stand for ⟪1sg⟫:
+
+<Example
+	ain="anoka hekaci an-nee"
+	gloss="PRO.4 child PRM.A-COP"
+	free="I am a child."
+	cite="Sakaguchi 2024" page="21"
+	dialect="East"
+	note="The copula nee takes the A-form an-; here the fourth person is ⟪1sg⟫." />
+
+In running narrative, the fourth person regularly marks the **narrator's own
+first person** (logophoric use). Crucially the verbal number it triggers is
+**grammatical, not semantic**: a number-distinguishing verb appears in its
+**plural** stem with `-an` regardless of how many people the referent actually
+is. In the following clause the narrator is a single person, yet the obligatory
+stem is the plural `makap` (singular `makan`):
+
+<Example
+	ain="peray-an kusu makap-an manu"
+	gloss="fish-PRM.S because go.uphill.PL-PRM.S REP"
+	free="I went uphill to fish, it is said."
+	cite="Sakaguchi 2024" page="127"
+	dialect="East"
+	note="With -an the plural stem makap is obligatory; a parallel clause without -an uses singular makan." />
+
+This is <Cite key="Sakaguchi 2024" page="127" paren={false} />'s key argument
+that the set is **historically plural**: it relabels it the **fourth person**
+(*4*) and notes that it is in fact the *most common* way to say ⟪1sg⟫ in
+narrative. The same forced plurality is seen with the exclusive 1pl set: the
+suffix `-as` likewise selects the plural stems `asip`, `paye` even when the
+referent is a single woman <Cite key="Sakaguchi 2024" page="129" />.
+
+The PRM A-form also cross-references the agent of an **impersonal passive**,
+where the demoted agent (here 'the gods') is recovered only from context:
+
+<Example
+	ain="kamuy-oro-wa mat kayki an-e-kor-te-si kusu"
+	gloss="god-place-ABL wife even PRM.A-2SG.IO-3SG.O/have-CAUS-COLL because"
+	free="since you have been given even a wife by the gods…"
+	cite="Dal Corso 2025" page="197"
+	dialect="East"
+	note="The agent (the gods) is cross-referenced by PRM an-; -si is the collective." />
+
+Tamura traced `-an`/`an-` to the verb <W w="an" gloss="exist" /> 'exist' (a
+biverbal origin, e.g. <W w="sinot" gloss="play" />`-an` 'someone plays'), while
+the O-form `i-` derives from the antipassive `i-` (ultimately a generic noun *i
+'thing') and is diachronically the **newest** O-form in the system
+<Cite key="Dal Corso 2025" page="207" />.
+
+## SAP-to-SAP interactions and portmanteaux
+
+The most striking property of the system appears when **both** core arguments
+are speech-act participants (a first person acting on a second, or vice versa).
+Here the verb does **not** simply stack an A-prefix and an O-prefix.
+<Cite key="Dal Corso 2025" page="207" paren={false} /> argues that Proto
+Sakhalin Ainu had a **single prefixal agreement slot**, reinforced by a
+phonological pressure (accent-shift stacking) that blocked combinations such as
+*`ku-e-` or *`ci-e-`. The solution was to omit the subject prefix altogether and
+let pragmatics recover the direction of the action. This yields a small set of
+**portmanteau** prefixes, each covering a whole cell of the transitive paradigm:
+`eci-` (any first person acting on a second), `en-` (second on first singular),
+`in-` (second on first plural).
+
+The portmanteau `eci-` for a first-person-singular subject acting on a
+second-person object shows no trace of the expected `ku-`:
+
+<Example
+	ain="eci-kor-te-he"
+	gloss="1SG.A>2SG.IO-3SG.O/have-CAUS-PK"
+	free="I gave it to you."
+	cite="Dal Corso 2024" page="68"
+	dialect="East"
+	note="Portmanteau eci- for 1sg.A > 2sg; cf. the give construction kor-te ‘cause to have’." />
+
+In the reverse direction, the object prefixes `en-` (1sg.O) and `in-` (1pl.O)
+are the only overt marking on a verb whose third-person subject is zero, but
+they also serve as the portmanteau for a second-person subject acting on a first
+person:
+
+<Example
+	ain="kamuy-utara in-ranup"
+	gloss="god-COLL 1PL.O.EXCL-3PL.A/love"
+	free="the gods love me."
+	cite="Dal Corso 2024" page="67"
+	dialect="East"
+	note="The 3pl subject is zero; only the SAP object in- is overt." />
+
+## The emergence of inverse marking
+
+A further twist arises with the PRM A-form `an-`. When `an-` marks a
+low-referential third-person agent acting on a higher-ranked third-person
+patient, it functions as an **inverse marker** — the object outranks the subject
+on the referentiality hierarchy, and the clause is ambiguous between an
+indefinite-agent reading and a passive one:
+
+<Example
+	ain="ahci an-nukara"
+	gloss="old.woman INV-3SG.A/3SG.O/see"
+	free="someone sees the old woman / the old woman is seen."
+	cite="Dal Corso 2025" page="210"
+	dialect="Sakhalin"
+	note="PRM an- as an inverse marker in a 3 > 3 impersonal construction." />
+
+This inverse strategy is then recruited into the SAP domain to resolve the
+**subject-number syncretism** of the old portmanteaux. The suffix `-an` is
+pressed into service as a discontinuous **subject** marker while the prefix
+continues to mark the object, producing `eci-…-an` (1pl on 2), `en-…-an` (2pl
+on 1sg) and `in-…-an` (2pl on 1pl):
+
+<Example
+	ain="in-ranup-an"
+	gloss="2PL.A>1PL.O.EXCL-love-2PL.A>1PL.O.EXCL"
+	free="you (pl.) love us."
+	cite="Dal Corso 2024" page="68"
+	dialect="East"
+	note="Discontinuous inverse in-…-an: the prefix marks the object, the suffix -an the 2pl subject." />
+
+<Cite key="Dal Corso 2025" page="210" paren={false} /> compares this to the
+impersonal-agent inverses of Athabaskan and Algonquian (Meskwaki `-ekoː`,
+Potawatomi `-ikoː`). Once the one-slot constraint relaxes — partly under
+Hokkaido influence — genuine **double prefixes** appear: `an-e-` (1pl.excl on
+2sg), `e-i-` (2sg on PRM, in Rayciska), `eci-i-` (2pl on PRM):
+
+<Example
+	ain="hane an-e-nukara"
+	gloss="NEG PRM.A-2SG.O-meet"
+	free="we do not meet you."
+	cite="Sakaguchi 2024" page="21"
+	dialect="East"
+	note="A genuine prefix combination an-e- (PRM.A > 2sg.O)." />
+
+<Example
+	ain="e-i-ray-ki"
+	gloss="2SG.A-PRM.O-die-CAUS"
+	free="you kill me."
+	cite="Dal Corso 2024" page="68"
+	dialect="East"
+	note="2sg.A > PRM.O combination e-i-; the speaker is referenced by PRM i-." />
+
+The overall system is therefore **non-prototypical and mixed**: it is neither
+purely hierarchical nor purely inverse. The direct combination `eci-` (1sg > 2)
+shows no inverse marking, and `en-`/`in-` unambiguously mark the **object**
+rather than ranking the participants — both facts defeating a pure hierarchical
+analysis <Cite key="Dal Corso 2025" page="213" />.
+
+## Number and the collective clitic
+
+Two further mechanisms interact with person marking. First, **verbal number**:
+some verbs have suppletive or derived singular versus plural stems (`makan` /
+`makap` 'go uphill', `ahun` / `ahup` 'enter', `an` / `okay` 'be, exist'), with
+intransitive plurals agreeing with subject plurality and transitive `-pa`
+plurals with object plurality. As shown above, the fourth person and the
+exclusive 1pl force the plural stem **grammatically**, irrespective of the
+referent's actual number.
+
+Second, the **collective clitic** `=(a)hci` (glossed <Gl t="COLL" />). This is
+*not* a person marker but an optional marker of animate plurality, sitting
+**outside** the person-suffix slot. It is frequent with the third-person plural
+and with the fourth person used as ⟪1pl⟫, where it can be added outside `-an`
+(`okay-an=ahsi` 'we were living') to force the plural reading and disambiguate
+⟪1pl⟫ from ⟪1sg⟫ <Cite key="Sakaguchi 2024" page="128" />. With an overt
+third-person plural subject, plurality is borne by the plural stem plus the
+clitic alone:
+
+<Example
+	ain="re aynu okay=ahci ike ceh-koyki=hci ko e=hci"
+	gloss="three person exist.PL=COLL and fish-catch=COLL and eat=COLL"
+	free="three men lived, catching fish and eating them."
+	cite="ainu-corpora (樺太)" page="express-special/003#8"
+	dialect="Sakhalin"
+	note="The 3pl subject is zero-marked throughout; the plural stem okay and the clitic do all the work." />
+
+The clitic is avoided with the 2pl prefix `eci-`, whose number is already overt
+<Cite key="Sakaguchi 2024" page="130" />. It was earlier analysed as a third-person
+plural person suffix but is now reanalysed as a collective number marker
+<Cite key="Dal Corso 2024" page="729" />.
+
+## Dialectal and diachronic variation
+
+Three points of variation matter for the West-foregrounded baseline of this
+grammar. First, the **exclusive 1pl set** (`-as` / `ci-` / `in-`) is fully
+present only on the **East coast** (Piłsudski's corpus; Dobrotvorskij's
+dictionary). It is essentially **absent in West Sakhalin (Rayciska)** and the
+northern West dialects, which therefore lack a formal inclusive/exclusive
+contrast — a paradigm Western descriptions have called "defective"
+<Cite key="Dal Corso 2025" page="194" />. In the West the PRM/fourth set covers
+⟪1pl⟫ outright. This is consistent with the West-coast attestation of the simple
+1sg `ku-` co-occurring with the free pronoun `kuani`:
+
+<Example
+	ain="kuani orowano ponopono ku-ki katu wen pe"
+	gloss="PRO.1SG from a.little 1SG.A-do manner be.bad NMLZ"
+	free="what I did, on my part, a little, was bad."
+	cite="ainu-corpora (樺太)" page="chiba-358/4/2-2#7"
+	dialect="West"
+	note="West-coast 1sg ku- with the free pronoun kuani." />
+
+Second, the **first-person object form** is genuinely contested. The
+West-foregrounded analysis of Dal Corso posits 1sg.O `en-` against 1pl.O.excl
+`in-`. Sakaguchi's **East-coast** table, building on
+<Cite key="Satō 1985" paren={false} />'s discovery that the object prefixes `i-`
+and `in-` are distinct morphemes (not free variants), gives `in-` for **both**
+1sg.O and 1pl.O. The Sakhalin `in-` is itself the chief cross-dialect divergence
+from Hokkaido, where the cognate is `un-`; its ultimate origin cannot be
+reconstructed <Cite key="Dal Corso 2025" page="205" />. The exact East-coast
+1sg.O form thus remains an unresolved analytical and dialectal question.
+
+Third, the **inverse suffix** combinations are not pan-Sakhalin. The
+`eci-…-an`, `en-…-an` and `in-…-an` patterns are attested in **West** Sakhalin
+and in the conservative northern East dialect **Tarayka**, but are sparse
+elsewhere on the East coast. For 2pl acting on a first person, the older
+portmanteaux `en-`/`in-` have been **fully replaced** by the inverse pattern; for
+a first-person plural acting on a second person, `eci-…-an` merely **coexists**
+with the older `eci-` <Cite key="Dal Corso 2024" page="893" />.
+
+Several cells of the transitive paradigm are simply **unattested** in the
+reference corpora — the 1 > 1 combinations, and several PRM-agent combinations,
+are recorded as N/A — and the conditions under which the otherwise obligatory
+person agreement is sometimes **omitted** in Piłsudski's dictated texts remain,
+in Dal Corso's words, not yet understood <Cite key="Dal Corso 2024" page="703" />.
+These gaps are real, and the reconstructed forms in the fullest transitive
+tables should be read as hypotheses rather than attestations.

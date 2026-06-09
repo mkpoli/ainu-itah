@@ -27,3 +27,6 @@ vite.config.ts.timestamp-*
 
 # Paraglide
 src/lib/paraglide
+
+# Grammar build scratch (source-mining fact base, design drafts)
+.grammar-build

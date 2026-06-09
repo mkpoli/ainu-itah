@@ -1,0 +1,323 @@
+---
+title: Complementation
+num: '25'
+part: Syntax
+status: draft
+blurb: How Sakhalin Ainu packages a clause as the argument of another predicate — bound-noun nominalisers, the possessive-style V-poss, the quotative nah, and the desiderative rusuy.
+sources:
+  - Bugaeva 2016
+  - Dal Corso 2018
+  - Chiri 1942
+  - Murasaki 1979
+  - Furukawa 1967
+  - Piłsudski 1912
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+A complement clause is a clause that fills an argument slot of a higher predicate
+— the object of *say*, *think*, *know*, *want*, or the subject of *be good*,
+*be untrue*. Sakhalin Ainu (Enchiw) has no dedicated finite complementiser of the
+English *that* type for ordinary propositional complements; instead it recruits
+the same machinery it uses for [nominalisation](/grammar/nominalisation) and
+[relative clauses](/grammar/relative-clauses). A clause is made into an argument
+either by adding a bound nominalising noun (<W w="hi" gloss="place, time, thing" />,
+<W w="pe" gloss="thing, person" />), by leaving it as a bare zero-nominalisation,
+or — in the Sakhalin innovation — by re-marking its verb with the possessive-style
+suffix that yields **V-poss**. Reported speech and thought stand somewhat apart,
+framed by the quotative <W w="nah" gloss="that (QUOT)" />. This chapter treats each
+strategy in turn, with West-coast (Raychishka) data as the baseline and East-coast
+(Piłsudski) divergences flagged.
+
+A caveat at the outset: a fine-grained typology of complement-taking predicates
+for Sakhalin specifically is thin in the sources. Much of the controlled
+complementation literature is built on Hokkaido data <Cite key="Bugaeva 2016" page="98" />,
+and the present discussion foregrounds what is securely attested for the island.
+
+## Complement-taking predicates: nominaliser-requiring vs. zero-nominalisation
+
+Following <Cite key="Bugaeva 2016" page="98" paren={false} />, Ainu complementation
+is best understood as a sub-case of nominalisation. Complement-taking predicates
+fall into two classes. Some require an overt nominalising word — most often
+<W w="hi" gloss="thing, place, time" /> or <W w="pe" gloss="thing, person" /> —
+so that the complement surfaces as `[… V NMZ]`; others allow a bare clause with
+no overt marker, the **zero-nominalisation** strategy `[… V]`. The choice is
+lexically governed by the matrix predicate, exactly as in relativisation, and the
+embedded clause keeps a finite-looking shape with its own person marking.
+
+The East-coast corpus shows the <Gl t="NMLZ" /> <W w="pe" gloss="thing" /> strategy
+clearly. In the Piłsudski tale "Karei-otoko to Kajika-otoko", an event clause is
+nominalised by *pe* and then taken up as a topic, the head being a `[clause] pe`
+constituent:
+
+<Example
+	ain="mahnekuh kii-pe neanpe mahnekuh poo-ho e-caskoma-kara"
+	surface="mahnekuh kiipe neanpe mahnekuh pooho ecaskomakara"
+	gloss="woman do-NMLZ TOP woman child-POSS APPL-teach-make"
+	free="Women’s work (lit. the thing women do), she taught to her daughter."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#40"
+	dialect="East" />
+
+Here *[mahnekuh kii] pe* 'the thing women do' is an event/object nominalisation
+serving as a referential argument. The heavy reliance on *pe* as a head is a
+hallmark of the East-coast varieties, which <Cite key="Bugaeva 2016" page="97" />
+characterises as leaning more on the older "nominalising-word" strategy than on
+the West-coast V-poss form discussed below. Chiri had already observed that Ainu
+develops a rich set of bound or "formal" nouns (形式名詞) that combine with
+particles to carry mood and aspect <Cite key="Chiri 1942" page="483" />, and these
+same nouns supply the headed-complement type.
+
+## V-poss as event/clausal complement
+
+The defining Sakhalin innovation in this domain is **V-poss**: the noun
+possessive suffix -hV / -V(hV), together with an A-series person prefix, attaches
+directly to a verb, giving a non-finite clausal nominalisation that
+<Cite key="Bugaeva 2016" page="104" paren={false} /> reads literally as "my Ving",
+parallel to the possessed noun "my N". The same allomorphy operates on verbs as on
+nouns: a vowel-final stem copies its final vowel (*ku=ye* → *ku=ye-he*), and so on.
+Because the form is materially identical to nominal possession, Bugaeva analyses
+it as a genuine clausal nominalisation — and crucially, it is **not** used in
+relative clauses, lexical nominalisations, or noun/verbal complement clauses of
+the headed type, but it does serve as an event/clausal complement when the matrix
+predicate selects a propositional argument <Cite key="Bugaeva 2016" page="105" />.
+
+A V-poss clause can be the subject argument of the matrix predicate. With
+<W w="sunke" gloss="be untrue, lie" /> 'be untrue' as matrix:
+
+<Example
+	ain="ku=ye-he sunke"
+	gloss="1SG.A=say-NMLZ be.untrue"
+	free="What you said is not true (lit. my saying it is false)."
+	cite="Bugaeva 2016" page="108"
+	dialect="West" />
+
+and with <W w="pirka" gloss="be good" /> 'be good, get better':
+
+<Example
+	ain="isa oh-ta ku=oman keray-kusu ku=araka-ha pirka"
+	gloss="doctor place-LOC 1SG.S=go.SG thanks-because 1SG.S=be.sick-NMLZ be.good"
+	free="Because I went to the doctor, my being sick got better."
+	cite="Bugaeva 2016" page="108"
+	dialect="West"
+	note="ku=araka-ha ‘my being sick’ is a V-poss clausal nominalisation as subject of pirka." />
+
+The semantic constant across all V-poss uses, on Bugaeva's account, is
+**presupposition**: V-poss marks content that is treated as given or "not the main
+point" and that survives under negation and modals <Cite key="Bugaeva 2016" page="109" />.
+This is why a V-poss complement reads as a presupposed event ('my being sick',
+'what you said') rather than as freshly asserted information. In the same vein,
+<Cite key="Dal Corso 2018" paren={false} /> analyses the personal-knowledge evidential -hV / -Ø as a
+**clausal nominalisation** that is the morphosyntactic source of much
+evidential and modal complementation — the V-poss form and the PK evidential are
+one morpheme glossed by two functions.
+
+V-poss can equally embed under copula-based adverbial and modal markers, which is
+where Bugaeva locates its diachronic origin. The conjunctions and auxiliaries that
+follow V-poss synchronically contain the copula <W w="nee" gloss="be, become" />:
+<W w="nee-no" gloss="as, like" /> 'as', *ne-yah* 'although', *nee-ko* 'surely'
+<Cite key="Bugaeva 2016" page="106" />. A manner clause built on V-poss + *nee-no*:
+
+<Example
+	ain="ene e=ramu-hu nee-no pirka no kii wa"
+	gloss="like.this 2SG.A=think-NMLZ COP-ADV be.good ADV do FIN"
+	free="Do it well, just as you think."
+	cite="Bugaeva 2016" page="106"
+	dialect="West" />
+
+and a concessive complement under *ne-yah* 'although', which here also embeds a
+lexical nominalisation *an=oyra-pe-he* 'our forgotten thing(s)':
+
+<Example
+	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
+	gloss="PRM.A=forget-NMLZ-POSS PRM.A=search in.order go.PL=PRM.S-NMLZ COP-COND who ADD take-COLL and not.exist"
+	free="Although we went to search for what we had left, someone had already taken it."
+	cite="Bugaeva 2016" page="106"
+	dialect="West" />
+
+## The "mermaid"-type evidential and modal complement
+
+A particularly productive complement frame is the so-called **mermaid**
+construction, in which a nominalised clause is the subject of a copular predicate
+headed by an evidential or modal bound noun: schematically `[Clause] [Noun-POSS] COP`
+<Cite key="Bugaeva 2016" page="98" />. Diachronically this biclausal
+`[[Clause]NP] ne(e)` frame is the source of much of the evidential and modal
+complementation of the language <Cite key="Dal Corso 2018" page="97" />; over
+time it has drifted toward a monoclausal complex predicate <Cite key="Dal Corso 2018" page="108" />. The head noun supplies
+the evidential value: <W w="ruwehe" gloss="trace, reasoning" /> for inference,
+<W w="sirihi" gloss="appearance" /> for visual evidence, and so on (see the
+[evidentiality](/grammar/evidentiality) chapter).
+
+A West-coast example with the inferential noun *ruu-he* 'trace' under the copula:
+
+<Example
+	ain="nah kanne ka itah ku=wante-he nee ruu-he an"
+	gloss="that like ADD speech 1SG.A=know-NMLZ COP track-INF.RSN exist.SG"
+	free="I think I remember the language that well."
+	cite="Bugaeva 2016" page="108"
+	dialect="West"
+	note="V-poss ku=wante-he ‘my knowing’ embedded under nee + evidential noun ruu-he + locational an — the Sakhalin pattern, where an follows the evidential noun." />
+
+The mermaid frame also hosts dubitative modality. With *nankor(o)* 'probably' —
+which Sakhalin innovatively prefixes with the copula, *nee nankor*, against
+Hokkaido's bare *nankor* — a V-poss complement sits under the copula:
+
+<Example
+	ain="pohke-no mokoro 'anah pirika-ha nee nankor"
+	gloss="warm-ADV sleep COND be.good-NMLZ COP probably"
+	free="It is probably good if he sleeps keeping warm."
+	cite="Bugaeva 2016" page="ex.24"
+	dialect="West"
+	note="V-poss pirika-ha under nee nankor; the copula-prefixing pattern is a Sakhalin peculiarity." />
+
+The same monoclausal evidential predicate can in turn be embedded — with the
+perfective *teh an* inside the nominalised clause — under a dubitative:
+
+<Example
+	ain="neera an pe ne yahka nuu-hci teh-an-[i]-hi nee nanko"
+	gloss="which exist.SG thing COP CONC hear-COLL PFV-EP-NMLZ COP probably"
+	free="Although it could be anything, she must have heard such things."
+	cite="Handbook (Bugaeva ed.)" page="Rayciska text (Dal Corso) ex.25"
+	dialect="West"
+	note="Perfective teh an scopes inside the V-poss nominalisation, which is itself complement to the copula + dubitative nanko." />
+
+## Reported speech and thought: the quotative nah
+
+Reported speech and thought form a syntactically distinct complement type. The
+reported clause is placed **first**, in direct-speech form, and is then closed by
+the quotative <W w="nah" gloss="that (QUOT)" /> 'thus, that', optionally followed
+by a verb of saying, <W w="yee" gloss="say" /> (~ *ye*), or of thinking,
+<W w="ramu" gloss="think" />. The Sakhalin *nah* is the functional equivalent of
+Hokkaido <W w="sekor" gloss="thus, QUOT (Hokkaido)" /> <Cite key="Dal Corso 2018" page="172" />.
+
+A canonical quote frame from the East-coast Piłsudski corpus, with a purposive
+*kusu* clause inside the quote:
+
+<Example
+	ain="pon kapariw ohkayo repun mosiri onne mah-nuu kusu nah yee"
+	surface="Pon kapariw ohkayo “Repun mosiri onne mahnuu kusu.” nah yee."
+	gloss="be.small flounder man.young offshore land ALL wife-take in.order COMP say"
+	free="The little flounder-man said, ‘I will go to the offshore land to take a wife.’"
+	cite="ainu-corpora (樺太)" page="chiba-354/43#1"
+	dialect="East" />
+
+When the speakers are plural, the framing verb takes the collective; the quote can
+itself be a hortative clause:
+
+<Example
+	ain="tura niina-hci kusu nah yee-si"
+	surface="“tura niinahci kusu” nah yeesi."
+	gloss="together gather.wood-COLL in.order COMP say-COLL"
+	free="‘Let us go gather firewood together,’ the two of them said."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#17"
+	dialect="East" />
+
+Inner thought is framed identically, with <W w="ramu" gloss="think" /> as the
+matrix verb:
+
+<Example
+	ain="temana neera'an 'an=kara 'an=kii-hi nee nanko nah ramu"
+	gloss="how such PRM.A=make PRM.A=do-NMLZ COP probably COMP think"
+	free="She thought, ‘How should I do it?’"
+	cite="Dal Corso 2018" page="25"
+	dialect="West" />
+
+Dal Corso stresses that *nah ye(e)* 'say that' shows almost no grammaticalisation:
+both *nah* and *ye* keep their ordinary lexical functions, and the
+reportative/hearsay value is carried separately by the clause-final evidential
+<W w="manu" gloss="it is said (REP)" /> <Cite key="Dal Corso 2018" page="297" />.
+A quote with overt source and the reportative:
+
+<Example
+	ain="ee aynu an nah ye manu"
+	surface="“Ee, aynu an” nah ye manu."
+	gloss="yes person exist.PC COMP say REP"
+	free="‘Yes, I am a human being,’ said the demon."
+	cite="Dal Corso 2018" page="23"
+	dialect="East" />
+
+This invariance of *manu* is a Sakhalin trait: where Hokkaido formally distinguishes
+the plain reportative *hawas* from the assertive *ruwe ne*, Sakhalin *manu* does not
+change shape across the reportative-to-narrative-knowledge shift
+<Cite key="Dal Corso 2018" page="298" />. For the evidential semantics of *manu*
+and the inferentials, see the [evidentiality](/grammar/evidentiality) chapter.
+
+## Desiderative rusuy and intention kusu
+
+Two further complement-like constructions express the attitude of the subject
+toward an event. The desiderative <W w="rusuy" gloss="want" /> 'want' follows the
+verb it scopes over, forming a tight `V rusuy` complex predicate; the embedded verb
+keeps its own person marking and any object NP precedes it. This is robustly
+attested across West-coast pedagogical and conversational Enchiw:
+
+<Example
+	ain="ku=ani sake ku=kuu rusuy"
+	surface="ku'ani sake ku=kuu rusuy."
+	gloss="1SG.PRO liquor 1SG.A=drink DESID"
+	free="As for me, I want to drink sake."
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/09#4"
+	dialect="West" />
+
+<Example
+	ain="hemata 'e=kuu rusuy"
+	gloss="what 2SG.A=drink DESID"
+	free="What do you want to drink?"
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/09#2"
+	dialect="West" />
+
+The desiderative also occurs with the fourth-person/indefinite (PRM) prefix:
+
+<Example
+	ain="nee aynu itah ka an=nuu rusuy"
+	gloss="some Ainu speech ADD PRM.A=hear DESID"
+	free="I want to hear some Ainu spoken."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intermediate/35#4"
+	dialect="West" />
+
+In the East-coast narrative, *rusuy* combines with a causal *kusu* to give a
+'wanting … because' chain — here it scopes over a noun-incorporating verb
+*sam* 'marry, take a spouse':
+
+<Example
+	ain="naha nuu-hu kusu sam rusuy kusu repun"
+	surface="naha nuuhu kusu, sam rusuy kusu repun."
+	gloss="that hear-NMLZ because marry DESID because go.offshore"
+	free="Because he heard that, wanting to marry, he set out to sea."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#4"
+	dialect="East"
+	note="naha nuu-hu ‘his hearing that’ is itself a V-poss complement under causal kusu." />
+
+Intention is expressed by the same multifunctional <W w="kusu" gloss="because, in order to" />
+that marks cause and purpose in [clause linking](/grammar/clause-linking): the
+purposive 'in order to' reading, as in *mah-nuu kusu* 'in order to take a wife'
+in the quote above, shades into a future/intentive sense. The detailed treatment of
+*kusu* as a clause linker, and of its grammaticalised aspectual collocations
+(*kusu an* progressive, *kusu kara* purpositive), belongs to the
+[clause-linking](/grammar/clause-linking) chapter.
+
+## Diachrony and dialectal distribution
+
+The complement strategies stratify diachronically. The bare zero-nominalisation
+`[V]` and the nominalising-word `[V NMZ]` types are the older, pan-Ainu layers,
+retained as the dominant strategy in Hokkaido and conspicuously frequent on the
+Sakhalin East coast (the *pe*-headed complements of Piłsudski's texts). The V-poss
+complement is the youngest layer, fully developed only on the West coast
+(Raychishka; Murasaki, Furukawa) and, Bugaeva suggests, possibly contact-induced
+through the non-finite subordinating verb forms of the neighbouring Tungusic
+languages <Cite key="Bugaeva 2016" page="113" />. The quotative *nah* and the
+desiderative *rusuy* are pan-Sakhalin and shared with Hokkaido in function, though
+the framing markers differ in form (*nah* vs. Hokkaido *sekor*; invariant *manu* vs.
+the Hokkaido *hawas* ~ *ruwe ne* alternation).
+
+Several gaps remain. The functional difference between "short" (-V) and "long"
+(-VhV) V-poss forms is unclear <Cite key="Bugaeva 2016" page="105" />; whether the
+East-coast variety productively uses V-poss across the full West-coast range of
+complement functions is not established in the present sources [uncertain]; and a
+systematic inventory of which Sakhalin matrix predicates select which complement
+type — nominaliser-requiring, zero-nominalisation, or V-poss — is largely
+[unattested] in the documentation read here, most of the finer complementation
+typology resting on Hokkaido data <Cite key="Bugaeva 2016" page="98" />.

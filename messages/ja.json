@@ -1,5 +1,8 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"reference_grammar": "文法書",
+	"reference_grammar_desc": "現代的・実証的・コーパス連動の樺太アイヌ語文法書。",
+	"read_grammar": "文法書を読む",
 	"dictionaries": "辞書",
 	"aynu_itah": "樺太アイヌ語",
 	"aynu_itah_description": "失われつつある樺太アイヌ語を学び、守り、未来へつなげるためのサイトです。単語やフレーズの学習、言語資源や言語ツールの利用、そして樺太アイヌ語を共に学ぶ仲間とつながる場を提供します。一緒に樺太アイヌ語を未来に残しましょう。",

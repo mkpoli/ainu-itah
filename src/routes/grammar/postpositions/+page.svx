@@ -1,0 +1,368 @@
+---
+title: Postpositions and Relational Nouns
+num: '14'
+part: The Noun Phrase
+status: draft
+blurb: How Sakhalin Ainu marks the spatial, temporal, and oblique relations of a noun phrase — through postpositional case particles and a set of relational nouns that build complex adpositions.
+sources:
+  - Chiri 1942
+  - Sakaguchi 2019a
+  - Sakaguchi 2019b
+  - Dal Corso 2024
+  - Furukawa 1967
+  - ainu-corpora (樺太)
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Overview
+
+Sakhalin Ainu (Enchiw) is verb-final, head-marking, and consistently
+**postpositional**: where European languages use prepositions, Enchiw places its
+relational markers *after* the noun phrase they govern. Because the core
+arguments of the verb (subject and object) are cross-referenced by person
+affixes on the predicate, full noun phrases marking those relations are largely
+optional. The work of the postpositions is therefore concentrated on the
+**oblique** roles — location, direction, source, instrument, accompaniment,
+path, limit, and comparison — and on a few adnominal functions.
+
+<Cite key="Chiri 1942" paren={false} /> treats this domain under two headings
+that this chapter keeps distinct. The first is a closed set of **postpositions**,
+which he calls "case particles" (格助詞, his fourth class of particle): forms
+such as locative <W w="ta" gloss="at, in" />, ablative <W w="orowa" gloss="from" />,
+and instrumental <W w="ani" gloss="with, by means of" /> that attach to a noun
+phrase to make it adverbial <Cite key="Chiri 1942" page="§122-123" />. The
+second is a set of **relational ("formal") nouns** — <W w="ka" gloss="top" />
+'top', <W w="pok" gloss="under" /> 'under', <W w="or" gloss="inside" /> 'inside,
+place', <W w="sam" gloss="beside" /> 'beside', and the like — which themselves
+take a case particle and so build **complex adpositions** of the type
+*[noun [relational-noun + ta]]* <Cite key="Chiri 1942" page="§79" />. A salient
+feature of Sakhalin is that some of these complex forms (notably the ablative
+*orowa* and the locative *otta*) have begun to drift toward free, monomorphemic
+particles, losing their original "relational noun + case particle" syntax.
+
+## Postpositions (case particles)
+
+The principal members of the Sakhalin set, with their functions, are summarised
+below. All follow their host noun phrase; none of them governs person affixes
+directly.
+
+| Form | Function | Gloss | Note |
+|---|---|---|---|
+| *ta*, *otta*, *oxta* | locative / lative | <Gl t="LOC" /> | *otta* &lt; *or-ta*; pan-Sakhalin |
+| *un*, *ene*, *onne*, *ne* | allative / directional | <Gl t="ALL" /> | *un* also adnominal 'of, at' |
+| *orowa*, *oro*, *ora* | ablative; agent of passive | <Gl t="ABL" /> | West reduced *ora*; bare *oro* a Sakhalin innovation |
+| *ani* | instrumental; causal | <Gl t="INS" /> | = *ari* elsewhere |
+| *tura(no)* | comitative | <Gl t="COM" /> | 'together with' |
+| *peka*, *kari*, *okakari* | prolative | <Gl t="PROL" /> | 'along, through, via' |
+| *pakno* | terminative | <Gl t="TERM" /> | 'until, as far as' |
+| *akkari* | comparative | <Gl t="COMPV" /> | 'than; past' |
+| *kunne*, *neno*, *korachi* | similative | <Gl t="SIM" /> | 'like, as' |
+
+### Locative and lative: *ta*, *otta*, *oxta*
+
+The locative-lative particle <W w="ta" gloss="at, in; to" /> marks the place at
+which, or the goal toward which, an event occurs. It attaches directly to
+ordinary nouns, to bare locative roots, and (in the complex form *otta* &lt;
+*or-ta*) to the place-denoting relational noun *or*. In the opening line of a
+West-coast tale, *otta* locates an existential predicate:
+
+<Example
+	ain="usoro otta tu-uruwan okkaw an manu"
+	gloss="Usoro LOC two-sibling man exist.SG REP"
+	free="In Usoro there were two brothers, it is said."
+	cite="Sakaguchi 2019a" page="137 (line 2)"
+	dialect="West" />
+
+The same particle attaches to a compound noun and, with motion verbs, reads as a
+lative ('to') rather than a static locative:
+
+<Example
+	ain="ka-ama-ce otta rewsi"
+	surface="kaama ce otta rewsi"
+	gloss="trap-put-house LOC lodge"
+	free="They stayed at a marten-trapping hut."
+	cite="Sakaguchi 2019a" page="138 (line 4)"
+	dialect="West" />
+
+The shorter variant *ta* behaves identically, and the choice between *ta* and
+*otta* is largely free; both surface in the same texts. Here *ta* marks the goal
+of a verb of motion:
+
+<Example
+	ain="sinkeke-h anih otaka ta san te eayrap"
+	gloss="next.day-POSS 3SG.PRON beach LOC descend.SG CONJ recount"
+	free="The next day he went down to the beach and told the people about it."
+	cite="Sakaguchi 2019a" page="139 (line 10)"
+	dialect="West" />
+
+### Allative and directional: *un*, *ene*, *onne*, *ne*
+
+Sakhalin has a rich set of directional markers. The allative <W w="un" gloss="to, toward" />
+attaches closely to its host — so closely that <Cite key="Chiri 1942" paren={false} />
+often writes it as part of the word (*kim-un* 'to the mountain') — and it has a
+secondary adnominal value 'of, at'. The Sakhalin innovation <W w="onne" gloss="into, toward" />
+marks the goal of motion and readily follows a possessed-form noun:
+
+<Example
+	ain="maci tura kotanuhu onne hosipi kusu"
+	gloss="wife COM village.POSS ALL 3SG.A/return.SG because"
+	free="…because he was going back to the village together with his wife…"
+	cite="ainu-corpora (樺太)" page="chiba-354/43#34"
+	dialect="East" />
+
+In the West-coast texts the directional <W w="ene" gloss="to" /> and the
+essive/allative <W w="ne" gloss="to; as" /> are also found; *ne* doubles as the
+copula/essive (see Chapter 21). The following line stacks two directional
+strategies — the bound *un* incorporated into *kimun* 'to the mountain' and the
+free allative *ne* — over the same goal:
+
+<Example
+	ain="seta ora kopiwke kimun ne kira"
+	gloss="dog ABL 3SG.O/attack mountain.ALL ALL flee.SG"
+	free="Chased by the dogs, the monster fled to the mountain."
+	cite="Sakaguchi 2019a" page="139 (line 9)"
+	dialect="West"
+	note="kimun = kim 'mountain' + allative un; the reduced ablative ora marks the agent." />
+
+### Ablative and agent: *orowa*, *oro*, *ora*
+
+The ablative <W w="orowa" gloss="from" /> marks the source of motion. It is one
+of the clearest sites of intra-Sakhalin variation: the full East-coast form is
+*orowa* (*oroüa*), while West-coast speech reduces it to *ora*
+<Cite key="Sakaguchi 2019a" page="n.33" />, and <Cite key="Chiri 1942" paren={false} />
+records that the bare relational noun *oro* can mark the ablative on its own,
+with no following case particle — a Sakhalin peculiarity <Cite key="Chiri 1942" page="§79" />.
+The reduced *ora* in the example above marks the demoted agent of a passive-like
+clause ('chased *by* the dogs'); this **agent-of-passive** use is a regular
+extension of the ablative <Cite key="Chiri 1942" page="(137)" />. The same
+function appears full in West-coast elicited speech:
+
+<Example
+	ain="nah e-kii 'anah ommo orowa an-ko-caaranke naa"
+	surface="nah 'ekii 'anah 'ommo 'orowa 'ankocaaranke naa"
+	gloss="so 2SG.A-do COND mother ABL 1SG.O-APPL-be.scolded FIN"
+	free="If you do so, you will be scolded by your mother."
+	cite="Furukawa 1967" page="108 (Par.F 9)"
+	dialect="West"
+	note="orowa marks the source/agent 'by (your) mother'." />
+
+In the East-coast texts the ablative built on the relational noun *oro* surfaces
+in its fullest form, *oro-wa*, on a possessed locative phrase:
+
+<Example
+	ain="An-kuca-ha-oro-wa paa numa e-a kusu an"
+	surface="An-kuca-ha orova paa numa ea kusu an"
+	gloss="PRM.PSR-hut-POSS-place-ABL smoke 3S.S/rise APPL-sit.PC PROG"
+	free="And there, smoke was rising from my hut."
+	cite="Dal Corso 2024" page="72 (ex. 13)"
+	dialect="East"
+	note="ablative orowa built on the relational noun oro; presentative e-a." />
+
+Beyond marking a clause-internal argument, *orowa* (West *orowa* ~ *ora*) has in
+Sakhalin drifted toward a free **sequential connective** 'and then, after that',
+opening a sentence with no nominal host at all — one of the clearest signs of the
+particle's grammaticalisation away from its relational-noun origin:
+
+<Example
+	ain="orowa tah hemata"
+	surface="'orowa, tah hemata?"
+	gloss="then this.AphR what"
+	free="And then, what is this?"
+	cite="ainu-corpora (樺太)" page="Murasaki, Enchiw conversation, lesson 4"
+	dialect="West" />
+
+### Instrumental and causal: *ani*
+
+The instrumental <W w="ani" gloss="with, by means of" /> (cognate with *ari* in
+other dialects) marks the instrument or means of an action and, by extension, a
+cause. In the East-coast folktale of the flatfish and sculpin, *ani* marks the
+cooking vessel:
+
+<Example
+	ain="poro su ani kam sukehci"
+	gloss="big pot INS meat 3PL.A/cook.PL"
+	free="They cooked the meat in a big pot."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#25"
+	dialect="East" />
+
+and, in the same text, the means of conveyance:
+
+<Example
+	ain="poro cis ani iruura utara iwanniw iruura"
+	gloss="big boat INS 1PL.O/transport people six.CL.PERS 3PL.A/transport"
+	free="Six rowers carried us in a big boat."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#35"
+	dialect="East" />
+
+Note that *ani* is functionally close to the applicative prefix *e-*, which can
+promote an instrument to a verbal argument and so dispense with the postposition
+altogether (Chapter 17). Some dialects also press *ani* into service as a
+quotative, but <Cite key="Chiri 1942" paren={false} /> observes that varieties
+which use *ani* for the instrumental normally reserve a separate particle (*nax*,
+*sekor*) for quotation <Cite key="Chiri 1942" page="(99) note" />.
+
+### Comitative: *tura(no)*
+
+The comitative <W w="tura" gloss="together with" /> (also *turano*) marks the
+participant in whose company an action is performed; it descends from a verb
+'accompany' and frequently still reads adverbially as 'while, together'. In the
+flatfish tale a man carries bear meat *with* his wife:
+
+<Example
+	ain="maci tura iso kam seeci"
+	gloss="wife COM bear meat 3PL.A/carry.PL"
+	free="He and his wife carried the bear meat."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#24"
+	dialect="East" />
+
+The same particle in a West-coast text combines with the locative *ohta* to mean
+'take (it) home together (with one)':
+
+<Example
+	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
+	gloss="one treasure clasp FOC RESTR 1SG.A=give-PL gladly house LOC COM go.SG"
+	free="She was given only one treasure, a clasp, and gladly took it home with her."
+	cite="Sakaguchi 2019b" page="117 (line 11903)"
+	dialect="West"
+	note="restrictive pateh 'only'; locative ohta; comitative tura(no)." />
+
+### Prolative, terminative, and comparative
+
+Three further postpositions complete the oblique set. The **prolative**
+<W w="peka" gloss="along, through" /> (and its Sakhalin variants *kari*,
+*okakari*) marks the path traversed; the **terminative** <W w="pakno" gloss="until, as far as" />
+marks the spatial or temporal limit; and the **comparative** <W w="akkari" gloss="than" />
+(*axkari*) marks the standard of comparison ('than', also 'past'). The
+terminative *pakno* pairs naturally with the ablative *orowa* to delimit a
+stretch of space, as in Sentoku Tarōji's early-twentieth-century East-coast
+letter:
+
+<Example
+	ain="Naibuci orowa Otasan pakno na sisan"
+	gloss="Naibuchi ABL Otasan TERM still Japanese"
+	free="From Naibuchi as far as Otasan there are still Japanese."
+	cite="ainu-corpora (樺太)" page="sentoku/1#59"
+	dialect="East"
+	note="orowa 'from' … pakno 'as far as' frame the bounded stretch." />
+
+### Similative: *kunne*, *neno*, *korachi*
+
+The similative markers <W w="neno" gloss="like, as" /> (also *neeno*), *kunne*,
+and *korachi* express resemblance or manner ('like X, as X'). They typically
+follow a nominalised clause as well as a plain noun. In a West-coast imperative,
+*neeno* governs a nominalised complement 'what you were told':
+
+<Example
+	ain="e-yeh-cihi neeno kii wa"
+	surface="'eyehcihi neeno kii wa"
+	gloss="2SG.A-say-NMLZ.POSS SIM do IMP"
+	free="Do as you were told."
+	cite="Furukawa 1967" page="107 (Par.F 2)"
+	dialect="West"
+	note="similative neeno 'like, as'; rising-intonation final wa = imperative." />
+
+## Relational ("formal") nouns and complex adpositions
+
+Alongside the closed set of case particles, Sakhalin Ainu has a productive class
+of **relational (locative/positional) nouns**, which <Cite key="Chiri 1942" paren={false} />
+calls "formal nouns of the first kind." Morphosyntactically they are nouns: they
+head their own phrase and, when possessed, take the **O-series** (accusative)
+person prefixes rather than the A-series prefixes used by ordinary possessed
+nouns (see Chapter 10). But semantically they denote a spatial region —
+*[noun] ka* 'the top of [noun]', *[noun] pok* 'the underside of [noun]' — and a
+following case particle then situates an event with respect to that region. The
+result is a complex adposition of the shape *[ground-noun] [relational-noun]-[case]*.
+
+The core inventory is:
+
+| Root | Region | Example |
+|---|---|---|
+| *ka* | top, on | *ni ka ta* 'on the tree' |
+| *pok*, *empok*, *kotpok* | under | *seykuma empoho ta* 'at the foot of the mountain' |
+| *or*, *os* | inside, place | *cise or-ta* 'at the house' |
+| *sam*, *teksam*, *tuysam* | beside | *e-soyke ta* 'next to you' |
+| *tom*, *hontom*, *tum* | amid, in the middle | *rera tum ta* 'in the wind' |
+| *etok* | (in) front, ahead | *si-etok-un* 'to one's own front' |
+| *oka*, *osmak*, *sermak* | behind | *si-oka un* 'to one's own back' |
+| *noske* | middle | *to-noske* 'midday' |
+| *tukari* | just in front of | *kotan tukari-ke ta* 'just before the village' |
+
+The most frequent of these is *or* 'inside, place', which combines with the
+locative to give the everyday phrase *cise or-ta* (fused as *cise oxta*) 'at the
+house'. In an East-coast text it appears with a directional verb:
+
+<Example
+	ain="Cise or_-ta (h)e-sirepa-an"
+	surface="Cise oxta esirep an"
+	gloss="house place-LOC DEI.arrive-PRM.S"
+	free="I arrived at the house."
+	cite="Dal Corso 2024" page="71 (ex. 10)"
+	dialect="East"
+	note="relational noun or + locative-lative ta = complex adposition 'to the house'." />
+
+That these are true nouns — and not unanalysable prepositions — is shown by their
+ability to take possessive person prefixes. The O-series prefix *i-* '(my, our)'
+marks the possessor of the spatial region in:
+
+<Example
+	ain="i-osmak-e [e]ne"
+	surface="i-osmakene"
+	gloss="4.O-back-POSS to"
+	free="to (my) back, behind me"
+	cite="Sakaguchi 2024" page="19 (ex. 2-4)"
+	dialect="East"
+	note="locative noun takes the O-series prefix i-, unlike concrete-noun possession." />
+
+The relational nouns also feed the directional prefixes *e-*, *o-*, *ko-* and the
+reflexive possessor *si-* 'one's own', giving forms such as *si-etok-un* 'to
+one's own front' and *si-oka un* 'to one's own back'
+<Cite key="Chiri 1942" page="§79" />. With a temporal ground, the relational
+noun *noske* 'middle' yields *to-noske* 'midday', which can then be promoted to a
+verbal argument by an applicative:
+
+<Example
+	ain="ko-sir-tono to-noske ko-oman kane"
+	gloss="APPL-appearance-be.bright day-middle APPL-3S.A/3S.O/go.PC ADV"
+	free="…having reached midday, when it was plainly bright…"
+	cite="Dal Corso 2024" page="71 (ex. 14)"
+	dialect="East"
+	note="relational noun noske 'middle' → to-noske 'midday'; adverbial linker kane 'while, as'." />
+
+## Sakhalin peculiarities and dialect variation
+
+Three developments distinguish the Sakhalin system from Hokkaido Ainu and from
+its own internal subvarieties.
+
+**Bare *oro* as ablative.** Where Hokkaido (and the conservative analysis)
+requires a relational noun plus an overt case particle (*or-o wa*), Sakhalin
+allows the bare relational noun *oro* to mark the ablative on its own, with no
+following *wa* <Cite key="Chiri 1942" page="§79" />. This is the leading edge of
+a wider tendency for the *or*-based forms to behave as self-contained particles.
+
+**Drift toward free particles.** Both the locative *otta* (&lt; *or-ta*) and the
+ablative *orowa* (&lt; *or-o-wa*) are, <Cite key="Chiri 1942" paren={false} />
+notes, increasingly used as free adverbs and particles, detached from the
+relational-noun + case-particle syntax that historically produced them. The
+sentence-initial sequential *orowa* 'and then' seen above is the endpoint of this
+drift: it has lost its nominal host and become a discourse connective.
+
+**West/East divergence in the ablative.** The ablative is the most variable
+member of the set. East-coast (Piłsudski) texts keep the full *orowa*
+<Cite key="Dal Corso 2024" page="72" />; West-coast speech reduces it to *ora*
+<Cite key="Sakaguchi 2019a" page="n.33" />; and the bare *oro* coexists with
+both. The terminative *pakno*, the comitative *tura*, and the instrumental *ani*
+are, by contrast, stable across both coasts.
+
+It is worth flagging two limits of the present description. First, the exact
+division of labour between *ta* and *otta* in any one variety is largely free in
+the texts and has not been shown to be conditioned. Second, while the inventory
+of relational nouns above is well attested, a full account of which case
+particles each may take, and of the productivity of the directional prefixes on
+them in spontaneous (as opposed to elicited or narrative) speech, remains a gap
+in the Sakhalin record.

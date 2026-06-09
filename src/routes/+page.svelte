@@ -58,6 +58,17 @@
 	</a>
 </p>
 
+<a
+	href="/grammar"
+	class="group mx-auto my-8 block max-w-screen-md rounded-lg border border-blue-200 bg-gradient-to-br from-blue-50 to-white p-5 transition hover:border-blue-300 hover:shadow-sm"
+>
+	<p class="text-xs font-semibold uppercase tracking-widest text-blue-600">{m.reference_grammar()}</p>
+	<p class="mt-1 text-gray-600">{m.reference_grammar_desc()}</p>
+	<span class="mt-2 inline-block text-sm font-medium text-blue-600 group-hover:underline"
+		>{m.read_grammar()} →</span
+	>
+</a>
+
 <h2 class="my-6 text-center text-2xl font-bold">{m.dictionaries()}</h2>
 
 <DictionaryTable />

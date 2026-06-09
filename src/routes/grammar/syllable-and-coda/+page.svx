@@ -1,0 +1,235 @@
+---
+title: Syllable Structure and Coda Neutralisation
+num: '6'
+part: Phonology and Prosody
+status: draft
+blurb: How Sakhalin Ainu builds syllables, and the signature process by which its coda stops debuccalise to a fricative written -h.
+sources:
+  - Chiri 1942
+  - Itabashi 2001
+  - Tangiku 1998
+  - Dal Corso 2024
+  - Murasaki 2009
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Syllable types and the ban on clusters
+
+Sakhalin Ainu builds words from a small set of syllable shapes. An onset, when present, is a single consonant; there are no consonant clusters and no onset of consonant-plus-glide. The attested syllable types are **V, CV, VC, CVC**, with Sakhalin adding **CVV** (a long vowel) to the inventory — a shape the Hokkaido varieties lack <Cite key="Itabashi 2001" page="89" />. Onsets may be drawn from eleven consonants — *p t k c s h w y r m n* — but crucially **never** from *x*, the fricative that figures so prominently in the coda; *x* is a coda-only segment <Cite key="Chiri 1942" page="467" />.
+
+<Cite key="Itabashi 2001" page="89" paren={false} /> frames Sakhalin as a mora-counting language with three mora types: CV, V, and a coda consonant C* drawn from the closed set /s m n w y h/. The minimal accent-bearing free form is two moras, so that monosyllabic open roots are systematically lengthened to CVV — for example <W w="kuu" gloss="drink" />, <W w="nii" gloss="tree" />, <W w="too" gloss="lake" /> <Cite key="Itabashi 2001" page="89" />. (The phonemic length contrast and its relation to Hokkaido pitch are the subject of the next chapter.) Vowel length is visible even in the most ordinary running text:
+
+<Example
+	ain="nam wahka ku=kuu rusuy"
+	gloss="cold water 1SG.A=drink DESID"
+	free="I want to drink cold water."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/07#3"
+	dialect="West" />
+
+## The coda inventory
+
+The single most consequential fact about Sakhalin phonotactics is the shape of its coda inventory. Where Hokkaido Ainu permits *p t k s w y r m n* in the syllable coda, Sakhalin permits only **/s m n w y h/**; the obstruents */p t k c r/* and the glottal stop */ʔ/* may not close a syllable <Cite key="Chiri 1942" page="471" />. The contrast is laid out below.
+
+| Variety | Allowed codas | Disallowed codas |
+| --- | --- | --- |
+| Hokkaido | p t k s w y r m n | c h ʔ |
+| Sakhalin (general) | s m n w y h | p t k c r ʔ |
+| Sakhalin: Taraika | p t k s … (as Hokkaido) | — |
+
+The reduction of the coda inventory is not a loss of contrast but a regular conversion: the obstruents that Hokkaido tolerates in the coda are systematically rerouted, in Sakhalin, into the fricative *x* (surface *-h*) or, for /r/, into an open syllable. The remainder of this chapter describes how.
+
+## Coda neutralisation: /p t k/ → x / -h
+
+This is the signature Sakhalin process. When /k t p/ stand in the coda and are **not** followed by a vowel, they debuccalise to a weak velar/post-velar fricative which <Cite key="Chiri 1942" page="471" paren={false} /> writes *x*: *tek* > *tex* 'hand', *mat* > *max* 'woman', *kut* > *kux* 'belt', *rap* > *rax* 'wing'. Word-finally this fricative is conventionally written **-h**, giving the diagnostic Sakhalin forms <W w="itah" gloss="word, speak" />, <W w="cikah" gloss="bird" />, and <W w="mah" gloss="woman" /> against Hokkaido *itak*, *cikap*, *mat* <Cite key="Tangiku 1998" page="224" />. The correspondence is so consistent that the coda-*h* serves as the orthographic shibboleth separating Sakhalin from Hokkaido Ainu.
+
+<Example
+	ain="tek"
+	surface="tex"
+	gloss="hand"
+	free="hand"
+	cite="Chiri 1942" page="471"
+	dialect="Sakhalin"
+	note="coda /k/ debuccalises word-finally; the underlying /k/ resurfaces in tek-i 'his hand' before a vowel" />
+
+<Example
+	ain="mat"
+	surface="max"
+	gloss="woman"
+	free="woman"
+	cite="Chiri 1942" page="471"
+	dialect="Sakhalin"
+	note="coda /t/ → x, surface mah; cf. mat-ak > matax 'younger sister', where /t/ is kept before a vowel" />
+
+The fricative is not a single sound but a family of place-conditioned realisations <Cite key="Chiri 1942" page="472" />: velar [x] after /a u o e/ (as in *max*); palatal [ç] after /i/; and labial [ɸ], approximately Japanese *fu*, after /u/. The same allophony surfaces inside the word in East-coast data, where a coda stop before a following plosive is realised [x] or, after /u/, [ɸ]:
+
+<Example
+	ain="yuh-ke"
+	surface="júfḱe"
+	gloss="be.strong-?"
+	free="to be strong"
+	cite="Dal Corso 2024" page="61"
+	dialect="East"
+	note="root yup; the word-internal coda stop → [x] → [ɸ] after /u/ before a plosive" />
+
+### The after-/i/ rule: stop → s
+
+A coda stop standing **after /i/** does not merge into *h*: it palatalises to [ç] and from there falls together with the sibilant, surfacing as Sakhalin **s** <Cite key="Chiri 1942" page="472" />. Thus Hokkaido *cip* 'boat' corresponds to Sakhalin *cis*, *sik* 'eye' to *sis*, and *nit* 'skewer' to *nis*. This is why /s/ is a permitted coda in Sakhalin while the stops are not: a good part of the synchronic coda-*s* derives from neutralised post-/i/ obstruents.
+
+<Example
+	ain="sik"
+	surface="siç > sis"
+	gloss="eye"
+	free="eye"
+	cite="Chiri 1942" page="472"
+	dialect="Sakhalin"
+	note="coda stop after /i/ palatalises and merges with s (Sakhalin sis); cf. sik-i 'his eye', which keeps /k/ before a vowel" />
+
+### Geminates → hC
+
+A second source of coda-*h* is the simplification of Hokkaido geminate stops. Where Hokkaido has a long (CC) stop, Sakhalin has the sequence *hC*: *wakka* 'water' corresponds to the <W w="wahka" gloss="water" /> already seen above, *satte* 'dry' to <W w="sahte" gloss="dry" />, and *hotke* 'lie down' to *hohke* (East [hɔxkjɛ]) <Cite key="Itabashi 2001" page="93" />. The first half of the geminate, being a non-prevocalic obstruent, undergoes exactly the coda neutralisation described above; the second half remains as the onset of the following syllable.
+
+## Resurfacing before a vowel-initial morpheme
+
+The debuccalisation is strictly conditioned by the absence of a following vowel. When a vowel-initial suffix or enclitic follows, the underlying stop **reappears** intact across the morpheme boundary <Cite key="Chiri 1942" page="471" />: *mat-ak* surfaces as *matax* 'younger sister' (with /t/), *rap-us* as *rapus* 'be feathered', and *sik-i* as *siki* 'his eye'. The clearest paradigm is the verb <W w="itah" gloss="speak" /> 'speak', whose underlying /k/ is hidden word-finally but restored before the vowel-initial collective suffix:
+
+<Example
+	ain="'itah ; 'itak-ahci"
+	gloss="3SG/speak ; speak-COLL"
+	free="‘he spoke’ / ‘they spoke’"
+	cite="Tangiku 1998" page="224"
+	dialect="West"
+	note="the underlying coda /k/ is written -h word-finally but resurfaces as k before the vowel-initial suffix -ahci" />
+
+The same alternation organises the corpus examples in which <W w="itah" gloss="word" /> appears as a bare predicate or noun:
+
+<Example
+	ain="keeh aynu itah ani yuukara=an=ahci"
+	gloss="come.on Ainu language INS sing=PRM.S=COLL"
+	free="Come on, let us sing in Ainu."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/04#2"
+	dialect="West"
+	note="itah 'language' in its bare coda-h form; =ahci attaches to the vowel-final stem" />
+
+East-coast notation makes the conditioning even more transparent. In Piłsudski's close-phonetic transcription word-final stops are usually simply not written — the coda is debuccalised and unreleased — but they resurface as [x] before a following plosive or across a word boundary into a vowel <Cite key="Dal Corso 2024" page="61" />:
+
+<Example
+	ain="itah ki"
+	surface="itax ki"
+	gloss="speech make"
+	free="to make a speech"
+	cite="Dal Corso 2024" page="61"
+	dialect="East"
+	note="underlying itak*; the coda surfaces as [x] before the plosive of ki" />
+
+<Example
+	ain="nah an"
+	surface="nax án"
+	gloss="so exist"
+	free="to be so"
+	cite="Dal Corso 2024" page="61"
+	dialect="East"
+	note="underlying nak*; the coda surfaces as [x] before the vowel-initial 'an, possibly bridged by a glottal onset" />
+
+## Coda /r/: echo vowel or debuccalisation
+
+Coda /r/ patterns apart from the stops. In Sakhalin a syllable-final *r* is resolved in one of two ways <Cite key="Chiri 1942" page="472" />: either (a) the preceding vowel is **copied** to open the syllable — *utar* > *utara* 'people', *kor* > *koro* 'have', *kisar* > *kisara* 'ear' — or (b) the *r* itself **debuccalises** to *x* / -h, as in *utar* > *utah* and *'unarpe* > <W w="unahpe" gloss="aunt" /> 'aunt' (coda /r/ → *h* before a consonant). What conditions the choice between echo-vowel and debuccalisation is not pinned down in the sources [uncertain] <Cite key="Chiri 1942" page="473" />. The aunt-word, with its pre-consonantal /r/ neutralised to *h*, recurs in the teaching corpus:
+
+<Example
+	ain="tara unahpe aynu itah wante-he"
+	gloss="that aunt Ainu language know-Q"
+	free="Does that aunt know Ainu?"
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-beginner/10#2"
+	dialect="West"
+	note="unahpe < 'unarpe (coda r → h before C); itah < 'itak" />
+
+Crucially, the echo vowel created by route (a) is **phonologically real**, not a mere transcriptional convenience. <Cite key="Tangiku 1998" page="230" paren={false} /> shows that West-coast verbs ending in *-rV* fall into two classes that behave differently under suffixation. Verbs whose Hokkaido cognate is *r*-final — <W w="koro" gloss="have" /> 'have' (Hokkaido *kor*), *nukara* 'see' (*nukar*) — are **underlyingly consonant-final**: before the desiderative <W w="rusuy" gloss="want" /> their final *rVr* sequence collapses to *nr*, exposing the closed syllable beneath the echo vowel.
+
+<Example
+	ain="hemata e=kon rusuy hii"
+	gloss="what 2SG.A=have DESID Q"
+	free="What do you want?"
+	cite="Tangiku 1998" page="227"
+	dialect="West"
+	note="koro 'have' → kon before rusuy (rVr → nr); the underlying /kor/ resurfaces as a closed syllable" />
+
+<Example
+	ain="ne'an mah-pooho nukan rusuy kusu"
+	gloss="that woman-child[POSS] see DESID CAUF"
+	free="…because (he) wanted to see that daughter…"
+	cite="Tangiku 1998" page="227"
+	dialect="West"
+	note="nukara 'see' → nukan before rusuy; mah- < mat 'woman' shows the coda-h" />
+
+Verbs that are vowel-final even in Hokkaido — <W w="tura" gloss="be together" /> 'be with', *poro* 'be big' — do **not** trigger this alternation; the underlying open syllable surfaces unchanged before the very same morpheme:
+
+<Example
+	ain="'orowa hosipi-hci 'ike taa 'orowa 'an=tura rusuy yahka"
+	gloss="then return-COLL and then then PRM.S=be.together DESID CONC"
+	free="Then (the men) went back, and (the women) wanted to stay together, but…"
+	cite="Tangiku 1998" page="227"
+	dialect="West"
+	note="tura is underlyingly vowel-final and does NOT become *tun before rusuy — the minimal contrast with kon rusuy" />
+
+The same split appears before the causative: an underlyingly *r*-final stem shows *r* → *n* before *-te* (so *kor-te* surfaces as *konte* 'let have'), and before /n/ it assimilates fully (*kor-nispa* → *konnispa* 'master of the house'), whereas the inserted echo vowel is otherwise stable — *koro teh* '(he) having it' is never realised as *koh teh* <Cite key="Tangiku 1998" page="225" />.
+
+<Example
+	ain="kor-te"
+	gloss="have-CAUS"
+	free="to give, to let have"
+	cite="Chiri 1942" page="472"
+	dialect="Sakhalin"
+	note="Sakhalin causative: coda /r/ → n before -te, giving konte; cf. nukar-te → nukante" />
+
+<Example
+	ain="cise-kor-nispa"
+	surface="cisekonnispa"
+	gloss="house-have-lord"
+	free="the master of the house"
+	cite="Chiri 1942" page="472"
+	dialect="Sakhalin"
+	note="coda /r/ → n before n (regressive assimilation): kor-nispa → konnispa" />
+
+Whether the *rVr* → *nr* and *rVt* → *ht* sandhi rules are fully productive or lexically restricted is left open by <Cite key="Tangiku 1998" page="226" paren={false} /> [uncertain].
+
+## Coda /m/ and the sonorant codas
+
+The permitted sonorant codas /m n w y/ are largely stable, but coda /m/ shows conditioned variation. In casual West-coast speech it may be realised [n] (*isam* → [isan] 'not exist'), but it is /m/ when carefully pronounced or before a vowel; before /k t n/ it is obligatorily [n] <Cite key="Chiri 1942" page="472" />. The assimilation to a following velar is well attested on the East coast:
+
+<Example
+	ain="sam-ke-ta"
+	surface="sánḱeta"
+	gloss="by-?-LOC"
+	free="beside it"
+	cite="Dal Corso 2024" page="65"
+	dialect="East"
+	note="/m/ → [n] (~[ŋ]) before /k/; the same assimilation Chiri 1942: 472 reports for the West coast" />
+
+## The Taraika exception
+
+The neutralisation is pan-Sakhalin but not exceptionless. The northern East-coast **Taraika** dialect — and northern East-coast varieties more generally — **retain** the Hokkaido-style closed-syllable codas /p t k/, and do not undergo the coda-to-*h* merger <Cite key="Itabashi 2001" page="89" />; <Cite key="Tangiku 1998" page="224" paren={false} /> states plainly that the closed-syllable final consonants p, t, k are preserved in the northern East coast. Taraika is for this reason the most phonologically conservative Sakhalin dialect and a useful witness to the pre-neutralisation state of the system.
+
+## Hokkaido ↔ Sakhalin coda correspondences
+
+The processes above can be summarised as a single correspondence table between the better-known Hokkaido codas and their Sakhalin reflexes. The generalisations are: a non-prevocalic coda /p t k/ → *h* (→ *s* after /i/); a geminate stop → *hC*; and a coda /r/ → echo-vowel *-rV* or *-h* <Cite key="Itabashi 2001" page="93" />.
+
+| Hokkaido | Sakhalin | Gloss |
+| --- | --- | --- |
+| cep | ceh | fish |
+| cup | cuf | sun, month |
+| mat | mah | woman |
+| 'itak | 'itah | word |
+| yuk | yuf | deer |
+| cip | cis | boat (after /i/ → s) |
+| sik | sis ~ sih | eye (after /i/ → s) |
+| wakka | wahka | water (geminate → hC) |
+| satte | sahte | dry (caus.) |
+| kor | koro | have (coda r → echo-V) |
+| 'utar | 'utara ~ 'utah | persons (echo-V or → -h) |
+| 'unarpe | 'unahpe | aunt (coda r → h before C) |
+
+The same reduction shows up in everyday vocabulary that has lost a final cluster outright: the numeral *asikne(p)* 'five' surfaces in Sakhalin as <W w="asneh" gloss="five" />, with the cluster simplified and the coda-*p* debuccalised to *-h* <Cite key="Murasaki 2009" page="74" />. In sum, Sakhalin has not so much lost the obstruent codas of Ainu as **re-channelled** them: every Hokkaido coda obstruent has a regular Sakhalin reflex, and the *-h* that results is the most immediately audible — and most reliably diagnostic — feature of Enchiw phonology.

@@ -1,0 +1,244 @@
+---
+title: Copula and Existence
+num: '21'
+part: The Verb and the Predicate
+status: draft
+blurb: The equative copula ne(e), the existential and locational verbs an and oka(y), and the copula-based conjunctions and modal periphrases that make Sakhalin Ainu distinctive.
+sources:
+  - Chiri 1942
+  - Bugaeva 2016
+  - Murasaki 2024
+  - Handbook (Bugaeva ed.)
+  - Dal Corso 2018
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Overview
+
+Sakhalin Ainu expresses identity, class membership, and existence with a small but pivotal set of verbs that stand apart from the ordinary predicate. The equative copula <W w="nee" gloss="be, become" /> 'be (X), become X' is, in Chiri's terms, the language's only simple *incomplete verb* (不完用詞) — a verb that requires a nominal complement to predicate over <Cite key="Chiri 1942" page="§32" />. Existence and location are carried instead by the intransitive verbs <W w="an" gloss="exist (SG)" /> (singular subject) and <W w="okay" gloss="exist (PL)" /> (plural subject), a suppletive pair that also supplies the negative existential <W w="isam" gloss="not exist" />.
+
+What makes these verbs central to Sakhalin grammar — far beyond their bare lexical work — is that the copula <W w="nee" gloss="be" /> has become the morphological seed of a whole family of conjunctions, modal auxiliaries, and evidential periphrases. As <Cite key="Bugaeva 2016" paren={false} /> shows, a striking number of Sakhalin grammatical words synchronically or diachronically contain <W w="nee" gloss="be" /> as their first element (the manner conjunction *neeno* 'as', the concessive *ne-yah* 'although', the dubitative *nee nankor* 'probably'), a pattern with no counterpart in Hokkaido Ainu. This chapter treats the copula and the existentials as lexical predicates first, then follows the copula outward into the periphrastic system that the rest of Part V builds on.
+
+## The equative copula ne(e)
+
+<Cite key="Chiri 1942" paren={false} /> singles out <W w="nee" gloss="be" /> as the sole simple incomplete verb of Ainu: morphosyntactically it behaves like a transitive verb, taking the A-series personal prefixes, but it cannot stand without a complement nominal. It is lexically ambiguous between a stative reading 'be X' and an inchoative 'become X' <Cite key="Chiri 1942" page="§42" />. The form has a short variant *ne* and a lengthened variant *nee* that is especially common on the West coast.
+
+In its core use the copula links a subject to a predicate nominal:
+
+<Example
+	ain="tan imii ku=koro pe nee"
+	gloss="this clothes 1SG.A=3SG.O/have thing COP"
+	free="This garment is mine."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/11#2"
+	dialect="West" />
+
+Here the complement is itself a nominalised clause, *ku=koro pe* 'the thing I have', and the copula predicates identity over it. The same equative frame underlies ordinary class-membership statements:
+
+<Example
+	ain="ku'ani neyke siisam mahtekuh ku=nee"
+	gloss="I TOP Japanese woman 1SG.A=COP"
+	free="As for me, I am a Japanese woman."
+	cite="Murasaki 2024" page="L3"
+	dialect="West" />
+
+### Person marking
+
+Because the copula inflects like a transitive verb, it carries the A-series prefixes. The West-coast (Enchiw) paradigm runs as follows <Cite key="Murasaki 2024" />:
+
+| Person | Singular | Plural |
+|---|---|---|
+| 1 | ku=nee | an=nee |
+| 2 | e=nee | eci=nee |
+| 3 | nee (Ø) | ne=hci |
+
+Third person singular is unmarked, and the plural 3 form *ne=hci* (&lt; *nee-hci*) takes the collective clitic. The 1PL form *an=nee* deserves comment: West Sakhalin has lost the Hokkaido inclusive/exclusive distinction, and in "elders' speech" the originally 1PL prefix <Gl t="PRM" /> *an=* is generalised even to 1SG reference <Cite key="Bugaeva 2016" page="76" />. This is the form used, for example, in a speaker's self-identification:
+
+<Example
+	surface="'anoka neyke Tahkonanna 'an=nee"
+	ain="anoka neyke Tahkonanna an=nee"
+	gloss="I TOP name 1PL.A=COP"
+	free="As for me, I am Takkonanna."
+	cite="Murasaki 2024" page="L3"
+	dialect="West"
+	note="an= (orig. 1PL) used for 1SG in elders' speech; reflects the West-coast loss of the inclusive/exclusive distinction." />
+
+### Negation of the copula
+
+The copula is negated periphrastically rather than by the proclitic <Gl t="NEG" /> *ham=* used for ordinary verbs (treated fully in the chapter on Negation). West Sakhalin places the predicate nominal before *ka* … *hannehka* 'is not …', with the copula *nee* itself frequently dropped <Cite key="Murasaki 2024" />:
+
+<Example
+	surface="Husako ka hannehka (nee)"
+	ain="Husako ka hannehka nee"
+	gloss="name even NEG COP"
+	free="(She) is not Husako."
+	cite="Murasaki 2024" page="L3"
+	dialect="West"
+	note="Negative copula hannehka with the focus particle ka; nee is optional and often omitted." />
+
+## The existential and locational verbs an / oka(y)
+
+Existence, location, and predicative possession are carried not by the copula but by the intransitive existential verb, which keeps a suppletive verbal-number opposition: singular <W w="an" gloss="exist" /> versus plural <W w="okay" gloss="exist (PL)" />. This is one of the few places where Sakhalin Ainu retains a suppletive plural, most other plural stems having been replaced by the collective suffix *-hci/-ahci* <Cite key="Handbook (Bugaeva ed.)" />.
+
+The singular existential locates or asserts the existence of a single entity:
+
+<Example
+	ain="hacikopon hekaci miina kusu an"
+	gloss="be.small.little child 3SG.S/laugh PROG 3SG.S/exist"
+	free="A little child is laughing."
+	cite="ainu-corpora (樺太)" page="Karafuto shokyu textbook, step 13"
+	dialect="West"
+	note="an here both asserts existence and forms the progressive periphrasis kusu an." />
+
+With a plural subject, the suppletive plural <W w="okay" gloss="exist (PL)" /> is used:
+
+<Example
+	surface="'otoopempe pateh 'okay"
+	ain="otoopempe pateh okay"
+	gloss="sweets only 3PL.S/exist.PL"
+	free="There are only sweets."
+	cite="Murasaki 2024" page="L9"
+	dialect="West"
+	note="Plural existential okay with the restrictive pateh 'only'." />
+
+### Predicative possession
+
+There is no dedicated 'have' construction distinct from existence: alongside the transitive verb *koro* 'have', possession is commonly stated existentially, with the possessee as subject of *an* (or its negation *isam*). Compare the affirmative existential above with its negative counterpart:
+
+<Example
+	surface="ku'itankihi 'isam"
+	ain="ku=itanki-hi isam"
+	gloss="1SG.A=cup-POSS 3SG.S/not.exist"
+	free="My cup is not there. / I have no cup."
+	cite="Murasaki 2024" page="L5"
+	dialect="West"
+	note="isam is the suppletive negative existential, antonym of an 'exist'." />
+
+The negative existential <W w="isam" gloss="not exist" /> is suppletive: it negates both *an* and *okay* and does not combine with the verbal negator <Gl t="NEG" /> *ham=*. In narrative, the same verb supplies the perfective/conclusive periphrasis *wa isam* 'end up …ing, … completely' (below).
+
+### an as an aspectual and evidential base
+
+Beyond its lexical existential use, *an* is the workhorse of the periphrastic system. It serves as the inflecting light verb in aspectual collocations and as the verbal base of most inferential evidentials. Chiri already glosses *an* as inherently durative <Cite key="Chiri 1942" page="§42" />, which makes it a natural auxiliary for ongoing situations. The Sakhalin-specific progressive uses *kusu an* where Hokkaido Ainu uses *kor an*:
+
+<Example
+	ain="apkas kor an"
+	gloss="3SG.S/walk PROG 3SG.S/exist"
+	free="He is walking."
+	cite="Chiri 1942" page="§42"
+	dialect="Sakhalin"
+	note="Progressive kor an; the Sakhalin variant kusu an has the same function." />
+
+The conclusive/perfective *wa isam* uses the negative existential as its second element:
+
+<Example
+	surface="'omanu wa 'isam"
+	ain="oman wa isam"
+	gloss="3SG.S/go.SG and/CONCL 3SG.S/not.exist"
+	free="He has gone away (completely)."
+	cite="Murasaki 2024"
+	dialect="West"
+	note="Conclusive wa isam 'end up …ing'; cf. Chiri 1942 §46." />
+
+As the verbal base of the inferential evidentials, *an* combines with a sensorial noun (*ruwehe* 'trace', *sirihi* 'appearance', *humihi* 'sound', *hawehe* 'voice') to encode inference from a psychophysical stimulus <Cite key="Dal Corso 2018" page="§7.3" />. These are treated in full in the chapter on Evidentiality; here it suffices to note that the existential verb is what gives them their predicative anchor:
+
+<Example
+	surface="Tuhso neeno 'an puy ahun sirihi 'an manu"
+	ain="tuhso neeno an puy ahun sirihi an manu"
+	gloss="cave like 3SG.S/exist.PC hole 3SG.S/enter.PC INF.VIS 3SG.S/exist REP"
+	free="It seemed a hole like a cave opened, it is said."
+	cite="Dal Corso 2018" page="ex.10"
+	dialect="West"
+	note="Visual inferential sirihi 'an built on the existential an; reportative manu follows." />
+
+## The copula in conjunctions, auxiliaries, and modal periphrases
+
+The most distinctive Sakhalin feature is the productive use of the copula <W w="nee" gloss="be" /> as the building block of subordinating conjunctions and modal markers. <Cite key="Bugaeva 2016" paren={false} /> demonstrates that many of these words contain the copula as their first element — a Sakhalin peculiarity whose Hokkaido cognates take a finite verb and generally lack the copula component.
+
+### Copula-based conjunctions
+
+The manner conjunction *neeno* 'as, like' is transparently *nee* + the adverbialiser *-no*. It typically follows a possessive-style nominalised clause (the <Gl t="NMLZ" /> form treated in the Nominalisation chapter):
+
+<Example
+	ain="ene e=ramu-hu nee-no pirka no kii wa"
+	gloss="like.this 2SG.A=think-NMLZ COP-ADV be.good ADV do FIN"
+	free="Do it well, just as you think."
+	cite="Bugaeva 2016" page="18"
+	dialect="West"
+	note="Manner conjunction neeno = copula nee + adverbial -no, governing a V-poss clause." />
+
+The same copula appears inside the concessive *ne-yah* 'although' and the adversative *ne-ya* 'but', as well as in *ne'ampe* 'when/but' and *kuniine* 'as if' <Cite key="Bugaeva 2016" />. The concessive is shown here with a nominalised subordinate clause:
+
+<Example
+	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
+	gloss="1PL.A=forget-NMLZ-POSS 1PL.A=3SG.O/search in.order go.PL=1PL.S-NMLZ COP-CONC who even take-PL CONCL 3PL.S/not.exist"
+	free="Although we went to search for what we had left, someone had already taken it."
+	cite="Bugaeva 2016" page="21"
+	dialect="West"
+	note="Concessive ne-yah 'although' built on the copula, governing the nominalised clause paye=an-ihi 'our going'." />
+
+### Copula-based modal auxiliaries
+
+The dubitative/future <Gl t="PROB" /> *nankor(o)* 'probably, will' appears in two Sakhalin shapes. It can stand on the bare verb, framed as *nankoro pe ne* 'it is a thing that probably …':
+
+<Example
+	ain="porono ham e=ye yahka pirika nankoro pe ne"
+	gloss="much NEG 2SG.A=3SG.O/say although 3SG.S/be.good PROB thing COP"
+	free="Even if you don't say much, it will surely be fine."
+	cite="ainu-corpora (樺太)" page="Chiba-358/4/2-2 #6"
+	dialect="West"
+	note="Dubitative nankoro framed as nankoro pe ne 'it is a thing that probably …'." />
+
+But Sakhalin Ainu also innovatively prefixes the copula directly to the modal, giving *nee nankor* 'probably', where Hokkaido Ainu uses bare *nankor* <Cite key="Bugaeva 2016" />:
+
+<Example
+	ain="pohke-no mokoro anah pirika-ha nee nankor"
+	gloss="warm-ADV 3SG.S/sleep COND 3SG.S/be.good-PK COP PROB"
+	free="It is probably good if he sleeps keeping warm."
+	cite="Bugaeva 2016" page="24"
+	dialect="West"
+	note="SA dubitative nee nankor; the copula nee is prefixed to nankor, and a V-poss form (pirika-ha) sits under it." />
+
+The same copula-prefixing pattern produces the affirmative auxiliary *nee-ko* 'surely, definitely' and the dubitative adverb *nanko(o)* 'maybe', which round out the modal series:
+
+<Example
+	surface="tani 'uunas an=ee-he nee-ko"
+	ain="tani uunas an=ee-he nee-ko"
+	gloss="now early 1PL.A=eat-NMLZ COP-FP"
+	free="I have definitely just eaten."
+	cite="Bugaeva 2016" page="22"
+	dialect="West"
+	note="Affirmative auxiliary nee-ko 'surely', copula-based, governing a V-poss clause." />
+
+### The copula in evidential and confirmatory frames
+
+The copula also closes the predicative-nominalisation frame that Chiri described as the Sakhalin "confirmation/emphasis" construction: a verb in the personal-knowledge form takes the copula to assert a known fact <Cite key="Chiri 1942" page="§40" />. This is the *ruwe ne* / *-hV … ne* pattern shared across Ainu:
+
+<Example
+	surface="oman ruüe ne na"
+	ain="oman ruwe ne na"
+	gloss="3SG.S/go.SG INF.RSN COP.3 FIN"
+	free="He went, it is (the case)."
+	cite="Chiri 1942" page="§21"
+	dialect="Sakhalin"
+	note="Predicative-nominalisation + copula confirmation frame: ruwe ne 'it is the case that'." />
+
+In the most fully grammaticalised cases the copula stands inside a "mermaid"-type sentence — a nominalised clause, the copula, an evidential nominal, and the existential *an* — encoding inference over a known proposition:
+
+<Example
+	ain="itah ku=wante-he nee ruu-he an"
+	gloss="speech 1SG.A=know-NMLZ COP track-POSS/INF.RSN 3SG.S/exist"
+	free="I think I remember the language (well)."
+	cite="Bugaeva 2016" page="29"
+	dialect="West"
+	note="‘Mermaid’ frame: V-poss + copula nee + evidential nominal ruu-he + locative copula an. Where Hokkaido uses ne after the NMLZ, Sakhalin uses an." />
+
+This last example shows the division of labour clearly: the copula *nee* equates the nominalised proposition with the evidential noun *ruu-he* 'its trace', and the existential *an* anchors the whole as a present state. The copula and the existential are thus not redundant; they occupy distinct slots in the predicate, and the Sakhalin innovation lies precisely in stacking them.
+
+## Dialectal and diachronic notes
+
+The West-coast (Rayciska/Ussoro; Murasaki, Furukawa) data presented here show the copula-based system at its most developed. The lengthened *nee*, the generalisation of *an=* to 1SG, and the negative copula *hannehka* are all West-coast features <Cite key="Murasaki 2024" />; the older negative copula *hanne* is more characteristic of the East coast (see the Negation chapter). The copula-prefixing modal series (*nee nankor*, *nee-ko*, *ne-'an*) is most conspicuous in West-coast varieties, and <Cite key="Bugaeva 2016" paren={false} /> treats it, together with the possessive-style nominalisation it governs, as the leading edge of a Sakhalin grammaticalisation cycle that the East-coast (Piłsudski) material exhibits less clearly. The functional difference between the "short" and "long" possessive shapes of the forms governed by the copula (e.g. *-u* vs *-uhu*) remains [uncertain] in the sources <Cite key="Bugaeva 2016" page="104" />, and the precise distribution of the copula *nee* versus the existential *an* inside the inferential periphrases is fixed only for *ruwehe*, where the choice of copula makes telicity obsolete and forces a present reading <Cite key="Dal Corso 2018" page="§7.3" />.

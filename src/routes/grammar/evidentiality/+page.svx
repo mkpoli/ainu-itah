@@ -1,0 +1,383 @@
+---
+title: Evidentiality
+num: '19'
+part: The Verb and the Predicate
+status: draft
+blurb: How Sakhalin Ainu grammatically encodes the source of information, from prepossessed personal knowledge through sensory inference to hearsay.
+sources:
+  - Dal Corso 2018
+  - Bugaeva 2016
+  - Chiri 1942
+  - Piłsudski 1912
+  - Murasaki 1979
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Overview
+
+Sakhalin Ainu has no morphological tense, but it has a richly grammaticalised
+**evidential** system: a set of predicate-final markers that specify *how the
+speaker came to know* the asserted content. Following <Cite key="Dal Corso 2018" paren={false} />,
+the markers can be arranged on a single **source-reliability continuum**, from
+the most reliable (knowledge the speaker already possesses) to the least
+reliable (something merely heard from others):
+
+> personal knowledge **-hV** ~ **-Ø** › inferential **ruwehe ne(e)** › **ruwehe 'an** › **sirihi 'an** › **humihi 'an** › **hawehe 'an** › reportative **manu**
+
+Three functional blocks structure the system. **Personal-knowledge** evidentiality,
+marked by the possessive-style suffix <W w="-hV" gloss="possessed" /> or by its
+non-morphemic counterpart -Ø, presents the event as drawn from the speaker's
+assimilated, prepossessed knowledge. The five **inferentials** encode reasoning
+from a psychophysical stimulus, and are selected by the *sensory channel* through
+which the stimulus is accessed: reasoning/trace, sight, non-sight, or hearing.
+The **reportative** <W w="manu" gloss="it is said" /> marks hearsay and quotation,
+but in West-coast narrative it shifts to a "traditional/shared knowledge" direct
+evidential without any change of form.
+
+Because Ainu lacks tense, the evidentials double as **relative-tense** devices:
+the sensorial stimulus fixes a reference point, and the telicity of the scope
+predicate then resolves a present versus a past reading <Cite key="Dal Corso 2018" page="§7.3.9" />.
+Throughout, West-coast (Murasaki) data are the baseline and East-coast (Piłsudski)
+divergences are flagged; Hokkaido Ainu (HA) appears only for contrast.
+
+## The source-reliability continuum
+
+The markers form a graded scale rather than a set of equipollent paradigm
+cells. At the reliable pole stand the two personal-knowledge forms, where the
+speaker vouches for the content directly. The inferentials occupy the middle:
+the speaker did not witness the event but reconstructs it from a sensory trace,
+so commitment is weaker and conditioned on the available channel. The
+reportative anchors the unreliable pole, since the source lies outside the
+speaker entirely. <Cite key="Dal Corso 2018" paren={false} /> shows that the
+forms can co-occur (double evidentiality), and that when they do they stack in
+continuum order, the more reliable marker falling inside the scope of the less
+reliable one.
+
+A morphosyntactic regularity unifies the whole system. Every inferential and
+the personal-knowledge -hV are built on a **possessed sensorial noun plus the
+existential** <W w="an" gloss="exist" /> **or copula** <W w="ne" gloss="be" />:
+<W w="ruu" gloss="trace" /> 'trace' › *ruwehe 'an*, <W w="siri" gloss="appearance" /> 'appearance' › *sirihi 'an*,
+<W w="hum" gloss="sound" /> 'sound' › *humihi 'an*, <W w="haw" gloss="voice" /> 'voice' › *hawehe 'an*.
+This is the same possessive machinery that, applied to a verb, yields the
+personal-knowledge form — the Sakhalin V-poss nominalisation treated in
+[Chapter 23](/grammar/nominalisation). Evidentiality in Sakhalin Ainu is thus
+largely the grammaticalisation of a **nominalised-clause-plus-copula** ("mermaid")
+construction <Cite key="Bugaeva 2016" />.
+
+## Personal-knowledge evidentiality (-hV / -Ø)
+
+The most reliable evidential marks **direct evidence from the speaker's
+prepossessed or assimilated knowledge** <Cite key="Dal Corso 2018" page="§7.2" />.
+Morphosyntactically it is a clausal nominalisation: the verb takes either the
+overt possessive suffix <Gl t="PK" /> -hV (with vowel copy: *koro* › *koro-ho*;
+consonant-final stems insert an epenthetic *i*: *an* › *an-i-hi*) or a
+non-morphemic -Ø, optionally followed by the copula. <Cite key="Bugaeva 2016" paren={false} />
+identifies this verbal -hV with the nominal possessive suffix, so that *ku=ye-he*
+'my saying' parallels a possessed noun like *ku=sapa-ha* 'my head'.
+
+Chiri independently described this West/East Sakhalin "confirmation/emphasis"
+form, where the verb takes a personal-stem ending and is then closed by the
+copula:
+
+<Example
+	ain="miči an=koro-ho ne"
+	surface="miči an-koró-ho ne"
+	gloss="grandchild 1SG.A=3SG.O/have-PK COP.3"
+	free="(I tell you,) I have a grandchild."
+	cite="Chiri 1942" page="§40" dialect="Sakhalin" />
+
+Chiri explicitly equated this with the Hokkaido confirmation idiom *nitpo a-kon
+ruwe ne* 'it is the case that I have a grandchild', and noted that the -hV form
+is **the usual shape of questions** in Sakhalin Ainu:
+
+<Example
+	ain="tonnosiki ipe e=hemaka-ha"
+	gloss="midday meal 2SG.A=finish-PK"
+	free="Have you finished your midday meal?"
+	cite="Chiri 1942" page="§40" dialect="Sakhalin" />
+
+The distribution of -hV versus -Ø is *not* governed by interrogativity, polarity,
+or person <Cite key="Dal Corso 2018" page="§7.2.2" />. Rather, -hV tends to carry
+an epistemic overtone of **certainty or surprise**, while -Ø reports more
+neutrally — a tendency, not an exceptionless rule. The certainty reading of -hV
+is visible here, reinforced by the adverb <W w="ampene" gloss="really" />:
+
+<Example
+	ain="anoka kayki ampene an=eramiskari-hi nee ko"
+	surface="'Anoka kayki 'ampene 'an-eramiskari-hi nee ko."
+	gloss="I too really 1SG.S=3SG.O/not.know-PK COP FIN"
+	free="I really did not know him either."
+	cite="Murasaki 1979" page="80" dialect="West" />
+
+The neutral -Ø appears, for instance, in a content question reporting the
+speaker's settled knowledge of an event:
+
+<Example
+	ain="inki an kuru i-kamesu-Ø"
+	surface="Ínki án-kuru ikamesu?"
+	gloss="what.kind 3SG.S/exist.PC person 1PL.O-3SG.S/save-PK"
+	free="What kind of person saved us?"
+	cite="Piłsudski 1912" page="209" dialect="East" />
+
+These constructions originate as **biclausal** [[Clause]NP] ne(e) — a nominalised
+clause serving as argument of the copula — and have grammaticalised toward a
+**monoclausal complex predicate** <Cite key="Dal Corso 2018" page="§5.2.2" />.
+A diagnostic of the tightening is that aspectual markers sit *inside* the
+nominalised clause and scope over it; in the next example the perfective
+<W w="an" gloss="perfective" /> follows the copula and takes scope over the whole
+-hV predicate:
+
+<Example
+	ain="e=niina teh orowa e=i-wooneka kusu teeta e=san-i-hi ne an ike aa"
+	surface="'E-niina teh 'orowa 'e-'i-wooneka kusu teeta 'e-san-i-hi ne 'an ike 'aa?"
+	gloss="2SG.S=collect.wood and then 2SG.A=1PL.O-situation.look because here 2SG.S=descend.SG-EP-PK COP PFV and FIN"
+	free="You collected wood and then came down here to check on us, right?"
+	cite="Murasaki 1979" page="3" dialect="West" />
+
+In its most innovative use, the bare V-poss form ends a presuppositional main
+clause with no copula at all — an instance of **insubordination**, where a
+formally subordinate (nominalised) clause stands alone <Cite key="Bugaeva 2016" page="30" />.
+This use is West-coast and is treated more fully in
+[Chapter 23](/grammar/nominalisation):
+
+<Example
+	ain="ku'ani tani uwas ku=ek-ihi"
+	surface="ku'ani tani uwas ku=ek-ihii."
+	gloss="I now only 1SG.S=come.SG-PK"
+	free="I just came."
+	cite="Bugaeva 2016" page="30" dialect="West" />
+
+## Inferential evidentials
+
+Five forms encode **inference from a psychophysical stimulus**. They are all
+pseudo-noun-incorporation of a sensorial noun plus *an* or *ne(e)*, forming one
+phonological word, and the noun may keep nominal morphology — for instance the
+plural -hcin in *ruhe-hcin an*. The choice among them is licensed by the
+**sensory channel** through which the stimulus is accessed in the physical
+setting <Cite key="Dal Corso 2018" page="§7.3" />:
+
+| Form | Origin noun | Channel | Gloss tag |
+|---|---|---|---|
+| ruwehe ne(e) / ruwehe 'an | ruu 'trace' | sight or reasoning from a trace | <Gl t="INF.RSN" /> |
+| sirihi 'an | siri 'appearance' | sight | <Gl t="INF.VIS" /> |
+| humihi 'an | hum 'sound' | non-sight: hearing, smell, touch, taste, "sixth sense" | <Gl t="INF.NVIS" /> |
+| hawehe 'an | haw 'voice' | hearing | <Gl t="INF.AUD" /> |
+
+The trace-based inferential built on the copula, *ruwehe ne(e)*, infers from
+something seen or reasoned out:
+
+<Example
+	ain="pon nay ohta i-huraye ruhe ne"
+	surface="Pon náj oxta ifuráje rúhe né."
+	gloss="3SG.S/be.small river place+in 1PL.O-3SG.S/wash INF.RSN COP"
+	free="She washed me in a small river (I infer)."
+	cite="Piłsudski 1912" page="227" dialect="East" />
+
+The visual inferential *sirihi 'an* is selected when the access is specifically
+through sight:
+
+<Example
+	ain="tuhso neeno an puy ahun sirihi an manu"
+	surface="Tuhso neeno 'an puy ahun sirihi 'an manu."
+	gloss="cave like 3SG.S/exist.PC hole 3SG.S/enter.PC INF.VIS REP"
+	free="It seemed a hole like a cave opened, it is said."
+	cite="Murasaki 1979" page="95" dialect="West" />
+
+The non-visual *humihi 'an*, despite being built on <W w="hum" gloss="sound" />,
+covers the whole non-sight range — hearing, smell, touch, taste, and even a
+"sixth sense" — so its functional and etymological values can diverge. Here the
+inference is made in the dark:
+
+<Example
+	ain="utara teekoro tohseno humihi an manu"
+	surface="Útara tēkoro tóxśeno húmhi an manu."
+	gloss="people really 3PL.S/sleep.deeply INF.NVIS REP"
+	free="It seemed those people were really sleeping deeply, it is said."
+	cite="Piłsudski 1912" page="184" dialect="East" />
+
+The auditory *hawehe 'an*, on <W w="haw" gloss="voice" />, marks access through
+hearing proper — as when the events themselves are heard but not seen:
+
+<Example
+	ain="ta ohacisuye seta humpa hawehe an"
+	surface="Tá oháćisujè śeta húmpa háuhe an."
+	gloss="that empty.house.demon dog 3SG.S/3PL.O/crush INF.AUD"
+	free="It seemed that empty-house demon crushed the dogs."
+	cite="Piłsudski 1912" page="79" dialect="East" />
+
+The inferential precedes only its scope verb; it may itself be followed by
+conjunctions, complementisers, or — very commonly — the reportative *manu*, as
+several examples above show. The copula *ne(e)* alternates with *'an* **only**
+with *ruwehe*; with the three sensorial nouns only *'an* is used. In West-coast
+texts *hawehe 'an* is attested but with a narrow predicate range, and the
+scarcity of tokens limits analysis <Cite key="Dal Corso 2018" page="§7.6" />.
+A further philological caveat: Murasaki's West-coast records systematically write
+a glottal stop before *'an*, whereas Piłsudski's East-coast records do not, so
+whether the East inferentials carry that glottal stop is **uncertain**
+<Cite key="Dal Corso 2018" page="§5.4.1" />.
+
+## Evidentials as relative tense
+
+Since Sakhalin Ainu has no tense morphology, the inferentials carry the temporal
+load by Reichenbachian inference. The sensorial stimulus fixes a reference point
+(it is available at speech time, so R = S), and the **telicity of the scope
+predicate** then resolves present versus past <Cite key="Dal Corso 2018" page="§7.3.9" />.
+A trace can outlive the event it indexes, so *ruwehe 'an* is ambiguous: with a
+**telic** scope predicate the event precedes speech time and a **past** reading
+results, while with an **atelic** predicate the event coincides with the trace
+and a **present** reading results.
+
+The telic case — the trees have already been broken and felled — yields a past
+inference:
+
+<Example
+	ain="hemata ka nii kayki kehke wa cokoko wa isam ruwehe an manu"
+	surface="Hemata ka nii kayki kehke wa cokoko wa isam ruwehe 'an manu."
+	gloss="what even tree too 3SG.S/3PL.O/break and 3SG.S/3PL.O/fell CONCL INF.RSN REP"
+	free="It must have ended up breaking and felling all the trees, it is said."
+	cite="Murasaki 1979" page="99" dialect="West" />
+
+The atelic case — the birds are (still) asleep — yields a present/ongoing
+inference; note the plural -hcin on the sensorial noun:
+
+<Example
+	ain="neya i-reske cikah tani sirukunni kusu utohseka ruhe-hcin an"
+	gloss="that 1PL.O-3PL.S/bring.up bird now 3SG.S/be.dark because 3PL.S/sleep INF.RSN-PL-INF.RSN"
+	free="Now, because it was late, those birds that raised me must have been asleep."
+	cite="Piłsudski 1912" page="21" dialect="East" />
+
+The other inferentials neutralise this ambiguity. With *ruwehe ne(e)* the copula
+forces E, R and S to coincide, fixing a **present** reading and making telicity
+irrelevant; and because the stimulus of *sirihi 'an*, *humihi 'an* and *hawehe 'an*
+is co-temporal with the event itself (E = R), they too default to the present.
+
+## The reportative manu
+
+The sentence-final reportative <W w="manu" gloss="it is said" /> covers both
+**hearsay** and **quotation**, and is the least reliable point on the continuum.
+In conversation it is usually reinforced by a lexical verb of speaking or hearing
+— *nu manu* '…so he heard', *nah ye* '…they said':
+
+<Example
+	ain="koro kun mah isam manu"
+	surface="Koro kun mah 'isam manu."
+	gloss="3SG.S/3SG.O/have obligation woman 3SG.S/not.exist REP"
+	free="They say he has no wife."
+	cite="Murasaki 1979" page="84" dialect="West" />
+
+A copular clause closed by *manu* reports a stated fact at second hand:
+
+<Example
+	ain="kakan mahpo-oho teekoro pirika moromahpo nee manu"
+	gloss="Kakan daughter-POSS really 3SG.S/be.pretty young.woman COP REP"
+	free="It is said Kakan's daughter was a really beautiful young woman."
+	cite="Piłsudski 1912" page="43" dialect="East" />
+
+The most distinctive Sakhalin fact about *manu* is its behaviour in narrative.
+There it undergoes a **shift to a direct "traditional/shared knowledge"
+evidential**, with **no formal change** to the marker <Cite key="Dal Corso 2018" page="§7.4" />.
+The tale-opening *…i-reske manu* 'I was [traditionally] brought up by…' is not
+hearsay but the narrator's mode of conveying inherited, shared knowledge; and a
+traditional tale closes with the same particle:
+
+<Example
+	ain="usoy ta pirika okay utara ki manu hemaka"
+	surface="usoy ta pirika okay utara kii manu. hemaka."
+	gloss="be.neighbors LOC 3SG.S/be.good 3PL.S/exist.PL person.PL 3PL.S/do REP 3SG.S/end"
+	free="As neighbors they lived a good life, it is said. The end."
+	cite="Piłsudski 1912" page="43" dialect="East" />
+
+This shift is an **areal West-coast feature**: in the Rayciska and Ussoro
+sub-dialects *manu* is almost exclusively the traditional-knowledge direct
+evidential and avoids lexical reinforcement, whereas in East Sakhalin *manu* is
+far more often a plain hearsay reportative, frequently reinforced
+<Cite key="Dal Corso 2018" page="§7.4.3" />. This invariance contrasts sharply
+with Hokkaido Ainu, where the corresponding shift entails an overt change of
+form, *hawas* › *ruwe ne*. A genuinely diachronic comparison of the shift between
+West and East is, however, "practically impossible" given how differently the two
+corpora were collected (Piłsudski 1903–04 versus Murasaki in the 1970s) — a
+recognised **gap** <Cite key="Dal Corso 2018" page="§7.4.3" />.
+
+## Double evidentiality
+
+Stacking of evidentials is rare in Sakhalin Ainu, but attested, and always
+respects continuum order. A personal-knowledge -hV may fall inside the scope of
+an inferential, in which case the -hV loses its evidential force and contributes
+only an epistemic value; the reportative *manu*, the least reliable marker,
+combines with any other evidential and always follows it. The construction below
+combines a personal-knowledge predicate, the copula, the inferential *ruwehe 'an*,
+and finally the reportative — three layers in continuum order:
+
+<Example
+	ain="an=ko-nupuru kusu tani pahno moyre-an-i-hi ne manu"
+	surface="Ànkonúpuru kusu, tani paxno mójre anhi né manu."
+	gloss="1SG.S=APPL-3SG.O/find.interesting because now until be.late-1SG.S-EP-PK COP REP"
+	free="Because I found that situation interesting, I was late."
+	cite="Piłsudski 1912" page="16" dialect="East" />
+
+## Evidentiality and epistemic modality
+
+The evidential continuum shades into **epistemic modality** at its inferential
+end, and Sakhalin Ainu has a small set of dubitative/probabilitive markers that
+overlap with it. The most frequent is <W w="nankor" gloss="probably" /> 'probably,
+will (probably)', often in the frame *nankoro pe ne* 'it is a thing that
+probably…':
+
+<Example
+	ain="sine utah-ta ne kusu porono ham e=ye yahka pirika nankoro pe ne"
+	gloss="one fellow-? COP because much NEG 2SG.A=3SG.O/say although 3SG.S/be.good PROB thing COP"
+	free="Since we are close kin, even if you do not say much, it will surely be fine."
+	cite="ainu-corpora (樺太)" page="chiba-358/4/2-2 #6" dialect="West" />
+
+A salient Sakhalin innovation is that several of these markers **prefix the copula**
+<W w="nee" gloss="be" />, giving *nee nankor* 'probably' where Hokkaido Ainu has
+bare *nankor* <Cite key="Bugaeva 2016" page="24" />. The dubitative attaches to a
+V-poss predicate under the copula:
+
+<Example
+	ain="pohke-no mokoro anah pirika-ha nee nankor"
+	gloss="warm-ADV 3SG.S/sleep if 3SG.S/be.good-PK COP PROB"
+	free="It is probably good if he sleeps keeping warm."
+	cite="Bugaeva 2016" page="24" dialect="West" />
+
+The same copula-prefixing pattern recurs with the vowel-final dubitative *nanko(o)*
+'maybe', which closes a V-poss-plus-copula predicate carrying a perfective:
+
+<Example
+	ain="neera an pe ne yahka nuu-hci teh-an-i-hi nee nanko"
+	gloss="which 3SG.S/exist.SG thing COP although 3PL.S/hear-PL PFV-EP-PK COP PROB"
+	free="Although it could be anything, she must have heard such things."
+	cite="Murasaki 1979" page="25" dialect="West" />
+
+These epistemic markers are treated alongside aspect and the copula in
+[Chapter 18](/grammar/tense-aspect-mood) and [Chapter 21](/grammar/copula-existence);
+here it is enough to note that they extend the reliability continuum into the
+modal domain, and that their Sakhalin shape — built on the copula *ne(e)* — is
+of a piece with the whole evidential system's reliance on the
+nominalisation-plus-copula frame.
+
+## Summary and open questions
+
+Sakhalin Ainu grammaticalises information source as a graded, predicate-final
+system running from prepossessed personal knowledge (-hV / -Ø), through five
+sensory-channel inferentials (*ruwehe ne(e)*, *ruwehe 'an*, *sirihi 'an*,
+*humihi 'an*, *hawehe 'an*), to the reportative *manu*. The system is morphologically
+unified by a single device — a possessed (sensorial) noun or nominalised verb
+plus the existential *an* or the copula *ne(e)* — which is itself the Sakhalin
+V-poss innovation, and it carries the temporal information that a tenseless
+language cannot mark inflectionally.
+
+Several questions remain open. The precise semantic conditioning of -hV versus -Ø,
+beyond the certainty/surprise tendency, is unresolved, with counterexamples on
+record <Cite key="Dal Corso 2018" page="§7.2.2" />. Whether East-coast inferentials
+carry a glottal stop before *'an* is **uncertain** for lack of audio. The independent
+predicative use of *sirihi 'an* reported by Murasaki could **not be confirmed** in
+Dal Corso's corpus. And the telicity of motion and possession verbs is hard to fix,
+which undermines sharp present/past predictions for *ruwehe 'an* in exactly the
+verbs that most often occur with it <Cite key="Dal Corso 2018" page="§7.6" />.

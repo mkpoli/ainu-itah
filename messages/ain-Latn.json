@@ -1,5 +1,8 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"reference_grammar": "Aynu Itah Kanpi",
+	"reference_grammar_desc": "Solowari Aynu itah kanpi.",
+	"read_grammar": "Nukara yan",
 	"dictionaries": "Solowari",
 	"aynu_itah": "Aynu Itah",
 	"aynu_itah_description": "Aynu itah an=yee konte waa! Solowari ani itah an=ucakasnuhci teh, pirika kanpi an=nukarahci teh, cieiwankeh an=eiwankehci teh, turahci aynu itah ekaamesukara yan! Anokay itah konupuru utari uekari teh ukoitakahci renkayne eh kusu waa!",

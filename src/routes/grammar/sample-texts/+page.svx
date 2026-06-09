@@ -1,0 +1,550 @@
+---
+title: Annotated Sample Texts
+num: '28'
+part: Texts and Reference
+status: draft
+blurb: Five fully glossed Sakhalin Ainu texts — an east-coast folktale, two west-coast tales, the Dobrotvorskij dialogues, and modern Enchiw prose — with running philological commentary.
+sources:
+  - Sakaguchi 2020
+  - Sakaguchi 2019a
+  - Sakaguchi 2019b
+  - Sakaguchi 2021
+  - Piłsudski 1912
+  - Dobrotvorskij 1875
+  - Murasaki 2024
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## How to read this chapter
+
+This final chapter presents Sakhalin Ainu (Enchiw) **as connected text**. The
+preceding chapters isolated single constructions; here those constructions are
+seen working together in their natural habitat — the narrative line, the
+quoted speech, the chained clause closed by a reportative. Each text is given
+in the four-line interlinear format used throughout the grammar (surface form
+where it differs, morpheme segmentation, aligned gloss, free translation),
+with its source, dialect tag, and philological notes attached to each line.
+
+The selection is deliberately **pan-Sakhalin and West-foregrounded**. Because
+the richest fully glossed running text happens to be an east-coast folktale
+(Piłsudski's flatfish tale, re-edited by <Cite key="Sakaguchi 2020" paren={false} />),
+that text anchors the chapter; but it is paired with two west-coast tales, the
+West-central Dobrotvorskij dialogues, and modern west-coast revival prose, so
+that the reader can compare the two coasts directly. The texts are
+reproductions of cited editions — every form here is attested, and where a
+segmentation is the editor's reconstruction or my own it is flagged in the
+notes.
+
+A word on the **oral genres** these texts belong to. Sakhalin oral literature
+distinguishes several named kinds: <W w="tuytah" gloss="folktale" /> (the prose
+fairy tale, often with inserted songs, told in the third person or with the
+narrator-shifting technique discussed below); <W w="ucaskoma" gloss="legend" />
+(legend, traditional knowledge); <W w="oyna" gloss="kamuy narrative" />
+(the deity-narrative); and <W w="hawki" gloss="epic" /> (heroic epic). The
+west-coast southwest has in addition a genre of *carahaw*, "rumour tales"
+<Cite key="Chiri 1942" />. The closing formula <W w="hemaka" gloss="the end" />
+and the pervasive line-final reportative <W w="manu" gloss="it is said" /> are
+the signature surface marks of the folktale register.
+
+## Text 1 — East-coast *tuytah*: "The Flatfish-man and the Sculpin-man"
+
+Our anchor text is Piłsudski's Tuita 3, recorded on the east coast and
+re-edited with a full morpheme gloss by <Cite key="Sakaguchi 2020" paren={false} />.
+It is a *tuytah* that opens in the third person, shifts into the flatfish-man's
+own first-person voice partway through, and shifts back — the **person-shifting
+narrative technique** characteristic of Piłsudski's 1903 east-coast tales, in
+which the <Gl t="PRM" /> set (`-an`/`an=`/`i-`) cross-references the foregrounded
+narrator. The tale also showcases the east-coast collective suffix
+<Gl t="COLL" /> `-ahci`, the belonging (<Gl t="POSS" />) form on relational
+nouns, and the quotative frame `nah … yee`.
+
+The opening line establishes the two protagonists and immediately uses the
+collective, which agrees with the dual subject:
+
+<Example
+	ain="pon kapariw ohkayo poy sohkana ohkayo u-tur[a] okay-ahci"
+	gloss="small flatfish man small sculpin man RECP-together.with live.PL-COLL"
+	surface="Pon kapariw ohkayo poy sohkana ohkayo utur okay-ahci."
+	free="A small flatfish-man and a small sculpin-man lived together."
+	cite="Sakaguchi 2020" page="55 (Tuita 3, l. 1)"
+	dialect="East" />
+
+The flatfish-man announces his quest in direct speech, framed by the
+quotative <Gl t="QUOT" /> `nah` followed by the verb of saying <W w="yee" gloss="say" />.
+Inside the quote, purpose is carried by `kusu` and the allative goal by the
+Sakhalin postposition <W w="onne" gloss="toward, into" />:
+
+<Example
+	ain="pon kapariw ohkayo rep-un mosiri onne mah-nuu kusu nah yee"
+	gloss="small flatfish man sea-exist country toward wife-take in.order.to QUOT say"
+	surface="Pon kapariw ohkayo &quot;Rep-un mosiri onne mah-nuu kusu.&quot; nah yee."
+	free="The small flatfish-man said, ‘I will go to the offshore country to take a wife.’"
+	cite="Sakaguchi 2020" page="55 (Tuita 3, l. 2)"
+	dialect="East" />
+
+The bride is introduced with the belonging form <Gl t="POSS" /> on
+<W w="mahpoo" gloss="daughter" /> and the equative copula <Gl t="COP" /> `nee`
+closed by the reportative <Gl t="REP" /> `manu`:
+
+<Example
+	ain="kakan mahpoo-ho teekoro pirika moromahpo nee manu"
+	gloss="governor daughter-POSS very beautiful young.woman COP REP"
+	free="Kakan's daughter was a very beautiful young woman, it is said."
+	cite="Sakaguchi 2020" page="55 (Tuita 3, l. 4)"
+	dialect="East"
+	note="moromahpo is a literary tuytah word for ‘young woman’ (Chiri 1942)." />
+
+The motive clause stacks two `kusu` "because" subordinators — one over a
+nominalised clause ("because he heard that"), one over the desiderative
+<Gl t="DESID" /> `rusuy`:
+
+<Example
+	ain="nah(a) nuu-hu kusu sam rusuy kusu rep-un"
+	gloss="QUOT hear-NMLZ because marry DESID because sea-go.to"
+	free="Because he heard that, and because he wanted to marry her, he went out to the offshore country."
+	cite="Sakaguchi 2020" page="55 (Tuita 3, l. 5)"
+	dialect="East" />
+
+At this point the narrative voice shifts: the flatfish-man becomes the
+first-person narrator, and the <Gl t="PRM" /> S-suffix `-an` appears on the
+plural stem <W w="ahup" gloss="enter (plural)" />. The dipper is referred to by
+its belonging form `kahkum-ihi`:
+
+<Example
+	ain="kahkum-ihi onnay-ke ta ahup-an"
+	gloss="dipper-POSS inside-place LOC enter.PL-PRM.S"
+	free="I got inside the dipper."
+	cite="Sakaguchi 2020" page="56 (Tuita 3, l. 7)"
+	dialect="East"
+	note="The shift into the flatfish-man's first-person self-narration; PRM S-suffix -an." />
+
+A subordinate clause of cause stacks the reflexive <Gl t="REFL" /> `yay-` and
+the applicative <Gl t="APPL" /> `ko-` on the light verb `-kara` "do",
+illustrating the prefix-stacking that the valency chapter describes:
+
+<Example
+	ain="nea pon moromahpo teekor[o] ana[h] yay-ko-raanuh-kara kusu"
+	gloss="that little young.woman very.much EMPH REFL-APPL-love-do because"
+	free="because that young woman loved me very much,"
+	cite="Sakaguchi 2020" page="56 (Tuita 3, l. 9)"
+	dialect="East" />
+
+A reported question turns the loved-one's bewilderment into a content question,
+with the second-person A-prefix `e-` and a nominalised verb closed by the
+east-coast sentence-final interrogative `hetane-ana`:
+
+<Example
+	ain="hemata kusu ene an pon kapariw e-raanup-ihi hetane-ana"
+	gloss="what for like.that exist.SG small flatfish 2.A-love-POSS Q"
+	free="‘Why do you love such a small flatfish-man?’"
+	cite="Sakaguchi 2020" page="56 (Tuita 3, l. 12)"
+	dialect="East" />
+
+A rival suitor's arrival is staged with the prolative <Gl t="PROL" /> `peka`
+"along, through" and the male-protagonist word <W w="horokewpo" gloss="young man" />:
+
+<Example
+	ain="tay sine-antoo ta soy peeka horokewpo itah haw an"
+	gloss="this one-day LOC outside through man speak voice exist.SG"
+	surface="tay sin[e]antoo ta soy peeka horokewpo itah haw an."
+	free="One day, there was the voice of a man speaking outside the house."
+	cite="Sakaguchi 2020" page="57 (Tuita 3, l. 15)"
+	dialect="East" />
+
+When two people act, both the verb of going and the verb of saying take the
+collective <Gl t="COLL" /> — a clear demonstration that `-hci`/`-si` agrees with
+participant number:
+
+<Example
+	ain="tura niina-hci kusu nah yee-si"
+	gloss="together.with gather.firewood-COLL will QUOT say-COLL"
+	free="‘Let's go gather firewood together,’ they said."
+	cite="Sakaguchi 2020" page="57 (Tuita 3, l. 18)"
+	dialect="East"
+	note="Both niina-hci and yee-si carry the collective because two people act." />
+
+The climactic line is Sakaguchi's chief evidence that the collective `-ahci`
+can yield a **passive** reading: here `ocipa` "throw" carries `-hsi` although
+the agent (the rival) is singular and definite, and the patient is the
+flatfish-man:
+
+<Example
+	ain="pon kapariw ohkayo iso cara-(ha) onne ocipa-hsi"
+	gloss="small flatfish man bear mouth-(POSS) toward throw-COLL"
+	free="The small flatfish-man was thrown toward the bear's mouth."
+	cite="Sakaguchi 2020" page="58 (Tuita 3, l. 21)"
+	dialect="East"
+	note="COLL on a singular definite agent — Sakaguchi's evidence for a passive use; whether COLL is genuinely a passive or an impersonal plural that yields a passive reading is left open." />
+
+The bear dies and the flatfish-man descends, the singular motion stem
+<W w="san" gloss="come down (singular)" /> contrasting with its plural
+counterpart `sap`:
+
+<Example
+	ain="neya iso hurekikoro cise ohta san"
+	gloss="that bear die house LOC come.down.SG"
+	free="That bear died. The flatfish-man came down to the house."
+	cite="Sakaguchi 2020" page="58 (Tuita 3, l. 23)"
+	dialect="East"
+	note="Piłsudski's own note glosses hure-koro = ray ‘die’ in this tale." />
+
+The tale resolves in marriage, with the reciprocal <Gl t="RECP" /> `u-` plus
+the collective — a near-obligatory pairing on reciprocal verbs in this dialect:
+
+<Example
+	ain="kakan mahpoo-ho pon kapariw ohkayo tura u-sam-ahci"
+	gloss="governor daughter-POSS small flatfish man together.with RECP-marry-COLL"
+	free="Kakan's daughter married the small flatfish-man."
+	cite="Sakaguchi 2020" page="59 (Tuita 3, l. 24)"
+	dialect="East"
+	note="Reciprocal u- + COLL is near-obligatory on reciprocal verbs; bare sam does not take COLL." />
+
+## Text 2 — West-coast *carahaw*: "Esaman Carahaw" (The One-eyed Otter)
+
+This west-coast Tarantomari "rumour tale" was recorded from Chiri's field notes
+and re-edited by <Cite key="Sakaguchi 2019a" paren={false} />. It is told in the
+third person throughout — the west-coast norm — with `an=` functioning as a
+plain indefinite/passive rather than as a logophoric narrator. It opens with
+the locative postposition <W w="otta" gloss="at, in" /> (&lt; *or-ta*) and the
+existential closed by `manu`:
+
+<Example
+	ain="usoro otta tu-uruwan okkaw an manu"
+	gloss="Usoro LOC two-sibling man exist.SG REP"
+	free="In Usoro there were two brothers, it is said."
+	cite="Sakaguchi 2019a" page="137 (l. 2)"
+	dialect="West"
+	note="West/SW okkaw ‘man’ retains the coda stop (vs general Sakhalin ohkayo)." />
+
+The monster is introduced with the west-coast intensifier `wen-poro` "extremely
+big" (<Gl t="EMPH" /> `wen-` + `poro` "big"):
+
+<Example
+	ain="wen-poro hekay esaman"
+	gloss="EMPH-big aged otter"
+	free="a very big, aged otter"
+	cite="Sakaguchi 2019a" page="139 (l. 17)"
+	dialect="West"
+	note="West-coast intensifier wen-poro ‘extremely big’; esaman ‘otter’." />
+
+When the brothers shoot it, the connective <W w="neanpe" gloss="when, then" />
+links the protasis to the result; the line closes, as folktale lines do, with
+`manu`. Note that the west coast here retains the final vowel of `cotca`:
+
+<Example
+	ain="cotca neanpe ray manu"
+	gloss="shoot.at CONJ die REP"
+	free="When they shot it, it died, it is said."
+	cite="Sakaguchi 2019a" page="140 (l. 14)"
+	dialect="West"
+	note="Connective (ne)anpe ‘when’; sentence-final reportative manu." />
+
+The protasis–consequence pattern is recurrent in this text. The connective
+`neanpe` is preceded by a verb nominalised with `-hV` — here `oromos-u` "wake
+up" with the belonging form `haw-he` "its voice" as the trigger:
+
+<Example
+	ain="hemata haw-he oromos-u neanpe"
+	gloss="what voice-POSS wake.up-NMLZ CONJ"
+	free="When he woke up at some strange voice,"
+	cite="Sakaguchi 2019a" page="137 (l. 4)"
+	dialect="West"
+	note="Belonging form haw-he ‘its voice’; nominalised verb + neanpe ‘when’." />
+
+The flight scene chains a causal `kusu` and the clause-linker <Gl t="CONJ" />
+`ike`, and uses the SW quantifier `imiki` "all" (the general-Sakhalin form is
+`emuyke`). The reduced west-coast ablative `ora` (&lt; *orowa*) marks the
+agent of the following passive-like clause:
+
+<Example
+	ain="nean-pe kusu oman ike anih[i] nuso seta-h[a] imiki erapika"
+	gloss="that-NMLZ because go.SG CONJ 3SG.PRO sled dog-POSS all unleash"
+	free="Because of that, fleeing, he unleashed all the dogs from the sled."
+	cite="Sakaguchi 2019a" page="138 (l. 8)"
+	dialect="West"
+	note="Causal kusu; clause-linker ike; quantifier imiki ‘all’; overt pronoun anih for emphasis." />
+
+<Example
+	ain="seta ora kopiwke kimun ne kira"
+	gloss="dog ABL 3SG.O.attack mountain.ALL ALL flee.SG"
+	free="Chased by the dogs, the monster fled to the mountain."
+	cite="Sakaguchi 2019a" page="139 (l. 9)"
+	dialect="West"
+	note="West-coast reduced ablative ora (&lt; orowa) marking the agent; kim-un ‘to the mountain’, allative ne." />
+
+The denouement uses the converb <Gl t="CONJ" /> `te` (the west-coast form of
+`teh`) to link the descent and the telling, with the time-NP fronted and the
+belonging form `sinkeke-he` "the next day":
+
+<Example
+	ain="sinkeke-h[e] anih[i] otaka ta san te eayrap"
+	gloss="next.day-POSS 3SG.PRO beach LOC descend.SG CONJ recount"
+	free="The next day, he went down to the beach and told the people about it."
+	cite="Sakaguchi 2019a" page="139 (l. 10)"
+	dialect="West"
+	note="Locative ta; converbal te (interval-linking ‘and then’); time-NP fronted." />
+
+## Text 3 — West-coast *ubepekere*: "Karafuto Ubepekere" (the Panke/Penke neighbours)
+
+This tale, recorded in katakana by Yamamoto Tasuke from Kimura Usarusmah of
+Aihama and re-edited by <Cite key="Sakaguchi 2019b" paren={false} />, is the
+Sakhalin instance of the pan-Ainu "neighbours" tale-type, with paired
+protagonists <W w="panke" gloss="downstream man" /> and
+<W w="penke" gloss="upstream man" /> (the Sakhalin counterparts of the
+Hokkaido Panampe/Penampe). Because the katakana source carries only a word-level
+Japanese gloss, several segmentations here are conservative and a few lines
+remain partly unanalysed; these are flagged.
+
+The two neighbours are introduced with the converb `wa` plus the existential
+`an`, and a chain of right-headed predicates preceding it:
+
+<Example
+	ain="penke aynu [kiyanne] aynu panke aynu poneyne usoyun wa an"
+	gloss="upstream person elder person downstream person be.younger be.neighbours CONJ exist.SG"
+	free="There were an upstream man, the elder, and a downstream man, the younger, living as neighbours."
+	cite="Sakaguchi 2019b" page="114 (l. 11801)"
+	dialect="West"
+	note="Converbal wa + an ‘be V-ing’; recorded at Aihama; segmentation partly Sakaguchi's, partly mine." />
+
+A compound noun shows the SW coda pattern: `pon-cikah` "sparrow" (literally
+"small bird"), where the coda would be `-p` further south:
+
+<Example
+	ain="sine haciko pon-cikah rayke"
+	gloss="one small sparrow kill"
+	free="He killed one little sparrow."
+	cite="Sakaguchi 2019b" page="115 (l. 11802)"
+	dialect="West"
+	note="pon-cikah ‘sparrow’ (lit. small-bird); West coda -h for the older -p; haciko ‘small’." />
+
+A protasis with the magical-prayer verb `inonitah` resolves with the negative
+existential `isan` (&lt; *isam*, with West final *m* &gt; *n*) and the quantifier
+`emuyke` "all" — note that this same text uses both the general `emuyke` and the
+SW `imiki`:
+
+<Example
+	ain="inonitah neya si emuyke isan"
+	gloss="pray that feces all not.exist"
+	free="When he prayed, all that feces disappeared."
+	cite="Sakaguchi 2019b" page="119 (l. 12002)"
+	dialect="West"
+	note="emuyke ‘all’ (general Sakhalin); isan ‘not exist’; segmentation mine, glosses from Sakaguchi's word glosses. [uncertain]" />
+
+The reward scene gathers the restrictive <Gl t="RESTR" /> `pateh` "only", the
+comitative <Gl t="COM" /> `tura` "together (with it)", and the collective on the
+verb of giving:
+
+<Example
+	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
+	gloss="one treasure clasp FOC only 1.A=give-COLL gladly house LOC together go.SG"
+	free="She was given only one treasure, a clasp, and gladly took it back home."
+	cite="Sakaguchi 2019b" page="117 (l. 11903)"
+	dialect="West"
+	note="Restrictive pateh ‘only’; locative ohta; comitative tura(no) ‘together’." />
+
+The reversal — the greedy brother's house full of nothing but excrement — uses
+the locative `ta`, the restrictive `pateh`, the sequential `neya` "then", and
+closes with `manu`:
+
+<Example
+	ain="[Pankankuh] hoskiramu cise ta oman inkara neya [si] pateh an manu"
+	gloss="Pankankuh elder.brother house LOC go.SG look.at then feces only exist.SG REP"
+	free="Pankankuh went to the elder brother's house and looked, and there was only feces, it is said."
+	cite="Sakaguchi 2019b" page="118 (l. 11910)"
+	dialect="West"
+	note="Locative ta; restrictive pateh; reportative manu; sequential neya ‘then’." />
+
+## Text 4 — West-central dialogues: Dobrotvorskij (1875)
+
+The two short Ainu texts appended to <Cite key="Dobrotvorskij 1875" paren={false} />'s
+Ainu–Russian dictionary — a confession scene narrated by Ciwokanke and a
+request/marriage dialogue — are the oldest connected Sakhalin Ainu prose, from
+the West-central Kushunnai area, re-edited by <Cite key="Sakaguchi 2021" paren={false} />.
+Their Cyrillic transcription faithfully records syllable-final consonants but
+confuses *i*/*e* and *o*/*u* and ignores vowel length, so the fine morphology of
+several forms is [uncertain]; the segmentations below follow Sakaguchi's notes.
+What the texts most clearly attest is the **east-coast-style first-person
+system** — the AN-class `-an`/`an=` and, diagnostically, the KU/CI-class object
+prefix `in-` — confirming that this West-central material patterns with the East
+rather than with the northern West coast.
+
+The confession opens with a purposive `kusu` linking two AN-class verbs:
+
+<Example
+	ain="tan kotan ohta utasa-an kusu ariki-an"
+	gloss="this village LOC visit-PRM.S in.order.to come.PL-PRM.S"
+	surface="Tan kotàn ohtà utása-an kusú áriki-an."
+	free="I have come in order to visit this village."
+	cite="Sakaguchi 2021" page="49 (Dobrotvorskij text 1, ex. 1)"
+	dialect="Sakhalin"
+	note="AN-class -an on both verbs; purposive kusu. Segmentation following Sakaguchi's romanisation." />
+
+An AN-class transitive frame `an=e=…` "I … you" expresses gratitude for the
+visit, with `renkayne` "thanks to, because":
+
+<Example
+	ain="tan kotan ta eh renkayne an=e=nukara"
+	gloss="this village LOC come thanks.to 1.A=2.O=see"
+	surface="Tan kotán ta eh renkáyne, an-è-núkara."
+	free="Thanks to your coming to this village, I have been able to see you."
+	cite="Sakaguchi 2021" page="49 (Dobrotvorskij text 1, ex. 3)"
+	dialect="Sakhalin"
+	note="AN-class transitive 1A=2O frame an=e=…; renkayne ‘thanks to’." />
+
+The diagnostic line uses the KU/CI-class 1SG object prefix `in-` inside an
+otherwise AN-class context, together with the causative <Gl t="CAUS" /> `-re`
+and reflexive `yay-`:
+
+<Example
+	ain="tama in=konte reekoro yay-irayki-re-an"
+	gloss="jewel 1SG.O=give very REFL-thank-CAUS-PRM.S"
+	surface="Tamà in-konte. Rékoro yay'iráykire-an."
+	free="You gave me a jewel. I am very grateful."
+	cite="Sakaguchi 2021" page="49 (Dobrotvorskij text 1, ex. 5)"
+	dialect="Sakhalin"
+	note="KU/CI-class 1SG object prefix in- in an AN-class context — diagnostic of the in-/i- split." />
+
+A conditional with `ciki` "if" and the adverbialiser <Gl t="ADV" /> `-no`
+closes the parting advice:
+
+<Example
+	ain="pirika-no oman ciki pirika"
+	gloss="good-ADV go.SG if good"
+	surface="Pírikano omán ciki pírika."
+	free="It would be good if you went carefully."
+	cite="Sakaguchi 2021" page="49 (Dobrotvorskij text 1, ex. 6)"
+	dialect="Sakhalin"
+	note="Adverbialiser -no; conditional ciki ‘if’." />
+
+The second text contrasts the AN-class object prefix `i-` (with the free pronoun
+`anokay`) against the `in-` of the first text, and negates with `hanne`:
+
+<Example
+	ain="anokay an=renkayne i=koyki anpe ka hanne"
+	gloss="1SG.PRO 1.S=accordingly 1.O=hit NMLZ even NEG"
+	surface="Anokay an-renkayne, i-koyki ánpe ka hánne."
+	free="In accordance with my wish, I was not hit."
+	cite="Sakaguchi 2021" page="50 (Dobrotvorskij text 2, ex. 8)"
+	dialect="Sakhalin"
+	note="AN-class object prefix i- (with pronoun anokay); negative hanne. The dictionary also records the parallel kuani … in-koyki, showing the KU/AN object contrast." />
+
+A concessive `yahka` "even if" and the epistemic `nankoro pe ne` "it would
+probably be" round out the dialogue's politeness formulae:
+
+<Example
+	ain="sine utah-ta ne kusu porono ham e=(i=)ye yahka pirika nankoro pe ne"
+	gloss="one relative-? COP because much NEG 2.A=(1.O=)say even good probably NMLZ COP"
+	free="Because we are close kin, it would be fine even if you did not say much to me."
+	cite="Sakaguchi 2021" page="52 (Dobrotvorskij text 2, ex. 21)"
+	dialect="Sakhalin"
+	note="Concessive yahka ‘even if’; nankoro pe ne ‘it probably is’; utahta flagged ‘meaning unknown’ by Sakaguchi. [uncertain]" />
+
+## Text 5 — Modern Enchiw and native-written texts
+
+The final group illustrates the **living tail** of the documentary record:
+modern west-coast revival prose, and an east-coast text written by a native
+speaker rather than dictated to a researcher. They show that the same
+constructions — `manu`, `an=`, the belonging form, the additive `naa` — persist
+into didactic and self-authored registers.
+
+In a modern west-coast didactic dialogue, `an=` functions as a plain
+indefinite/passive ("she was raised"), and the line closes with the hearsay
+`manu`:
+
+<Example
+	ain="aaca haciko ohta siisam hatagoya ohta an=reske manu"
+	gloss="father small LOC Japanese inn LOC PRM.A=raise REP"
+	free="Father: She was raised in a Japanese inn when she was little, it is said."
+	cite="ainu-corpora (樺太)" page="express-special/001#2 (Kitahara)"
+	dialect="West"
+	note="an= as indefinite-person/passive; hearsay manu; modern pan-West didactic register." />
+
+The KU-class possessive prefix `ku=` on the belonging form `ahci-hi` "(my)
+grandmother", with two additive `naa` "too":
+
+<Example
+	ain="aaca ku=ahci-hi kawren itah naa nuca itah naa ponno wante manu"
+	gloss="father 1SG=grandmother-POSS Korean language too Russian language too a.little know REP"
+	free="Father: My grandmother understood a little Korean and Russian too, it is said."
+	cite="ainu-corpora (樺太)" page="express-special/001#0 (Kitahara)"
+	dialect="West"
+	note="KU-class possessive prefix ku=; additive naa ‘too’; hearsay manu." />
+
+A west-coast oral-history excerpt from the Tarantomari narrator Yamada Hayo
+chains the reflexive `yay-` and the AN-class first person (here a 1PL) on the
+plural existential `okay`:
+
+<Example
+	ain="yay-sukukka te okay-an manu"
+	gloss="REFL-support.oneself CONJ live.PL-PRM.S REP"
+	surface="yáysukukka te oká am manu"
+	free="We lived supporting ourselves, it is said."
+	cite="ainu-corpora (樺太)" page="elpr-a2/039/yamada/001#1 (Yamada Hayo)"
+	dialect="West"
+	note="Reflexive yay-; AN-class first person (1PL inclusive) on PL existential okay; ELPR transcription." />
+
+The same narrator's first-person discovery uses the AN-class S on `inkar`
+"look" and the intensifier `wen-poro` "very big" seen in the Esaman tale above:
+
+<Example
+	ain="inkar-an manu reekor wen-poro-kotan"
+	gloss="look-PRM.S REP very EMPH-big-village"
+	surface="ínkarán manu, ré:kor wémporokotan"
+	free="I looked, and saw a very large village, it is said."
+	cite="ainu-corpora (樺太)" page="elpr-a2/039/yamada/001#11 (Yamada Hayo)"
+	dialect="West"
+	note="wen-poro ‘very big’ (lit. EMPH-big), the same West-coast intensifier as in Text 2; AN-class S on inkar." />
+
+Finally, an east-coast text self-written by Sentoku Tarōji of Naibuchi in a
+letter to Piłsudski (c. 1900s) — a rare native-authored document — uses
+`maci koro` "take a wife" and the hearsay `manuy`:
+
+<Example
+	ain="tata maci koro manuy"
+	gloss="there wife have REP"
+	free="There he took a wife again, it is said."
+	cite="ainu-corpora (樺太)" page="sentoku/1#47 (Sentoku Tarōji)"
+	dialect="East"
+	note="maci koro ‘take a wife’; hearsay manuy. Self-written Ainu by an east-coast speaker." />
+
+A folktale's conventional close pairs the reportative `manu` with the lexical
+tale-closing formula <W w="hemaka" gloss="the end" />:
+
+<Example
+	ain="usoy ta pirika okay utara kii manu hemaka"
+	gloss="neighbour LOC be.good exist.PL people 3PL.A.do REP end"
+	free="Living as neighbours, the people lived well, it is said. The end."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#48 (Piłsudski coll.)"
+	dialect="East"
+	note="Locative ta; reportative manu; conventional tale-closing hemaka." />
+
+## What the texts show together
+
+Read side by side, the five texts make the chapter's central editorial point
+concrete. The **east-coast** *tuytah* (Text 1) and the West-central dialogues
+(Text 4) attest the full first-person apparatus — the AN-class `-an`/`an=`, the
+KU/CI-class object prefix `in-`, and the narrator-shifting use of the
+<Gl t="PRM" /> set — while the **west-coast** tales (Texts 2–3) are consistently
+third-person narratives in which `an=` has drifted toward a plain
+indefinite/passive, as <Cite key="Chiri 1942" paren={false} /> already observed.
+The collective <Gl t="COLL" /> `-ahci`/`-hsi`/`-si` is everywhere on plural and
+reciprocal predicates, and in Text 1 it does double duty as a passive marker —
+though whether it is genuinely a passive or an impersonal plural yielding a
+passive reading remains, as Sakaguchi cautions, an open question.
+
+Phonologically the texts display the **coda shibboleth**: the west-coast SW
+forms keep the older stops (`okkaw` "man", `pon-cikah` &lt; *-cikap*, `pateh`),
+while the rest of Sakhalin debuccalises them to `-h` (`ohkayo`, `pateh` ~
+`pate`). The lexical isoglosses surface too — SW `imiki` against general
+`emuyke` "all", both within a single west-coast text. And across registers the
+folktale grammar is invariant where Hokkaido would differ: the line-final
+reportative `manu(u)` does not change form between hearsay and
+traditional-knowledge readings, the quotative is `nah` (not Hokkaido *sekor*),
+and the tale closes with `hemaka`. These are the connected-text correlates of
+the features the body of the grammar has described one by one.

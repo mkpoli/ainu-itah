@@ -1,0 +1,396 @@
+---
+title: Numerals and Quantification
+num: '13'
+part: The Noun Phrase
+status: draft
+blurb: The pan-Ainu numerals, the inherited vigesimal system and its overcounting, the Sakhalin decimal innovation built on loan bases, and the classifiers and quantifiers of the noun phrase.
+sources:
+  - Murasaki 2009
+  - Murasaki 2024
+  - Sakaguchi 2022
+  - Ochiai 2021
+  - Kirikae 2006
+  - Chiri 1942
+  - Yamabe-Kindaichi 1913
+  - Dobrotvorskij 1875
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+Sakhalin Ainu (Enchiw) inherits the pan-Ainu numerals one to ten, an inherited
+**vigesimal** counting system built on the base *hoh* "twenty", and — uniquely
+among the Ainu varieties — a layered **decimal** system constructed from
+borrowed bases. The decimal innovation, apparently spread through the Santan fur
+trade for tallying sable pelts and snares, came to dominate twentieth-century
+West-coast speech, while the older vigesimal forms survive mainly as
+elders' speech. This chapter takes the West coast as baseline and flags the
+East- and SE-coast and diachronic divergences where they bear on the system.
+
+## Basic numerals 1–10
+
+The numerals one to ten are reconstructible to Proto-Ainu, and the Sakhalin set
+differs from Hokkaido mainly in syllable-final phonology
+(<Cite key="Kirikae 2006" page="228" />; <Cite key="Chiri 1942" />, §106). Two
+phonological hallmarks of Sakhalin appear here. First, the coda neutralisation
+described in the [phonology chapter](/grammar/segmental-inventory): Hokkaido
+coda *-p* surfaces as the West-coast coda *-h*, so that Hokkaido *sinep* "one"
+and *tup* "two" answer to Sakhalin <W w="sineh" gloss="one" /> and
+<W w="tuh" gloss="two" />. Second, a cluster simplification unique to "five":
+Hokkaido *asikne(p)* loses its first *k* to give West-coast <W w="'asneh" gloss="five" />
+(<Cite key="Murasaki 2009" page="74" />).
+
+Two morphological forms must be distinguished. The **attributive** numeral
+(連体詞) modifies a noun directly; the **nominal / counting** form (数名詞)
+carries a counter suffix and is used in standalone counting. The counting forms
+carry the thing-counter *-p / -pe*, which on the West coast surfaces as *-h* word-finally:
+
+| Value | West attributive | West counting | Hokkaido (Saru) | gloss |
+|------:|------------------|---------------|-----------------|-------|
+| 1 | sine | sineh | sine / sinep | one |
+| 2 | tu= | tuh | tu / tup | two |
+| 3 | re= | reh | re / rep | three |
+| 4 | iine / ine | 'iineh | ine / inep | four |
+| 5 | asne | 'asneh | asikne / asiknep | five |
+| 6 | iwan | 'iwanpe | iwan / iwanpe | six |
+| 7 | arawan | 'arawanpe | arwan / arwanpe | seven |
+| 8 | tupesan | tupesanpe | tupesan / tupesanpe | eight |
+| 9 | sinepisan | sinepisanpe | sinepesan / sinepesanpe | nine |
+| 10 | wan | wanpe | wan / wanpe | ten |
+
+The bare West-coast counting series runs as follows
+(<Cite key="Murasaki 2024" page="Lesson 7" />):
+
+<Example
+	surface="sineh, tuh, reh, 'iineh, 'asneh, 'iwampe, 'arawampe, tupesampe, sinepisampe, wampe, sineh'ikasmawampe, tuh'ikasmawampe."
+	ain="sineh tuh reh 'iine-h 'asne-h 'iwan-pe 'arawan-pe tupesan-pe sinepisan-pe wan-pe sineh=ikasma=wanpe tuh=ikasma=wanpe"
+	gloss="one two three four-CL five-CL six-CL seven-CL eight-CL nine-CL ten-CL eleven twelve"
+	free="One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve."
+	cite="Murasaki 2024" page="Lesson 7" dialect="West" />
+
+Several of the higher numerals are transparently subtractive. <Gl t="?" /> notation
+aside, *tupesan* "eight" and *sinepisan* "nine" decompose as "ten minus two"
+(*tu-p-e-san*) and "ten minus one" (*sine-p-e-san*), and *iwan* "six" is likewise
+analysed as subtractive (<Cite key="Ochiai 2021" page="101" />) — though
+<Cite key="Sakaguchi 2022" page="note 2" paren={false} /> rejects the *tup-e-san*
+segmentation, locating the boundary instead at *tupes / an*. On the coda, the
+West coast (Raychishka, Maoka) shows *-h* throughout (*sineh*, *tuh*, *'asneh*),
+whereas the SE/East coast (Tarantomari, Nairo, and Dobrotvorskij's data) keeps
+the older coda *-p* and the uncontracted *asisne* "five"
+(<Cite key="Naert 1961" page="352" />; <Cite key="Sakaguchi 2022" page="69–70" />).
+
+## 11–19: the decimal *D ikasma wanpe* pattern
+
+The teens are uniformly decimal in every source and period. They are built on the
+base *wanpe* "ten", with the digit preposed and linked by *ikasma*, a verb meaning
+"be in excess, remain over": *D ikasma wanpe*, literally "D over ten"
+(<Cite key="Chiri 1942" />, §107; <Cite key="Sakaguchi 2022" page="70" />). Thus
+"eleven" is *sineh ikasma wanpe* and "nineteen" *sinepisanpe ikasma wanpe*. The
+order is invariant — the small number always precedes — a structure
+<Cite key="Chiri 1942" paren={false} /> compares to German *ein-und-zwanzig*. An
+attested teen in context:
+
+<Example
+	ain="mikan tuh=ikasma=wanpe 'okay"
+	gloss="mandarin twelve exist.PL"
+	free="There are twelve mandarins."
+	cite="Murasaki 2024" page="Lesson 7" dialect="West" />
+
+This invariant order distinguishes the teens from the higher composite numerals
+(21 and up), whose remainder order varies (see below). It also distinguishes
+Sakhalin from Kuril Ainu, where the *ikasma* element instead follows the base:
+Kuril *Shine Wampe Kasouma* "eleven" vs. Sakhalin *sineh ikasma wanpe*
+(<Cite key="Chiri 1942" />, §107; <Cite key="Murasaki 2009" />).
+
+## The inherited vigesimal system and overcounting
+
+The historically primary Ainu system is vigesimal, built on *hot* (Hokkaido) /
+*hoh* (Sakhalin) "twenty". Its multiples are *C-hoh*: *tu-hoh* "forty", *re-hoh*
+"sixty", *ine-hoh* "eighty", *asisne-hoh* "hundred"
+(<Cite key="Chiri 1942" />, §109). The vigesimal "twenty" itself survives on the
+West coast as <W w="hohne" gloss="twenty" />, the coefficient form used to
+multiply a following noun:
+
+<Example
+	ain="hohne too"
+	gloss="twenty.times day"
+	free="Twenty days."
+	cite="Yamabe-Kindaichi 1913" page="§48" dialect="West"
+	note="coefficient hohne 'twenty-times' directly modifying too 'day'" />
+
+The midpoints thirty, fifty, seventy, and ninety use a distinctive **overcounting**
+("upward-reckoning") construction, joining *wan* "ten" to the *next* score by the
+allative connective *e-* "toward there": thirty is *wan e-tu-hoh*, literally "ten
+toward forty", and likewise *wan e-re-hoh* "fifty", *wan e-ine-hoh* "seventy",
+*wan e-asikne-hoh* "ninety" (<Cite key="Chiri 1942" />, §110).
+<Cite key="Ochiai 2021" paren={false} /> systematises this as a switch, at the
+midpoint of each score, from **undercounting** in the lower half (21–29 =
+*D ikasma hotne*, "D over twenty") to **overcounting** in the upper half (31 =
+*sine ikasma wan e-tu-hoh*, "eleven toward forty"); she argues this
+undercounting-to-overcounting switch is reconstructible to late Proto-Ainu, with
+typological parallels in Tibeto-Burman. A running-text example of the vigesimal
+coefficient with an *ikasma* remainder:
+
+<Example
+	ain="Meiji iwan paa ikasma hohne paa nee paa-kehe"
+	gloss="Meiji six year over twenty.times year COP year-NMLZ"
+	free="(In) Meiji 26 — the year that is six years over twenty."
+	cite="Yamabe-Kindaichi 1913" page="§5" dialect="West"
+	note="cited Sakaguchi 2022: 73; vigesimal coefficient hohne with a 6-year remainder" />
+
+A competing all-undercounting variant is also reported, in which the midpoints
+simply add to the lower score: thirty *wanpe ikasma sine hoh* ("ten over twenty"),
+attested as archaic Raychishka by <Cite key="Naert 1961" paren={false} /> and
+noted by <Cite key="Chiri 1942" paren={false} /> for "some speakers" (§110).
+Crucially, <Cite key="Sakaguchi 2022" paren={false} /> finds no overcounting
+tokens at all in Yamabe's running text — only undercounting and decimal forms —
+suggesting the *e-* overcounting construction was already moribund in
+twentieth-century West-coast speech [uncertain].
+
+## The Sakhalin decimal system
+
+Sakhalin's signature innovation is a fully decimal system layered over the
+vigesimal base, built from three bases not found in Hokkaido or Kuril Ainu:
+*kunkutu* "ten-unit", *tanku* "hundred", and the derived *wantanku* "thousand"
+(&lt; *wan* "ten" + *tanku* "hundred"). These were apparently borrowed via the
+Tungusic/Santan trade, where they were counter-words for furs:
+<Cite key="Murasaki 2009" page="74–76" /> and <Cite key="Sakaguchi 2022" />
+trace *tanku* to Manchu *tanggū* "hundred", originally "a hundred sable snares",
+and *kunkutu* to a (still unidentified) source connected with sable-pelt tallies.
+
+| Base | Value | Use |
+|------|------:|-----|
+| kunkutu | "ten" (×10 unit) | bases 20–90 (*C-kunkutu*) |
+| tanku | "hundred" | bases 100–900 (*C-tanku*) |
+| wantanku | "thousand" | bases 1000+ (*C-wantanku*) |
+
+The tens are formed *C-kunkutu*: <W w="tu-kunkutu" gloss="twenty" />,
+*re-kunkutu* "thirty", and so on up to *sinepisan-kunkutu* "ninety". Tellingly,
+**ten is never \*sine-kunkutu**: it remains the native *wanpe*
+(<Cite key="Murasaki 2009" page="74" />; <Cite key="Sakaguchi 2022" />). The
+hundreds are *C-tanku* and the thousands *C-wantanku*, which let Sakhalin count
+easily into the thousands — something Hokkaido could not do. The trade origin is
+still visible in context; here *tu kunkutu* "twenty" appears in a sable-trapping
+narrative from the Ushoro (northern West-coast) dialect:
+
+<Example
+	ain="an=nukara ko kamuy hoynukaa oh ta eo kane okay yahka tu kunkutu hoynukaa oh ta uh manu"
+	gloss="1SG=see when sable sable.trap place at hang.PROG and.so exist.PL even two ten sable.trap place at take REP"
+	free="When I looked, the sables were caught in the sable-traps — and not just one or two, but twenty of them were taken in the traps."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intermediate/37#4" dialect="West"
+	note="Ushoro dialect; tu kunkutu 'twenty' in the trade setting of the loan" />
+
+The hundreds and thousands appear in everyday counting, here in a shopping
+exchange where prices are given in the Japanese loan *'en* "yen":
+
+<Example
+	ain="'iwan-tanku 'en"
+	gloss="six-hundred yen"
+	free="Six hundred yen."
+	cite="Murasaki 2024" page="Lesson 7" dialect="West"
+	note="C-tanku hundreds; 'en from Japanese yen" />
+
+<Example
+	ain="tara-mpe ne'ampe 'asne-tanku 'en"
+	gloss="that-thing as.for five-hundred yen"
+	free="That one, on the other hand, is five hundred yen."
+	cite="Murasaki 2024" page="Lesson 7" dialect="West"
+	note="'asne (= asikne 'five') + tanku = 500" />
+
+<Example
+	ain="'ataye-he 'okore sine-wantanku 'en 'an"
+	gloss="price-POSS all one-thousand yen exist"
+	free="The total comes to one thousand yen."
+	cite="Murasaki 2024" page="Lesson 7" dialect="West"
+	note="sine-wantanku = coefficient sine + base wantanku" />
+
+### The "Sakhalin shift"
+
+<Cite key="Ochiai 2021" paren={false} /> frames the rise of the decimal system as
+a diachronic shift. The earlier West-coast material (the Yamabe/Kindaichi corpus
+of 1913, her 樺太1) is predominantly vigesimal with overcounting, whereas the
+mid-century Raychishka of Hattori's dictionary (her 樺太2) is fully decimal, with
+vigesimal *hohne* "twenty" retained only as 〔old〕 elders' speech; she dates the
+shift to between the 1910s and the 1960s. <Cite key="Sakaguchi 2022" paren={false} />
+cautions, however, that the vigesimal forms in 樺太1 come largely from Kindaichi's
+appendix rather than the running text, which is already decimal-dominant, so the
+dating is uncertain and regionally uneven — the northern West coast (Ushoro), with
+its ongoing Santan trade, stayed more vigesimal.
+
+## Remainders, large numbers, and the SE-coast scaling
+
+Composite numbers above twenty combine a base with a remainder, and unlike the
+fixed teens, the remainder order varies — even within a single text. With
+*kunkutu*, <Cite key="Sakaguchi 2022" page="76" /> documents three orders: a
+Sinitic *C kunkutu D* order (digit last), a *D ikasma C kunkutu* order modelled on
+the teens (digit first), and a *C kunkutu ikasma D* order. The first two are seen
+side by side in Yamabe's text for the same value "twenty-five":
+
+<Example
+	ain="tu kunkuto asisne aynu"
+	gloss="two ten five person"
+	free="Twenty-five people."
+	cite="Yamabe-Kindaichi 1913" page="§114" dialect="West"
+	note="Sinitic order C-kunkutu D; cited Sakaguchi 2022: 76. aynu is the counted head noun" />
+
+<Example
+	ain="tu kunkutu ikasma asisne aynu"
+	gloss="two ten over five person"
+	free="Twenty-five people."
+	cite="Yamabe-Kindaichi 1913" page="§18" dialect="West"
+	note="same value as above but with ikasma; cited Sakaguchi 2022: 76" />
+
+The teens-modelled order (digit preposed) is also used for ordinal-like day
+counts:
+
+<Example
+	ain="sinepisan too ikasma tu kunkuto too-ho"
+	gloss="nine day over two ten day-NMLZ"
+	free="On the twenty-ninth day."
+	cite="Yamabe-Kindaichi 1913" page="§182" dialect="West"
+	note="D ikasma C-kunkutu order; 29 = 'nine over twenty'; cited Sakaguchi 2022: 76" />
+
+Decimal bases stack freely. The largest composites simply juxtapose
+hundreds, tens, and units, with the head noun last:
+
+<Example
+	ain="tupesan tanku asisne kunkuto aynu"
+	gloss="eight hundred five ten person"
+	free="Eight hundred and fifty people."
+	cite="Yamabe-Kindaichi 1913" page="§2" dialect="West"
+	note="stacked bases: tupesan-tanku '800' + asisne-kunkuto '50'; cited Sakaguchi 2022: 77" />
+
+<Example
+	ain="sine tanku tu kunkutu ikoro"
+	gloss="one hundred two ten money"
+	free="One hundred and twenty yen."
+	cite="Yamabe-Kindaichi 1913" page="§35" dialect="West"
+	note="120 = sine tanku '100' + tu kunkutu '20', Sinitic order, no ikasma; cited Sakaguchi 2022: 76" />
+
+For numbers in the tens of thousands no dedicated base is recorded; instead a
+coefficient is attached to *wantanku* "thousand", or two number-nominals are
+juxtaposed multiplicatively. <Cite key="Sakaguchi 2022" page="74" /> stresses that
+telling the coefficient-plus-base type ("C × base") from the multiplicative
+nominal-times-nominal type is essential to reading the value correctly. Both
+appear in one breath in Yamabe's text:
+
+<Example
+	ain="hohne wantanku re kunkutu wantanku pahno an ikoro"
+	gloss="twenty.times thousand three ten thousand up.to exist money"
+	free="Money amounting to twenty or thirty thousand (yen)."
+	cite="Yamabe-Kindaichi 1913" page="§35" dialect="West"
+	note="20,000 = coefficient hohne + base wantanku; 30,000 = multiplicative re kunkutu wantanku ('thirty × thousand'); cited Sakaguchi 2022: 74" />
+
+The richest vigesimal data, from the West-central/SE coast in
+<Cite key="Dobrotvorskij 1875" paren={false} />, uses a *scaling* vigesimal in
+which each base is ten times the last: *hoh* "twenty" (used 20–199),
+*(sine)wano* "two hundred" (= ten twenties), and *way(sine)wano* "two thousand"
+(= ten two-hundreds). Because each base scales by ten, four hundred and eight
+thousand are *not* themselves bases (<Cite key="Sakaguchi 2022" page="78" />,
+§6). Mid-block values use undercounting with *ikasma*, e.g. 221 =
+*sine[h] ikasma sinehoh ikasma sinewano*; this system can even express figures
+as large as four million (*waysinewano waywanho* = 2,000 × 2,000).
+
+## Numeral classifiers and counters
+
+When a numeral counts a noun it normally takes a counter suffix appropriate to
+the semantic domain (<Cite key="Chiri 1942" />, §113):
+
+| Counter | Domain | Examples |
+|---------|--------|----------|
+| -p / -pe | things (general) | sine-p, ine-p, iwan-pe |
+| -aynu (SA) | persons | sine'aynu, iwanaynu |
+| suy | times / occasions | ar-suy "once", tu-suy, re-suy |
+| -to / -rerko | days | sine-to "one day", ine-rerko |
+| tem | fathoms (arm-span) | sine-tem, tu-tem |
+| ichiri | Japanese *ri* (league) | sine ichiri |
+
+The general thing-counter <Gl t="CL.INAN" /> *-p / -pe* attaches to the counting
+form and covers inanimates (and, broadly, animals and people):
+
+<Example
+	ain="suma tu-p ku=kor"
+	gloss="stone two-CL 1SG=have"
+	free="I have two stones."
+	cite="Chiri 1942" page="§113" dialect="Sakhalin"
+	note="thing classifier -p on the counting numeral tu-p 'two (items)'" />
+
+For counting persons, Hokkaido has allomorphic *-n / -iw* (as in
+<Gl t="CL.PERS" /> *sine-n* "one person"), and Chiri cites this form in his
+general discussion:
+
+<Example
+	ain="menoko sine-n ek"
+	gloss="woman one-CL.PERS come"
+	free="One woman came."
+	cite="Chiri 1942" page="§113" dialect="Sakhalin"
+	note="HA-style person classifier -n cited in Chiri's general discussion" />
+
+Sakhalin proper, however, drops the allomorphy and uses a transparent person
+counter *-aynu* "person": *sine'aynu* "one person", *iwanaynu* "six persons"
+(<Cite key="Murasaki 2009" page="77" />). Whether the West coast also retains a
+bound *-n / -iw* counter alongside *-aynu* is [uncertain] in the sources read.
+The length counter *tem* "fathom" is seen with a *tu / re* "two-or-three"
+correlative meaning "a few":
+
+<Example
+	surface="rerek ajnu tu-tem re-tem či-nospa."
+	ain="rerek ajnu tu-tem re-tem ci=nospa"
+	gloss="pale man two-fathom three-fathom 1PL=chase"
+	free="We chased the pale man two or three fathoms."
+	cite="Chiri 1942" page="§113.V" dialect="Sakhalin"
+	note="length classifier tem; tu/re correlative = 'a few'" />
+
+For the counter of occasions, "once" is regularly *ar-suy* rather than
+*sine suy* across the dialects including Sakhalin; <Cite key="Kirikae 2006" page="231" />
+takes *ar-* "one of a pair / half" to be a pre-*sine* exponent of "one" surviving
+in such frozen forms. One further counting word, *atujta* "ten head (of hunted
+animals or hides)", is a frozen, non-productive form; its exact value is
+[uncertain], glossed variously as ten, forty, two hundred, or simply a vague
+large number across the sources.
+
+## Quantifiers and fractions
+
+The interrogative quantifier is <W w="hempahno" gloss="how many" /> "how many,
+how much", used to question quantity:
+
+<Example
+	surface="mikan hempahno 'okay hii?"
+	ain="mikan hempahno 'okay hii"
+	gloss="mandarin how.many exist.PL Q"
+	free="How many mandarins are there?"
+	cite="Murasaki 2024" page="Lesson 7" dialect="West" />
+
+Price and amount are questioned with the same frame applied to the possessed noun
+*'atayehe* "its price":
+
+<Example
+	surface="tah 'atayehe hempahno 'ani hii?"
+	ain="tah 'ataye-he hempahno 'an-i hii"
+	gloss="this price-POSS how.much exist-? Q"
+	free="How much does this cost?"
+	cite="Murasaki 2024" page="Lesson 7" dialect="West"
+	note="segmentation of 'ani is tentative" />
+
+Universal quantification uses <W w="'okore" gloss="all" /> "all, the whole",
+seen above in *'atayehe 'okore* "the whole price". Fractions are expressed with
+*enko* "half" (West/Soya <W w="enko" gloss="half" />, vs. Saru *aremko*, Hokkaido
+*emko*), linked to a whole number by the comitative *tura* "with":
+
+<Example
+	ain="enko tura tu cep"
+	gloss="half with two month"
+	free="A month and a half."
+	cite="Chiri 1942" page="§56" dialect="West"
+	note="fraction enko 'half' linked by tura 'with'; cf. enko tura tu ichiri '1.5 ri'" />
+
+Finally, the noun counted by a teen may be repeated in full rather than reduced to
+a classifier, giving a full-repetition pattern: *sine suma ikasma wan suma* "eleven
+stones", literally "one stone over ten stones"
+(<Cite key="Chiri 1942" />, §114), where the head noun *suma* "stone" recurs in
+both the digit and the base portions. **Ordinals** in Sakhalin are not covered by
+the sources consulted here [gap].
