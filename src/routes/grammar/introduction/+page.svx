@@ -1,0 +1,104 @@
+---
+title: Introduction
+num: '1'
+part: Foundations
+status: draft
+blurb: What this grammar is, how to read its examples and citations, and the conventions it follows.
+sources:
+  - Chiri 1942
+  - Murasaki 1979
+  - Dal Corso 2024
+  - Piłsudski 1912
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## What this grammar is
+
+This is a reference grammar of **Sakhalin Ainu** — the variety of the Ainu
+language (autonym *Enchiw*) spoken until the late twentieth century across the
+island of Sakhalin (Japanese *Karafuto*, Russian *Sakhalin*). It aims to
+describe the language *on its own terms*: as a coherent system, documented from
+its own sources, rather than as a footnote to the better-known Hokkaido
+varieties. Hokkaido Ainu is invoked only where an explicit contrast is
+illuminating; reading this grammar presupposes no knowledge of it.
+
+Three commitments shape the book:
+
+- **Evidence-based.** Every grammatical statement is anchored in primary
+  documentation or the descriptive literature, and attributed. Where the
+  sources disagree or fall silent, the text says so rather than papering over
+  the gap.
+- **Interlinear throughout.** Examples are glossed morpheme-by-morpheme
+  following the [Leipzig Glossing Rules](https://www.eva.mpg.de/lingua/resources/glossing-rules.php),
+  and each carries its source. Hover any small-cap gloss — for instance
+  <Gl t="INDEF" /> or <Gl t="1SG.A" /> — to read its expansion.
+- **Connected.** Ainu forms link to the [dictionary](/); citations link to the
+  [References](/grammar/references); and the examples are drawn from the actual
+  Sakhalin text corpus rather than invented.
+
+## How to read the examples
+
+A numbered interlinear example looks like this:
+
+<Example
+	surface="ku-sapaha"
+	ain="ku-sapa-ha"
+	gloss="1SG.PSR-head-POSS"
+	free="my head"
+	cite="Dal Corso 2025"
+	dialect="Sakhalin"
+/>
+
+The first line (when given) is the surface form; the second is its morpheme
+segmentation, with affixes joined by a hyphen `-` and clitics by `=`; the third
+aligns a gloss to each morpheme. Lexical glosses are written in plain text
+(*head*); grammatical glosses are written in <span style="font-variant-caps: all-small-caps">small capitals</span>
+and are explained on hover. The translation in single quotes follows, then the
+source and the Sakhalin sub-variety the example illustrates.
+
+Forms cited in running prose are set like <W w="cise" gloss="house" /> — the
+Ainu word links to its dictionary entry and renders in the script you have
+selected for the site (Latin, katakana, or Cyrillic).
+
+## Conventions
+
+Citations are author–year and link to the [References](/grammar/references),
+e.g. <Cite key="Chiri 1942" page="457" />. The grammar distinguishes the
+following provenance labels on examples:
+
+| Label | Variety | Principal sources |
+| --- | --- | --- |
+| West Sakhalin | West-coast dialects (Raychishka, Maoka, Shiraura …) | Murasaki, Furukawa, Tangiku |
+| East Sakhalin | East-coast dialects (Taraika …) | Piłsudski 1912, Dal Corso |
+| Sakhalin | feature shared across the island / sub-variety not specified | — |
+| Hokkaido | cited only for explicit contrast | — |
+
+Unless noted, the West-coast varieties are taken as the descriptive baseline,
+because they are the most fully documented; East-coast data is flagged wherever
+it diverges or fills a gap.
+
+## Situating this grammar
+
+Sakhalin Ainu has been described before, but never in a single modern,
+open, corpus-linked reference work. The foundations were laid by Chiri
+Mashiho's *Ainu gohō kenkyū* <Cite key="Chiri 1942" />, a study explicitly
+"centred on the Sakhalin dialect," and by Kyōko Murasaki's two-volume
+*Karafuto Ainugo* <Cite key="Murasaki 1979" paren={false} />, based on a decade
+of fieldwork with the last West-coast speakers. The richest body of natural
+text remains Bronisław Piłsudski's *Materials for the Study of the Ainu
+Language and Folklore* <Cite key="Piłsudski 1912" paren={false} />, recorded on
+the east coast in 1903–04. More recent work — especially the descriptive and
+typological studies of Anna Bugaeva, Ryō Sakaguchi, and Elia Dal Corso — has
+substantially sharpened our picture of the system. This grammar synthesises
+that tradition and grounds it in the texts.
+
+The chapters that follow move from the [language and its speakers](/grammar/the-language)
+and [sound system](/grammar/phonology) through the [noun phrase](/grammar/nouns-and-possession)
+and the richly inflected [verb](/grammar/person-marking) to the
+[syntax of the clause](/grammar/clause-structure).

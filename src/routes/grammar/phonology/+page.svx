@@ -1,0 +1,334 @@
+---
+title: Segmental Phonology
+num: '5'
+part: Phonology and Prosody
+status: draft
+blurb: The vowels and consonants of Sakhalin Ainu, their West-coast baseline values, and the allophony that distinguishes the two coasts.
+sources:
+  - Chiri 1942
+  - Itabashi 2001
+  - Dal Corso 2024
+  - Piłsudski 1912
+  - Tangiku 1998
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Overview
+
+Sakhalin Ainu shares with every other Ainuic variety a small, symmetrical
+five-vowel system and a likewise modest consonant inventory. What sets it apart
+phonologically is not the size of these inventories but two contrasts that
+Hokkaido Ainu lacks: a phonemic **long–short vowel distinction**, and a
+Sakhalin-only **coda fricative** (written *x*, surfacing word-finally as *-h*)
+that is the product of the island's signature coda-neutralisation process
+<Cite key="Chiri 1942" page="467" />. This chapter treats the segmental
+inventory and its allophony; the syllable-level mechanics of coda neutralisation
+are taken up in Chapter 6, prosody and length in Chapter 7.
+
+Throughout, the **West-coast** values (Raychishka, Maoka; documented by
+Murasaki) are taken as the descriptive baseline, with the **East-coast** values
+(Piłsudski's Tarayka, Tunayci, Ay, Hunup) flagged where they diverge. The two
+coasts differ enough at the phonetic level — in mid-vowel quality, in voicing,
+and in palatalisation — that some of what follows must be stated separately for
+each.
+
+## Vowels
+
+All Sakhalin dialects have the five vowel phonemes /a e i o u/, identical in
+number and rough quality to the rest of Ainuic <Cite key="Chiri 1942" page="467" />.
+
+| | Front | Central | Back |
+|---|---|---|---|
+| Close | i | | u |
+| Mid | e | | o |
+| Open | | a | |
+
+The mid vowels are where the two coasts part. In **West Sakhalin** the mid
+vowels are close-mid [e] and [o], and /u/ is strongly rounded, approaching [o]
+<Cite key="Chiri 1942" page="467" />. In **East Sakhalin**, as recorded by
+Piłsudski, the mid vowels are open-mid /ɛ/ and /ɔ/, contrasting with the
+West-coast [e o]; the close vowels /i u/ have lax allophones [ɪ ʊ] in unaccented
+syllables, and /e/ raises to a centralised [ɨ] (Piłsudski's grapheme *y*)
+word-finally after a nasal-plus-dental cluster <Cite key="Dal Corso 2024" page="60" />.
+This last vowel is visible in the surface form Piłsudski transcribes for
+<W w="ciwente" gloss="be destroyed" />:
+
+<Example
+	surface="ćivéndy"
+	ain="ciwen-te"
+	gloss="be.destroyed-CAUS"
+	free="(it) was destroyed"
+	cite="Dal Corso 2024" page="60"
+	dialect="East" />
+
+### Vowel length
+
+Sakhalin Ainu is, on the standard analysis, the only Ainu variety with a robust
+**phonemic** long–short vowel contrast <Cite key="Itabashi 2001" page="88" />.
+In Hokkaido Ainu accented open syllables are realised long, but length there is
+non-distinctive (pitch carries the contrast); Sakhalin has lost distinctive
+pitch and reassigned the contrast to length, behaving as a mora-counting
+language <Cite key="Itabashi 2001" page="94" />. Long vowels are written double
+in the modern Latin orthography (*aa, ee, ii, oo, uu*).
+
+A set of open monosyllables is always long: <W w="cii" gloss="ripen" />,
+<W w="nii" gloss="tree" />, <W w="pee" gloss="eat" />, <W w="ree" gloss="name" />,
+<W w="aa" gloss="sit" />, <W w="too" gloss="lake" />, <W w="poo" gloss="child" />,
+<W w="kuu" gloss="drink" />, <W w="ruu" gloss="road" />
+<Cite key="Itabashi 2001" page="89" />. Length also surfaces on the accented
+open syllable of polysyllables — <W w="huure" gloss="red" />,
+<W w="heese" gloss="breathe" />, <W w="heekopo" gloss="younger sister" /> — and
+the contrast is real in connected speech, as in this West-coast clause where
+both the verb *kuu* 'drink' and the modifier *seeseh* 'warm' carry long vowels:
+
+<Example
+	ain="ne'anah 'e'ani ne'ampe seeseh wahka kuu waa"
+	gloss="then 2SG.PRO TOP warm water drink FIN"
+	free="Then, you drink warm water."
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/09#6"
+	dialect="West" />
+
+<Example
+	ain="nam wahka ku=kuu rusuy"
+	gloss="cold water 1SG.A=drink DESID"
+	free="I want to drink cold water."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/07#3"
+	dialect="West" />
+
+<Cite key="Chiri 1942" page="467" paren={false} /> notes a phonetic wrinkle:
+while /a e o/ lengthen cleanly to *aa ee oo*, the close vowels /i u/ tend to
+diphthongise when long, so that a "long" *ii* is phonetically [iy] and a "long"
+*uu* is [uw] (his examples *pū* 'storehouse' = *puw*, *cī* = *ciy*). He also
+records that accented word-initial vowels begin with a glottal onset that is
+"especially conspicuous in the Sakhalin dialect" — see the glottal stop below.
+The precise minimal pairs proving phonemic length are thin in the available
+sources, and length is in part inferred from the Hokkaido pitch correspondence;
+the contrast is best supported for open monosyllables [uncertain]
+<Cite key="Itabashi 2001" page="95" />.
+
+## Consonants
+
+<Cite key="Chiri 1942" page="467" paren={false} /> gives the Sakhalin consonant
+phonemes as **p t k c s h x m n r w y** — twelve, of which *x* is unique to
+Sakhalin and occurs only in the coda. The following chart gives the West-coast
+baseline; parenthesised segments are marginal or coast-specific.
+
+| | Bilabial | Alveolar | Palatal | Velar | Glottal |
+|---|---|---|---|---|---|
+| Plosive | p | t | | k | (ʔ) |
+| Affricate | | | c /t͡ɕ/ | | |
+| Fricative | (v) | s | | (x) | h |
+| Nasal | m | n | | | |
+| Tap | | r /ɾ/ | | | |
+| Approximant | w | | y | | |
+
+Two qualifications attach to this chart for the East coast. First,
+<Cite key="Dal Corso 2024" page="59" paren={false} /> analyses Piłsudski's East
+Sakhalin with eleven consonants — **p t k t͡ɕ m n s v h ɾ j** — adding a
+labiodental /v/ (provisional, and probably an allophone of underlying /w/) and
+recording no glottal stop at all. Second, the velar fricative *x* is, on the
+West-coast analysis, not an independent onset phoneme but the debuccalised
+realisation of coda /p t k r/; it never begins a syllable
+<Cite key="Chiri 1942" page="471" />. (Dal Corso raises, but does not settle,
+whether a distinct word-initial /x/ exists in a handful of East Sakhalin words
+such as *hosipi* → [xɔɕipi] 'return' [uncertain]
+<Cite key="Dal Corso 2024" page="62" />.) Because coda neutralisation is the
+defining Sakhalin process, it is treated in full in Chapter 6; here it is enough
+to see the underlying plosive resurface before a vowel-initial suffix. The noun
+<W w="teh" gloss="hand" /> (underlyingly /tek/) shows its /k/ again as soon as
+the vowel-initial possessive suffix is added:
+
+<Example
+	ain="ku=tek-ihi ka rupus"
+	gloss="1SG.A=hand-POSS too be.cold"
+	free="My hand, too, is cold."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/12#1"
+	dialect="West"
+	note="surface tekihi; the /k/ neutralised in word-final teh resurfaces before the vowel of -ihi" />
+
+### The glottal stop
+
+A glottal stop [ʔ] appears before accented word-initial vowels and is, by
+Chiri's account, more salient in Sakhalin than in Hokkaido
+<Cite key="Chiri 1942" page="467" />. In the West-coast / modern revitalisation
+orthography it is written with an apostrophe (*'aynu*, *'an*, *'itah*), and
+Dal Corso treats it as provisionally phonemic in West Sakhalin (it varies
+freely) <Cite key="Dal Corso 2024" page="59" />. For the East coast its status
+cannot be ascertained: Piłsudski "does not mention this sound at all," an
+apparent gap of his self-described "Slav ear" rather than positive evidence of
+its absence [uncertain] <Cite key="Dal Corso 2024" page="60" />. Where the
+underlying glottal stop interacts with a preceding coda it can leave an indirect
+trace, as in the East-coast sequence below, where the coda of *nah* surfaces as
+[x] precisely because a following word-initial element (here possibly a glottal
+stop) blocks open-syllable status:
+
+<Example
+	surface="nax án"
+	ain="nah an"
+	gloss="so EXIST"
+	free="to be so"
+	cite="Dal Corso 2024" page="61"
+	dialect="East"
+	note="underlying /nak/; coda debuccalised to [x] before the vowel-initial an" />
+
+## Allophony
+
+### Voicing of plosives
+
+Voicing and aspiration are non-distinctive everywhere in Ainu
+<Cite key="Chiri 1942" page="467" />, but the *amount* of allophonic voicing
+divides the coasts. In **East Sakhalin** intervocalic /p t k/ are commonly
+voiced ([p̬ t̬ k̬]), and Piłsudski transcribes the voicing overtly with *b d g*
+— as in *paykara* → [pajk̬aɾa] 'spring' — with further voicing after /y/ and,
+sporadically, after a nasal <Cite key="Dal Corso 2024" page="60" />. In
+**West Sakhalin** /p/ never voices and /t k/ rarely do
+<Cite key="Dal Corso 2024" page="61" />. Chiri (1942: 467) records the
+post-nasal voicing that both coasts share — *sanpe* → *sambe* 'heart', *konci* →
+*konji* 'cap' — but, confusingly, reports *more* voicing on the west coast than
+the east, the reverse of Piłsudski's and Murasaki's picture; the discrepancy is
+plausibly due to later Japanese contact eroding voicing in Murasaki's West-coast
+data <Cite key="Dal Corso 2024" page="61" />. In all varieties an accented onset
+is voiceless.
+
+<Example
+	surface="pájgara"
+	ain="paykara"
+	gloss="spring"
+	free="spring (the season)"
+	cite="Dal Corso 2024" page="61"
+	dialect="East"
+	note="Piłsudski's g records the voiced [k̬] allophone of /k/ intervocalically" />
+
+### Palatalisation (East only)
+
+East Sakhalin palatalises /p/ and /k/ — but not /t/ — before /ɛ/, a process
+Piłsudski marks with an acute on the consonant; it is entirely absent from the
+West coast <Cite key="Dal Corso 2024" page="61" />.
+
+<Example
+	surface="emújḱe"
+	ain="emuyke"
+	gloss="all"
+	free="all"
+	cite="Dal Corso 2024" page="61"
+	dialect="East"
+	note="acute on ḱ = palatalised [kʲ] before /ɛ/; West Sakhalin has plain emuyke" />
+
+### The fricatives /s/ and /h/
+
+/s/ has a systematic alveolo-palatal allophone [ɕ] (Piłsudski's *ś*, Chiri's
+*š*) adjacent to /i/, before /n/, and before plosives after /i/; word-initially
+before a non-/i/ vowel, [ɕ] and [s] vary freely (*śuy* ~ *suy* 'again')
+<Cite key="Dal Corso 2024" page="62" />.
+<Cite key="Chiri 1942" page="467" paren={false} /> notes that, whereas Hokkaido
+writes *š* widely, Sakhalin generally prefers plain *s* except before /i/ and in
+codas.
+
+<Example
+	surface="śine"
+	ain="sine"
+	gloss="one"
+	free="one"
+	cite="Piłsudski 1912" page="5"
+	dialect="East"
+	note="ś = [ɕ], the allophone of /s/ before /i/; modern Latin writes sine" />
+
+/h/ has a labial allophone [ɸ] (written *f*) before and after /u/. This is
+**systematic in West Sakhalin** but only sporadic in the East, where it competes
+with retention of [h] (compare *hura* → [ɸuɾa] 'smell' with *huhkara* →
+[huxkaɾa] 'small forest') <Cite key="Dal Corso 2024" page="62" />. The same [ɸ]
+realisation is what surfaces when a coda /p/ debuccalises after /u/ (e.g.
+*cup* → *cuf* 'sun'; see Chapter 6).
+
+<Example
+	surface="fura"
+	ain="hura"
+	gloss="smell"
+	free="smell"
+	cite="Piłsudski 1912" page="6"
+	dialect="East"
+	note="f = [ɸ], realisation of /h/ adjacent to /u/; underlying hura" />
+
+### The affricate /c/
+
+The single affricate /c/ is alveolo-palatal /t͡ɕ/ — Piłsudski likens his *ć* to
+Polish *ć* — with a voiced [d͡ʑ] variant after a nasal
+<Cite key="Dal Corso 2024" page="63" />.
+
+<Example
+	surface="únʑ́i"
+	ain="unci"
+	gloss="fire"
+	free="fire"
+	cite="Dal Corso 2024" page="63"
+	dialect="East"
+	note="ʑ́ = [d͡ʑ], the post-nasal voiced allophone of /c/; modern Latin writes unci" />
+
+### The liquid /r/
+
+/r/ is an alveolar tap [ɾ] between vowels, but word-initially and after /n/ it
+takes on a retroflex, plosive-like quality, which both Piłsudski's notation and
+Chiri's description register; Chiri notes that Sakhalin onset *r* often sounds
+like *t*/*d*, especially after a nasal (*retara* → *tetara* 'white', *pen-ram* →
+*pentam* 'chest') <Cite key="Chiri 1942" page="467" /><Cite key="Dal Corso 2024" page="64" />.
+A word-final /r/ does not surface as such: it is either followed by an echo
+vowel copying the root vowel — so that Hokkaido *kor* 'have' corresponds to
+Sakhalin <W w="koro" gloss="have" /> — or, less often, debuccalises to *-h*
+<Cite key="Chiri 1942" page="472" />. That the echo vowel is phonologically
+present, not a mere transcription artefact, is shown by sandhi: before the
+desiderative *rusuy*, the underlying coda /r/ of *koro* re-emerges and assimilates
+(*kor rusuy* → *kon rusuy*), so the surface vowel of *koro* alternates with zero
+<Cite key="Tangiku 1998" page="227" />.
+
+<Example
+	ain="hemata e=kon rusuy hii"
+	gloss="what 2SG.A=have DESID Q"
+	free="What do you want (to have)?"
+	cite="Tangiku 1998" page="227"
+	dialect="West"
+	note="koro 'have' surfaces as kon before rusuy, exposing the underlying coda /r/" />
+
+### Nasals
+
+Coda /m/ is variably realised [n] in casual West-coast speech (*isam* → [isan]
+'not exist'), but is /m/ when carefully pronounced or before a vowel; it is
+obligatorily [n] (or [ŋ]) before /k t n/ <Cite key="Chiri 1942" page="472" />.
+The same assimilation appears in East Sakhalin:
+
+<Example
+	surface="sánḱeta"
+	ain="sam-ke-ta"
+	gloss="side-PTV-LOC"
+	free="beside it"
+	cite="Dal Corso 2024" page="65"
+	dialect="East"
+	note="/m/ → [n]~[ŋ] before /k/; the following /k/ is also palatalised (East)" />
+
+## Inventory contrasts at a glance
+
+The table below summarises the segmental properties that diagnose Sakhalin
+against Hokkaido, and West against East, gathered from the discussion above
+<Cite key="Chiri 1942" page="467" /><Cite key="Dal Corso 2024" page="60" /><Cite key="Itabashi 2001" page="89" />.
+
+| Feature | West Sakhalin | East Sakhalin | Hokkaido (contrast) |
+|---|---|---|---|
+| Mid vowels | close-mid [e o] | open-mid [ɛ ɔ] | [e o] |
+| Phonemic vowel length | yes | yes | no (pitch instead) |
+| Coda fricative *x* / *-h* | yes | yes ([x] before C) | no (codas retained) |
+| Glottal stop /ʔ/ | phone, free variation | not recorded | phone |
+| Intervocalic plosive voicing | rare; /p/ never | common, incl. /p/ | non-distinctive |
+| Palatalisation before /ɛ/ | no | yes (/p k/) | — |
+| /h/ → [ɸ] near /u/ | systematic | sporadic | — |
+| Labiodental /v/ | absent | provisional | — |
+
+The two coast-defining facts of the *segmental* system, then, are the open-mid
+versus close-mid mid vowels and the rich East-coast voicing and palatalisation;
+the two Sakhalin-defining facts — phonemic length and the coda fricative — cut
+across both coasts and connect this chapter to the prosody of Chapter 7 and the
+phonotactics of Chapter 6.

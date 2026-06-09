@@ -5,9 +5,13 @@
 	import { extrapolateSakhalinFromHokkaido } from '$lib/utils/itah';
 	import { languageTag } from '$lib/paraglide/runtime';
 	import { cyrl2latn, latn2cyrl, latn2kana, kana2latn } from '$lib/script';
+	import { page } from '$app/stores';
+	import { get } from 'svelte/store';
 
 	let sortBy: 'abc' | 'freq' | 'pos' = $state('freq');
-	let search = $state('');
+	// Prefill the search box from a ?q= query param so links from the grammar
+	// (the <W> component) and elsewhere land on a filtered dictionary view.
+	let search = $state(get(page).url.searchParams.get('q') ?? '');
 	let sorted = $derived(
 		data.toSorted((a, b) => {
 			if (sortBy === 'abc') {

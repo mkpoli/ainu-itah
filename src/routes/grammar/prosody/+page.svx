@@ -1,0 +1,261 @@
+---
+title: 'Prosody: Accent and Length'
+num: '7'
+part: Phonology and Prosody
+status: draft
+blurb: How Sakhalin Ainu replaces the inherited pitch accent with phonemic vowel length, where length and glottal onset fall, and what this reveals about Proto-Ainu prosody.
+sources:
+  - Itabashi 2001
+  - Chiri 1942
+  - Hattori 1967
+  - Hattori-Chiri 1960
+  - Vovin 1993
+  - Murasaki 1979
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Overview
+
+Among the Ainu varieties, Sakhalin Ainu is prosodically distinctive in one
+decisive respect: it has reorganised the inherited suprasegmental system so that
+**vowel length**, not pitch, carries the contrast. Hokkaido Ainu is a
+pitch-accent language, in which one syllable per accentual word is realised with
+a high tone and the rest low; length there is predictable and non-distinctive.
+Sakhalin Ainu, by contrast, lacks a distinctive pitch contour and instead
+opposes phonemically **short** and **long** vowels, behaving as a
+mora-counting language <Cite key="Itabashi 2001" page="88" />. The two systems
+are not merely typologically different — they stand in a systematic historical
+correspondence, with Hokkaido high pitch matching Sakhalin length on the
+relevant syllables <Cite key="Itabashi 2001" page="94" />. This chapter
+describes the length contrast, its distribution, the pitch-to-length
+correspondence and what it implies for Proto-Ainu, the placement of accent and
+its behaviour under inflection, and the glottal onset of accented vowel-initial
+words.
+
+## Vowel length as the Sakhalin contrast
+
+That Sakhalin Ainu has phonemic vowel length is the strong form of a claim
+already hinted at by <Cite key="Chiri 1942" page="467" paren={false} />, who
+noted that the tendency to lengthen an accented open vowel was "especially
+marked in the Sakhalin dialect," and made explicit by
+<Cite key="Itabashi 2001" page="88" paren={false} />, who states that Sakhalin
+is the only Ainu variety with a reliable phonological length opposition.
+Phonetically, Chiri describes the lengthening differently by vowel quality: the
+non-high vowels *a e o* simply lengthen to *aa ee oo*, whereas high *i u* tend
+to be realised with an offglide, so that long *ī* is in effect *iy* and long *ū*
+is *uw* (thus <W w="puu" gloss="storehouse" /> is phonetically *puw* and *cī*
+'penis' is *ciy*) <Cite key="Chiri 1942" page="467" />.
+
+A class of open monosyllables is consistently long. These are the minimal
+free forms of the language — a single short open vowel does not normally stand
+as an independent word — and they include items such as <W w="cii" gloss="ripen" />,
+<W w="nii" gloss="tree" />, <W w="pee" gloss="eat" />, <W w="ree" gloss="name" />,
+<W w="aa" gloss="sit" />, <W w="too" gloss="lake" />, <W w="poo" gloss="child" />,
+<W w="kuu" gloss="drink" />, and <W w="ruu" gloss="road" />
+<Cite key="Itabashi 2001" page="89" />. The corpus bears these out in running
+text: the long vowel of <W w="too" gloss="lake" /> appears in West-coast
+conversational material, as does the long vowel of <W w="kuu" gloss="drink" />.
+
+<Example
+	ain="tara too kaata cikah renkayne 'okay"
+	gloss="that lake on bird many EXIST.PL"
+	free="‘On that lake there are many birds.’"
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/05#6"
+	dialect="West" />
+
+<Example
+	ain="nam wahka ku=kuu rusuy"
+	gloss="cold water 1SG.A=drink DESID"
+	free="‘I want to drink cold water.’"
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/07#3"
+	dialect="West" />
+
+Length is not confined to monosyllables. A long vowel also surfaces in the
+accented open syllable of a longer word, as in <W w="niirus" gloss="gums" />,
+<W w="heese" gloss="breathe" />, <W w="huure" gloss="be red" />, and
+<W w="tookes" gloss="afternoon" /> <Cite key="Itabashi 2001" page="89" />.
+The kinship term <W w="heekopo" gloss="younger sister" /> shows the long
+*ee* of an accented initial open syllable directly.
+
+<Example
+	ain="heekopo"
+	gloss="younger.sister"
+	free="‘younger sister’"
+	cite="Itabashi 2001" page="89"
+	dialect="West" />
+
+In connected West-coast text the same long vowels recur in everyday vocabulary —
+*seeseh* 'warm', *yuukara* 'sing', and again *kuu* 'drink' — so the contrast is
+robustly attested rather than an artefact of citation forms.
+
+<Example
+	ain="ne'anah 'e'ani ne'ampe seeseh wahka kuu waa"
+	gloss="then 2SG.PRO TOP warm water drink IMP"
+	free="‘Then, you drink the warm water.’"
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/09#6"
+	dialect="West" />
+
+<Example
+	ain="keeh aynu itah ani yuukara=an=ahci"
+	gloss="come.on Ainu language with sing=PRM.S=COLL"
+	free="‘Come on, let us sing in Ainu.’"
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/04#2"
+	dialect="West" />
+
+A caution is in order about the evidentiary basis. The clearest demonstration of
+phonemicity would be minimal pairs differing only in length, and these are thin
+in the available sources. <Cite key="Itabashi 2001" page="89" paren={false} />
+offers near-pairs such as *naa* 'large halibut' against *nisah* 'shin', but much
+of the argument for a true length contrast rests on the pitch correspondence
+discussed below rather than on a clean minimal-pair inventory. We therefore
+present length as phonemic, while flagging that the direct minimal-pair evidence
+is limited [uncertain].
+
+## The pitch-to-length correspondence
+
+The central finding of <Cite key="Itabashi 2001" paren={false} /> is that
+Sakhalin vowel length corresponds, syllable for syllable, to Hokkaido pitch
+accent. In Hokkaido an accented open syllable is phonetically long but length is
+not distinctive there — pitch is; in Sakhalin pitch is not distinctive and
+length takes over the contrastive burden. The two systems thus realise the same
+underlying prosodic prominence by different phonetic means
+<Cite key="Itabashi 2001" page="94" />, a conclusion that draws on the earlier
+dialect-comparative work of <Cite key="Hattori 1967" paren={false} /> and
+<Cite key="Hattori-Chiri 1960" paren={false} />.
+
+The correspondence is cleanest for open monosyllables, where Hokkaido high pitch
+(H) regularly matches a Sakhalin long vowel, and it extends to disyllables whose
+accent falls on an open syllable:
+
+| Hokkaido (pitch) | Sakhalin (length) | Gloss |
+|---|---|---|
+| ka (H) | kaa | thread |
+| hese (HL) | heese | breathe |
+| hure (HL) | huure | be red |
+
+(<Cite key="Itabashi 2001" page="94" />)
+
+The match is not perfect, and the exceptions are theoretically important. There
+are Hokkaido words with a *low*-pitched syllable that nonetheless correspond to a
+Sakhalin long vowel — for instance Hokkaido *nina* (LH) versus Sakhalin *niina*
+(HL) 'grind', and Hokkaido *sini* (LH) versus Sakhalin *siine* (HL) 'rest'
+<Cite key="Itabashi 2001" page="95" />. Here Sakhalin length cannot be derived
+from Hokkaido pitch by a simple one-to-one rule. <Cite key="Itabashi 2001" page="98" paren={false} />,
+following <Cite key="Vovin 1993" paren={false} /> and arguing against
+<Cite key="Hattori 1967" paren={false} />, takes such mismatches as evidence that
+Proto-Ainu possessed **both** distinctive length and distinctive pitch as
+independent features, with Hokkaido later collapsing length into a predictable
+correlate of pitch and Sakhalin doing the reverse. The robustness of the
+correspondence for open monosyllables but its irregularity elsewhere is exactly
+what such a two-feature reconstruction predicts.
+
+## Accent placement
+
+Sakhalin Ainu is described as a mora-counting language in which the minimal
+accent-bearing free form is at least two morae <Cite key="Itabashi 2001" page="89" />,
+following the mora analysis of <Cite key="Murasaki 1979" paren={false} />. The
+relevant mora types are CV, V, and a coda C drawn from the reduced Sakhalin
+coda set /s m n w y h/. This bimoraic minimum is why the open monosyllables of
+the previous section are long: a single short open vowel would be only one mora
+and could not by itself constitute an accentable word, so the lexical
+monosyllables surface with a long (bimoraic) vowel instead.
+
+Because pitch is not distinctive, "accent" in Sakhalin is best understood as the
+prominence that licenses length and the glottal onset (below) rather than as a
+contrastive tone. Its most clearly documented behaviour is its **stability under
+inflection**, which sets Sakhalin apart from Hokkaido in the possessive
+(personal-stem) paradigm.
+
+## Accent stability in the possessive paradigm
+
+When a noun takes the possessed (affiliative) suffix, Hokkaido and Sakhalin
+treat the prominence differently. Hokkaido characteristically shifts accent
+rightward onto or toward the added syllable; Sakhalin keeps it where it already
+was, on the first syllable of the base, while generalising the possessive suffix
+to a single shape **-he** across stem types that Hokkaido handles with several
+distinct allomorphs <Cite key="Chiri 1942" page="1049" />,
+<Cite key="Chiri 1952" page="463" />. The result is a paradigm in which the
+prosodic head of the word does not move even as material is suffixed to it.
+
+<Example
+	ain="haw-he"
+	gloss="voice-POSS"
+	free="‘his/her voice’"
+	cite="Chiri 1942" page="1049"
+	dialect="Sakhalin"
+	note="w-final noun takes Sakhalin -he; accent stays on the first syllable, unlike Hokkaido" />
+
+<Example
+	ain="ni-he"
+	gloss="tree-POSS"
+	free="‘his/her tree’"
+	cite="Chiri 1952" page="463"
+	dialect="Sakhalin"
+	note="i-final monosyllable; Sakhalin -he where Hokkaido has ni-ye / niye-he" />
+
+<Example
+	ain="ku-he"
+	gloss="bow-POSS"
+	free="‘his/her bow’"
+	cite="Chiri 1942" page="1045"
+	dialect="Sakhalin"
+	note="u-final monosyllable takes Sakhalin -he" />
+
+The full morphophonology of the -he generalisation belongs to the morphophonology
+and possession chapters; what matters prosodically is that the accent does not
+migrate to the suffix. This non-shift is, alongside the length contrast, one of
+the two diagnostic prosodic differences between the island and the mainland
+<Cite key="Chiri 1942" page="469" />.
+
+## The glottal onset of accented vowel-initial words
+
+A vowel-initial word that bears accent begins with a glottal stop, and
+<Cite key="Chiri 1942" page="467" paren={false} /> notes that this glottal onset
+is "especially conspicuous in Sakhalin." In the West-coast tradition this is
+reflected directly in the orthography, where accented vowel-initial words are
+written with an apostrophe — *'itah* 'word, speak', *'e'ani* 'you', *'okay*
+'they exist'. The onset is prosodically conditioned: it accompanies the accented
+syllable rather than being a free segment of its own.
+
+<Example
+	ain="tay sine=an=too ta soy peeka horokewpo itah haw an"
+	surface="tay sineantoo ta soy peeka horokewpo itah haw an."
+	gloss="that one=COP=day at outside along young.man speak voice EXIST"
+	free="‘One day, outside (the house) there was the voice of a young man speaking.’"
+	cite="ainu-corpora (樺太)" page="chiba-354/43#14"
+	dialect="East"
+	note="East-coast (Taraika-area) Piłsudski text; segmentation mine" />
+
+This example also makes a useful comparative point. East-coast material
+transcribed by Piłsudski does not consistently mark the glottal onset — whether
+because the onset is genuinely weaker on the east coast or because it escaped the
+transcriber's ear is not recoverable from the record, and <Cite key="Dal Corso 2024" page="59" paren={false} />
+treats the glottal stop as indeterminate for the East. In the West-coast sources
+the onset is regular enough to be orthographically systematic. The status of the
+glottal stop as a phoneme (as opposed to a prosodic concomitant of accent) is
+discussed in the segmental chapter; here it is enough to note that its surfacing
+is tied to prominence [uncertain].
+
+## Diachrony and gaps
+
+The prosodic picture, then, is of a system that has inverted the inherited
+relationship between pitch and length. Where Proto-Ainu plausibly distinguished
+both, Sakhalin retained and phonemicised length while losing distinctive pitch,
+and Hokkaido did the converse <Cite key="Itabashi 2001" page="98" />,
+<Cite key="Vovin 1993" />. Several questions remain genuinely open. Direct
+minimal-pair evidence for the Sakhalin length contrast is thinner than one would
+like, and much of the case rests on the cross-dialect correspondence rather than
+on internal Sakhalin oppositions [uncertain]. The accent itself is documented
+mainly through its effects — length, glottal onset, and the non-shift in the
+possessive — rather than through systematic instrumental study, and for Kuril
+Ainu the prosody is essentially unrecoverable from the fragmentary eighteenth-
+and nineteenth-century wordlists <Cite key="Itabashi 2001" page="91" /> [gap].
+What is secure is the typological headline: alone among the Ainu varieties,
+Sakhalin Ainu is a length language, and that single fact organises much of its
+prosody.

@@ -1,5 +1,8 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"reference_grammar": "アイヌ イタㇵ カンピ",
+	"reference_grammar_desc": "ソロワリ アイヌ イタㇵ カンピ。",
+	"read_grammar": "ヌカラ ヤン",
 	"dictionaries": "ソロワリ",
 	"aynu_itah": "アイヌイタㇵ",
 	"aynu_itah_description": "アイヌ　イタㇵ　アンイェ　コンテ　ワー！ソロワリ　アニ　イタㇵ　アンウチャカㇱヌㇷチ　テㇸ、ピリカ　カンピ　アンヌカラㇵチ　テㇸ、チエイワンケㇸ　アンエイワンケㇷチ テㇸ、ツ゚ラㇵチ　アイヌ　イタㇵ　エカーメスカラ　ヤン！アノカイ　イタㇵ　コヌプル　ウタリ　ウウェカリ　テㇸ　ウコイタカㇵチ　レンカイネ　エㇸ　クス ワー!",

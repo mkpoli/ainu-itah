@@ -1,0 +1,320 @@
+---
+title: Nouns and Possession
+num: '10'
+part: The Noun Phrase
+status: draft
+blurb: How Sakhalin Ainu nouns are classified, inflected for a possessor, and built into the conceptual, affiliative, and personal forms.
+sources:
+  - Chiri 1942
+  - Chiri 1952
+  - Bugaeva 2021
+  - Hattori 1961
+  - Sakaguchi 2024
+  - Murasaki 2013
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Noun subclasses
+
+Sakhalin Ainu nouns are best classified by how they inflect, not by what they
+denote. <Cite key="Chiri 1942" paren={false} /> draws the primary line between
+**concrete (substantive) nouns** and **locative (relational) nouns**, with a
+residue of formal and non-inflecting nouns alongside (<Cite key="Chiri 1942" page="534-536" />; <Cite key="Sakaguchi 2024" page="19" />).
+
+| Subclass | Inflectional behaviour | Examples |
+| --- | --- | --- |
+| Concrete / substantive | takes an A-series possessor prefix; the possessed form marks ownership or affiliation | <W w="sapa" gloss="head" />, <W w="tek" gloss="hand" />, <W w="cise" gloss="house" /> |
+| Locative / relational | takes an O-series prefix; marks a spatial relation of a head noun, not ownership | <W w="ka" gloss="top" />, <W w="pok" gloss="underside" />, <W w="osmak" gloss="behind" /> |
+| Formal / bound | derived from possessed forms; evidential or nominalising, personal sense largely lost | <W w="ruhe" gloss="trace" />, <W w="siri" gloss="appearance" />, <W w="hawe" gloss="voice" /> |
+| Non-inflecting | no ownable property; no personal inflection | proper names, <W w="haru" gloss="spring" />, pronouns, numerals |
+
+A concrete noun has three derivationally layered forms. The **conceptual form**
+(概念形) is the bare citation stem; it names the concept only and is neutral as
+to number and possessor. The **affiliative form** (所属形) adds a **possessed
+suffix** (<Gl t="PSD" />) and fixes the noun as someone's; and the **personal
+form** (人称形) prefixes a possessor to the affiliative form
+(<Cite key="Chiri 1942" page="530-532" />; <Cite key="Sakaguchi 2024" page="19" />).
+The conceptual form is what surfaces as a bare core argument:
+
+<Example
+	ain="tan seta en=kupapa"
+	gloss="this dog 1SG.O=bite"
+	free="This dog bit me."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-beginner/17#0"
+	dialect="Sakhalin" />
+
+<Example
+	ain="tarampe seta nee hee"
+	gloss="that.thing dog COP Q"
+	free="Is that a dog?"
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/04#9"
+	dialect="West" />
+
+In both, <W w="seta" gloss="dog" /> stands unmarked for number or possessor.
+Crucially, the conceptual form is not interchangeable with the possessed one.
+<Cite key="Chiri 1942" paren={false} /> gives the classic minimal pair: the
+conceptual <W w="mah" gloss="woman" /> in <W w="mah" gloss="woman" /> *ne koro*
+'he took a woman as wife (generic)' refers to just any wife, whereas forcing the
+personal form *maci-hi* would yield the reading 'he took HIS (= another man's)
+wife' (<Cite key="Chiri 1942" page="530-531" />, via <Cite key="Sakaguchi 2024" page="104" />).
+The conceptual form also serves as an adnominal modifier, as the first member of
+compounds, in the vocative, and for natural phenomena owned by no one
+(<Cite key="Chiri 1942" page="530-532" />).
+
+## The possessed suffix (PSD)
+
+The affiliative form is built by adding a possessed suffix of the shape
+*-V(hV)*: a "weak" bare stem-vowel or a "strong/long" form inserting *-h-*
+before an echo vowel (<Cite key="Chiri 1942" page="532-533" />). The vowel
+partly tracks the stem's final segment, but for consonant-final stems it is
+partly lexical and must be learned word by word (<Cite key="Chiri 1942" page="533" />).
+
+| Conceptual form | Final segment | PSD (strong) | 3rd-person affiliative | Gloss |
+| --- | --- | --- | --- | --- |
+| sapa 'head' | -a | -ha | sapa-ha | 'his head' |
+| cise 'house' | -e | -he | cise-he | 'his house' |
+| hoko 'husband' | -o | -ho | hoko-ho | 'her husband' |
+| sik 'eye' | -k (C, monosyll.) | -ihi (~ -i) | sik-ihi (~ sik-i) | 'his eye' |
+| nan 'face' | -n | -uhu | nan-uhu | 'his face' |
+| ru 'track' | -u (monosyll.) | -he | ru-he | 'its track' |
+| aj 'arrow' | -j (diphthong) | -he | aj-he | 'his arrow' |
+| haw 'voice' | -w (diphthong) | -he | haw-he | 'his voice' |
+
+The basic personal/affiliative form is seen in the corpus on a face-part and on
+a kin term:
+
+<Example
+	ain="ku-nan-uhu"
+	gloss="1SG.A-face-PSD"
+	free="my face"
+	cite="Sakaguchi 2024" page="19"
+	dialect="East"
+	note="物語 04406; lit. 'this face'." />
+
+<Example
+	surface="kakan hokoho cise ohta ahupanihi neanpe"
+	ain="Kakan hoko-ho cise ohta ahup-an-ihi neanpe"
+	gloss="Kakan(name) husband-PSD house LOC enter-4.S-NMLZ TOP"
+	free="(Kakan said,) ‘When I went into my husband's house, …’"
+	cite="ainu-corpora (樺太)" page="chiba-354/43#30"
+	dialect="East"
+	note="hoko-ho 'her/the husband's', the strong affiliative of hoko 'husband'." />
+
+Two divergences from Hokkaido are diagnostic of Sakhalin, and both are instances
+of a general Sakhalin **generalisation of *-he*** (<Cite key="Chiri 1952" page="463-464" />).
+First, on diphthongal *-j/-w* stems Sakhalin uses *-he* (<W w="ajhe" gloss="his arrow" />, <W w="hawhe" gloss="his voice" />), where Hokkaido has *-e/-ehe* (Hokkaido *aje*, *ajehe*).
+
+<Example
+	ain="haw-he"
+	gloss="voice-PSD"
+	free="his voice"
+	cite="Chiri 1942" page="1049"
+	dialect="Sakhalin"
+	note="Sakhalin -he on a w-final stem (Hokkaido haw-e); accent stays on syllable 1." />
+
+Second, monosyllabic *-i/-u* stems take *-he* (<W w="nihe" gloss="his tree" />,
+<W w="kuhe" gloss="his bow" />), and polysyllabic *-i/-u* stems allow *-hi/-hu ~ -he*
+(<W w="kampihi" gloss="his letter" /> ~ *kampi-he*), against Hokkaido's invariant
+*-hi/-hu* (<Cite key="Chiri 1942" page="532" />; <Cite key="Chiri 1952" page="463" />).
+
+<Example
+	ain="ni-he"
+	gloss="tree-PSD"
+	free="his/its tree"
+	cite="Chiri 1952" page="463"
+	dialect="Sakhalin"
+	note="i-final monosyllable takes Sakhalin -he (Hokkaido ni-ye / niye-he)." />
+
+A further Sakhalin trait is prosodic: the accent stays on the first syllable of
+the possessed form (*rú-he*), whereas Hokkaido shifts it rightward
+(<Cite key="Chiri 1942" page="217" />). The underlying coda also resurfaces
+before the vowel-initial suffix, so that the coda-neutralised <W w="sik" gloss="eye" />
+(realised *sis*) reappears with its stop in *sik-i* 'his eye'
+(<Cite key="Chiri 1942" page="471" />).
+
+## Possessor prefixes: concrete vs. locative nouns
+
+The personal form prefixes a possessor to the affiliative form. The possessor
+prefixes are the **A-series** markers, identical to transitive-subject agreement:
+<Gl t="1SG" /> <W w="ku" gloss="1SG" />- (also AN-series *an-*, see below),
+<Gl t="2SG" /> *e-*, <Gl t="2PL" /> *eci-*, <Gl t="PRM" /> *an-*, and zero for
+the third person (<Cite key="Dal Corso 2025" page="190" />; <Cite key="Sakaguchi 2024" page="18" />).
+The A-form thus does double duty as subject marker and possessor:
+
+<Example
+	surface="ku-sapaha"
+	ain="ku-sapa-ha"
+	gloss="1SG.A-head-PSD"
+	free="my head"
+	cite="Dal Corso 2025" page="190"
+	dialect="Sakhalin" />
+
+<Example
+	surface="tan cis neanpe kuani ku-cipihi nee"
+	ain="tan cis neanpe kuani ku-cip-ihi nee"
+	gloss="this boat TOP 1SG.PRO 1SG.A-boat-PSD COP"
+	free="This boat is my boat."
+	cite="Sakaguchi 2024" page="19"
+	dialect="East"
+	note="資料 Nr.16; the free pronoun kuani co-occurs with the prefix ku-." />
+
+The free pronoun <W w="kuani" gloss="I" /> and the prefix *ku-* co-occur here:
+the prefix is the agreement marker, not the pronoun itself. **Locative
+(relational) nouns** behave differently. They mark the spatial ground of a head
+noun and take the **O-series** prefix, not the A-series — for the fourth person
+this is *i-*:
+
+<Example
+	surface="i-osmakene"
+	ain="i-osmak-e ene"
+	gloss="4.O-back-PSD to"
+	free="to behind me"
+	cite="Sakaguchi 2024" page="19"
+	dialect="East"
+	note="物語 03802; the 4th person here = ⟪1sg⟫. Relational noun takes O-series i-, not A-series." />
+
+The contrast between A-marked concrete nouns (*ku-sapa-ha* 'my head') and
+O-marked relational nouns (*i-osmak-e* 'behind me') is one expression of the
+broader S/A/O alignment described in the chapter on
+[person marking](/grammar/person-marking-alignment): the relational noun's
+ground patterns like a transitive object, the possessor like a transitive
+subject.
+
+A Sakhalin peculiarity of the 1sg possessor deserves note. East-coast and
+literary texts strongly favour the AN-series *an-* for the first person singular
+(also for 1pl, with no inclusive/exclusive split), whereas West-coast elicited
+paradigms (Hattori 1961) also record *ku-*; both are attested
+(<Cite key="Chiri 1942" page="530" />; <Cite key="Sakaguchi 2024" page="18" />).
+The full personal paradigm of <W w="sik" gloss="eye" /> illustrates the AN-series
+possessor and the optional plural (see [number marking](/grammar/noun-number)):
+
+| Person | Singular | Plural |
+| --- | --- | --- |
+| 1 / 4 | an-sik-i(hi) 'my eye' | an-sik-i(hi)=hcin 'our eyes' |
+| 2 | e-sik-i(hi) 'your eye' | eci-sik-i(hi)=hcin 'your(pl) eyes' |
+| 3 | sik-i(hi) 'his eye' | sik-i(hi)=hcin 'their eyes' |
+
+(<Cite key="Chiri 1942" page="530" />; <Cite key="Sakaguchi 2024" page="107" />,
+after Hattori 1961.)
+
+## Three constructions of possession
+
+<Cite key="Chiri 1942" paren={false} /> distinguishes three ways of expressing
+possession (<Cite key="Chiri 1942" page="532" />). The first is the
+**personal-form** construction just illustrated, where the possessor is a prefix
+(*an-maci-hi* 'my wife') or a preceding noun (*nispa maci-hi* 'the chief's wife').
+The second uses the verb <W w="koro" gloss="have" /> 'have' to head a possessive
+relative clause; the third, characteristic of elaborate epic style, combines the
+two (*an-koro an-maci-hi* 'my wife whom I have'). Sakhalin freely, and in Chiri's
+words "illogically", fuses these, yielding hybrids like *an-koro maci-hi*,
+<W w="cisehe" gloss="house" /> in *an-koro cise-he* 'my house', and *an-koro nai-he*
+'my river' (<Cite key="Chiri 1942" page="532" />).
+
+This freedom is part of a wider Sakhalin **breakdown of the person concept**:
+the language extends the possessed inflection to nouns that resist it elsewhere,
+and produces irregular forms such as <W w="ankotan" gloss="my village" /> beside
+the expected *an-kotan-uhu* (<Cite key="Chiri 1942" page="532" />). Diachronically,
+alienables that take the *kor* construction in Hokkaido — *seta* 'dog', for
+instance — instead inflect with PSD and plural in Sakhalin (*seta-ha=hcin*
+'his dogs'), suggesting Sakhalin extended affiliative inflection more widely than
+its sister varieties (<Cite key="Murasaki 1979" page="83" />; <Cite key="Sakaguchi 2024" />).
+
+## Alienable possession: the appositive *kor* construction
+
+<Cite key="Bugaeva 2021" paren={false} /> analyses Ainu as a Circum-Pacific
+**appositive-possession** language. The split is between obligatorily possessed
+**inalienables** (body parts, kin, relational nouns), which take the PSD and an
+A-prefix directly, and **non-possessible alienables** (animals, fish, plants,
+utensils), which cannot take the PSD and are possessed analytically by the verb
+*kor* 'have' heading a gapped prenominal relative clause. The possessor is the
+subject of *kor*, and the possessum is the gapped head:
+
+<Example
+	ain="__ ku-kor seta"
+	gloss="__ 1SG.A-have dog"
+	free="my dog (lit. ‘the dog that I have’)"
+	cite="Bugaeva 2021" page="55"
+	dialect="Sakhalin"
+	note="Alienable possession via kor in a gapped relative clause — the appositive type." />
+
+Because the linker is a verb, it retains verbal properties: it can be
+pluralised, aspect-marked, and stacked (e.g. *[ona-ha __ kor pa] p* 'all the
+things his father owned'). <Cite key="Bugaeva 2021" paren={false} /> reconstructs
+an older, richer set of classificatory possessive verbs (*a-mut emusi* 'the
+sword I wear', *a-hekote nispa* 'my husband') now largely replaced by general
+*kor*.
+
+Obligatorily possessed nouns, by contrast, never appear bare. With an
+unspecified possessor they take the fourth-person/indefinite *a-/an-*:
+
+<Example
+	ain="a-sik-ihi un"
+	gloss="4.A-eye-PSD FIN"
+	free="Eyes (lit. ‘people's / our eyes’)"
+	cite="Bugaeva 2021" page="54"
+	dialect="Sakhalin"
+	note="A body part is never bare; an unspecified possessor surfaces as 4th-person a-." />
+
+A caution is in order: <Cite key="Bugaeva 2021" paren={false} />'s examples of
+the *kor* construction are overwhelmingly Hokkaido (Saru) data, and a dedicated
+Sakhalin inventory of which nouns take *kor* versus the PSD is not yet available
+— a genuine gap. What is clear for Sakhalin is the opposite tendency just noted:
+nouns like *seta* 'dog' that would require *kor* in Hokkaido are found with the
+affiliative suffix on the island.
+
+## *utara* / *uta(h)* and the bound formal noun
+
+The word <W w="utara" gloss="kin, companions" /> (East) ~ *uta(h)* (West) sits at
+the boundary of noun and grammatical marker. As a relational/bound formal noun it
+follows an adnominal, a noun, or a relative clause and means '~people':
+
+<Example
+	surface="ohkayo utara kii anpe utara yee"
+	ain="ohkayo utara kii an=pe utara yee"
+	gloss="man people do.PL exist=NMLZ they say"
+	free="The men's doings, they spoke of …"
+	cite="ainu-corpora (樺太)" page="chiba-354/43#46"
+	dialect="East"
+	note="ohkayo utara 'the men' (bound formal noun); the second utara is autonomous 'they'." />
+
+<Example
+	ain="kotan ohta okay utara"
+	gloss="village LOC exist.PL people"
+	free="people who are in the village"
+	cite="Sakaguchi 2020b" page="188"
+	dialect="East"
+	note="Bound formal noun utara as the head of an NP after a relative clause." />
+
+In the second use here, *utara* with no modifier is **autonomous**, functioning
+like a third-person plural pronoun. This anaphoric/deictic *utara*, together with
+its use as a noun-plural suffix and its interaction with the suffix *-(a)hcin*,
+is treated fully in the chapter on [number marking](/grammar/noun-number); the
+point for the present chapter is that *utara* is itself a noun — its own
+affiliative form is *utari-hi* — recruited into the grammar of number and person.
+On the West coast the cognate is *uta(h)*:
+
+<Example
+	ain="sake naa uta i-kuu-re"
+	gloss="liquor also people 4.O-drink-CAUS"
+	free="They made me drink liquor too."
+	cite="Sakaguchi 2024" page="66"
+	dialect="West"
+	note="West-coast (Maoka) uta(h) for East utara; generic / 3PL use." />
+
+## Summary
+
+Sakhalin Ainu nouns are sorted by inflection into concrete, locative, formal,
+and non-inflecting classes. Concrete nouns build a conceptual form, an
+affiliative form (adding the PSD *-V(hV)*, with the Sakhalin-wide generalisation
+of *-he*), and a personal form (prefixing an A-series possessor); locative nouns
+instead take O-series prefixes to mark a spatial ground. Possession is expressed
+by the personal form, by the verb *kor* in an appositive relative clause for
+alienables, or by a Sakhalin-favoured fusion of the two, against a backdrop of a
+general loosening — the "breakdown of the person concept" — that has extended
+affiliative inflection to nouns that resist it in Hokkaido.
