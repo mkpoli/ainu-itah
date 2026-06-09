@@ -1,0 +1,355 @@
+---
+title: Nominalisation
+num: '23'
+part: Syntax
+status: draft
+blurb: How Sakhalin Ainu turns clauses into nouns — from bound-noun nominalisers to the innovative possessive-style verb form V-poss and its insubordinated finite use.
+sources:
+  - Bugaeva 2016
+  - Furukawa 1967
+  - Chiri 1942
+  - Murasaki 1979
+  - Murasaki 2013
+  - Piłsudski 1912
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Overview
+
+Sakhalin Ainu (Enchiw) makes a clause behave like a noun in two broad ways. The
+first is the pan-Ainu strategy of adding a **nominalising word** — a bound noun
+such as <W w="pe" gloss="thing" />, <W w="kuru" gloss="person" /> or
+<W w="hi" gloss="place, time" /> — to an otherwise finite-looking clause, or
+deriving a lexical noun with the suffix -p/-pe. The second is an innovation that
+sets Sakhalin Ainu apart from Hokkaido Ainu: a genuine **non-finite verb form**,
+glossed here V-poss, that is formally identical to the possessive form of nouns
+(the suffix -hV / -V(hV) plus an <Gl t="A" />-series person prefix). Following
+<Cite key="Bugaeva 2016" paren={false} />, this chapter treats V-poss as the most
+innovative stage of an Ainu nominalisation cycle and follows it from embedded
+argument-clauses to its striking use as an independent, sentence-final main-clause
+predicate. Relative clauses, which do *not* use V-poss, are treated separately
+(Chapter 24), as is complementation (Chapter 25). West-coast (Raychishka) data is
+taken as the baseline; East-coast (Piłsudski) divergences are flagged.
+
+## Lexical and bound-noun nominalisers
+
+The oldest and most widespread device is simply to place a clause in front of a
+**bound noun** that names the kind of entity the clause picks out. The recurring
+heads are <W w="pe" gloss="thing/person" /> (West also <W w="p" gloss="thing" />),
+<W w="kuru" gloss="person" /> (West <W w="kur" />), and <W w="hi" gloss="place/time/thing" /> (also
+<W w="i" />); <W w="usike" gloss="the place of" /> serves the same purpose. The
+clause precedes the head with the relevant referent gapped, exactly as in a
+relative clause. East-coast texts lean especially heavily on <W w="pe" />, which
+doubles as a topic-bearing head:
+
+<Example
+	ain="mahnekuh kii-pe neanpe mahnekuh poo-ho e-caskoma-kara"
+	surface="mahnekuh kiipe neanpe mahnekuh pooho ecaskomakara"
+	gloss="woman do-NMLZ TOP woman child-POSS APPL-teach-CAUS"
+	free="Women’s work (lit. the thing women do), she taught to her daughter."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#40"
+	dialect="East" />
+
+Here [mahnekuh kii] *pe* 'the thing women do' is an event/object nominalisation
+headed by <W w="pe" />. Alongside the syntactic strategy, Sakhalin Ainu has a
+**derivational** nominaliser -p ~ -pe (Sakhalin -x), forming agent/patient nouns
+'the one that …'; <Cite key="Chiri 1942" paren={false} /> documents this as a
+pan-Ainu lexical suffix and notes its Sakhalin coda realisation. The same -pe
+nominaliser can take its own possessive suffix, stacking lexical nominalisation
+under the possessive form:
+
+<Example
+	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
+	gloss="PRM.A=forget-NMLZ-POSS PRM.A=search CAUF go.PL=PRM.S-POSS COP-CONC who ADD take-COLL CONJ NEG"
+	free="Although we went to search for what we had left, someone had already taken it."
+	cite="Bugaeva 2016" page="106-107"
+	dialect="West" />
+
+The first word, *an=oyra-pe-he* 'our forgotten thing(s)', is a lexical
+nominalisation (V-NMLZ) carrying the possessive suffix; the clause-medial
+*paye=an-ihi ne-yah* 'although we went' is the V-poss form treated below.
+
+## Clausal (event) nominalisation
+
+A whole clause can be nominalised and serve as an argument of a higher predicate.
+With the bound-noun strategy this is just [Clause NMZ]; but Sakhalin Ainu also
+nominalises the clause directly by putting its verb into the V-poss form. The
+result is a possessive-marked event noun — literally 'my Ving' on the model of
+'my N' — that functions as a subject:
+
+<Example
+	ain="ku=ye-he sunke"
+	gloss="1SG.A=say-NMLZ be.untrue"
+	free="What you said is not true."
+	cite="Bugaeva 2016" page="108"
+	dialect="West" />
+
+<Example
+	ain="isa oh-ta ku=oman keray-kusu ku=araka-ha pirka"
+	gloss="doctor place-LOC 1SG.S=go.SG thanks-CAUF 1SG.A=be.sick-NMLZ be.good"
+	free="Because I went to the doctor, my being sick got better."
+	cite="Bugaeva 2016" page="108"
+	dialect="West" />
+
+In both, the V-poss form (*ku=ye-he* 'your/my saying it', *ku=araka-ha* 'my being
+sick') is the grammatical subject of the matrix predicate (<W w="sunke" gloss="be untrue" />,
+<W w="pirka" gloss="be good" />). Because the form is morphologically the
+possessive of the verb, the clausal subject is cross-referenced by the
+<Gl t="A" />-series (possessor) prefixes, not the ordinary <Gl t="S" />-series.
+
+## The V-poss form: shape and distribution
+
+The nominal possessive suffix of Sakhalin Ainu has the shape -hV / -V(hV), with a
+vowel copied from the stem and several conditioned allomorphs. Crucially, the
+language has generalised possessive marking to *all* nouns, and then extended the
+very same suffix to verbs, yielding V-poss <Cite key="Bugaeva 2016" page="104-105" />.
+The principal noun allomorphs, after Furukawa's Raychishka morphophonemics and
+Bugaeva, are:
+
+| Stem shape | Suffix | Example (noun) | Gloss |
+|---|---|---|---|
+| V-final (copy V) | -VhV | seta → seta-ha | someone’s dog |
+| V-final | -uhu | ‘aynu → ‘aynu-hu | someone’s person |
+| -ii | -iyehe | pii → pi-yehe | someone’s seed |
+| -uu | -uwehe | puu → pu-wehe | someone’s storehouse |
+| C-final (m, n) | -ihi / -uhu | kam → kam-ihi; ram → ram-uhu | someone’s flesh / heart |
+| coda -h (&lt; p/t/k) | -CVhV | ceh → cep-ihi | someone’s fish |
+
+Roots ending in w or y always take -e(he), and a default -i(hi) — originating in
+the bound noun <W w="hi" gloss="thing/place/time" /> — is used by some irregular
+nouns <Cite key="Bugaeva 2016" page="105" />. The functional difference between
+the "short" (-V) and "long" (-VhV) forms remains unclear [uncertain]
+<Cite key="Bugaeva 2016" page="105" />. The same allomorphy on a verb produces
+V-poss, e.g. <W w="oman" gloss="go" /> → *oman-ihi*, <W w="ek" gloss="come" /> →
+*ek-ihi*, <W w="pirika" gloss="be good" /> → *pirika-ha*. The possessor/subject is
+marked with the <Gl t="A" />-series prefixes:
+
+| | 1SG | 2SG | 3 | 1PL | 2PL |
+|---|---|---|---|---|---|
+| prefix | ku=…-hV | ‘e=…-hV | ø=…-hV | ‘an=…-hV | ‘eci=…-hV |
+
+The West coast has lost the Hokkaido 1PL inclusive/exclusive split (the old 1PL
+*an=* now also does duty as a 1SG and an indefinite/4th-person <Gl t="PRM" />) and
+has developed plural possessive marking <Cite key="Bugaeva 2016" page="96-97" />.
+
+V-poss is restricted to five environments <Cite key="Bugaeva 2016" page="105-106" />:
+(i) adverbial clauses with copula-based conjunctions, (ii) modal sentences with
+copula-based auxiliaries, (iii) clausal/event nominalisations as arguments (above),
+(iv) evidential/modal "mermaid"-type sentences, and (v) sentence-final main
+clauses. It is **not** used in relative clauses, ordinary complement clauses, or
+lexical nominalisations. The contrast with Hokkaido Ainu is sharp: where Hokkaido
+verbs never take non-finite morphology and "nominalisation" only ever means adding
+a nominalising word, Sakhalin has a true non-finite nominalised verb form
+<Cite key="Bugaeva 2016" page="112" />.
+
+## Adverbial and modal uses (V-poss + a copula-based marker)
+
+The conjunctions and auxiliaries that follow V-poss all contain the copula
+<W w="nee" gloss="be, become" /> synchronically or historically: *nee-no* 'as,
+like', *ne-ya* 'but', *ne-yah* 'although', *nee-ko* 'surely', *ne-‘an* 'probably',
+*nee nankor* 'probably' <Cite key="Bugaeva 2016" page="106-107" />. This is itself
+a Sakhalin peculiarity — the Hokkaido cognates take finite verbs and often lack
+the copula element.
+
+<Example
+	ain="ene e=ramu-hu nee-no pirka no kii wa"
+	gloss="like.this 2SG.A=think-NMLZ COP-ADV be.good ADV do FIN"
+	free="Do it well, just as you think."
+	cite="Bugaeva 2016" page="106"
+	dialect="West" />
+
+<Example
+	ain="ø=e-ye-hci-hi nee-no kii wa"
+	surface="‘eyehcihi neeno kii wa"
+	gloss="3.A=APPL-say-COLL-NMLZ COP-ADV do IMP"
+	free="Do as you were told (lit. like the thing they said about it)."
+	cite="Furukawa 1967" page="103"
+	dialect="West" />
+
+The same V-poss + copula frame underlies modal sentences, where the
+copula-based auxiliary carries the modal force:
+
+<Example
+	ain="tani ‘uunas an=ee-he nee-ko"
+	gloss="now early PRM.A=eat-NMLZ COP-EMPH"
+	free="Definitely, I have just eaten."
+	cite="Bugaeva 2016" page="106"
+	dialect="West" />
+
+<Example
+	ain="pohke-no mokoro ‘anah pirika-ha nee nankor"
+	gloss="be.warm-ADV sleep COND be.good-NMLZ COP PROB"
+	free="It is probably good if he sleeps keeping warm."
+	cite="Bugaeva 2016" page="95"
+	dialect="West"
+	note="SA innovatively prefixes the copula nee to nankor; cf. Hokkaido bare nankor." />
+
+In the "mermaid"-type evidential construction the nominalised clause is followed by
+the copula plus an evidential bound noun and the existential <W w="an" gloss="exist" />:
+
+<Example
+	ain="nah kanne ka itah ku=wante-he nee ruu-he an"
+	gloss="that like ADD speech 1SG.A=know-NMLZ COP trace-POSS EXIST"
+	free="I think I remember the language so well."
+	cite="Bugaeva 2016" page="108"
+	dialect="West"
+	note="V-poss + copula nee + evidential nominaliser ruwehe + existential an." />
+
+This is the diachronic seed-bed of much of the evidential and modal system treated
+in Chapters 19 and 21: the personal-knowledge evidential -hV is the very same
+suffix, glossed <Gl t="PK" /> when its evidential value is in focus and
+<Gl t="NMLZ" /> when it is purely nominalising.
+
+## Insubordination: V-poss as a finite main clause
+
+The most innovative use is V-poss standing alone as a sentence-final predicate,
+with no copula and no higher verb, carrying its own illocutionary force
+<Cite key="Bugaeva 2016" page="108-109" />. <Cite key="Furukawa 1967" paren={false} />
+had already documented this for Raychishka, noting that statement and question are
+distinguished only by intonation:
+
+<Example
+	ain="tara aynu ø=‘oman-ihi"
+	surface="tara aynu ‘omanihi."
+	gloss="that person 3.A=go.SG-PK"
+	free="That man went."
+	cite="Furukawa 1967" page="108-109"
+	dialect="West"
+	note="V-poss as a sentence-final assertion; rising/falling intonation distinguishes statement from question." />
+
+<Example
+	ain="tara aynu ø=‘oman-ihi"
+	surface="tara aynu ‘omanihi?"
+	gloss="that person 3.A=go.SG-PK"
+	free="Did that man go?"
+	cite="Furukawa 1967" page="110"
+	dialect="West"
+	note="Identical V-poss string; only the interrogative intonation differs. Plain finite tara aynu ‘oman with question intonation was rejected." />
+
+The pattern is robust in assertions and in both polar and content questions, and
+it survives in modern West-coast pedagogical material:
+
+<Example
+	ain="ku‘ani tani uwas ku=ek-ihi"
+	gloss="I now only 1SG.A=come.SG-PK"
+	free="I just came."
+	cite="Bugaeva 2016" page="109"
+	dialect="West"
+	note="Main-clause V-poss assertion." />
+
+<Example
+	ain="pirika-ha aa"
+	surface="pirika-ha aa?"
+	gloss="be.good-NMLZ FIN"
+	free="Have you recovered?"
+	cite="Bugaeva 2016" page="109"
+	dialect="West"
+	note="Stative verb pirika in V-poss; cf. Hokkaido, which uses a nominalising word instead." />
+
+<Example
+	ain="hemanta kusu e=cis-ihi tara hekaci"
+	surface="hemanta kusu e=cisihi, tara hekaci?"
+	gloss="what CAUF 2SG.A=cry-PK this boy"
+	free="Why are you crying, boy?"
+	cite="Bugaeva 2016" page="109"
+	dialect="West"
+	note="Content question with sentence-final V-poss." />
+
+<Example
+	ain="naata tura e=ek-ihi"
+	surface="naata tura e=ekihi?"
+	gloss="who COM 2SG.A=come.SG-PK"
+	free="Who did you come with?"
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/04#0"
+	dialect="West" />
+
+<Example
+	ain="tanto aaca ø=an-ihi"
+	surface="tanto aaca anihi?"
+	gloss="today father 3.A=exist.SG-PK"
+	free="Is father in today?"
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-beginner/10#0"
+	dialect="West"
+	note="Existential an in V-poss, polar question." />
+
+That the corpus answer to a V-poss question is itself V-poss confirms the pattern
+is conversationally productive:
+
+<Example
+	ain="ku=ommo tura ku=ek-ihi"
+	gloss="1SG.POSS=mother COM 1SG.A=come.SG-PK"
+	free="I came together with my mother."
+	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/04#1"
+	dialect="West" />
+
+## The presupposition semantics
+
+What unifies these uses, <Cite key="Bugaeva 2016" paren={false} /> argues, is
+**presupposition**: V-poss marks content that is "not the main point" — that
+survives under negation, modals and evidentials, and that the speaker presents as
+already shared or given <Cite key="Bugaeva 2016" page="109-112" />. In
+sentence-final position a V-poss predicate correlates with *old information* (the
+event is treated as presupposed), whereas a plain finite verb introduces *new
+information*. A text analysis of a Murasaki conversation shows V-poss in
+assertions, content and polar questions, and exclamations, but its disappearance
+once the discourse turns to a genuinely new topic. This is the functional
+through-line from the embedded "my Ving" nominalisation to the insubordinated main
+clause: in every case the proposition is framed as backgrounded rather than
+asserted afresh.
+
+## The grammaticalisation cycle
+
+<Cite key="Bugaeva 2016" paren={false} /> situates V-poss as the youngest layer of
+an Ainu nominalisation cycle that runs from independent to dependent and back to
+independent forms <Cite key="Bugaeva 2016" page="113" />:
+
+| Stage | Pattern | Locus |
+|---|---|---|
+| I | zero-nominalisation [V]NP | oldest; attested in Hokkaido |
+| II | nominalising-word [V NMZ]NP | proliferates in Hokkaido |
+| III | non-finite [V-poss]NP | Sakhalin innovation |
+| IV | non-embedded [V-poss]MC | Sakhalin, sentence-final |
+
+V-poss most plausibly began in adverbial clauses built on the copula
+<W w="nee" gloss="be, become" /> (e.g. *nee-no* 'as', *ne-yah* 'although'), spread
+to the "mermaid" evidential sentences where a copula had to be inserted
+(*V-poss nee* EV.NMZ *an*), and finally became an independent main-clause predicate
+carrying its own force (stage IV). Bugaeva tentatively links the innovation to
+contact with the Tungusic languages of Sakhalin (Uilta?), which possess
+subordinating non-finite verb forms <Cite key="Bugaeva 2016" page="113-114" /> —
+an areal hypothesis that remains open.
+
+## Dialectal and diachronic notes
+
+On the **West coast** (Raychishka; Murasaki, Furukawa), the V-poss system is fully
+developed: adverbial, modal, clausal-nominalisation, evidential, and main-clause
+uses are all robustly attested, and modern pedagogical materials still teach
+sentence-final V-poss for statements and questions (ainu-corpora 樺太). On the
+**East coast** (Piłsudski), V-poss forms occur — the possessive -ihi appears on
+nouns just as on verbs, e.g. *kahkum-ihi* 'the ladle’s (inside)' —
+
+<Example
+	ain="kahkum-ihi onnayke ta ahup-an"
+	surface="kahkumihi onnayke ta ahupan."
+	gloss="ladle-POSS inside LOC enter.SG-1SG.S"
+	free="I went into the inside of the ladle."
+	cite="ainu-corpora (樺太)" page="chiba-354/43#6 (Piłsudski)"
+	dialect="East"
+	note="East-coast possessive -ihi, the same suffix that yields V-poss on verbs." />
+
+— but the nominalising word <W w="pe" /> is conspicuously frequent there as a head
+and topic-marker, suggesting the East coast leans more on the stage-II strategy
+alongside V-poss <Cite key="Bugaeva 2016" page="97" />. Whether East-coast
+Sakhalin productively uses V-poss across the full West-coast range — especially in
+main-clause assertions and questions — is not established in the present sources
+[uncertain]. <Cite key="Chiri 1942" paren={false} /> confirms the Sakhalin
+personal-form mechanics and the lexical nominalisers -p/-pe (Sakhalin -x) and notes
+the rich set of bound "formal" nouns recruited for mood and aspect, but his
+projected syntax volume was never written, so the clausal syntax of nominalisation
+in his work stops at the morphology.

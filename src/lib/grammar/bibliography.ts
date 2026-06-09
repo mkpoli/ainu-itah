@@ -1,0 +1,119 @@
+import type { BibEntry } from './types';
+
+// AUTO-GENERATED from .grammar-build/design/bibliography.md (run .grammar-build/gen.ts).
+// Cite keys match the human-readable strings used in the fact bases and in
+// <Cite key="..."> / <Example cite="...">, e.g. "Chiri 1942", "Dal Corso 2025".
+export const BIBLIOGRAPHY: BibEntry[] = [
+	{ key: "Piłsudski 1912", region: "sakhalin", full: "Piłsudski, Bronisław (1912). Materials for the Study of the Ainu Language and Folklore. Cracow: Spółka Wydawnicza Polska. [East Sakhalin folktale corpus: Tarayka, Tunayci, Ay, Hunup.]" },
+	{ key: "Pilsudskij 2002", region: "sakhalin", reported: true, full: "Piłsudski, B. (2002). Materialy dlja izučenija ajnskogo jazyka i fol'klora (re-edition / Latyshev ed.). [reported, re-edition of Piłsudski 1912 used by Sakaguchi 2020]" },
+	{ key: "Dobrotvorskij 1875", region: "sakhalin", full: "Dobrotvorskij, M. M. (1875). Ainsko-russkij slovar' [Ainu–Russian Dictionary]. Kazan'. [West-central Sakhalin (Kushunnai/Usoro area); incl. Ciwokanke texts. Jp. tr. Terada & Yasuda 1995–2019.]" },
+	{ key: "ainu-corpora (樺太)", region: "sakhalin", full: "ainu-corpora Sakhalin (樺太) sub-corpus, accessed via the Ainu MCP (`corpus_search`, `convert_script`): FF-Ainu Karafuto teaching texts; Chiba-University Piłsudski re-transcriptions; Murasaki Enciw primer texts; Ainu Times; Sentoku Tarōji letters; Yamada Hayo (ELPR); Kitahara Mokottunas revival texts." },
+	{ key: "Sentoku (letters)", region: "sakhalin", full: "Sentoku Tarōji, letters to B. Piłsudski (c.1900s), East-coast Naibuchi; via ainu-corpora (樺太)." },
+	{ key: "Yamabe-Kindaichi 1913", region: "sakhalin", reported: true, full: "Yamabe Yasunosuke (narr.) & Kindaichi Kyōsuke (ed.) (1913). Ainu monogatari / Karafuto Ainugo gairon [\"An Outline of Sakhalin Ainu\"], with appended autobiography. [reported]" },
+	{ key: "Chiri 1942", region: "general", full: "Chiri Mashiho 知里真志保 (1942). Ainu gohō kenkyū アイヌ語法研究 [Studies in Ainu Grammar]. (Repr. in Chiri Mashiho chosakushū vol. 3, 1973 = Chiri 1973[1942].) Pan-Ainu grammar foregrounding Sakhalin." },
+	{ key: "Chiri 1952", region: "general", full: "Chiri Mashiho 知里真志保 (1952). Ainugo ni okeru boin chōwa アイヌ語に於ける母音調和 [Vowel harmony in Ainu]." },
+	{ key: "Chiri 1955", region: "sakhalin", reported: true, full: "Chiri Mashiho 知里真志保 (1955). [Work on Sakhalin oral genres, incl. carahaw.] [reported]" },
+	{ key: "Chiri 1962", region: "sakhalin", reported: true, full: "Chiri Mashiho 知里真志保 (1962). [Sakhalin dialect lexical study, §303 cited.] [reported]" },
+	{ key: "Chiri 1973[1944]", region: "sakhalin", reported: true, full: "Chiri Mashiho 知里真志保 (1944, repr. 1973). [Study cited for tuytah person-shift / narrative technique.] [reported]" },
+	{ key: "Chiri 1974[1936]", region: "general", reported: true, full: "Chiri Mashiho 知里真志保 (1936, repr. 1974). [Source of the polysynthesis showcase form, via Bugaeva 2014.] [reported]" },
+	{ key: "Chiri 1975[1954]", region: "sakhalin", reported: true, full: "Chiri Mashiho 知里真志保 (1954, repr. 1975). [Cited for tuytah literary vocabulary, Shiraura.] [reported]" },
+	{ key: "Murasaki 1976", region: "sakhalin", full: "Murasaki Kyōko 村崎恭子 (1976). Karafuto Ainugo 樺太アイヌ語 [Sakhalin Ainu], texts vol. (Rayciska, West coast)." },
+	{ key: "Murasaki 1979", region: "sakhalin", full: "Murasaki Kyōko 村崎恭子 (1979). Karafuto Ainugo: bunpō-hen 樺太アイヌ語・文法篇 [Sakhalin Ainu: Grammar]. (Rayciska, West coast.)" },
+	{ key: "Murasaki 2001", region: "sakhalin", full: "Murasaki Kyōko 村崎恭子 (ed.) (2001). [Asai Take's Sakhalin Ainu folktales, edited.]" },
+	{ key: "Murasaki 2009", region: "sakhalin", full: "Murasaki Kyōko 村崎恭子 (2009). Karafuto Ainugo no sūshi ni tsuite 樺太アイヌ語の数詞について [On Sakhalin Ainu numerals]." },
+	{ key: "Murasaki 2013", region: "sakhalin", full: "Murasaki Kyōko 村崎恭子 (2013). [Sakhalin Ainu study cited for nominal plural / V-poss.]" },
+	{ key: "Murasaki 2024", region: "sakhalin", full: "Murasaki Kyōko 村崎恭子 (2024). Enciw (Karafuto Ainu) go kaiwa nyūmon エンチウ（樺太アイヌ）語会話入門 [Introduction to Enchiw (Sakhalin Ainu) Conversation], rev. ed." },
+	{ key: "Furukawa 1967", region: "sakhalin", full: "Furukawa Kyōko 古川恭子 (1967). Ainugo Karafuto Rayciska hōgen syntax アイヌ語カラフトライチシカ方言シンタクス [The syntax of the Rayciska dialect of Sakhalin Ainu]. (West coast, generative description.)" },
+	{ key: "Dal Corso 2018", region: "sakhalin", full: "Dal Corso, Elia (2018). Ainu Evidentiality: A semantico-pragmatic analysis and a morphosyntactic account. PhD thesis / monograph." },
+	{ key: "Dal Corso 2021", region: "sakhalin", full: "Dal Corso, Elia (2021). The Development of Analytic Negatives in Sakhalin Ainu." },
+	{ key: "Dal Corso 2021a", region: "sakhalin", full: "Dal Corso, Elia (2021). Re-edition, translation and grammatical notes of Murasaki (1976), Karafuto Ainugo." },
+	{ key: "Dal Corso 2021b", region: "sakhalin", reported: true, full: "Dal Corso, Elia (2021). [Study of Sakhalin high-transitivity ko-; cited in verb-valency.] [reported]" },
+	{ key: "Dal Corso 2023", region: "sakhalin", reported: true, full: "Dal Corso, Elia (2023). [On participant-referentiality mismatch; cited in person-marking.] [reported]" },
+	{ key: "Dal Corso 2024", region: "sakhalin", full: "Dal Corso, Elia (2024). Elements of Sakhalin Ainu Phonetics, Phonology, and Morphosyntax in Bronisław Piłsudski's Corpus of Ainu Folklore. (East Sakhalin.)" },
+	{ key: "Dal Corso 2025", region: "sakhalin", full: "Dal Corso, Elia (2025). The Mixed Nominative–Neutral–Inverse Morphological Alignment of Sakhalin Ainu; and Negation in Sakhalin Ainu: History and Typology. (Two studies sharing this key per the fact bases.)" },
+	{ key: "Sakaguchi 2018", region: "hokkaido", full: "Sakaguchi Ryō 阪口諒 (2018). Yamamoto Tasuke hitsuroku \"Sakorobe\" no tekisuto to sono gengoteki tokuchō [The \"Sakorobe\" text and its linguistic features]. (Note: Sakorobe narrator/reciter are Hokkaidō east-coast.)" },
+	{ key: "Sakaguchi 2019a", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2019). Ainugo Karafuto nishi-kaigan nanbu hōgen tekisuto (1): \"Kawauso no bakemono\" [SW Sakhalin West-coast text (1): \"The One-eyed Otter / Esaman Carahaw\"], Tarantomari." },
+	{ key: "Sakaguchi 2019b", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2019). Yamamoto Tasuke hitsuroku Ainugo Karafuto hōgen tekisuto (1): \"Karafuto Ubebekere\" [Sakhalin text (1): \"Karafuto Ubepekere\"], Aihama." },
+	{ key: "Sakaguchi 2020", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2020). Piłsudski saishū no Ainugo Karafuto hōgen minwa tekisuto: \"Karei-otoko to Kajika-otoko\" [Piłsudski's Sakhalin folktale \"The Flatfish-man and the Sculpin-man\" (Tuita 3)], East (Takoye). Richest IGT source." },
+	{ key: "Sakaguchi 2020a", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2020). Ainugo Karafuto hōgen ni okeru meishi fukusū setsubiji -ahcin no yōhō [The noun plural suffix -ahcin in Sakhalin Ainu]." },
+	{ key: "Sakaguchi 2020b", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2020). Ainugo Karafuto hōgen ni okeru utara no yōhō [The uses of utara in Sakhalin Ainu]." },
+	{ key: "Sakaguchi 2021", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2021). Karafuto Ainu no tuytah: B. Piłsudski ni yoru eiyaku tekisuto [Sakhalin Ainu tuytah: Piłsudski's English-translation texts]; and \"Ainugo Roshiago jiten\" naka no Ainugo Karafuto hōgen tekisuto [Sakhalin Ainu texts in Dobrotvorskij's dictionary]." },
+	{ key: "Sakaguchi 2021a", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2021). \"Ainugo Roshiago jiten\" no Ainugo washa ni kansuru jōhō [Information on the Ainu speakers in Dobrotvorskij's Ainu–Russian Dictionary]." },
+	{ key: "Sakaguchi 2021b", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2021). [Companion study on the Dobrotvorskij texts' localisation / tuytah genre.]" },
+	{ key: "Sakaguchi 2022", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2022). Ainugo Karafuto hōgen ni okeru sūshi to keisan [Numerals and calculation in Sakhalin Ainu]." },
+	{ key: "Sakaguchi 2024", region: "sakhalin", full: "Sakaguchi Ryō 阪口諒 (2024). Karafuto Ainugo ni okeru ninshō to sū no hyōji ni kansuru kenkyū [Person and number marking in Sakhalin Ainu]." },
+	{ key: "Bugaeva 2006", region: "hokkaido", full: "Bugaeva, Anna (2006). Applicatives in Ainu. (Hokkaidō Chitose/Saru; typological framing.)" },
+	{ key: "Bugaeva 2014", region: "general", full: "Bugaeva, Anna (2014). Polysynthesis in Ainu." },
+	{ key: "Bugaeva 2015", region: "general", full: "Bugaeva, Anna (2015). An equivalent of the standard-of-comparison relativization in Ainu." },
+	{ key: "Bugaeva 2016", region: "sakhalin", full: "Bugaeva, Anna (2016). On the Innovative Nature of Sakhalin Ainu: Focusing on Nominalization." },
+	{ key: "Bugaeva 2021", region: "general", full: "Bugaeva, Anna et al. (2021). Appositive possession in Ainu and around the Pacific." },
+	{ key: "Bugaeva 2025", region: "general", full: "Bugaeva, Anna (2025). A Diachronic Study of Anticausatives in Ainu. (Chiefly Hokkaidō data; markers pan-Ainu.)" },
+	{ key: "Handbook (Bugaeva ed.)", region: "general", full: "Bugaeva, Anna (ed.) (2022). Handbook of the Ainu Language. Berlin: De Gruyter Mouton. (Incl. Tamura/Asai & Tangiku chapters; Dal Corso Rayciska appendix.)" },
+	{ key: "Itabashi 2001", region: "sakhalin", full: "Itabashi Yoshizō 板橋義三 (2001). Karafuto Ainugo no boin no chōtan to Hokkaidō Ainugo no pitch accent to no shiteki kankei [The historical relation of Sakhalin Ainu vowel length to Hokkaidō Ainu pitch accent]." },
+	{ key: "Tangiku 1998", region: "sakhalin", full: "Tangiku Itsuji 丹菊逸治 (1998). Ainugo Karafuto nishi-kaigan hōgen no -rV onsetsu de owaru dōshi ni tsuite [On West-coast Sakhalin Ainu verbs ending in -rV]." },
+	{ key: "Tangiku 2002", region: "sakhalin", reported: true, full: "Tangiku Itsuji 丹菊逸治 (2002). [Study cited for tuytah person system.] [reported]" },
+	{ key: "Tangiku 2022", region: "sakhalin", reported: true, full: "Tangiku Itsuji 丹菊逸治 (2022). [Cited within person-marking / nominals discussions.] [reported]" },
+	{ key: "Hattori 1957", region: "sakhalin", reported: true, full: "Hattori Shirō 服部四郎 (1957). [First note of the elder-speech register 年長者層特殊語.] [reported]" },
+	{ key: "Hattori 1961", region: "sakhalin", reported: true, full: "Hattori Shirō 服部四郎 (1961). [Sakhalin (Rayciska) noun paradigm & plural; person table.] [reported]" },
+	{ key: "Hattori 1964", region: "general", full: "Hattori Shirō 服部四郎 (ed.) (1964). Ainugo hōgen jiten アイヌ語方言辞典 [Ainu Dialect Dictionary]. Tokyo: Iwanami." },
+	{ key: "Hattori 1967", region: "general", reported: true, full: "Hattori Shirō 服部四郎 (1967). Ainugo no on'in kōzō to accent [Ainu phonological structure and accent]. [reported]" },
+	{ key: "Hattori-Chiri 1960", region: "general", reported: true, full: "Hattori Shirō & Chiri Mashiho (1960). [Dialect classification & comparison; Hokkaidō/Sakhalin/Kuril.] [reported]" },
+	{ key: "Kindaichi 1911", region: "sakhalin", reported: true, full: "Kindaichi Kyōsuke 金田一京助 (1911). Karafuto Ainu no on'in soshiki 樺太アイヌの音韻組織 [The phonological system of Sakhalin Ainu]. [reported]" },
+	{ key: "Kindaichi 1913", region: "sakhalin", reported: true, full: "Kindaichi Kyōsuke 金田一京助 (1913). [Appendix to Yamabe 1913, \"Outline of Sakhalin Ainu\".] [reported]" },
+	{ key: "Kindaichi 1931", region: "general", reported: true, full: "Kindaichi Kyōsuke 金田一京助 (1931). [Cited on the 1.O i-/in- question.] [reported]" },
+	{ key: "Kindaichi 1955a", region: "general", reported: true, full: "Kindaichi Kyōsuke 金田一京助 (1955). [reported]" },
+	{ key: "Chiri 1936", region: "general", reported: true, full: "Chiri Mashiho 知里真志保 (1936). [Cited on 1.O i-/in-; = Chiri 1974[1936] repr.] [reported]" },
+	{ key: "Tamura 1970", region: "hokkaido", reported: true, full: "Tamura Suzuko 田村すず子 (1970). [Source for accent behaviour of person affixes; an/-an < 'exist'.] [reported]" },
+	{ key: "Tamura 1993", region: "general", reported: true, full: "Tamura Suzuko 田村すず子 (1993). [Riddle data cited in Bugaeva 2021.] [reported]" },
+	{ key: "Tamura 1996", region: "hokkaido", reported: true, full: "Tamura Suzuko 田村すず子 (1996). Ainugo Saru hōgen jiten [Saru dialect dictionary]; cited for the standard-of-comparison base. [reported]" },
+	{ key: "Satō 1985", region: "sakhalin", reported: true, full: "Satō Tomomi 佐藤知己 (1985). [Discovery of the 1.O i- vs in- split; West \"defective\" paradigm.] [reported]" },
+	{ key: "Satō 1987", region: "sakhalin", reported: true, full: "Satō Tomomi 佐藤知己 (1987). [Anaphoric/generic uses of utara.] [reported]" },
+	{ key: "Satō 2024", region: "sakhalin", reported: true, full: "Satō Tomomi 佐藤知己 (2024). [Analysis of the never-developed patientive 2nd person.] [reported]" },
+	{ key: "Asai 1974", region: "general", reported: true, full: "Asai Tōru 浅井亨 (1974). [Lexicostatistic dialect classification of Ainu.] [reported]" },
+	{ key: "Nakagawa 2010", region: "hokkaido", reported: true, full: "Nakagawa Hiroshi 中川裕 (2010). [Cited on verbal number / -pa object agreement.] [reported]" },
+	{ key: "Kirikae 2006", region: "general", full: "Kirikae Hideo 切替英雄 (2006). Ainugo no \"1\" o shimesu sūshi [The numeral for \"1\" in Ainu]." },
+	{ key: "Ochiai 2021", region: "general", full: "Ochiai Izumi 落合いずみ (2021). Ainugo no sūshi saikō: nijisshinpō ni okeru kahō-sanpō kara jōhō-sanpō e no kirikae [Ainu numerals reconsidered: from under- to over-counting in the vigesimal system]." },
+	{ key: "Okuda 2015", region: "general", reported: true, full: "Okuda Osami 奥田統己 (2015). [Cited in person-marking discussion.] [reported]" },
+	{ key: "Kirikae 1989", region: "general", reported: true, full: "Kirikae Hideo 切替英雄 (1989). [reported]" },
+	{ key: "Kitahara 2013", region: "sakhalin", reported: true, full: "Kitahara Jirōta Mokottunas 北原次郎太 (2013). [Modern Enchiw katakana standardisation; tuytah spelling.] [reported]" },
+	{ key: "Kitahara 2014", region: "sakhalin", reported: true, full: "Kitahara Jirōta Mokottunas 北原次郎太 (2014). [Sakhalin Ainu teaching/text material cited for negation.] [reported]" },
+	{ key: "Kitahara 2016", region: "sakhalin", reported: true, full: "Kitahara Jirōta Mokottunas 北原次郎太 (2016). [Sakhalin Ainu text cited for negation.] [reported]" },
+	{ key: "Majewicz 1998", region: "sakhalin", reported: true, full: "Majewicz, Alfred F. (ed.) (1998). The Collected Works of Bronisław Piłsudski (relevant volume). [reported]" },
+	{ key: "Majewicz 1998a", region: "sakhalin", reported: true, full: "Majewicz, Alfred F. (1998). [On the redaction history of Piłsudski's materials.] [reported]" },
+	{ key: "Majewicz 1998b", region: "sakhalin", reported: true, full: "Majewicz, Alfred F. (1998). [Piłsudski text edition cited in verb-valency, p.287.] [reported]" },
+	{ key: "Latyshev 2002", region: "sakhalin", reported: true, full: "Latyshev, V. M. (ed.) (2002). Re-edition of Piłsudski's materials. [reported]" },
+	{ key: "Naert 1961", region: "sakhalin", reported: true, full: "Naert, Pierre (1961). [Sakhalin numerals; SE-coast coda -p; archaic Rayciska.] [reported]" },
+	{ key: "Laufer 1917", region: "sakhalin", reported: true, full: "Laufer, Berthold (1917). [On Sakhalin trade vocabulary incl. tanku.] [reported]" },
+	{ key: "Peng & Brainerd 1970", region: "general", reported: true, full: "Peng, Fred C. C. & Brainerd, Barron (1970). [On Ainu numeral structure / orowa-boundary.] [reported]" },
+	{ key: "Batchelor 1938", region: "hokkaido", reported: true, full: "Batchelor, John (1938). An Ainu–English–Japanese Dictionary. [reported]" },
+	{ key: "Janhunen 2022", region: "general", reported: true, full: "Janhunen, Juha (2022). [On the \"Ainuic\" family framing.] [reported]" },
+	{ key: "Alonso de la Fuente 2022", region: "general", reported: true, full: "Alonso de la Fuente, José Andrés (2022). [Ainu periodisation, in Dal Corso 2025.] [reported]" },
+	{ key: "Vovin 1993", region: "general", reported: true, full: "Vovin, Alexander (1993). A Reconstruction of Proto-Ainu. [reported]" },
+	{ key: "Bugaeva 2012a", region: "general", reported: true, full: "Bugaeva, Anna (2012). [Tripartite-alignment analysis cited in person-marking.] [reported]" },
+	{ key: "Bugaeva 2013", region: "general", reported: true, full: "Bugaeva, Anna (2013). [On the \"mermaid construction\".] [reported]" },
+	{ key: "Bugaeva-Kobayashi 2022", region: "general", reported: true, full: "Bugaeva, Anna & Kobayashi, Miki (2022). [On the quasi-possessive reflexive yay-.] [reported]" },
+	{ key: "Bugaeva-Satō 2021", region: "general", reported: true, full: "Bugaeva, Anna & Satō Tomomi (2021). [On whether N./S. Kuril Ainu form one variety.] [reported]" },
+	{ key: "Evans 2007", region: "general", reported: true, full: "Evans, Nicholas (2007). Insubordination and its uses. [reported]" },
+	{ key: "Daniel-Moravcsik 2005", region: "general", reported: true, full: "Daniel, Michael & Moravcsik, Edith (2005). [On associative plurals; WALS.] [reported]" },
+	{ key: "Terada-Yasuda 1995-2019", region: "sakhalin", reported: true, full: "Terada Kōichi & Yasuda Chiho (tr.) (1995–2019). Japanese translation of Dobrotvorskij (1875). [reported]" },
+	{ key: "Torii 1903", region: "general", reported: true, full: "Torii Ryūzō 鳥居龍蔵 (1903). Chishima Ainu 千島アイヌ [The Kuril Ainu]. [reported]" },
+	{ key: "Golovnin 1811", region: "general", reported: true, full: "Golovnin, V. M. (1811). Kuril Ainu glossary. [reported]" },
+	{ key: "Krasheninnikov", region: "general", reported: true, full: "Krasheninnikov, S. P. (18th c.). [Early Kuril Ainu numeral data.] [reported]" },
+	{ key: "Dybowski", region: "general", reported: true, full: "Dybowski, Benedykt (19th c.). [Kuril Ainu numeral data.] [reported]" },
+	{ key: "Wada (WDB)", region: "sakhalin", reported: true, full: "Wada Bunjirō, Sakhalin Ainu (Ussoro/East) records cited as WDA/WDB in Dal Corso 2018. [reported]" }
+];
+
+const BIB_MAP = new Map(BIBLIOGRAPHY.map((b) => [b.key, b]));
+
+export function lookupBib(key: string): BibEntry | undefined {
+	return BIB_MAP.get(key);
+}
+
+/** URL-fragment-safe id for a cite key (Unicode letters/numbers kept). */
+export function slugifyKey(key: string): string {
+	return key
+		.normalize('NFC')
+		.replace(/[^\p{L}\p{N}]+/gu, '-')
+		.replace(/^-+|-+$/g, '')
+		.toLowerCase();
+}

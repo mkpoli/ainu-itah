@@ -1,0 +1,376 @@
+---
+title: 'Clause Linking and Complex Sentences'
+num: '26'
+part: Syntax
+status: draft
+blurb: How Sakhalin Ainu builds complex sentences by chaining converbal clauses, subordinating with adverbial particles, and framing conditionals and reported speech.
+sources:
+  - Furukawa 1967
+  - Dal Corso 2018
+  - Chiri 1942
+  - Piłsudski 1912
+  - Handbook (Bugaeva ed.)
+---
+
+<script lang="ts">
+	import Example from '$lib/components/grammar/Example.svelte';
+	import Gl from '$lib/components/grammar/Gl.svelte';
+	import Cite from '$lib/components/grammar/Cite.svelte';
+	import W from '$lib/components/grammar/W.svelte';
+</script>
+
+## Clause chaining and the one-final-particle constraint
+
+Sakhalin Ainu builds complex sentences almost entirely by **clause chaining**.
+A complex sentence is a string of *medial* clauses, each de-finitised and closed
+by a conjunctive particle, feeding a single *final* clause that alone carries the
+closing intonation and the sentence-final particle. There is no dedicated
+coordinating conjunction comparable to English *and*; clauses are simply
+juxtaposed and linked by a verb-final particle (<Cite key="Chiri 1942" page="§89" />).
+Chiri stresses that Ainu has "no true conjunctions": linkage is achieved by the
+independent use of particles, by relational-noun + case-particle phrases, or by
+the **verb + conjunctive-particle** strategy that is the subject of this chapter.
+
+<Cite key="Furukawa 1967" paren={false} /> formalises this for the West-coast
+Raychishka dialect (her transformation rule TR 7): two sentences S₁ and S₂ are
+joined by attaching a conjunction to the first clause, and only **one** final
+particle survives, on the last clause. A companion rule (TR 7′) deletes the
+second subject NP when it is coreferential with the first. The result is the
+familiar Ainu chaining pattern in which medial clauses are reduced and only the
+chain-final clause is fully finite, as in her worked example, where two clauses
+sharing the subject <W w="ahci" gloss="grandmother" /> are fused and the closing
+progressive <Gl t="PROG" /> rests on the last verb alone.
+
+<Example
+	ain="'ahci kuwa koro kanne 'ahkas kusu='an"
+	gloss="grandmother stick 3.A.have IMP.POL walk.SG PROG=exist.SG"
+	free="Grandmother is walking leaning on (her) stick."
+	cite="Furukawa 1967" page="118–119"
+	dialect="West" />
+
+## Converbal (medial) linkers
+
+The core medial-verb markers form a small set distinguished mainly by the
+**temporal relation** between the two events they join. The most basic
+opposition, drawn sharply by <Cite key="Furukawa 1967" paren={false} />, is
+between <W w="wa" gloss="and" /> and <W w="teh" gloss="and then" />.
+
+### wa: tight sequence
+
+<W w="wa" gloss="and" /> links an action and the next with **no gap**, so that
+the two events "blend into one" (<Cite key="Furukawa 1967" page="109" />). It is
+the default converb of immediate sequence and manner.
+
+<Example
+	ain="ku=koro wa 'eci=konte"
+	gloss="1SG.A=buy/have and 2SG.O=give"
+	free="I bought (it) and gave (it) to you."
+	cite="Furukawa 1967" page="109"
+	dialect="West" />
+
+### teh (~ teh ‘orowa): delayed sequence
+
+<W w="teh" gloss="and then" /> marks a sequence with a perceptible interval
+between the two actions, "X-ed, and then Y-ed." Furukawa contrasts the two
+particles minimally: the sentence below is grammatical with *teh* but is rejected
+with *wa*, because buying and coming must be separated in time
+(<Cite key="Furukawa 1967" page="109" />).
+
+<Example
+	ain="ku=koro teh ku='eh"
+	gloss="1SG.A=buy/have and.then 1SG.S=come.SG"
+	free="I bought (it) and (then) came."
+	cite="Furukawa 1967" page="109"
+	dialect="West"
+	note="*ku=koro wa ku='eh was rejected: buying and coming are necessarily separated in time." />
+
+*teh* is frequently reinforced by the postposed temporal connective
+<W w="orowa" gloss="then, after that" /> 'then, after that', and in the same
+chain a following <W w="kusu" gloss="in order to" /> can add a purpose clause:
+
+<Example
+	ain="'e=niina teh 'orowa 'e='i-wooneka kusu teeta 'e=san-i-hi ne='an ike='aa"
+	surface="'E-niina teh 'orowa 'e-'i-wooneka kusu teeta 'e-san-i-hi ne 'an ike 'aa?"
+	gloss="2SG.A=gather.wood and.then then 2SG.A=1PL.O-look.at.situation in.order.to here 2SG.S=descend.SG-EP-PK COP=PFV CONJ=FIN"
+	free="You collected wood and then came down here to check on us, right?"
+	cite="Dal Corso 2018" page="210"
+	dialect="West"
+	note="teh ‘orowa = delayed sequence; kusu = purpose; the chain closes on a single nominalised, finite predicate." />
+
+The Handbook's comparative chapter treats Sakhalin *teh* as preserving the
+**older** function of the cognate Hokkaido particle *tek*: in the Saru dialect
+*tek* grammaticalised into an auxiliary verb 'do for a short time', leaving
+sequential linking to *wa* and *hine*, whereas Sakhalin keeps *teh* as a
+sequential converb (<Cite key="Handbook (Bugaeva ed.)" />).
+
+### hine ~ ine: sequential converb
+
+<W w="hine" gloss="and, having done" /> is a very frequent narrative converb,
+appearing with and without the initial *h-* (the doublet *hine ~ ine*).
+<Cite key="Chiri 1942" paren={false} /> derives the family from *a-ine > ahine*.
+It typically closes a medial clause in connected narrative:
+
+<Example
+	ain="naa ru ano-kinu ani paye=an hine"
+	gloss="that road ? with go.PL=4.S and"
+	free="(We) went on along that road, and …"
+	cite="ainu-corpora (樺太)" page="elpr-a2/039/yamada/001#15"
+	dialect="West"
+	note="Internal segmentation of ano-kinu uncertain; segmentation mine." />
+
+### kane: simultaneity
+
+<W w="kane" gloss="while" /> links a simultaneous, backgrounded action ('while
+doing, as'). It also feeds the resultative aspectual *kane an* (§5). In
+East-coast narrative it appears, for instance, marking a temporal frame:
+
+<Example
+	ain="ko-sir-tono to-noske ko-oman kane"
+	gloss="APPL-appearance-be.bright day-middle APPL-3.go.PC ADV"
+	free="When it had reached midday, plainly bright …"
+	cite="Dal Corso 2018" page="71"
+	dialect="East"
+	note="kane links a simultaneous/temporal medial clause; here on a relational-noun base to-noske 'midday'." />
+
+## Adverbial subordination
+
+Beyond the bare converbs, a set of clause-final particles encodes specific
+adverbial relations — duration, concession, cause, and purpose.
+
+### yayne: long action up to its endpoint
+
+<W w="yayne" gloss="while, until" /> marks a long, continuing action whose
+completion triggers the next event ('while …, and finally'). The apodosis here
+also carries the conclusive verb <W w="hemaka" gloss="end up" />:
+
+<Example
+	ain="ku=henoye yayne ku=mokoro hemaka"
+	gloss="1SG.S=doze.off while/until 1SG.S=sleep CONCL"
+	free="While I was dozing off, I (finally) fell asleep."
+	cite="Furukawa 1967" page="109"
+	dialect="West" />
+
+### yahka: concessive
+
+<W w="yahka" gloss="even though" /> is the concessive subordinator 'even though,
+although'. In Furukawa's minimal example it follows the verb of the protasis:
+
+<Example
+	ain="'ekasre seeseh yahka wen"
+	gloss="too.much be.warm even.though be.bad"
+	free="Even if (it) is made too warm, (that) is bad."
+	cite="Furukawa 1967" page="109"
+	dialect="West" />
+
+A concessive clause may itself be embedded under a higher cogitative frame
+(§6), so that *yahka* scopes within the complement of <W w="ramu" gloss="think" />:
+
+<Example
+	ain="'an=haw-ehe nuu yahka wante-he nee nankoo nah 'an=ramu"
+	gloss="1PL.POSS=voice-POSS 3.hear even.though 3.know-NMLZ COP PROB COMP 4=think"
+	free="I think that, even if he hears our voices, he will probably recognise them."
+	cite="Dal Corso 2018" page="131"
+	dialect="West"
+	note="yahka concessive embedded under nah ‘an-ramu ‘I think that’." />
+
+### kusu: causal and purposive
+
+<W w="kusu" gloss="because; in order to" /> is the most multifunctional linker.
+As a clause-final subordinator it marks **cause** ('because') or **purpose** ('in
+order to'); Furukawa also lists it as a future/intent auxiliary, and it feeds the
+aspectual periphrases *kusu ‘an* and *kusu kara* (§5). The causal use is pervasive
+in conversational and narrative Sakhalin, where the reason-clause is placed last:
+
+<Example
+	ain="ku'ani ne'ampe sake ku=kuu kusu"
+	gloss="1SG TOP liquor 1SG.A=drink because"
+	free="As for me, (it’s) because I’ll drink sake."
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/09#6"
+	dialect="West"
+	note="clause-final kusu ‘because’ giving a reason in conversation." />
+
+The purposive use is equally common; here *kusu* closes a purpose clause inside
+a quotation framed by <W w="nah" gloss="that" /> + <W w="yee" gloss="say" /> (§6):
+
+<Example
+	ain="repun mosiri onne mah-nuu kusu nah yee"
+	surface="Pon kapariw ohkayo ‘Repun mosiri onne mahnuu kusu.’ nah yee."
+	gloss="offshore land to wife-take in.order.to COMP 3.say"
+	free="(He) said, ‘I will go to the offshore land to take a wife.’"
+	cite="ainu-corpora (樺太)" page="chiba-354/43#1"
+	dialect="East"
+	note="purposive kusu inside a quote, closed by quotative nah yee ‘said that’; segmentation mine." />
+
+## Conditional and temporal clauses
+
+The conditional/temporal protasis is marked by <W w="anah" gloss="if, when" />
+'if, when', attested on both coasts. West-coast:
+
+<Example
+	ain="siri-pirika 'anah ku='oman kusu neya"
+	gloss="weather-be.good COND 1SG.S=go.SG CAUF FIN"
+	free="If the weather were fine, I would go (but it isn’t, alas)."
+	cite="Furukawa 1967" page="108"
+	dialect="West"
+	note="‘anah conditional protasis; neya a counterfactual final particle." />
+
+A sequential converb and a conditional can stack within a single chained
+protasis, as in this East-coast example whose apodosis is itself a
+nominalisation-plus-copula construction:
+
+<Example
+	ain="taa teh 'ee 'anah 'an=nukara 'e'askay-Ø nee nanko"
+	gloss="3.dig.up and.then 3.eat COND 4=see be.able-NMLZ COP PROB"
+	free="Maybe I will be able to see her if she digs up (the potatoes) and eats them."
+	cite="Dal Corso 2018" page="132"
+	dialect="East"
+	note="teh sequential + ‘anah conditional in one protasis; apodosis is NMLZ+COP." />
+
+In Murasaki's conversational Enchiw the frozen form <W w="ne'anah" gloss="well then" />
+'(if) so, well then' has grammaticalised into a discourse-opener:
+
+<Example
+	ain="ne'anah 'e'ani ne'ampe seeseh wahka kuu waa"
+	gloss="well.then 2SG TOP warm water drink IMP"
+	free="Well then, you drink the tea."
+	cite="ainu-corpora (樺太)" page="murasaki-enciw/09#6"
+	dialect="West"
+	note="ne‘anah ‘(if) so, well then’ as a frozen conditional discourse-opener." />
+
+Note that the Hokkaido conditional *yak* (and *ciki*) is **not** the Sakhalin
+form: Sakhalin uses *‘anah* and the doublet *(h)ike* (<Cite key="Chiri 1942" page="§28" />).
+A negated copula can also build a conditional, *somo ne ciki* 'if (it) is not (the
+case) that …', as in the West-coast letter of Sentoku Tarōji, where it is followed
+by the converb *koro wa* 'holding and':
+
+<Example
+	ain="hospi sonko i=konte somo ne ciki menco koro wa"
+	gloss="reply message 1SG.O=give NEG COP COND certificate 3.have and"
+	free="If (you) do not give me a reply, (he) holding the certificate (will) …"
+	cite="ainu-corpora (樺太)" page="sentoku/0#94"
+	dialect="West"
+	note="conditional somo ne ciki (NEG COP if); converb koro wa; segmentation mine." />
+
+## Aspectual collocations as monoclausal predicates
+
+Several converb + verb collocations are grammaticalised as **aspectual complex
+predicates**: progressive *kusu ‘an*, resultative *teh ‘an*, durative *kusu kara*,
+and conclusive *wa ‘isam*. <Cite key="Chiri 1942" paren={false} /> notes that
+Sakhalin *kusu ‘an* corresponds to Hokkaido *kor an* (continuative), that *kusu
+kara* parallels the Hokkaido *kus ki* future, and that the Sakhalin-specific *ea*
+expresses the durative. Crucially, <Cite key="Dal Corso 2018" page="178" />
+treats the linking particle in these collocations as "merely a syntactic link":
+these are **monoclausal** complex predicates, not biclausal subordination, even
+though they reuse the clause-linking particles. The progressive *kusu ‘an* is the
+clearest case:
+
+<Example
+	ain="hacikopon hekaci miina kusu an"
+	gloss="be.small child 3.laugh PROG 3.exist.SG"
+	free="A little child is laughing."
+	cite="ainu-corpora (樺太)" page="step 13"
+	dialect="West"
+	note="SA progressive kusu an (≈ HA kor an), per Chiri 1942." />
+
+## Reported speech and complementation
+
+Quoted and reported clauses are placed **first**, then closed by the
+complementiser <W w="nah" gloss="that" /> 'that', optionally followed by a verb
+of saying (<W w="yee" gloss="say" />) or thinking (<W w="ramu" gloss="think" />).
+The whole utterance is very often closed by the reportative evidential
+<W w="manu" gloss="it is said" />. The Sakhalin complementiser *nah* corresponds
+to Hokkaido *sekor* (<Cite key="Dal Corso 2018" page="172" />).
+
+<Example
+	ain="ee aynu an nah ye manu"
+	surface="‘Ee, aynu an’ nah ye manu."
+	gloss="yes person 3.exist.PC COMP 3.say REP"
+	free="‘Yes, I am a human being,’ said (the demon)."
+	cite="Dal Corso 2018" page="23"
+	dialect="East"
+	note="Quote precedes the complementiser nah; verb ye ‘say’; clause closed by reportative manu." />
+
+The same frame with <W w="ramu" gloss="think" /> reports inner thought:
+
+<Example
+	ain="temana neera'an 'an=kara 'an=kii-hi nee nanko nah ramu"
+	surface="‘Temana neera'an 'an-kara 'an-kii-hi nee nanko’ nah ramu."
+	gloss="how such 4=make 4=do-NMLZ COP PROB COMP 3.think"
+	free="She thought, ‘How should I do (it)?’"
+	cite="Dal Corso 2018" page="25"
+	dialect="West"
+	note="Inner thought framed with cogitative nah ramu ‘think that’." />
+
+<Cite key="Dal Corso 2018" paren={false} /> stresses that *nah ye(e)* 'say that'
+shows hardly any grammaticalisation — both *nah* and *ye* keep their ordinary
+functions; the reportative force is carried by clause-final *manu*. *manu* marks
+hearsay when reinforced by a verb such as <W w="nu" gloss="hear" /> or *ye* 'say':
+
+<Example
+	ain="neya manka kiren tan pa ne pakhe ray manu nu manu"
+	gloss="that be.rich Tungus that year COP spring 3.die REP 3.hear REP"
+	free="They said the rich Tungus had died that spring, so he heard."
+	cite="Dal Corso 2018" page="296"
+	dialect="East"
+	note="Hearsay reportative manu reinforced by nu manu ‘so he heard’ to flag an unspecified source." />
+
+An overt source may also be named, with the quotative frame *nah ye-hci* 'they
+said that':
+
+<Example
+	ain="suu naa oypeh naa kara-hci ranke suye-hci ne manu 'an=unu-hu-hcin nah ye-hci"
+	gloss="pot also vessel also 3.make-3PL.A ITER 3.cook-3PL.A COP REP 1PL.POSS=mother-POSS-PL COMP 3.say-3PL.A"
+	free="It is said they made pots and vessels and cooked, so my parents said."
+	cite="Dal Corso 2018" page="296"
+	dialect="Sakhalin"
+	note="Quotative manu with overt source (‘an-unu-hu-hcin ‘my parents’); naa … naa = additive NP coordination." />
+
+Reported speech feeds higher syntax directly: a quote can be nominalised and made
+the argument of a causal *kusu* clause, stacking complementation and subordination
+(<Cite key="Dal Corso 2018" page="21" />). Note that Sakhalin *manu* is invariant
+across the reportative-to-traditional-knowledge shift, whereas the Hokkaido
+reportative changes form (*hawas → ruwe ne*); this is a diagnostic Sakhalin
+feature (<Cite key="Dal Corso 2018" page="297–298" />).
+
+## NP coordination and adversative linking
+
+Sakhalin has no clausal coordinator, but it does coordinate **noun phrases**
+additively with the repeated particle <W w="naa" gloss="also" /> 'X also … Y
+also', as seen in *suu naa oypeh naa* 'pots and vessels' above
+(<Cite key="Dal Corso 2018" page="296" />). For an adversative ('but, however')
+relation between clauses, Sakhalin uses <W w="korka" gloss="but" />
+(<Cite key="Chiri 1942" page="§45" />), still productive in revival prose:
+
+<Example
+	ain="wooyaan itah ponno wante korka aynu itah neanpe okore oyra hemaka manu"
+	gloss="various word a.little 3.know but Ainu word TOP all 3.forget CONCL REP"
+	free="(She) knew various languages a little, but she forgot the Ainu language entirely, it is said."
+	cite="ainu-corpora (樺太)" page="express-special/001#4"
+	dialect="West"
+	note="korka adversative ‘but’; topic neanpe; conclusive hemaka; reportative manu." />
+
+## Insubordination
+
+A final point of theoretical interest: <Cite key="Dal Corso 2018" page="134–135" />
+argues that Sakhalin **nominalisation + copula** constructions (V-*hV* *ne(e)*)
+have, in their latest diachronic stage, been re-used as **independent main
+clauses** — a formally subordinate (nominalised) clause standing alone,
+conventionalised to express personal-knowledge evidentiality. The interrogative
+final particle <W w="hetaneya" gloss="?" />, which attaches only to nouns, is the
+diagnostic that the host is nominal. This is the clearest Sakhalin case where
+subordinating morphosyntax is deployed in a main-clause function.
+
+## Gaps and open questions
+
+Several aspects of the system remain underdescribed. <Cite key="Furukawa 1967" paren={false} />
+states that she identified roughly **40** conjunctive forms for Raychishka but
+published only four (*wa, teh, yayne, yahka*); the full inventory and the precise
+co-subordination semantics of the remainder are **unattested** in the consulted
+sources. The internal segmentation of *‘anah* and *‘orowa* is **uncertain**;
+sources give surface forms only. Whether Sakhalin has a distinct simultaneous
+converb productive in clause chaining (beyond aspectual *kane an* / *kusu ‘an*) is
+under-described for the West coast. Finally, true logophoricity (dedicated
+logophoric pronouns in reported speech) is **unattested** in the consulted
+Sakhalin sources; reported speech relies instead on the 4th-person/indefinite
+prefixes <Gl t="PRM" /> plus *nah*, with <Cite key="Chiri 1942" page="764" />
+noting that *an-* inside quotes edges toward a third-person reading.
