@@ -191,22 +191,20 @@ these the marked verb cross-references a plural (here dual or open-plural)
 participant. Only `ocipa-hsi` breaks the pattern: its agent is a single,
 named young man and its patient is the singular flatfish-man, so the suffix
 cannot be tracking participant number at all. We therefore analyse the
-collective as **basically a participant-plural agreement clitic** whose
+collective as <strong>basically a participant-plural agreement clitic</strong> whose
 *non-agreeing* occurrences are the marked case requiring explanation.
 
 For that marked case three diagnostics converge. First, distributionally, the
 non-agreeing tokens are vanishingly rare (one in nine here) and cluster exactly
 where the clause has a definite patient and a backgrounded agent — the
 prototypical environment of a passive (Dixon and Aikhenvald's defining
-profile: patient promoted to pivot, agent demoted or suppressed). Second,
-<Cite key="Sakaguchi 2020" paren={false} /> shows the same non-agreeing `-ahci`
+profile: patient promoted to pivot, agent demoted or suppressed). Second, <Cite key="Sakaguchi 2020" paren={false} /> shows the same non-agreeing `-ahci`
 recurring on `uk-ahci` "(it) was taken", `an-ociwe-hci` "(the corpse) was
 thrown", `an-kii-re-hsi` "(he) was granted (an audience)", and even on a verb
 of psychological affect, `an-ramu-hsi` "(he) was favoured" — in all of which
 both agent and patient are singular and definite, and the reading is uniformly
 passive (Sakaguchi 2020: 52–53, drawing on Murasaki 1979: 51 and Yamabe &
-Kindaichi 1913). Third, in most of those examples `-ahci` co-occurs with the
-<Gl t="INDEF" /> clitic `an=`, the ordinary Sakhalin passive marker; in `ocipa-hsi` alone
+Kindaichi 1913). Third, in most of those examples `-ahci` co-occurs with the <Gl t="INDEF" /> clitic `an=`, the ordinary Sakhalin passive marker; in `ocipa-hsi` alone
 `an=` is *absent*, so the collective is left carrying the passive sense by
 itself. This is the configuration that makes the line probative.
 
@@ -214,7 +212,7 @@ Cross-linguistically this is a familiar drift. An impersonal-plural ("they
 threw him" with arbitrary *they*) is the classic diachronic source of a
 passive — the path of French *on*, German *man*, and the Balto-Finnic and
 Uralic impersonals (Givón; Comrie). On that account `ocipa-hsi` is an
-**impersonal-plural construction recruited as a passive**: the plural marker no
+<strong>impersonal-plural construction recruited as a passive</strong>: the plural marker no
 longer counts agents but signals that the agent is demoted, leaving the patient
 as the sole tracked argument. We adopt this as the grammar's analysis: the
 Sakhalin collective is a plural-agreement clitic at base, and its passive use

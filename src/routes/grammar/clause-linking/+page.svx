@@ -135,10 +135,9 @@ It typically closes a medial clause in connected narrative:
 
 ### (h)ike: sequential / consequential converb
 
-Alongside *hine*, Sakhalin has a second high-frequency sequential converb,
-<W w="ike" gloss="and, and so" />, likewise showing the *h-* doublet *hike ~ ike*
+Alongside *hine*, Sakhalin has a second high-frequency sequential converb, <W w="ike" gloss="and, and so" />, likewise showing the *h-* doublet *hike ~ ike*
 (<Cite key="Chiri 1942" page="§51" paren={false} />). Diachronically it is the
-nominalising suffix *-(h)ike* 'the one that …' (<Cite key="Chiri 1942" page="§61" />) reanalysed
+nominalising suffix *-(h)ike* 'the one that …' (<Cite key="Chiri 1942" page="§61" paren={false} />) reanalysed
 as a clause-linker; Chiri states explicitly that in Sakhalin *(h)ike* "is also used
 in the same sense as *wa, hine, tek*", i.e. as a plain sequential converb, and that
 when so used the nominaliser "is better regarded as a conjunctive particle"
@@ -479,8 +478,7 @@ subordinating morphosyntax is deployed in a main-clause function.
 
 <Cite key="Furukawa 1967" page="11" paren={false} /> reports that she identified roughly
 <strong>40</strong> conjunctive forms for Raychishka but published worked examples of only four
-(*wa, teh, yayne, yahka*). The remaining members are not, however, lost to description:
-<Cite key="Chiri 1942" page="§120–121" paren={false} /> catalogues the Ainu conjunctive
+(*wa, teh, yayne, yahka*). The remaining members are not, however, lost to description: <Cite key="Chiri 1942" page="§120–121" paren={false} /> catalogues the Ainu conjunctive
 particles (his "third kind of particle") pan-dialectally, flagging the Sakhalin-specific uses,
 and the great majority of his entries are precisely the forms that recur in the Sakhalin corpus.
 Cross-referencing his list against the West- and East-coast texts lets us recover the bulk of

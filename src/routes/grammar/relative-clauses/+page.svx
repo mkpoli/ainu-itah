@@ -98,8 +98,7 @@ is a productive pattern, not a frozen idiom.
 It would be a mistake, however, to read <W w="pe" gloss="thing" />-headed
 relativisation as a purely East-coast trait. The construction is alive in modern
 West-coast usage too. In a pedagogical Raychishka dialogue the same frame appears
-twice in two clauses, here relativising the **object** of the naming verb
-<W w="yee" gloss="say, call" /> 'call' (with the indefinite/impersonal subject
+twice in two clauses, here relativising the <strong>object</strong> of the naming verb <W w="yee" gloss="say, call" /> 'call' (with the indefinite/impersonal subject
 *an=*, glossed <Gl t="INDEF" />):
 
 <Example
@@ -110,7 +109,7 @@ twice in two clauses, here relativising the **object** of the naming verb
 	dialect="West"
 	note="O relativisation with bound-noun head pe; the named term is gapped as object of an=yee ‘one calls’, and the instrumental ani ‘in (the Japanese language)’ is stranded inside the clause. Modern West-coast pedagogical dialogue (Kitahara Mokottunas, New Express Special). Segmentation editorial." />
 
-The same text relativises an **animate** head — a full lexical noun, not a bound
+The same text relativises an <strong>animate</strong> head — a full lexical noun, not a bound
 one — by the identical frame: *[Ø] nah an=yee henke* '[the] old man (whom) one
 calls (so-and-so)' <Cite key="Kitahara 2016" />, with <W w="henke" gloss="old man" />
 'old man' (a Sakhalin form recorded already by Chiri, <Cite key="Chiri 1942" />) as
@@ -161,7 +160,7 @@ attested** in Sakhalin. The naming relative *siisam itah ani [Ø] nah an=yee pe*
 'the thing one calls (it) … in Japanese' (§ argument relativisation above) is
 exactly such a case: the relativised element is the named object, gapped before
 the verb, while the instrumental <W w="ani" gloss="with, by means of" /> that
-marks the means *siisam itah* 'the Japanese language' stays **inside** the
+marks the means *siisam itah* 'the Japanese language' stays <strong>inside</strong> the
 relative clause, orphaned of its complement. The bracketing is
 *[siisam itah ani Ø an=yee] pe* '[the thing one calls Ø by-means-of the Japanese
 language]', with <W w="ani" gloss="with, by means of" /> (<Gl t="INS" />) stranded
@@ -170,8 +169,7 @@ describes for Ainu generally: under adjunct relativisation the postposition is
 left stranded, with no resumptive pronoun, and it is the stranded adposition
 that keeps the role of the gapped element recoverable.
 
-Note that *not every* postposition strands: the plain locative
-<W w="ta" gloss="at, in" /> and allative <W w="un" gloss="to" /> cannot be left
+Note that *not every* postposition strands: the plain locative <W w="ta" gloss="at, in" /> and allative <W w="un" gloss="to" /> cannot be left
 hanging this way and require instead a relational noun (see below) <Cite key="Bugaeva 2015" page="50" />.
 
 ## Possessor relativisation: the retained possessive suffix
@@ -212,7 +210,7 @@ head noun remains gap-marked. The same relational nouns build complex adposition
 generally (see [postpositions and relational nouns](/grammar/postpositions-relational-nouns)).
 
 Sakhalin furnishes a directly attested place-relative of the simpler subtype, in
-which the spatial argument is gapped under a **bound noun of place** rather than
+which the spatial argument is gapped under a <strong>bound noun of place</strong> rather than
 under retained <W w="oro" gloss="place" />. In Sentoku Tarōji's early-twentieth-century
 Sakhalin letters to Piłsudski (Naibuchi, East coast), *e=an toko* '(the) place
 where you are' modifies nothing further but heads its own clause and is itself the
@@ -269,13 +267,11 @@ PARAMETER, with <W w="isam" gloss="not exist" /> negating existence:
 	note="The equative base construction underlying the superlative relative idiom. Cited from Saru (Hokkaido) but the stranding mechanism is pan-Ainu." />
 
 These two examples are drawn from Hokkaido (Saru) corpora; we have not located a
-*Sakhalin* token of this **complete** superlative idiom — predicate
-<W w="isam" gloss="not exist" /> with a stranded <W w="pakno" gloss="as far as, until" />
+*Sakhalin* token of this <strong>complete</strong> superlative idiom — predicate <W w="isam" gloss="not exist" /> with a stranded <W w="pakno" gloss="as far as, until" />
 inside an equative copular matrix — in the present sources <Cite key="Bugaeva 2015" page="53" />.
 What we can show, however, is that every component the idiom is built from is
 independently and robustly attested in Sakhalin, so the gap is one of textual
-record rather than of grammar. (i) The degree postposition
-<W w="pakno" gloss="as far as, until" /> 'as far as, up to' is frequent in Sakhalin
+record rather than of grammar. (i) The degree postposition <W w="pakno" gloss="as far as, until" /> 'as far as, up to' is frequent in Sakhalin
 prose — Sentoku's letters use it repeatedly (*Otasan pak-no*, *Seraroka pak-no*,
 *e=an toko pak-no* 'as far as Otasan / Seraroka / the place you are'), and we have
 just seen it take a relativised, gap-headed phrase as its complement. (ii) The
@@ -337,9 +333,8 @@ clause with the relativised noun phrase gapped, no relative pronoun, no
 relativising particle. Core arguments (S, A, O) leave a bare gap and are tracked
 by verb agreement and by the head, which is frequently a bound noun
 (<W w="kur" gloss="person" />, <W w="pe" gloss="thing" />, <W w="hi" gloss="place" />)
-but may equally be a full lexical noun (<W w="henke" gloss="old man" />). The
-<W w="pe" gloss="thing" />-headed relative, often described as an East-coast
-feature, is attested on **both** coasts: the East-coast Piłsudski narratives use
+but may equally be a full lexical noun (<W w="henke" gloss="old man" />). The <W w="pe" gloss="thing" />-headed relative, often described as an East-coast
+feature, is attested on <strong>both</strong> coasts: the East-coast Piłsudski narratives use
 it (*mahnekuh kii-pe*, *kii-hci an-pe* 'the thing women / they do') and modern
 West-coast Raychishka materials reproduce it in the naming frame *X nah an=yee pe*
 'the thing one calls X'. Non-arguments retain tracking material:
@@ -351,8 +346,7 @@ marker, or is gapped under a place-noun head as in the attested *e=an toko* 'the
 place you are'. The standard-of-comparison superlative idiom (<W w="pakno" gloss="until" />
 … <W w="isam" gloss="not exist" />) is a special case of degree-adjunct
 relativisation; it is documented in full only for Hokkaido, but each of its
-ingredients — productive <W w="pakno" gloss="until" />, the negative existential
-<W w="isam" gloss="not exist" />, and degree relativisation — is independently
+ingredients — productive <W w="pakno" gloss="until" />, the negative existential <W w="isam" gloss="not exist" />, and degree relativisation — is independently
 attested in Sakhalin, so we treat the idiom as part of the Sakhalin grammar, its
 absence from the record being a gap in the text base rather than in the language.
 Throughout, the Sakhalin nominalised verb form V-<Gl t="POSS" /> is

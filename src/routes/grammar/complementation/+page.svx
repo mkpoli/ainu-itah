@@ -40,15 +40,12 @@ predicates largely uncharted, much of the controlled-complementation literature
 resting on Hokkaido data <Cite key="Bugaeva 2016" page="98" />. We reconstruct that
 inventory here directly from the West- and East-coast corpora. Three selectional
 classes emerge, distinguished by the shape they impose on their complement
-(tabulated in the final section): (i) **tight desiderative/modal predicates**
+(tabulated in the final section): (i) <strong>tight desiderative/modal predicates</strong>
 (<W w="rusuy" gloss="want" />, <W w="easkay" gloss="be able" />), which take a bare
 verb and weld it into a single complex predicate; (ii) **evaluative and
-veridicality predicates** (<W w="pirka" gloss="be good" />, <W w="wen" gloss="be bad" />,
-<W w="sunke" gloss="be untrue" />), which take a nominalised clause — on the West
+veridicality predicates** (<W w="pirka" gloss="be good" />, <W w="wen" gloss="be bad" />, <W w="sunke" gloss="be untrue" />), which take a nominalised clause — on the West
 coast canonically the V-poss form — as their subject argument; and (iii)
-**utterance and cognition predicates** (<W w="yee" gloss="say" />, <W w="ramu" gloss="think" />,
-<W w="wante" gloss="know" />), which either frame a clause with the quotative
-<W w="nah" gloss="that (QUOT)" /> or take a *pe*/*hi*-headed or V-poss
+<strong>utterance and cognition predicates</strong> (<W w="yee" gloss="say" />, <W w="ramu" gloss="think" />, <W w="wante" gloss="know" />), which either frame a clause with the quotative <W w="nah" gloss="that (QUOT)" /> or take a *pe*/*hi*-headed or V-poss
 nominalisation. The account below substantiates each class from attested material.
 
 ## Complement-taking predicates: nominaliser-requiring vs. zero-nominalisation
@@ -373,7 +370,7 @@ form (e.g. *ci=setur-u* 'our backs') and the "long" form (*ci=setur-uhu*) as
 opposition in the complement data either: the complement-clause tokens vary freely
 between, for instance, *ku=ek-ihi* and *ku=ek-ihii* with no detectable difference in
 presuppositional force or evidential value. We therefore analyse the alternation as
-**morphophonological, not functional** — the long form being the underlying
+<strong>morphophonological, not functional</strong> — the long form being the underlying
 shape `-V + hV` and the short form a reduced variant. Two independent observations
 support this. First, the alternation tracks stem phonology, not clause semantics:
 it is the same -V/-VhV variation seen across the whole possessive paradigm of nouns
@@ -382,7 +379,7 @@ suggestively, <Cite key="Bugaeva 2016" page="105" paren={false} /> connects the
 suffix's vowel behaviour to a retracted-tongue-root (RTR) harmony of the type
 Ko, Joseph & Whitman identify as an areal feature of Northeast Asia, after
 Shibatani's (1990) reconstruction of the Ainu possessive as harmonic in origin.
-On that view the short/long doublet is a **prosodic-phonological residue** of an
+On that view the short/long doublet is a <strong>prosodic-phonological residue</strong> of an
 eroded harmony system, exactly the kind of variation that is expected to be
 free synchronically. We predict, then, that no complement-selecting predicate will
 ever turn out to require one length over the other; this is a falsifiable claim that
@@ -398,11 +395,11 @@ also has the full V-poss range. The texts answer partly in the affirmative. East
 V-poss is securely attested as (i) a clausal complement under causal *kusu* — *naha
 nuu-hu kusu* 'because of his hearing that' — and (ii) the object of a cognition
 verb — *aneramuskari* embedding a *…-pi-hi* nominalisation, both cited above. What
-the East-coast texts do **not** clearly attest is the most innovative West-coast use:
+the East-coast texts do <strong>not</strong> clearly attest is the most innovative West-coast use:
 bare V-poss as an independent sentence-final assertion or question. We therefore
-characterise the East coast as deploying V-poss in its **embedded** functions
+characterise the East coast as deploying V-poss in its <strong>embedded</strong> functions
 (clausal nominalisation, complement of a higher predicate) but, on present evidence,
-**not** in the insubordinated main-clause function that the West coast has
+<strong>not</strong> in the insubordinated main-clause function that the West coast has
 grammaticalised. This is the diachronically expected picture: the embedded uses are
 the older stratum (stages II–III of the nominalisation cycle), the main-clause use
 the youngest (stage IV), so the dialect that innovates least should retain the
@@ -415,7 +412,7 @@ silence.
 
 Drawing the attested predicates together yields the selectional table that the
 sources had not assembled for Sakhalin. The pattern is principled rather than
-arbitrary: complement form correlates with the **semantic integration** of the two
+arbitrary: complement form correlates with the <strong>semantic integration</strong> of the two
 events, in the manner of Givón's binding hierarchy and Noonan's complement
 typology.
 
