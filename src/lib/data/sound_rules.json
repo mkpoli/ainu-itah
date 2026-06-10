@@ -1,0 +1,431 @@
+[
+  {
+    "id": "coda-r-assimilation-to-n",
+    "direction": "hok->sakh",
+    "environment": "Coda /r/ immediately before /n/, /t/, or /r/ within the word (rn -> nn, rt -> nt, rVr -> nr with deletion of the Class I epenthetic vowel), including before the consonant-initial verbal elements -te (CAUS) and rusuy (DESID): r -> n. Pre-empts both the echo-vowel repair and the -h repair, so must be ordered before them. Does NOT apply across the converb boundary (koro teh, never *koh teh; Tangiku 1998: 225) nor, on present evidence, across plain word boundaries ('or ta). The pattern crosses a space only before the literal word rusuy.",
+    "pattern": { "from": "r(?=[-=]?[ntr])|r(?= rusuy)", "to": "n" },
+    "order": 10,
+    "hokkaido": "kor-te",
+    "sakhalinWest": "konte",
+    "sakhalinEast": "konte",
+    "regularity": "regular",
+    "dialectGate": null,
+    "source": "syllable-and-coda § 'Coda /r/: echo vowel or debuccalisation' (Chiri 1942: 472-473; Tangiku 1998: 225-227); morphophonology § 'Coda resurfacing and assimilation at the boundary' (Chiri 1942: 472) and § 'The West-coast -rV verb classes' (Tangiku 1998: 227); phonology § 'The liquid /r/' (Tangiku 1998: 227)",
+    "examples": [
+      ["kor-te", "konte"],
+      ["nukar-te", "nukante"],
+      ["cise-kor-nispa", "cisekonnispa"],
+      ["kor rusuy", "kon rusuy"],
+      ["nukar rusuy", "nukan rusuy"]
+    ],
+    "inItahTs": false,
+    "notes": "Applies only to Class I stems (those with an r-final Hokkaido cognate: kor, nukar, 'inkar, mokor); Class II vowel-final stems never alternate (tura rusuy, not *tun rusuy; koore, mahnuure, 'eere). Exceptionless within its class across registers: West-coast elicitation (Tangiku 1998: 227), Asai Take narrative (ku=/e=/an=kon rusuy, konte; Murasaki 2001), East-coast L1 epistolary prose (Sentoku konte), 21st-c. revival prose (ku=nukan rusuy, Ainu Times). itah.ts instead applies the echo vowel to every coda r, predicting *korote for kor-te."
+  },
+  {
+    "id": "possessive-he-generalisation",
+    "direction": "hok->sakh",
+    "environment": "Possessed (affiliative) suffix on monosyllabic -i/-u stems and glide-final (-y/-w) stems: Sakhalin generalises -he where Hokkaido uses -ye/-yehe (i-stems), a periphrasis or -p (u-stems), and -e/-ehe (glide stems). Mechanical only over morpheme-segmented input (V-ye -> V-he; glide + -e -> glide + -he). Polysyllabic -i/-u stems vary -hi/-hu ~ -he (generalisation in progress) and are NOT covered by the pattern.",
+    "pattern": { "from": "(?<=[aeiou])-ye(?=$|\\s)|(?<=[wy])-e(?=$|\\s)", "to": "-he" },
+    "order": 20,
+    "hokkaido": "ni-ye",
+    "sakhalinWest": "ni-he",
+    "sakhalinEast": "ni-he",
+    "regularity": "regular",
+    "dialectGate": null,
+    "source": "morphophonology § 'Possessive allomorphy and the Sakhalin -he generalisation' (Chiri 1952: 463; Chiri 1942: 532, 1045, 1049; Murasaki 2024); prosody § 'Accent stability in the possessive paradigm' (Chiri 1942: 1049, 217, 469; Chiri 1952: 463)",
+    "examples": [
+      ["ni-ye", "ni-he"],
+      ["haw-e", "haw-he"]
+    ],
+    "inItahTs": false,
+    "notes": "Exceptionless in the monosyllabic and glide-final classes (ni-he, ku-he, 'ay-he, haw-he); optional in polysyllables (kampihi ~ kampihe; conservative West-coast ku='itanki-hi, Murasaki 2024). ku 'bow' -> ku-he has no pairable Hokkaido form (the pages give only 'a periphrasis / -p'). Prosodic concomitant: Sakhalin keeps initial accent (rú-he) where Hokkaido shifts rightward (ru-é; Chiri 1942: 217). Requires hyphen-segmented input; the engine strips separators at the end."
+  },
+  {
+    "id": "coda-stop-after-i-to-s",
+    "direction": "hok->sakh",
+    "environment": "Coda /p t k/ standing immediately after /i/ and not followed by a vowel (a separator - or = is transparent to the vowel test): palatalises to [ç] and merges with the sibilant, surfacing as s (not h). Must be ordered before the general debuccalisation. The underlying stop resurfaces before a vowel (sik-i 'his eye').",
+    "pattern": { "from": "(?<=i)[ptk](?![-=]?[aeiou])", "to": "s" },
+    "order": 30,
+    "hokkaido": "cip",
+    "sakhalinWest": "cis",
+    "sakhalinEast": "cis",
+    "regularity": "regular",
+    "dialectGate": { "exclude": ["taraika"] },
+    "source": "syllable-and-coda § 'The after-/i/ rule: stop -> s' (Chiri 1942: 472) and § 'Hokkaido <-> Sakhalin coda correspondences'; morphophonology § 'Coda resurfacing and assimilation at the boundary' (sik -> sis; Chiri 1942: 472); orthography § 'Modern katakana and Cyrillic' (coda-h after /i/ absent in native vocabulary; cip -> cis, sik -> sis)",
+    "examples": [
+      ["cip", "cis"],
+      ["sik", "sis"],
+      ["nit", "nis"]
+    ],
+    "inItahTs": true,
+    "notes": "The Hokkaido<->Sakhalin table also records a variant sik -> sis ~ sih 'eye' — an unexplained -h doublet for this one item. This rule is why /s/ is a permitted Sakhalin coda: much synchronic coda-s is neutralised post-/i/ obstruents. The grammar's examples are word-final; word-medial application (sittok -> sistoh) is an extrapolation inherited from itah.ts, which the grammar neither states nor contradicts. Taraika gate inherited from coda-stop retention (Itabashi 2001: 89; Tangiku 1998: 224)."
+  },
+  {
+    "id": "geminate-stop-to-hc",
+    "direction": "hok->sakh",
+    "environment": "Hokkaido geminate stop (CC) or stop+stop cluster: the first half, being a non-prevocalic obstruent, undergoes the regular coda debuccalisation to h; the second half remains as onset of the following syllable (CC -> hC). Formally a sub-case of coda-stop-debuccalisation applied pre-consonantally; kept as a separate entry because the grammar states it as its own corollary. The pattern is subsumed by coda-stop-debuccalisation, so the two rules never conflict.",
+    "pattern": { "from": "(?<!i)[ptk](?=[-=]?[ptk])", "to": "h" },
+    "order": 40,
+    "hokkaido": "wakka",
+    "sakhalinWest": "wahka",
+    "sakhalinEast": "wahka",
+    "regularity": "regular",
+    "dialectGate": { "exclude": ["taraika"] },
+    "source": "syllable-and-coda § 'Geminates -> hC' (Itabashi 2001: 93); orthography § 'The coda-h: the orthographic shibboleth' ('okkayo -> 'ohkayo; Tangiku 1998: 2-2)",
+    "examples": [
+      ["wakka", "wahka"],
+      ["satte", "sahte"],
+      ["hotke", "hohke"],
+      ["'okkayo", "'ohkayo"]
+    ],
+    "inItahTs": true,
+    "notes": "East phonetics: hohke = [hɔxkjɛ]; word-internally the debuccalised coda is [x], or [ɸ] after /u/ (yuh-ke = Piłsudski júfḱe, root yup 'be strong'; Dal Corso 2024: 61). In itah.ts the effect is emergent from per-syllable application of the stop rule, not a distinct rule."
+  },
+  {
+    "id": "coda-stop-debuccalisation",
+    "direction": "hok->sakh",
+    "environment": "Coda /p t k/ not followed by a vowel and not after /i/ (a separator - or = is transparent to the vowel test): debuccalises to the fricative x, written -h. Place-conditioned phonetic realisations: velar [x] after /a u o e/, palatal [ç] after /i/, labial [ɸ] after /u/ (Chiri 1942: 472). Strictly conditioned by the absence of a following vowel: the underlying stop resurfaces intact before a vowel-initial suffix/enclitic (mat-ak -> matax 'younger sister', itak-ahci 'they spoke', tek-ihi 'my hand', rap-us -> rapus, sik-i 'his eye').",
+    "pattern": { "from": "(?<!i)[ptk](?![-=]?[aeiou])", "to": "h" },
+    "order": 50,
+    "hokkaido": "itak",
+    "sakhalinWest": "itah",
+    "sakhalinEast": "itah",
+    "regularity": "regular",
+    "dialectGate": { "exclude": ["taraika"] },
+    "source": "syllable-and-coda § 'Coda neutralisation: /p t k/ -> x / -h' (Chiri 1942: 471; Tangiku 1998: 224), § 'Resurfacing before a vowel-initial morpheme' (Chiri 1942: 471; Dal Corso 2024: 61) and § 'Hokkaido <-> Sakhalin coda correspondences' (Itabashi 2001: 93); orthography § 'The coda-h: the orthographic shibboleth' (Tangiku 1998: 2-2; Kindaichi 1911 apud Sakaguchi 2021); dialects-and-sources § 'Diagnostic isoglosses' (Tangiku 1998: 2-2; Dal Corso 2025); morphophonology § 'Coda resurfacing and assimilation at the boundary' (Chiri 1942: 471)",
+    "examples": [
+      ["itak", "itah"],
+      ["cikap", "cikah"],
+      ["mat", "mah"],
+      ["cep", "ceh"],
+      ["yap", "yah"],
+      ["tek", "teh"],
+      ["kut", "kuh"],
+      ["nak", "nah"]
+    ],
+    "inItahTs": true,
+    "notes": "Dialect gate: Taraika / northern East coast retains p t k. West coast writes -h consistently; East coast (Piłsudski) usually leaves the coda unwritten, surfacing [x] before a plosive or before a vowel-initial word (itax ki, nax án; Dal Corso 2024: 61). The h:k particle correspondence nah : nak is this rule: nah 'so' has underlying /nak/, recoverable in the nax án sandhi. Chiri's word-internal spellings tex, max, kux, rax (Chiri 1942: 471) = word-final teh, mah, kuh (rah is never printed as such, only rax 'wing', so [rap, rax] is excluded from the mechanical examples)."
+  },
+  {
+    "id": "coda-r-preconsonantal-h",
+    "direction": "hok->sakh",
+    "environment": "Coda /r/ before a following consonant other than /n t r/ within the word (i.e. in the same pre-consonantal environment where /p t k/ debuccalise): r -> h. This is the West-coast generalisation of debuccalisation to /r/; the East coast uses the echo vowel instead, so the rule is gated to the West baseline. The page's own triangulation hedges it: conditioning is 'primarily dialectal (East = echo-vowel, West = debuccalisation available), secondarily morphophonological (pre-/n t r/ /r/ is pre-empted by assimilation to n), and only residually free word-finally and before other obstruents' — yet its correspondence table gives the single unhedged output 'unarpe -> 'unahpe for the pre-consonantal case, which this rule follows as the deterministic West-baseline default. Must be ordered after coda-r-assimilation-to-n (which consumes r before n/t/r) and before the word-final echo-vowel rule. Does not cross spaces: word-final r before a consonant-initial word goes to the echo vowel (kapara tuki) or, dialectally, to -h (kapax tuki) — see coda-r-final-h-west.",
+    "pattern": { "from": "r(?=[-=]?[pkmschwy])", "to": "h" },
+    "order": 60,
+    "hokkaido": "'unarpe",
+    "sakhalinWest": "'unahpe",
+    "sakhalinEast": null,
+    "regularity": "regular",
+    "dialectGate": { "exclude": ["sakhalin-east", "taraika"] },
+    "source": "syllable-and-coda § 'Coda /r/: echo vowel or debuccalisation' (Chiri 1942: 472-473; Sakaguchi 2020: 43; Sakaguchi 2020b; Murasaki 2024) and § 'Hokkaido <-> Sakhalin coda correspondences' table; phonology § 'The liquid /r/' (Chiri 1942: 472); morphophonology § 'Coda resurfacing and assimilation at the boundary' (Chiri 1942: 472)",
+    "examples": [
+      ["'unarpe", "'unahpe"]
+    ],
+    "inItahTs": false,
+    "notes": "Only one word-internal pre-consonantal pair ('unarpe -> 'unahpe) is printed in the six pages, so the example list stays at one — the other r -> h attestations ('utar -> 'utah; kapar tuki ~ kapax tuki) are word-final and live under the dialectal rule coda-r-final-h-west. East Sakhalin has categorical echo-vowel word-finally ('utara; Sakaguchi 2020: 43); its word-internal pre-consonantal treatment is unattested in the pages, hence the East gate. Taraika gated as conservative/unstated. itah.ts wrongly gives 'unarpe -> *unarape here. CAVEAT for the generator: because the residue is lexically diffusing, individual lexemes not printed in the pages may instead take the echo vowel word-internally (the converter's pirka -> pihka is a default prediction, not an attestation); kept regular because (i) the table row is unhedged, (ii) Sakhalin phonotactics forbid coda /r/ ('only /p t k c r ʔ/ are rerouted'), so a deterministic converter must reroute it, and (iii) -h is the only page-attested pre-obstruent outcome."
+  },
+  {
+    "id": "coda-r-echo-vowel",
+    "direction": "hok->sakh",
+    "environment": "Stem-final coda /r/ at the right edge of a free form (word-finally or before a space), when not captured by the n-assimilation or the West-coast pre-consonantal r -> h: an echo vowel copying the preceding root vowel is inserted, opening the syllable (rV). Before a vowel-initial element the /r/ simply resurfaces as an onset and no echo vowel is needed.",
+    "pattern": { "from": "([aeiou])r(?=$|\\s)", "to": "\\1r\\1" },
+    "order": 70,
+    "hokkaido": "kor",
+    "sakhalinWest": "koro",
+    "sakhalinEast": "koro",
+    "regularity": "regular",
+    "dialectGate": null,
+    "source": "syllable-and-coda § 'Coda /r/: echo vowel or debuccalisation' (Chiri 1942: 472-473; Tangiku 1998: 230, 227) and § 'Hokkaido <-> Sakhalin coda correspondences' (Itabashi 2001: 93); phonology § 'The liquid /r/' (Chiri 1942: 472; Tangiku 1998: 227); orthography § 'The coda-h: the orthographic shibboleth' table (Tangiku 1998; Dal Corso 2025)",
+    "examples": [
+      ["kor", "koro"],
+      ["utar", "utara"],
+      ["kisar", "kisara"],
+      ["nukar", "nukara"],
+      ["'inkar", "'inkara"],
+      ["mokor", "mokoro"]
+    ],
+    "inItahTs": true,
+    "notes": "Categorical on the East coast (Piłsudski utara passim; Sakaguchi 2020: 43); on the West coast it competes with word-final r -> h ('utah, lexically diffusing — see coda-r-final-h-west), so the echo-vowel output is the pan-Sakhalin-safe prediction and is itself current in the West. The echo vowel is phonologically real, not orthographic padding: it deletes before rusuy/-te (kon rusuy, konte) and the resulting vowel-final stem takes the vowel-type collective =hci (koro-hci), never *=ahci (Tangiku 1998: 6, 230-231). itah.ts applies it per-syllable even word-internally, where the grammar requires r -> h or r -> n instead; here it is restricted to the right edge of a free form."
+  },
+  {
+    "id": "coda-sonorant-and-s-identity",
+    "direction": "hok->sakh",
+    "environment": "Coda /s m n w y/ are the permitted Sakhalin codas and correspond to themselves (identity); only /p t k c r ʔ/ are rerouted. Identity rule: no pattern to apply; the engine's fall-through behaviour implements it.",
+    "pattern": null,
+    "order": 90,
+    "hokkaido": "kotan",
+    "sakhalinWest": "kotan",
+    "sakhalinEast": "kotan",
+    "regularity": "regular",
+    "dialectGate": null,
+    "source": "orthography § 'The coda-h: the orthographic shibboleth' correspondence table ('-m, -n | -m, -n (kept)'; Tangiku 1998: 2-1); syllable-and-coda § 'The coda inventory' (Chiri 1942: 471; Itabashi 2001: 89) and § 'Coda /m/ and the sonorant codas'",
+    "examples": [],
+    "inItahTs": true,
+    "notes": "The pages state the identity as a table row but print no Hokkaido-vs-Sakhalin lexical pair for it (isam, pon, hum are cited only as Sakhalin forms), so examples is empty; the test instead asserts identity/idempotence on attested Sakhalin forms. itah.ts honours the identity for n/s/w/y but VIOLATES it for /m/ (unconditional m -> n), whereas the grammar keeps -m: isam -> isan is only a casual-speech West variant (see coda-m-nasal-assimilation)."
+  },
+  {
+    "id": "coda-r-final-h-west",
+    "direction": "hok->sakh",
+    "environment": "Word-final (and pre-pausal/sandhi) coda /r/ on the West coast: variably r -> h instead of the echo vowel ('utah beside 'utara). Lexically diffusing within the West; categorical echo vowel on the East coast. No mechanical rule selects between -h and the echo vowel word-finally within the West, so this rule is excluded from the deterministic pipeline; the pipeline's echo-vowel output remains a valid West form.",
+    "pattern": { "from": "([aeiou])r(?=$|\\s)", "to": "\\1h" },
+    "order": 110,
+    "hokkaido": "'utar",
+    "sakhalinWest": "'utah",
+    "sakhalinEast": "'utara",
+    "regularity": "dialectal",
+    "dialectGate": { "exclude": ["sakhalin-east", "taraika"] },
+    "source": "syllable-and-coda § 'Coda /r/: echo vowel or debuccalisation' (Chiri 1942: 472-473; Sakaguchi 2020: 43; Sakaguchi 2020b; Murasaki 2024) and § 'Hokkaido <-> Sakhalin coda correspondences' table; orthography § 'The coda-h: the orthographic shibboleth'",
+    "examples": [
+      ["'utar", "'utah"],
+      ["kapar tuki", "kapax tuki"]
+    ],
+    "inItahTs": false,
+    "notes": "West Sakhalin: 'utah is the norm (Murasaki, FF-Ainu, Ainu Times); East Sakhalin: categorical echo-vowel 'utara, with debuccalised *utah unattested in the East subcorpus (Sakaguchi 2020: 43; Sakaguchi 2020b). Chiri's minimal doublet kapara tuki ~ kapax tuki (Chiri 1942: 473) and utara ~ utax on the same Piłsudski page show residual free variation word-finally; both 'utara and 'utah remain current in the West for this lexeme. kapax = kapah in Chiri's x-notation (x is his spelling of the debuccalised coda, house orthography h)."
+  },
+  {
+    "id": "coda-m-nasal-assimilation",
+    "direction": "both",
+    "environment": "Sakhalin-internal allophony, not a Hokkaido->Sakhalin orthographic correspondence: coda /m/ is variably realised [n] in casual West-coast speech, but is /m/ when carefully pronounced or before a vowel; before /k t n/ it is obligatorily [n] (or [ŋ]). Both coasts share the pre-/k t n/ assimilation. The orthographic correspondence table keeps -m, so the deterministic pipeline leaves coda m unchanged.",
+    "pattern": { "from": "m(?=[-=]?[ktn])|m(?=$|\\s)", "to": "n" },
+    "order": 120,
+    "hokkaido": "isam",
+    "sakhalinWest": "isan (casual) ~ isam",
+    "sakhalinEast": "isam",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "phonology § 'Nasals' (Chiri 1942: 472; Dal Corso 2024: 65); syllable-and-coda § 'Coda /m/ and the sonorant codas' (Chiri 1942: 472; Dal Corso 2024: 65); dialects-and-sources § 'The descriptive tradition' (Chiri 1942: 461: isam > isan 'especially on the West coast'); morphophonology § 'Coda resurfacing and assimilation at the boundary' (Dal Corso 2024: 65)",
+    "examples": [
+      ["isam", "isan"],
+      ["sam-ke-ta", "sanketa"]
+    ],
+    "inItahTs": true,
+    "notes": "Pairs are underlying -> surface within Sakhalin (East surface printed sánḱeta with palatalised k, prose [sankʲɛta]; 'sanketa' is its house-orthography normalisation), not Hokkaido -> Sakhalin: the orthographic correspondence keeps -m (Tangiku 1998: 2-1). itah.ts's unconditional coda m -> n encodes this casual/pre-consonantal variant as if it were the regular word-final correspondence — demoted here to sporadic, and the identity rule (coda-sonorant-and-s-identity) carries the regular claim instead."
+  },
+  {
+    "id": "coda-after-u-labial-f-variant",
+    "direction": "hok->sakh",
+    "environment": "Debuccalised coda stop after /u/: phonetically labial [ɸ] (≈ Japanese fu); in the correspondence table and in some source spellings written f instead of h. Regular as allophony but notationally inconsistent across the grammar's own attestations (the same after-/u/ environment is also written -h: kut -> kuh; kana coda small ㇷ, kuh クㇷ), and no rule in the pages selects f vs h — so demoted to sporadic for mechanical purposes; the canonical house orthography writes -h and the pipeline outputs cup -> cuh.",
+    "pattern": { "from": "(?<=u)[ptk](?![-=]?[aeiou])", "to": "f" },
+    "order": 130,
+    "hokkaido": "cup",
+    "sakhalinWest": "cuf ~ cuh",
+    "sakhalinEast": "cuf ~ cuh",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "syllable-and-coda § 'Coda neutralisation: /p t k/ -> x / -h' ([ɸ] after /u/; Chiri 1942: 472) and § 'Hokkaido <-> Sakhalin coda correspondences' table (cup -> cuf 'sun, month', yuk -> yuf 'deer'; Itabashi 2001: 93); phonology § 'The fricatives /s/ and /h/' (cup -> cuf; Dal Corso 2024: 62); orthography § 'Modern katakana and Cyrillic' (kuh クㇷ)",
+    "examples": [
+      ["cup", "cuf"],
+      ["yuk", "yuf"]
+    ],
+    "inItahTs": false,
+    "notes": "The two attestation sets (-f spellings cuf/yuf vs -h spellings kuh) are mechanically contradictory in the same environment; the pipeline follows the house -h. yup 'be strong' appears only as the bound root of yuh-ke (Piłsudski júfḱe; Dal Corso 2024: 61), so yupke -> yuhke is implied but not printed and is excluded."
+  },
+  {
+    "id": "pitch-accent-to-vowel-length",
+    "direction": "hok->sakh",
+    "environment": "Hokkaido high-pitched (accented) open syllable <-> Sakhalin long vowel, written double (aa ee ii oo uu). Cleanest for open monosyllables; extends to disyllables whose accent falls on an open syllable. Sakhalin is mora-counting with a bimoraic minimal free form, so open monosyllables are systematically CVV. Requires Hokkaido pitch-accent data as input — not derivable from the segmental string alone, hence no mechanical pattern.",
+    "pattern": null,
+    "order": 140,
+    "hokkaido": "ka (H, 'thread')",
+    "sakhalinWest": "kaa",
+    "sakhalinEast": "kaa",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "prosody § 'The pitch-to-length correspondence' (Itabashi 2001: 94-95; Hattori 1967; Hattori-Chiri 1960; Vovin 1993) and § 'Vowel length as the Sakhalin contrast' (Itabashi 2001: 88-89; Chiri 1942: 467); phonology § 'Vowel length' (Itabashi 2001: 88-89, 94); syllable-and-coda § 'Syllable types and the ban on clusters' (Itabashi 2001: 89); orthography § 'Long-vowel marking' (Itabashi 2001; Tamura 1996)",
+    "examples": [
+      ["ka", "kaa"],
+      ["hese", "heese"],
+      ["hure", "huure"]
+    ],
+    "inItahTs": false,
+    "notes": "DEMOTED from regular: linguistically regular given accent input, but non-mechanical over segmental strings, and attested mismatches block a one-to-one rule beyond accented open syllables: Hokkaido nina (LH) <-> Sakhalin niina (HL) 'grind', sini (LH) <-> siine (HL) 'rest' (Itabashi 2001: 95) — evidence Proto-Ainu had both length and pitch; sini -> siine also shifts the final vowel, unexplained in the pages. The always-long open monosyllables are listed only on the Sakhalin side (cii, nii, pee, ree, aa, too, poo, kuu, ruu, maa, nuu; Itabashi 2001: 89) — Hokkaido cognates are not printed for them, so no further pairs may be added. Near-pairs within Sakhalin: too 'lake' != to 'day', kuu 'drink' != ku= 1SG."
+  },
+  {
+    "id": "possessive-copy-vowel-hv",
+    "direction": "both",
+    "environment": "Sakhalin-internal (pan-Ainu) possessed suffix -hV: in the regular cases the suffix vowel copies the final vowel of the stem — the synchronic reflex of Chiri's fossilised harmony classes A {a,u}, B {o}, C {e,i} (A+C and B+C may combine, A and B may not). Morphological: the rule ADDS a suffix, so it has no string pattern and is excluded from the segment-converter pipeline; examples are stem -> possessed form.",
+    "pattern": null,
+    "order": 150,
+    "hokkaido": "(Sakhalin-internal; pairs are stem -> possessed)",
+    "sakhalinWest": "sapa-ha / cise-he / hoko-ho",
+    "sakhalinEast": "sapa-ha / cise-he / hoko-ho",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "morphophonology § 'Possessive allomorphy and the Sakhalin -he generalisation' (Chiri 1942: 532) and § 'Fossilised vowel harmony in derivation' (Chiri 1952: 463)",
+    "examples": [
+      ["sapa", "sapa-ha"],
+      ["cise", "cise-he"],
+      ["hoko", "hoko-ho"]
+    ],
+    "inItahTs": false,
+    "notes": "DEMOTED from regular: regular pan-Ainu morphology, but genuinely non-mechanical for a segment converter (suffix attachment, not segment correspondence) — listed for the etymon-correspondence generator. East coast may elide the h after a nasal-final noun — see east-h-elision."
+  },
+  {
+    "id": "collective-hci-ahci-allomorphy",
+    "direction": "both",
+    "environment": "Sakhalin-internal collective/plural =(a)hci: =hci after a vowel-final surface stem (including Class I stems already carrying their epenthetic echo vowel), =ahci after a consonant. Rule ordering (Tangiku 1998: 231): (i) desiderative/causative attachment, (ii) vowel insertion, (iii) =(a)hci attachment. Morphological: adds a clitic, so no string pattern; excluded from the segment-converter pipeline; examples are stem -> collective form.",
+    "pattern": null,
+    "order": 160,
+    "hokkaido": "(Sakhalin-internal)",
+    "sakhalinWest": "koro=hci / 'okay=ahci",
+    "sakhalinEast": "koro=hci / 'okay=ahci",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "morphophonology § 'Causative and collective attachment' (Tangiku 1998: 231; Sentoku letters) and § 'Fossilised vowel harmony in derivation' closing caution; orthography § 'The coda-h: the orthographic shibboleth' (koro ; koro-hci, Tangiku 1998: 6); syllable-and-coda § 'Resurfacing before a vowel-initial morpheme' ('itah ; 'itak-ahci, Tangiku 1998: 224)",
+    "examples": [
+      ["koro", "koro-hci"],
+      ["'okay", "'okay=ahci"],
+      ["'itak", "'itak-ahci"]
+    ],
+    "inItahTs": false,
+    "notes": "DEMOTED from regular: regular morphology, but non-mechanical for a segment converter (clitic attachment). Diagnostic that the echo vowel is real (koro=hci, never *=ahci; Sentoku letters). Small lexically/idiolectally specified exception class of vowel-final stems with =ahci (konupurahci ~ yaykonopuruhci; Tangiku 1998: 231). East coast may elide the h after a monosyllabic open-syllable verb — see east-h-elision."
+  },
+  {
+    "id": "causative-re-te-allomorphy",
+    "direction": "both",
+    "environment": "Sakhalin-internal causative/transitiviser allomorphy: -re after a vowel, /y/, or /w/; -te after a consonant. Class I (underlyingly C-final) stems take -te with the r -> n change (kor+te -> konte); Class II stems already ending in -re show no alternation (mahnuure rusuy). Allomorph SELECTION requires knowing the stem class, so it is non-mechanical; the surface change itself is coda-r-assimilation-to-n, which is regular and mechanically tested there with the same pairs.",
+    "pattern": null,
+    "order": 170,
+    "hokkaido": "(Sakhalin-internal; underlying kor-te)",
+    "sakhalinWest": "konte",
+    "sakhalinEast": "konte",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "morphophonology § 'Causative and collective attachment' (Tangiku 1998: 229, 228; Chiri 1942: 472)",
+    "examples": [
+      ["kor-te", "konte"],
+      ["nukar-te", "nukante"]
+    ],
+    "inItahTs": false,
+    "notes": "DEMOTED from regular: the allomorph choice is morphology; its segmental reflex is asserted under coda-r-assimilation-to-n (these same example pairs do pass the pipeline). Konte attested across all registers including East-coast L1 free composition (Sentoku) — an active rule, not a memorised allomorph."
+  },
+  {
+    "id": "east-h-elision",
+    "direction": "both",
+    "environment": "East coast only, Sakhalin-internal: the /h/ of the collective -hci elides after a monosyllabic open-syllable verb (nu+hci -> [nut͡ɕi], not [nuxt͡ɕi]); the /h/ of the possessive -(V)hV may elide after a nasal-final noun, giving free variation (kotanu ~ kotanuhu). Pairs are underlying -> surface.",
+    "pattern": null,
+    "order": 180,
+    "hokkaido": "(Sakhalin-internal; East coast)",
+    "sakhalinWest": null,
+    "sakhalinEast": "kotanu ~ kotanuhu",
+    "regularity": "dialectal",
+    "dialectGate": { "exclude": ["sakhalin-west", "taraika"] },
+    "source": "morphophonology § 'Causative and collective attachment' (nu-[h]ci -> nùcí; Dal Corso 2024: 65) and § 'Possessive allomorphy and the Sakhalin -he generalisation' (kotan-[h]u -> kotánu; Dal Corso 2024: 65)",
+    "examples": [
+      ["nu-hci", "nuci"],
+      ["kotan-hu", "kotanu"]
+    ],
+    "inItahTs": false,
+    "notes": "East-only, variable (free variation in the possessive case); excluded from the mechanical West-baseline converter."
+  },
+  {
+    "id": "taraika-coda-retention",
+    "direction": "hok->sakh",
+    "environment": "Taraika and the northern East coast generally retain the Hokkaido-style closed-syllable codas /p t k/; the coda-to-h merger does not apply there. Acts as the dialect gate (exclude: taraika) on coda-stop-debuccalisation, coda-stop-after-i-to-s and geminate-stop-to-hc; it has no pattern of its own.",
+    "pattern": null,
+    "order": 190,
+    "hokkaido": "p t k codas",
+    "sakhalinWest": null,
+    "sakhalinEast": "p t k retained (Taraika)",
+    "regularity": "dialectal",
+    "dialectGate": null,
+    "source": "syllable-and-coda § 'The Taraika exception' (Itabashi 2001: 89; Tangiku 1998: 224) and § 'The coda inventory' table ('Sakhalin: Taraika | p t k s … (as Hokkaido)'); orthography § 'The coda-h: the orthographic shibboleth' caveat (Tangiku 1998: 2-2); dialects-and-sources § 'The East-coast subgroup' (Murasaki 2024: 112)",
+    "examples": [],
+    "inItahTs": false,
+    "notes": "No Taraika lexical exemplars are printed in any of the six pages, so the gate is citation-backed but mechanically untestable from page-internal examples; the test only checks the gate mechanics (stops retained when dialect='taraika'). Taraika is the most conservative Sakhalin dialect, a witness to the pre-neutralisation state."
+  },
+  {
+    "id": "onset-r-fortition",
+    "direction": "hok->sakh",
+    "environment": "Onset /r/ word-initially and after /n/ takes a retroflex, plosive-like quality, often sounding like t/d; after a nasal it may merge with t outright. Phonetic tendency on both coasts, registered by Piłsudski's notation and Chiri's description; not a systematic orthographic correspondence.",
+    "pattern": { "from": "(?:^|(?<=\\s)|(?<=n))r", "to": "t" },
+    "order": 200,
+    "hokkaido": "retara",
+    "sakhalinWest": "tetara",
+    "sakhalinEast": "tetara",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "phonology § 'The liquid /r/' (Chiri 1942: 467; Dal Corso 2024: 64); dialects-and-sources § 'The descriptive tradition' (Chiri 1942: 461)",
+    "examples": [
+      ["retara", "tetara"],
+      ["pen-ram", "pentam"]
+    ],
+    "inItahTs": false,
+    "notes": "Isolated lexical West/East variant hunara ~ hunana 'seek' (r ~ n alternation) is mentioned only in passing (orthography § 'Piłsudski's close-phonetic notation'); no rule derivable from it."
+  },
+  {
+    "id": "long-high-vowel-offglide",
+    "direction": "both",
+    "environment": "Sakhalin-internal phonemic -> phonetic: long close vowels diphthongise (long ii = [iy], long uu = [uw]); /a e o/ lengthen cleanly to aa ee oo. Source of i~y / u~w spelling alternations across transcription traditions; orthographically the house transcription writes the double vowel, so the pipeline does nothing.",
+    "pattern": { "from": "ii(?![aeiou])|uu(?![aeiou])", "to": "(iy/uw phonetic)" },
+    "order": 210,
+    "hokkaido": "(Sakhalin-internal; phonemic form)",
+    "sakhalinWest": "puu = [puw]",
+    "sakhalinEast": "puu = [puw]",
+    "regularity": "sporadic",
+    "dialectGate": null,
+    "source": "phonology § 'Vowel length' (Chiri 1942: 467: pū 'storehouse' = puw, cī = ciy); prosody § 'Vowel length as the Sakhalin contrast' (Chiri 1942: 467)",
+    "examples": [
+      ["puu", "puw"],
+      ["cii", "ciy"]
+    ],
+    "inItahTs": false,
+    "notes": "Pairs are phonemic -> phonetic within Sakhalin, not Hokkaido -> Sakhalin. The 'to' field is a prose placeholder: there is no single orthographic replacement."
+  },
+  {
+    "id": "lexical-vowel-quality-shifts",
+    "direction": "hok->sakh",
+    "environment": "Sakhalin-specific vowel-quality shifts in individual lexemes relative to Hokkaido, redistributing stems across Chiri's harmony classes. No phonological conditioning stated; for the etymon-correspondence generator only, never mechanical.",
+    "pattern": null,
+    "order": 220,
+    "hokkaido": "menoko",
+    "sakhalinWest": "meneko",
+    "sakhalinEast": "meneko",
+    "regularity": "lexicalised",
+    "dialectGate": null,
+    "source": "morphophonology § 'Fossilised vowel harmony in derivation' (Chiri 1952: 463)",
+    "examples": [
+      ["menoko", "meneko"],
+      ["hoku", "hoko"],
+      ["tokuy", "tokoy"]
+    ],
+    "inItahTs": false,
+    "notes": "Lexeme-by-lexeme; no generalisable pattern."
+  },
+  {
+    "id": "asikne-five-syncope",
+    "direction": "hok->sakh",
+    "environment": "Lexeme-specific: the numeral 'five' asikne(p) undergoes medial cluster simplification (asikne- -> asne-) plus the regular coda p -> h. Single attested item; the p -> h component is regular, the syncope is not generalisable.",
+    "pattern": { "from": "^asiknep$", "to": "'asneh" },
+    "order": 230,
+    "hokkaido": "asiknep",
+    "sakhalinWest": "'asneh",
+    "sakhalinEast": "'asneh",
+    "regularity": "lexicalised",
+    "dialectGate": null,
+    "source": "syllable-and-coda § 'Hokkaido <-> Sakhalin coda correspondences' (Murasaki 2009: 74); orthography § 'Modern katakana and Cyrillic' ('asneh < asiknep; Murasaki 2009: 74)",
+    "examples": [
+      ["asiknep", "'asneh"]
+    ],
+    "inItahTs": false,
+    "notes": "Whole-word lexical substitution; the apostrophe (glottal onset) is written on the Sakhalin side per the grammar's convention."
+  },
+  {
+    "id": "exclusive-object-in-for-un",
+    "direction": "hok->sakh",
+    "environment": "Single morpheme: the first-person plural exclusive object prefix is in- in East/West-central Sakhalin where Hokkaido has un-. Morphological u <-> i correspondence confined to one prefix; absent from the modern West coast, which has lost the inclusive/exclusive distinction altogether. Not a sound rule — listed for the etymon generator only.",
+    "pattern": null,
+    "order": 240,
+    "hokkaido": "un-",
+    "sakhalinWest": null,
+    "sakhalinEast": "in-",
+    "regularity": "lexicalised",
+    "dialectGate": { "exclude": ["sakhalin-west"] },
+    "source": "dialects-and-sources § 'Diagnostic isoglosses' (Dal Corso 2025: 195; Satō 1985; Piłsudski 1912: 86; Sakaguchi 2021a: 124)",
+    "examples": [
+      ["un-", "in-"]
+    ],
+    "inItahTs": false,
+    "notes": "One-morpheme correspondence, not a phonological rule."
+  }
+]
