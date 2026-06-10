@@ -11,6 +11,9 @@
 	// A regular word-form demoted under its base entry (schema v2, additive).
 	interface WordForm {
 		lemma: string;
+		ja?: string[];
+		en?: string[];
+		ru?: string[];
 		analysis: [string, string][];
 		type: 'possessed' | 'case' | 'personal' | 'plural' | 'collective' | 'valency';
 		frequency: number;
@@ -79,10 +82,15 @@
 		return lemma;
 	}
 
-	// "cise" + "-he" -> "cise-he"; "kim" + "oyki" -> "kim-oyki"
+	// "cise" + "-he" -> "cise-he"; "kim" + "oyki" -> "kim-oyki"; clitics keep
+	// their own "=" marker ("ama" + "=hci" -> "ama=hci", never "ama-=hci")
 	function joinMorphs(analysis: [string, string][]): string {
 		return analysis
-			.map(([morph], i) => (i === 0 || morph.startsWith('-') ? morph : `-${morph}`))
+			.map(([morph], i) =>
+				i === 0 || morph.startsWith('-') || morph.startsWith('=') || morph.endsWith('=')
+					? morph
+					: `-${morph}`
+			)
 			.join('');
 	}
 
@@ -215,23 +223,20 @@
 		{#each filtered as item, i}
 			<tr class={i % 2 === 0 ? 'bg-gray-100' : 'bg-gray-200'}>
 				<td class="flex flex-col gap-2" lang="ain-Latn">
-					<div class="flex items-center justify-center gap-1">
+					<div class="flex items-center justify-center gap-1.5">
 						{#if item.forms?.length}
 							<button
 								type="button"
-								class="flex items-center gap-0.5 rounded px-1 text-xs text-gray-500 hover:text-blue-500"
+								class="-ml-4 w-4 text-[10px] leading-none text-gray-400 transition-transform hover:text-blue-500 {isExpanded(
+									item
+								)
+									? 'rotate-90 text-gray-500'
+									: ''}"
 								aria-expanded={isExpanded(item)}
 								aria-label={`${item.forms.length} ${m.forms()}`}
 								title={`${item.forms.length} ${m.forms()}`}
-								onclick={() => toggle(item)}
+								onclick={() => toggle(item)}>▶</button
 							>
-								<span
-									class="inline-block transition-transform {isExpanded(item) ? 'rotate-90' : ''}"
-									aria-hidden="true">▶</span
-								>
-								<span class="rounded-full bg-gray-300 px-1.5 tabular-nums">{item.forms.length}</span
-								>
-							</button>
 						{/if}
 						<span>{displayLemma(item.lemma)}</span>
 					</div>
@@ -307,37 +312,47 @@
 			</tr>
 			{#if item.forms?.length && isExpanded(item)}
 				{#each item.forms as form}
-					<tr
-						class="text-sm {formMatches(form)
-							? 'bg-amber-100 text-gray-700'
-							: 'bg-gray-50 text-gray-500'}"
-					>
-						<td class="pl-10 text-left" lang="ain-Latn">
-							<div class="flex flex-col">
-								<span>{displayLemma(form.lemma)}</span>
+					<tr class="text-sm text-gray-500 {i % 2 === 0 ? 'bg-gray-100' : 'bg-gray-200'}">
+						<td class="text-left" lang="ain-Latn">
+							<div class="ml-3 flex flex-col border-l-2 border-gray-400/40 py-0.5 pl-4">
+								<span
+									class={formMatches(form)
+										? 'font-medium text-gray-800 underline decoration-amber-500 decoration-2 underline-offset-4'
+										: ''}>{displayLemma(form.lemma)}</span
+								>
 								<span class="text-xs leading-tight text-gray-400">
-									<span lang="ain-Latn">{joinMorphs(form.analysis)}</span><br />
-									<span lang="en">{joinGlosses(form.analysis)}</span>
+									<span lang="ain-Latn">{joinMorphs(form.analysis)}</span>
+									<span lang="en" class="block">{joinGlosses(form.analysis)}</span>
 								</span>
 							</div>
 						</td>
-						<td colspan="5" class="text-left">
+						<td lang="ja" class="text-xs">
+							{(form.ja ?? []).join('、')}
+						</td>
+						<td lang="ru" class="text-xs">
+							{(form.ru ?? []).join(', ')}
+						</td>
+						<td lang="en" class="text-xs">
+							{(form.en ?? []).join(', ')}
+						</td>
+						<td>
 							<abbr
 								title={form.type}
-								class="rounded bg-gray-200 px-1 text-xs text-gray-600 no-underline"
+								class="rounded bg-gray-400/20 px-1 text-[10px] tracking-wide text-gray-500 no-underline"
 								>{FORM_TYPE_ABBRS[form.type] ?? form.type}</abbr
 							>
 						</td>
-						<td lang="en" class="tabular-nums">
+						<td></td>
+						<td lang="en" class="text-xs tabular-nums">
 							{form.frequency}
 						</td>
 						<td>
 							<a
 								href={kampisosUrl(form.lemma)}
 								target="_blank"
-								class="flex items-center justify-center hover:text-blue-500"
+								class="flex items-center justify-center text-gray-400 hover:text-blue-500"
 							>
-								<KampisosIcon class="h-6 w-6" />
+								<KampisosIcon class="h-5 w-5" />
 							</a>
 						</td>
 					</tr>
