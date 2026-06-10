@@ -175,8 +175,7 @@ hanging this way and require instead a relational noun (see below) <Cite key="Bu
 ## Possessor relativisation: the retained possessive suffix
 
 An *inalienable* possessor can be relativised, and here the tracking material is
-nominal rather than adpositional: the possessive suffix on the possessee is
-<strong>retained</strong> <Cite key="Bugaeva 2015" page="49" />. Sakhalin Ainu is unusually
+nominal rather than adpositional: the possessive suffix on the possessee is <strong>retained</strong> <Cite key="Bugaeva 2015" page="49" />. Sakhalin Ainu is unusually
 well suited to this, because it has generalised the possessed (affiliative) form
 *-hV* / *-V(hV)* (where *V* copies a vowel of the stem) to essentially all nouns <Cite key="Bugaeva 2016" page="96" />. The possessee inside the relative clause
 therefore stays in its possessed form, and that overt -<Gl t="POSS" /> suffix

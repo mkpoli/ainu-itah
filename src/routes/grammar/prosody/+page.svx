@@ -26,8 +26,7 @@ sources:
 ## Overview
 
 Among the Ainu varieties, Sakhalin Ainu is prosodically distinctive in one
-decisive respect: it has reorganised the inherited suprasegmental system so that
-<strong>vowel length</strong>, not pitch, carries the contrast. Hokkaido Ainu is a
+decisive respect: it has reorganised the inherited suprasegmental system so that <strong>vowel length</strong>, not pitch, carries the contrast. Hokkaido Ainu is a
 pitch-accent language, in which one syllable per accentual word is realised with
 a high tone and the rest low; length there is predictable and non-distinctive.
 Sakhalin Ainu, by contrast, lacks a distinctive pitch contour and instead
@@ -202,8 +201,7 @@ monosyllables surface with a long (bimoraic) vowel instead.
 
 Although pitch is not *contrastive* in Sakhalin, it is not therefore absent: a
 predictable pitch contour overlays each word, and <Cite key="Murasaki 1979" page="5" paren={false} />
-states the rule explicitly. We can summarise her account as follows. The
-<strong>primary accent falls on the second mora</strong>; in longer words a secondary accent
+states the rule explicitly. We can summarise her account as follows. The <strong>primary accent falls on the second mora</strong>; in longer words a secondary accent
 recurs on the even-numbered morae (the fourth, sixth, eighth), with pitch
 stepping down at each successive peak. A repair clause applies when the
 accent-bearing mora would be a non-onset one — a V mora (the second half of a

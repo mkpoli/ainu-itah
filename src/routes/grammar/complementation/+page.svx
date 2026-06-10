@@ -44,8 +44,7 @@ classes emerge, distinguished by the shape they impose on their complement
 (<W w="rusuy" gloss="want" />, <W w="easkay" gloss="be able" />), which take a bare
 verb and weld it into a single complex predicate; (ii) **evaluative and
 veridicality predicates** (<W w="pirka" gloss="be good" />, <W w="wen" gloss="be bad" />, <W w="sunke" gloss="be untrue" />), which take a nominalised clause — on the West
-coast canonically the V-poss form — as their subject argument; and (iii)
-<strong>utterance and cognition predicates</strong> (<W w="yee" gloss="say" />, <W w="ramu" gloss="think" />, <W w="wante" gloss="know" />), which either frame a clause with the quotative <W w="nah" gloss="that (QUOT)" /> or take a *pe*/*hi*-headed or V-poss
+coast canonically the V-poss form — as their subject argument; and (iii) <strong>utterance and cognition predicates</strong> (<W w="yee" gloss="say" />, <W w="ramu" gloss="think" />, <W w="wante" gloss="know" />), which either frame a clause with the quotative <W w="nah" gloss="that (QUOT)" /> or take a *pe*/*hi*-headed or V-poss
 nominalisation. The account below substantiates each class from attested material.
 
 ## Complement-taking predicates: nominaliser-requiring vs. zero-nominalisation
@@ -112,12 +111,10 @@ and with <W w="pirka" gloss="be good" /> 'be good, get better':
 	dialect="West"
 	note="ku=araka-ha ‘my being sick’ is a V-poss clausal nominalisation as subject of pirka." />
 
-The semantic constant across all V-poss uses, on Bugaeva's account, is
-<strong>presupposition</strong>: V-poss marks content that is treated as given or "not the main
+The semantic constant across all V-poss uses, on Bugaeva's account, is <strong>presupposition</strong>: V-poss marks content that is treated as given or "not the main
 point" and that survives under negation and modals <Cite key="Bugaeva 2016" page="109" />.
 This is why a V-poss complement reads as a presupposed event ('my being sick',
-'what you said') rather than as freshly asserted information. In the same vein, <Cite key="Dal Corso 2018" paren={false} /> analyses the personal-knowledge evidential -hV / -Ø as a
-<strong>clausal nominalisation</strong> that is the morphosyntactic source of much
+'what you said') rather than as freshly asserted information. In the same vein, <Cite key="Dal Corso 2018" paren={false} /> analyses the personal-knowledge evidential -hV / -Ø as a <strong>clausal nominalisation</strong> that is the morphosyntactic source of much
 evidential and modal complementation — the V-poss form and the PK evidential are
 one morpheme glossed by two functions.
 
@@ -369,8 +366,7 @@ form (e.g. *ci=setur-u* 'our backs') and the "long" form (*ci=setur-uhu*) as
 "unclear" <Cite key="Bugaeva 2016" page="105" />. We do not find a *semantic*
 opposition in the complement data either: the complement-clause tokens vary freely
 between, for instance, *ku=ek-ihi* and *ku=ek-ihii* with no detectable difference in
-presuppositional force or evidential value. We therefore analyse the alternation as
-<strong>morphophonological, not functional</strong> — the long form being the underlying
+presuppositional force or evidential value. We therefore analyse the alternation as <strong>morphophonological, not functional</strong> — the long form being the underlying
 shape `-V + hV` and the short form a reduced variant. Two independent observations
 support this. First, the alternation tracks stem phonology, not clause semantics:
 it is the same -V/-VhV variation seen across the whole possessive paradigm of nouns
@@ -398,8 +394,7 @@ verb — *aneramuskari* embedding a *…-pi-hi* nominalisation, both cited above
 the East-coast texts do <strong>not</strong> clearly attest is the most innovative West-coast use:
 bare V-poss as an independent sentence-final assertion or question. We therefore
 characterise the East coast as deploying V-poss in its <strong>embedded</strong> functions
-(clausal nominalisation, complement of a higher predicate) but, on present evidence,
-<strong>not</strong> in the insubordinated main-clause function that the West coast has
+(clausal nominalisation, complement of a higher predicate) but, on present evidence, <strong>not</strong> in the insubordinated main-clause function that the West coast has
 grammaticalised. This is the diachronically expected picture: the embedded uses are
 the older stratum (stages II–III of the nominalisation cycle), the main-clause use
 the youngest (stage IV), so the dialect that innovates least should retain the

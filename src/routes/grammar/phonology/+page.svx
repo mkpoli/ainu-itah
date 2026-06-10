@@ -68,8 +68,7 @@ This last vowel is visible in the surface form Piłsudski transcribes for <W w="
 
 ### Vowel length
 
-Sakhalin Ainu is, on the standard analysis, the only Ainu variety with a robust
-<strong>phonemic</strong> long–short vowel contrast <Cite key="Itabashi 2001" page="88" />.
+Sakhalin Ainu is, on the standard analysis, the only Ainu variety with a robust <strong>phonemic</strong> long–short vowel contrast <Cite key="Itabashi 2001" page="88" />.
 In Hokkaido Ainu accented open syllables are realised long, but length there is
 non-distinctive (pitch carries the contrast); Sakhalin has lost distinctive
 pitch and reassigned the contrast to length, behaving as a mora-counting
@@ -112,8 +111,7 @@ yonder' (the homophone of *too* 'lake') notes explicitly that the vowel is not
 the single long monophthong of a Japanese *tō* but is articulated as two
 separated moras, "*to* and *o* pronounced as distinct beats" — a bimoraic
 realisation, not mere allophonic lengthening <Cite key="Tamura 1996" />. Length here is therefore a count of moras,
-exactly the diagnosis a mora-counting analysis predicts. Second, the length is
-<strong>stable in connected speech</strong>, surviving in unaccented and post-tonic position
+exactly the diagnosis a mora-counting analysis predicts. Second, the length is <strong>stable in connected speech</strong>, surviving in unaccented and post-tonic position
 where allophonic length would be neutralised: in the West-coast clause below the
 locative noun *too* 'lake' keeps its long vowel although the phrasal accent
 falls elsewhere.
@@ -233,8 +231,7 @@ Voicing and aspiration are non-distinctive everywhere in Ainu <Cite key="Chiri 1
 divides the coasts. In <strong>East Sakhalin</strong> intervocalic /p t k/ are commonly
 voiced ([p̬ t̬ k̬]), and Piłsudski transcribes the voicing overtly with *b d g*
 — as in *paykara* → [pajk̬aɾa] 'spring' — with further voicing after /y/ and,
-sporadically, after a nasal <Cite key="Dal Corso 2024" page="60" />. In
-<strong>West Sakhalin</strong> /p/ never voices and /t k/ rarely do <Cite key="Dal Corso 2024" page="61" />. Chiri (1942: 467) records the
+sporadically, after a nasal <Cite key="Dal Corso 2024" page="60" />. In <strong>West Sakhalin</strong> /p/ never voices and /t k/ rarely do <Cite key="Dal Corso 2024" page="61" />. Chiri (1942: 467) records the
 post-nasal voicing that both coasts share — *sanpe* → *sambe* 'heart', *konci* →
 *konji* 'cap' — but, confusingly, reports *more* voicing on the west coast than
 the east, the reverse of Piłsudski's and Murasaki's picture; the discrepancy is
@@ -283,13 +280,11 @@ codas.
 	dialect="East"
 	note="ś = [ɕ], the allophone of /s/ before /i/; modern Latin writes sine" />
 
-/h/ has a labial allophone [ɸ] (written *f*) before and after /u/. This is
-<strong>systematic in West Sakhalin</strong> but only sporadic in the East, where it competes
+/h/ has a labial allophone [ɸ] (written *f*) before and after /u/. This is <strong>systematic in West Sakhalin</strong> but only sporadic in the East, where it competes
 with retention of [h] (compare *hura* → [ɸuɾa] 'smell' with *huhkara* →
 [huxkaɾa] 'small forest') <Cite key="Dal Corso 2024" page="62" />. The same [ɸ]
 realisation is what surfaces when a coda /p/ debuccalises after /u/ (e.g.
-*cup* → *cuf* 'sun'; see Chapter 6). Piłsudski further notes an intervocalic
-<strong>voiced</strong> realisation [ɦ] of /h/ but does not state its distribution <Cite key="Dal Corso 2024" page="62" />. We analyse this voicing as the same
+*cup* → *cuf* 'sun'; see Chapter 6). Piłsudski further notes an intervocalic <strong>voiced</strong> realisation [ɦ] of /h/ but does not state its distribution <Cite key="Dal Corso 2024" page="62" />. We analyse this voicing as the same
 intervocalic lenition that voices the plosives in East Sakhalin: /h/, like
 /p t k/, is the voiceless member of an obstruent series that surrenders its
 voicelessness between sonorants, so [ɦ] is predicted in exactly the V_V

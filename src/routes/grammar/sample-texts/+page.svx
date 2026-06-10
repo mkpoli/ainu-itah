@@ -211,8 +211,7 @@ itself. This is the configuration that makes the line probative.
 Cross-linguistically this is a familiar drift. An impersonal-plural ("they
 threw him" with arbitrary *they*) is the classic diachronic source of a
 passive — the path of French *on*, German *man*, and the Balto-Finnic and
-Uralic impersonals (Givón; Comrie). On that account `ocipa-hsi` is an
-<strong>impersonal-plural construction recruited as a passive</strong>: the plural marker no
+Uralic impersonals (Givón; Comrie). On that account `ocipa-hsi` is an <strong>impersonal-plural construction recruited as a passive</strong>: the plural marker no
 longer counts agents but signals that the agent is demoted, leaving the patient
 as the sole tracked argument. We adopt this as the grammar's analysis: the
 Sakhalin collective is a plural-agreement clitic at base, and its passive use
@@ -598,8 +597,7 @@ tale-closing formula <W w="hemaka" gloss="the end" />:
 
 ## What the texts show together
 
-Read side by side, the five texts sort along a clear east–west line. The
-<strong>east-coast</strong> *tuytah* (Text 1) and the West-central dialogues (Text 4) attest
+Read side by side, the five texts sort along a clear east–west line. The <strong>east-coast</strong> *tuytah* (Text 1) and the West-central dialogues (Text 4) attest
 the full first-person apparatus — the AN-class `-an`/`an=`, the KU/CI-class
 object prefix `in-`, and the narrator-shifting use of the <Gl t="INDEF" /> set —
 while the <strong>west-coast</strong> tales (Texts 2–3) are consistently third-person

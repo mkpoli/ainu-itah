@@ -24,8 +24,7 @@ sources:
 ## Names of the language
 
 The language described in this grammar has more than one name, and the choice
-among them is itself part of its modern history. The neutral scholarly label is
-<strong>Sakhalin Ainu</strong> — in Japanese *Karafuto Ainugo* 樺太アイヌ語, literally ‘the
+among them is itself part of its modern history. The neutral scholarly label is <strong>Sakhalin Ainu</strong> — in Japanese *Karafuto Ainugo* 樺太アイヌ語, literally ‘the
 Ainu language of Karafuto (Sakhalin)’. This is the term used in the older
 descriptive tradition and the one this grammar uses by default, since it names
 the variety geographically without prejudging its relation to the other
@@ -51,9 +50,7 @@ community from the Hokkaido *Utari* <Cite key="Dal Corso 2024" page="55" />.
 ## Genealogical placement and periodisation
 
 Following <Cite key="Janhunen 2022" paren={false} />, recent work treats Ainu
-not as an isolate language but as the sole surviving branch of a small
-<strong>Ainuic</strong> family with three geographically defined members corresponding to
-<strong>Hokkaido</strong>, <strong>Sakhalin</strong>, and the <strong>Kuril</strong> Islands <Cite key="Dal Corso 2024" page="55" />. Only Hokkaido Ainu survives, and that
+not as an isolate language but as the sole surviving branch of a small <strong>Ainuic</strong> family with three geographically defined members corresponding to <strong>Hokkaido</strong>, <strong>Sakhalin</strong>, and the <strong>Kuril</strong> Islands <Cite key="Dal Corso 2024" page="55" />. Only Hokkaido Ainu survives, and that
 critically; both Kuril and Sakhalin Ainu are now extinct as spoken languages.
 The three varieties are distinguished on lexical and grammatical grounds in the
 classificatory work of <Cite key="Hattori-Chiri 1960" paren={false} /> and <Cite key="Asai 1974" paren={false} />.
@@ -73,8 +70,7 @@ Sakhalin Ainu was spoken across the southern half of the island of Sakhalin —
 broadly the territory south of the 50th parallel — together with the lower Amur
 littoral on the facing mainland coast. Within this range the documentary record
 falls into two dialect subgroups defined by coast: a <strong>West-coast</strong> group
-(Raychishka/Rayciska, Maoka, and northward Esutoru–Furuochi and Usoro) and an
-<strong>East-coast</strong> group (Taraika in the far north-east, with Tunayci, Ay, and
+(Raychishka/Rayciska, Maoka, and northward Esutoru–Furuochi and Usoro) and an <strong>East-coast</strong> group (Taraika in the far north-east, with Tunayci, Ay, and
 Hunup). The two coasts were documented by different scholars in different eras
 and differ in both phonology and morphology; Chapter 3 treats the dialectology
 in detail. Taraika, in the far north-east, is consistently singled out as the
@@ -214,8 +210,7 @@ Piłsudski's East-coast texts of 1903–04 capture a near-monolingual stage,
 whereas Murasaki's West-coast data come from increasingly Japanese-dominant
 speakers seven decades later. <Cite key="Dal Corso 2024" paren={false} page="70" />
 argues that the valency-preserving, aspectual uses of the prefixes *e-*, *ko-*,
-and *yay-* are common in Piłsudski but scant in Murasaki — evidence of
-<strong>language erosion</strong>, the loss of morphological productivity under prolonged
+and *yay-* are common in Piłsudski but scant in Murasaki — evidence of <strong>language erosion</strong>, the loss of morphological productivity under prolonged
 Japanese contact, rather than of pure dialect difference. The inherited
 vigesimal numeral system likewise gives way to a decimal one with loanwords in
 the higher numbers of the modern West data <Cite key="Murasaki 2024" page="85" />.
@@ -268,8 +263,7 @@ person system awaits the editing of the remaining Murasaki recordings.
 
 ## Revitalisation today
 
-Although no native speakers remain, Sakhalin Ainu is the object of an active
-<strong>Enchiw revitalisation</strong> movement in Japan. Working from the rich Murasaki,
+Although no native speakers remain, Sakhalin Ainu is the object of an active <strong>Enchiw revitalisation</strong> movement in Japan. Working from the rich Murasaki,
 Piłsudski, and Dobrotvorskij records and from teaching materials such as
 Murasaki's conversation primer, activists — among them Kitahara Jirōta
 Mokottunas — produce new prose under the glossonym *Enciw‘itah* <Cite key="Murasaki 2024" />. The revival text that opened this chapter is one
@@ -295,8 +289,7 @@ glottal-initial *'an*; the realisation *nax án* "may be indicative of the
 presence of a glottal stop, i.e. *'an*" <Cite key="Dal Corso 2024" page="62" />. (iii) Methodologically
 this is the ordinary situation of recovering a phoneme that a transcriber's L1
 made inaudible — the standard remedy is comparative and distributional
-reconstruction, not silence. We therefore treat East-Sakhalin *'-* as
-<strong>present but systematically unrecorded</strong> in Piłsudski, and write it where the
+reconstruction, not silence. We therefore treat East-Sakhalin *'-* as <strong>present but systematically unrecorded</strong> in Piłsudski, and write it where the
 West-Sakhalin and Hokkaido cognates and the sandhi require it; positive
 confirmation would come from the restored wax-cylinder audio, on which a
 glottal onset, unlike a "Slav ear", can be measured directly.

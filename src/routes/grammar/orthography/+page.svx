@@ -37,10 +37,8 @@ Hokkaido Ainu. This chapter surveys the four notation traditions, gives
 correspondence tables across them, and states the house transcription used
 throughout this grammar.
 
-The absence of an inherited script has not, however, meant the absence of
-<strong>native</strong> writing. Lacking an orthography of their own, Sakhalin
-Ainu took up the scripts around them to set down their own language —
-<strong>Cyrillic</strong> on the Russian side, and the <strong>Latin</strong>
+The absence of an inherited script has not, however, meant the absence of <strong>native</strong> writing. Lacking an orthography of their own, Sakhalin
+Ainu took up the scripts around them to set down their own language — <strong>Cyrillic</strong> on the Russian side, and the <strong>Latin</strong>
 alphabet and <strong>katakana</strong> in Japan. Already in the early twentieth
 century the east-coast speaker Sentoku Tarōji wrote his language in his own
 letters and notes <Cite key="Sentoku (letters)" paren={false} />; the present-day
@@ -393,8 +391,7 @@ coda-*h*:
 	note="Two Sakhalin coda kana: coda-s = ㇱ (フㇱコ), coda-h = ㇵ (チカㇵ < Hokkaido cikap)." />
 
 No single source lays out the whole Sakhalin syllabary, but its coda system is
-fully regular and can be stated as a rule. The coda small-kana copies the
-<strong>preceding vowel</strong>: the coda-*h* is written with the small kana of the *ha*-row
+fully regular and can be stated as a rule. The coda small-kana copies the <strong>preceding vowel</strong>: the coda-*h* is written with the small kana of the *ha*-row
 whose vowel matches the syllable before it — small <strong>ㇵ</strong> after /a/ (*itah*
 イタㇵ, *cikah* チカㇵ, *mah* マㇵ), small <strong>ㇸ</strong> after /e/ (*ceh* チェㇸ
 'fish', *seeseh* セエセㇸ 'be warm'), small <strong>ㇷ</strong> after /u/ (*kuh* クㇷ),

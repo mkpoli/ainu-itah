@@ -41,8 +41,7 @@ brought in where they diverge.
 
 ## Lexical and bound-noun nominalisers
 
-The oldest and most widespread device is simply to place a clause in front of a
-<strong>bound noun</strong> that names the kind of entity the clause picks out. The recurring
+The oldest and most widespread device is simply to place a clause in front of a <strong>bound noun</strong> that names the kind of entity the clause picks out. The recurring
 heads are <W w="pe" gloss="thing/person" /> (West also <W w="p" gloss="thing" />), <W w="kuru" gloss="person" /> (West <W w="kur" />), and <W w="hi" gloss="place/time/thing" /> (also <W w="i" />); <W w="usike" gloss="the place of" /> serves the same purpose. The
 clause precedes the head with the relevant referent gapped, exactly as in a
 relative clause. East-coast texts lean especially heavily on <W w="pe" />, which
@@ -57,8 +56,7 @@ doubles as a topic-bearing head:
 	dialect="East" />
 
 Here [mahnekuh kii] *pe* 'the thing women do' is an event/object nominalisation
-headed by <W w="pe" />. Alongside the syntactic strategy, Sakhalin Ainu has a
-<strong>derivational</strong> nominaliser -p ~ -pe (Sakhalin -x), forming agent/patient nouns
+headed by <W w="pe" />. Alongside the syntactic strategy, Sakhalin Ainu has a <strong>derivational</strong> nominaliser -p ~ -pe (Sakhalin -x), forming agent/patient nouns
 'the one that …'; <Cite key="Chiri 1942" paren={false} /> documents this as a
 pan-Ainu lexical suffix and notes its Sakhalin coda realisation. The same -pe
 nominaliser can take its own possessive suffix, stacking lexical nominalisation
@@ -203,8 +201,7 @@ verbs never take non-finite morphology and "nominalisation" only ever means addi
 a nominalising word, Sakhalin has a true non-finite nominalised verb form <Cite key="Bugaeva 2016" page="112" />.
 
 The exclusion of "ordinary complement clauses" needs one refinement, which the
-attested West-coast data supply. The relevant cut is not embedding *as such* but the
-<strong>presuppositionality</strong> of the embedded proposition. An *interrogative* complement —
+attested West-coast data supply. The relevant cut is not embedding *as such* but the <strong>presuppositionality</strong> of the embedded proposition. An *interrogative* complement —
 an embedded question, which is inherently presupposed (the speaker presupposes that
 there is an answer) — does take V-poss, even though a declarative *that*-complement
 does not. The Murasaki conversation primer attests exactly this:
@@ -365,8 +362,7 @@ pattern is conversationally productive:
 
 ## The presupposition semantics
 
-What unifies these uses, <Cite key="Bugaeva 2016" paren={false} /> argues, is
-<strong>presupposition</strong>: V-poss marks content that is "not the main point" — that
+What unifies these uses, <Cite key="Bugaeva 2016" paren={false} /> argues, is <strong>presupposition</strong>: V-poss marks content that is "not the main point" — that
 survives under negation, modals and evidentials, and that the speaker presents as
 already shared or given <Cite key="Bugaeva 2016" page="109-112" />. In
 sentence-final position a V-poss predicate correlates with *old information* (the
@@ -404,8 +400,7 @@ an areal hypothesis that remains open.
 On the <strong>West coast</strong> (Raychishka; Murasaki, Furukawa), the V-poss system is fully
 developed: adverbial, modal, clausal-nominalisation, evidential, and main-clause
 uses are all robustly attested, and the Karafuto teaching materials still drill
-sentence-final V-poss for statements and questions. On the
-<strong>East coast</strong> (Piłsudski), V-poss forms occur — the possessive -ihi appears on
+sentence-final V-poss for statements and questions. On the <strong>East coast</strong> (Piłsudski), V-poss forms occur — the possessive -ihi appears on
 nouns just as on verbs, e.g. *kahkum-ihi* 'the ladle’s (inside)' —
 
 <Example

@@ -39,8 +39,7 @@ and <W w="koro" gloss="have" /> are inherently durative, whereas verbs such as <
 punctual. It can be carried by <strong>reduplication</strong> (full reduplication gives the
 repetitive of punctual verbs, partial reduplication an iterative or durative).
 It can be marked by <strong>aspectual suffixes</strong> (momentary *-kosanu*/*-kosampa*,
-durative *-natara*/*-hitara*, and the like). But it is most productively built
-<strong>periphrastically</strong>, by a light-verb construction of the shape
+durative *-natara*/*-hitara*, and the like). But it is most productively built <strong>periphrastically</strong>, by a light-verb construction of the shape
 *V₁ + particle + V₂*, where the second verb is usually the existential *an*
 ‘be, exist’ and still inflects for person. These periphrases are the backbone of
 the aspectual system.
@@ -189,8 +188,7 @@ nominalised clause taking *ne(e)* as its predicate, that has grammaticalised
 toward a single complex predicate (<Cite key="Dal Corso 2018" page="§5.2.2" paren={false} />). The copula *ne(e)* is, in Chiri's
 terms, the language's only simple ‘incomplete verb’ (<Cite key="Chiri 1942" page="§32" paren={false} />),
 and like a transitive it takes the A-series prefixes (West *ku=nee* ‘I am’,
-*e=nee* ‘you are’, *an=nee*, the latter from an original 1PL serving as 1SG).
-<strong>Aspectual markers sit inside the nominalised clause</strong>, scoping over
+*e=nee* ‘you are’, *an=nee*, the latter from an original 1PL serving as 1SG). <strong>Aspectual markers sit inside the nominalised clause</strong>, scoping over
 it before the copula closes the predicate:
 
 <Example
@@ -319,8 +317,7 @@ chain-final clause carries the progressive *kusu an* (<Cite key="Furukawa 1967" 
 Because Sakhalin Ainu lacks tense, the work of locating an event in time falls
 partly to <strong>aspect</strong> and partly to the <strong>evidential</strong> system, which is treated in
 full in [Evidentiality](/grammar/evidentiality). The two interact closely.
-Dal Corso (2018) shows that the inferential evidentials double as
-<strong>relative-tense</strong> markers: the sensorial stimulus fixes a Reichenbachian
+Dal Corso (2018) shows that the inferential evidentials double as <strong>relative-tense</strong> markers: the sensorial stimulus fixes a Reichenbachian
 reference point, and the <strong>telicity</strong> of the scoped predicate then resolves a
 present from a past reading. A telic scope predicate under *ruwehe 'an* yields
 past reference, an atelic one yields present:
@@ -365,8 +362,7 @@ which one converb particle yields several aspectual readings according to the
 light verb it selects (*kusu an* progressive, *kusu kara* prospective, *kusu*
 alone causal-purposive). We therefore treat the "forty forms" as a
 collocation count over this closed converb set, not as evidence of an
-unrecoverable inventory; what awaits Furukawa's unpublished material is the
-<strong>frequency profile</strong> of the collocations, not their identity.
+unrecoverable inventory; what awaits Furukawa's unpublished material is the <strong>frequency profile</strong> of the collocations, not their identity.
 
 ### *V ea* (durative) vs *V kusu kara* (prospective): not two duratives
 
@@ -397,8 +393,7 @@ series *-a/-i/-u/-e/-o/-he* the <strong>weak form</strong>
 (<Foreign lang="ja" rom="jakkei">弱形</Foreign>) and the disyllabic series
 *-aha/-ihi/-uhu/-ehe/-oho* the <strong>strong form</strong>
 (<Foreign lang="ja" rom="kyōkei">強形</Foreign>), and states plainly that the
-strong form is simply the weak form "fully pronounced," the two series being
-<strong>functionally identical</strong> (<Cite key="Chiri 1942" page="§71" paren={false} />). For
+strong form is simply the weak form "fully pronounced," the two series being <strong>functionally identical</strong> (<Cite key="Chiri 1942" page="§71" paren={false} />). For
 closed-syllable stems the choice of forming-suffix is, in his words, governed
 "entirely by habit" — i.e. lexically fixed rather than meaningful (<Cite
 key="Chiri 1942" page="§72" paren={false} />). On the strength of Chiri's prior and fuller
@@ -413,16 +408,13 @@ What does remain open is narrower and sharper. Dal Corso's
 evidential-as-relative-tense mechanism resolves a present from a past reading off
 the <strong>telicity</strong> of the scoped predicate; but for verbs of motion, state, and
 possession — paradigmatically <W w="eh" gloss="come" /> and <W w="koro" gloss="have" /> — telicity itself is not fixed. <W w="eh" gloss="come" />
-may foreground either the path (atelic) or the goal (telic) of the movement, and <W w="koro" gloss="have" /> either the process of acquiring or the resulting state,
-<strong>independently of incremental arguments or co-occurring aspectual marking</strong>
+may foreground either the path (atelic) or the goal (telic) of the movement, and <W w="koro" gloss="have" /> either the process of acquiring or the resulting state, <strong>independently of incremental arguments or co-occurring aspectual marking</strong>
 (<Cite key="Dal Corso 2018" page="§7.6" paren={false} />). This is not a gap peculiar to
-Sakhalin Ainu but an instance of a well-known typological class: these are
-<strong>variable-telicity (aspectually underspecified) predicates</strong>, like English
+Sakhalin Ainu but an instance of a well-known typological class: these are <strong>variable-telicity (aspectually underspecified) predicates</strong>, like English
 verbs of directed motion and the "degree-achievement" verbs, whose telicity is
 contextually coerced rather than lexically encoded. The implication for the
 relative-tense mechanism is that, with such verbs, telicity cannot be the sole
-switch between present and past reference; the reading must instead be fixed
-<strong>pragmatically</strong>, by the discourse construal of the event as bounded or
+switch between present and past reference; the reading must instead be fixed <strong>pragmatically</strong>, by the discourse construal of the event as bounded or
 unbounded. The evidence that would settle the matter is straightforward in
 principle — a larger sample of *eh* and *koro* under *ruwehe 'an* with
 independent contextual cues to boundedness — and we predict, by analogy with the
