@@ -12,6 +12,9 @@ sources:
   - Piłsudski 1912
   - Dobrotvorskij 1875
   - Murasaki 2024
+  - Kitahara 2016
+  - Yamada (ELPR)
+  - Sentoku (letters)
 ---
 
 <script lang="ts">
@@ -23,7 +26,7 @@ sources:
 
 ## How to read this chapter
 
-This final chapter presents Sakhalin Ainu (Enchiw) **as connected text**. The
+This final chapter presents Sakhalin Ainu (Enchiw) <strong>as connected text</strong>. The
 preceding chapters isolated single constructions; here those constructions are
 seen working together in their natural habitat — the narrative line, the
 quoted speech, the chained clause closed by a reportative. Each text is given
@@ -31,24 +34,20 @@ in the four-line interlinear format used throughout the grammar (surface form
 where it differs, morpheme segmentation, aligned gloss, free translation),
 with its source, dialect tag, and philological notes attached to each line.
 
-The selection is deliberately **pan-Sakhalin and West-foregrounded**. Because
-the richest fully glossed running text happens to be an east-coast folktale
-(Piłsudski's flatfish tale, re-edited by <Cite key="Sakaguchi 2020" paren={false} />),
-that text anchors the chapter; but it is paired with two west-coast tales, the
-West-central Dobrotvorskij dialogues, and modern west-coast revival prose, so
-that the reader can compare the two coasts directly. The texts are
-reproductions of cited editions — every form here is attested, and where a
-segmentation is the editor's reconstruction or my own it is flagged in the
-notes.
+The selection spans the island. The richest fully glossed running text happens
+to be an east-coast folktale — Piłsudski's flatfish tale, re-edited by <Cite key="Sakaguchi 2020" paren={false} /> — and that text anchors the chapter.
+It is paired with two west-coast tales, the West-central Dobrotvorskij
+dialogues, and modern west-coast revival prose, so that the two coasts can be
+read side by side. Every form here is attested in its cited edition; where a
+segmentation is the editor's reconstruction or my own, the notes say so.
 
-A word on the **oral genres** these texts belong to. Sakhalin oral literature
+A word on the <strong>oral genres</strong> these texts belong to. Sakhalin oral literature
 distinguishes several named kinds: <W w="tuytah" gloss="folktale" /> (the prose
 fairy tale, often with inserted songs, told in the third person or with the
 narrator-shifting technique discussed below); <W w="ucaskoma" gloss="legend" />
 (legend, traditional knowledge); <W w="oyna" gloss="kamuy narrative" />
 (the deity-narrative); and <W w="hawki" gloss="epic" /> (heroic epic). The
-west-coast southwest has in addition a genre of *carahaw*, "rumour tales"
-<Cite key="Chiri 1942" />. The closing formula <W w="hemaka" gloss="the end" />
+west-coast southwest has in addition a genre of *carahaw*, "rumour tales" <Cite key="Chiri 1942" />. The closing formula <W w="hemaka" gloss="the end" />
 and the pervasive line-final reportative <W w="manu" gloss="it is said" /> are
 the signature surface marks of the folktale register.
 
@@ -60,8 +59,7 @@ It is a *tuytah* that opens in the third person, shifts into the flatfish-man's
 own first-person voice partway through, and shifts back — the **person-shifting
 narrative technique** characteristic of Piłsudski's 1903 east-coast tales, in
 which the <Gl t="PRM" /> set (`-an`/`an=`/`i-`) cross-references the foregrounded
-narrator. The tale also showcases the east-coast collective suffix
-<Gl t="COLL" /> `-ahci`, the belonging (<Gl t="POSS" />) form on relational
+narrator. The tale also showcases the east-coast collective suffix <Gl t="COLL" /> `-ahci`, the belonging (<Gl t="POSS" />) form on relational
 nouns, and the quotative frame `nah … yee`.
 
 The opening line establishes the two protagonists and immediately uses the
@@ -88,8 +86,7 @@ Sakhalin postposition <W w="onne" gloss="toward, into" />:
 	cite="Sakaguchi 2020" page="55 (Tuita 3, l. 2)"
 	dialect="East" />
 
-The bride is introduced with the belonging form <Gl t="POSS" /> on
-<W w="mahpoo" gloss="daughter" /> and the equative copula <Gl t="COP" /> `nee`
+The bride is introduced with the belonging form <Gl t="POSS" /> on <W w="mahpoo" gloss="daughter" /> and the equative copula <Gl t="COP" /> `nee`
 closed by the reportative <Gl t="REP" /> `manu`:
 
 <Example
@@ -101,8 +98,7 @@ closed by the reportative <Gl t="REP" /> `manu`:
 	note="moromahpo is a literary tuytah word for ‘young woman’ (Chiri 1942)." />
 
 The motive clause stacks two `kusu` "because" subordinators — one over a
-nominalised clause ("because he heard that"), one over the desiderative
-<Gl t="DESID" /> `rusuy`:
+nominalised clause ("because he heard that"), one over the desiderative <Gl t="DESID" /> `rusuy`:
 
 <Example
 	ain="nah(a) nuu-hu kusu sam rusuy kusu rep-un"
@@ -170,7 +166,7 @@ participant number:
 	note="Both niina-hci and yee-si carry the collective because two people act." />
 
 The climactic line is Sakaguchi's chief evidence that the collective `-ahci`
-can yield a **passive** reading: here `ocipa` "throw" carries `-hsi` although
+can yield a <strong>passive</strong> reading: here `ocipa` "throw" carries `-hsi` although
 the agent (the rival) is singular and definite, and the patient is the
 flatfish-man:
 
@@ -182,8 +178,7 @@ flatfish-man:
 	dialect="East"
 	note="COLL on a singular definite agent — Sakaguchi's evidence for a passive use; whether COLL is genuinely a passive or an impersonal plural that yields a passive reading is left open." />
 
-The bear dies and the flatfish-man descends, the singular motion stem
-<W w="san" gloss="come down (singular)" /> contrasting with its plural
+The bear dies and the flatfish-man descends, the singular motion stem <W w="san" gloss="come down (singular)" /> contrasting with its plural
 counterpart `sap`:
 
 <Example
@@ -295,8 +290,7 @@ belonging form `sinkeke-he` "the next day":
 This tale, recorded in katakana by Yamamoto Tasuke from Kimura Usarusmah of
 Aihama and re-edited by <Cite key="Sakaguchi 2019b" paren={false} />, is the
 Sakhalin instance of the pan-Ainu "neighbours" tale-type, with paired
-protagonists <W w="panke" gloss="downstream man" /> and
-<W w="penke" gloss="upstream man" /> (the Sakhalin counterparts of the
+protagonists <W w="panke" gloss="downstream man" /> and <W w="penke" gloss="upstream man" /> (the Sakhalin counterparts of the
 Hokkaido Panampe/Penampe). Because the katakana source carries only a word-level
 Japanese gloss, several segmentations here are conservative and a few lines
 remain partly unanalysed; these are flagged.
@@ -447,7 +441,7 @@ probably be" round out the dialogue's politeness formulae:
 
 ## Text 5 — Modern Enchiw and native-written texts
 
-The final group illustrates the **living tail** of the documentary record:
+The final group illustrates the <strong>living tail</strong> of the documentary record:
 modern west-coast revival prose, and an east-coast text written by a native
 speaker rather than dictated to a researcher. They show that the same
 constructions — `manu`, `an=`, the belonging form, the additive `naa` — persist
@@ -461,7 +455,7 @@ indefinite/passive ("she was raised"), and the line closes with the hearsay
 	ain="aaca haciko ohta siisam hatagoya ohta an=reske manu"
 	gloss="father small LOC Japanese inn LOC PRM.A=raise REP"
 	free="Father: She was raised in a Japanese inn when she was little, it is said."
-	cite="ainu-corpora (樺太)" page="express-special/001#2 (Kitahara)"
+	cite="Kitahara 2016"
 	dialect="West"
 	note="an= as indefinite-person/passive; hearsay manu; modern pan-West didactic register." />
 
@@ -472,7 +466,7 @@ grandmother", with two additive `naa` "too":
 	ain="aaca ku=ahci-hi kawren itah naa nuca itah naa ponno wante manu"
 	gloss="father 1SG=grandmother-POSS Korean language too Russian language too a.little know REP"
 	free="Father: My grandmother understood a little Korean and Russian too, it is said."
-	cite="ainu-corpora (樺太)" page="express-special/001#0 (Kitahara)"
+	cite="Kitahara 2016"
 	dialect="West"
 	note="KU-class possessive prefix ku=; additive naa ‘too’; hearsay manu." />
 
@@ -485,7 +479,7 @@ plural existential `okay`:
 	gloss="REFL-support.oneself CONJ live.PL-PRM.S REP"
 	surface="yáysukukka te oká am manu"
 	free="We lived supporting ourselves, it is said."
-	cite="ainu-corpora (樺太)" page="elpr-a2/039/yamada/001#1 (Yamada Hayo)"
+	cite="Yamada (ELPR)"
 	dialect="West"
 	note="Reflexive yay-; AN-class first person (1PL inclusive) on PL existential okay; ELPR transcription." />
 
@@ -497,7 +491,7 @@ The same narrator's first-person discovery uses the AN-class S on `inkar`
 	gloss="look-PRM.S REP very EMPH-big-village"
 	surface="ínkarán manu, ré:kor wémporokotan"
 	free="I looked, and saw a very large village, it is said."
-	cite="ainu-corpora (樺太)" page="elpr-a2/039/yamada/001#11 (Yamada Hayo)"
+	cite="Yamada (ELPR)"
 	dialect="West"
 	note="wen-poro ‘very big’ (lit. EMPH-big), the same West-coast intensifier as in Text 2; AN-class S on inkar." />
 
@@ -509,7 +503,7 @@ letter to Piłsudski (c. 1900s) — a rare native-authored document — uses
 	ain="tata maci koro manuy"
 	gloss="there wife have REP"
 	free="There he took a wife again, it is said."
-	cite="ainu-corpora (樺太)" page="sentoku/1#47 (Sentoku Tarōji)"
+	cite="Sentoku (letters)"
 	dialect="East"
 	note="maci koro ‘take a wife’; hearsay manuy. Self-written Ainu by an east-coast speaker." />
 
@@ -520,25 +514,24 @@ tale-closing formula <W w="hemaka" gloss="the end" />:
 	ain="usoy ta pirika okay utara kii manu hemaka"
 	gloss="neighbour LOC be.good exist.PL people 3PL.A.do REP end"
 	free="Living as neighbours, the people lived well, it is said. The end."
-	cite="ainu-corpora (樺太)" page="chiba-354/43#48 (Piłsudski coll.)"
+	cite="Piłsudski 1912"
 	dialect="East"
 	note="Locative ta; reportative manu; conventional tale-closing hemaka." />
 
 ## What the texts show together
 
-Read side by side, the five texts make the chapter's central editorial point
-concrete. The **east-coast** *tuytah* (Text 1) and the West-central dialogues
-(Text 4) attest the full first-person apparatus — the AN-class `-an`/`an=`, the
-KU/CI-class object prefix `in-`, and the narrator-shifting use of the
-<Gl t="PRM" /> set — while the **west-coast** tales (Texts 2–3) are consistently
-third-person narratives in which `an=` has drifted toward a plain
-indefinite/passive, as <Cite key="Chiri 1942" paren={false} /> already observed.
+Read side by side, the five texts sort along a clear east–west line. The
+<strong>east-coast</strong> *tuytah* (Text 1) and the West-central dialogues (Text 4) attest
+the full first-person apparatus — the AN-class `-an`/`an=`, the KU/CI-class
+object prefix `in-`, and the narrator-shifting use of the <Gl t="PRM" /> set —
+while the <strong>west-coast</strong> tales (Texts 2–3) are consistently third-person
+narratives in which `an=` has drifted toward a plain indefinite/passive, as <Cite key="Chiri 1942" paren={false} /> already observed.
 The collective <Gl t="COLL" /> `-ahci`/`-hsi`/`-si` is everywhere on plural and
 reciprocal predicates, and in Text 1 it does double duty as a passive marker —
 though whether it is genuinely a passive or an impersonal plural yielding a
 passive reading remains, as Sakaguchi cautions, an open question.
 
-Phonologically the texts display the **coda shibboleth**: the west-coast SW
+Phonologically the texts display the <strong>coda shibboleth</strong>: the west-coast SW
 forms keep the older stops (`okkaw` "man", `pon-cikah` &lt; *-cikap*, `pateh`),
 while the rest of Sakhalin debuccalises them to `-h` (`ohkayo`, `pateh` ~
 `pate`). The lexical isoglosses surface too — SW `imiki` against general

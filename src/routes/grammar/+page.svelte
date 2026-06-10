@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { TOC } from '$lib/grammar/toc';
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
+	import Foreign from '$lib/components/grammar/Foreign.svelte';
 
 	const existing = new Set(
 		Object.keys(import.meta.glob('/src/routes/grammar/*/+page.{svx,svelte}')).map(
@@ -36,6 +37,65 @@
 		contrast — it is not a prerequisite for reading this grammar.
 	</p>
 </div>
+
+<aside class="mt-10 rounded-xl border border-gray-200 bg-gray-50/60 p-6">
+	<p class="text-xs font-semibold uppercase tracking-widest text-gray-400">
+		The language at a glance
+	</p>
+	<dl class="mt-4 grid gap-x-10 gap-y-4 sm:grid-cols-2">
+		<div>
+			<dt class="text-[11px] font-medium uppercase tracking-wide text-gray-400">Autonym</dt>
+			<dd class="text-gray-800"><span lang="ain-Latn">enciw</span> (Enchiw) ‘person’</dd>
+		</div>
+		<div>
+			<dt class="text-[11px] font-medium uppercase tracking-wide text-gray-400">Also known as</dt>
+			<dd class="text-gray-800">
+				<Foreign lang="ja" rom="Karafuto Ainu-go">樺太アイヌ語</Foreign>,
+				<Foreign lang="ru" rom="sakhalinskij ajnskij">сахалинский айнский</Foreign>
+			</dd>
+		</div>
+		<div>
+			<dt class="text-[11px] font-medium uppercase tracking-wide text-gray-400">Where & when</dt>
+			<dd class="text-gray-800">
+				Southern Sakhalin (and the lower Amur littoral), into the late twentieth century
+			</dd>
+		</div>
+		<div>
+			<dt class="text-[11px] font-medium uppercase tracking-wide text-gray-400">Family</dt>
+			<dd class="text-gray-800">Ainuic — alongside Hokkaido and Kuril Ainu</dd>
+		</div>
+		<div>
+			<dt class="text-[11px] font-medium uppercase tracking-wide text-gray-400">Sub-varieties</dt>
+			<dd class="text-gray-800">
+				West coast (Raychishka, Maoka …) · East coast (Taraika …)
+			</dd>
+		</div>
+		<div>
+			<dt class="text-[11px] font-medium uppercase tracking-wide text-gray-400">Status</dt>
+			<dd class="text-gray-800">
+				Dormant since its last fluent speaker, Asai Take, died in 1994; in revival as Enchiw
+			</dd>
+		</div>
+		<div class="sm:col-span-2">
+			<dt class="text-[11px] font-medium uppercase tracking-wide text-gray-400">
+				Core documentation
+			</dt>
+			<dd class="text-gray-800">
+				Piłsudski 1912 (East coast) · Murasaki 1976/1979 (West coast) · Chiri 1942 · and the
+				modern work of Dal Corso, Sakaguchi, and Bugaeva — see the
+				<a href="/grammar/references" class="text-blue-600 hover:underline">references</a>.
+			</dd>
+		</div>
+	</dl>
+	<a
+		href="https://en.wikipedia.org/wiki/Sakhalin_Ainu_language"
+		target="_blank"
+		rel="noreferrer"
+		class="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:underline"
+	>
+		Sakhalin Ainu on Wikipedia <span aria-hidden="true">→</span>
+	</a>
+</aside>
 
 <div class="mt-10 grid gap-8 sm:grid-cols-2">
 	{#each TOC as part}

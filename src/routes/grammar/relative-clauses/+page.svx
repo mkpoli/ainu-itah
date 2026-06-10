@@ -10,6 +10,7 @@ sources:
   - Chiri 1942
   - Piłsudski 1912
   - Bugaeva 2016
+  - FF-Ainu (Karafuto materials)
 ---
 
 <script lang="ts">
@@ -25,10 +26,8 @@ A relative clause in Sakhalin Ainu is a clause placed *before* the noun it
 modifies, with the relativised noun phrase left unexpressed inside the clause —
 a gap. Ainu has no relative pronoun, no relativising particle, and no resumptive
 pronoun for core arguments; the modifying clause keeps its ordinary
-verb-final shape, and only the position corresponding to the head noun is empty
-<Cite key="Bugaeva 2015" page="46" />. This is the same right-headed,
-modifier-before-head pattern that governs the noun phrase generally
-<Cite key="Bugaeva 2015" page="44" />: a relative clause occupies exactly the
+verb-final shape, and only the position corresponding to the head noun is empty <Cite key="Bugaeva 2015" page="46" />. This is the same right-headed,
+modifier-before-head pattern that governs the noun phrase generally <Cite key="Bugaeva 2015" page="44" />: a relative clause occupies exactly the
 slot a determiner or an attributive adjective would.
 
 Furukawa's generative description of the Raychishka (West-coast) dialect captures
@@ -38,13 +37,12 @@ to stand prenominally as a modifier of the head N <Cite key="Furukawa 1967" page
 That prenominal VP *is* the relative clause: a finite-looking clause sits in front
 of its head, the relativised argument gapped.
 
-Crucially, relativisation does **not** recruit the Sakhalin nominalised verb
+Relativisation does <strong>not</strong> recruit the Sakhalin nominalised verb
 form V-<Gl t="POSS" /> (the possessive-style verb marking treated in
 [Chapter 23](/grammar/nominalisation)). Although V-<Gl t="POSS" /> is the great
 West-coast innovation and reaches into adverbial clauses, modal sentences,
 clausal nominalisation and even main clauses, it is systematically absent from
-relative, complement and lexical-nominalisation contexts
-<Cite key="Bugaeva 2016" page="105" />. Relative clauses use the inherited,
+relative, complement and lexical-nominalisation contexts <Cite key="Bugaeva 2016" page="105" />. Relative clauses use the inherited,
 pan-Ainu gap strategy and nothing else. The contrast is summarised in
 Bugaeva's functional table:
 
@@ -60,14 +58,13 @@ After <Cite key="Bugaeva 2016" page="112" paren={false} />, Table 1.
 ## Argument relativisation: S, A, and O
 
 When the relativised noun is a core argument — the intransitive subject (S), the
-transitive subject (A), or the object (O) — the gap carries **no** tracking
+transitive subject (A), or the object (O) — the gap carries <strong>no</strong> tracking
 material at all. The grammatical role of the missing argument is recovered from
-the agreement on the relative-clause verb and from the semantics of the head
-<Cite key="Bugaeva 2015" page="46" />. Ainu can relativise every position on the
+the agreement on the relative-clause verb and from the semantics of the head <Cite key="Bugaeva 2015" page="46" />. Ainu can relativise every position on the
 Keenan–Comrie accessibility hierarchy *except* the alienable possessor and the
 standard of comparison proper <Cite key="Bugaeva 2015" page="43" />.
 
-The head of an argument relative clause is very often a **bound noun** — a
+The head of an argument relative clause is very often a <strong>bound noun</strong> — a
 semantically light "formal" noun in Chiri's sense <Cite key="Chiri 1942" page="483" /> —
 that supplies only the broadest category of the referent. The three workhorses
 are <W w="kuru" gloss="person" /> ~ <W w="kur" gloss="person" /> 'person', <W w="pe" gloss="thing" /> ~ <W w="p" gloss="thing" /> 'thing/one',
@@ -80,7 +77,7 @@ a relative head, where the gap is the object (or event) of the modifying clause:
 	ain="mahnekuh kii-pe neanpe mahnekuh poo-ho e-caskoma-kara"
 	gloss="woman do-NMLZ TOP woman child-POSS APPL-tell-make"
 	free="Women’s work — the thing women do — she taught to her daughter."
-	cite="ainu-corpora (樺太)" page="chiba-354/43#40"
+	cite="Piłsudski 1912"
 	dialect="East"
 	note="O/event relativisation: [mahnekuh kii] pe ‘the thing women do’, gap = the object of kii. Segmentation editorial." />
 
@@ -88,22 +85,49 @@ Here the modifying clause is *mahnekuh kii* 'women do (it)', the head is <W w="p
 and the gap corresponds to the object of <W w="kii" gloss="do" />. The whole
 relative-clause-plus-head then serves as the topic of the matrix predicate
 (marked with <W w="neanpe" gloss="topic marker" />, glossed <Gl t="TOP" />). The
-same Piłsudski narrative repeats the construction a line later with a fuller
-subject inside the relative clause, confirming that <W w="pe" gloss="thing" /> is
-a productive relative head and not a frozen idiom <Cite key="ainu-corpora (樺太)" page="chiba-354/43#41" />.
+same Piłsudski narrative repeats the construction a few lines later, this time
+with the plural subject *mahnekuh utara* 'the women' overt inside the clause and
+the verb in its collective form — *mahnekuh utara kii-hci an-pe* '[the thing] the
+women do' (gap = O), the head again the bound noun <W w="pe" gloss="thing" />
+<Cite key="Piłsudski 1912" />. The repetition with a fuller subject confirms that
+the <W w="pe" gloss="thing" />-relative is a productive pattern, not a frozen idiom.
+
+It would be a mistake, however, to read <W w="pe" gloss="thing" />-headed
+relativisation as a purely East-coast trait. The construction is alive in modern
+West-coast usage too. In a pedagogical Raychishka dialogue the same frame appears
+twice in two clauses, here relativising the **object** of the naming verb
+<W w="yee" gloss="say, call" /> 'call' (with the indefinite/impersonal subject
+*an=*, glossed <Gl t="PRM" />):
+
+<Example
+	ain="siisam itah ani [Ø] nah an=yee pe"
+	gloss="Japanese language INS [O] QUOT PRM.A=call NMLZ"
+	free="the thing one calls (it) ‘tokkari’ in Japanese"
+	cite="FF-Ainu (Karafuto materials)"
+	dialect="West"
+	note="O relativisation with bound-noun head pe; the named term is gapped as object of an=yee ‘one calls’, and the instrumental ani ‘in (the Japanese language)’ is stranded inside the clause. Modern Raychishka pedagogical text. Segmentation editorial." />
+
+The same text relativises an **animate** head — a full lexical noun, not a bound
+one — by the identical frame: *[Ø] nah an=yee henke* '[the] old man (whom) one
+calls (so-and-so)', with <W w="henke" gloss="old man" /> 'old man' (a Sakhalin
+form, <Cite key="Chiri 1942" />) as head and the gap again the named object inside
+the clause. The naming construction *X nah an=yee* '(one) calls (it) X', with the
+referent of *X* relativised away, is thus a recurrent West-coast relative-clause
+type; it shows the bare-gap argument strategy operating with both bound and
+contentful heads.
 
 Bugaeva (2016: 97) observes that the West/East innovations differ in salience:
 the West coast foregrounds V-<Gl t="POSS" />, whereas the East coast (Piłsudski)
-leans more on the older nominalising-word strategy, which surfaces in just such
-<W w="pe" gloss="thing" />-headed relatives and topic frames. Relativisation
-itself, however, is uniform across the island: in both varieties an argument gap
-is left bare and the head noun carries the referential weight.
+leans more on the older nominalising-word strategy, which surfaces in just such <W w="pe" gloss="thing" />-headed relatives and topic frames. Relativisation
+itself, however, is uniform across the island, as the parallel West- and
+East-coast <W w="pe" gloss="thing" />-relatives above show: in both varieties an
+argument gap is left bare and the head noun carries the referential weight.
 
 ## Adjunct relativisation: postposition stranding
 
 Relativisation of a non-argument is where Ainu departs from the bare-gap pattern.
 When an oblique or adjunct is relativised, the postposition that marked its role
-in the source clause is **stranded** inside the relative clause, with the gap in
+in the source clause is <strong>stranded</strong> inside the relative clause, with the gap in
 front of it <Cite key="Bugaeva 2015" page="48" />. The stranded postposition is
 what keeps the grammatical relation traceable; there is still no resumptive
 pronoun, only the orphaned adposition. The postpositions that strand this way are
@@ -120,28 +144,39 @@ the verb <W w="ek" gloss="come" /> 'come':
 	ain="ku=ommo tura ku=ek-ihi"
 	gloss="1SG.PSR=mother COM 1SG.A=come.SG-POSS"
 	free="I came together with my mother."
-	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/04#1"
+	cite="FF-Ainu (Karafuto materials)"
 	dialect="West"
 	note="Source for a comitative adjunct; under relativisation tura would strand. Segmentation editorial." />
 
 If the comitative participant *ku=ommo* 'my mother' were relativised, the noun
 would be promoted to head and <W w="tura" gloss="together with" /> would remain
 inside the clause, stranded before the verb — '(the person) [I came together
-with]'. The mechanism is the same for the instrumental: a relative clause meaning
-'(the thing) [I cut it with]' keeps <W w="ani" gloss="with" /> in place of the
-gapped instrument. Note that *not every* postposition strands: the plain locative
+with]'.
+
+For the instrumental the stranding is not merely predicted but **directly
+attested** in Sakhalin. The naming relative *siisam itah ani [Ø] nah an=yee pe*
+'the thing one calls (it) … in Japanese' (§ argument relativisation above) is
+exactly such a case: the relativised element is the named object, gapped before
+the verb, while the instrumental <W w="ani" gloss="with, by means of" /> that
+marks the means *siisam itah* 'the Japanese language' stays **inside** the
+relative clause, orphaned of its complement. The bracketing is
+*[siisam itah <Gl t="INS" /> Ø an=yee] pe* '[the thing one calls Ø by-means-of
+the Japanese language]'. This West-coast token confirms the mechanism Bugaeva
+describes for Ainu generally: under adjunct relativisation the postposition is
+left stranded, with no resumptive pronoun, and it is the stranded adposition
+that keeps the role of the gapped element recoverable.
+
+Note that *not every* postposition strands: the plain locative
 <W w="ta" gloss="at, in" /> and allative <W w="un" gloss="to" /> cannot be left
-hanging this way and require instead a relational noun (see below)
-<Cite key="Bugaeva 2015" page="50" />.
+hanging this way and require instead a relational noun (see below) <Cite key="Bugaeva 2015" page="50" />.
 
 ## Possessor relativisation: the retained possessive suffix
 
 An *inalienable* possessor can be relativised, and here the tracking material is
 nominal rather than adpositional: the possessive suffix on the possessee is
-**retained** <Cite key="Bugaeva 2015" page="49" />. Sakhalin Ainu is unusually
+<strong>retained</strong> <Cite key="Bugaeva 2015" page="49" />. Sakhalin Ainu is unusually
 well suited to this, because it has generalised the possessed (affiliative) form
-*-hV* / *-V(hV)* (where *V* copies a vowel of the stem) to essentially all nouns
-<Cite key="Bugaeva 2016" page="96" />. The possessee inside the relative clause
+*-hV* / *-V(hV)* (where *V* copies a vowel of the stem) to essentially all nouns <Cite key="Bugaeva 2016" page="96" />. The possessee inside the relative clause
 therefore stays in its possessed form, and that overt -<Gl t="POSS" /> suffix
 signals which argument has been raised to head. The same suffix is visible on
 ordinary possessed nouns, here in an East-coast Piłsudski text:
@@ -151,13 +186,12 @@ ordinary possessed nouns, here in an East-coast Piłsudski text:
 	ain="kahkum-ihi onnayke ta ahup-an"
 	gloss="ladle-POSS inside LOC enter.SG-1SG.S"
 	free="I went into the inside of the ladle."
-	cite="ainu-corpora (樺太)" page="chiba-354/43#6"
+	cite="Piłsudski 1912"
 	dialect="East"
 	note="The -ihi on kahkum ‘ladle’ is the possessed form; the same suffix is retained on the possessee under possessor relativisation. Segmentation editorial." />
 
 The alienable possessor, by contrast, cannot be relativised by a bare gap and
-falls outside the accessibility hierarchy for Ainu relativisation
-<Cite key="Bugaeva 2015" page="43" />; alienable possession recruits a separate,
+falls outside the accessibility hierarchy for Ainu relativisation <Cite key="Bugaeva 2015" page="43" />; alienable possession recruits a separate,
 appositive *kor* construction (treated under [possession](/grammar/nouns-possession)).
 
 ## Locative and allative adjuncts: the relational noun
@@ -167,8 +201,7 @@ do not strand directly, relativising a spatial adjunct uses a relational
 ("formal") noun as a bridge. The relational noun <W w="oro" gloss="place" />
 '(its) place' — itself a possessed form, with the -<Gl t="O" /> suffix — is
 retained inside the relative clause, taking the locative or allative postposition,
-and it is *its* place argument that links to the head
-<Cite key="Bugaeva 2015" page="50" />. A relative clause meaning '(the house)
+and it is *its* place argument that links to the head <Cite key="Bugaeva 2015" page="50" />. A relative clause meaning '(the house)
 [I live at]' thus literally contains 'at its-place I live'. The relational noun
 supplies the tracking material that <W w="ta" gloss="at" /> alone cannot, and the
 head noun remains gap-marked. The same relational nouns build complex adpositions
@@ -177,12 +210,9 @@ generally (see [postpositions and relational nouns](/grammar/postpositions-relat
 ## The standard-of-comparison equivalent
 
 Ainu has no genuine relative clause on the standard of comparison — one cannot
-directly relativise the 'than X' argument of a comparison
-<Cite key="Bugaeva 2015" page="43" />. What it has instead is a conventionalised
-superlative idiom that relativises a *degree adjunct* marked with
-<W w="pakno" gloss="as far as, until" /> 'as far as, up to (the point of)',
-stranding that postposition in exactly the way described above
-<Cite key="Bugaeva 2015" page="52" />. The relative-clause predicate is invariably
+directly relativise the 'than X' argument of a comparison <Cite key="Bugaeva 2015" page="43" />. What it has instead is a conventionalised
+superlative idiom that relativises a *degree adjunct* marked with <W w="pakno" gloss="as far as, until" /> 'as far as, up to (the point of)',
+stranding that postposition in exactly the way described above <Cite key="Bugaeva 2015" page="52" />. The relative-clause predicate is invariably
 the negative existential <W w="isam" gloss="not exist" /> 'not be, be lacking',
 and the matrix is an equative copular clause: 'X was a Y [up to (whom) there was
 no Y]', i.e. 'X was a Y without equal'.
@@ -197,8 +227,7 @@ no Y]', i.e. 'X was a Y without equal'.
 
 The bracketed relative clause is *[sorekusu pak-no nispa isam]* '[up to (whom) there
 is absolutely no rich man]', modifying the head <W w="nispa" gloss="rich man" />;
-the whole then predicates over *a=ona* 'my father' through the copula
-<W w="ne" gloss="be" />. The underlying equative comparison on which the idiom
+the whole then predicates over *a=ona* 'my father' through the copula <W w="ne" gloss="be" />. The underlying equative comparison on which the idiom
 rests has the shape STANDARD <W w="pak" gloss="as far as" /> STANDARD-OF-MEASURE
 PARAMETER, with <W w="isam" gloss="not exist" /> negating existence:
 
@@ -211,7 +240,7 @@ PARAMETER, with <W w="isam" gloss="not exist" /> negating existence:
 	note="The equative base construction underlying the superlative relative idiom. Cited from Saru (Hokkaido) but the stranding mechanism is pan-Ainu." />
 
 These two examples are drawn from Hokkaido (Saru) corpora, and a directly
-attested *Sakhalin* token of this exact idiom is **not** present in the current
+attested *Sakhalin* token of this exact idiom is <strong>not</strong> present in the current
 sources [uncertain] <Cite key="Bugaeva 2015" page="53" />. The mechanism on which
 it rests — postposition stranding under relativisation, with no resumptive
 pronoun — is nonetheless pan-Ainu and fully operative in Sakhalin, as the adjunct
@@ -220,12 +249,11 @@ it has not yet been recorded.
 
 ## Why no V-POSS in relatives
 
-It is worth restating the negative generalisation, because it is diagnostic of
+The negative generalisation is diagnostic of
 Sakhalin's place in the Ainu nominalisation cycle. The nominalised verb form
 V-<Gl t="POSS" /> arose, on Bugaeva's reconstruction, in adverbial clauses built
 on the copula <W w="nee" gloss="be, become" />, spread to evidential and modal
-"mermaid" sentences, and finally became an independent main-clause predicate
-<Cite key="Bugaeva 2016" page="113" />. Throughout that expansion it remained a
+"mermaid" sentences, and finally became an independent main-clause predicate <Cite key="Bugaeva 2016" page="113" />. Throughout that expansion it remained a
 *clausal nominaliser* — it turns a clause into something noun-like that can be an
 argument, as in:
 
@@ -243,8 +271,7 @@ separate head and no internal gap. A true relative clause, by contrast, leaves
 the verb finite-looking and supplies an external head noun (or bound noun) with a
 gap inside the clause. The two strategies are formally and functionally distinct,
 and Sakhalin keeps them apart: V-<Gl t="POSS" /> for clausal nominalisation,
-modal and main-clause predication; the bare prenominal gap for relativisation
-<Cite key="Bugaeva 2016" page="105" />. The forgotten-thing nominalisation below
+modal and main-clause predication; the bare prenominal gap for relativisation <Cite key="Bugaeva 2016" page="105" />. The forgotten-thing nominalisation below
 shows the V-<Gl t="POSS" /> machinery used lexically — *an=oyra-pe-he* 'our
 forgotten thing' uses the nominaliser <W w="pe" gloss="thing" /> plus the
 possessive suffix — never a relative clause, even though it translates with an
@@ -266,8 +293,7 @@ relativising particle. Core arguments (S, A, O) leave a bare gap and are tracked
 by verb agreement and by the head, which is frequently a bound noun
 (<W w="kur" gloss="person" />, <W w="pe" gloss="thing" />, <W w="hi" gloss="place" />),
 especially in the East-coast texts. Non-arguments retain tracking material:
-adjunct postpositions (<W w="ani" gloss="with" />, <W w="tura" gloss="with" />,
-<W w="eun" gloss="to" />, <W w="pakno" gloss="until" />) are stranded, an
+adjunct postpositions (<W w="ani" gloss="with" />, <W w="tura" gloss="with" />, <W w="eun" gloss="to" />, <W w="pakno" gloss="until" />) are stranded, an
 inalienable possessee keeps its possessive suffix, and a spatial adjunct keeps
 the relational noun <W w="oro" gloss="place" /> with its locative or allative
 marker. The standard-of-comparison superlative idiom (<W w="pakno" gloss="until" />

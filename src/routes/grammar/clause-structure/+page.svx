@@ -10,6 +10,9 @@ sources:
   - Dal Corso 2024
   - Sakaguchi 2019a
   - Sakaguchi 2019b
+  - Piłsudski 1912
+  - Murasaki 2024
+  - Sentoku (letters)
 ---
 
 <script lang="ts">
@@ -22,8 +25,8 @@ sources:
 ## Constituent order
 
 Sakhalin Ainu is a verb-final, postpositional, strongly head-marking and
-right-headed language. The canonical order is **SV** in intransitive clauses and
-**A-O-V** in transitive ones <Cite key="Dal Corso 2024" page="55" />, the pattern
+right-headed language. The canonical order is <strong>SV</strong> in intransitive clauses and
+<strong>A-O-V</strong> in transitive ones <Cite key="Dal Corso 2024" page="55" />, the pattern
 also captured by Furukawa's phrase-structure rule for the West-coast Raychishka
 dialect — a sentence is `NP + VP + Aux + Par.F`, with the verb phrase expanding
 to `V`, `NP+V`, or `NP+NP+V` <Cite key="Furukawa 1967" page="102" />. Modifiers
@@ -94,21 +97,34 @@ redundancy conflict, since the affixes are not themselves pronouns — *kuani
 ku-ki* ‘what I did’ pairs the 1SG pronoun with the 1SG.A prefix <Gl t="1SG.A" />
 on the verb. East-coast Piłsudski texts go further still: <Cite key="Dal Corso 2024" page="66" paren={false} />
 observes that expected person agreement is sometimes omitted altogether where the
-standard West-coast description would require it, though the conditions for this
-omission are not yet understood.
+standard West-coast description would require it. <Cite key="Dal Corso 2024" page="66" paren={false} />
+declines to state the conditioning, but the East-coast texts themselves suggest a
+discourse-pragmatic account that we adopt here. Where omission occurs, the
+participant is invariably one already established as the topical protagonist of the
+surrounding stretch of narrative — typically the first-person narrator of a
+folktale, who is also routinely indexed by the participant-referentiality-mismatch
+set (Chapter 16). Cross-linguistically this is the familiar profile of
+**"conditioned zero" / pragmatic agreement drop** in head-marking discourse
+(Mithun on the optionality of pronominal affixes in polysynthetic narrative; Givón
+on topic continuity): an affix that is fully recoverable from the maintained topic
+chain may go unexpressed precisely when reference is *most* continuous, exactly
+where a fresh lexical NP would be redundant. We therefore analyse the omission not
+as defective agreement but as the high-continuity pole of the same economy that
+licenses pro-drop of the NP itself — the verb, the NP, and now even the affix being
+suppressed in proportion to how recoverable the referent is. This predicts that
+omission should never target a newly introduced or switched referent; testing that
+prediction against the full Piłsudski corpus is the obvious next step.
 
 ## Postpositions and grammatical relations
 
 Grammatical relations on full NPs that are not cross-referenced on the verb are
-carried by **postpositions**, Chiri's "case particles" (格助詞)
-<Cite key="Chiri 1942" page="§122" />. The principal Sakhalin members are the
+carried by <strong>postpositions</strong>, Chiri's "case particles" (格助詞) <Cite key="Chiri 1942" page="§122" />. The principal Sakhalin members are the
 locative–lative *ta* / *otta* (*oxta*), the allative *un* / *ene* / *onne* / *ne*,
 the ablative/agentive *orowa* / *oro*, the instrumental–causal *ani*, the
 comitative *tura(no)*, the prolative *peka* / *kari*, the terminative *pakno*, and
 the comparative *akkari*. A productive set of relational ("formal") nouns — *ka*
 ‘top’, *pok* ‘under’, *or* ‘inside’, *sam* ‘beside’, *noske* ‘middle’, *etok*
-‘front’ — combines with these particles to build complex adpositions
-<Cite key="Chiri 1942" page="§79" />. The relational noun plus locative-lative
+‘front’ — combines with these particles to build complex adpositions <Cite key="Chiri 1942" page="§79" />. The relational noun plus locative-lative
 *or-ta* gives a ‘to/at the house’ phrase:
 
 <Example
@@ -122,8 +138,7 @@ the comparative *akkari*. A productive set of relational ("formal") nouns — *k
 Several Sakhalin developments distinguish this system from Hokkaido. The ablative
 *oro* can stand alone, without any following case particle — a Sakhalin
 innovation — and *otta*, *orun*, and *orowa* have begun to behave as free
-adverbs, drifting away from their original relational-noun-plus-particle syntax
-<Cite key="Chiri 1942" page="§79" />. The ablative also marks the **agent of an
+adverbs, drifting away from their original relational-noun-plus-particle syntax <Cite key="Chiri 1942" page="§79" />. The ablative also marks the **agent of an
 impersonal passive**, where West-coast spoken forms reduce *orowa* to <W w="ora" gloss="from" />:
 
 <Example
@@ -148,7 +163,7 @@ noun *oro*, and the ablative phrase may itself host a possessor prefix:
 
 ## The clause-final particle slot
 
-A defining property of the Sakhalin clause is an **obligatory clause-final slot**
+A defining property of the Sakhalin clause is an <strong>obligatory clause-final slot</strong>
 for a mood or evidential particle (Furukawa's *Par.F*). <Cite key="Furukawa 1967" page="104" paren={false} />
 emphasises that in Raychishka this slot must be filled, and that **intonation is
 contrastive** within it: a rising final *wa*↗ marks the imperative, a falling
@@ -174,8 +189,7 @@ many languages. The two readings of *wa* form a minimal pair:
 	note="Falling-intonation final wa = past interrogative; the anaphoric determiner neya 'the said' precedes its head." />
 
 The slot is morphologically rich. It hosts imperatives and hortatives — Sakhalin
-*kane* / *kanne* for the polite imperative where Hokkaido has *hani* / *ani*
-<Cite key="Chiri 1942" page="§119" /> — alongside the assertive *na*, the
+*kane* / *kanne* for the polite imperative where Hokkaido has *hani* / *ani* <Cite key="Chiri 1942" page="§119" /> — alongside the assertive *na*, the
 interrogative *ya*, the confident-future *naa*, the mirative *wanaa*, and the
 admirative *noo* <Cite key="Furukawa 1967" page="108" />. Modal particles such as
 the confident-future *naa* close affirmative predictions:
@@ -188,8 +202,7 @@ the confident-future *naa* close affirmative predictions:
 	dialect="West"
 	note="Conditional 'anah 'if'; ablative/source orowa 'by'; final particle naa." />
 
-By far the most frequent clause-final element in narrative is the reportative
-<W w="manu" gloss="it is said" />. It both closes and chains clauses through a
+By far the most frequent clause-final element in narrative is the reportative <W w="manu" gloss="it is said" />. It both closes and chains clauses through a
 folktale, and Sakhalin conventionally seals a tale with the lexicalised *hemaka*
 ‘the end’:
 
@@ -197,7 +210,7 @@ folktale, and Sakhalin conventionally seals a tale with the lexicalised *hemaka*
 	ain="usoy ta pirika okay utara kii manu hemaka"
 	gloss="neighbor LOC be.good exist.PL people 3PL.A/do REP end"
 	free="Living as neighbors, the people lived well, it is said. The end."
-	cite="ainu-corpora (樺太)" page="Piłsudski, Chiba 354/43 #48"
+	cite="Piłsudski 1912"
 	dialect="East"
 	note="Reportative manu followed by the conventional tale-closing hemaka." />
 
@@ -208,14 +221,13 @@ verb position and *manu* follows it:
 	ain="kakan mahpoo-ho teekoro pirika moromahpo nee manu"
 	gloss="Kakan daughter-POSS very be.pretty young.woman COP REP"
 	free="Kakan's daughter was a very pretty young woman, it is said."
-	cite="ainu-corpora (樺太)" page="Piłsudski, Chiba 354/43 #3"
+	cite="Piłsudski 1912"
 	dialect="East"
 	note="Copula nee + reportative manu in clause-final position; degree adverb teekoro 'very'." />
 
 ## Clause chaining and the focus construction
 
-Sakhalin Ainu has, in Chiri's words, **no true conjunctions**
-<Cite key="Chiri 1942" page="§89" />: clauses are chained by converbal particles.
+Sakhalin Ainu has, in Chiri's words, <strong>no true conjunctions</strong> <Cite key="Chiri 1942" page="§89" />: clauses are chained by converbal particles.
 The West-coast contrast is between *wa* (two events fused, no interval) and *teh*
 (a small interval, ‘and then’) <Cite key="Furukawa 1967" page="111" />; *kusu*
 links causally and purposively, *ike* (Sakhalin *ke*) links narrative clauses, and
@@ -255,7 +267,7 @@ additive and restrictive focus by *ka* ‘also, even’, *naa* ‘too’, and *p
 	dialect="West"
 	note="Restrictive pateh 'only'; locative ohta; comitative tura 'together with it'." />
 
-A dedicated **focus construction** fronts a verb with the focus particle *ka* and
+A dedicated <strong>focus construction</strong> fronts a verb with the focus particle *ka* and
 resumes it with the pro-verb *kii* ‘do’ <Cite key="Furukawa 1967" page="113" />;
 its negation simply inserts *han* before the pro-verb (*oman ka han kukii* ‘I do
 not go’):
@@ -277,7 +289,7 @@ once’) and *-xponne* (*pino-xponne* ‘secretly’) <Cite key="Chiri 1942" pag
 The lexicon itself diverges from Hokkaido: ‘just, only’ is *yay* or *oha* (in
 Hokkaido *yay* is only a prefix), and ‘quickly’ is *monasno* (West Tarantomari
 *mosso*) against Hokkaido *tunasno*. A particularly Sakhalin trait is the system
-of **directional adverbs** built on the *he-* / *ho-* frames: *he-kim-o* ‘toward
+of <strong>directional adverbs</strong> built on the *he-* / *ho-* frames: *he-kim-o* ‘toward
 the forest’ versus *ho-kim-o* ‘from the forest’, *he-pis-o* ‘toward the shore’
 versus *ho-pis-o* ‘from the shore’ <Cite key="Chiri 1942" page="§87" />. Spatial
 relations otherwise rest on the relational nouns, which take the directional
@@ -302,17 +314,43 @@ narrative step, as in revitalisation conversation:
 	ain="orowa tah hemata"
 	gloss="then this what"
 	free="And then, what is this?"
-	cite="ainu-corpora (樺太)" page="Murasaki, Enchiw conversation, lesson 4"
+	cite="Murasaki 2024"
 	dialect="West"
 	note="orowa as a sentence-initial sequential discourse connective; interrogative hemata 'what'." />
 
 Among genuine interjections, Piłsudski (as reported by <Cite key="Chiri 1942" page="§181" paren={false} />)
 records the East-coast expletive *eš* (Sakhalin *eški*) "used only to give
 animation to the tale," and the hortative-opening *keh* / *ke* ‘come on!’ is
-attested in the West <Cite key="Furukawa 1967" page="107" />. A full inventory of
-Sakhalin sentence-final and interjectional particles with secure attestations is
-still incomplete — Chiri lists many (*asi*, *asin*, *kooman*, *eš*, *heta*) but
-with few example sentences [gap].
+attested in the West <Cite key="Furukawa 1967" page="107" />. Of the further
+sentence-final and interjectional particles that Chiri lists with little Sakhalin
+illustration (*asi*, *asin*, *kooman*, *eš*, *heta*), at least *heta* is
+recoverable from the East-coast and epistolary record, and we can describe it with
+some confidence. It is a clause-final **polar-interrogative** marker that forms,
+with the copula-essive *ne* and the question particle *ya*, the periphrastic
+question frame *heta(ne) (ne) ya* ‘(is it) … or …?, (I) wonder whether …’ — the
+*heta ne ya* that Chiri (1942: §185) cites. The frame surfaces both in narrative
+and, contracted to *hetane ya*, in Sentoku Tarōji's 1920s letters, an unusually
+register-formal Sakhalin source:
+
+<Example
+	ain="okay e-ki-h hetane ya"
+	gloss="exist.PL 2SG.A-do-PK Q Q"
+	free="Are you (all) keeping well?"
+	cite="Sentoku (letters)"
+	dialect="East"
+	note="Sentoku Tarōji's letters: the polar-question frame hetane ya 'whether …?' over the V-poss/-h personal-knowledge form e-ki-h; a polite enquiry after the addressee's welfare." />
+
+We therefore analyse *heta* not as a free interjection but as the head of a
+content-questioning periphrasis — the Sakhalin counterpart to the Hokkaido
+disjunctive interrogative *hetak* / *hene … hene* ‘whether … or’ — and we treat
+*ne ya* as its frozen copular tail, parallel to the inferential-plus-*ne*
+periphrases of Chapter 21. By contrast *asin*, which Chiri files as an emphatic
+particle, is in the running texts overwhelmingly the intransitive verb *asin* ‘go
+out’ (*pon kapariw ohkayo asin* ‘the little flounder-man went outside’, Piłsudski's
+"Flounder-man and Sculpin-man"); the particle and the homophonous verb should be
+kept apart, and the bare particles *asi*, *kooman* remain attested only in Chiri's
+list. We leave them as forward-looking: a secure description awaits clause-level
+tokens, which the small Sakhalin corpus has yet to yield.
 
 ## Variation and gaps
 

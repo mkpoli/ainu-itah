@@ -16,31 +16,48 @@ sources:
 	import Gl from '$lib/components/grammar/Gl.svelte';
 	import Cite from '$lib/components/grammar/Cite.svelte';
 	import W from '$lib/components/grammar/W.svelte';
+	import Foreign from '$lib/components/grammar/Foreign.svelte';
 </script>
 
 ## What this grammar is
 
-This is a reference grammar of **Sakhalin Ainu** — the variety of the Ainu
+This is a reference grammar of <strong>Sakhalin Ainu</strong> — the variety of the Ainu
 language (autonym *Enchiw*) spoken until the late twentieth century across the
-island of Sakhalin (Japanese *Karafuto*, Russian *Sakhalin*). It aims to
-describe the language *on its own terms*: as a coherent system, documented from
-its own sources, rather than as a footnote to the better-known Hokkaido
-varieties. Hokkaido Ainu is invoked only where an explicit contrast is
-illuminating; reading this grammar presupposes no knowledge of it.
+island of Sakhalin (Japanese <Foreign lang="ja" rom="Karafuto">樺太</Foreign>,
+Russian <Foreign lang="ru" rom="Sakhalin">Сахалин</Foreign>). Its own speakers
+called the island, as any people call a homeland, *yaunmosir* — literally ‘the
+land on this side’. The name *Karapto*, which in the Sakhalin pronunciation
+becomes *Karahto* (the island’s name itself obeying the coda *-p* → *-h* shift
+of [Chapter 6](/grammar/syllable-and-coda)), is the source of Japanese
+*Karafuto* and is traditionally traced to *kamuy kar put ya mosir* ‘the land a
+god made at the river-mouth’. This book aims to describe the language *on its
+own terms*: as a coherent system, documented from its own sources, rather than
+as a footnote to the better-known Hokkaido varieties. Hokkaido Ainu is invoked
+only where an explicit contrast is illuminating; reading this grammar
+presupposes no knowledge of it.
 
 Three commitments shape the book:
 
-- **Evidence-based.** Every grammatical statement is anchored in primary
-  documentation or the descriptive literature, and attributed. Where the
-  sources disagree or fall silent, the text says so rather than papering over
-  the gap.
-- **Interlinear throughout.** Examples are glossed morpheme-by-morpheme
+- <strong>Description, not just compilation.</strong> Where Sakhalin Ainu has already been
+  described, this grammar credits and builds on that work — the nineteenth- and
+  twentieth-century record is indispensable, and a point made before is cited to
+  whoever made it. But much of the language’s morphosyntax was never worked out,
+  and where the literature is silent the grammar does not simply note the
+  silence. It fills the gap: by analysing the primary texts and the corpus
+  directly, by reasoning from general linguistic theory, and by drawing on how
+  comparable phenomena are handled in the description of other languages. An
+  analysis that originates here is presented as the grammar’s own. The result is
+  meant to be at once a synthesis of the existing scholarship and an original
+  description in its own right.
+- <strong>Interlinear throughout.</strong> Examples are glossed morpheme-by-morpheme
   following the [Leipzig Glossing Rules](https://www.eva.mpg.de/lingua/resources/glossing-rules.php),
-  and each carries its source. Hover any small-cap gloss — for instance
-  <Gl t="INDEF" /> or <Gl t="1SG.A" /> — to read its expansion.
-- **Connected.** Ainu forms link to the [dictionary](/); citations link to the
-  [References](/grammar/references); and the examples are drawn from the actual
-  Sakhalin text corpus rather than invented.
+  and each carries its source. Hover any small-cap gloss — for instance <Gl t="PRM" /> or <Gl t="1SG.A" /> — to read its expansion, or click it for
+  the full [list of abbreviations](/grammar/abbreviations).
+- <strong>Cross-referencing.</strong> Ainu forms link to the [dictionary](/); citations link
+  to the [References](/grammar/references); and the examples are mostly drawn
+  from attested Sakhalin texts. The exceptions are constructed forms used to
+  round out a paradigm or to illustrate an analysis first made here; these are
+  marked as such.
 
 ## How to read the examples
 
@@ -85,8 +102,8 @@ it diverges or fills a gap.
 
 ## Situating this grammar
 
-Sakhalin Ainu has been described before, but never in a single modern,
-open, corpus-linked reference work. The foundations were laid by Chiri
+Sakhalin Ainu has been described before, though never gathered into a single
+reference work. The foundations were laid by Chiri
 Mashiho's *Ainu gohō kenkyū* <Cite key="Chiri 1942" />, a study explicitly
 "centred on the Sakhalin dialect," and by Kyōko Murasaki's two-volume
 *Karafuto Ainugo* <Cite key="Murasaki 1979" paren={false} />, based on a decade
