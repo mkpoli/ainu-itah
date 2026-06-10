@@ -16,6 +16,16 @@
 		frequency: number;
 	}
 
+	// A typed Sakhalin↔Hokkaido same-etymon correspondence (schema v2, additive).
+	interface Correspondence {
+		lemma: string;
+		type: string;
+		rules?: string[];
+		conf?: number;
+		curated?: boolean;
+		form?: string;
+	}
+
 	interface Entry {
 		lemma: string;
 		ja?: string[];
@@ -29,6 +39,8 @@
 		structure?: [string, string][];
 		frequencyRolled?: number;
 		freqSource?: 'marker';
+		hokkaido?: Correspondence[];
+		hokkaidoNot?: string[];
 	}
 
 	const entries: Entry[] = data;
@@ -41,6 +53,22 @@
 		collective: 'COLL',
 		valency: 'VAL'
 	};
+
+	const CORR_TYPE_GLYPHS: Record<string, string> = {
+		identity: '=',
+		'regular-sound-change': '~',
+		contraction: '⁓',
+		'construction-difference': '≙',
+		'irregular-correspondence': '≈'
+	};
+
+	function corrTitle(corr: Correspondence): string {
+		const parts = [corr.type];
+		if (corr.rules?.length) parts.push(corr.rules.join(', '));
+		if (corr.form) parts.push(`via ${corr.form}`);
+		parts.push(corr.curated ? 'curated' : `confidence ${corr.conf ?? '?'}`);
+		return parts.join(' · ');
+	}
 
 	function displayLemma(lemma: string): string {
 		if (['ja', 'ain-Kana'].includes(languageTag())) {
@@ -233,8 +261,25 @@
 						{/each}
 					</div>
 				</td>
-				<td>
-					{[...new Set([...(item.cognates ?? []), ...(item.noncognates ?? [])])].join(', ')}
+				<td lang="ain-Latn">
+					{#if item.hokkaido?.length || item.hokkaidoNot?.length}
+						<div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5">
+							{#each item.hokkaido ?? [] as corr}
+								<span title={corrTitle(corr)} class="whitespace-nowrap"
+									><span class="text-xs text-gray-500" aria-hidden="true"
+										>{CORR_TYPE_GLYPHS[corr.type] ?? '~'}</span
+									>{corr.lemma}</span
+								>
+							{/each}
+							{#each item.hokkaidoNot ?? [] as notLemma}
+								<span class="text-xs text-gray-400 line-through" title="not the same etymon"
+									>{notLemma}</span
+								>
+							{/each}
+						</div>
+					{:else}
+						{[...new Set([...(item.cognates ?? []), ...(item.noncognates ?? [])])].join(', ')}
+					{/if}
 				</td>
 				<td lang="en" class="tabular-nums">
 					{#if item.frequencyRolled !== undefined}
