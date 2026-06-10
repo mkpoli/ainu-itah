@@ -360,10 +360,82 @@ desiderative *rusuy* are pan-Sakhalin and shared with Hokkaido in function, thou
 the framing markers differ in form (*nah* vs. Hokkaido *sekor*; invariant *manu* vs.
 the Hokkaido *hawas* ~ *ruwe ne* alternation).
 
-Several gaps remain. The functional difference between "short" (-V) and "long"
-(-VhV) V-poss forms is unclear <Cite key="Bugaeva 2016" page="105" />; whether the
-East-coast variety productively uses V-poss across the full West-coast range of
-complement functions remains undescribed [uncertain]; and a systematic inventory of
-which Sakhalin matrix predicates select which complement type — nominaliser-requiring,
-zero-nominalisation, or V-poss — is largely [unattested], most of the finer complementation
-typology resting on Hokkaido data <Cite key="Bugaeva 2016" page="98" />.
+## Three finer questions
+
+Three more delicate points can now be addressed from the attested material rather
+than deferred.
+
+### Short (-V) vs. long (-VhV) V-poss
+
+Bugaeva reports the functional difference between the "short" possessive/V-poss
+form (e.g. *ci=setur-u* 'our backs') and the "long" form (*ci=setur-uhu*) as
+"unclear" <Cite key="Bugaeva 2016" page="105" />. We do not find a *semantic*
+opposition in the complement data either: the complement-clause tokens vary freely
+between, for instance, *ku=ek-ihi* and *ku=ek-ihii* with no detectable difference in
+presuppositional force or evidential value. We therefore analyse the alternation as
+**morphophonological, not functional** — the long form being the underlying
+shape `-V + hV` and the short form a reduced variant. Two independent observations
+support this. First, the alternation tracks stem phonology, not clause semantics:
+it is the same -V/-VhV variation seen across the whole possessive paradigm of nouns
+(§ on V-poss above), where no one posits a meaning contrast. Second, and more
+suggestively, <Cite key="Bugaeva 2016" page="105" paren={false} /> connects the
+suffix's vowel behaviour to a retracted-tongue-root (RTR) harmony of the type
+Ko, Joseph & Whitman identify as an areal feature of Northeast Asia, after
+Shibatani's (1990) reconstruction of the Ainu possessive as harmonic in origin.
+On that view the short/long doublet is a **prosodic-phonological residue** of an
+eroded harmony system, exactly the kind of variation that is expected to be
+free synchronically. We predict, then, that no complement-selecting predicate will
+ever turn out to require one length over the other; this is a falsifiable claim that
+fuller Raychishka audio could test.
+
+### Does the East coast use V-poss across the full range?
+
+The West-coast (Raychishka) data show V-poss in every complement function —
+clausal-nominalisation subject (*ku=ye-he sunke*), mermaid-evidential
+(*ku=wante-he nee ruu-he an*), and sentence-final main clause. The question is
+whether the East-coast (Piłsudski) variety, which leans heavily on the *pe*-strategy,
+also has the full V-poss range. The texts answer partly in the affirmative. East-coast
+V-poss is securely attested as (i) a clausal complement under causal *kusu* — *naha
+nuu-hu kusu* 'because of his hearing that' — and (ii) the object of a cognition
+verb — *aneramuskari* embedding a *…-pi-hi* nominalisation, both cited above. What
+the East-coast texts do **not** clearly attest is the most innovative West-coast use:
+bare V-poss as an independent sentence-final assertion or question. We therefore
+characterise the East coast as deploying V-poss in its **embedded** functions
+(clausal nominalisation, complement of a higher predicate) but, on present evidence,
+**not** in the insubordinated main-clause function that the West coast has
+grammaticalised. This is the diachronically expected picture: the embedded uses are
+the older stratum (stages II–III of the nominalisation cycle), the main-clause use
+the youngest (stage IV), so the dialect that innovates least should retain the
+construction in its embedded contexts only. A directly attested East-coast
+main-clause V-poss assertion would overturn this; we have not found one, and frame
+its absence as a positive — if provisional — dialectal finding rather than a mere
+silence.
+
+### Which predicates select which complement type
+
+Drawing the attested predicates together yields the selectional table that the
+sources had not assembled for Sakhalin. The pattern is principled rather than
+arbitrary: complement form correlates with the **semantic integration** of the two
+events, in the manner of Givón's binding hierarchy and Noonan's complement
+typology.
+
+| Matrix predicate class | Example predicate | Complement shape | Attested form |
+|---|---|---|---|
+| Modal / ability (subject-sharing, tight) | *rusuy* 'want', *easkay* 'be able' | bare verb `[V]` | *ku=kuu rusuy*, *kemeiki easkay* |
+| Evaluative / veridicality (clause as subject) | *pirka* 'be good', *sunke* 'be untrue' | V-poss / nominalised clause | *ku=araka-ha pirka*, *ku=ye-he sunke* |
+| Evidential / modal head noun (mermaid) | *ruwehe ne*, *nee nankor* | V-poss + COP `[V-poss] nee` | *ku=wante-he nee ruu-he an* |
+| Utterance (direct quote) | *yee* 'say' | direct clause + *nah* | *… kusu nah yee* |
+| Cognition (thought / knowledge) | *ramu* 'think', *wante* 'know' | *nah*-framed clause, or *pe*/*hi*/V-poss NMLZ | *… nah ramu*, *…-pi-hi aneramuskari* |
+
+The generalisation we extract is that **the tighter the semantic bond between
+matrix and complement, the less nominalising morphology the complement carries**:
+the subject-sharing desideratives and modals take a stripped bare verb, the
+clause-as-argument evaluatives take a full V-poss nominalisation, and the
+loosely bound utterance verbs take an unreduced direct clause set off by *nah*.
+This is precisely the iconicity predicted by the binding-hierarchy literature, and
+Sakhalin Ainu instantiates it cleanly. The chief residual uncertainty is the size of
+the evaluative class: only *pirka* 'be good' and *sunke* 'be untrue' are securely
+attested as V-poss-selecting matrices in the present corpus. By the semantics of the
+class we predict that other one-place evaluative and veridicality predicates — most
+obviously the antonym *wen* 'be bad' — pattern with them in taking a V-poss subject
+clause; a larger conversational sample would be expected to confirm this.
