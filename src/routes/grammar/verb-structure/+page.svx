@@ -28,8 +28,7 @@ The verb is the morphological heart of Sakhalin Ainu (Enchiw). It obligatorily
 indexes its core arguments with personal affixes, and its stem can host a stacked
 sequence of derivational morphology — applicatives, reflexives, reciprocals,
 causatives, incorporated nouns and adverbs — so that a single phonological word
-can correspond to a whole English clause. This is what makes the language
-<strong>polysynthetic and incorporating</strong> in the classic sense <Cite key="Chiri 1942" page="§24–25" />; <Cite key="Bugaeva 2014" paren={false} /> treats it as a textbook case. This
+can correspond to a whole English clause. This is what makes the language <strong>polysynthetic and incorporating</strong> in the classic sense <Cite key="Chiri 1942" page="§24–25" />; <Cite key="Bugaeva 2014" paren={false} /> treats it as a textbook case. This
 chapter describes the architecture of that word: the basic transitivity classes,
 the positional template of the verb, the marking of verbal number, and the
 mechanics of incorporation. The detailed inventory of the
@@ -40,8 +39,7 @@ the two following chapters; here the focus is on the structure that hosts them.
 ## Transitivity classes: the complete/incomplete split
 
 The earliest systematic description, that of <Cite key="Chiri 1942" paren={false} />,
-divides the predicatives (用詞 *yōshi*) by subcategorisation into two classes.
-<strong>Complete verbs</strong> (完用詞) need no object — these are the intransitives and the
+divides the predicatives (用詞 *yōshi*) by subcategorisation into two classes. <strong>Complete verbs</strong> (完用詞) need no object — these are the intransitives and the
 stative/adjectival verbs. <strong>Incomplete verbs</strong> (不完用詞) require a complement or
 object, and include both incomplete-intransitives and transitives proper <Cite key="Chiri 1942" page="§27–28" />.
 
@@ -114,8 +112,7 @@ slots to its left and a smaller set of suffixal slots to its right. Schematicall
 | Enclitic | collective `=(a)hci` | <Gl t="COLL" /> |
 
 Most agreement is realised by a single prefixal slot, but a closed set of forms
-— the 1PL.EXCL <Gl t="S" /> `-as` and the 4th-person/INDEF <Gl t="S" /> `-an` — is
-<strong>suffixal</strong>, which produces <strong>discontinuous agreement</strong> in some transitive cells
+— the 1PL.EXCL <Gl t="S" /> `-as` and the 4th-person/INDEF <Gl t="S" /> `-an` — is <strong>suffixal</strong>, which produces <strong>discontinuous agreement</strong> in some transitive cells
 (see [Chapter 16](/grammar/person-marking-alignment)). A relatively simple
 transitive word shows the agreement prefix sitting outside a valency suffix:
 
@@ -147,8 +144,7 @@ texts show the reflex directly:
 ## Verbal number
 
 Number is marked on the verb partly by <strong>stem alternation</strong> and partly by the
-collective clitic. Many high-frequency verbs have suppletive or derived
-<strong>singular vs plural stems</strong> <Cite key="Sakaguchi 2024" page="§1.4.3" />:
+collective clitic. Many high-frequency verbs have suppletive or derived <strong>singular vs plural stems</strong> <Cite key="Sakaguchi 2024" page="§1.4.3" />:
 
 | Type | Singular | Plural | Gloss |
 |---|---|---|---|
@@ -271,8 +267,7 @@ historical signature worth flagging.
   letters to Piłsudski use the same form for 'give', e.g. *hospi sonko ikonte*
   'give (me) a reply letter' (object `i=` + `kor-te`). The reflex thus straddles the
   East/West divide and is not an artefact of any single recorder.
-- <strong>The exclusive 1PL stem-and-affix set</strong> (`ci-`/`-as`/`in-`) is robust in
-  <strong>East</strong> Sakhalin (Piłsudski's texts) but largely <strong>absent in West (Rayciska)</strong>,
+- <strong>The exclusive 1PL stem-and-affix set</strong> (`ci-`/`-as`/`in-`) is robust in <strong>East</strong> Sakhalin (Piłsudski's texts) but largely <strong>absent in West (Rayciska)</strong>,
   where the 4th-person/INDEF set covers ⟪1PL⟫ — a "defective" paradigm in Western
   terms <Cite key="Dal Corso 2025" page="194–195" />. Because both the 4th person
   and the exclusive 1PL grammatically force plural stems, verbal number on these
@@ -283,14 +278,12 @@ historical signature worth flagging.
   (`sopakehe an-cah-ki` 'I uncovered the pile', Piłsudski 1912: 200), whereas the
   Hokkaido cognate `cak-ke` 'open' is intransitive <Cite key="Bugaeva 2025" page="fn.3" />. The element responsible is the same one <Cite key="Bugaeva 2025" paren={false} /> traces the Hokkaido `-ke` suffix back
   to: the lexical verb <W w="ki" gloss="do" /> 'do', whose long-vowel reflex <W w="kii" gloss="do" /> survives precisely in the Sakhalin (Rayciska) dialect <Cite key="Bugaeva 2025" page="176–177" />. We therefore analyse Sakhalin `cah-ki`
-  not as an irregular member of the Hokkaido `-ke` anticausative class but as a
-  <strong>transparent light-verb compound</strong> — a stem `cah-` (= `ca` 'pluck/cut off')
+  not as an irregular member of the Hokkaido `-ke` anticausative class but as a <strong>transparent light-verb compound</strong> — a stem `cah-` (= `ca` 'pluck/cut off')
   plus the still-living transitive verb `ki` 'do' — which is exactly why it stays
   transitive. The morpheme-database parse confirms this constituency (`ca` + head
   `ki` 'do'), and free `ki`/`kii` 'do' is well attested across the Sakhalin texts,
   e.g. <W w="kii" gloss="make" /> in *unciaare kii yan* 'make a fire!' (Sakhalin
-  Ainu teaching text). On this analysis the apparent Sakhalin/Hokkaido split is a
-  <strong>grammaticalisation cline frozen at different stages</strong>: Hokkaido has univerbated
+  Ainu teaching text). On this analysis the apparent Sakhalin/Hokkaido split is a <strong>grammaticalisation cline frozen at different stages</strong>: Hokkaido has univerbated
   `ki` 'do' into a bound, valency-flipping suffix `-ke` (anticausative with
   ideophones, denominal causative elsewhere; <Cite key="Bugaeva 2025" paren={false} />),
   whereas Sakhalin preserves the conservative transparent construction in which the

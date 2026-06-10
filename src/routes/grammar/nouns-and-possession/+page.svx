@@ -26,8 +26,7 @@ sources:
 ## Noun subclasses
 
 Sakhalin Ainu nouns are best classified by how they inflect, not by what they
-denote. <Cite key="Chiri 1942" paren={false} /> draws the primary line between
-<strong>concrete (substantive) nouns</strong> and <strong>locative (relational) nouns</strong>, with a
+denote. <Cite key="Chiri 1942" paren={false} /> draws the primary line between <strong>concrete (substantive) nouns</strong> and <strong>locative (relational) nouns</strong>, with a
 residue of formal and non-inflecting nouns alongside (<Cite key="Chiri 1942" page="534-536" />; <Cite key="Sakaguchi 2024" page="19" />).
 
 | Subclass | Inflectional behaviour | Examples |
@@ -224,8 +223,7 @@ after Hattori 1961.)
 ## Three constructions of possession
 
 <Cite key="Chiri 1942" paren={false} /> distinguishes three ways of expressing
-possession (<Cite key="Chiri 1942" page="532" paren={false} />). The first is the
-<strong>personal-form</strong> construction just illustrated, where the possessor is a prefix
+possession (<Cite key="Chiri 1942" page="532" paren={false} />). The first is the <strong>personal-form</strong> construction just illustrated, where the possessor is a prefix
 (*an-maci-hi* 'my wife') or a preceding noun (*nispa maci-hi* 'the chief's wife').
 The second uses the verb <W w="koro" gloss="have" /> 'have' to head a possessive
 relative clause; the third, characteristic of elaborate epic style, combines the
@@ -244,9 +242,7 @@ its sister varieties (<Cite key="Murasaki 1979" page="83" />; <Cite key="Sakaguc
 
 ## Alienable possession: the appositive *kor* construction
 
-<Cite key="Bugaeva 2021" paren={false} /> analyses Ainu as a Circum-Pacific
-<strong>appositive-possession</strong> language. The split is between obligatorily possessed
-<strong>inalienables</strong> (body parts, kin, relational nouns), which take the PSD and an
+<Cite key="Bugaeva 2021" paren={false} /> analyses Ainu as a Circum-Pacific <strong>appositive-possession</strong> language. The split is between obligatorily possessed <strong>inalienables</strong> (body parts, kin, relational nouns), which take the PSD and an
 A-prefix directly, and <strong>non-possessible alienables</strong> (animals, fish, plants,
 utensils), which cannot take the PSD and are possessed analytically by the verb
 *kor* 'have' heading a gapped prenominal relative clause. The possessor is the
@@ -283,8 +279,7 @@ construction are overwhelmingly Hokkaido (Saru) data, and she offers no
 dedicated Sakhalin inventory of which nouns take *kor* versus the PSD. We can,
 however, assemble the relevant Sakhalin evidence directly from the West-coast
 conversational and pedagogical corpus, and it points to a clear conclusion: on
-the island the inalienable/alienable boundary is not a hard syntactic cut but a
-<strong>gradient over which the two strategies overlap.</strong> A single alienable can take
+the island the inalienable/alienable boundary is not a hard syntactic cut but a <strong>gradient over which the two strategies overlap.</strong> A single alienable can take
 both. The bowl <W w="itanki" gloss="bowl" /> — a manufactured utensil, the very
 type Bugaeva classes as non-possessible — is found in Murasaki's dialogues both
 in the analytic *kor* frame and with the affiliative suffix, in adjacent turns:
@@ -315,8 +310,7 @@ refers to the bowl as mine — exactly the presupposed-versus-asserted division 
 labour that the typological literature on alienability (Nichols, Chappell &
 McGregor) leads us to expect where a language lets an alienable enter the
 inalienable construction. We therefore analyse Sakhalin not
-as having reassigned individual nouns from one class to the other, but as having
-<strong>loosened the construction-to-noun mapping</strong>: the PSD has become available to
+as having reassigned individual nouns from one class to the other, but as having <strong>loosened the construction-to-noun mapping</strong>: the PSD has become available to
 much of the alienable lexicon (the *cip-ihi* 'boat', *itanki-hi* 'bowl' type),
 while *kor* remains available to almost anything — the garment in
 *tan imii ku=koro pe nee* 'this garment is mine'

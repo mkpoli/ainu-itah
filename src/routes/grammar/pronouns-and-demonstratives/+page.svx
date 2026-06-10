@@ -29,8 +29,7 @@ noun, and the interrogative pro-forms. Two facts shape the whole domain. First,
 Sakhalin Ainu is head-marking and pro-drop: the verb obligatorily cross-references
 its core arguments with personal affixes (treated in the chapter on
 [person marking](/grammar/person-marking-alignment)), so a free pronoun is never
-required to identify an argument and appears only for emphasis or contrast <Cite key="Furukawa 1967" page="103-4" />. Second, all of these forms are
-<strong>right-headed modifiers</strong>: a demonstrative, like a numeral or a relative clause,
+required to identify an argument and appears only for emphasis or contrast <Cite key="Furukawa 1967" page="103-4" />. Second, all of these forms are <strong>right-headed modifiers</strong>: a demonstrative, like a numeral or a relative clause,
 precedes the noun it determines <Cite key="Chiri 1942" page="§95" />.
 
 ## Free personal pronouns
@@ -68,8 +67,7 @@ A-prefix *ku-* on the verb, all referring to the same speaker.
 	cite="Sakaguchi 2024" page="19"
 	dialect="East" />
 
-Because the affix already carries the reference, the free pronoun is reserved for
-<strong>contrast and emphasis</strong>. The same holds on the west coast, where *kuani* is
+Because the affix already carries the reference, the free pronoun is reserved for <strong>contrast and emphasis</strong>. The same holds on the west coast, where *kuani* is
 fronted and set off ("on my part") against an implied other party:
 
 <Example
@@ -121,8 +119,7 @@ That the free forms are syntactically full noun phrases — the standard diagnos
 for distinguishing a true independent pronoun from a clitic or a stranded agreement
 marker — is shown directly by their distribution in Murasaki's West-coast
 conversation primer. The free pronoun (i) heads an <strong>equational predication</strong>, taking
-a nominal predicate and the copula like any subject noun; (ii) bears the same
-<strong>topic and focus particles</strong> (*neyke*, *ne'ampe*) that mark ordinary topical NPs;
+a nominal predicate and the copula like any subject noun; (ii) bears the same <strong>topic and focus particles</strong> (*neyke*, *ne'ampe*) that mark ordinary topical NPs;
 and (iii) is the answer-frame for the person interrogative *naata* 'who'. In the
 exchange below, 1sg *ku'ani* and 2sg *e'ani* each carry the topic marker *neyke* and
 stand as the subject of an equational clause:
@@ -168,8 +165,7 @@ beside proximal *tan* / *tanoka(y)* there stands distal *tara* / *taranoka(y)*
 'those (over there)'. The distal plural is attested adnominally in Murasaki's
 West-coast primer — *taranoka cikah utah* 'those birds', *taranoka aynu utah*
 'those people' — and is registered in the FF-Ainu Karafuto wordlist; we therefore
-analyse the Sakhalin adnominal demonstrative as a two-by-two paradigm crossing
-<strong>distance</strong> (proximal *ta-* vs. distal *tara-*) with <strong>number</strong> (singular vs.
+analyse the Sakhalin adnominal demonstrative as a two-by-two paradigm crossing <strong>distance</strong> (proximal *ta-* vs. distal *tara-*) with <strong>number</strong> (singular vs.
 *-(n)oka(y)* plural), the latter a frozen reflex of the same *(an)oka(y)* 'be (PL)'
 element that builds the fourth-person pronoun (see above). Ōta's dictionary
 independently lemmatises *tanokay* as a respectful proximal ('こちらの, this one

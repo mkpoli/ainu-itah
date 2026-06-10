@@ -25,8 +25,7 @@ sources:
 ## Constituent order
 
 Sakhalin Ainu is a verb-final, postpositional, strongly head-marking and
-right-headed language. The canonical order is <strong>SV</strong> in intransitive clauses and
-<strong>A-O-V</strong> in transitive ones <Cite key="Dal Corso 2024" page="55" />, the pattern
+right-headed language. The canonical order is <strong>SV</strong> in intransitive clauses and <strong>A-O-V</strong> in transitive ones <Cite key="Dal Corso 2024" page="55" />, the pattern
 also captured by Furukawa's phrase-structure rule for the West-coast Raychishka
 dialect — a sentence is `NP + VP + Aux + Par.F`, with the verb phrase expanding
 to `V`, `NP+V`, or `NP+NP+V` <Cite key="Furukawa 1967" page="102" />. Modifiers
@@ -103,8 +102,7 @@ discourse-pragmatic account that we adopt here. Where omission occurs, the
 participant is invariably one already established as the topical protagonist of the
 surrounding stretch of narrative — typically the first-person narrator of a
 folktale, who is also routinely indexed by the participant-referentiality-mismatch
-set (Chapter 16). Cross-linguistically this is the familiar profile of
-<strong>"conditioned zero" / pragmatic agreement drop</strong> in head-marking discourse
+set (Chapter 16). Cross-linguistically this is the familiar profile of <strong>"conditioned zero" / pragmatic agreement drop</strong> in head-marking discourse
 (Mithun on the optionality of pronominal affixes in polysynthetic narrative; Givón
 on topic continuity): an affix that is fully recoverable from the maintained topic
 chain may go unexpressed precisely when reference is *most* continuous, exactly
@@ -380,8 +378,7 @@ one in which **interrogation is carried by falling intonation plus the
 personal-knowledge nominalisation**, and the final particle (when present) merely
 makes that contour lexically explicit — *wa*↘ being the overt counterpart of the
 falling Ø, *wa*↗ of the rising one. This is the cross-linguistically ordinary
-situation of a polar question signalled prosodically (and here, unusually, by a
-<strong>falling</strong> contour, as in some West-African and Mainland-Southeast-Asian systems)
+situation of a polar question signalled prosodically (and here, unusually, by a <strong>falling</strong> contour, as in some West-African and Mainland-Southeast-Asian systems)
 with optional particle reinforcement; what awaits confirmation is only the precise
 phonetic realisation, not the existence of the contrast.
 
@@ -406,8 +403,7 @@ pivot, as repeatedly in Piłsudski's "Flounder-man and Sculpin-man":
 
 We analyse both as the same demonstrative-based formative *ne-an-pe*
 ‘that-existing-thing’ recruited, on the one hand, as an anaphoric <strong>topic</strong> (it
-points back to a referent and frames it) and, on the other, as a clausal
-<strong>bridging</strong> device (it points back to the whole preceding event); the apparent
+points back to a referent and frames it) and, on the other, as a clausal <strong>bridging</strong> device (it points back to the whole preceding event); the apparent
 indeterminacy is just the categorial ambiguity of an anaphor that can scope over an
 NP or over a clause. The contracted *nampe* (Sakaguchi's *n[e]anpe*) is the same
 item, and the choice between *neanpe* and *nampe* is phonological reduction, not a
@@ -456,8 +452,7 @@ the <strong>presentative</strong> *e-a* (‘APPL-sit’), which in Piłsudski br
 into attention as it is introduced — *An-kuca-ha-oro-wa paa numa e-a kusu an* ‘and
 there, smoke was rising from my hut’ — a Sakhalin-specific staging device with no
 counterpart in the 1970s West-coast records, where this productive morphology has
-eroded. We therefore describe Sakhalin information structure as layered: a
-<strong>clitic</strong> layer (topic *anak(ne)* / *neampe*, additive *ka* / *naa*, restrictive
+eroded. We therefore describe Sakhalin information structure as layered: a <strong>clitic</strong> layer (topic *anak(ne)* / *neampe*, additive *ka* / *naa*, restrictive
 *pateh*), a <strong>syntactic</strong> layer (the *V ka kii* pseudo-cleft, NP fronting under
 *pateh*), and a <strong>morphological</strong> layer (applicative promotion and presentative
 *e-a*) that does at the level of argument structure what the other two do with

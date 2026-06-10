@@ -141,7 +141,7 @@ The most versatile number marker is the word <W w="utara" gloss="companions; plu
 	dialect="East"
 	note="utara as the head of an NP after a relative clause" />
 
-<strong>(iii) Plural suffix.</strong> Suffixed as <W w="utara" gloss="PL" />, it forms an additive *or* an associative plural, and — unlike <W w="hcin" gloss="PL" /> — it may attach to a <strong>conceptual</strong> form and even to <strong>proper names</strong>. The contrast with the homogeneous-only suffix is minimal: against <W w="ku-mit-ihi=hcin" gloss="my grandchildren" /> 'my grandchildren' (all mine) stands the looser conceptual-form plural:
+<strong>(iii) Plural suffix.</strong> Suffixed as <W w="utara" gloss="PL" />, it forms an additive <em>or</em> an associative plural, and — unlike <W w="hcin" gloss="PL" /> — it may attach to a <strong>conceptual</strong> form and even to <strong>proper names</strong>. The contrast with the homogeneous-only suffix is minimal: against <W w="ku-mit-ihi=hcin" gloss="my grandchildren" /> 'my grandchildren' (all mine) stands the looser conceptual-form plural:
 
 <Example
 	ain="mit-utara"

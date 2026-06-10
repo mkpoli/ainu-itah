@@ -57,8 +57,7 @@ progressive <Gl t="PROG" /> rests on the last verb alone.
 
 ## Converbal (medial) linkers
 
-The core medial-verb markers form a small set distinguished mainly by the
-<strong>temporal relation</strong> between the two events they join. The most basic
+The core medial-verb markers form a small set distinguished mainly by the <strong>temporal relation</strong> between the two events they join. The most basic
 opposition, drawn sharply by <Cite key="Furukawa 1967" paren={false} />, is
 between <W w="wa" gloss="and" /> and <W w="teh" gloss="and then" />.
 
@@ -113,8 +112,7 @@ and *orowa(no)* as a single sequential connective '…して、それから'
 preceded by *teh* and even by the quotative *nah*, giving the fixed discourse bridge
 *nahteh orowa(no)* 'and after that …' that opens new episodes in the Sirahama texts.
 
-The Handbook's comparative chapter treats Sakhalin *teh* as preserving the
-<strong>older</strong> function of the cognate Hokkaido particle *tek*: in the Saru dialect
+The Handbook's comparative chapter treats Sakhalin *teh* as preserving the <strong>older</strong> function of the cognate Hokkaido particle *tek*: in the Saru dialect
 *tek* grammaticalised into an auxiliary verb 'do for a short time', leaving
 sequential linking to *wa* and *hine*, whereas Sakhalin keeps *teh* as a
 sequential converb (<Cite key="Handbook (Bugaeva ed.)" paren={false} />).
@@ -476,8 +474,7 @@ subordinating morphosyntax is deployed in a main-clause function.
 
 ### Reconstructing Furukawa's "forty conjunctions"
 
-<Cite key="Furukawa 1967" page="11" paren={false} /> reports that she identified roughly
-<strong>40</strong> conjunctive forms for Raychishka but published worked examples of only four
+<Cite key="Furukawa 1967" page="11" paren={false} /> reports that she identified roughly <strong>40</strong> conjunctive forms for Raychishka but published worked examples of only four
 (*wa, teh, yayne, yahka*). The remaining members are not, however, lost to description: <Cite key="Chiri 1942" page="§120–121" paren={false} /> catalogues the Ainu conjunctive
 particles (his "third kind of particle") pan-dialectally, flagging the Sakhalin-specific uses,
 and the great majority of his entries are precisely the forms that recur in the Sakhalin corpus.
@@ -500,8 +497,7 @@ analysable: *‘orowa* is the possessed relational noun *oro* 'place (of)' + con
 'from' (as set out under *teh* above), and *‘anah* is built on the existential *an* 'be' plus a
 frozen *-(a)h* (as set out under the conditional clauses above) — both existential/relational bases
 recruited into the clause-linking system, the same diachronic source that gives the NMLZ+COP adverbial
-conjunctions *neeno*, *neya*, *ne‘ampe* (Ch. 23). Whether Sakhalin has a productive
-<strong>simultaneous</strong> converb, finally, is answered under *kane ~ kor* above: *kane* (with
+conjunctions *neeno*, *neya*, *ne‘ampe* (Ch. 23). Whether Sakhalin has a productive <strong>simultaneous</strong> converb, finally, is answered under *kane ~ kor* above: *kane* (with
 *kor ~ ko*) is that converb, robust pan-Sakhalin in Chiri's description and in East-coast narrative,
 and present on the West coast at least in the aspectual *kane an* and the chaining *kanne*.
 

@@ -94,8 +94,7 @@ a single verb:
 
 ## Nouns and their subclasses
 
-Where the verb is defined by agreement, the noun is defined by its
-<strong>possessability</strong>. <Cite key="Chiri 1942" paren={false} /> and, following him, <Cite key="Sakaguchi 2024" paren={false} /> sort nouns into four behavioural
+Where the verb is defined by agreement, the noun is defined by its <strong>possessability</strong>. <Cite key="Chiri 1942" paren={false} /> and, following him, <Cite key="Sakaguchi 2024" paren={false} /> sort nouns into four behavioural
 subclasses (<Cite key="Chiri 1942" page="534-536" />; <Cite key="Sakaguchi 2024" page="19" />):
 
 | Subclass | Behaviour | Examples |
@@ -105,8 +104,7 @@ subclasses (<Cite key="Chiri 1942" page="534-536" />; <Cite key="Sakaguchi 2024"
 | formal / bound (第二種形式名詞) | derived from possessed forms; personal sense largely lost | *ru(he)* ‘trace’, *sir(i)* ‘appearance’, *haw(e)* ‘voice’ |
 | non-inflecting | no ownable property; no personal inflection | proper names, *haru* ‘spring’, pronouns, numerals |
 
-A concrete noun has a number-neutral <strong>conceptual form</strong> (the bare stem) and a
-<strong>possessed/affiliative form</strong>, built by adding a possessed suffix (<Gl t="PSD" />)
+A concrete noun has a number-neutral <strong>conceptual form</strong> (the bare stem) and a <strong>possessed/affiliative form</strong>, built by adding a possessed suffix (<Gl t="PSD" />)
 of the shape *-hV* / *-V(hV)*; a <strong>personal form</strong> adds an A-series possessor
 prefix on top:
 
@@ -364,8 +362,7 @@ West-coast recordings, which remains to be done.
 ## Morphological typology in brief
 
 To close, the system is <strong>agglutinating</strong> in its affixation, <strong>polysynthetic</strong>
-and <strong>incorporating</strong> in its verb, and consistently <strong>head-marking</strong> and
-<strong>right-headed</strong>: core arguments are tracked on the predicate, and every
+and <strong>incorporating</strong> in its verb, and consistently <strong>head-marking</strong> and <strong>right-headed</strong>: core arguments are tracked on the predicate, and every
 modifier precedes its head (<Cite key="Dal Corso 2024" page="55" paren={false} />). The class
 boundaries drawn above are therefore best read as boundaries of *inflectional
 potential* — what a word can do — rather than of meaning. Productivity is also

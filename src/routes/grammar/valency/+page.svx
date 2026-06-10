@@ -37,8 +37,7 @@ back into a complete one (<Cite key="Chiri 1942" page="§33" paren={false} />).
 Two broad sets are attested. <strong>Valency-increasing</strong> devices are suffixal — the causatives
 and transitivisers <W w="-ka" gloss="CAUS" />, <W w="-re" gloss="CAUS" />, the
 Sakhalin-specific <W w="-te" gloss="CAUS" />, the bare vowel suffix, and the
-plural-causee <W w="-yara" gloss="CAUS" /> — together with the prefixal <strong>applicatives</strong> <W w="e-" gloss="APPL" />, <W w="o-" gloss="APPL" />, and <W w="ko-" gloss="APPL" />.
-<strong>Valency-decreasing</strong> devices are prefixal: the reciprocal <W w="u-" gloss="RECP" />,
+plural-causee <W w="-yara" gloss="CAUS" /> — together with the prefixal <strong>applicatives</strong> <W w="e-" gloss="APPL" />, <W w="o-" gloss="APPL" />, and <W w="ko-" gloss="APPL" />. <strong>Valency-decreasing</strong> devices are prefixal: the reciprocal <W w="u-" gloss="RECP" />,
 the reflexives <W w="yay-" gloss="REFL" /> and <W w="si-" gloss="REFL" />, the antipassive <W w="i-" gloss="ANTIP" />, and the anticausative suffix <W w="-ke" gloss="ANTIC" />. The
 last is treated by <Cite key="Bugaeva 2025" paren={false} /> as standing in equipollent
 opposition to the direct causative. These operations may stack, making the language
@@ -261,14 +260,12 @@ The second reflexive, <W w="si-" gloss="REFL" />, was traditionally the <strong>
 reflexive and tends to give a "middle" reading, as in <W w="si-kira" gloss="flee" /> 'flee'
 (literally 'turn oneself'; cf. <W w="si-kari" gloss="turn round" /> 'go round'). It combines
 with the causative to form a <strong>simulative</strong> — *si-ray-re* 'pretend to die'
-(<Cite key="Chiri 1942" page="§53(2)" paren={false} />) — or a self-benefactive. <Cite key="Bugaeva 2025" paren={false} /> argues that <W w="si-" /> has shifted along a
-<strong>reflexive &gt; autocausative &gt; anticausative</strong> cline, with its anticausatives more
+(<Cite key="Chiri 1942" page="§53(2)" paren={false} />) — or a self-benefactive. <Cite key="Bugaeva 2025" paren={false} /> argues that <W w="si-" /> has shifted along a <strong>reflexive &gt; autocausative &gt; anticausative</strong> cline, with its anticausatives more
 lexicalised than those formed with the suffix <W w="-ke" /> (below). We can position the
 Sakhalin material on this cline directly. At the reflexive pole sit transparent forms where <W w="si-" /> is the direct object of an actional transitive (<W w="si-kari" gloss="turn.round" />
 'turn oneself round, go round'). The autocausative pole is the productive middle of
 self-induced motion — <W w="si-kira" /> 'flee' (lit. 'turn oneself away'), and the type <W w="si-pusu" /> 'float up of itself', <W w="si-etaye" /> 'retract, draw back' that <Cite key="Chiri 1942" paren={false} /> and later <Cite key="Bugaeva 2025" paren={false} />
-analyse as middle. The decisive Sakhalin datum for the anticausative endpoint is <W w="si-masa" />: Bugaeva's comparative table glosses Hokkaido <W w="si-masa" /> 'open' but
-<strong>Sakhalin <W w="si-masa" /> 'increase, grow'</strong> — a change-of-state intransitive with no
+analyse as middle. The decisive Sakhalin datum for the anticausative endpoint is <W w="si-masa" />: Bugaeva's comparative table glosses Hokkaido <W w="si-masa" /> 'open' but <strong>Sakhalin <W w="si-masa" /> 'increase, grow'</strong> — a change-of-state intransitive with no
 agent, i.e. a true anticausative reading distinct from the Hokkaido one
 (<Cite key="Bugaeva 2025" page="Table 2" paren={false} />). We therefore take the cline to be **attested
 in full for Sakhalin**, with the autocausative as its statistical centre of gravity (the
@@ -370,12 +367,9 @@ anticausative *cak-ke* 'open':
 	note="Sakhalin cah-ki is transitive (sopakehe an-cah-ki ‘I uncovered the pile’), unlike Hokkaido intransitive cak-ke." />
 
 Two further points can be settled beyond this single datum. First, on <strong>root distribution</strong>: <Cite key="Bugaeva 2025" paren={false} /> (Table 2) shows the <W w="-ke" /> anticausative
-applying across a large, open class of change-of-state roots — <W w="cak-ke" /> 'open', <W w="per-ke" /> 'break', <W w="rew-ke" /> 'bend', <W w="sos-ke" /> 'peel off', <W w="yas-ke" /> 'tear', and many more. Because these roots and the <W w="-ke" /> suffix are
-<strong>pan-Ainu</strong>, and because Sakhalin independently attests the same roots (the divergent <W w="cah-ki" /> reflex is built on this very inventory), we treat <W w="-ke" /> as a
-<strong>productive</strong> anticausative across Sakhalin change-of-state verbs, with the
+applying across a large, open class of change-of-state roots — <W w="cak-ke" /> 'open', <W w="per-ke" /> 'break', <W w="rew-ke" /> 'bend', <W w="sos-ke" /> 'peel off', <W w="yas-ke" /> 'tear', and many more. Because these roots and the <W w="-ke" /> suffix are <strong>pan-Ainu</strong>, and because Sakhalin independently attests the same roots (the divergent <W w="cah-ki" /> reflex is built on this very inventory), we treat <W w="-ke" /> as a <strong>productive</strong> anticausative across Sakhalin change-of-state verbs, with the
 Sakhalin-specific twist that on at least the *cah*/*cak* root the reflex is transitive
-rather than intransitive — a localised reanalysis, not evidence of a gap. Second, on
-<strong>relative frequency</strong>: the same comparison predicts that <W w="si-" /> will dominate where
+rather than intransitive — a localised reanalysis, not evidence of a gap. Second, on <strong>relative frequency</strong>: the same comparison predicts that <W w="si-" /> will dominate where
 it has lexicalised (self-motion middles such as <W w="si-kira" />, <W w="si-noye" />
 'twist') while <W w="-ke" /> remains the default elsewhere. We therefore describe the
 Sakhalin anticausative as a **two-marker system in complementary, partly-lexicalised

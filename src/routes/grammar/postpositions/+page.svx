@@ -24,13 +24,11 @@ sources:
 
 ## Overview
 
-Sakhalin Ainu (Enchiw) is verb-final, head-marking, and consistently
-<strong>postpositional</strong>: where European languages use prepositions, Enchiw places its
+Sakhalin Ainu (Enchiw) is verb-final, head-marking, and consistently <strong>postpositional</strong>: where European languages use prepositions, Enchiw places its
 relational markers *after* the noun phrase they govern. Because the core
 arguments of the verb (subject and object) are cross-referenced by person
 affixes on the predicate, full noun phrases marking those relations are largely
-optional. The work of the postpositions is therefore concentrated on the
-<strong>oblique</strong> roles — location, direction, source, instrument, accompaniment,
+optional. The work of the postpositions is therefore concentrated on the <strong>oblique</strong> roles — location, direction, source, instrument, accompaniment,
 path, limit, and comparison — and on a few adnominal functions.
 
 <Cite key="Chiri 1942" paren={false} /> treats this domain under two headings
@@ -344,7 +342,7 @@ allows the bare relational noun *oro* to mark the ablative on its own, with no
 following *wa* <Cite key="Chiri 1942" page="§79" />. This is the leading edge of
 a wider tendency for the *or*-based forms to behave as self-contained particles.
 
-<strong>Drift toward free particles.</strong> Both the locative *otta* (&lt; *or-ta*) and the
+<strong>Drift toward free particles.</strong> Both the locative <em>otta</em> (&lt; <em>or-ta</em>) and the
 ablative *orowa* (&lt; *or-o-wa*) are, <Cite key="Chiri 1942" paren={false} />
 notes, increasingly used as free adverbs and particles, detached from the
 relational-noun + case-particle syntax that historically produced them. The

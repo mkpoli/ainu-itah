@@ -121,8 +121,7 @@ A coda /r/ with no following vowel within the word has, then, two repairs
 available: copy the root vowel into an open syllable (*'utar* → *'utara*) or
 debuccalise to *-h* (*'utar* → *'utah*). <Cite key="Chiri 1942" page="472" paren={false} />
 notes both outcomes for *'utar(a)* 'people' but does not pin down what selects
-between them, and the question has stood open. The corpus resolves it as
-<strong>chiefly dialectal</strong>. East-coast (Piłsudski-tradition) texts consistently use the
+between them, and the question has stood open. The corpus resolves it as <strong>chiefly dialectal</strong>. East-coast (Piłsudski-tradition) texts consistently use the
 echo-vowel form: in the Kusuri-koya folktale *'utara* appears repeatedly
 (*onneru utara*, *mahnekuh utara*, *hekaci utara*; <Cite key="Sakaguchi 2020" paren={false} />).
 West-coast sources just as consistently use the debuccalised *-h* form *'utah* —
@@ -228,8 +227,7 @@ the desiderative triggers it on every person of *koro* 'have' —
 the reduced verb is itself pluralised, *nukan rusuy=ahci* 'they wanted to see'.
 The same *kon rusuy* recurs in twentieth-century revival prose
 (<Cite key="Ainu Times" paren={false} />). Decisively, the reduction is *also
-exceptionless in the other direction*: the form that Tangiku predicts should
-<strong>not</strong> reduce — *koro* before the converb *teh* — never does. A corpus search
+exceptionless in the other direction*: the form that Tangiku predicts should <strong>not</strong> reduce — *koro* before the converb *teh* — never does. A corpus search
 returns numerous *koro teh* (and the parallel *yaycisekoro teh*,
 *yayekotankoro teh*) across West-coast texts and <strong>zero</strong> *koh teh*. We therefore
 analyse *rVr* → *nr* and *rVt* → *nt* not as lexical idiosyncrasies but as a

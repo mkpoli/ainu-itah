@@ -25,8 +25,7 @@ sources:
 
 ## Overview
 
-Sakhalin Ainu has no morphological tense, but it has a richly grammaticalised
-<strong>evidential</strong> system: a set of predicate-final markers that specify *how the
+Sakhalin Ainu has no morphological tense, but it has a richly grammaticalised <strong>evidential</strong> system: a set of predicate-final markers that specify *how the
 speaker came to know* the asserted content. Following <Cite key="Dal Corso 2018" paren={false} />,
 the markers can be arranged on a single <strong>source-reliability continuum</strong>, from
 the most reliable (knowledge the speaker already possesses) to the least
@@ -129,8 +128,7 @@ speaker's settled knowledge of an event:
 	cite="Piłsudski 1912" page="209" dialect="East" />
 
 These constructions originate as <strong>biclausal</strong> [[Clause]NP] ne(e) — a nominalised
-clause serving as argument of the copula — and have grammaticalised toward a
-<strong>monoclausal complex predicate</strong> <Cite key="Dal Corso 2018" page="§5.2.2" />.
+clause serving as argument of the copula — and have grammaticalised toward a <strong>monoclausal complex predicate</strong> <Cite key="Dal Corso 2018" page="§5.2.2" />.
 A diagnostic of the tightening is that aspectual markers sit *inside* the
 nominalised clause and scope over it; in the next example the perfective <W w="an" gloss="perfective" /> follows the copula and takes scope over the whole
 -hV predicate:
@@ -160,8 +158,7 @@ This use is West-coast and is treated more fully in
 Five forms encode <strong>inference from a psychophysical stimulus</strong>. They are all
 pseudo-noun-incorporation of a sensorial noun plus *an* or *ne(e)*, forming one
 phonological word, and the noun may keep nominal morphology — for instance the
-plural -hcin in *ruhe-hcin an*. The choice among them is licensed by the
-<strong>sensory channel</strong> through which the stimulus is accessed in the physical
+plural -hcin in *ruhe-hcin an*. The choice among them is licensed by the <strong>sensory channel</strong> through which the stimulus is accessed in the physical
 setting <Cite key="Dal Corso 2018" page="§7.3" />:
 
 | Form | Origin noun | Channel | Gloss tag |
@@ -301,8 +298,7 @@ Since Sakhalin Ainu has no tense morphology, the inferentials carry the temporal
 load by Reichenbachian inference. The sensorial stimulus fixes a reference point
 (it is available at speech time, so R = S), and the **telicity of the scope
 predicate** then resolves present versus past <Cite key="Dal Corso 2018" page="§7.3.9" />.
-A trace can outlive the event it indexes, so *ruwehe 'an* is ambiguous: with a
-<strong>telic</strong> scope predicate the event precedes speech time and a <strong>past</strong> reading
+A trace can outlive the event it indexes, so *ruwehe 'an* is ambiguous: with a <strong>telic</strong> scope predicate the event precedes speech time and a <strong>past</strong> reading
 results, while with an <strong>atelic</strong> predicate the event coincides with the trace
 and a <strong>present</strong> reading results.
 
@@ -359,8 +355,7 @@ predicate.
 
 ## The reportative manu
 
-The sentence-final reportative <W w="manu" gloss="it is said" /> covers both
-<strong>hearsay</strong> and <strong>quotation</strong>, and is the least reliable point on the continuum.
+The sentence-final reportative <W w="manu" gloss="it is said" /> covers both <strong>hearsay</strong> and <strong>quotation</strong>, and is the least reliable point on the continuum.
 In conversation it is usually reinforced by a lexical verb of speaking or hearing
 — *nu manu* '…so he heard', *nah ye* '…they said':
 

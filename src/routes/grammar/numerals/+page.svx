@@ -23,8 +23,7 @@ sources:
 	import W from '$lib/components/grammar/W.svelte';
 </script>
 
-Sakhalin Ainu (Enchiw) inherits the pan-Ainu numerals one to ten, an inherited
-<strong>vigesimal</strong> counting system built on the base *hoh* "twenty", and — uniquely
+Sakhalin Ainu (Enchiw) inherits the pan-Ainu numerals one to ten, an inherited <strong>vigesimal</strong> counting system built on the base *hoh* "twenty", and — uniquely
 among the Ainu varieties — a layered <strong>decimal</strong> system constructed from
 borrowed bases. The decimal innovation, apparently spread through the Santan fur
 trade for tallying sable pelts and snares, came to dominate twentieth-century
@@ -175,8 +174,7 @@ twentieth-century West-coast speech, we can be more definite than the secondary
 literature. <Cite key="Sakaguchi 2022" paren={false} /> finds no overcounting
 tokens at all in Yamabe's running text — only undercounting and decimal forms —
 and the mid-century Raychishka of Hattori's dictionary records the *e-* forms only
-as 〔old〕 elders' speech. We therefore treat the overcounting construction as
-<strong>inherited but already recessive</strong> on the West coast by the 1910s: it survived as
+as 〔old〕 elders' speech. We therefore treat the overcounting construction as <strong>inherited but already recessive</strong> on the West coast by the 1910s: it survived as
 a known, citable paradigm (hence its appearance in Kindaichi's appendix and in
 elders' speech) but was no longer the default running-text strategy, having been
 displaced from below by undercounting and from the side by the loan decimal. This
@@ -379,9 +377,7 @@ pattern, where the head is reduced to a counter on both halves:
 Alongside this inherited counter, Sakhalin innovates a transparent, fully
 analysable person counter *-aynu* "person": *sine'aynu* "one person", *iwanaynu*
 "six persons" (<Cite key="Murasaki 2009" page="77" paren={false} />). We therefore correct the
-frequent statement that "Sakhalin drops the *-n / -iw* allomorphy": the West coast
-<strong>retains</strong> the bound *-n / -iw* counter (Chiri's data are West-coast Sakhalin) and
-<strong>adds</strong> the periphrastic *-aynu* type beside it. The relationship is the familiar
+frequent statement that "Sakhalin drops the *-n / -iw* allomorphy": the West coast <strong>retains</strong> the bound *-n / -iw* counter (Chiri's data are West-coast Sakhalin) and <strong>adds</strong> the periphrastic *-aynu* type beside it. The relationship is the familiar
 one of an opaque inherited counter shadowed by a transparent renewal — comparable
 to the way many languages keep a fossilised numeral classifier next to a newer
 generic noun "person/piece" — with *-aynu* the renewing, semantically transparent
@@ -407,8 +403,7 @@ Batchelor; Nakagawa), but a vague large number (10? / 40? / 200?) in Tamura's Sa
 dictionary and "one hundred" for Ishikari and Tomita. We do not read this spread
 as simple disagreement about one number. The pattern — a single non-productive
 unit-of-the-hunt whose nominal value floats between a small fixed count and an
-indefinitely large "a great many" — is the cross-linguistically common fate of a
-<strong>lexicalised batch-counter</strong>: a word that originally named a standard
+indefinitely large "a great many" — is the cross-linguistically common fate of a <strong>lexicalised batch-counter</strong>: a word that originally named a standard
 trade/hunting lot (a bundle, a load, a season's catch) and then drifts, in
 different communities and at different dates, toward either a fixed conventional
 figure or a hyperbolic "lots". The very fact that the same item is glossed "ten",
