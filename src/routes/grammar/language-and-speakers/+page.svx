@@ -36,7 +36,7 @@ autonym is visible in revitalisation prose, where it doubles as both ethnonym
 and the cover term for the language:
 
 <Example
-	ain="Karahuto 'aynu 'itah nah 'ay=yee-pe neyke Karahuto 'ohta 'enciw 'utah kii 'itah neewa kayki 'asinno ku=nuu 'ike 'oya mosiri 'oro'un 'itah neeno ku=nuu"
+	ain="Karahuto 'aynu 'itah nah 'ay-yee-pe neyke Karahuto 'ohta 'enciw 'utah kii 'itah neewa kayki 'asinno ku-nuu 'ike 'oya mosiri 'oro'un 'itah neeno ku-nuu"
 	gloss="Karafuto Ainu language QUOT INDEF.A=say-NMLZ TOP Karafuto at human PL do.NMLZ language and even newly 1SG.A=hear and other land at.GEN language SIM 1SG.A=hear"
 	free="‘Sakhalin Ainu language’ is the language the Enchiw used in Sakhalin, but when I first heard it, it sounded to me like a foreign language."
 	cite="Ainu Times" page="56"
@@ -172,12 +172,12 @@ The personal name of Asai Take recurs in her own speech, where it illustrates
 the elder-speech register discussed below:
 
 <Example
-	ain="Tahkonanna 'an=nee"
+	ain="Tahkonanna 'an-nee"
 	gloss="Tahkonanna(name) 1SG.S=COP"
 	free="I am Tahkonanna."
 	cite="Murasaki 2024" page="85"
 	dialect="West"
-	note="Elder speech: 'an=nee 'I am' (the form young speech reserves for 1pl) vs young-speech ku=nee. Tahkonanna is Asai Take's Ainu name." />
+	note="Elder speech: 'an-nee 'I am' (the form young speech reserves for 1pl) vs young-speech ku-nee. Tahkonanna is Asai Take's Ainu name." />
 
 ## Sociolinguistic history and dormancy
 
@@ -220,7 +220,7 @@ West Sakhalin preserves a productive register distinction between <strong>elder 
 reframed by Murasaki as ordinary elder colloquial usage. The two registers
 differ even in their person affixes and pronouns: the first-person singular is
 *ku-* in young speech but <W w="'an" gloss="1SG (elder speech)" /> in elder
-speech, so that the elder-speech form for ‘I am’, *'an=nee*, is formally
+speech, so that the elder-speech form for ‘I am’, *'an-nee*, is formally
 identical to the young-speech first-person *plural* (compare the Tahkonanna
 example above) <Cite key="Murasaki 2024" page="85" />.
 
@@ -228,23 +228,23 @@ The shift is not an isolated lexical replacement of one affix but a *systematic*
 substitution that runs through the whole exponence of the first person. We
 analyse it as the generalisation of the inclusive / fourth-person (<Gl t="INDEF" />)
 set — *'an* on the verb, *'anoka(y)* as the free pronoun — to singular
-self-reference, displacing the young-speech *ku=* / *ku'ani*. The same
+self-reference, displacing the young-speech *ku-* / *ku'ani*. The same
 displacement is visible in both layers of Asai Take's own self-introduction,
 where the formally plural pronoun and the formally plural agreement co-refer to
 a single speaker:
 
 <Example
-	ain="'anoka neyke Tahkonanna 'an=nee"
+	ain="'anoka neyke Tahkonanna 'an-nee"
 	gloss="1SG[ELDER] TOP Tahkonanna(name) 1SG[ELDER].S=COP"
 	free="I am Tahkonanna."
 	cite="Murasaki 2024" page="85"
 	dialect="West"
-	note="Elder speech: the free pronoun 'anoka (young-speech 1pl) and the agreement 'an= (young-speech 1pl) both denote a single speaker. Asai Take's self-introduction; segmentation mine." />
+	note="Elder speech: the free pronoun 'anoka (young-speech 1pl) and the agreement 'an- (young-speech 1pl) both denote a single speaker. Asai Take's self-introduction; segmentation mine." />
 
 This patterning carries a structural lesson about the affix itself. As Murasaki
 notes, *'an* is positionally split — it *suffixes* to intransitive stems
-(*paye='an* ‘we/I went’) but *prefixes* to transitive ones (*'an=nee* ‘we/I
-am’, *'an=koro* ‘we/I have’) <Cite key="Murasaki 2024" page="85" />; the
+(*paye='an* ‘we/I went’) but *prefixes* to transitive ones (*'an-nee* ‘we/I
+am’, *'an-koro* ‘we/I have’) <Cite key="Murasaki 2024" page="85" />; the
 elder-speech 1SG inherits this split wholesale, confirming that elder *'an* is
 the very same morpheme as the inclusive/INDEF *'an*, merely with its reference
 narrowed to the singular. Cross-linguistically this is the familiar pattern of

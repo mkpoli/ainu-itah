@@ -34,16 +34,16 @@ Beyond this lexical work, the copula <W w="nee" gloss="be" /> has become the mor
 In its core use the copula links a subject to a predicate nominal:
 
 <Example
-	ain="tan imii ku=koro pe nee"
+	ain="tan imii ku-koro pe nee"
 	gloss="this clothes 1SG.A=3SG.O/have thing COP"
 	free="This garment is mine."
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="West" />
 
-Here the complement is itself a nominalised clause, *ku=koro pe* 'the thing I have', and the copula predicates identity over it. The same equative frame underlies ordinary class-membership statements:
+Here the complement is itself a nominalised clause, *ku-koro pe* 'the thing I have', and the copula predicates identity over it. The same equative frame underlies ordinary class-membership statements:
 
 <Example
-	ain="ku'ani neyke siisam mahtekuh ku=nee"
+	ain="ku'ani neyke siisam mahtekuh ku-nee"
 	gloss="I TOP Japanese woman 1SG.A=COP"
 	free="As for me, I am a Japanese woman."
 	cite="Murasaki 2024" page="L3"
@@ -55,20 +55,20 @@ Because the copula inflects like a transitive verb, it carries the A-series pref
 
 | Person | Singular | Plural |
 |---|---|---|
-| 1 | ku=nee | an=nee |
-| 2 | e=nee | eci=nee |
+| 1 | ku-nee | an-nee |
+| 2 | e=nee | eci-nee |
 | 3 | nee (Ø) | ne=hci |
 
-Third person singular is unmarked, and the plural 3 form *ne=hci* (&lt; *nee-hci*) takes the collective clitic. The 1PL form *an=nee* deserves comment: West Sakhalin has lost the Hokkaido inclusive/exclusive distinction, and in "elders' speech" the originally 1PL prefix <Gl t="INDEF" /> *an=* is generalised even to 1SG reference <Cite key="Bugaeva 2016" page="76" />. This is the form used, for example, in a speaker's self-identification:
+Third person singular is unmarked, and the plural 3 form *ne=hci* (&lt; *nee-hci*) takes the collective clitic. The 1PL form *an-nee* deserves comment: West Sakhalin has lost the Hokkaido inclusive/exclusive distinction, and in "elders' speech" the originally 1PL prefix <Gl t="INDEF" /> *an-* is generalised even to 1SG reference <Cite key="Bugaeva 2016" page="76" />. This is the form used, for example, in a speaker's self-identification:
 
 <Example
 	surface="'anoka neyke Tahkonanna 'an=nee"
-	ain="anoka neyke Tahkonanna an=nee"
+	ain="anoka neyke Tahkonanna an-nee"
 	gloss="I TOP name 1PL.A=COP"
 	free="As for me, I am Takkonanna."
 	cite="Murasaki 2024" page="L3"
 	dialect="West"
-	note="an= (orig. 1PL) used for 1SG in elders' speech; reflects the West-coast loss of the inclusive/exclusive distinction." />
+	note="an- (orig. 1PL) used for 1SG in elders' speech; reflects the West-coast loss of the inclusive/exclusive distinction." />
 
 ### Negation of the copula
 
@@ -140,18 +140,18 @@ There is no dedicated 'have' verb of the European type; Sakhalin Ainu instead sp
 
 <Example
 	surface="ceh an=koro kusu ihohcise onne ku=oman kusu"
-	ain="ceh an=koro kusu ihohcise onne ku=oman kusu"
+	ain="ceh an-koro kusu ihohcise onne ku-oman kusu"
 	gloss="fish 1PL.A=have because store ALL 1SG.S=go.SG because"
 	free="I'll go to the store to get fish (lit. so that I have fish)."
 	cite="Murasaki 2024"
 	dialect="West"
-	note="Transitive koro 'have' with the West-coast an= prefix (orig. 1PL, here 1SG reference); possessor = subject, possessee = object." />
+	note="Transitive koro 'have' with the West-coast an- prefix (orig. 1PL, here 1SG reference); possessor = subject, possessee = object." />
 
 The second, and the one that interests us here, is <strong>existential predication</strong>: the possessee is made the subject of *an* / *okay* (or, negated, *isam*), and the possessor is marked on it as a possessive prefix. This is the cross-linguistically common "have-via-be" or topic/locational possessive type (Heine's *Location* and *Topic* schemas), in which a language without a transitive 'have' predicates the possessee's existence and pins the possessor to it morphologically. Sakhalin Ainu realises it especially clearly because, as <Cite key="Bugaeva 2016" paren={false} /> shows, it has extended possessive marking to *all* nouns: the possessee can simply carry an A-series possessive prefix and the existential then asserts that it "is there". Compare the affirmative existential above with its negative counterpart:
 
 <Example
 	surface="ku'itankihi 'isam"
-	ain="ku=itanki-hi isam"
+	ain="ku-itanki-hi isam"
 	gloss="1SG.A=cup-POSS 3SG.S/not.exist"
 	free="My cup is not there. / I have no cup."
 	cite="Murasaki 2024" page="L5"
@@ -203,7 +203,7 @@ The most distinctive Sakhalin feature is the productive use of the copula <W w="
 The manner conjunction *neeno* 'as, like' is transparently *nee* + the adverbialiser *-no*. It typically follows a possessive-style nominalised clause (the <Gl t="NMLZ" /> form treated in the Nominalisation chapter):
 
 <Example
-	ain="ene e=ramu-hu nee-no pirka no kii wa"
+	ain="ene e-ramu-hu nee-no pirka no kii wa"
 	gloss="like.this 2SG.A=think-NMLZ COP-ADV be.good ADV do FIN"
 	free="Do it well, just as you think."
 	cite="Bugaeva 2016" page="18"
@@ -213,7 +213,7 @@ The manner conjunction *neeno* 'as, like' is transparently *nee* + the adverbial
 The same copula appears inside the concessive *ne-yah* 'although' and the adversative *ne-ya* 'but', as well as in *ne'ampe* 'when/but' and *kuniine* 'as if' <Cite key="Bugaeva 2016" />. The concessive is shown here with a nominalised subordinate clause:
 
 <Example
-	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
+	ain="an-oyra-pe-he an-hunara kusu paye-an-ihi ne-yah naata ka uk=ahci wa isam"
 	gloss="1PL.A=forget-NMLZ-POSS 1PL.A=3SG.O/search in.order go.PL=1PL.S-NMLZ COP-CONC who even take-PL CONCL 3PL.S/not.exist"
 	free="Although we went to search for what we had left, someone had already taken it."
 	cite="Bugaeva 2016" page="21"
@@ -237,7 +237,7 @@ The same texts also show *ne yahka* over an existential clause (*okay … ne yah
 The dubitative/future <Gl t="PROB" /> *nankor(o)* 'probably, will' appears in two Sakhalin shapes. It can stand on the bare verb, framed as *nankoro pe ne* 'it is a thing that probably …':
 
 <Example
-	ain="porono ham e=ye yahka pirika nankoro pe ne"
+	ain="porono ham e-ye yahka pirika nankoro pe ne"
 	gloss="much NEG 2SG.A=3SG.O/say although 3SG.S/be.good PROB thing COP"
 	free="Even if you don't say much, it will surely be fine."
 	cite="Chiba (archive)"
@@ -258,7 +258,7 @@ The same copula-prefixing pattern produces the affirmative auxiliary *nee-ko* 's
 
 <Example
 	surface="tani 'uunas an=ee-he nee-ko"
-	ain="tani uunas an=ee-he nee-ko"
+	ain="tani uunas an-ee-he nee-ko"
 	gloss="now early 1PL.A=eat-NMLZ COP-FP"
 	free="I have definitely just eaten."
 	cite="Bugaeva 2016" page="22"
@@ -268,7 +268,7 @@ The same copula-prefixing pattern produces the affirmative auxiliary *nee-ko* 's
 These forms are best treated not as scattered particles but as a single <strong>graded dubitative series</strong> anchored on *nankor(o)*. We distinguish three layers along a cline of grammaticalisation, all attested in West-coast texts. The least grammaticalised is the bare verbal *nankoro* framed as the predicate of a copular clause, *… nankoro pe ne* 'it is a thing that probably …', which is the dominant shape in the Chiba West-central conversation texts. Above it sits the reduced dubitative adverb *nanko* 'probably, intend to', which can layer *over* the framed form; and at the most innovative pole is the copula-prefixed *nee nankor*, in which the copula has been drawn forward onto the modal itself. A single Chiba sentence catches the lower two layers stacked, the adverb *nanko* immediately preceding the framed *nankoro pe ne*:
 
 <Example
-	ain="ham an=ki nanko nankoro pe ne"
+	ain="ham an-ki nanko nankoro pe ne"
 	gloss="NEG 1PL.A=do PROB probably thing COP"
 	free="I do not intend to (quarrel); it surely will not happen."
 	cite="Chiba (archive)"
@@ -293,7 +293,7 @@ The copula also closes the predicative-nominalisation frame that Chiri described
 In the most fully grammaticalised cases the copula stands inside a "mermaid"-type sentence — a nominalised clause, the copula, an evidential nominal, and the existential *an* — encoding inference over a known proposition:
 
 <Example
-	ain="itah ku=wante-he nee ruu-he an"
+	ain="itah ku-wante-he nee ruu-he an"
 	gloss="speech 1SG.A=know-NMLZ COP track-POSS/INF.RSN 3SG.S/exist"
 	free="I think I remember the language (well)."
 	cite="Bugaeva 2016" page="29"
@@ -312,6 +312,6 @@ Third, the alternation is also <strong>dialectally diagnostic</strong>. The copu
 
 ## Dialectal and diachronic notes
 
-The West-coast (Rayciska/Ussoro; Murasaki, Furukawa) data presented here show the copula-based system at its most developed. The lengthened *nee*, the generalisation of *an=* to 1SG, and the negative copula *hannehka* are all West-coast features <Cite key="Murasaki 2024" />; the older negative copula *hanne* is more characteristic of the East coast (see the Negation chapter). The copula-prefixing modal series (*nee nankor*, *nee-ko*, *ne-'an*) is most conspicuous in West-coast varieties, and <Cite key="Bugaeva 2016" paren={false} /> treats it, together with the possessive-style nominalisation it governs, as the leading edge of a Sakhalin grammaticalisation cycle that the East-coast (Piłsudski) material exhibits less clearly.
+The West-coast (Rayciska/Ussoro; Murasaki, Furukawa) data presented here show the copula-based system at its most developed. The lengthened *nee*, the generalisation of *an-* to 1SG, and the negative copula *hannehka* are all West-coast features <Cite key="Murasaki 2024" />; the older negative copula *hanne* is more characteristic of the East coast (see the Negation chapter). The copula-prefixing modal series (*nee nankor*, *nee-ko*, *ne-'an*) is most conspicuous in West-coast varieties, and <Cite key="Bugaeva 2016" paren={false} /> treats it, together with the possessive-style nominalisation it governs, as the leading edge of a Sakhalin grammaticalisation cycle that the East-coast (Piłsudski) material exhibits less clearly.
 
 On the "short" versus "long" possessive shapes of the forms that sit under the copula — Bugaeva's minimal pair is the noun *setur-u* (short) ~ *setur-uhu* (long) 'our backs', and the V-poss reflex is the same *-V* ~ *-VhV* alternation — <Cite key="Bugaeva 2016" page="104" paren={false} /> reports that no functional contrast has been isolated, and we agree that none is detectable in the present data: the two shapes alternate freely on the same stem. We propose, however, that this is the expected state of affairs and not a residual mystery, because the alternation is most plausibly <strong>phonological rather than functional</strong>. The "long" form simply spells out the full suffix *-VhV* (a copied vowel plus epenthetic *h* plus a copy vowel), while the "short" form is its reduced realisation with the final syllable elided; Bugaeva, following Shibatani and the Northeast-Asian areal literature, links the vowel copying itself to a retracted-tongue-root (RTR) harmony of the kind that pervades the region <Cite key="Bugaeva 2016" page="105" />, and Chiri had already devoted a study to vowel harmony in Ainu <Cite key="Chiri 1952" />. Under this view the doublet is a fast-versus-careful-speech difference in the spell-out of one morpheme, exactly parallel to the optional final-syllable reduction seen elsewhere in Sakhalin (e.g. *manu* ~ *manuy* ~ *manuyke*); we therefore expect the "long" shape to predominate phrase-finally and in citation and the "short" shape before a following enclitic, a prediction that the available transcriptions are too sparse to test but that future recordings could settle. What does <strong>not</strong> vary with the short/long choice is the form's syntax: both shapes are equally good as the V-poss complement of the copula and of the copula-based conjunctions, which is the property that matters for this chapter.

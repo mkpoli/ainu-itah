@@ -99,21 +99,21 @@ It would be a mistake, however, to read <W w="pe" gloss="thing" />-headed
 relativisation as a purely East-coast trait. The construction is alive in modern
 West-coast usage too. In a pedagogical Raychishka dialogue the same frame appears
 twice in two clauses, here relativising the <strong>object</strong> of the naming verb <W w="yee" gloss="say, call" /> 'call' (with the indefinite/impersonal subject
-*an=*, glossed <Gl t="INDEF" />):
+*an-*, glossed <Gl t="INDEF" />):
 
 <Example
-	ain="siisam itah ani [Ø] nah an=yee pe"
+	ain="siisam itah ani [Ø] nah an-yee pe"
 	gloss="Japanese language INS [O] QUOT INDEF.A=call NMLZ"
 	free="the thing one calls (it) ‘tokkari’ in Japanese"
 	cite="Kitahara 2016"
 	dialect="West"
-	note="O relativisation with bound-noun head pe; the named term is gapped as object of an=yee ‘one calls’, and the instrumental ani ‘in (the Japanese language)’ is stranded inside the clause. Modern West-coast pedagogical dialogue (Kitahara Mokottunas, New Express Special). Segmentation editorial." />
+	note="O relativisation with bound-noun head pe; the named term is gapped as object of an-yee ‘one calls’, and the instrumental ani ‘in (the Japanese language)’ is stranded inside the clause. Modern West-coast pedagogical dialogue (Kitahara Mokottunas, New Express Special). Segmentation editorial." />
 
 The same text relativises an <strong>animate</strong> head — a full lexical noun, not a bound
-one — by the identical frame: *[Ø] nah an=yee henke* '[the] old man (whom) one
+one — by the identical frame: *[Ø] nah an-yee henke* '[the] old man (whom) one
 calls (so-and-so)' <Cite key="Kitahara 2016" />, with <W w="henke" gloss="old man" />
 'old man' (a Sakhalin form recorded already by Chiri, <Cite key="Chiri 1942" />) as
-head and the gap again the named object inside the clause. The naming construction *X nah an=yee* '(one) calls (it) X', with the
+head and the gap again the named object inside the clause. The naming construction *X nah an-yee* '(one) calls (it) X', with the
 referent of *X* relativised away, is thus a recurrent West-coast relative-clause
 type; it shows the bare-gap argument strategy operating with both bound and
 contentful heads.
@@ -143,25 +143,25 @@ The comitative is well attested in West-coast main clauses, where it pairs with
 the verb <W w="ek" gloss="come" /> 'come':
 
 <Example
-	ain="ku=ommo tura ku=ek-ihi"
+	ain="ku-ommo tura ku-ek-ihi"
 	gloss="1SG.PSR=mother COM 1SG.A=come.SG-POSS"
 	free="I came together with my mother."
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="West"
 	note="Source for a comitative adjunct; under relativisation tura would strand. Segmentation editorial." />
 
-If the comitative participant *ku=ommo* 'my mother' were relativised, the noun
+If the comitative participant *ku-ommo* 'my mother' were relativised, the noun
 would be promoted to head and <W w="tura" gloss="together with" /> would remain
 inside the clause, stranded before the verb — '(the person) [I came together
 with]'.
 
-For the instrumental the stranding is not merely predicted but <strong>directly attested</strong> in Sakhalin. The naming relative *siisam itah ani [Ø] nah an=yee pe*
+For the instrumental the stranding is not merely predicted but <strong>directly attested</strong> in Sakhalin. The naming relative *siisam itah ani [Ø] nah an-yee pe*
 'the thing one calls (it) … in Japanese' (§ argument relativisation above) is
 exactly such a case: the relativised element is the named object, gapped before
 the verb, while the instrumental <W w="ani" gloss="with, by means of" /> that
 marks the means *siisam itah* 'the Japanese language' stays <strong>inside</strong> the
 relative clause, orphaned of its complement. The bracketing is
-*[siisam itah ani Ø an=yee] pe* '[the thing one calls Ø by-means-of the Japanese
+*[siisam itah ani Ø an-yee] pe* '[the thing one calls Ø by-means-of the Japanese
 language]', with <W w="ani" gloss="with, by means of" /> (<Gl t="INS" />) stranded
 exactly where the gap leaves it. This West-coast token confirms the mechanism Bugaeva
 describes for Ainu generally: under adjunct relativisation the postposition is
@@ -215,7 +215,7 @@ where you are' modifies nothing further but heads its own clause and is itself t
 goal of motion:
 
 <Example
-	ain="cokay e=an [Ø] toko pak-no paye=an kusu"
+	ain="cokay e-an [Ø] toko pak-no paye-an kusu"
 	gloss="I.PRON 2SG.S=exist.SG [LOC] place TERM-ADV go.PL=INDEF.S CAUF"
 	free="…because I will go all the way to the place where you are."
 	cite="Sentoku (letters)"
@@ -243,7 +243,7 @@ and the matrix is an equative copular clause: 'X was a Y [up to (whom) there was
 no Y]', i.e. 'X was a Y without equal'.
 
 <Example
-	ain="a=ona sorekusu pak-no nispa isam nispa ne"
+	ain="a-ona sorekusu pak-no nispa isam nispa ne"
 	gloss="INDEF.A=father.POSS especially TERM-ADV rich.man not.exist rich.man COP"
 	free="Father was really a rich man, with no peers."
 	cite="Bugaeva 2015" page="53"
@@ -274,7 +274,7 @@ prose — Sentoku's letters use it repeatedly (*Otasan pak-no*, *Seraroka pak-no
 *e=an toko pak-no* 'as far as Otasan / Seraroka / the place you are'), and we have
 just seen it take a relativised, gap-headed phrase as its complement. (ii) The
 negative existential <W w="isam" gloss="not exist" /> is the ordinary Sakhalin
-'not be, be lacking' (*ku=itanki-hi isam* 'my cup is gone', Murasaki's Enchiw
+'not be, be lacking' (*ku-itanki-hi isam* 'my cup is gone', Murasaki's Enchiw
 conversations). (iii) Bound-noun and degree relativisation are attested, as shown
 above. Since the superlative idiom is simply the composition of these three —
 a degree adjunct relativised with stranded <W w="pakno" gloss="until" />, the
@@ -296,7 +296,7 @@ on the copula <W w="nee" gloss="be, become" />, spread to evidential and modal
 argument, as in:
 
 <Example
-	ain="ku=ye-he sunke"
+	ain="ku-ye-he sunke"
 	gloss="1SG.A=say-POSS lie"
 	free="What you said is untrue."
 	cite="Bugaeva 2016" page="108"
@@ -310,18 +310,18 @@ the verb finite-looking and supplies an external head noun (or bound noun) with 
 gap inside the clause. The two strategies are formally and functionally distinct,
 and Sakhalin keeps them apart: V-<Gl t="POSS" /> for clausal nominalisation,
 modal and main-clause predication; the bare prenominal gap for relativisation <Cite key="Bugaeva 2016" page="105" />. The forgotten-thing nominalisation below
-shows the V-<Gl t="POSS" /> machinery used lexically — *an=oyra-pe-he* 'our
+shows the V-<Gl t="POSS" /> machinery used lexically — *an-oyra-pe-he* 'our
 forgotten thing' uses the nominaliser <W w="pe" gloss="thing" /> plus the
 possessive suffix — never a relative clause, even though it translates with an
 English relative:
 
 <Example
-	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
+	ain="an-oyra-pe-he an-hunara kusu paye-an-ihi ne-yah naata ka uk=ahci wa isam"
 	gloss="INDEF.A=forget-NMLZ-POSS INDEF.A=search CAUF go.PL=INDEF.S-POSS COP-although who ADD take-COLL CONJ not.exist"
 	free="Although we went to search for what we had left, someone had already taken it."
 	cite="Bugaeva 2016" page="106"
 	dialect="West"
-	note="an=oyra-pe-he ‘our forgotten thing’ is V-NMLZ-POSS lexical nominalisation; the concessive paye=an-ihi ne-yah is V-POSS + copula. Neither is a relative clause." />
+	note="an-oyra-pe-he ‘our forgotten thing’ is V-NMLZ-POSS lexical nominalisation; the concessive paye=an-ihi ne-yah is V-POSS + copula. Neither is a relative clause." />
 
 ## Summary
 
@@ -333,10 +333,10 @@ by verb agreement and by the head, which is frequently a bound noun
 but may equally be a full lexical noun (<W w="henke" gloss="old man" />). The <W w="pe" gloss="thing" />-headed relative, often described as an East-coast
 feature, is attested on <strong>both</strong> coasts: the East-coast Piłsudski narratives use
 it (*mahnekuh kii-pe*, *kii-hci an-pe* 'the thing women / they do') and modern
-West-coast Raychishka materials reproduce it in the naming frame *X nah an=yee pe*
+West-coast Raychishka materials reproduce it in the naming frame *X nah an-yee pe*
 'the thing one calls X'. Non-arguments retain tracking material:
 adjunct postpositions (<W w="ani" gloss="with" />, <W w="tura" gloss="with" />, <W w="eun" gloss="to" />, <W w="pakno" gloss="until" />) are stranded — the
-instrumental stranding directly attested in *siisam itah ani [Ø] nah an=yee pe* —
+instrumental stranding directly attested in *siisam itah ani [Ø] nah an-yee pe* —
 an inalienable possessee keeps its possessive suffix, and a spatial adjunct keeps
 the relational noun <W w="oro" gloss="place" /> with its locative or allative
 marker, or is gapped under a place-noun head as in the attested *e=an toko* 'the

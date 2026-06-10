@@ -68,7 +68,7 @@ the two events "blend into one" (<Cite key="Furukawa 1967" page="109" paren={fal
 the default converb of immediate sequence and manner.
 
 <Example
-	ain="ku=koro wa 'eci=konte"
+	ain="ku-koro wa 'eci-konte"
 	gloss="1SG.A=buy/have and 2SG.O=give"
 	free="I bought (it) and gave (it) to you."
 	cite="Furukawa 1967" page="109"
@@ -83,18 +83,18 @@ with *wa*, because buying and coming must be separated in time
 (<Cite key="Furukawa 1967" page="109" paren={false} />).
 
 <Example
-	ain="ku=koro teh ku='eh"
+	ain="ku-koro teh ku-'eh"
 	gloss="1SG.A=buy/have and.then 1SG.S=come.SG"
 	free="I bought (it) and (then) came."
 	cite="Furukawa 1967" page="109"
 	dialect="West"
-	note="*ku=koro wa ku='eh was rejected: buying and coming are necessarily separated in time." />
+	note="*ku-koro wa ku-'eh was rejected: buying and coming are necessarily separated in time." />
 
 *teh* is frequently reinforced by the postposed temporal connective <W w="orowa" gloss="then, after that" /> 'then, after that', and in the same
 chain a following <W w="kusu" gloss="in order to" /> can add a purpose clause:
 
 <Example
-	ain="'e=niina teh 'orowa 'e='i-wooneka kusu teeta 'e=san-i-hi ne='an ike='aa"
+	ain="'e-niina teh 'orowa 'e-'i-wooneka kusu teeta 'e-san-i-hi ne='an ike='aa"
 	surface="'E-niina teh 'orowa 'e-'i-wooneka kusu teeta 'e-san-i-hi ne 'an ike 'aa?"
 	gloss="2SG.A=gather.wood and.then then 2SG.A=1PL.O-look.at.situation in.order.to here 2SG.S=descend.SG-EP-PK COP=PFV CONJ=FIN"
 	free="You collected wood and then came down here to check on us, right?"
@@ -124,7 +124,7 @@ appearing with and without the initial *h-* (the doublet *hine ~ ine*). <Cite ke
 It typically closes a medial clause in connected narrative:
 
 <Example
-	ain="naa ru ano-kinu ani paye=an hine"
+	ain="naa ru ano-kinu ani paye-an hine"
 	gloss="that road ? with go.PL=4.S and"
 	free="(We) went on along that road, and …"
 	cite="Yamada (ELPR)"
@@ -159,7 +159,7 @@ that motivates Chiri's separate gloss '…たところが, …したら' for the
 (<Cite key="Chiri 1942" page="§39" paren={false} />):
 
 <Example
-	ain="'asinno ku=nuu 'ike 'oya mosiri 'oro'un 'itah neeno ku=nuu"
+	ain="'asinno ku-nuu 'ike 'oya mosiri 'oro'un 'itah neeno ku-nuu"
 	gloss="for.first.time 1SG.A=hear and.so other land at-ALL word like 1SG.A=hear"
 	free="When I heard it for the first time, it sounded to me like the language of another country."
 	cite="Ainu Times"
@@ -211,7 +211,7 @@ completion triggers the next event ('while …, and finally'). The apodosis here
 also carries the conclusive verb <W w="hemaka" gloss="end up" />:
 
 <Example
-	ain="ku=henoye yayne ku=mokoro hemaka"
+	ain="ku-henoye yayne ku-mokoro hemaka"
 	gloss="1SG.S=doze.off while/until 1SG.S=sleep CONCL"
 	free="While I was dozing off, I (finally) fell asleep."
 	cite="Furukawa 1967" page="109"
@@ -233,7 +233,7 @@ A concessive clause may itself be embedded under a higher cogitative frame
 (§6), so that *yahka* scopes within the complement of <W w="ramu" gloss="think" />:
 
 <Example
-	ain="'an=haw-ehe nuu yahka wante-he nee nankoo nah 'an=ramu"
+	ain="'an-haw-ehe nuu yahka wante-he nee nankoo nah 'an-ramu"
 	gloss="1PL.POSS=voice-POSS 3.hear even.though 3.know-NMLZ COP PROB COMP 4=think"
 	free="I think that, even if he hears our voices, he will probably recognise them."
 	cite="Dal Corso 2018" page="131"
@@ -249,7 +249,7 @@ aspectual periphrases *kusu ‘an* and *kusu kara* (§5). The causal use is perv
 in conversational and narrative Sakhalin, where the reason-clause is placed last:
 
 <Example
-	ain="ku'ani ne'ampe sake ku=kuu kusu"
+	ain="ku'ani ne'ampe sake ku-kuu kusu"
 	gloss="1SG TOP liquor 1SG.A=drink because"
 	free="As for me, (it’s) because I’ll drink sake."
 	cite="Murasaki 2024"
@@ -289,7 +289,7 @@ built on *ne(e)*/*an* + a particle. It freely takes the additive *kayki* to give
 	note="‘anah + kayki = concessive-conditional ‘even when’; the bracketing clause is itself chained by ike; from the Kusurikoya text. Internal segmentation of the verb tentative." />
 
 <Example
-	ain="siri-pirika 'anah ku='oman kusu neya"
+	ain="siri-pirika 'anah ku-'oman kusu neya"
 	gloss="weather-be.good COND 1SG.S=go.SG CAUF FIN"
 	free="If the weather were fine, I would go (but it isn’t, alas)."
 	cite="Furukawa 1967" page="108"
@@ -302,7 +302,7 @@ texts, where it builds a conditional whose apodosis is the dubitative *nankoro p
 'it will (surely) be that …':
 
 <Example
-	ain="ukoramupirika 'an=ki ciki pirika nankoro pe ne"
+	ain="ukoramupirika 'an-ki ciki pirika nankoro pe ne"
 	surface="ukoramupirika an-ki ciki pirika nankoro pe ne."
 	gloss="reconcile 4=do COND be.good PROB thing COP"
 	free="If we reconcile with each other, that would be good."
@@ -315,7 +315,7 @@ protasis, as in this East-coast example whose apodosis is itself a
 nominalisation-plus-copula construction:
 
 <Example
-	ain="taa teh 'ee 'anah 'an=nukara 'e'askay-Ø nee nanko"
+	ain="taa teh 'ee 'anah 'an-nukara 'e'askay-Ø nee nanko"
 	gloss="3.dig.up and.then 3.eat COND 4=see be.able-NMLZ COP PROB"
 	free="Maybe I will be able to see her if she digs up (the potatoes) and eats them."
 	cite="Dal Corso 2018" page="132"
@@ -340,7 +340,7 @@ case) that …', as in the West-coast letter of Sentoku Tarōji, where it is fol
 by the converb *koro wa* 'holding and':
 
 <Example
-	ain="hospi sonko i=konte somo ne ciki menco koro wa"
+	ain="hospi sonko i-konte somo ne ciki menco koro wa"
 	gloss="reply message 1SG.O=give NEG COP COND certificate 3.have and"
 	free="If (you) do not give me a reply, (he) holding the certificate (will) …"
 	cite="Sentoku (letters)"
@@ -387,7 +387,7 @@ to Hokkaido *sekor* (<Cite key="Dal Corso 2018" page="172" paren={false} />).
 The same frame with <W w="ramu" gloss="think" /> reports inner thought:
 
 <Example
-	ain="temana neera'an 'an=kara 'an=kii-hi nee nanko nah ramu"
+	ain="temana neera'an 'an-kara 'an-kii-hi nee nanko nah ramu"
 	surface="‘Temana neera'an 'an-kara 'an-kii-hi nee nanko’ nah ramu."
 	gloss="how such 4=make 4=do-NMLZ COP PROB COMP 3.think"
 	free="She thought, ‘How should I do (it)?’"
@@ -427,7 +427,7 @@ An overt source may also be named, with the quotative frame *nah ye-hci* 'they
 said that':
 
 <Example
-	ain="suu naa oypeh naa kara-hci ranke suye-hci ne manu 'an=unu-hu-hcin nah ye-hci"
+	ain="suu naa oypeh naa kara=hci ranke suye=hci ne manu 'an-unu-hu-hcin nah ye=hci"
 	gloss="pot also vessel also 3.make-3PL.A ITER 3.cook-3PL.A COP REP 1PL.POSS=mother-POSS-PL COMP 3.say-3PL.A"
 	free="It is said they made pots and vessels and cooked, so my parents said."
 	cite="Dal Corso 2018" page="296"

@@ -58,7 +58,7 @@ A handful of features separate the subgroups and, just as importantly, separate 
   dialect="West" />
 
 <Example
-  ain="'itak-ahci"
+  ain="'itak=ahci"
   gloss="speak-COLL"
   free="they spoke"
   cite="Tangiku 1998" page="2-2"
@@ -87,7 +87,7 @@ The richest body of natural East-coast text is Bronisław Piłsudski's *Material
 Two facts about its making bear on how it must be read. First, the texts were elicited by <strong>dictation</strong>, with no audio for the published material, which carries the attendant risk of "broken Ainu" produced under the interruptions of slow transcription <Cite key="Piłsudski 1912" page="102" />; <Cite key="Dal Corso 2024" page="59" />. Of the roughly 350 texts Piłsudski collected, part were recorded on some 73 <strong>wax cylinders</strong>, of which about 55 were later restored by laser at Hokkaido University while the rest deteriorated <Cite key="Murasaki 2024" page="113" />. Second, Piłsudski's was a close *phonetic* transcription that records sub-phonemic detail later phonemic systems suppress: intervocalic voicing, palatalisation, and centralised vowels. The cost is a notation that must be normalised before comparison — the opening line of *Tuita* 3, for instance, is recoverable as ordinary Sakhalin once the dual subject and the collective suffix are parsed:
 
 <Example
-  ain="pon kapariw ohkayo poy sohkana ohkayo u-tur[a] okay-ahci"
+  ain="pon kapariw ohkayo poy sohkana ohkayo u-tur[a] okay=ahci"
   gloss="small flatfish man small sculpin man RECP-together.with live.PL-COLL"
   free="A small flatfish-man and a small sculpin-man lived together."
   cite="Sakaguchi 2020" page="55"
@@ -111,7 +111,7 @@ The dictionary is also the clearest single witness to the *in-* / *i-* object co
 
 <Example
   surface="Tamà in-konte."
-  ain="tama in=konte"
+  ain="tama in-konte"
   gloss="jewel 1SG.O=give"
   free="You gave me a jewel."
   cite="Sakaguchi 2021" page="49"
@@ -120,7 +120,7 @@ The dictionary is also the clearest single witness to the *in-* / *i-* object co
 
 <Example
   surface="Anokay an-renkayne, i-koyki ánpe ka hánne."
-  ain="anokay an=renkayne i=koyki anpe ka hanne"
+  ain="anokay an-renkayne i-koyki anpe ka hanne"
   gloss="1SG.PRO INDEF.S=accordingly 1.O=hit NMLZ ADD NEG"
   free="In accordance with my wish, I was not hit."
   cite="Sakaguchi 2021" page="50"
@@ -153,12 +153,12 @@ Murasaki's data display West-coast features absent from the older record. Sakhal
 Murasaki's corpus also records the productive West-coast <strong>elder-speech / young-speech</strong> register first noted by <Cite key="Hattori 1957" paren={false} />, in which the first-person singular is <W w="ku" gloss="I" />- in young speech but *'an* in elder speech, so that the form a younger speaker reserves for the plural does duty as an elder's 'I':
 
 <Example
-  ain="Tahkonanna 'an=nee"
+  ain="Tahkonanna 'an-nee"
   gloss="name 1SG.S=COP"
   free="I am Tahkonanna."
   cite="Murasaki 2024" page="85"
   dialect="West"
-  note="Elder speech: 'an=nee 'I am' vs young-speech ku=nee; Tahkonanna is Asai Take's Ainu name." />
+  note="Elder speech: 'an-nee 'I am' vs young-speech ku-nee; Tahkonanna is Asai Take's Ainu name." />
 
 ## The descriptive tradition
 

@@ -84,7 +84,7 @@ The defining Sakhalin innovation in this domain is <strong>V-poss</strong>: the 
 possessive suffix -hV / -V(hV), together with an A-series person prefix, attaches
 directly to a verb, giving a non-finite clausal nominalisation that <Cite key="Bugaeva 2016" page="104" paren={false} /> reads literally as "my Ving",
 parallel to the possessed noun "my N". The same allomorphy operates on verbs as on
-nouns: a vowel-final stem copies its final vowel (*ku=ye* → *ku=ye-he*), and so on.
+nouns: a vowel-final stem copies its final vowel (*ku-ye* → *ku-ye-he*), and so on.
 Because the form is materially identical to nominal possession, Bugaeva analyses
 it as a genuine clausal nominalisation. It is <strong>not</strong> used in relative clauses,
 lexical nominalisations, or noun/verbal complement clauses of the headed type, but
@@ -94,7 +94,7 @@ propositional argument <Cite key="Bugaeva 2016" page="105" />.
 A V-poss clause can be the subject argument of the matrix predicate. With <W w="sunke" gloss="be untrue, lie" /> 'be untrue' as matrix:
 
 <Example
-	ain="ku=ye-he sunke"
+	ain="ku-ye-he sunke"
 	gloss="1SG.A=say-NMLZ be.untrue"
 	free="What you said is not true (lit. my saying it is false)."
 	cite="Bugaeva 2016" page="108"
@@ -103,12 +103,12 @@ A V-poss clause can be the subject argument of the matrix predicate. With <W w="
 and with <W w="pirka" gloss="be good" /> 'be good, get better':
 
 <Example
-	ain="isa oh-ta ku=oman keray-kusu ku=araka-ha pirka"
+	ain="isa oh-ta ku-oman keray-kusu ku-araka-ha pirka"
 	gloss="doctor place-LOC 1SG.S=go.SG thanks-because 1SG.S=be.sick-NMLZ be.good"
 	free="Because I went to the doctor, my being sick got better."
 	cite="Bugaeva 2016" page="108"
 	dialect="West"
-	note="ku=araka-ha ‘my being sick’ is a V-poss clausal nominalisation as subject of pirka." />
+	note="ku-araka-ha ‘my being sick’ is a V-poss clausal nominalisation as subject of pirka." />
 
 The semantic constant across all V-poss uses, on Bugaeva's account, is <strong>presupposition</strong>: V-poss marks content that is treated as given or "not the main
 point" and that survives under negation and modals <Cite key="Bugaeva 2016" page="109" />.
@@ -122,17 +122,17 @@ where Bugaeva locates its diachronic origin. The conjunctions and auxiliaries th
 follow V-poss synchronically contain the copula <W w="nee" gloss="be, become" />: <W w="nee-no" gloss="as, like" /> 'as', *ne-yah* 'although', *nee-ko* 'surely' <Cite key="Bugaeva 2016" page="106" />. A manner clause built on V-poss + *nee-no*:
 
 <Example
-	ain="ene e=ramu-hu nee-no pirka no kii wa"
+	ain="ene e-ramu-hu nee-no pirka no kii wa"
 	gloss="like.this 2SG.A=think-NMLZ COP-ADV be.good ADV do FIN"
 	free="Do it well, just as you think."
 	cite="Bugaeva 2016" page="106"
 	dialect="West" />
 
 and a concessive complement under *ne-yah* 'although', which here also embeds a
-lexical nominalisation *an=oyra-pe-he* 'our forgotten thing(s)':
+lexical nominalisation *an-oyra-pe-he* 'our forgotten thing(s)':
 
 <Example
-	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
+	ain="an-oyra-pe-he an-hunara kusu paye-an-ihi ne-yah naata ka uk=ahci wa isam"
 	gloss="INDEF.A=forget-NMLZ-POSS INDEF.A=search in.order go.PL=INDEF.S-NMLZ COP-COND who ADD take-COLL and not.exist"
 	free="Although we went to search for what we had left, someone had already taken it."
 	cite="Bugaeva 2016" page="106"
@@ -152,12 +152,12 @@ the evidential value: <W w="ruwehe" gloss="trace, reasoning" /> for inference, <
 A West-coast example with the inferential noun *ruu-he* 'trace' under the copula:
 
 <Example
-	ain="nah kanne ka itah ku=wante-he nee ruu-he an"
+	ain="nah kanne ka itah ku-wante-he nee ruu-he an"
 	gloss="that like ADD speech 1SG.A=know-NMLZ COP track-INF.RSN exist.SG"
 	free="I think I remember the language that well."
 	cite="Bugaeva 2016" page="108"
 	dialect="West"
-	note="V-poss ku=wante-he ‘my knowing’ embedded under nee + evidential noun ruu-he + locational an — the Sakhalin pattern, where an follows the evidential noun." />
+	note="V-poss ku-wante-he ‘my knowing’ embedded under nee + evidential noun ruu-he + locational an — the Sakhalin pattern, where an follows the evidential noun." />
 
 The mermaid frame also hosts dubitative modality. With *nankor(o)* 'probably' —
 which Sakhalin innovatively prefixes with the copula, *nee nankor*, against
@@ -175,7 +175,7 @@ The same monoclausal evidential predicate can in turn be embedded — with the
 perfective *teh an* inside the nominalised clause — under a dubitative:
 
 <Example
-	ain="neera an pe ne yahka nuu-hci teh-an-[i]-hi nee nanko"
+	ain="neera an pe ne yahka nuu=hci teh-an-[i]-hi nee nanko"
 	gloss="which exist.SG thing COP CONC hear-COLL PFV-EP-NMLZ COP probably"
 	free="Although it could be anything, she must have heard such things."
 	cite="Handbook (Bugaeva ed.)" page="Rayciska text (Dal Corso) ex.25"
@@ -205,7 +205,7 @@ When the speakers are plural, the framing verb takes the collective; the quote c
 itself be a hortative clause:
 
 <Example
-	ain="tura niina-hci kusu nah yee-si"
+	ain="tura niina=hci kusu nah yee-si"
 	surface="“tura niinahci kusu” nah yeesi."
 	gloss="together gather.wood-COLL in.order COMP say-COLL"
 	free="‘Let us go gather firewood together,’ the two of them said."
@@ -216,7 +216,7 @@ Inner thought is framed identically, with <W w="ramu" gloss="think" /> as the
 matrix verb:
 
 <Example
-	ain="temana neera'an 'an=kara 'an=kii-hi nee nanko nah ramu"
+	ain="temana neera'an 'an-kara 'an-kii-hi nee nanko nah ramu"
 	gloss="how such INDEF.A=make INDEF.A=do-NMLZ COP probably COMP think"
 	free="She thought, ‘How should I do it?’"
 	cite="Dal Corso 2018" page="25"
@@ -228,7 +228,7 @@ The cognition verb need not take a full propositional quote: the framing element
 Enchiw:
 
 <Example
-	ain="nah pateh ku=ramu kusu an"
+	ain="nah pateh ku-ramu kusu an"
 	surface="Nah pateh ku=ramu kusu'an."
 	gloss="that only 1SG.A=think PROG exist.SG"
 	free="That is all I keep thinking."
@@ -271,7 +271,7 @@ keeps its own person marking and any object NP precedes it. This is robustly
 attested across West-coast pedagogical and conversational Enchiw:
 
 <Example
-	ain="ku=ani sake ku=kuu rusuy"
+	ain="ku-ani sake ku-kuu rusuy"
 	surface="ku'ani sake ku=kuu rusuy."
 	gloss="1SG.PRO liquor 1SG.A=drink DESID"
 	free="As for me, I want to drink sake."
@@ -279,7 +279,7 @@ attested across West-coast pedagogical and conversational Enchiw:
 	dialect="West" />
 
 <Example
-	ain="hemata 'e=kuu rusuy"
+	ain="hemata 'e-kuu rusuy"
 	gloss="what 2SG.A=drink DESID"
 	free="What do you want to drink?"
 	cite="Murasaki 2024"
@@ -288,7 +288,7 @@ attested across West-coast pedagogical and conversational Enchiw:
 The desiderative also occurs with the fourth-person/indefinite (INDEF) prefix:
 
 <Example
-	ain="nee aynu itah ka an=nuu rusuy"
+	ain="nee aynu itah ka an-nuu rusuy"
 	gloss="some Ainu speech ADD INDEF.A=hear DESID"
 	free="I want to hear some Ainu spoken."
 	cite="FF-Ainu (Karafuto materials)"
@@ -313,7 +313,7 @@ The desiderative is not isolated. The same bare-verb complementation frame
 and no person-marking of its own:
 
 <Example
-	ain="ku=ommo kemeiki easkay"
+	ain="ku-ommo kemeiki easkay"
 	gloss="1SG.POSS=mother do.needlework be.able"
 	free="My mother is good at needlework."
 	cite="FF-Ainu (Karafuto materials)"
@@ -360,10 +360,10 @@ than deferred.
 ### Short (-V) vs. long (-VhV) V-poss
 
 Bugaeva reports the functional difference between the "short" possessive/V-poss
-form (e.g. *ci=setur-u* 'our backs') and the "long" form (*ci=setur-uhu*) as
+form (e.g. *ci-setur-u* 'our backs') and the "long" form (*ci-setur-uhu*) as
 "unclear" <Cite key="Bugaeva 2016" page="105" />. We do not find a *semantic*
 opposition in the complement data either: the complement-clause tokens vary freely
-between, for instance, *ku=ek-ihi* and *ku=ek-ihii* with no detectable difference in
+between, for instance, *ku-ek-ihi* and *ku-ek-ihii* with no detectable difference in
 presuppositional force or evidential value. We therefore analyse the alternation as <strong>morphophonological, not functional</strong> — the long form being the underlying
 shape `-V + hV` and the short form a reduced variant. Two independent observations
 support this. First, the alternation tracks stem phonology, not clause semantics:
@@ -382,8 +382,8 @@ fuller Raychishka audio could test.
 ### Does the East coast use V-poss across the full range?
 
 The West-coast (Raychishka) data show V-poss in every complement function —
-clausal-nominalisation subject (*ku=ye-he sunke*), mermaid-evidential
-(*ku=wante-he nee ruu-he an*), and sentence-final main clause. The question is
+clausal-nominalisation subject (*ku-ye-he sunke*), mermaid-evidential
+(*ku-wante-he nee ruu-he an*), and sentence-final main clause. The question is
 whether the East-coast (Piłsudski) variety, which leans heavily on the *pe*-strategy,
 also has the full V-poss range. The texts answer partly in the affirmative. East-coast
 V-poss is securely attested as (i) a clausal complement under causal *kusu* — *naha
@@ -411,9 +411,9 @@ typology.
 
 | Matrix predicate class | Example predicate | Complement shape | Attested form |
 |---|---|---|---|
-| Modal / ability (subject-sharing, tight) | *rusuy* 'want', *easkay* 'be able' | bare verb `[V]` | *ku=kuu rusuy*, *kemeiki easkay* |
-| Evaluative / veridicality (clause as subject) | *pirka* 'be good', *sunke* 'be untrue' | V-poss / nominalised clause | *ku=araka-ha pirka*, *ku=ye-he sunke* |
-| Evidential / modal head noun (mermaid) | *ruwehe ne*, *nee nankor* | V-poss + COP `[V-poss] nee` | *ku=wante-he nee ruu-he an* |
+| Modal / ability (subject-sharing, tight) | *rusuy* 'want', *easkay* 'be able' | bare verb `[V]` | *ku-kuu rusuy*, *kemeiki easkay* |
+| Evaluative / veridicality (clause as subject) | *pirka* 'be good', *sunke* 'be untrue' | V-poss / nominalised clause | *ku-araka-ha pirka*, *ku-ye-he sunke* |
+| Evidential / modal head noun (mermaid) | *ruwehe ne*, *nee nankor* | V-poss + COP `[V-poss] nee` | *ku-wante-he nee ruu-he an* |
 | Utterance (direct quote) | *yee* 'say' | direct clause + *nah* | *… kusu nah yee* |
 | Cognition (thought / knowledge) | *ramu* 'think', *wante* 'know' | *nah*-framed clause, or *pe*/*hi*/V-poss NMLZ | *… nah ramu*, *…-pi-hi aneramuskari* |
 

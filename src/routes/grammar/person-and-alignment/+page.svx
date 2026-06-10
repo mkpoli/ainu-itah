@@ -352,7 +352,7 @@ referent's actual number.
 Second, the <strong>collective clitic</strong> `=(a)hci` (glossed <Gl t="COLL" />). This is
 *not* a person marker but an optional marker of animate plurality, sitting <strong>outside</strong> the person-suffix slot. It is frequent with the third-person plural
 and with the fourth person used as ⟪1pl⟫, where it can be added outside `-an`
-(`okay-an=ahsi` 'we were living') to force the plural reading and disambiguate
+(`okay-an-ahsi` 'we were living') to force the plural reading and disambiguate
 ⟪1pl⟫ from ⟪1sg⟫ <Cite key="Sakaguchi 2024" page="128" />. With an overt
 third-person plural subject, plurality is borne by the plural stem plus the
 clitic alone:

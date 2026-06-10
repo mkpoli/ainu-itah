@@ -256,7 +256,7 @@ additive and restrictive focus by *ka* ‘also, even’, *naa* ‘too’, and *p
 (West *pateh*) ‘only’. The restrictive *pateh* combines with a fronted, focused NP:
 
 <Example
-	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
+	ain="sine ikoro sehpa ta pateh an-konte-si numano cise ohta tura oman"
 	gloss="one treasure clasp FOC only 1SG.A=give-PL gladly house LOC together go.SG"
 	free="(She) was given only one treasure, a clasp, and gladly took it back home."
 	cite="Sakaguchi 2019b" page="117"

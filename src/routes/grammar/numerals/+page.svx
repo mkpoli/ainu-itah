@@ -208,7 +208,7 @@ still visible in context; here *tu kunkutu* "twenty" appears in a sable-trapping
 narrative from the Ushoro (northern West-coast) dialect:
 
 <Example
-	ain="an=nukara ko kamuy hoynukaa oh ta eo kane okay yahka tu kunkutu hoynukaa oh ta uh manu"
+	ain="an-nukara ko kamuy hoynukaa oh ta eo kane okay yahka tu kunkutu hoynukaa oh ta uh manu"
 	gloss="1SG=see when sable sable.trap place at hang.PROG and.so exist.PL even two ten sable.trap place at take REP"
 	free="When I looked, the sables were caught in the sable-traps — and not just one or two, but twenty of them were taken in the traps."
 	cite="FF-Ainu (Karafuto materials)" dialect="West"
@@ -343,7 +343,7 @@ The general thing-counter <Gl t="CL.INAN" /> *-p / -pe* attaches to the counting
 form and covers inanimates (and, broadly, animals and people):
 
 <Example
-	ain="suma tu-p ku=kor"
+	ain="suma tu-p ku-kor"
 	gloss="stone two-CL 1SG=have"
 	free="I have two stones."
 	cite="Chiri 1942" page="§113" dialect="Sakhalin"
@@ -368,7 +368,7 @@ The bound *-n / -iw* is moreover the form chosen in the teen full-repetition
 pattern, where the head is reduced to a counter on both halves:
 
 <Example
-	ain="tu-n ikasma wan ci=yupi"
+	ain="tu-n ikasma wan ci-yupi"
 	gloss="two-CL.PERS over ten 1PL=elder.brother"
 	free="My twelve elder brothers."
 	cite="Chiri 1942" page="§114" dialect="Sakhalin"
@@ -387,7 +387,7 @@ correlative meaning "a few":
 
 <Example
 	surface="rerek ajnu tu-tem re-tem či-nospa."
-	ain="rerek ajnu tu-tem re-tem ci=nospa"
+	ain="rerek ajnu tu-tem re-tem ci-nospa"
 	gloss="pale man two-fathom three-fathom 1PL=chase"
 	free="We chased the pale man two or three fathoms."
 	cite="Chiri 1942" page="§113.V" dialect="Sakhalin"

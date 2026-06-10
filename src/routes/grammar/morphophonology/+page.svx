@@ -162,7 +162,7 @@ non-final. Before the desiderative <W w="rusuy" gloss="want" /> the sequence
 assimilation seen above, written *kon*:
 
 <Example
-	ain="hemata e=kon rusuy hii"
+	ain="hemata e-kon rusuy hii"
 	gloss="what 2SG.A=have.[r→n] DESID Q"
 	free="What do you want (to have)?"
 	cite="Tangiku 1998" page="227"
@@ -194,7 +194,7 @@ epenthetic, so it never deletes and they never trigger the *r* → *n*
 alternation. <W w="tura" gloss="be.with" /> stays *tura* before <W w="rusuy" gloss="want" />, not *tun*:
 
 <Example
-	ain="'orowa hosipi-hci 'ike taa 'orowa 'an=tura rusuy yahka"
+	ain="'orowa hosipi=hci 'ike taa 'orowa 'an-tura rusuy yahka"
 	gloss="then return-PL and then then INDEF.S=be.with DESID CONC"
 	free="Then the men went back, and the women wanted to stay together, but…"
 	cite="Tangiku 1998" page="227"
@@ -222,7 +222,7 @@ restricted, having only two West-coast speakers to work from. The wider corpus
 lets us push the question further. We find the reduction applying across
 *different speakers, persons, and stems*: in Asai Take's Oda-su (West) folktales
 the desiderative triggers it on every person of *koro* 'have' —
-*ku=kon rusuy*, *e=kon rusuy*, *an=kon rusuy*, plus bare *kon rusuy*
+*ku-kon rusuy*, *e=kon rusuy*, *an-kon rusuy*, plus bare *kon rusuy*
 (<Cite key="Murasaki 2001" paren={false} />) — and on *nukara* 'see' even when
 the reduced verb is itself pluralised, *nukan rusuy=ahci* 'they wanted to see'.
 The same *kon rusuy* recurs in twentieth-century revival prose
@@ -259,7 +259,7 @@ A Class II verb whose stem already ends in *-re*, by contrast, simply has *-re*
 in place and shows no alternation when the desiderative follows:
 
 <Example
-	ain="ku=mah-nuu-re rusuy kusu"
+	ain="ku-mah-nuu-re rusuy kusu"
 	gloss="1SG.A=woman-take-CAUS DESID CAUF"
 	free="…because I want to make him take a wife…"
 	cite="Tangiku 1998" page="228"
@@ -274,7 +274,7 @@ arrives, the clitic surfaces as plain *-hci* (e.g. *koro-hci*, *mokoro-hci*),
 not *-ahci*. In running text the clitic appears on a vowel-final stem:
 
 <Example
-	ain="keeh aynu itah ani yuukara=an=ahci"
+	ain="keeh aynu itah ani yuukara-an-ahci"
 	gloss="come.on Ainu language INS sing=INDEF.S=COLL"
 	free="Come on, let us sing in Ainu."
 	cite="FF-Ainu (Karafuto materials)"
@@ -353,7 +353,7 @@ stems allow *both* the Hokkaido-style *-hi/-hu* and the generalised *-he*
 (*kampi* 'letter' → *kampihi* ~ *kampihe*), so the generalisation is in progress
 rather than complete (<Cite key="Chiri 1942" page="532" paren={false} />). The corpus bears
 this out: that the conservative *-hi* survives robustly in *polysyllables* even
-on the West coast is shown by Murasaki's *ku='itanki-hi* 'my teacup'
+on the West coast is shown by Murasaki's *ku-'itanki-hi* 'my teacup'
 (<Cite key="Murasaki 2024" paren={false} />), where the polysyllabic *-i* stem
 takes *-hi*, not *-he*. We accordingly read the *-he* generalisation as having
 spread fully through the *monosyllabic* and glide-final classes — where the
@@ -363,7 +363,7 @@ the older syllable-count conditioning was strongest. The change is lexically
 gradual and structurally constrained, not a clean across-the-board replacement.
 
 <Example
-	ain="ku='itanki-hi 'isam"
+	ain="ku-'itanki-hi 'isam"
 	gloss="1SG.A=teacup-POSS not.exist"
 	free="My teacup is not here."
 	cite="Murasaki 2024"

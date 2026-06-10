@@ -64,7 +64,7 @@ incomplete verb, where the agreement clitic precedes the stem:
 
 <Example
 	surface="Tamà in=konte."
-	ain="tama in=kor-te"
+	ain="tama in-kor-te"
 	gloss="jewel 1SG.O=3SG.A/have-CAUS"
 	free="You gave me the jewel."
 	cite="Chiba (archive)"
@@ -124,7 +124,7 @@ the possessed suffix, where Hokkaido would require the *kor* ‘have’
 construction (<Cite key="Sakaguchi 2024" page="107" paren={false} />):
 
 <Example
-	ain="an-seta-ha=hcin"
+	ain="an-seta-ha-hcin"
 	gloss="4.A-dog-PSD=PL"
 	free="our dogs"
 	cite="Hattori 1961" page="6-7"
@@ -149,7 +149,7 @@ property (<Cite key="Chiri 1942" page="534" paren={false} />). Bare conceptual n
 course stand as core arguments without any marking:
 
 <Example
-	ain="tan seta en=kupapa."
+	ain="tan seta en-kupapa."
 	gloss="this dog 1SG.O=bite"
 	free="This dog bit me."
 	cite="FF-Ainu (Karafuto materials)"
@@ -211,8 +211,8 @@ yields negative-polarity readings:
 A small but pivotal class straddles the noun–verb divide. The equative copula <W w="nee" gloss="be" /> *ne(e)* ‘be (X), become X’ is, for <Cite key="Chiri 1942" paren={false} />, the <strong>only simple incomplete verb</strong> of
 the language: it behaves like a transitive verb and takes A-series prefixes
 (<Cite key="Chiri 1942" page="§32" paren={false} />). West-coast Enchiw inflects it
-*ku=nee* (1SG), *e=nee* (2SG), *nee* (3SG), with 1PL *an=nee* — and, in elders'
-speech, *an=* is generalised to 1SG as well, reflecting the West-coast loss of
+*ku-nee* (1SG), *e=nee* (2SG), *nee* (3SG), with 1PL *an-nee* — and, in elders'
+speech, *an-* is generalised to 1SG as well, reflecting the West-coast loss of
 the inclusive/exclusive distinction (<Cite key="Bugaeva 2016" paren={false} />). The copula
 typically closes a predicate-nominal clause, here under the reportative:
 
@@ -288,7 +288,7 @@ East *pate*) — organise information structure (Chapter 27). Many of these stac
 in a single clause:
 
 <Example
-	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
+	ain="sine ikoro sehpa ta pateh an-konte-si numano cise ohta tura oman"
 	gloss="one treasure clasp FOC only 1SG.A=give-PL gladly house LOC together go.SG"
 	free="She was given only one treasure, a clasp, and gladly took it back home."
 	cite="Sakaguchi 2019b" page="117"
@@ -317,7 +317,7 @@ a proposal or self-encouragement, exactly the discourse work an English ‘come 
 ends in the cohortative final particle *roh*:
 
 <Example
-	ain="keh paye=an roh"
+	ain="keh paye-an roh"
 	gloss="come.on go.PL=1PL.S HORT"
 	free="Come on, let's go!"
 	cite="FF-Ainu (Karafuto materials)"

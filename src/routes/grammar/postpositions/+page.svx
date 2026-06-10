@@ -224,7 +224,7 @@ The same particle in a West-coast text combines with the locative *ohta* to mean
 'take (it) home together (with one)':
 
 <Example
-	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
+	ain="sine ikoro sehpa ta pateh an-konte-si numano cise ohta tura oman"
 	gloss="one treasure clasp FOC RESTR 1SG.A=give-PL gladly house LOC COM go.SG"
 	free="She was given only one treasure, a clasp, and gladly took it home with her."
 	cite="Sakaguchi 2019b" page="117 (line 11903)"

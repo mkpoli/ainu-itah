@@ -37,7 +37,7 @@ The number-neutrality of the conceptual form can be seen directly. A bare noun s
 	dialect="West" />
 
 <Example
-	ain="tan seta en=kupapa"
+	ain="tan seta en-kupapa"
 	gloss="this dog 1SG.O=bite"
 	free="This dog bit me."
 	cite="FF-Ainu (Karafuto materials)"
@@ -78,7 +78,7 @@ Two properties define the suffix. First, it attaches <strong>only to affiliative
 Second, the suffix denotes <strong>additive (homogeneous) plural</strong> only — a set whose members are all of the same kind. It is at home with paired body parts, with peoples and groups, and with sets of like kin such as siblings, but it cannot mark an *associative* plural ('X and his associates'), and it does not attach to the non-homogeneous parent–child relation <Cite key="Sakaguchi 2020a" page="12–15" />. With kin the homogeneity requirement is illustrated by 'grandchildren', all of whom are equally 'my grandchild':
 
 <Example
-	ain="ku-mit-ihi=hcin"
+	ain="ku-mit-ihi-hcin"
 	surface="ku-mic-ihi=hcin"
 	gloss="1SG.A-grandchild-PSD=PL"
 	free="my grandchildren"
@@ -89,7 +89,7 @@ Second, the suffix denotes <strong>additive (homogeneous) plural</strong> only �
 The suffix can stack with the plural word <W w="utara" gloss="PL" /> inside a single personal form, where <W w="utara" gloss="PL" /> pluralises the kin stem and the suffix closes the word. One such example, with a parental noun carrying <W w="utara" gloss="PL" /> against the usual constraint, in a fixed plural sense 'parents', runs:
 
 <Example
-	ain="an=cinkew-utar-i-hcin nah ye-hci i=nuure-hci pe tah nee"
+	ain="an-cinkew-utar-i-hcin nah ye=hci i-nuure=hci pe tah nee"
 	surface="an=cinkewutarihcin nah yehci, i=nuurehci pe tah nee"
 	gloss="1SG.A=parent-PL-PSD-PL so say-PL 1SG.O=tell-PL thing this COP"
 	free="It is my parents who said so and told me this."
@@ -106,7 +106,7 @@ There is one residual indeterminacy of segmentation, which we can now narrow. Wh
 It follows from Hattori's analysis that a personal form *without* the plural suffix is positively interpreted as singular — and not only as a plain singular but as a <strong>distributive singular</strong>, denoting one item per possessor. A personal-form noun referring to several people's body parts therefore appears without <W w="hcin" gloss="PL" /> when each person has just one such part in play:
 
 <Example
-	ain="anokay=ahcin an-tek-ihi ohta ama yan"
+	ain="anokay-ahcin an-tek-ihi ohta ama yan"
 	gloss="1PL.PRO=PL 4.A-hand-PSD LOC put IMP.PL"
 	free="Put it into our (each one’s) hands."
 	cite="Hattori 1961" page="7"
@@ -154,7 +154,7 @@ The most versatile number marker is the word <W w="utara" gloss="companions; plu
 On a proper name only the associative reading is possible — a proper name has a unique referent and so admits no homogeneous set, which is exactly why <W w="hcin" gloss="PL" /> is impossible here:
 
 <Example
-	ain="Eekichi-utara hopihsanne makap-ahsi"
+	ain="Eekichi-utara hopihsanne makap=ahsi"
 	gloss="Eekichi-PL from.shore go.up.PL-COLL"
 	free="Eekichi and the others came up from the shore."
 	cite="Sakaguchi 2020a" page="14"
@@ -214,7 +214,7 @@ The 1PL value does not, in fact, depend on the Piłsudski folktale register. It 
 	free="We Ainu are still living well."
 	cite="Sentoku (letters)"
 	dialect="East"
-	note="deictic 1PL utara in real correspondence (1906 letter), outside the folktale register; the parallel third letter has anokay aynu opista … okay an=ki=hci with the collective =hci" />
+	note="deictic 1PL utara in real correspondence (1906 letter), outside the folktale register; the parallel third letter has anokay aynu opista … okay an-ki=hci with the collective =hci" />
 
 The same writer also uses <W w="utara" gloss="PL" /> associatively on a personal name (<W w="Danilka utara" gloss="Danilka and the others" />), confirming that one speaker commands the whole range — autonomous deictic, anaphoric, and associative-suffixal — in a single naturalistic text. We therefore upgrade the deictic 1PL use from "folktale-only" to a <strong>secure, register-independent East-coast pattern</strong>.
 

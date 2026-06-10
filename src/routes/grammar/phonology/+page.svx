@@ -88,7 +88,7 @@ both the verb *kuu* 'drink' and the modifier *seeseh* 'warm' carry long vowels:
 	dialect="West" />
 
 <Example
-	ain="nam wahka ku=kuu rusuy"
+	ain="nam wahka ku-kuu rusuy"
 	gloss="cold water 1SG.A=drink DESID"
 	free="I want to drink cold water."
 	cite="FF-Ainu (Karafuto materials)"
@@ -178,7 +178,7 @@ to see the underlying plosive resurface before a vowel-initial suffix. The noun 
 the vowel-initial possessive suffix is added:
 
 <Example
-	ain="ku=tek-ihi ka rupus"
+	ain="ku-tek-ihi ka rupus"
 	gloss="1SG.A=hand-POSS too be.cold"
 	free="My hand, too, is cold."
 	cite="FF-Ainu (Karafuto materials)"
@@ -344,7 +344,7 @@ assimilates (*kor rusuy* → *kon rusuy*), so the surface vowel of *koro*
 alternates with zero <Cite key="Tangiku 1998" page="227" />.
 
 <Example
-	ain="hemata e=kon rusuy hii"
+	ain="hemata e-kon rusuy hii"
 	gloss="what 2SG.A=have DESID Q"
 	free="What do you want (to have)?"
 	cite="Tangiku 1998" page="227"
