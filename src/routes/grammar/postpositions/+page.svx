@@ -159,7 +159,7 @@ in its fullest form, *oro-wa*, on a possessed locative phrase:
 <Example
 	ain="An-kuca-ha-oro-wa paa numa e-a kusu an"
 	surface="An-kuca-ha orova paa numa ea kusu an"
-	gloss="PRM.PSR-hut-POSS-place-ABL smoke 3S.S/rise APPL-sit.PC PROG"
+	gloss="INDEF.PSR-hut-POSS-place-ABL smoke 3S.S/rise APPL-sit.PC PROG"
 	free="And there, smoke was rising from my hut."
 	cite="Dal Corso 2024" page="72 (ex. 13)"
 	dialect="East"
@@ -300,7 +300,7 @@ house'. In an East-coast text it appears with a directional verb:
 <Example
 	ain="Cise or_-ta (h)e-sirepa-an"
 	surface="Cise oxta esirep an"
-	gloss="house place-LOC DEI.arrive-PRM.S"
+	gloss="house place-LOC DEI.arrive-INDEF.S"
 	free="I arrived at the house."
 	cite="Dal Corso 2024" page="71 (ex. 10)"
 	dialect="East"

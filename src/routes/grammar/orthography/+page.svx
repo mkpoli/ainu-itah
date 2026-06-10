@@ -445,7 +445,7 @@ the <strong>modern phonemic Latin</strong> orthography of the Chiri-Hattori-Mura
 tradition: one grapheme per phoneme, *y* for /j/, *c* for /t͡ɕ/, the coda-*h*,
 double vowels for length, and the apostrophe for the glottal stop only where it
 is contrastive. Person affixes are joined to the host by `=` (clitics) or `-`
-(affixes), as in <Gl t="PRM" />-marked *an=nuu* 'I hear' above. Where a Piłsudski
+(affixes), as in <Gl t="INDEF" />-marked *an=nuu* 'I hear' above. Where a Piłsudski
 form is quoted in his own notation, the phonemic equivalent is given on the
 segmentation line and the phonetic original on the surface line. Where a
 segmentation is the present author's rather than a source's, the example note

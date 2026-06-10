@@ -36,7 +36,7 @@ verb (and, identically, for the possessor of a possessed noun), and <Gl t="O" />
 for the object of a transitive verb (and for the ground argument of a locative
 noun). These three series are distributed across four morphological persons:
 first, second, third, and a fourth set traditionally called "indefinite" and
-labelled here <Gl t="PRM" /> (participant-referentiality mismatch), following <Cite key="Dal Corso 2025" paren={false} />.
+labelled here <Gl t="INDEF" /> (participant-referentiality mismatch), following <Cite key="Dal Corso 2025" paren={false} />.
 
 The valency-sensitive picture is easiest to see in the possessor and
 locative-noun uses, which recur throughout the noun phrase. The A-series prefix
@@ -63,11 +63,11 @@ it marks the ground:
 
 <Example
 	ain="i-osmak-e ene"
-	gloss="PRM.O-back-POSS to"
+	gloss="INDEF.O-back-POSS to"
 	free="to behind me"
 	cite="Sakaguchi 2024" page="19"
 	dialect="East"
-	note="The O-form / PRM prefix i- on a relational noun; here the fourth person stands for ⟪1sg⟫." />
+	note="The O-form / INDEF prefix i- on a relational noun; here the fourth person stands for ⟪1sg⟫." />
 
 These affixes are <strong>not</strong> pronouns. The free pronoun <W w="kuani" gloss="I" />
 can and does co-occur with the prefix <W w="ku" gloss="1SG" /> in the same
@@ -81,7 +81,7 @@ to which most of this chapter is devoted.
 
 The core paradigm is given in Table 1. Third person, singular and plural alike,
 is <strong>zero-marked</strong> in every function. The set is overwhelmingly <strong>prefixal</strong>, but
-two forms — the S-form <Gl t="EXCL" /> 1pl suffix `-as` and the PRM S-form `-an` —
+two forms — the S-form <Gl t="EXCL" /> 1pl suffix `-as` and the INDEF S-form `-an` —
 are <strong>suffixes</strong> (separate prosodic words), which produces **discontinuous
 agreement** in some transitive cells. The prefixes `ku-`, `en-`, `ci-`, `in-`,
 `e-`, `i-` shift accent; `eci-` and `an-` do not <Cite key="Dal Corso 2025" page="190" />.
@@ -116,12 +116,12 @@ stem:
 	dialect="East"
 	note="The 2pl prefix eci- on the plural stem ahuh (singular ahun)." />
 
-The PRM S-suffix `-an` follows an intransitive stem, with the subject left to
+The INDEF S-suffix `-an` follows an intransitive stem, with the subject left to
 pro-drop:
 
 <Example
 	ain="inkara-an"
-	gloss="look-PRM.S"
+	gloss="look-INDEF.S"
 	free="I looked around"
 	cite="Sakaguchi 2024" page="20"
 	dialect="East" />
@@ -141,14 +141,14 @@ the <strong>third person</strong> use a single form across S, A and O — `e-` f
 for 2pl, zero for 3 — which is <strong>neutral</strong> (or "direct"). The traditional
 three-way <strong>tripartite</strong> analysis (after <Cite key="Satō 1985" paren={false} />
 and others), in which each of S, A and O has its own marker, survives only for
-the PRM set (`-an`/`an-`/`i-`) and the exclusive 1pl (`-as`/`ci-`/`in-`).
+the INDEF set (`-an`/`an-`/`i-`) and the exclusive 1pl (`-as`/`ci-`/`in-`).
 
 <Cite key="Dal Corso 2025" page="207" paren={false} /> reconstructs the
 distribution diachronically and ultimately **dismisses tripartite as a
 free-standing alignment**, deriving its apparent three-way contrasts from
 layered historical accretion onto a basic nominative–neutral split. On this
 view the 1pl S-form `-as` and A-form `ci-` belong to one underlying category,
-and the PRM set is itself nominative (S/A `-an`/`an-` versus O `i-`). The
+and the INDEF set is itself nominative (S/A `-an`/`an-` versus O `i-`). The
 reconstruction is summarised in Table 2.
 
 | | S | A | O | resulting alignment |
@@ -168,7 +168,7 @@ older patientive S/A versus O split, but as a patientive second person that was
 <strong>never developed</strong> — an empathy / deferred-control strategy with a typological
 parallel in Central Pomo.
 
-## The PRM / fourth-person set
+## The INDEF / fourth-person set
 
 The set `-an` / `an-` / `i-` is functionally the richest part of the system, and
 the only means the language has of cross-referencing an **inclusive first-person
@@ -180,11 +180,11 @@ these under the single notion of a <strong>participant-referentiality mismatch</
 affix signals that the cross-referenced participant sits in an unexpected place
 on a referentiality hierarchy.
 
-On a copula or transitive verb the PRM A-form `an-` may simply stand for ⟪1sg⟫:
+On a copula or transitive verb the INDEF A-form `an-` may simply stand for ⟪1sg⟫:
 
 <Example
 	ain="anoka hekaci an-nee"
-	gloss="PRO.4 child PRM.A-COP"
+	gloss="PRO.4 child INDEF.A-COP"
 	free="I am a child."
 	cite="Sakaguchi 2024" page="21"
 	dialect="East"
@@ -199,7 +199,7 @@ stem is the plural `makap` (singular `makan`):
 
 <Example
 	ain="peray-an kusu makap-an manu"
-	gloss="fish-PRM.S because go.uphill.PL-PRM.S REP"
+	gloss="fish-INDEF.S because go.uphill.PL-INDEF.S REP"
 	free="I went uphill to fish, it is said."
 	cite="Sakaguchi 2024" page="127"
 	dialect="East"
@@ -212,16 +212,16 @@ narrative. The same forced plurality is seen with the exclusive 1pl set: the
 suffix `-as` likewise selects the plural stems `asip`, `paye` even when the
 referent is a single woman <Cite key="Sakaguchi 2024" page="129" />.
 
-The PRM A-form also cross-references the agent of an <strong>impersonal passive</strong>,
+The INDEF A-form also cross-references the agent of an <strong>impersonal passive</strong>,
 where the demoted agent (here 'the gods') is recovered only from context:
 
 <Example
 	ain="kamuy-oro-wa mat kayki an-e-kor-te-si kusu"
-	gloss="god-place-ABL wife even PRM.A-2SG.IO-3SG.O/have-CAUS-COLL because"
+	gloss="god-place-ABL wife even INDEF.A-2SG.IO-3SG.O/have-CAUS-COLL because"
 	free="since you have been given even a wife by the gods…"
 	cite="Dal Corso 2025" page="197"
 	dialect="East"
-	note="The agent (the gods) is cross-referenced by PRM an-; -si is the collective." />
+	note="The agent (the gods) is cross-referenced by INDEF an-; -si is the collective." />
 
 Tamura traced `-an`/`an-` to the verb <W w="an" gloss="exist" /> 'exist' (a
 biverbal origin, e.g. <W w="sinot" gloss="play" />`-an` 'someone plays'), while
@@ -280,7 +280,7 @@ person:
 
 ## The emergence of inverse marking
 
-A further twist arises with the PRM A-form `an-`. When `an-` marks a
+A further twist arises with the INDEF A-form `an-`. When `an-` marks a
 low-referential third-person agent acting on a higher-ranked third-person
 patient, it functions as an <strong>inverse marker</strong> — the object outranks the subject
 on the referentiality hierarchy, and the clause is ambiguous between an
@@ -292,7 +292,7 @@ indefinite-agent reading and a passive one:
 	free="someone sees the old woman / the old woman is seen."
 	cite="Dal Corso 2025" page="210"
 	dialect="Sakhalin"
-	note="PRM an- as an inverse marker in a 3 > 3 impersonal construction." />
+	note="INDEF an- as an inverse marker in a 3 > 3 impersonal construction." />
 
 This inverse strategy is then recruited into the SAP domain to resolve the
 <strong>subject-number syncretism</strong> of the old portmanteaux. The suffix `-an` is
@@ -312,38 +312,38 @@ on 1sg) and `in-…-an` (2pl on 1pl):
 impersonal-agent inverses of Athabaskan and Algonquian (Meskwaki `-ekoː`,
 Potawatomi `-ikoː`). Once the one-slot constraint relaxes — partly under
 Hokkaido influence — genuine <strong>double prefixes</strong> appear: `an-e-` (1pl.excl on
-2sg), `e-i-` (2sg on PRM, in Rayciska), `eci-i-` (2pl on PRM):
+2sg), `e-i-` (2sg on INDEF, in Rayciska), `eci-i-` (2pl on INDEF):
 
 <Example
 	ain="hane an-e-nukara"
-	gloss="NEG PRM.A-2SG.O-meet"
+	gloss="NEG INDEF.A-2SG.O-meet"
 	free="we do not meet you."
 	cite="Sakaguchi 2024" page="21"
 	dialect="East"
-	note="A genuine prefix combination an-e- (PRM.A > 2sg.O)." />
+	note="A genuine prefix combination an-e- (INDEF.A > 2sg.O)." />
 
 That this `an-e-` combination is a live part of the spoken grammar, and not an
 artefact of the dictated folktale genre, is confirmed by an independent
 <strong>self-written</strong> East-coast source: in a letter the Tunayci/Naibuchi speaker
 Sentoku Tarōji penned to Piłsudski around 1900, the same double prefix appears in
-spontaneous prose, with the PRM `an-` here standing for an inclusive ⟪1pl⟫ writer
+spontaneous prose, with the INDEF `an-` here standing for an inclusive ⟪1pl⟫ writer
 and `e-` for the second-person addressee:
 
 <Example
 	ain="an-e-nukara kusu iki"
-	gloss="PRM.A-2SG.O-see because do"
+	gloss="INDEF.A-2SG.O-see because do"
 	free="we shall see you (= meet you)."
 	cite="Sentoku (letters)"
 	dialect="East"
-	note="Self-written East-coast prose (Sentoku Tarōji, c. 1900): the an-e- (PRM.A > 2sg.O) combination outside the folktale register." />
+	note="Self-written East-coast prose (Sentoku Tarōji, c. 1900): the an-e- (INDEF.A > 2sg.O) combination outside the folktale register." />
 
 <Example
 	ain="e-i-ray-ki"
-	gloss="2SG.A-PRM.O-die-CAUS"
+	gloss="2SG.A-INDEF.O-die-CAUS"
 	free="you kill me."
 	cite="Dal Corso 2024" page="68"
 	dialect="East"
-	note="2sg.A > PRM.O combination e-i-; the speaker is referenced by PRM i-." />
+	note="2sg.A > INDEF.O combination e-i-; the speaker is referenced by INDEF i-." />
 
 The overall system is therefore <strong>non-prototypical and mixed</strong>: it is neither
 purely hierarchical nor purely inverse. The direct combination `eci-` (1sg > 2)
@@ -387,7 +387,7 @@ Three points of variation deserve attention. First, the <strong>exclusive 1pl se
 (`-as` / `ci-` / `in-`) is fully present only on the <strong>East coast</strong> (Piłsudski's
 texts; Dobrotvorskij's dictionary). It is essentially <strong>absent in West Sakhalin (Rayciska)</strong> and the
 northern West dialects, which therefore lack a formal inclusive/exclusive
-contrast — a paradigm Western descriptions have called "defective" <Cite key="Dal Corso 2025" page="194" />. In the West the PRM/fourth set covers
+contrast — a paradigm Western descriptions have called "defective" <Cite key="Dal Corso 2025" page="194" />. In the West the INDEF/fourth set covers
 ⟪1pl⟫ outright. This is consistent with the West-coast attestation of the simple
 1sg `ku-` co-occurring with the free pronoun `kuani`:
 
@@ -475,7 +475,7 @@ sole, S-series, person marker and `yay-` carries the coreference:
 
 <Example
 	ain="sonnoka an-yay-ko-ram-uosma"
-	gloss="truly PRM.A-REFL-APPL-heart-place.into"
+	gloss="truly INDEF.A-REFL-APPL-heart-place.into"
 	free="truly, I was satisfied (with it / myself)."
 	cite="Sakaguchi 2021" page="51"
 	dialect="West"
@@ -486,9 +486,9 @@ reflexive coreference of the two speech-act-participant slots is the canonical w
 a head-marking language disposes of the 1↔1 (and 2↔2) corner of a person paradigm
 (Comrie's local-domain reflexivisation; the same logic that empties the 1>1 cell
 in Algonquian and Athabaskan). No portmanteau is expected there, and none should
-be reconstructed. By contrast, the gapped <strong>PRM-agent cells</strong> (PRM acting on a
-first person) are a true documentary gap: the PRM set is itself the language's
-device for an *unexpectedly ranked* participant, so a PRM agent over a first-person
+be reconstructed. By contrast, the gapped <strong>INDEF-agent cells</strong> (INDEF acting on a
+first person) are a true documentary gap: the INDEF set is itself the language's
+device for an *unexpectedly ranked* participant, so a INDEF agent over a first-person
 object is pragmatically rare and simply went unrecorded in a closed nineteenth-
 and early-twentieth-century corpus. For these, and only these, the bracketed forms
 in the fullest tables are genuine hypotheses; fresh elicitation, were any speaker

@@ -110,7 +110,7 @@ The same alternation organises everyday uses in which <W w="itah" gloss="word" /
 
 <Example
 	ain="keeh aynu itah ani yuukara=an=ahci"
-	gloss="come.on Ainu language INS sing=PRM.S=COLL"
+	gloss="come.on Ainu language INS sing=INDEF.S=COLL"
 	free="Come on, let us sing in Ainu."
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="West"
@@ -186,7 +186,7 @@ Verbs that are vowel-final even in Hokkaido — <W w="tura" gloss="be together" 
 
 <Example
 	ain="'orowa hosipi-hci 'ike taa 'orowa 'an=tura rusuy yahka"
-	gloss="then return-COLL and then then PRM.S=be.together DESID CONC"
+	gloss="then return-COLL and then then INDEF.S=be.together DESID CONC"
 	free="Then (the men) went back, and (the women) wanted to stay together, but…"
 	cite="Tangiku 1998" page="227"
 	dialect="West"

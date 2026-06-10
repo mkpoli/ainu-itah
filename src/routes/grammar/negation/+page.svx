@@ -60,7 +60,7 @@ The dominant strategy overall hosts the negator on <W w="ki" gloss="do" /> 'do' 
 <Example
 	ain="aynu kur-i an-nukara ka ham=kii"
 	surface="Aynu kur-i an-nukara ka ham=kii."
-	gloss="person 3.PSR/figure-POSS PRM.A-3SG.O/see.NMLZ even NEG=do"
+	gloss="person 3.PSR/figure-POSS INDEF.A-3SG.O/see.NMLZ even NEG=do"
 	free="‘I did not see the man’s figure.’"
 	cite="Kitahara 2016" page="62"
 	dialect="West" />
@@ -70,7 +70,7 @@ In the older East variant, the agreement prefix instead appears on *ki* itself, 
 <Example
 	ain="anoka neampe tohse ka ham=an-ki-no yay-nu-no-ka-an"
 	surface="Anoka neampe tohse ka ham=an-ki-no yay-nu-no-ka-an."
-	gloss="I TOP lie.down.NMLZ even NEG=PRM.A-do-ADV REFL-listen-well-CAUS-PRM.S"
+	gloss="I TOP lie.down.NMLZ even NEG=INDEF.A-do-ADV REFL-listen-well-CAUS-INDEF.S"
 	free="‘As for me, I kept an ear out [for strange noises] without sleeping.’"
 	cite="Piłsudski 1912" page="184"
 	dialect="East" />
@@ -186,7 +186,7 @@ A residue of older, productive strategies survives mainly in the East. In <stron
 <Example
 	ain="an-matak-hi nah ye yahka ham=utara nu-hci"
 	surface="An-matak-hi nah ye yahka ham=utara nu-hci."
-	gloss="PRM.PSR-younger.sister-POSS so 3SG.A/3SG.O/say though NEG=people 3PL.A/3SG.O/listen-COLL"
+	gloss="INDEF.PSR-younger.sister-POSS so 3SG.A/3SG.O/say though NEG=people 3PL.A/3SG.O/listen-COLL"
 	free="‘Although my sister said so, not [you] men listened to her [but I did].’"
 	cite="Piłsudski 1912" page="120"
 	dialect="East"
@@ -208,7 +208,7 @@ Two irrealis forms, both peculiar to the <strong>Hunup</strong> dialect of the E
 <Example
 	ain="hanna mawa-an-ike ta wen kiren~or-ne an-kana-te an-e-kun-pe ka ham=ne yawa"
 	surface="Hanna mawa-an-ike ta wen kiren~or-ne an-kana-te an-e-kun-pe ka ham=ne yawa?"
-	gloss="NEG starve-PRM.S-and this be.poor Tungus~place-ALL PRM.A-3SG.O/request-and PRM.A-3SG.O/eat-COND-thing even NEG=COP RETH"
+	gloss="NEG starve-INDEF.S-and this be.poor Tungus~place-ALL INDEF.A-3SG.O/request-and INDEF.A-3SG.O/eat-COND-thing even NEG=COP RETH"
 	free="‘Lest I starve, should I ask this poor Tungus [for food] and [then find out] it is not something I would eat?’"
 	cite="Piłsudski 1912" page="139"
 	dialect="East"
@@ -219,7 +219,7 @@ Finally, the <strong>caritive</strong> *hamo* (East also *hamu*, reduced *ham*) 
 <Example
 	ain="tu to pahno re to pahno ham ipe makap-an"
 	surface="Tu to pahno re to pahno ham ipe makap-an."
-	gloss="two day until three day until NEG ANTIP/eat go.uphill.PL-PRM.S"
+	gloss="two day until three day until NEG ANTIP/eat go.uphill.PL-INDEF.S"
 	free="‘For two and three days I proceeded uphill without eating.’"
 	cite="Piłsudski 1912" page="123"
 	dialect="East"

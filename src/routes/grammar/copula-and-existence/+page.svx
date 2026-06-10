@@ -59,7 +59,7 @@ Because the copula inflects like a transitive verb, it carries the A-series pref
 | 2 | e=nee | eci=nee |
 | 3 | nee (Ø) | ne=hci |
 
-Third person singular is unmarked, and the plural 3 form *ne=hci* (&lt; *nee-hci*) takes the collective clitic. The 1PL form *an=nee* deserves comment: West Sakhalin has lost the Hokkaido inclusive/exclusive distinction, and in "elders' speech" the originally 1PL prefix <Gl t="PRM" /> *an=* is generalised even to 1SG reference <Cite key="Bugaeva 2016" page="76" />. This is the form used, for example, in a speaker's self-identification:
+Third person singular is unmarked, and the plural 3 form *ne=hci* (&lt; *nee-hci*) takes the collective clitic. The 1PL form *an=nee* deserves comment: West Sakhalin has lost the Hokkaido inclusive/exclusive distinction, and in "elders' speech" the originally 1PL prefix <Gl t="INDEF" /> *an=* is generalised even to 1SG reference <Cite key="Bugaeva 2016" page="76" />. This is the form used, for example, in a speaker's self-identification:
 
 <Example
 	surface="'anoka neyke Tahkonanna 'an=nee"

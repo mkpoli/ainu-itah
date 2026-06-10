@@ -38,7 +38,7 @@ and the cover term for the language:
 
 <Example
 	ain="Karahuto 'aynu 'itah nah 'ay=yee-pe neyke Karahuto 'ohta 'enciw 'utah kii 'itah neewa kayki 'asinno ku=nuu 'ike 'oya mosiri 'oro'un 'itah neeno ku=nuu"
-	gloss="Karafuto Ainu language QUOT PRM.A=say-NMLZ TOP Karafuto at human PL do.NMLZ language and even newly 1SG.A=hear and other land at.GEN language SIM 1SG.A=hear"
+	gloss="Karafuto Ainu language QUOT INDEF.A=say-NMLZ TOP Karafuto at human PL do.NMLZ language and even newly 1SG.A=hear and other land at.GEN language SIM 1SG.A=hear"
 	free="‘Sakhalin Ainu language’ is the language the Enchiw used in Sakhalin, but when I first heard it, it sounded to me like a foreign language."
 	cite="Ainu Times" page="56"
 	dialect="West"
@@ -61,13 +61,11 @@ classificatory work of <Cite key="Hattori-Chiri 1960" paren={false} /> and <Cite
 The standard periodisation runs Pre-Proto Ainu → Proto Ainu → <strong>Common Ainu</strong>
 — the latter the stage *before* the thirteenth-century Great Migration that
 carried Ainu speakers from Hokkaido north to Sakhalin and the Kurils — followed
-by the three-way split and then Historical Ainu (Alonso de la Fuente 2022, in <Cite key="Dal Corso 2025" page="189" />). Sakhalin Ainu is therefore not a
-dialect of Hokkaido Ainu but a sister variety: the two diverged from Common
-Ainu, and many of its salient features (the coda *x*/*-h*, the
-length-for-pitch correspondence, the singular/plural noun opposition) are
-Sakhalin retentions or innovations, not deviations from a Hokkaido norm.
-Hokkaido forms appear in what follows only where an explicit contrast is
-illuminating.
+by the three-way split and then Historical Ainu (Alonso de la Fuente 2022, in <Cite key="Dal Corso 2025" page="189" />). Sakhalin Ainu is therefore a sister variety of Hokkaido Ainu:
+the two diverged from Common Ainu, and features such as the coda *x*/*-h*, the
+length-for-pitch correspondence, and the singular/plural noun opposition are
+Sakhalin retentions and innovations. Hokkaido forms appear in what follows only
+where an explicit contrast is illuminating.
 
 ## Geography
 
@@ -91,9 +89,10 @@ right-headed: modifiers precede their heads and adpositions follow their
 complements <Cite key="Dal Corso 2024" page="55" />. Grammatical relations are
 tracked overwhelmingly on the verb by person agreement rather than on the noun
 by case, so a fully specified clause can consist of a single inflected verb.
-There is no grammatical gender. Number marking is optional on most nouns but —
-unlike Hokkaido Ainu — Sakhalin obligatorily distinguishes singular from plural
-verb stems for plural subjects:
+There is no grammatical gender. Plurality is marked on the verb by suppletive
+singular/plural stems and the collective clitic *=hci*, and — a trait that sets
+Sakhalin apart within Ainu — on personally possessed nouns as well, by the plural
+suffix *-(a)hcin* ([Chapter 11](/grammar/number)):
 
 <Example
 	ain="tu hekaci 'uta paye=hci"
@@ -101,7 +100,7 @@ verb stems for plural subjects:
 	free="The two children went."
 	cite="Murasaki 2024" page="84"
 	dialect="West"
-	note="The plural stem paye + collective =hci is obligatory for a plural subject; singular *'oman is ungrammatical here, unlike Hokkaido. Segmentation mine." />
+	note="A plural subject takes the suppletive plural stem paye (singular oman) and the collective =hci. Segmentation mine." />
 
 There is no morphological tense. Temporal interpretation falls out of aspect,
 mood, and evidentiality, which are expressed by a rich array of synthetic
@@ -111,7 +110,7 @@ non-productive — a point taken up under language erosion below.
 
 The verb's most distinctive feature is its <strong>person-agreement</strong> system. The
 Sakhalin paradigm differs only minimally from Hokkaido: the first-person plural
-exclusive object is <Gl t="PRM" />-adjacent <W w="in-" gloss="1PL.O.EXCL" />
+exclusive object is <Gl t="INDEF" />-adjacent <W w="in-" gloss="1PL.O.EXCL" />
 (Hokkaido *un-*), and the second person is *eci-* throughout. The
 exclusive first-person plural set (S *-as*, A *ci-*, O *in-*) is attested only
 on the <strong>East coast</strong> and is absent from the West:
@@ -131,8 +130,8 @@ on the <strong>East coast</strong> and is absent from the West:
 	cite="Piłsudski 1912" page="77"
 	dialect="East" />
 
-The complementary set <Gl t="PRM" /> (the *-an*/*an-*/*i-* affixes, glossed
-here as PRM, "participant-referentiality mismatch", and called the **4th
+The complementary set <Gl t="INDEF" /> (the *-an*/*an-*/*i-* affixes, glossed
+here as INDEF, "participant-referentiality mismatch", and called the **4th
 person** by Sakaguchi) is the workhorse of the Sakhalin verb. It cross-references
 the inclusive first-person plural, an indefinite agent, the agent of an
 impersonal passive, and — in narrative — a folklore narrator referring to
@@ -140,11 +139,11 @@ himself in the fourth person <Cite key="Dal Corso 2025" page="196" />:
 
 <Example
 	ain="an-koro-nay-he-or-ne kimoyki kusu makap-an"
-	gloss="PRM-have-river-POSS-place-ALL hunting CAUF go.uphill.PL-PRM"
+	gloss="INDEF-have-river-POSS-place-ALL hunting CAUF go.uphill.PL-INDEF"
 	free="I went uphill along my river to hunt …"
 	cite="Piłsudski 1912" page="133"
 	dialect="East"
-	note="PRM -an/an- cross-references a first-person narrator within folklore (logophoric)." />
+	note="INDEF -an/an- cross-references a first-person narrator within folklore (logophoric)." />
 
 The honorific-second-person and quoted-second-person uses of this set that are
 found in Hokkaido are <strong>not</strong> attested in Sakhalin <Cite key="Dal Corso 2025" page="197" />.
@@ -234,7 +233,7 @@ example above) <Cite key="Murasaki 2024" page="85" />.
 
 The shift is not an isolated lexical replacement of one affix but a *systematic*
 substitution that runs through the whole exponence of the first person. We
-analyse it as the generalisation of the inclusive / fourth-person (<Gl t="PRM" />)
+analyse it as the generalisation of the inclusive / fourth-person (<Gl t="INDEF" />)
 set — *'an* on the verb, *'anoka(y)* as the free pronoun — to singular
 self-reference, displacing the young-speech *ku=* / *ku'ani*. The same
 displacement is visible in both layers of Asai Take's own self-introduction,
@@ -254,7 +253,7 @@ notes, *'an* is positionally split — it *suffixes* to intransitive stems
 (*paye='an* ‘we/I went’) but *prefixes* to transitive ones (*'an=nee* ‘we/I
 am’, *'an=koro* ‘we/I have’) <Cite key="Murasaki 2024" page="85" />; the
 elder-speech 1SG inherits this split wholesale, confirming that elder *'an* is
-the very same morpheme as the inclusive/PRM *'an*, merely with its reference
+the very same morpheme as the inclusive/INDEF *'an*, merely with its reference
 narrowed to the singular. Cross-linguistically this is the familiar pattern of
 number- (and politeness-) mismatched self-reference — comparable to the
 "royal" or deferential plural-for-singular of many European and East Asian

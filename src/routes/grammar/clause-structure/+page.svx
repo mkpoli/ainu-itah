@@ -130,7 +130,7 @@ the comparative *akkari*. A productive set of relational ("formal") nouns — *k
 <Example
 	ain="Cise or_-ta (h)e-sirepa-an"
 	surface="Cise oxta esirep an"
-	gloss="house place-LOC DEI-arrive-PRM.S"
+	gloss="house place-LOC DEI-arrive-INDEF.S"
 	free="I arrived up to the house."
 	cite="Dal Corso 2024" page="71"
 	dialect="East" />
@@ -155,7 +155,7 @@ noun *oro*, and the ablative phrase may itself host a possessor prefix:
 <Example
 	ain="An-kuca-ha-oro-wa paa numa e-a kusu an"
 	surface="An-kuca-ha orova paa numa ea kusu an"
-	gloss="PRM.PSR-hut-POSS-place-ABL smoke 3S.S/rise APPL-sit.PC PROG exist.PC"
+	gloss="INDEF.PSR-hut-POSS-place-ABL smoke 3S.S/rise APPL-sit.PC PROG exist.PC"
 	free="And there, smoke was rising from my hut."
 	cite="Dal Corso 2024" page="72"
 	dialect="East"
@@ -434,7 +434,7 @@ doubt; only the lexical particle is areally restricted:
 
 <Example
 	ain="keh paye-an roo"
-	gloss="come.on go.PL-PRM.S HORT"
+	gloss="come.on go.PL-INDEF.S HORT"
 	free="Come on, let's go!"
 	cite="Furukawa 1967" page="107"
 	dialect="West"

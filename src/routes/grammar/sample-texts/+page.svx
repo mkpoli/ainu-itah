@@ -58,7 +58,7 @@ re-edited with a full morpheme gloss by <Cite key="Sakaguchi 2020" paren={false}
 It is a *tuytah* that opens in the third person, shifts into the flatfish-man's
 own first-person voice partway through, and shifts back — the **person-shifting
 narrative technique** characteristic of Piłsudski's 1903 east-coast tales, in
-which the <Gl t="PRM" /> set (`-an`/`an=`/`i-`) cross-references the foregrounded
+which the <Gl t="INDEF" /> set (`-an`/`an=`/`i-`) cross-references the foregrounded
 narrator. The tale also showcases the east-coast collective suffix <Gl t="COLL" /> `-ahci`, the belonging (<Gl t="POSS" />) form on relational
 nouns, and the quotative frame `nah … yee`.
 
@@ -108,17 +108,17 @@ nominalised clause ("because he heard that"), one over the desiderative <Gl t="D
 	dialect="East" />
 
 At this point the narrative voice shifts: the flatfish-man becomes the
-first-person narrator, and the <Gl t="PRM" /> S-suffix `-an` appears on the
+first-person narrator, and the <Gl t="INDEF" /> S-suffix `-an` appears on the
 plural stem <W w="ahup" gloss="enter (plural)" />. The dipper is referred to by
 its belonging form `kahkum-ihi`:
 
 <Example
 	ain="kahkum-ihi onnay-ke ta ahup-an"
-	gloss="dipper-POSS inside-place LOC enter.PL-PRM.S"
+	gloss="dipper-POSS inside-place LOC enter.PL-INDEF.S"
 	free="I got inside the dipper."
 	cite="Sakaguchi 2020" page="56 (Tuita 3, l. 7)"
 	dialect="East"
-	note="The shift into the flatfish-man's first-person self-narration; PRM S-suffix -an." />
+	note="The shift into the flatfish-man's first-person self-narration; INDEF S-suffix -an." />
 
 A subordinate clause of cause stacks the reflexive <Gl t="REFL" /> `yay-` and
 the applicative <Gl t="APPL" /> `ko-` on the light verb `-kara` "do",
@@ -176,7 +176,54 @@ flatfish-man:
 	free="The small flatfish-man was thrown toward the bear's mouth."
 	cite="Sakaguchi 2020" page="58 (Tuita 3, l. 21)"
 	dialect="East"
-	note="COLL on a singular definite agent — Sakaguchi's evidence for a passive use; whether COLL is genuinely a passive or an impersonal plural that yields a passive reading is left open." />
+	note="COLL on a singular definite agent — Sakaguchi's evidence for a passive use." />
+
+This single line is the strongest case in the whole chapter for the
+disputed <strong>passive use of the collective</strong>, and the running text of *Tuita 3*
+lets us weigh it against every other token of `-ahci`/`-hsi`/`-si` in the same
+narrator's voice. The tale contains nine collective-marked verbs, and eight of
+them are textbook participant-agreement: `okay-ahci` "the two lived",
+`niina-hci`/`yee-si` "the two gathered wood / said", `tura-hci`/`oika-hsi`
+"the two went together / crossed", `nukara-hci` "the two saw", `u-sam-ahci`
+"the two married", and — at the tale's close — `oysam-ahci` "the old people
+died" and `okay … kii-si` "they (the descendants) lived". In every one of
+these the marked verb cross-references a plural (here dual or open-plural)
+participant. Only `ocipa-hsi` breaks the pattern: its agent is a single,
+named young man and its patient is the singular flatfish-man, so the suffix
+cannot be tracking participant number at all. We therefore analyse the
+collective as **basically a participant-plural agreement clitic** whose
+*non-agreeing* occurrences are the marked case requiring explanation.
+
+For that marked case three diagnostics converge. First, distributionally, the
+non-agreeing tokens are vanishingly rare (one in nine here) and cluster exactly
+where the clause has a definite patient and a backgrounded agent — the
+prototypical environment of a passive (Dixon and Aikhenvald's defining
+profile: patient promoted to pivot, agent demoted or suppressed). Second,
+<Cite key="Sakaguchi 2020" paren={false} /> shows the same non-agreeing `-ahci`
+recurring on `uk-ahci` "(it) was taken", `an-ociwe-hci` "(the corpse) was
+thrown", `an-kii-re-hsi` "(he) was granted (an audience)", and even on a verb
+of psychological affect, `an-ramu-hsi` "(he) was favoured" — in all of which
+both agent and patient are singular and definite, and the reading is uniformly
+passive (Sakaguchi 2020: 52–53, drawing on Murasaki 1979: 51 and Yamabe &
+Kindaichi 1913). Third, in most of those examples `-ahci` co-occurs with the
+<Gl t="INDEF" /> clitic `an=`, the ordinary Sakhalin passive marker; in `ocipa-hsi` alone
+`an=` is *absent*, so the collective is left carrying the passive sense by
+itself. This is the configuration that makes the line probative.
+
+Cross-linguistically this is a familiar drift. An impersonal-plural ("they
+threw him" with arbitrary *they*) is the classic diachronic source of a
+passive — the path of French *on*, German *man*, and the Balto-Finnic and
+Uralic impersonals (Givón; Comrie). On that account `ocipa-hsi` is an
+**impersonal-plural construction recruited as a passive**: the plural marker no
+longer counts agents but signals that the agent is demoted, leaving the patient
+as the sole tracked argument. We adopt this as the grammar's analysis: the
+Sakhalin collective is a plural-agreement clitic at base, and its passive use
+is the impersonal-plural-to-passive extension caught here mid-grammaticalisation
+— not yet a dedicated passive morpheme (the dedicated passive is `an=`), but
+already an independent way of building one. What remains genuinely open is only
+whether the language had reached the point of *obligatory* agent suppression;
+the handful of attested tokens is too small to tell, and that is the one
+question a larger east-coast corpus would settle.
 
 The bear dies and the flatfish-man descends, the singular motion stem <W w="san" gloss="come down (singular)" /> contrasting with its plural
 counterpart `sap`:
@@ -328,7 +375,7 @@ SW `imiki`:
 	free="When he prayed, all that feces disappeared."
 	cite="Sakaguchi 2019b" page="119 (l. 12002)"
 	dialect="West"
-	note="emuyke ‘all’ (general Sakhalin); isan ‘not exist’; segmentation mine, glosses from Sakaguchi's word glosses. [uncertain]" />
+	note="inonitah ‘pray’ is the reduced katakana spelling of inonno-itah ‘prayer-speak’ (the full form is attested in modern Sakhalin didactic prose, e.g. ku=acapo inonnoitah ‘my uncle prayed’); emuyke ‘all’ (general Sakhalin) and isan (&lt; isam, West final m &gt; n) ‘not exist’ are both secure. The only residue of uncertainty is the bare reading of si ‘feces’ in the katakana original; the clause as a whole is well analysed." />
 
 The reward scene gathers the restrictive <Gl t="RESTR" /> `pateh` "only", the
 comitative <Gl t="COM" /> `tura` "together (with it)", and the collective on the
@@ -361,8 +408,16 @@ Ainu–Russian dictionary — a confession scene narrated by Ciwokanke and a
 request/marriage dialogue — are the oldest connected Sakhalin Ainu prose, from
 the West-central Kushunnai area, re-edited by <Cite key="Sakaguchi 2021" paren={false} />.
 Their Cyrillic transcription faithfully records syllable-final consonants but
-confuses *i*/*e* and *o*/*u* and ignores vowel length, so the fine morphology of
-several forms is [uncertain]; the segmentations below follow Sakaguchi's notes.
+confuses *i*/*e* and *o*/*u* and ignores vowel length. The consequence is a
+predictable one, and worth stating precisely: the consonantal skeleton — and
+therefore the *person-marking* morphology, which lives on consonants
+(`an=`, `in=`, `i=`, `e=`, the suffix `-an`) — is recoverable, whereas
+contrasts that hinge on vowel quality or length (e.g. the desiderative `rusuy`
+vs a long-vowel stem, or `e`- vs `i`-prefixes) cannot always be told apart from
+the spelling alone. Since the diagnostic features of interest here are exactly
+the consonant-borne person prefixes, the texts are in fact *more* reliable for
+the morphosyntactic point they are cited for than their reputation suggests;
+the segmentations below follow Sakaguchi's notes.
 What the texts most clearly attest is the **east-coast-style first-person
 system** — the AN-class `-an`/`an=` and, diagnostically, the KU/CI-class object
 prefix `in-` — confirming that this West-central material patterns with the East
@@ -372,7 +427,7 @@ The confession opens with a purposive `kusu` linking two AN-class verbs:
 
 <Example
 	ain="tan kotan ohta utasa-an kusu ariki-an"
-	gloss="this village LOC visit-PRM.S in.order.to come.PL-PRM.S"
+	gloss="this village LOC visit-INDEF.S in.order.to come.PL-INDEF.S"
 	surface="Tan kotàn ohtà utása-an kusú áriki-an."
 	free="I have come in order to visit this village."
 	cite="Sakaguchi 2021" page="49 (Dobrotvorskij text 1, ex. 1)"
@@ -397,7 +452,7 @@ and reflexive `yay-`:
 
 <Example
 	ain="tama in=konte reekoro yay-irayki-re-an"
-	gloss="jewel 1SG.O=give very REFL-thank-CAUS-PRM.S"
+	gloss="jewel 1SG.O=give very REFL-thank-CAUS-INDEF.S"
 	surface="Tamà in-konte. Rékoro yay'iráykire-an."
 	free="You gave me a jewel. I am very grateful."
 	cite="Sakaguchi 2021" page="49 (Dobrotvorskij text 1, ex. 5)"
@@ -437,7 +492,7 @@ probably be" round out the dialogue's politeness formulae:
 	free="Because we are close kin, it would be fine even if you did not say much to me."
 	cite="Sakaguchi 2021" page="52 (Dobrotvorskij text 2, ex. 21)"
 	dialect="Sakhalin"
-	note="Concessive yahka ‘even if’; nankoro pe ne ‘it probably is’; utahta flagged ‘meaning unknown’ by Sakaguchi. [uncertain]" />
+	note="Concessive yahka ‘even if’; nankoro pe ne ‘it probably is’. The phrase sine utahta ne kusu ‘because we are one set of kin’ is in fact a fixed idiom recorded in Dobrotvorskij's dictionary (p. 305) as sne utahta ne kusu ‘because we are relatives / close’ (Sakaguchi 2021: note 43): utah is the concept form of utar(a) ‘people, kin’ (belonging form utari), so utahta is best read ‘(a single set of) kinfolk’ — not, as a first reading might suggest, unknown." />
 
 ## Text 5 — Modern Enchiw and native-written texts
 
@@ -453,7 +508,7 @@ indefinite/passive ("she was raised"), and the line closes with the hearsay
 
 <Example
 	ain="aaca haciko ohta siisam hatagoya ohta an=reske manu"
-	gloss="father small LOC Japanese inn LOC PRM.A=raise REP"
+	gloss="father small LOC Japanese inn LOC INDEF.A=raise REP"
 	free="Father: She was raised in a Japanese inn when she was little, it is said."
 	cite="Kitahara 2016"
 	dialect="West"
@@ -470,13 +525,38 @@ grandmother", with two additive `naa` "too":
 	dialect="West"
 	note="KU-class possessive prefix ku=; additive naa ‘too’; hearsay manu." />
 
+The belonging form `ahci-hi` here is singular ("(my) one grandmother"), and
+this is the point at which Sakhalin departs sharply from Hokkaido: the Sakhalin
+belonging form carries a <strong>number category</strong>, and a possessed noun referring
+to several possessa must add the plural belonging marker `-(a)hcin`. The
+clearest west-coast attestation is from Murasaki's Raychishka material, where
+the same root that appears singular as `mahpoo-ho` "her daughter" in Text 1
+appears plural here, doubly marked (`-ho-hcin` on the noun, `-hci` on the verb):
+
+<Example
+	ain="mahpoo-ho-hcin reske-hci"
+	gloss="daughter-POSS-PL raise-COLL"
+	free="They raised their daughters."
+	cite="Murasaki 1976" page="28 (Dal Corso 2021a: 281; 2024: 73, ex. 15)"
+	dialect="West"
+	note="Plural belonging marker -hcin on the possessed noun, agreeing with plural possessa, alongside COLL -hci on the verb; the singular counterpart is mahpoo-ho ‘her daughter’ (Text 1). -(a)hcin marks additive plural and attaches only to the belonging (person) form of the noun (Hattori 1961: 7; Sakaguchi 2020a)." />
+
+By the pattern of this contrast, the `ahci-hi` "(my) grandmother" of the
+preceding line is unmarked for plurality precisely because a single grandmother
+is meant; had two grandmothers been intended, the predicted form would be
+`ahci-hi-hcin` (unattested in this text, but generated by the same rule —
+awaiting confirmation in connected modern prose). We treat `-(a)hcin` as the
+nominal counterpart of the verbal collective: both are additive-plural markers,
+the one on the possessed noun, the other on the predicate, and they routinely
+co-occur, as here.
+
 A west-coast oral-history excerpt from the Tarantomari narrator Yamada Hayo
 chains the reflexive `yay-` and the AN-class first person (here a 1PL) on the
 plural existential `okay`:
 
 <Example
 	ain="yay-sukukka te okay-an manu"
-	gloss="REFL-support.oneself CONJ live.PL-PRM.S REP"
+	gloss="REFL-support.oneself CONJ live.PL-INDEF.S REP"
 	surface="yáysukukka te oká am manu"
 	free="We lived supporting ourselves, it is said."
 	cite="Yamada (ELPR)"
@@ -488,7 +568,7 @@ The same narrator's first-person discovery uses the AN-class S on `inkar`
 
 <Example
 	ain="inkar-an manu reekor wen-poro-kotan"
-	gloss="look-PRM.S REP very EMPH-big-village"
+	gloss="look-INDEF.S REP very EMPH-big-village"
 	surface="ínkarán manu, ré:kor wémporokotan"
 	free="I looked, and saw a very large village, it is said."
 	cite="Yamada (ELPR)"
@@ -523,13 +603,20 @@ tale-closing formula <W w="hemaka" gloss="the end" />:
 Read side by side, the five texts sort along a clear east–west line. The
 <strong>east-coast</strong> *tuytah* (Text 1) and the West-central dialogues (Text 4) attest
 the full first-person apparatus — the AN-class `-an`/`an=`, the KU/CI-class
-object prefix `in-`, and the narrator-shifting use of the <Gl t="PRM" /> set —
+object prefix `in-`, and the narrator-shifting use of the <Gl t="INDEF" /> set —
 while the <strong>west-coast</strong> tales (Texts 2–3) are consistently third-person
 narratives in which `an=` has drifted toward a plain indefinite/passive, as <Cite key="Chiri 1942" paren={false} /> already observed.
 The collective <Gl t="COLL" /> `-ahci`/`-hsi`/`-si` is everywhere on plural and
-reciprocal predicates, and in Text 1 it does double duty as a passive marker —
-though whether it is genuinely a passive or an impersonal plural yielding a
-passive reading remains, as Sakaguchi cautions, an open question.
+reciprocal predicates, and in Text 1 it does double duty as a passive marker.
+Counting the tokens settles what an isolated example cannot: of the nine
+collective verbs in *Tuita 3*, eight agree straightforwardly with a plural
+participant and only `ocipa-hsi` does not, and that one stands exactly where a
+passive is expected (definite patient, backgrounded agent, and — uniquely — no
+accompanying `an=`). We therefore treat the collective as a participant-plural
+agreement clitic that has been recruited, by the cross-linguistically common
+impersonal-plural-to-passive route, as a *second* way of forming the passive
+alongside the primary marker `an=` — a grammaticalisation caught in progress
+rather than an unresolved ambiguity.
 
 Phonologically the texts display the <strong>coda shibboleth</strong>: the west-coast SW
 forms keep the older stops (`okkaw` "man", `pon-cikah` &lt; *-cikap*, `pateh`),

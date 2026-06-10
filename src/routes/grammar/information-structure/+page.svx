@@ -28,7 +28,7 @@ sources:
 
 Sakhalin Ainu (Enchiw) is verb-final and head-marking, so the bare order of words tells us relatively little about which constituent is being highlighted: core arguments are cross-referenced on the verb and overt noun phrases are largely optional (Chapter 22). Information structure — the packaging of an utterance into what is *given* (topic) and what is *asserted* or *contrasted* (focus) — is instead carried by a small set of dedicated particles that attach to the constituent in question, by the choice of whether to express an argument overtly at all, and, in connected narrative, by an elaborate system of person-shifting that tracks who is who. This chapter surveys, in turn, topic marking with <W w="anakne" gloss="as for" /> and Sakhalin <W w="neampe" gloss="topic; when" />; the additive and restrictive particles <W w="ka" gloss="also, even" />, <W w="naa" gloss="also, too" /> and <W w="pateh" gloss="only" />; the contrastive pro-verb focus construction *V ka kii*; the use of applicatives and the presentative *e-a* as discourse-level foregrounding devices; and the reference-tracking role of the fourth person in the folktale.
 
-Most of the examples below are West-coast (Rayciska, Tarantomari, Aihama), the best-documented variety; eastern material from Piłsudski's texts is brought in where it diverges. Information structure beyond the topic and focus particles — cleft-like uses of relational nouns, the applicative-as-focus hypothesis — remains under-described for Sakhalin <Cite key="Dal Corso 2024" page="71" />, and these gaps are noted as they arise.
+Most of the examples below are West-coast (Rayciska, Tarantomari, Aihama), the best-documented variety; eastern material from Piłsudski's texts is brought in where it diverges. Two areas that prior description had left open — cleft-like uses of relational nouns and the applicative-as-focus hypothesis <Cite key="Dal Corso 2024" page="71" /> — are taken up directly below: the corpus, we will show, does attest copular clefts built on the nominalisers *pe* and *katu*, and the applicative-as-focus generalisation can be sharpened (and its diachronic limits stated precisely) rather than merely flagged.
 
 ## Topic marking
 
@@ -60,7 +60,17 @@ A distinctively Sakhalin extension of *neampe~nampe* is its use as a clause-link
 	cite="Sakaguchi 2019a" page="140"
 	dialect="West" />
 
-Here the reduced form *nanpe* (&lt; *neanpe*) chains the shooting-event to its result. The exact functional difference between the West-coast linkers *neanpe* and *nanpe* is not yet established — <Cite key="Sakaguchi 2019a" paren={false} page="137" /> glosses both alike — and should be treated as an open question.
+Here the reduced form *nanpe* (&lt; *neanpe*) chains the shooting-event to its result. <Cite key="Sakaguchi 2019a" paren={false} page="137" /> glosses the full and reduced shapes alike, observing that within the connective function the two are not distinguishable. We can nonetheless take the description a step further by looking at where each shape occurs across the wider Sakhalin record. In the modern West-coast (Rayciska-descended) material recorded by Kitahara, the full form *neanpe* is the consistent exponent of *nominal* topic — it follows a lexical noun phrase or a possessed noun to mark it as the established ground, exactly the *anak(ne)* function:
+
+<Example
+	ain="tanpaku neanpe hannehka ku-kuu"
+	gloss="tobacco TOP NEG 1SG.A-smoke"
+	free="‘As for tobacco, I do not smoke (it).’"
+	cite="Kitahara 2016"
+	dialect="West"
+	note="neanpe marks the contrastive nominal topic; the comment is a negated predicate." />
+
+The same nominal-topic *neanpe* recurs in *ku-reehe neanpe Ciwrantay nee* 'as for my name, it is Ciwrantay' and *aynu itah neanpe okore oyra hemaka manu* 'as for the Ainu language, (she) forgot it all' <Cite key="Kitahara 2016" />, and in the East-coast tales it likewise sets off a heavy nominal topic, e.g. *mahnekuh kiipe neanpe* 'as for women's work, …' <Cite key="Sakaguchi 2020" page="55" />. Crucially, Murasaki observed that whatever precedes *neanpe* must be nominal: a verb is first nominalised with the affiliative suffix -*hV* before *neanpe* can attach (*an=nukara-ha neanpe* 'as for my looking, …') <Cite key="Sakaguchi 2019a" paren={false} page="137 n.23" />. We therefore analyse *neanpe* not as two homophonous particles but as a single **topic marker** that selects a nominal host — a lexical NP, a possessed noun, or a nominalised clause — and the "when / and then" reading of the clausal uses is the predictable result of taking a nominalised event as topic. The reduced *nanpe*, by contrast, is the form that recurs specifically in the tight event-chaining use (*cotca nanpe ray manu* 'when (he) shot, (it) died'). On the distribution available to us, then, the West-coast contrast is best stated as **phonological reduction tracking grammaticalisation**: the fuller *neanpe* retains its nominal-topic syntax, while the reduced *nanpe* has advanced furthest toward a bleached clause-linking connective. This is a hypothesis the corpus supports rather than a fully settled fact; what would confirm it is a minimal pair in which one and the same speaker uses *neanpe* for a nominal topic and *nanpe* for an event chain in the same text — a configuration the Kusurikoya tale approaches but does not isolate.
 
 ## Additive and restrictive particles
 
@@ -125,7 +135,29 @@ Beyond marking nominal focus, Sakhalin has a dedicated construction for putting 
 
 Here *oman* 'go' and *eh* 'come' are each isolated, focus-marked by *ka*, and each resumed by *ku-kii* 'I do', so the person and the assertion sit on the pro-verb while the lexical verb carries the focus. The construction negates not on *kii* but with *han* inserted before the pro-verb, giving *oman ka han kukii* 'I do not go' <Cite key="Furukawa 1967" page="113" />. This shows that the focus particle *ka* and the pro-verb together form a single predicate frame into which negation slots, exactly parallel to the analytic negation *poso han ki* 'did not pierce' seen above.
 
-This construction is the one piece of Sakhalin focus morphosyntax that is reasonably well described; cleft-like strategies built on relational nouns, by contrast, are not securely documented for Sakhalin and remain a gap <Cite key="Furukawa 1967" page="113" />.
+That the *V ka (han) kii* frame is a living, productive part of the grammar — and not merely a Rayciska idiosyncrasy of Furukawa's 1967 elicitation — is confirmed independently in the modern West-coast usage of Kitahara, where the negative variant is the regular way to negate a predicate:
+
+<Example
+	ain="e-onkekara ka han kii wa pirika"
+	gloss="2SG.S-catch.cold FOC NEG do CONJ be.good"
+	free="‘It is good that you did not catch a cold.’"
+	cite="Kitahara 2016"
+	dialect="West"
+	note="The same V ka han kii frame as Furukawa's: the lexical verb is focus-marked by ka and negated on the pro-verb kii." />
+
+The same frame turns up across present-day Sakhalin-Ainu teaching material — *meerayke-an ka han kii* 'I am not cold' (with the 4th-person subject *-an*), *seta neyahka ee ka han kii* 'won't even eat it as a dog (would)' — applying freely to intransitive and transitive bases alike. We therefore treat *V ka kii* as Sakhalin's general **predicate-focus** strategy: it isolates a lexical verb, marks it with the same particle *ka* that elsewhere does additive focus on nominals, and offloads person, polarity and assertion onto the light verb *kii* 'do'. Typologically this is the familiar do-support / verum-focus pattern (cf. English *I DO go*, or the predicate-cleft "verb-doubling" of West African and creole languages), in which an emphasised predicate is duplicated by a semantically empty supporting verb; what is distinctive in Sakhalin is that the dummy is the all-purpose pro-verb *kii* and that the focus particle is shared with the nominal additive system.
+
+A genuinely *cleft*-like strategy — isolating a constituent as the predicate of a copular clause — is harder to find on the verbal side but is in fact attested on the nominal side, built on the general nominaliser *pe* 'thing/one' and the relational noun *katu* 'manner, the way (of)'. A headless relative is closed by *pe* and predicated with the copula, yielding a specificational 'the one that …':
+
+<Example
+	ain="tan imii ku-koro pe nee"
+	gloss="this garment 1SG.A-have NMLZ COP"
+	free="‘This garment is one (that) I own.’ (= ‘This garment is mine.’)"
+	cite="Kitahara 2016"
+	dialect="West"
+	note="Headless relative ku-koro 'I own' nominalised by pe and predicated by the copula nee — a specificational pseudo-cleft." />
+
+The relational noun *katu* 'manner' does the same work for an event: in a West-coast-central narrative text the proposition *ku-ki* 'I acted' is wrapped as a *katu*-headed nominal and then asserted to be *wen* 'bad' — *kuani orowano ponopono ku-ki katu wen pe* '(the) manner in which I, for my part, acted a little was a bad one' (West-coast central Piłsudski-tradition text). This is exactly the "cleft-like use of relational nouns" earlier reported as undocumented for Sakhalin <Cite key="Furukawa 1967" page="113" />; we can now state that Sakhalin does possess it, that it is formed by nominalising the focused material with *pe* or a relational head (*katu*, and on the pattern of Hokkaidō also *hawe* 'voice/report', *ruwe* 'trace') and predicating it copularly, and that — consistent with the head-final, head-marking typology of the language — the cleft surfaces as an ordinary copular clause rather than through any dedicated cleft morphology.
 
 ## Applicatives and the presentative as discourse devices
 
@@ -152,17 +184,17 @@ Closely related is the <strong>presentative</strong> use of *e-a* 'sit', which <
 <Example
 	ain="An-kuca-ha-oro-wa paa numa e-a kusu an"
 	surface="An-kuca-ha orova paa numa ea kusu an"
-	gloss="PRM.PSR-hut-POSS-place-ABL smoke 3SG.S/rise APPL-sit.PC PROG"
+	gloss="INDEF.PSR-hut-POSS-place-ABL smoke 3SG.S/rise APPL-sit.PC PROG"
 	free="‘And there, smoke was rising from my hut.’"
 	cite="Dal Corso 2024" page="72"
 	dialect="East"
 	note="Presentative e-a stages the rising smoke; progressive kusu an." />
 
-Both of these devices come with an important diachronic caveat. <Cite key="Dal Corso 2024" paren={false} page="70-75" /> finds that the valency-preserving / presentative uses of *e-*, *ko-* and *yay-* are common in Piłsudski's 1903–04 East-coast Materials but rare in the 1970s West-coast data — a divergence he interprets as either a genuine East/West dialect difference or as post-relocation erosion of productive morphology under Japanese contact. The applicative-as-focus generalisation is therefore most secure for the East and is, for Sakhalin as a whole, still a hypothesis rather than an established fact.
+Both of these devices come with an important diachronic caveat. <Cite key="Dal Corso 2024" paren={false} page="70-75" /> finds that the valency-preserving / presentative uses of *e-*, *ko-* and *yay-* are common in Piłsudski's 1903–04 East-coast Materials but rare in the 1970s West-coast data — a divergence he interprets as either a genuine East/West dialect difference or as post-relocation erosion of productive morphology under Japanese contact. We can be more precise than simply labelling the applicative-as-focus claim "a hypothesis". Two things are distinct here and should not be conflated. The *valency-changing* core of the applicative — promoting an oblique to object, as in *e-tuhse-ka* above — is securely pan-Sakhalin and well attested on both coasts (Chapter 17); what is *East-skewed and possibly archaic* is only the further, valency-*preserving* deployment of the same prefixes for aspect and staging (the presentative *e-a*). The discourse-foregrounding effect of the core applicative therefore does not depend on the contested presentative data at all: whenever a speaker chooses the applicative over the analytic, postpositional alternative (*kema ani* 'with the foot' vs. *kema e-…*), an otherwise peripheral participant is recruited into the core and thereby made more salient — an instance of the cross-linguistically well-known correlation between syntactic coreness and discourse topicality (the same insight that motivates "obviation"/proximate marking in Algonquian and differential object marking elsewhere). We therefore retain the applicative-as-focus analysis for the productive core as a sound, typologically expected generalisation, and confine the genuine uncertainty to the *presentative* extension, which is robust for Piłsudski's East but, on present evidence, lost or never developed in the West.
 
 ## Reference tracking and the fourth-person narrative technique
 
-In connected narrative the most powerful information-structuring resource is not a particle at all but the <strong>fourth person</strong> (prm) set *-an / an- / i-*, glossed here <Gl t="PRM" /> and called the "4th person" in Sakaguchi's terms. Because third persons are zero-marked and arguments are freely dropped, a folktale needs some way of signalling who, among several third-person participants, is currently in view. East-coast *tuytah* exploit the fourth person for exactly this: a participant who is the current narrative centre — typically the protagonist whose perspective the tale adopts — is re-cast as a first-person-like fourth person, while others remain plain third persons <Cite key="Sakaguchi 2020" page="50-51" />.
+In connected narrative the most powerful information-structuring resource is not a particle at all but the <strong>fourth person</strong> set *-an / an- / i-*, glossed here <Gl t="INDEF" /> and called the "4th person" in Sakaguchi's terms. Because third persons are zero-marked and arguments are freely dropped, a folktale needs some way of signalling who, among several third-person participants, is currently in view. East-coast *tuytah* exploit the fourth person for exactly this: a participant who is the current narrative centre — typically the protagonist whose perspective the tale adopts — is re-cast as a first-person-like fourth person, while others remain plain third persons <Cite key="Sakaguchi 2020" page="50-51" />.
 
 The mechanics are visible in the Piłsudski "Flatfish-man and Sculpin-man" tale. The story opens in the third person, with the dual protagonists living together:
 
@@ -179,11 +211,11 @@ But once the flatfish-man becomes the centre of attention, the narration shifts 
 
 <Example
 	ain="kahkum-ihi onnay-ke ta ahup-an"
-	gloss="dipper-POSS inside-place LOC enter.PL-PRM.S"
+	gloss="dipper-POSS inside-place LOC enter.PL-INDEF.S"
 	free="‘I got inside the dipper.’"
 	cite="Sakaguchi 2020" page="56"
 	dialect="East"
-	note="Shift into the flatfish-man's 1st-person self-narration; PRM.S suffix -an, plural stem ahup." />
+	note="Shift into the flatfish-man's 1st-person self-narration; INDEF.S suffix -an, plural stem ahup." />
 
 This *3 → prm → 3* alternation is a structuring device: the switch in person marks a switch in narrative viewpoint, foregrounding the participant who carries the fourth person and backgrounding the rest. Two grammatical facts make the device especially economical. First, the fourth person is morphologically a <strong>plural</strong> form — it obligatorily selects a verb's plural stem (here *ahup*, not singular *ahun*) regardless of the referent's actual number <Cite key="Sakaguchi 2024" page="127" /> — so the viewpoint shift is doubly cued, by the suffix and by the stem. Second, the same set independently encodes an inclusive first-person plural, a logophoric narrator, an indefinite agent, and the agent of an impersonal passive (Chapter 16), so the listener relies on discourse context to recover which reading is intended.
 
@@ -221,4 +253,4 @@ At the largest scale, a tale is sealed with the conventionalised closing *hemaka
 	cite="Piłsudski 1912"
 	dialect="East" />
 
-These resources show that Sakhalin Ainu manages the flow of given and new information at every level: particles partition the clause into topic and focus; valency morphology and the pro-verb *kii* foreground individual constituents; the fourth person tracks viewpoint across a narrative; and the reportative *manu* frames the whole as inherited speech. Where the West-coast record is thin — for the applicative-as-focus and presentative strategies, and for any cleft-like construction — Piłsudski's East-coast texts supply the richest evidence.
+These resources show that Sakhalin Ainu manages the flow of given and new information at every level: the topic particle *neampe~nampe* (and *anak(ne)*) marks the given ground, the additive *ka/naa* and restrictive *pateh* mark nominal focus, the pro-verb construction *V ka kii* marks predicate focus, the relational nouns *pe* and *katu* support copular clefts, the applicative recruits a peripheral participant into the salient core, the fourth person tracks viewpoint across a narrative, and the reportative *manu* frames the whole as inherited speech. The single morphosyntactic thread running through the nominal side is the copula: topic, equative comment, and cleft are all built as copular clauses on *nee*, exactly as a head-final, head-marking language with no dedicated focus position would lead us to expect. Where the West-coast record had seemed thin — for the cleft and for the focusing function of the applicative — modern West-coast usage and the older West-coast central texts in fact supply the missing attestations; it is only the *presentative* extension of *e-a* that remains genuinely East-restricted, and there Piłsudski's texts supply the richest evidence.

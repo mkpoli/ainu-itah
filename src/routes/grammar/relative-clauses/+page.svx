@@ -100,11 +100,11 @@ relativisation as a purely East-coast trait. The construction is alive in modern
 West-coast usage too. In a pedagogical Raychishka dialogue the same frame appears
 twice in two clauses, here relativising the **object** of the naming verb
 <W w="yee" gloss="say, call" /> 'call' (with the indefinite/impersonal subject
-*an=*, glossed <Gl t="PRM" />):
+*an=*, glossed <Gl t="INDEF" />):
 
 <Example
 	ain="siisam itah ani [Ø] nah an=yee pe"
-	gloss="Japanese language INS [O] QUOT PRM.A=call NMLZ"
+	gloss="Japanese language INS [O] QUOT INDEF.A=call NMLZ"
 	free="the thing one calls (it) ‘tokkari’ in Japanese"
 	cite="Kitahara 2016"
 	dialect="West"
@@ -163,8 +163,9 @@ exactly such a case: the relativised element is the named object, gapped before
 the verb, while the instrumental <W w="ani" gloss="with, by means of" /> that
 marks the means *siisam itah* 'the Japanese language' stays **inside** the
 relative clause, orphaned of its complement. The bracketing is
-*[siisam itah <Gl t="INS" /> Ø an=yee] pe* '[the thing one calls Ø by-means-of
-the Japanese language]'. This West-coast token confirms the mechanism Bugaeva
+*[siisam itah ani Ø an=yee] pe* '[the thing one calls Ø by-means-of the Japanese
+language]', with <W w="ani" gloss="with, by means of" /> (<Gl t="INS" />) stranded
+exactly where the gap leaves it. This West-coast token confirms the mechanism Bugaeva
 describes for Ainu generally: under adjunct relativisation the postposition is
 left stranded, with no resumptive pronoun, and it is the stranded adposition
 that keeps the role of the gapped element recoverable.
@@ -213,15 +214,16 @@ generally (see [postpositions and relational nouns](/grammar/postpositions-relat
 Sakhalin furnishes a directly attested place-relative of the simpler subtype, in
 which the spatial argument is gapped under a **bound noun of place** rather than
 under retained <W w="oro" gloss="place" />. In Sentoku Tarōji's early-twentieth-century
-West-coast letters to Piłsudski, *e=an toko* '(the) place where you are' modifies
-nothing further but heads its own clause and is itself the goal of motion:
+Sakhalin letters to Piłsudski (Naibuchi, East coast), *e=an toko* '(the) place
+where you are' modifies nothing further but heads its own clause and is itself the
+goal of motion:
 
 <Example
-	ain="cokay e=an Ø toko pak-no paye=an kusu"
-	gloss="I.PRON 2SG.A=exist.SG LOC.GAP place TERM-ADV go.PL=PRM.S CAUF"
+	ain="cokay e=an [Ø] toko pak-no paye=an kusu"
+	gloss="I.PRON 2SG.S=exist.SG [LOC] place TERM-ADV go.PL=INDEF.S CAUF"
 	free="…because I will go all the way to the place where you are."
 	cite="Sentoku (letters)"
-	dialect="West"
+	dialect="East"
 	note="Locative relativisation: [e=an] toko ‘the place you are (at)’, head = the bound place-noun toko, the locus argument gapped. The whole then takes pak-no ‘up to, as far as’. From Sentoku Tarōji’s letters to Piłsudski; segmentation editorial." />
 
 Here <W w="toko" gloss="place, whereabouts" /> 'place, whereabouts' is the head
@@ -246,7 +248,7 @@ no Y]', i.e. 'X was a Y without equal'.
 
 <Example
 	ain="a=ona sorekusu pak-no nispa isam nispa ne"
-	gloss="PRM.A=father.POSS especially TERM-ADV rich.man not.exist rich.man COP"
+	gloss="INDEF.A=father.POSS especially TERM-ADV rich.man not.exist rich.man COP"
 	free="Father was really a rich man, with no peers."
 	cite="Bugaeva 2015" page="53"
 	dialect="Sakhalin"
@@ -273,7 +275,7 @@ inside an equative copular matrix — in the present sources <Cite key="Bugaeva 
 What we can show, however, is that every component the idiom is built from is
 independently and robustly attested in Sakhalin, so the gap is one of textual
 record rather than of grammar. (i) The degree postposition
-<W w="pakno" gloss="as far as, until" /> 'as far as, up to' is frequent in West-coast
+<W w="pakno" gloss="as far as, until" /> 'as far as, up to' is frequent in Sakhalin
 prose — Sentoku's letters use it repeatedly (*Otasan pak-no*, *Seraroka pak-no*,
 *e=an toko pak-no* 'as far as Otasan / Seraroka / the place you are'), and we have
 just seen it take a relativised, gap-headed phrase as its complement. (ii) The
@@ -322,7 +324,7 @@ English relative:
 
 <Example
 	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
-	gloss="PRM.A=forget-NMLZ-POSS PRM.A=search CAUF go.PL=PRM.S-POSS COP-although who ADD take-COLL CONJ not.exist"
+	gloss="INDEF.A=forget-NMLZ-POSS INDEF.A=search CAUF go.PL=INDEF.S-POSS COP-although who ADD take-COLL CONJ not.exist"
 	free="Although we went to search for what we had left, someone had already taken it."
 	cite="Bugaeva 2016" page="106"
 	dialect="West"

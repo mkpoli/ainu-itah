@@ -44,7 +44,7 @@ gives the Sakhalin set as *anokaj* ~ *kuani* (1sg), *eani* (2sg), *ani* (3sg),
 fieldwork records the West-coast variants *ku'ani*, *'e'ani*, *'anoka*, *'eci'oka* <Cite key="Furukawa 1967" page="103" />. Sakaguchi's East-coast paradigm aligns
 the pronouns with the affix series as *kuani* (1sg), *ciokay* (1pl excl.),
 *eani* (2sg), *eciokay* (2pl), *ani(hi)* (3sg) and *anoka(y)* for the
-fourth/<Gl t="PRM" /> person <Cite key="Sakaguchi 2024" page="18" />.
+fourth/<Gl t="INDEF" /> person <Cite key="Sakaguchi 2024" page="18" />.
 
 | Person | West (Furukawa) | Sakhalin general (Chiri) | East (Sakaguchi) |
 | --- | --- | --- | --- |
@@ -54,7 +54,7 @@ fourth/<Gl t="PRM" /> person <Cite key="Sakaguchi 2024" page="18" />.
 | 2pl | *'eci'oka* | *ečiokaj ~ ešiokaj* | *eciokay* |
 | 3sg | — | *ani* | *ani(hi)* |
 | 3pl | — | *okaj* | — |
-| <Gl t="PRM" /> (4th) | — | — | *anoka(y)* |
+| <Gl t="INDEF" /> (4th) | — | — | *anoka(y)* |
 
 The free pronoun is <strong>not</strong> itself the agreement marker: it co-occurs with, and is
 redundant to, the prefix on the verb. In the East-coast example below the 1sg
@@ -91,7 +91,7 @@ here as the addressee whom the writer reproaches:
 	dialect="East" />
 
 The <strong>fourth person</strong> (<Cite key="Sakaguchi 2024" paren={false} page="13" />'s
-term for the <Gl t="PRM" /> set <W w="an" gloss="-an" />/*an-*/*i-*) is in fact the
+term for the <Gl t="INDEF" /> set <W w="an" gloss="-an" />/*an-*/*i-*) is in fact the
 ordinary, unmarked way of referring to a first-person narrator in connected
 narrative. Its free pronoun is *anoka(y)*, and it triggers the *an-* series on the
 verb even when the referent is a single speaker:
@@ -190,7 +190,7 @@ text it determines *kotan* 'village':
 
 <Example
 	ain="tan kotan ohta utasa-an kusu ariki-an"
-	gloss="this village LOC visit-PRM.S because come.PL-PRM.S"
+	gloss="this village LOC visit-INDEF.S because come.PL-INDEF.S"
 	free="‘I have come to visit this village.’"
 	cite="Chiba (archive)"
 	dialect="West" />
