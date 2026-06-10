@@ -200,7 +200,7 @@ and *kunkutu* to a (still unidentified) source connected with sable-pelt tallies
 
 The tens are formed *C-kunkutu*: <W w="tu-kunkutu" gloss="twenty" />,
 *re-kunkutu* "thirty", and so on up to *sinepisan-kunkutu* "ninety". One gap is
-systematic: **ten is never \*sine-kunkutu**, but remains the native *wanpe*
+systematic: <strong>ten is never \*sine-kunkutu</strong>, but remains the native *wanpe*
 (<Cite key="Murasaki 2009" page="74" />; <Cite key="Sakaguchi 2022" />). The
 hundreds are *C-tanku* and the thousands *C-wantanku*, which let Sakhalin count
 easily into the thousands — something Hokkaido could not do. The trade origin is
@@ -460,8 +460,7 @@ both the digit and the base portions.
 
 No source consulted here sets out a Sakhalin ordinal paradigm, and on the strength
 of that several handbooks leave ordinals blank. The running texts, however, show
-clearly how ranking is in fact expressed, and the picture is consistent: **Sakhalin
-has no dedicated ordinal morphology and instead recruits two strategies**, an
+clearly how ranking is in fact expressed, and the picture is consistent: <strong>Sakhalin has no dedicated ordinal morphology and instead recruits two strategies</strong>, an
 adverbial-lexical one for the salient first/next positions and bare cardinal
 modification for the rest. This is itself a cross-linguistically ordinary state of
 affairs — many languages lexicalise only "first" (and sometimes "second"/"last")
@@ -503,8 +502,7 @@ simply *re* "three" modifying the noun:
 	cite="Murasaki 2001" page="Tale 92" dialect="West"
 	note="Asai Take, Odasu; bare attributive re 'three' read as ordinal 'third' from the narrative sequence (first corner … third corner …)" />
 
-We therefore describe the Sakhalin ordinal system as **suppletive at the low end
-and zero-marked above it**: lexical *hoski(no)* "first", derived *(i)otutanu*
+We therefore describe the Sakhalin ordinal system as <strong>suppletive at the low end and zero-marked above it</strong>: lexical *hoski(no)* "first", derived *(i)otutanu*
 "second/next", and thereafter the plain attributive cardinal, disambiguated by the
 sequence in which the referents are introduced. A dedicated ordinal affix of the
 Hokkaido *D ikin(ne)* type (e.g. *iwan ikin ne* "sixth") is <strong>not</strong> part of the

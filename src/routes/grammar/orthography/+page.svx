@@ -164,7 +164,7 @@ west-coast forms but, like its sources, omits it where it is not contrastive.
 The practical orthography of Kyōko Murasaki's west-coast fieldwork (Rayciska,
 Maoka) is the descriptive baseline of this grammar. It is the Chiri-Hattori
 system plus three west-coast conventions: long vowels written <strong>double</strong>
-(*koore* 'hand over', *reekoh* 'very'), the **coda-*h*** discussed below, and —
+(*koore* 'hand over', *reekoh* 'very'), the <strong>coda-<em>h</em></strong> discussed below, and —
 in the reclamation register — an explicit `=` clitic boundary before person
 affixes. A textbook sentence from the modern Karafuto teaching corpus shows the
 register in use:
@@ -235,7 +235,7 @@ matters.
 ## The coda-*h*: the orthographic shibboleth
 
 The clearest typographic mark of Sakhalin Ainu is its treatment of word-final
-consonants. Hokkaido syllable-final /p t k/ correspond to Sakhalin **-*h***:
+consonants. Hokkaido syllable-final /p t k/ correspond to Sakhalin <strong>-<em>h</em></strong>:
 Hokkaido *yap* 'land' is Sakhalin <W w="yah" gloss="land" />, *cikap* 'bird' is <W w="cikah" gloss="bird" />, *'okkayo* 'man' is *'ohkayo* <Cite key="Tangiku 1998" page="2-2" />.
 
 <Example
@@ -298,8 +298,7 @@ The correspondences are summarised below.
 | -r | echo-vowel -rV (kor → koro) or -h | echo-vowel -rV; rarely -x | Tangiku 1998; Dal Corso 2025 |
 | -m, -n | -m, -n (kept) | -m, -n | Tangiku 1998: 2-1 |
 
-Coda /r/ is the special case. In the west it is resolved either by an **echo
-vowel** that copies the preceding root vowel (*kor* → <W w="koro" gloss="have" />)
+Coda /r/ is the special case. In the west it is resolved either by an <strong>echo vowel</strong> that copies the preceding root vowel (*kor* → <W w="koro" gloss="have" />)
 or by debuccalization to *-h*. That the echo vowel is orthographically real, not
 mere padding, is shown by suffixation: a *-rV* verb takes the vowel-type
 collective *-hci*, never the consonant-type *-ahci*, confirming the stem is

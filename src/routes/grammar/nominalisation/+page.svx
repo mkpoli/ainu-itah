@@ -428,8 +428,7 @@ work there as in the West — V-poss + a copula-based head:
 	dialect="East"
 	note="East-coast adverbial V-poss: ahup-an-ihi 'my entering' + neanpe (ne-an-pe) 'when/as for'; a stage-III use parallel to West-coast ne-yah etc." />
 
-More tellingly, V-poss appears East-coast in an unembedded **main-clause content
-question**, the very stage-IV use whose East-coast existence the earlier literature
+More tellingly, V-poss appears East-coast in an unembedded <strong>main-clause content question</strong>, the very stage-IV use whose East-coast existence the earlier literature
 left open:
 
 <Example

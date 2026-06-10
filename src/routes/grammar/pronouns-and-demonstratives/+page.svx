@@ -250,7 +250,7 @@ first vowel syncopated, occurring in the same topic and "when/then" functions
 (*cotca nanpe ray manu* '(when he) shot it, it died'). The same *nea-* > *na-*
 reduction is independent of dialect and is the regular Sakhalin fate of an
 unstressed *e* in a clitic-like grammatical word. We therefore treat *nanpe* not as
-a distinct lexeme but as a **fast-speech reduction of *neanpe***, which is why a
+a distinct lexeme but as a <strong>fast-speech reduction of <em>neanpe</em></strong>, which is why a
 single gloss serves both — the right analysis is that there is one marker with two
 prosodic realisations, not two markers awaiting differentiation. It is treated
 as a topic marker in the chapters on [information structure](/grammar/information-structure)
@@ -350,8 +350,7 @@ Murasaki's primer:
 	cite="Murasaki 2024"
 	dialect="West" />
 
-Layered on top of the place deictics is a distinctively Sakhalin **directional
-frame** that marks motion toward versus away from a landmark with the prefixes
+Layered on top of the place deictics is a distinctively Sakhalin <strong>directional frame</strong> that marks motion toward versus away from a landmark with the prefixes
 *he-* / *ho-* on a locative root: *he-kim-o* 'toward the forest' versus *ho-kim-o*
 'from the forest', *he-pis-o* 'toward the shore' versus *ho-pis-o* 'from the shore' <Cite key="Chiri 1942" page="§87" />. These *he-/ho-* frames have no exact Hokkaidō
 counterpart and are described more fully in the chapter on

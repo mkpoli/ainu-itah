@@ -179,8 +179,7 @@ subject:
 ## The nominalising-plus-copula predicate
 
 A characteristically Sakhalin feature cuts across aspect and mood alike: finite
-main clauses are very often built on a **nominalised verb followed by the copula
-*ne(e)***. The possessive suffix *-hV* / *-V(hV)*, which Sakhalin Ainu has
+main clauses are very often built on a <strong>nominalised verb followed by the copula <em>ne(e)</em></strong>. The possessive suffix *-hV* / *-V(hV)*, which Sakhalin Ainu has
 generalised to mark possession on <strong>all</strong> nouns (<Cite key="Bugaeva 2016" paren={false} />),
 attaches to a verb to yield a non-finite ‘V-poss’ form; that nominalisation then
 serves as the argument of the copula — originally a biclausal structure, a
@@ -349,8 +348,7 @@ Furukawa (1967: §3) states that she identified roughly forty conjunctive
 chose to describe only "two or three examples"
 (<Cite key="Furukawa 1967" page="§3" paren={false} />), and her published set is just
 *wa, teh, yayne, yahka, kanne*. The natural inference is not that the system is
-undescribed but that her forty are the **fine-grained collocational variants of a
-small closed class of converb particles**. Pooling Chiri's pan-dialectal account
+undescribed but that her forty are the <strong>fine-grained collocational variants of a small closed class of converb particles</strong>. Pooling Chiri's pan-dialectal account
 with the corpus recovers that class directly: the sequential converbs *wa*
 (tight, gapless), *teh* (delayed), *hine ~ ine*, the simultaneous *kane(-ne)*,
 the durative-trigger *yayne*, the concessive *yahka*, and the subordinators
@@ -375,8 +373,7 @@ unambiguously pre-event; Sentoku's *oman kusu kara* ‘intends to go’ confirms
 reading in connected prose. By contrast Chiri's *ea* is listed under the durative
 (<Foreign lang="ja" rom="jizoku-tai">持続態</Foreign>) ‘be in the course of
 V-ing’ (<Cite key="Chiri 1942" page="§45 (7)" paren={false} />), an intra-event aspect. We
-therefore analyse the contrast as **prospective (*kusu kara*) vs durative
-(*ea*)**: the two differ in temporal orientation relative to the event nucleus
+therefore analyse the contrast as <strong>prospective (<em>kusu kara</em>) vs durative (<em>ea</em>)</strong>: the two differ in temporal orientation relative to the event nucleus
 and in their second element (*kara* ‘make, do’ vs the bound *ea*), and there is
 no residual indeterminacy between them once *kusu kara* is correctly classed with
 the prospective rather than the durative.
@@ -397,8 +394,7 @@ strong form is simply the weak form "fully pronounced," the two series being <st
 closed-syllable stems the choice of forming-suffix is, in his words, governed
 "entirely by habit" — i.e. lexically fixed rather than meaningful (<Cite
 key="Chiri 1942" page="§72" paren={false} />). On the strength of Chiri's prior and fuller
-account we analyse the short/long contrast as a **lento–allegro phonological
-doublet with lexical conditioning, carrying no aspectual or evidential meaning**;
+account we analyse the short/long contrast as a <strong>lento–allegro phonological doublet with lexical conditioning, carrying no aspectual or evidential meaning</strong>;
 Bugaeva's "unclear" is best read as the absence of a *semantic* contrast to be
 found, exactly as the morphophonological analysis predicts.
 

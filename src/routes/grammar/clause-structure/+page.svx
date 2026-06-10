@@ -136,8 +136,7 @@ the comparative *akkari*. A productive set of relational ("formal") nouns — *k
 Several Sakhalin developments distinguish this system from Hokkaido. The ablative
 *oro* can stand alone, without any following case particle — a Sakhalin
 innovation — and *otta*, *orun*, and *orowa* have begun to behave as free
-adverbs, drifting away from their original relational-noun-plus-particle syntax <Cite key="Chiri 1942" page="§79" />. The ablative also marks the **agent of an
-impersonal passive**, where West-coast spoken forms reduce *orowa* to <W w="ora" gloss="from" />:
+adverbs, drifting away from their original relational-noun-plus-particle syntax <Cite key="Chiri 1942" page="§79" />. The ablative also marks the <strong>agent of an impersonal passive</strong>, where West-coast spoken forms reduce *orowa* to <W w="ora" gloss="from" />:
 
 <Example
 	ain="seta ora kopiwke kimun ne kira"
@@ -163,8 +162,7 @@ noun *oro*, and the ablative phrase may itself host a possessor prefix:
 
 A defining property of the Sakhalin clause is an <strong>obligatory clause-final slot</strong>
 for a mood or evidential particle (Furukawa's *Par.F*). <Cite key="Furukawa 1967" page="104" paren={false} />
-emphasises that in Raychishka this slot must be filled, and that **intonation is
-contrastive** within it: a rising final *wa*↗ marks the imperative, a falling
+emphasises that in Raychishka this slot must be filled, and that <strong>intonation is contrastive</strong> within it: a rising final *wa*↗ marks the imperative, a falling
 *wa*↘ the (past) interrogative — so question intonation is falling, contrary to
 many languages. The two readings of *wa* form a minimal pair:
 
@@ -374,8 +372,7 @@ Crucially, Furukawa records an asymmetry that lets us tighten the rule: the
 plain-stem *tara aynu oman*↘ was <strong>not accepted</strong> as a question — the falling
 (interrogative) Ø requires the V-poss/-hV form (*omanihi*), whereas the rising
 (affirmative) Ø is compatible with either stem. We therefore analyse the system as
-one in which **interrogation is carried by falling intonation plus the
-personal-knowledge nominalisation**, and the final particle (when present) merely
+one in which <strong>interrogation is carried by falling intonation plus the personal-knowledge nominalisation</strong>, and the final particle (when present) merely
 makes that contour lexically explicit — *wa*↘ being the overt counterpart of the
 falling Ø, *wa*↗ of the rising one. This is the cross-linguistically ordinary
 situation of a polar question signalled prosodically (and here, unusually, by a <strong>falling</strong> contour, as in some West-African and Mainland-Southeast-Asian systems)
@@ -414,8 +411,7 @@ functional split.
 The apparent disagreement over the hortative *roo* dissolves on closer reading of
 the two sources. <Cite key="Chiri 1942" page="§119" paren={false} /> analyses *ro*
 as the inclusive-1PL imperative — the ‘let us …’ of *paye-an ro!* ‘let's go!’,
-which takes the inclusive affixes (*a-*, *-an*) — and states that **Sakhalin does
-not use *ro***, offering instead the bare inclusive form, optionally opened by
+which takes the inclusive affixes (*a-*, *-an*) — and states that <strong>Sakhalin does not use <em>ro</em></strong>, offering instead the bare inclusive form, optionally opened by
 *ke(h)*: *ke mosso paye-an-hci!* ‘come, let's go quickly!’. Furukawa's West-coast
 Raychishka data give exactly this Sakhalin strategy *plus* a final *roo*: *keh,
 paye-an roo* ‘come on, let's go!’ <Cite key="Furukawa 1967" page="107" />. The
@@ -440,8 +436,7 @@ doubt; only the lexical particle is areally restricted:
 
 The applicative-as-focus claim <Cite key="Dal Corso 2024" page="71" /> can be made
 concrete for Sakhalin on the attested East-coast data. Applicativisation with *e-*
-/ *ko-* promotes an oblique to a core object, and in doing so **foregrounds an
-otherwise peripheral participant** — a packaging operation, not a change of
+/ *ko-* promotes an oblique to a core object, and in doing so <strong>foregrounds an otherwise peripheral participant</strong> — a packaging operation, not a change of
 truth-conditional content, since the thematic role of the promoted argument is
 unchanged. This is the standard discourse-functional account of applicatives
 (promotion to object as a topic-worthiness / focus-assigning device), and the

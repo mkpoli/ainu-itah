@@ -42,8 +42,7 @@ inventory here directly from the West- and East-coast corpora. Three selectional
 classes emerge, distinguished by the shape they impose on their complement
 (tabulated in the final section): (i) <strong>tight desiderative/modal predicates</strong>
 (<W w="rusuy" gloss="want" />, <W w="easkay" gloss="be able" />), which take a bare
-verb and weld it into a single complex predicate; (ii) **evaluative and
-veridicality predicates** (<W w="pirka" gloss="be good" />, <W w="wen" gloss="be bad" />, <W w="sunke" gloss="be untrue" />), which take a nominalised clause — on the West
+verb and weld it into a single complex predicate; (ii) <strong>evaluative and veridicality predicates</strong> (<W w="pirka" gloss="be good" />, <W w="wen" gloss="be bad" />, <W w="sunke" gloss="be untrue" />), which take a nominalised clause — on the West
 coast canonically the V-poss form — as their subject argument; and (iii) <strong>utterance and cognition predicates</strong> (<W w="yee" gloss="say" />, <W w="ramu" gloss="think" />, <W w="wante" gloss="know" />), which either frame a clause with the quotative <W w="nah" gloss="that (QUOT)" /> or take a *pe*/*hi*-headed or V-poss
 nominalisation. The account below substantiates each class from attested material.
 
@@ -321,8 +320,7 @@ and no person-marking of its own:
 	dialect="West"
 	note="kemeiki ‘do needlework’ is a bare-verb complement of easkay; cf. ‘e'askay in the conditional clause of the clause-linking chapter." />
 
-We therefore treat *rusuy* and *easkay* as a single class of **tight modal/ability
-predicates** taking a monoclausal bare-verb complement — the type that Givón's
+We therefore treat *rusuy* and *easkay* as a single class of <strong>tight modal/ability predicates</strong> taking a monoclausal bare-verb complement — the type that Givón's
 binding hierarchy places at the most tightly integrated end, where the
 complement-taking verb (here a desiderative/modal) shares its subject with the
 complement and the two verbs form one predicate. There is no nominalising
@@ -419,8 +417,7 @@ typology.
 | Utterance (direct quote) | *yee* 'say' | direct clause + *nah* | *… kusu nah yee* |
 | Cognition (thought / knowledge) | *ramu* 'think', *wante* 'know' | *nah*-framed clause, or *pe*/*hi*/V-poss NMLZ | *… nah ramu*, *…-pi-hi aneramuskari* |
 
-The generalisation we extract is that **the tighter the semantic bond between
-matrix and complement, the less nominalising morphology the complement carries**:
+The generalisation we extract is that <strong>the tighter the semantic bond between matrix and complement, the less nominalising morphology the complement carries</strong>:
 the subject-sharing desideratives and modals take a stripped bare verb, the
 clause-as-argument evaluatives take a full V-poss nominalisation, and the
 loosely bound utterance verbs take an unreduced direct clause set off by *nah*.

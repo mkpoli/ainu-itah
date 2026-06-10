@@ -205,8 +205,7 @@ states the rule explicitly. We can summarise her account as follows. The <strong
 recurs on the even-numbered morae (the fourth, sixth, eighth), with pitch
 stepping down at each successive peak. A repair clause applies when the
 accent-bearing mora would be a non-onset one — a V mora (the second half of a
-long vowel) or a coda C\* — in which case the accent **retracts to the preceding
-mora**. This single algorithm derives the attested contours: disyllabic *sapa*
+long vowel) or a coda C\* — in which case the accent <strong>retracts to the preceding mora</strong>. This single algorithm derives the attested contours: disyllabic *sapa*
 'head' and *cikah* 'bird' are LH (accent on the second mora); trisyllabic
 *hekaci* 'child' is LHL; and an open monosyllable such as *kaa* 'thread' or *too*
 'lake' is simply H — its second mora being the V half of the long vowel, the
@@ -214,15 +213,13 @@ accent retracts onto the first, giving a high monosyllable <Cite key="Itabashi 2
 predicts where length surfaces (an accented open syllable lengthens to carry the
 second mora) and predicts the pitch shape that a phonetician would transcribe.
 
-Because this contour is automatic, "accent" in Sakhalin is best understood, with <Cite key="Itabashi 2001" page="88" paren={false} />, as **culminative
-prominence** — the metrical head that licenses length and the glottal onset
+Because this contour is automatic, "accent" in Sakhalin is best understood, with <Cite key="Itabashi 2001" page="88" paren={false} />, as <strong>culminative prominence</strong> — the metrical head that licenses length and the glottal onset
 (below) — rather than as a lexically contrastive tone of the Hokkaido type. In
 the terms of metrical phonology it is a stress system with a fixed,
 edge-counting foot structure and a predictable pitch realisation, the prosodic
 profile typical of languages (Japanese loanword phonology, Turkish, Finnish)
 where prominence is positionally assigned rather than lexically stored. What is
-striking, and sets Sakhalin apart from Hokkaido, is the **stability of this head
-under inflection**, documented most clearly in the possessive (personal-stem)
+striking, and sets Sakhalin apart from Hokkaido, is the <strong>stability of this head under inflection</strong>, documented most clearly in the possessive (personal-stem)
 paradigm.
 
 ## Accent stability in the possessive paradigm
@@ -285,9 +282,7 @@ syllable rather than being a free segment of its own.
 That the onset is conditioned by prominence rather than being a free segment can
 be shown positively from the West-coast orthographic practice itself, which is
 consistent enough to function as a phonological diagnostic. The apostrophe is
-written not only at the left edge of an accented vowel-initial word but also
-**word-internally, at the onset of an accented vowel-initial morpheme inside a
-larger form**: in *siina'an* 'indeed, that's so' the glottal stop surfaces at the
+written not only at the left edge of an accented vowel-initial word but also <strong>word-internally, at the onset of an accented vowel-initial morpheme inside a larger form</strong>: in *siina'an* 'indeed, that's so' the glottal stop surfaces at the
 juncture before the verb *an* 'be'; the same internal onset appears in *'oro'un*
 'into', *'usa'oka* 'various', and *'eram'eskari* 'not know' <Cite key="Ainu Times" />, <Cite key="Murasaki 2024" />. Where a vowel-initial
 morpheme is *un*accented — for instance when it cliticises to a host — no glottal
@@ -335,8 +330,7 @@ nineteenth-century wordlists of Krasheninnikov, Voznesenskii, Dybowski and
 Torii, and these are fragmentary and mutually inconsistent on quantity — '2'
 appears as *tuup* ~ *tuuh* ~ *tubic* ~ *doobechi*, 'fog' as *uurar* ~ *urar* ~
 *reera* across collectors <Cite key="Itabashi 2001" page="90" />, <Cite key="Itabashi 2001" page="91" />. From exactly this material, however, <Cite key="Itabashi 2001" page="91" paren={false} /> argues a reasoned position
-rather than a blank, and we follow it: Kuril most likely had a **pitch accent of
-the Hokkaido type** — a distinctive low-to-high rise with the syllables before
+rather than a blank, and we follow it: Kuril most likely had a <strong>pitch accent of the Hokkaido type</strong> — a distinctive low-to-high rise with the syllables before
 the rise low and those after it falling, and an accent-core position broadly
 parallel to Hokkaido — while the irregular long-vowel spellings leave open that
 vowel length was *also* distinctive and, as in the two-feature reconstruction

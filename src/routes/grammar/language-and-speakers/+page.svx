@@ -127,8 +127,7 @@ on the <strong>East coast</strong> and is absent from the West:
 	dialect="East" />
 
 The complementary set <Gl t="INDEF" /> (the *-an*/*an-*/*i-* affixes, glossed
-here as INDEF, "participant-referentiality mismatch", and called the **4th
-person** by Sakaguchi) is the workhorse of the Sakhalin verb. It cross-references
+here as INDEF, "participant-referentiality mismatch", and called the <strong>4th person</strong> by Sakaguchi) is the workhorse of the Sakhalin verb. It cross-references
 the inclusive first-person plural, an indefinite agent, the agent of an
 impersonal passive, and — in narrative — a folklore narrator referring to
 himself in the fourth person <Cite key="Dal Corso 2025" page="196" />:
@@ -217,8 +216,7 @@ the higher numbers of the modern West data <Cite key="Murasaki 2024" page="85" /
 
 ## Elder speech and young speech
 
-West Sakhalin preserves a productive register distinction between **elder
-speech<strong> and </strong>young speech** (年長者層特殊語), first noted by Hattori in 1957 and
+West Sakhalin preserves a productive register distinction between <strong>elder speech<strong> and </strong>young speech</strong> (年長者層特殊語), first noted by Hattori in 1957 and
 reframed by Murasaki as ordinary elder colloquial usage. The two registers
 differ even in their person affixes and pronouns: the first-person singular is
 *ku-* in young speech but <W w="'an" gloss="1SG (elder speech)" /> in elder
@@ -254,8 +252,7 @@ number- (and politeness-) mismatched self-reference — comparable to the
 "royal" or deferential plural-for-singular of many European and East Asian
 languages — but here it is grammaticalised as a generation-graded register
 rather than a status one. We therefore treat elder speech not as a separate
-pronoun inventory but as a register-conditioned **reanalysis of the
-fourth-person set as a singular**, with the inclusive/exclusive opposition (already
+pronoun inventory but as a register-conditioned <strong>reanalysis of the fourth-person set as a singular</strong>, with the inclusive/exclusive opposition (already
 absent in the West, see above) leaving the *'an*-set free to be recruited for
 this purpose. The register is documented chiefly from Fujiyama Haru and Asai
 Take; a full catalogue of which lexemes and constructions it touches beyond the
@@ -284,12 +281,12 @@ be the anomaly to explain, not its presence. (ii) There is positive
 distributional evidence inside Piłsudski's own corpus: word-final debuccalisation
 of an underlying plosive to [x] across a word
 boundary, as in *nax án* (phonetic [nax an]) ‘to be so’ (&lt; *nah an*,
-underlyingly *nak\**), is exactly the sandhi conditioned by a following
+underlyingly /nak/), is exactly the sandhi conditioned by a following
 glottal-initial *'an*; the realisation *nax án* "may be indicative of the
 presence of a glottal stop, i.e. *'an*" <Cite key="Dal Corso 2024" page="62" />. (iii) Methodologically
 this is the ordinary situation of recovering a phoneme that a transcriber's L1
 made inaudible — the standard remedy is comparative and distributional
-reconstruction, not silence. We therefore treat East-Sakhalin *'-* as <strong>present but systematically unrecorded</strong> in Piłsudski, and write it where the
+reconstruction, not silence. We therefore treat the East-Sakhalin glottal stop as <strong>present but systematically unrecorded</strong> in Piłsudski, and write it where the
 West-Sakhalin and Hokkaido cognates and the sandhi require it; positive
 confirmation would come from the restored wax-cylinder audio, on which a
 glottal onset, unlike a "Slav ear", can be measured directly.
@@ -303,8 +300,7 @@ dictionary's named speakers against the 1862 Usoro household register (人別帳
 the 1876 *Perepis'* census, and Matsuura Takeshirō's registry copies, placing
 Kasitur's household at Komisirarapo (小茂白), some three versts north of
 Kushunnai, with his children appearing in the Usoro register — a convergence of
-independent records that fixes the speech to the **West-central coast around
-Kushunnai** with reasonable confidence. We adopt that localisation; the
+independent records that fixes the speech to the <strong>West-central coast around Kushunnai</strong> with reasonable confidence. We adopt that localisation; the
 residual uncertainty is one of precise settlement within a small known area,
 not of region. Where such gaps still bear on a grammatical claim, this grammar
 flags them rather than papering over them.

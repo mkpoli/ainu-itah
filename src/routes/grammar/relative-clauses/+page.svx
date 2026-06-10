@@ -155,8 +155,7 @@ would be promoted to head and <W w="tura" gloss="together with" /> would remain
 inside the clause, stranded before the verb — '(the person) [I came together
 with]'.
 
-For the instrumental the stranding is not merely predicted but **directly
-attested** in Sakhalin. The naming relative *siisam itah ani [Ø] nah an=yee pe*
+For the instrumental the stranding is not merely predicted but <strong>directly attested</strong> in Sakhalin. The naming relative *siisam itah ani [Ø] nah an=yee pe*
 'the thing one calls (it) … in Japanese' (§ argument relativisation above) is
 exactly such a case: the relativised element is the named object, gapped before
 the verb, while the instrumental <W w="ani" gloss="with, by means of" /> that
@@ -281,8 +280,7 @@ above. Since the superlative idiom is simply the composition of these three —
 a degree adjunct relativised with stranded <W w="pakno" gloss="until" />, the
 predicate <W w="isam" gloss="not exist" />, and an equative copular frame — and
 since the stranding mechanism on which it rests is pan-Ainu and demonstrably
-operative in Sakhalin, **we analyse the construction as fully available
-island-wide**, the absence of a recorded token being an accident of the thin
+operative in Sakhalin, <strong>we analyse the construction as fully available island-wide</strong>, the absence of a recorded token being an accident of the thin
 Sakhalin text base. A confirming datum would be a Sakhalin equative clause of the
 shape '[X <Gl t="TERM" /> Y <W w="isam" gloss="not exist" />] Y <W w="ne" gloss="be" />'
 — precisely the frame whose ingredients are all attested separately.

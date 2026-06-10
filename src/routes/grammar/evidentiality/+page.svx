@@ -64,8 +64,7 @@ continuum order, the more reliable marker falling inside the scope of the less
 reliable one.
 
 A morphosyntactic regularity unifies the whole system. Every inferential and
-the personal-knowledge -hV are built on a **possessed sensorial noun plus the
-existential<strong> <W w="an" gloss="exist" /> </strong>or copula** <W w="ne" gloss="be" />: <W w="ruu" gloss="trace" /> 'trace' › *ruwehe 'an*, <W w="siri" gloss="appearance" /> 'appearance' › *sirihi 'an*, <W w="hum" gloss="sound" /> 'sound' › *humihi 'an*, <W w="haw" gloss="voice" /> 'voice' › *hawehe 'an*.
+the personal-knowledge -hV are built on a <strong>possessed sensorial noun plus the existential<strong> <W w="an" gloss="exist" /> </strong>or copula</strong> <W w="ne" gloss="be" />: <W w="ruu" gloss="trace" /> 'trace' › *ruwehe 'an*, <W w="siri" gloss="appearance" /> 'appearance' › *sirihi 'an*, <W w="hum" gloss="sound" /> 'sound' › *humihi 'an*, <W w="haw" gloss="voice" /> 'voice' › *hawehe 'an*.
 This is the same possessive machinery that, applied to a verb, yields the
 personal-knowledge form — the Sakhalin V-poss nominalisation treated in
 [Chapter 23](/grammar/nominalisation). Evidentiality in Sakhalin Ainu is thus
@@ -74,8 +73,7 @@ construction <Cite key="Bugaeva 2016" />.
 
 ## Personal-knowledge evidentiality (-hV / -Ø)
 
-The most reliable evidential marks **direct evidence from the speaker's
-prepossessed or assimilated knowledge** <Cite key="Dal Corso 2018" page="§7.2" />.
+The most reliable evidential marks <strong>direct evidence from the speaker's prepossessed or assimilated knowledge</strong> <Cite key="Dal Corso 2018" page="§7.2" />.
 Morphosyntactically it is a clausal nominalisation: the verb takes either the
 overt possessive suffix <Gl t="PK" /> -hV (with vowel copy: *koro* › *koro-ho*;
 consonant-final stems insert an epenthetic *i*: *an* › *an-i-hi*) or a
@@ -296,8 +294,7 @@ cline, and its absence from Dal Corso's corpus reflects sampling, not grammar.
 
 Since Sakhalin Ainu has no tense morphology, the inferentials carry the temporal
 load by Reichenbachian inference. The sensorial stimulus fixes a reference point
-(it is available at speech time, so R = S), and the **telicity of the scope
-predicate** then resolves present versus past <Cite key="Dal Corso 2018" page="§7.3.9" />.
+(it is available at speech time, so R = S), and the <strong>telicity of the scope predicate</strong> then resolves present versus past <Cite key="Dal Corso 2018" page="§7.3.9" />.
 A trace can outlive the event it indexes, so *ruwehe 'an* is ambiguous: with a <strong>telic</strong> scope predicate the event precedes speech time and a <strong>past</strong> reading
 results, while with an <strong>atelic</strong> predicate the event coincides with the trace
 and a <strong>present</strong> reading results.
@@ -375,8 +372,7 @@ A copular clause closed by *manu* reports a stated fact at second hand:
 	cite="Piłsudski 1912" page="43" dialect="East" />
 
 The most distinctive Sakhalin fact about *manu* is its behaviour in narrative.
-There it undergoes a **shift to a direct "traditional/shared knowledge"
-evidential<strong>, with </strong>no formal change** to the marker <Cite key="Dal Corso 2018" page="§7.4" />.
+There it undergoes a <strong>shift to a direct "traditional/shared knowledge" evidential<strong>, with </strong>no formal change</strong> to the marker <Cite key="Dal Corso 2018" page="§7.4" />.
 The tale-opening *…i-reske manu* 'I was [traditionally] brought up by…' is not
 hearsay but the narrator's mode of conveying inherited, shared knowledge; and a
 traditional tale closes with the same particle:
