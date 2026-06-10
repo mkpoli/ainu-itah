@@ -6,10 +6,12 @@ status: draft
 blurb: How Sakhalin Ainu turns clauses into nouns — from bound-noun nominalisers to the innovative possessive-style verb form V-poss and its insubordinated finite use.
 sources:
   - Bugaeva 2016
+  - Dal Corso 2018
   - Furukawa 1967
   - Chiri 1942
   - Murasaki 1979
   - Murasaki 2013
+  - Murasaki 2024
   - Piłsudski 1912
   - FF-Ainu (Karafuto materials)
 ---
@@ -119,8 +121,32 @@ Bugaeva, are:
 
 Roots ending in w or y always take -e(he), and a default -i(hi) — originating in
 the bound noun <W w="hi" gloss="thing/place/time" /> — is used by some irregular
-nouns <Cite key="Bugaeva 2016" page="105" />. The functional difference between
-the "short" (-V) and "long" (-VhV) forms remains unclear [uncertain] <Cite key="Bugaeva 2016" page="105" />. The same allomorphy on a verb produces
+nouns <Cite key="Bugaeva 2016" page="105" />. Each noun thus has both a "short"
+form ending in the bare copied vowel (-V) and a "long" form in -VhV: beside
+*setur-u* 'someone's back' there is *setur-uhu*, beside *e=haw-e* 'your voice'
+there is *e=haw-ehe* <Cite key="Bugaeva 2016" page="104-105" />.
+<Cite key="Bugaeva 2016" page="105" /> records that the functional difference
+between the two is unclear, and the present sources state no rule. We can, however,
+make the question more tractable. Formally the long form simply restores the
+etymological coda — the *-hV* is the petrified bound noun <W w="hi" /> — so short and
+long stand in a transparent reduced/full relation, the kind of doublet that across
+languages typically resolves into a *prosodic* or *register* alternation rather than
+a difference of meaning. The attested distribution is consistent with this: the short
+*setur-u* is the form that surfaces in running West-coast Sakhalin text (e.g. *hekaci
+seturu kasi* 'on the child's back', *seturu orowa* 'from its back', in Uɕoro material),
+whereas the long *ci=setur-uhu* turns up in metrically organised Hokkaido verse — i.e.
+the long variant patterns with weightier, song- or careful-register contexts, the
+short with ordinary speech. We therefore analyse short vs long as a single
+phonologically conditioned doublet — full restoration of the *-hi* coda under stress,
+careful speech, or phrase-final lengthening — carrying no contrast in person, number,
+definiteness or evidential value. A difference in grammatical *meaning* would be
+surprising here, since the very same -VhV ~ -V alternation recurs, equally without
+semantic effect, on the homophonous verbal personal-knowledge marker (<Gl t="PK" />),
+for which <Cite key="Dal Corso 2018" paren={false} /> likewise finds no person-,
+polarity- or interrogativity-based conditioning. What would settle it is a minimal
+pair of the same possessor on the same noun in controlled prosodic frames; that test
+is not yet available in the published Sakhalin record. The same allomorphy on a verb
+produces
 V-poss, e.g. <W w="oman" gloss="go" /> → *oman-ihi*, <W w="ek" gloss="come" /> →
 *ek-ihi*, <W w="pirika" gloss="be good" /> → *pirika-ha*. The possessor/subject is
 marked with the <Gl t="A" />-series prefixes:
@@ -133,6 +159,42 @@ The West coast has lost the Hokkaido 1PL inclusive/exclusive split (the old 1PL
 *an=* now also does duty as a 1SG and an indefinite/4th-person <Gl t="PRM" />) and
 has developed plural possessive marking <Cite key="Bugaeva 2016" page="96-97" />.
 
+Where the subject is plural, V-poss is built on the *plural* stem and the
+nominalising suffix is added *outside* the verbal plural marker <Gl t="COLL" />
+(West-coast -hci ~ -ahci, the suppletive plural <W w="paye" gloss="go.PL" /> for
+<W w="oman" gloss="go.SG" />, or the suppletive existential <W w="okay" gloss="exist.PL" />).
+Furukawa's morphophonemics already noted that the copied vowel of -hV tracks the *last*
+stem/suffix vowel, which here is the vowel of -hci; the order of operations is thus
+[[V-PL]-NMLZ], the possessive suffix scoping over the whole pluralised stem. The
+modern Karafuto materials attest the form directly, including in main-clause
+questions and assertions:
+
+<Example
+	ain="taranoka cikah utah nah ene paye-hci-hi"
+	surface="taranoka cikah utah nah ene payehcihi?"
+	gloss="those bird PL where ALL go.PL-COLL-PK"
+	free="Where are those birds going?"
+	cite="FF-Ainu (Karafuto materials)"
+	dialect="West"
+	note="Plural V-poss: suppletive plural paye 'go' + COLL -hci + nominaliser -hi; sentence-final content question." />
+
+<Example
+	ain="haciko huureceh an=reske-hci kusu okay=an-ahci-hi"
+	surface="haciko huureceh an=reskehci kusu okay=anahcihi."
+	gloss="be.small red.fish PRM.A=raise-COLL CAUF exist.PL=PRM.S-COLL-PK"
+	free="We keep little goldfish."
+	cite="FF-Ainu (Karafuto materials)"
+	dialect="West"
+	note="Main-clause V-poss assertion on the existential-progressive okay=an; plural -ahci precedes the nominaliser -hi." />
+
+The suffix order is the same that <Cite key="Dal Corso 2018" paren={false} /> reports
+for the personal-knowledge marker (e.g. *koro-hci-hi*, *ruhe-hcin an*): the verbal
+plural is morphologically inside the nominaliser, exactly as a noun's plural possessee
+marker -hcin precedes its possessive vowel. We therefore treat V-poss as fully
+compatible with verbal number, the plural marker forming part of the stem that the
+possessive suffix nominalises — there is no gap in the paradigm here, contrary to what
+the silence of the descriptive sources might suggest.
+
 V-poss is restricted to five environments <Cite key="Bugaeva 2016" page="105-106" />:
 (i) adverbial clauses with copula-based conjunctions, (ii) modal sentences with
 copula-based auxiliaries, (iii) clausal/event nominalisations as arguments (above),
@@ -141,6 +203,31 @@ clauses. It is <strong>not</strong> used in relative clauses, ordinary complemen
 lexical nominalisations. The contrast with Hokkaido Ainu is sharp: where Hokkaido
 verbs never take non-finite morphology and "nominalisation" only ever means adding
 a nominalising word, Sakhalin has a true non-finite nominalised verb form <Cite key="Bugaeva 2016" page="112" />.
+
+The exclusion of "ordinary complement clauses" needs one refinement, which the
+attested West-coast data supply. The relevant cut is not embedding *as such* but the
+**presuppositionality** of the embedded proposition. An *interrogative* complement —
+an embedded question, which is inherently presupposed (the speaker presupposes that
+there is an answer) — does take V-poss, even though a declarative *that*-complement
+does not. The Murasaki conversation primer attests exactly this:
+
+<Example
+	ain="taranoka aynu utah hemata ki-hci kusu okay=an-ahci-hi hee an=eram'eskari"
+	surface="taranoka 'aynu 'utah hemata ki=hci kusu 'okay=ahcihi hee 'an=eram'eskari."
+	gloss="those person PL what do-COLL CAUF exist.PL=PRM.S-COLL-PK Q PRM.A=not.know"
+	free="I don't know what those people are doing."
+	cite="Murasaki 2024"
+	dialect="West"
+	note="Embedded (indirect) question in V-poss, [… okay=an-ahci-hi hee], serving as the complement of an=eram'eskari 'I don't know'; the question particle hee marks the complement boundary." />
+
+The embedded clause *[… okay=an-ahci-hi hee]* 'what they are doing' is itself a
+clausal nominalisation (an indirect content question), here the object of
+<W w="eram'eskari" gloss="not know" />. We therefore sharpen Bugaeva's
+generalisation: V-poss is barred from *asserted* (new-information) complements but is
+the regular shape of *presupposed* ones, of which the indirect question is the
+clearest case. The finer typology of Sakhalin complementation belongs to Chapter 25;
+the point here is only that the complement restriction follows from the presupposition
+semantics developed below rather than from a syntactic ban on embedding.
 
 ## Adverbial and modal uses (V-poss + a copula-based marker)
 
@@ -335,10 +422,45 @@ nouns just as on verbs, e.g. *kahkum-ihi* 'the ladle’s (inside)' —
 
 — but the nominalising word <W w="pe" /> is conspicuously frequent there as a head
 and topic-marker, suggesting the East coast leans more on the stage-II strategy
-alongside V-poss <Cite key="Bugaeva 2016" page="97" />. Whether East-coast
-Sakhalin productively uses V-poss across the full West-coast range — especially in
-main-clause assertions and questions — is not established in the present sources
-[uncertain]. <Cite key="Chiri 1942" paren={false} /> confirms the Sakhalin
+alongside V-poss <Cite key="Bugaeva 2016" page="97" />. It does not follow, though,
+that the East coast lacks the more grammaticalised V-poss uses, and the Piłsudski
+texts in fact show them. The possessive-style nominaliser does the same adverbial
+work there as in the West — V-poss + a copula-based head:
+
+<Example
+	ain="kakan hokoho cise oh-ta ahup-an-ihi neanpe"
+	surface="kakan hokoho cise ohta ahupanihi neanpe"
+	gloss="Kakan husband.POSS house place-LOC enter.SG-1SG.S-NMLZ COP.TOP"
+	free="When Kakan enters her husband's house, …"
+	cite="Piłsudski 1912"
+	dialect="East"
+	note="East-coast adverbial V-poss: ahup-an-ihi 'my entering' + neanpe (ne-an-pe) 'when/as for'; a stage-III use parallel to West-coast ne-yah etc." />
+
+More tellingly, V-poss appears East-coast in an unembedded **main-clause content
+question**, the very stage-IV use whose East-coast existence the earlier literature
+left open:
+
+<Example
+	ain="hemata kusu ene an pon kapariw e=raanu-p-ihi hetane-a-na"
+	surface="hemata kusu ene an pon kapariw eraanupihi hetaneana?"
+	gloss="what CAUF like.this exist.SG be.small flounder.man 2SG.A=love-NMLZ-PK Q-FP-FP"
+	free="Why do you love such a little Flounder-man?"
+	cite="Piłsudski 1912"
+	dialect="East"
+	note="East-coast main-clause content question with V-poss on a lexically nominalised stem (raanu 'love' → raanu-p), closed by the interrogative hetane a; the stage-IV insubordinated use is thus attested East as well as West." />
+
+The verb here is *e=raanu-p-ihi* — the lexical nominaliser -p stacked under the
+possessive -ihi (the same stacking the chapter described for *an=oyra-pe-he*), the
+whole functioning as a finite interrogative predicate closed by the interrogative
+particle *hetane(a)*. The reading is reinforced by the East-coast personal-knowledge
+forms that <Cite key="Dal Corso 2018" paren={false} /> draws from the same Piłsudski
+corpus — e.g. *moyre-an-i-hi ne manu* 'I was late', with V-poss/<Gl t="PK" /> -hi
+under the copula. We therefore revise the earlier hedge: East-coast Sakhalin does
+deploy V-poss across the same functional range as the West — adverbial, evidential
+(PK -hV), and unembedded main-clause questions — and the apparent East/West contrast
+is one of *frequency and salience* (the East simply leans harder on the older
+<W w="pe" />-headed strategy in parallel), not a categorical gap in the V-poss
+paradigm. <Cite key="Chiri 1942" paren={false} /> confirms the Sakhalin
 personal-form mechanics and the lexical nominalisers -p/-pe (Sakhalin -x) and notes
 the extensive set of bound "formal" nouns recruited for mood and aspect, but his
 projected syntax volume was never written, so the clausal syntax of nominalisation

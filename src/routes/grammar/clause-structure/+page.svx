@@ -329,8 +329,8 @@ some confidence. It is a clause-final **polar-interrogative** marker that forms,
 with the copula-essive *ne* and the question particle *ya*, the periphrastic
 question frame *heta(ne) (ne) ya* ‘(is it) … or …?, (I) wonder whether …’ — the
 *heta ne ya* that Chiri (1942: §185) cites. The frame surfaces both in narrative
-and, contracted to *hetane ya*, in Sentoku Tarōji's 1920s letters, an unusually
-register-formal Sakhalin source:
+and, contracted to *hetane ya*, in Sentoku Tarōji's letters to Piłsudski, an
+unusually register-formal Sakhalin source:
 
 <Example
 	ain="okay e-ki-h hetane ya"
@@ -359,14 +359,110 @@ lie in detail rather than in constituent order <Cite key="Dal Corso 2024" page="
 The ablative is reduced (*orowa* &gt; *ora*) and frequently bare (*oro*) in the
 West, but kept full in the East. The Hokkaido distal determiner *to(an)* is absent
 in Sakhalin, replaced by *tara(-an)* <Cite key="Chiri 1942" page="§97" />, and
-‘only’ surfaces as West *pateh* against East *pate*. Several uncertainties should
-be flagged. Furukawa explicitly calls her intonation analysis preliminary, so the
-rising/falling assignment of final *wa* and the rules for a zero final particle
-need confirmation [uncertain]. The functional difference between the West-coast
-linkers *neanpe* and *nanpe* is not yet distinguishable [uncertain], and the
-status of the strong hortative *roo* — recorded for Raychishka by Furukawa but
-declared "not used in Sakhalin" by Chiri — remains unresolved [uncertain].
-Finally, information structure beyond the *V ka kii* construction, including the
-claim that applicativisation with *e-* / *ko-* functions as a discourse-level
-focusing strategy <Cite key="Dal Corso 2024" page="71" />, is still
-under-described for Sakhalin specifically [gap].
+‘only’ surfaces as West *pateh* against East *pate*.
+
+### Final intonation and the zero particle
+
+Furukawa explicitly calls her intonation analysis preliminary
+(*chōsa fujūbun* ‘insufficiently surveyed’), so the rising/falling assignment of
+final *wa* should be taken as provisional. The underlying generalisation, however,
+is recoverable from her own data and is more robust than the *wa* minimal pair
+alone suggests. The contrastive variable is the **final pitch contour**, not the
+particle: a rising contour marks the affirmative/directive pole, a falling contour
+the interrogative pole, and this holds equally of the **zero (Ø) final particle**.
+With Ø, *tara aynu oman*↗ ‘that person went’ is a statement, and *tara aynu
+omanihi*↘ ‘did that person go?’ a question <Cite key="Furukawa 1967" page="109" />.
+Crucially, Furukawa records an asymmetry that lets us tighten the rule: the
+plain-stem *tara aynu oman*↘ was **not accepted** as a question — the falling
+(interrogative) Ø requires the V-poss/-hV form (*omanihi*), whereas the rising
+(affirmative) Ø is compatible with either stem. We therefore analyse the system as
+one in which **interrogation is carried by falling intonation plus the
+personal-knowledge nominalisation**, and the final particle (when present) merely
+makes that contour lexically explicit — *wa*↘ being the overt counterpart of the
+falling Ø, *wa*↗ of the rising one. This is the cross-linguistically ordinary
+situation of a polar question signalled prosodically (and here, unusually, by a
+**falling** contour, as in some West-African and Mainland-Southeast-Asian systems)
+with optional particle reinforcement; what awaits confirmation is only the precise
+phonetic realisation, not the existence of the contrast.
+
+### Topic *neampe* / *nampe* versus the clausal linker
+
+The two uses of *neampe* ~ *nampe* that earlier descriptions could not tell apart
+are in fact **two distinct constructions sharing a form**, and the East-coast
+narrative corpus separates them cleanly. In its **nominal** use *neampe* is a topic
+marker on an NP, equivalent to *anak(ne)* ‘as for’ — the equation Chiri makes
+directly <Cite key="Chiri 1942" page="§197" /> — as in conversational *tukar
+neanpe …* ‘as for the seal …’. In its **clausal** use it follows a (often
+nominalised) clause and links it to the next as a ‘when/then/therefore’ converbal
+pivot, as repeatedly in Piłsudski's "Flounder-man and Sculpin-man":
+
+<Example
+	ain="neanpe kusu pon kapariw ohkayo asin"
+	gloss="that.NMLZ.TOP because be.small flounder man go.out.SG"
+	free="Therefore the little flounder-man went outside."
+	cite="Piłsudski 1912"
+	dialect="East"
+	note="Clausal (bridging) neanpe: an anaphor scoping over the whole preceding event, feeding causal kusu; contrast the nominal topic neanpe = anak(ne) 'as for'." />
+
+We analyse both as the same demonstrative-based formative *ne-an-pe*
+‘that-existing-thing’ recruited, on the one hand, as an anaphoric **topic** (it
+points back to a referent and frames it) and, on the other, as a clausal
+**bridging** device (it points back to the whole preceding event); the apparent
+indeterminacy is just the categorial ambiguity of an anaphor that can scope over an
+NP or over a clause. The contracted *nampe* (Sakaguchi's *n[e]anpe*) is the same
+item, and the choice between *neanpe* and *nampe* is phonological reduction, not a
+functional split.
+
+### The hortative *roo*
+
+The apparent disagreement over the hortative *roo* dissolves on closer reading of
+the two sources. <Cite key="Chiri 1942" page="§119" paren={false} /> analyses *ro*
+as the inclusive-1PL imperative — the ‘let us …’ of *paye-an ro!* ‘let's go!’,
+which takes the inclusive affixes (*a-*, *-an*) — and states that **Sakhalin does
+not use *ro***, offering instead the bare inclusive form, optionally opened by
+*ke(h)*: *ke mosso paye-an-hci!* ‘come, let's go quickly!’. Furukawa's West-coast
+Raychishka data give exactly this Sakhalin strategy *plus* a final *roo*: *keh,
+paye-an roo* ‘come on, let's go!’ <Cite key="Furukawa 1967" page="107" />. The
+constructions are therefore identical in their obligatory core — an existential-
+based inclusive verb *paye-an* with an opening *ke(h)* — and differ only in whether
+the optional final particle *roo* is appended. We resolve the contradiction by
+treating *roo* as a **sub-dialectal final-slot reinforcer** of an inclusive
+hortative that is itself pan-Sakhalin: Chiri (describing Sakhalin broadly) heard
+the reinforcer as a Hokkaido feature and excluded it, while Furukawa (describing
+one West village) recorded its local survival. The hortative meaning is not in
+doubt; only the lexical particle is areally restricted:
+
+<Example
+	ain="keh paye-an roo"
+	gloss="come.on go.PL-PRM.S HORT"
+	free="Come on, let's go!"
+	cite="Furukawa 1967" page="107"
+	dialect="West"
+	note="Inclusive hortative paye-an (existential-based -an inclusive) opened by the interjection keh and closed by the final-slot hortative roo; cf. Chiri's Sakhalin ke … paye-an-hci without roo." />
+
+### Information structure beyond *V ka kii*
+
+The applicative-as-focus claim <Cite key="Dal Corso 2024" page="71" /> can be made
+concrete for Sakhalin on the attested East-coast data. Applicativisation with *e-*
+/ *ko-* promotes an oblique to a core object, and in doing so **foregrounds an
+otherwise peripheral participant** — a packaging operation, not a change of
+truth-conditional content, since the thematic role of the promoted argument is
+unchanged. This is the standard discourse-functional account of applicatives
+(promotion to object as a topic-worthiness / focus-assigning device), and the
+Piłsudski texts instantiate it: alongside ordinary instrumental *kema ani tuhse-ka*
+‘kicked it with the foot’, the applicative *kema e-tuhse-ka* recasts the foot as a
+verbal object, drawing it into the clause's informational centre. Allied to this is
+the **presentative** *e-a* (‘APPL-sit’), which in Piłsudski brings a participant
+into attention as it is introduced — *An-kuca-ha-oro-wa paa numa e-a kusu an* ‘and
+there, smoke was rising from my hut’ — a Sakhalin-specific staging device with no
+counterpart in the 1970s West-coast records, where this productive morphology has
+eroded. We therefore describe Sakhalin information structure as layered: a
+**clitic** layer (topic *anak(ne)* / *neampe*, additive *ka* / *naa*, restrictive
+*pateh*), a **syntactic** layer (the *V ka kii* pseudo-cleft, NP fronting under
+*pateh*), and a **morphological** layer (applicative promotion and presentative
+*e-a*) that does at the level of argument structure what the other two do with
+particles and word order. The morphological layer is the genuinely under-described
+one, and its apparent recession between 1903 and the 1970s
+<Cite key="Dal Corso 2024" page="71" /> makes its full description a priority for
+any further work on the East-coast corpus, the only body of data in which it is
+robustly attested.

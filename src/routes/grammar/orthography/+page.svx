@@ -37,6 +37,18 @@ Hokkaido Ainu. This chapter surveys the four notation traditions, gives
 correspondence tables across them, and states the house transcription used
 throughout this grammar.
 
+The absence of an inherited script has not, however, meant the absence of
+<strong>native</strong> writing. Lacking an orthography of their own, Sakhalin
+Ainu took up the scripts around them to set down their own language —
+<strong>Cyrillic</strong> on the Russian side, and the <strong>Latin</strong>
+alphabet and <strong>katakana</strong> in Japan. Already in the early twentieth
+century the east-coast speaker Sentoku Tarōji wrote his language in his own
+letters and notes <Cite key="Sentoku (letters)" paren={false} />; the present-day
+Enchiw revival continues to write the language for its own community in these
+same scripts. The notations surveyed below therefore include not only the
+transcriptions of outside recorders but the orthographies that Enchiw speakers
+and their descendants have adopted for themselves.
+
 ## Piłsudski's close-phonetic notation (East coast)
 
 The richest body of natural Sakhalin Ainu text, Bronisław Piłsudski's *Materials
