@@ -8,18 +8,107 @@
 	import { page } from '$app/stores';
 	import { get } from 'svelte/store';
 
+	// A regular word-form demoted under its base entry (schema v2, additive).
+	interface WordForm {
+		lemma: string;
+		analysis: [string, string][];
+		type: 'possessed' | 'case' | 'personal' | 'plural' | 'collective' | 'valency';
+		frequency: number;
+	}
+
+	interface Entry {
+		lemma: string;
+		ja?: string[];
+		en?: string[];
+		ru?: string[];
+		poses?: string[];
+		frequency: number;
+		cognates?: string[];
+		noncognates?: string[];
+		forms?: WordForm[];
+		structure?: [string, string][];
+		frequencyRolled?: number;
+		freqSource?: 'marker';
+	}
+
+	const entries: Entry[] = data;
+
+	const FORM_TYPE_ABBRS: Record<WordForm['type'], string> = {
+		possessed: 'POSS',
+		case: 'CASE',
+		personal: 'PERS',
+		plural: 'PL',
+		collective: 'COLL',
+		valency: 'VAL'
+	};
+
+	function displayLemma(lemma: string): string {
+		if (['ja', 'ain-Kana'].includes(languageTag())) {
+			return latn2kana(lemma);
+		} else if (['ru', 'ain-Cyrl'].includes(languageTag())) {
+			return latn2cyrl(lemma);
+		}
+		return lemma;
+	}
+
+	// "cise" + "-he" -> "cise-he"; "kim" + "oyki" -> "kim-oyki"
+	function joinMorphs(analysis: [string, string][]): string {
+		return analysis
+			.map(([morph], i) => (i === 0 || morph.startsWith('-') ? morph : `-${morph}`))
+			.join('');
+	}
+
+	function joinGlosses(analysis: [string, string][]): string {
+		return analysis.map(([, gloss]) => gloss).join('-');
+	}
+
+	function kampisosUrl(lemma: string): string {
+		return `https://kampisos.aynu.io/search?q=${encodeURIComponent(lemma.replace(/^-/, ''))}&dialect_lv1=樺太`;
+	}
+
 	let sortBy: 'abc' | 'freq' | 'pos' = $state('freq');
 	// Prefill the search box from a ?q= query param so links from the grammar
 	// (the <W> component) and elsewhere land on a filtered dictionary view.
 	let search = $state(get(page).url.searchParams.get('q') ?? '');
+	// Explicit user toggles, keyed by lemma; falls back to auto-expansion when
+	// the search only matches one of the entry's sub-forms.
+	let expanded: Record<string, boolean> = $state({});
+
+	function lemmaMatches(lemma: string): boolean {
+		return (
+			lemma.includes(search) ||
+			lemma.includes(extrapolateSakhalinFromHokkaido(search)) ||
+			latn2kana(lemma).includes(search) ||
+			latn2cyrl(lemma).includes(search) ||
+			lemma.includes(kana2latn(search)) ||
+			lemma.includes(cyrl2latn(search))
+		);
+	}
+
+	function formMatches(form: WordForm): boolean {
+		return search !== '' && lemmaMatches(form.lemma);
+	}
+
+	function autoExpanded(item: Entry): boolean {
+		return search !== '' && !lemmaMatches(item.lemma) && (item.forms?.some(formMatches) ?? false);
+	}
+
+	function isExpanded(item: Entry): boolean {
+		return expanded[item.lemma] ?? autoExpanded(item);
+	}
+
+	function toggle(item: Entry) {
+		expanded[item.lemma] = !isExpanded(item);
+	}
+
 	let sorted = $derived(
-		data.toSorted((a, b) => {
+		entries.toSorted((a, b) => {
 			if (sortBy === 'abc') {
 				return a.lemma?.localeCompare(b.lemma) ?? 0;
 			} else if (sortBy === 'freq') {
-				return -1 * (a.frequency - b.frequency);
+				return -1 * ((a.frequencyRolled ?? a.frequency) - (b.frequencyRolled ?? b.frequency));
 			} else if (sortBy === 'pos') {
-				return a.poses?.[0]?.localeCompare(b.poses?.[0]) ?? 0;
+				return a.poses?.[0]?.localeCompare(b.poses?.[0] ?? '') ?? 0;
 			}
 			return 0;
 		})
@@ -28,15 +117,11 @@
 		sorted
 			.filter(
 				(item) =>
-					item.lemma?.includes(search) ||
+					lemmaMatches(item.lemma) ||
 					item.ja?.includes(search) ||
 					item.en?.includes(search) ||
 					item.ru?.includes(search) ||
-					item.lemma?.includes(extrapolateSakhalinFromHokkaido(search)) ||
-					latn2kana(item.lemma)?.includes(search) ||
-					latn2cyrl(item.lemma)?.includes(search) ||
-					item.lemma?.includes(kana2latn(search)) ||
-					item.lemma?.includes(cyrl2latn(search))
+					item.forms?.some((form) => lemmaMatches(form.lemma))
 			)
 			.toSorted((a, b) => {
 				if (a.lemma === search) {
@@ -99,15 +184,34 @@
 		</tr>
 	</thead>
 	<tbody>
-		{#each filtered as item}
-			<tr class="odd:bg-gray-100 even:bg-gray-200">
+		{#each filtered as item, i}
+			<tr class={i % 2 === 0 ? 'bg-gray-100' : 'bg-gray-200'}>
 				<td class="flex flex-col gap-2" lang="ain-Latn">
-					{#if ['ja', 'ain-Kana'].includes(languageTag())}
-						{latn2kana(item.lemma)}
-					{:else if ['ru', 'ain-Cyrl'].includes(languageTag())}
-						{latn2cyrl(item.lemma)}
-					{:else}
-						{item.lemma}
+					<div class="flex items-center justify-center gap-1">
+						{#if item.forms?.length}
+							<button
+								type="button"
+								class="flex items-center gap-0.5 rounded px-1 text-xs text-gray-500 hover:text-blue-500"
+								aria-expanded={isExpanded(item)}
+								aria-label={`${item.forms.length} ${m.forms()}`}
+								title={`${item.forms.length} ${m.forms()}`}
+								onclick={() => toggle(item)}
+							>
+								<span
+									class="inline-block transition-transform {isExpanded(item) ? 'rotate-90' : ''}"
+									aria-hidden="true">▶</span
+								>
+								<span class="rounded-full bg-gray-300 px-1.5 tabular-nums">{item.forms.length}</span
+								>
+							</button>
+						{/if}
+						<span>{displayLemma(item.lemma)}</span>
+					</div>
+					{#if item.structure}
+						<div class="text-xs leading-tight text-gray-500">
+							<span lang="ain-Latn">{joinMorphs(item.structure)}</span><br />
+							<span lang="en">{joinGlosses(item.structure)}</span>
+						</div>
 					{/if}
 				</td>
 				<td lang="ja">
@@ -121,8 +225,11 @@
 				</td>
 				<td>
 					<div class="flex flex-wrap gap-2">
-						{#each item.poses as pos}
-							<abbr title={m[`pos_${pos}` as keyof typeof m]?.() ?? pos}>{pos}</abbr>
+						{#each item.poses ?? [] as pos}
+							<abbr
+								title={(m[`pos_${pos}` as keyof typeof m] as (() => string) | undefined)?.() ?? pos}
+								>{pos}</abbr
+							>
 						{/each}
 					</div>
 				</td>
@@ -130,11 +237,22 @@
 					{[...new Set([...(item.cognates ?? []), ...(item.noncognates ?? [])])].join(', ')}
 				</td>
 				<td lang="en" class="tabular-nums">
-					{item.frequency}
+					{#if item.frequencyRolled !== undefined}
+						<span
+							title={item.freqSource === 'marker'
+								? `${m.freq_incl_forms({ own: item.frequency })}; ${m.freq_marker_qualifier()}`
+								: m.freq_incl_forms({ own: item.frequency })}
+							>{item.freqSource === 'marker' ? '≈' : ''}{item.frequencyRolled}</span
+						>
+					{:else if item.freqSource === 'marker'}
+						<span title={m.freq_marker_qualifier()}>≈{item.frequency}</span>
+					{:else}
+						{item.frequency}
+					{/if}
 				</td>
 				<td>
 					<a
-						href={`https://kampisos.aynu.io/search?q=${encodeURIComponent(item.lemma.replace(/^-/, ''))}&dialect_lv1=樺太`}
+						href={kampisosUrl(item.lemma)}
 						target="_blank"
 						class="flex items-center justify-center hover:text-blue-500"
 					>
@@ -142,6 +260,44 @@
 					</a>
 				</td>
 			</tr>
+			{#if item.forms?.length && isExpanded(item)}
+				{#each item.forms as form}
+					<tr
+						class="text-sm {formMatches(form)
+							? 'bg-amber-100 text-gray-700'
+							: 'bg-gray-50 text-gray-500'}"
+					>
+						<td class="pl-10 text-left" lang="ain-Latn">
+							<div class="flex flex-col">
+								<span>{displayLemma(form.lemma)}</span>
+								<span class="text-xs leading-tight text-gray-400">
+									<span lang="ain-Latn">{joinMorphs(form.analysis)}</span><br />
+									<span lang="en">{joinGlosses(form.analysis)}</span>
+								</span>
+							</div>
+						</td>
+						<td colspan="5" class="text-left">
+							<abbr
+								title={form.type}
+								class="rounded bg-gray-200 px-1 text-xs text-gray-600 no-underline"
+								>{FORM_TYPE_ABBRS[form.type] ?? form.type}</abbr
+							>
+						</td>
+						<td lang="en" class="tabular-nums">
+							{form.frequency}
+						</td>
+						<td>
+							<a
+								href={kampisosUrl(form.lemma)}
+								target="_blank"
+								class="flex items-center justify-center hover:text-blue-500"
+							>
+								<KampisosIcon class="h-6 w-6" />
+							</a>
+						</td>
+					</tr>
+				{/each}
+			{/if}
 		{/each}
 	</tbody>
 </table>
