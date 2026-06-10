@@ -159,7 +159,7 @@ phonologically reduces to <W w="e-" />:
 <Example
 	ain="cise or-ta (h)e-sirepa-an"
 	surface="Cise oxta e-sirepa-an."
-	gloss="house place-LOC DEI.head-arrive-PRM.S"
+	gloss="house place-LOC DEI.head-arrive-INDEF.S"
 	free="‘I arrived up to the house.’"
 	cite="Piłsudski 1912" page="160"
 	dialect="East"
@@ -194,7 +194,7 @@ inside the complex <W w="ram-u-osma" /> 'agree' (lit. 'hearts enter into one ano
 <Example
 	ain="sonnoka an-yay-ko-ram-u-osma"
 	surface="Sonnoka a(n)-yaykoramuosma."
-	gloss="truly PRM.A-REFL-APPL-heart-RECP-APPL/enter"
+	gloss="truly INDEF.A-REFL-APPL-heart-RECP-APPL/enter"
 	free="‘Truly, I was thoroughly convinced.’"
 	cite="Chiba (archive)"
 	dialect="West"
@@ -219,7 +219,7 @@ Two reflexive prefixes derive historically from a 'self' root
 actional transitive so the action falls back on the agent-subject, <strong>intransitivising</strong> the
 verb. The valency reduction is diagnosable by the shift to the intransitive-subject suffix.
 Compare the base transitive <W w="reske" gloss="raise" /> 'raise', which takes transitive
-agreement, with its reflexive counterpart, which takes the <Gl t="PRM" /> subject suffix <W w="-an" />:
+agreement, with its reflexive counterpart, which takes the <Gl t="INDEF" /> subject suffix <W w="-an" />:
 
 <Example
 	ain="mahpo-ho-hcin reske-hci"
@@ -233,7 +233,7 @@ agreement, with its reflexive counterpart, which takes the <Gl t="PRM" /> subjec
 <Example
 	ain="yay-reske-an"
 	surface="Yay-reske-‘an."
-	gloss="REFL-raise-PRM.S"
+	gloss="REFL-raise-INDEF.S"
 	free="‘I raised myself (= I grew up by myself).’"
 	cite="Dal Corso 2025" page="§4.4.2"
 	dialect="West"
@@ -313,7 +313,7 @@ object slot of a transitive verb, intransitivising it; agreement then becomes su
 
 <Example
 	ain="i-ku-an"
-	gloss="ANTIP-drink-PRM.S"
+	gloss="ANTIP-drink-INDEF.S"
 	free="‘I drank (something).’"
 	cite="Chiri 1942" page="§33"
 	dialect="Sakhalin"
@@ -324,20 +324,20 @@ transitives where the object is demoted or left unspecified, e.g. *i-rura* 'tran
 (things)' from <W w="rura" gloss="transport" /> (<Cite key="Piłsudski 1912" page="287" paren={false} />).
 
 The sources use several labels for what may be one or more <W w="i-" /> morphemes — the
-antipassive, a general-object/incorporated object, and the <Gl t="PRM" /> object marker <W w="i-" /> of the agreement paradigm. We analyse these as **one morpheme with several
+antipassive, a general-object/incorporated object, and the <Gl t="INDEF" /> object marker <W w="i-" /> of the agreement paradigm. We analyse these as **one morpheme with several
 construction-bound uses**, not a homophony. Diachronically all three trace to a single
 generic-noun source (*i 'thing'; <Cite key="Bugaeva 2006" paren={false} />, and the
 agreement chapter), and synchronically they form a natural class: each fills the object slot
 of a transitive stem with a referentially backgrounded participant, the difference lying in
 *how* backgrounded — fully generic ('something', the antipassive), discourse-recoverable
 ('it', the general object), or a speech-act participant outranked on the referentiality
-hierarchy (the <Gl t="PRM" /> object). A West-coast token shows the same <W w="i-" /> doing
+hierarchy (the <Gl t="INDEF" /> object). A West-coast token shows the same <W w="i-" /> doing
 impersonal-passive work, filling the object slot of <W w="koyki" gloss="beat" /> 'beat':
 
 <Example
 	ain="anokay an-renkayne i-koyki anpe ka hanne"
 	surface="Anokay an-renkayne, i-koyki ánpe ka hánne."
-	gloss="PRON.1SG PRM.PSR-wish ANTIP-beat NMLZ even NEG.COP"
+	gloss="PRON.1SG INDEF.PSR-wish ANTIP-beat NMLZ even NEG.COP"
 	free="‘As I wished, my being beaten (lit. there-being a beating of someone) did not happen.’"
 	cite="Chiba (archive)"
 	dialect="West"
@@ -363,7 +363,7 @@ anticausative *cak-ke* 'open':
 
 <Example
 	ain="an-cah-ki"
-	gloss="PRM.A-uncover-TR"
+	gloss="INDEF.A-uncover-TR"
 	free="‘I uncovered (it).’"
 	cite="Bugaeva 2025" page="fn.3"
 	dialect="Sakhalin"

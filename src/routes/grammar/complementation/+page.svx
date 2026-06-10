@@ -140,7 +140,7 @@ lexical nominalisation *an=oyra-pe-he* 'our forgotten thing(s)':
 
 <Example
 	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
-	gloss="PRM.A=forget-NMLZ-POSS PRM.A=search in.order go.PL=PRM.S-NMLZ COP-COND who ADD take-COLL and not.exist"
+	gloss="INDEF.A=forget-NMLZ-POSS INDEF.A=search in.order go.PL=INDEF.S-NMLZ COP-COND who ADD take-COLL and not.exist"
 	free="Although we went to search for what we had left, someone had already taken it."
 	cite="Bugaeva 2016" page="106"
 	dialect="West" />
@@ -224,7 +224,7 @@ matrix verb:
 
 <Example
 	ain="temana neera'an 'an=kara 'an=kii-hi nee nanko nah ramu"
-	gloss="how such PRM.A=make PRM.A=do-NMLZ COP probably COMP think"
+	gloss="how such INDEF.A=make INDEF.A=do-NMLZ COP probably COMP think"
 	free="She thought, ‘How should I do it?’"
 	cite="Dal Corso 2018" page="25"
 	dialect="West" />
@@ -292,11 +292,11 @@ attested across West-coast pedagogical and conversational Enchiw:
 	cite="Murasaki 2024"
 	dialect="West" />
 
-The desiderative also occurs with the fourth-person/indefinite (PRM) prefix:
+The desiderative also occurs with the fourth-person/indefinite (INDEF) prefix:
 
 <Example
 	ain="nee aynu itah ka an=nuu rusuy"
-	gloss="some Ainu speech ADD PRM.A=hear DESID"
+	gloss="some Ainu speech ADD INDEF.A=hear DESID"
 	free="I want to hear some Ainu spoken."
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="West" />

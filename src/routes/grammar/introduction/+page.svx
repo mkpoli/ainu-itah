@@ -51,7 +51,7 @@ Three commitments shape the book:
   description in its own right.
 - <strong>Interlinear throughout.</strong> Examples are glossed morpheme-by-morpheme
   following the [Leipzig Glossing Rules](https://www.eva.mpg.de/lingua/resources/glossing-rules.php),
-  and each carries its source. Hover any small-cap gloss — for instance <Gl t="PRM" /> or <Gl t="1SG.A" /> — to read its expansion, or click it for
+  and each carries its source. Hover any small-cap gloss — for instance <Gl t="INDEF" /> or <Gl t="1SG.A" /> — to read its expansion, or click it for
   the full [list of abbreviations](/grammar/abbreviations).
 - <strong>Cross-referencing.</strong> Ainu forms link to the [dictionary](/); citations link
   to the [References](/grammar/references); and the examples are mostly drawn

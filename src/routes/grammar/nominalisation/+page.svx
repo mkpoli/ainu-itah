@@ -66,7 +66,7 @@ under the possessive form:
 
 <Example
 	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
-	gloss="PRM.A=forget-NMLZ-POSS PRM.A=search CAUF go.PL=PRM.S-POSS COP-CONC who ADD take-COLL CONJ NEG"
+	gloss="INDEF.A=forget-NMLZ-POSS INDEF.A=search CAUF go.PL=INDEF.S-POSS COP-CONC who ADD take-COLL CONJ NEG"
 	free="Although we went to search for what we had left, someone had already taken it."
 	cite="Bugaeva 2016" page="106-107"
 	dialect="West" />
@@ -156,7 +156,7 @@ marked with the <Gl t="A" />-series prefixes:
 | prefix | ku=…-hV | ‘e=…-hV | ø=…-hV | ‘an=…-hV | ‘eci=…-hV |
 
 The West coast has lost the Hokkaido 1PL inclusive/exclusive split (the old 1PL
-*an=* now also does duty as a 1SG and an indefinite/4th-person <Gl t="PRM" />) and
+*an=* now also does duty as a 1SG and an indefinite/4th-person <Gl t="INDEF" />) and
 has developed plural possessive marking <Cite key="Bugaeva 2016" page="96-97" />.
 
 Where the subject is plural, V-poss is built on the *plural* stem and the
@@ -181,7 +181,7 @@ questions and assertions:
 <Example
 	ain="haciko huureceh an=reske-hci kusu okay=an-ahci-hi"
 	surface="haciko huureceh an=reskehci kusu okay=anahcihi."
-	gloss="be.small red.fish PRM.A=raise-COLL CAUF exist.PL=PRM.S-COLL-PK"
+	gloss="be.small red.fish INDEF.A=raise-COLL CAUF exist.PL=INDEF.S-COLL-PK"
 	free="We keep little goldfish."
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="West"
@@ -214,7 +214,7 @@ does not. The Murasaki conversation primer attests exactly this:
 <Example
 	ain="taranoka aynu utah hemata ki-hci kusu okay=an-ahci-hi hee an=eram'eskari"
 	surface="taranoka 'aynu 'utah hemata ki=hci kusu 'okay=ahcihi hee 'an=eram'eskari."
-	gloss="those person PL what do-COLL CAUF exist.PL=PRM.S-COLL-PK Q PRM.A=not.know"
+	gloss="those person PL what do-COLL CAUF exist.PL=INDEF.S-COLL-PK Q INDEF.A=not.know"
 	free="I don't know what those people are doing."
 	cite="Murasaki 2024"
 	dialect="West"
@@ -257,7 +257,7 @@ copula-based auxiliary carries the modal force:
 
 <Example
 	ain="tani ‘uunas an=ee-he nee-ko"
-	gloss="now early PRM.A=eat-NMLZ COP-EMPH"
+	gloss="now early INDEF.A=eat-NMLZ COP-EMPH"
 	free="Definitely, I have just eaten."
 	cite="Bugaeva 2016" page="106"
 	dialect="West" />
@@ -430,7 +430,7 @@ work there as in the West — V-poss + a copula-based head:
 <Example
 	ain="kakan hokoho cise oh-ta ahup-an-ihi neanpe"
 	surface="kakan hokoho cise ohta ahupanihi neanpe"
-	gloss="Kakan husband.POSS house place-LOC enter.SG-1SG.S-NMLZ COP.TOP"
+	gloss="Kakan husband.POSS house place-LOC enter.SG-1SG.S-NMLZ TOP"
 	free="When Kakan enters her husband's house, …"
 	cite="Piłsudski 1912"
 	dialect="East"

@@ -161,7 +161,7 @@ before the vowel-initial suffix, so that the coda-neutralised <W w="sik" gloss="
 ## Possessor prefixes: concrete vs. locative nouns
 
 The personal form prefixes a possessor to the affiliative form. The possessor
-prefixes are the <strong>A-series</strong> markers, identical to transitive-subject agreement: <Gl t="1SG" /> <W w="ku" gloss="1SG" />- (also AN-series *an-*, see below), <Gl t="2SG" /> *e-*, <Gl t="2PL" /> *eci-*, <Gl t="PRM" /> *an-*, and zero for
+prefixes are the <strong>A-series</strong> markers, identical to transitive-subject agreement: <Gl t="1SG" /> <W w="ku" gloss="1SG" />- (also AN-series *an-*, see below), <Gl t="2SG" /> *e-*, <Gl t="2PL" /> *eci-*, <Gl t="INDEF" /> *an-*, and zero for
 the third person (<Cite key="Dal Corso 2025" page="190" />; <Cite key="Sakaguchi 2024" page="18" />).
 The A-form thus does double duty as subject marker and possessor:
 

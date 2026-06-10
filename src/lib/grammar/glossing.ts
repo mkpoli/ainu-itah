@@ -2,14 +2,13 @@ import type { GlossAbbrev } from './types';
 
 // AUTO-GENERATED from .grammar-build/design/glossing.md (run .grammar-build/gen.ts).
 // The single source of truth for interlinear gloss tooltips. The indefinite /
-// 4th-person set (-an / an- / i-) is glossed PRM (participant-referentiality
-// mismatch) following the synthesis; person/number/role portmanteaux use a dot,
+// 4th-person set (-an / an- / i-) is glossed INDEF (indefinite person); person/number/role portmanteaux use a dot,
 // e.g. 1SG.A.
 export const GLOSS_ABBREVS: GlossAbbrev[] = [
 	{ tag: "1", meaning: "first person" },
 	{ tag: "2", meaning: "second person" },
 	{ tag: "3", meaning: "third person" },
-	{ tag: "4", meaning: "fourth person (Sakaguchi's term for the PRM set; see PRM)" },
+	{ tag: "4", meaning: "fourth person (Sakaguchi's term for the INDEF set; see INDEF)" },
 	{ tag: "SG", meaning: "singular" },
 	{ tag: "PL", meaning: "plural (verbal plural stem; nominal plural; the word utara)" },
 	{ tag: "DU", meaning: "dual" },
@@ -25,7 +24,7 @@ export const GLOSS_ABBREVS: GlossAbbrev[] = [
 	{ tag: "A", meaning: "transitive subject / possessor (A-series affix)" },
 	{ tag: "O", meaning: "transitive object / locative-noun ground (O-series affix)" },
 	{ tag: "IO", meaning: "indirect object" },
-	{ tag: "PRM", meaning: "participant-referentiality-mismatch / 4th / \"indefinite\" set (-an/an-/i-)" },
+	{ tag: "INDEF", meaning: "indefinite / fourth person — the -an / an- / i- set" },
 	{ tag: "INV", meaning: "inverse (the inverse function of an-)" },
 	{ tag: "PASS", meaning: "passive / impersonal-passive reading" },
 	{ tag: "COLL", meaning: "collective (the verbal clitic =(a)hci / =ahsi)" },
@@ -64,11 +63,11 @@ export const GLOSS_ABBREVS: GlossAbbrev[] = [
 	{ tag: "CL.INAN", meaning: "inanimate / thing classifier (-p/-pe)" },
 	{ tag: "ITER", meaning: "iterative (-pa; ranke)" },
 	{ tag: "PROG", meaning: "progressive (kor an, kusu an)" },
-	{ tag: "DUR", meaning: "durative (ea)" },
+	{ tag: "DUR", meaning: "durative (kusu kara, ea)" },
 	{ tag: "RES", meaning: "resultative (wa an, hine an, kane an)" },
 	{ tag: "PFV", meaning: "perfective (teh an)" },
 	{ tag: "CONCL", meaning: "conclusive (wa isam, wa okere)" },
-	{ tag: "PROSP", meaning: "prospective (kus-ki, kus-ne, kusu kara)" },
+	{ tag: "PROSP", meaning: "prospective (kus-ki, kus-ne)" },
 	{ tag: "IPFV", meaning: "imperfective (an after a verb)" },
 	{ tag: "PC", meaning: "punctual / aoristic stem (e.g. singular existential/motion stems)" },
 	{ tag: "ADV", meaning: "adverb / adverbialiser (-no, -onne, etc.)" },

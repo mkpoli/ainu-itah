@@ -99,7 +99,7 @@ robustly attested rather than an artefact of citation forms.
 
 <Example
 	ain="keeh aynu itah ani yuukara=an=ahci"
-	gloss="come.on Ainu language with sing=PRM.S=COLL"
+	gloss="come.on Ainu language with sing=INDEF.S=COLL"
 	free="‘Come on, let us sing in Ainu.’"
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="West" />

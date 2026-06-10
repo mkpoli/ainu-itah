@@ -14,6 +14,8 @@ sources:
   - Yamada (ELPR)
   - Sentoku (letters)
   - FF-Ainu (Karafuto materials)
+  - Ainu Times
+  - Chiba (archive)
   - Handbook (Bugaeva ed.)
 ---
 
@@ -101,6 +103,16 @@ chain a following <W w="kusu" gloss="in order to" /> can add a purpose clause:
 	dialect="West"
 	note="teh ‘orowa = delayed sequence; kusu = purpose; the chain closes on a single nominalised, finite predicate." />
 
+The connective *‘orowa* is not opaque: it is the relational noun *or* 'place' in its
+possessed form *oro* plus the converbal/ablative particle *wa*, literally 'from the place
+(of that)', i.e. 'after that'. The same source-postposition *orowa* marks the ablative
+'from' and the agent of the impersonal passive (Ch. 24), and reduces to *ora* in fast
+West-coast speech (<Cite key="Chiri 1942" page="§79" paren={false} />); Chiri lists *ora(no)*
+and *orowa(no)* as a single sequential connective '…して、それから'
+(<Cite key="Chiri 1942" page="§70–71" paren={false} />). It is in turn frequently
+preceded by *teh* and even by the quotative *nah*, giving the fixed discourse bridge
+*nahteh orowa(no)* 'and after that …' that opens new episodes in the Sirahama texts.
+
 The Handbook's comparative chapter treats Sakhalin *teh* as preserving the
 <strong>older</strong> function of the cognate Hokkaido particle *tek*: in the Saru dialect
 *tek* grammaticalised into an auxiliary verb 'do for a short time', leaving
@@ -121,11 +133,66 @@ It typically closes a medial clause in connected narrative:
 	dialect="West"
 	note="Internal segmentation of ano-kinu uncertain; segmentation mine." />
 
-### kane: simultaneity
+### (h)ike: sequential / consequential converb
 
-<W w="kane" gloss="while" /> links a simultaneous, backgrounded action ('while
-doing, as'). It also feeds the resultative aspectual *kane an* (§5). In
-East-coast narrative it appears, for instance, marking a temporal frame:
+Alongside *hine*, Sakhalin has a second high-frequency sequential converb,
+<W w="ike" gloss="and, and so" />, likewise showing the *h-* doublet *hike ~ ike*
+(<Cite key="Chiri 1942" page="§51" paren={false} />). Diachronically it is the
+nominalising suffix *-(h)ike* 'the one that …' (<Cite key="Chiri 1942" page="§61" />) reanalysed
+as a clause-linker; Chiri states explicitly that in Sakhalin *(h)ike* "is also used
+in the same sense as *wa, hine, tek*", i.e. as a plain sequential converb, and that
+when so used the nominaliser "is better regarded as a conjunctive particle"
+(<Cite key="Chiri 1942" page="§61" paren={false} />). The corpus bears this out: in
+narrative *ike* chains a backgrounded existential or arrival clause to the foregrounded
+event that follows, exactly where Hokkaido would use *hine*:
+
+<Example
+	ain="re aynu okay=ahci ike ceh-ki=hci ko 'e=hci"
+	surface="Re aynu okayahci ike, cehkihci ko e hci."
+	gloss="three person exist.PL=COLL and.so fish-catch=COLL when eat=COLL"
+	free="Three men were living, and so they would catch fish and eat (them)."
+	cite="Kitahara 2016"
+	dialect="West"
+	note="ike chains a presentational existential clause (okay-ahci 'they lived') to the main event; segmentation mine." />
+
+In the same modern Enchiw text *ike* links two event clauses with a 'and then' /
+consequential sense, while a near-minimal pair in older East-coast Sakhalin uses it
+after a perception verb with the value 'when … (then)', the temporal-conditional reading
+that motivates Chiri's separate gloss '…たところが, …したら' for the *a(h)ike* family
+(<Cite key="Chiri 1942" page="§39" paren={false} />):
+
+<Example
+	ain="'asinno ku=nuu 'ike 'oya mosiri 'oro'un 'itah neeno ku=nuu"
+	gloss="for.first.time 1SG.A=hear and.so other land at-ALL word like 1SG.A=hear"
+	free="When I heard it for the first time, it sounded to me like the language of another country."
+	cite="Ainu Times"
+	dialect="West"
+	note="ike with a 'when …, (then)' temporal-consequential reading, after the perception verb nuu 'hear'; from Aihara Noriaki's Sakhalin-dialect essay Karahuto'aynu'itah." />
+
+We therefore treat Sakhalin *(h)ike* and *(h)ine* as a near-synonymous pair of
+sequential converbs, *ike* skewing toward a consequential/temporal ('and so, when')
+nuance and *hine* toward neutral narrative succession, both contrasting with the
+tight-sequence *wa* and the delayed-sequence *teh* on the temporal-gap dimension that
+organises the whole converb set.
+
+### kane ~ kor: simultaneity
+
+<W w="kane" gloss="while" /> (also *kanne*) links a simultaneous, backgrounded
+action. <Cite key="Chiri 1942" page="§54" paren={false} /> gives it the full converb
+range '…して, …したまま, …しながら, …の状態で' — 'doing, in the state of having done,
+while doing, as' — illustrated by *a kane okujma* 'urinated sitting (lit. sitting-and)';
+the same particle then feeds the resultative aspectual *kane an* '(stays) V-ing' (§5).
+This is the same simultaneity that Hokkaido Ainu carries with *kor*, and Chiri lists
+Sakhalin *kor* '…しつつ' (with *kor an* progressive) and the conditional/temporal
+*ko* '(when, if)' as members of the same converb set
+(<Cite key="Chiri 1942" page="§54, §56, §60" paren={false} />). We therefore answer
+the question whether Sakhalin has a productive simultaneous converb in the affirmative:
+*kane* is that converb, with *kor ~ ko* as a co-existing pan-Ainu doublet. The
+construction is best attested in East-coast narrative, where it marks a temporal frame,
+but its presence in West-coast aspectual *kane an* and in the *kanne* of Furukawa's
+chaining example (§1) shows the same morpheme is productive on both coasts; what is thin
+in the West-coast conversational record is its use as a *foregrounded* clause-chainer,
+not the morpheme itself.
 
 <Example
 	ain="ko-sir-tono to-noske ko-oman kane"
@@ -207,7 +274,22 @@ a quotation framed by <W w="nah" gloss="that" /> + <W w="yee" gloss="say" /> (§
 ## Conditional and temporal clauses
 
 The conditional/temporal protasis is marked by <W w="anah" gloss="if, when" />
-'if, when', attested on both coasts. West-coast:
+'if, when', attested on both coasts. The form contains the existential verb *an*
+'be, exist' — the morphological core the automated decomposer still recognises inside
+it — followed by an opaque *-(a)h* element; we analyse *‘anah* as a frozen
+existential-based protasis marker ('it being (the case) that …'), parallel to the way the
+negative conditional *somo ne ciki* and the topic-conditional *ne‘ampe* are likewise
+built on *ne(e)*/*an* + a particle. It freely takes the additive *kayki* to give
+*‘anah kayki* / *anahkayki* 'even when, although', a concessive-conditional:
+
+<Example
+	ain="mahpooho i-raanup i-ike i-omahkante-an 'anah kayki"
+	surface="mahpooho iraanup iike iomahkantean anahkayki"
+	gloss="daughter.POSS 1SG.O-3.like 1SG.O-and.so 1SG.O-make.ashamed-INDEF.S COND even"
+	free="When the daughter came to like me, I was made to feel ashamed, even so …"
+	cite="Piłsudski 1912"
+	dialect="East"
+	note="‘anah + kayki = concessive-conditional ‘even when’; the bracketing clause is itself chained by ike; from the Kusurikoya text. Internal segmentation of the verb tentative." />
 
 <Example
 	ain="siri-pirika 'anah ku='oman kusu neya"
@@ -216,6 +298,20 @@ The conditional/temporal protasis is marked by <W w="anah" gloss="if, when" />
 	cite="Furukawa 1967" page="108"
 	dialect="West"
 	note="‘anah conditional protasis; neya a counterfactual final particle." />
+
+*‘anah* is not the only Sakhalin conditional. <Cite key="Chiri 1942" page="§50" paren={false} />
+records *ciki* 'if; when; since', and it remains productive in the West-coast Sirahama
+texts, where it builds a conditional whose apodosis is the dubitative *nankoro pe ne*
+'it will (surely) be that …':
+
+<Example
+	ain="ukoramupirika 'an=ki ciki pirika nankoro pe ne"
+	surface="ukoramupirika an-ki ciki pirika nankoro pe ne."
+	gloss="reconcile 4=do COND be.good PROB thing COP"
+	free="If we reconcile with each other, that would be good."
+	cite="Chiba (archive)"
+	dialect="West"
+	note="ciki conditional; apodosis = dubitative nankoro pe ne; from a West-central Sakhalin (Sirahama) text in the Chiba University archive." />
 
 A sequential converb and a conditional can stack within a single chained
 protasis, as in this East-coast example whose apodosis is itself a
@@ -303,6 +399,21 @@ The same frame with <W w="ramu" gloss="think" /> reports inner thought:
 	dialect="West"
 	note="Inner thought framed with cogitative nah ramu ‘think that’." />
 
+The *nah* frame is dedicated to <strong>direct speech</strong> (*oratio recta*): the embedded
+clause is reproduced verbatim, with its own deixis, and *nah* may follow a whole sentence,
+a single word, or even a cry. <Cite key="Chiri 1942" page="§64" paren={false} /> shows that
+Ainu also has a distinct <strong>indirect-speech</strong> (*oratio obliqua*) strategy that must not
+be conflated with it: the complementiser *kunak* (~ *kuni*, with which Chiri equates it)
+nominalises the embedded clause and is followed almost exclusively by the transitive verb
+*ramu* 'think', never by the intransitive verbs (*itak* 'speak', *hotuye* 'shout', *rek*
+'cry') that the direct-speech particles *nah ~ sekor ~ ari* select. The two thus differ on a
+clean syntactic test — direct *nah* + intransitive verb of utterance vs. indirect *kunak* +
+transitive *ramu* — and Chiri rejects the older equation of *kunak* with quotative *sekor*
+(Batchelor, Kindaichi) on exactly this ground. Sakhalin reported speech therefore commands
+both poles of the cross-linguistically standard direct/indirect opposition, with *nah* on the
+direct side and *kunak/kuni* on the indirect side; the cogitative *nah ramu* above sits
+between them, using the direct particle but a thought predicate.
+
 <Cite key="Dal Corso 2018" paren={false} /> stresses that *nah ye(e)* 'say that'
 shows hardly any grammaticalisation — both *nah* and *ye* keep their ordinary
 functions; the reportative force is carried by clause-final *manu*. *manu* marks
@@ -362,17 +473,56 @@ final particle <W w="hetaneya" gloss="?" />, which attaches only to nouns, is th
 diagnostic that the host is nominal. This is the clearest Sakhalin case where
 subordinating morphosyntax is deployed in a main-clause function.
 
-## Gaps and open questions
+## The wider converb inventory and logophoricity
 
-Several aspects of the system remain underdescribed. <Cite key="Furukawa 1967" paren={false} />
-states that she identified roughly <strong>40</strong> conjunctive forms for Raychishka but
-published only four (*wa, teh, yayne, yahka*); the full inventory and the precise
-co-subordination semantics of the remainder are <strong>unattested</strong> in the consulted
-sources. The internal segmentation of *‘anah* and *‘orowa* is <strong>uncertain</strong>;
-sources give surface forms only. Whether Sakhalin has a distinct simultaneous
-converb productive in clause chaining (beyond aspectual *kane an* / *kusu ‘an*) is
-under-described for the West coast. Finally, true logophoricity (dedicated
-logophoric pronouns in reported speech) is <strong>unattested</strong> in the consulted
-Sakhalin sources; reported speech relies instead on the 4th-person/indefinite
-prefixes <Gl t="PRM" /> plus *nah*, with <Cite key="Chiri 1942" page="764" />
-noting that *an-* inside quotes edges toward a third-person reading.
+### Reconstructing Furukawa's "forty conjunctions"
+
+<Cite key="Furukawa 1967" page="11" paren={false} /> reports that she identified roughly
+<strong>40</strong> conjunctive forms for Raychishka but published worked examples of only four
+(*wa, teh, yayne, yahka*). The remaining members are not, however, lost to description:
+<Cite key="Chiri 1942" page="§120–121" paren={false} /> catalogues the Ainu conjunctive
+particles (his "third kind of particle") pan-dialectally, flagging the Sakhalin-specific uses,
+and the great majority of his entries are precisely the forms that recur in the Sakhalin corpus.
+Cross-referencing his list against the West- and East-coast texts lets us recover the bulk of
+Furukawa's inventory and assign each a co-subordination value: besides the four she published, the
+attested or Chiri-documented Sakhalin set includes the sequential *(h)ine* and *(h)ike* '…and (so)',
+the counter-expectational *a(h)i* / *a(h)ike* '…but, …when (unexpectedly)', the continuative
+*ayne* '(do and do,) eventually', the manner/simultaneous *kane ~ kanne* and *kor ~ ko*, the
+sequential connectives *ora(no)* / *orowa(no)* 'and then', the temporal *rapok(ta)* 'while', the
+causal-purposive *kusu*, the conditionals *‘anah* and *ciki*, the concessive *yahka* and
+*yahka* / *yakka*, the adversative *korka* 'but', the terminative *pakno* 'until, to the extent
+that', and the indirect-speech complementiser *kunak ~ kuni*. We therefore treat Furukawa's "forty"
+not as an unrecoverable list but as essentially the union of the converbs and clause-final
+subordinators described in this chapter with the wider Chiri inventory; what remains genuinely
+open is the fine semantic discrimination among near-synonyms (e.g. *a(h)i* vs *a(h)ike*) on the
+West coast specifically, which only fresh elicitation could settle.
+
+The internal make-up of two of the commonest linkers, earlier left as surface forms, is now
+analysable: *‘orowa* is the possessed relational noun *oro* 'place (of)' + converbal/ablative *wa*
+'from' (as set out under *teh* above), and *‘anah* is built on the existential *an* 'be' plus a
+frozen *-(a)h* (as set out under the conditional clauses above) — both existential/relational bases
+recruited into the clause-linking system, the same diachronic source that gives the NMLZ+COP adverbial
+conjunctions *neeno*, *neya*, *ne‘ampe* (Ch. 23). Whether Sakhalin has a productive
+<strong>simultaneous</strong> converb, finally, is answered under *kane ~ kor* above: *kane* (with
+*kor ~ ko*) is that converb, robust pan-Sakhalin in Chiri's description and in East-coast narrative,
+and present on the West coast at least in the aspectual *kane an* and the chaining *kanne*.
+
+### Logophoricity: the 4th-person strategy
+
+True <strong>logophoricity</strong> — a dedicated pronoun series used only for the reported speaker inside
+embedded speech, as in many West African and some Papuan languages (the phenomenon Hagège named and
+that Culy and others have since typologised) — is <strong>not</strong> attested in the consulted Sakhalin
+sources. Sakhalin instead presses its <strong>fourth-person / participant-mismatch</strong> prefixes
+(<Gl t="INDEF" />, the *an-/-an/i-* set) into the same discourse work: inside a quotation the speaker
+refers to him- or herself with the indefinite *an-* rather than a first-person form, so that the
+reported "I" is grammatically distanced from the narrating "I". <Cite key="Chiri 1942" page="764" />
+documents this directly, observing that in Sakhalin *an-* inside quotes "edges toward a third-person
+reading", to the point that he would "rather regard it as a third-person affix", and citing the cry
+*"oha-čisuje i-nospa ike kira jan!"* nah je manu '"the empty-house demon is chasing me — flee!" he
+said' (Piłsudski 1912: 100), where the quoted *i-* 'me' is the indefinite object. Functionally this
+delivers part of what a logophoric system delivers — disambiguation of the speech-internal from the
+speech-external participant — without a dedicated pronoun. We therefore analyse Sakhalin not as
+lacking the function of logophoricity but as discharging it through the independent fourth-person
+category, a recruitment that is cross-linguistically expected: indefinite/obviative and "fourth-person"
+categories are a well-known diachronic source of logophoric marking, and Sakhalin shows that source
+relation synchronically frozen at an early stage.

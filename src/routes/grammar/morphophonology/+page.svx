@@ -196,7 +196,7 @@ alternation. <W w="tura" gloss="be.with" /> stays *tura* before <W w="rusuy" glo
 
 <Example
 	ain="'orowa hosipi-hci 'ike taa 'orowa 'an=tura rusuy yahka"
-	gloss="then return-PL and then then PRM.S=be.with DESID CONC"
+	gloss="then return-PL and then then INDEF.S=be.with DESID CONC"
 	free="Then the men went back, and the women wanted to stay together, but…"
 	cite="Tangiku 1998" page="227"
 	dialect="West"
@@ -277,7 +277,7 @@ not *-ahci*. In running text the clitic appears on a vowel-final stem:
 
 <Example
 	ain="keeh aynu itah ani yuukara=an=ahci"
-	gloss="come.on Ainu language INS sing=PRM.S=COLL"
+	gloss="come.on Ainu language INS sing=INDEF.S=COLL"
 	free="Come on, let us sing in Ainu."
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="West"

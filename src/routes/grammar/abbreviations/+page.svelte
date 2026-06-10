@@ -18,8 +18,7 @@
 				class="text-blue-600 hover:underline">Leipzig Glossing Rules</a
 			>. Grammatical categories are written in small capitals; the same expansions appear as
 			tooltips on every example. The indefinite / fourth-person set (<i>-an</i> / <i>an-</i> /
-			<i>i-</i>) is glossed <span style="font-variant-caps: all-small-caps">prm</span> (participant-referentiality
-			mismatch).
+			<i>i-</i>) is glossed <span style="font-variant-caps: all-small-caps">indef</span>.
 		</p>
 	</header>
 

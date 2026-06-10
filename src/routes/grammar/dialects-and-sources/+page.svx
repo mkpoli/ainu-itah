@@ -96,18 +96,18 @@ Two facts about its making bear on how it must be read. First, the texts were el
 
 ## The documentary record II — Dobrotvorskij (1875)
 
-M. M. Dobrotvorskij lived some five years among the Sakhalin Ainu, running a clinic at Kushunnai from 1869, and produced what is judged the most accurate Ainu record of its time: an Ainu–Russian dictionary containing vocabulary, example sentences, ethnographic data, about 98 personal names, and two appended Ainu texts — a confession scene narrated by Ciwokanke and a marriage dialogue <Cite key="Sakaguchi 2021a" page="124" />. Its Cyrillic transcription is unusually good for the period in that it writes syllable-final consonants, where contemporary Japanese katakana records did not; but it confuses *i*/*e* and *o*/*u* and ignores vowel length. The data point chiefly to the West-central coast around Kushunnai, a localisation <Cite key="Sakaguchi 2021a" paren={false} /> establishes by cross-referencing census and registry records against the named speakers. A characteristic sentence from Ciwokanke's confession shows the <Gl t="PRM" /> *-an* used throughout as the ordinary first person:
+M. M. Dobrotvorskij lived some five years among the Sakhalin Ainu, running a clinic at Kushunnai from 1869, and produced what is judged the most accurate Ainu record of its time: an Ainu–Russian dictionary containing vocabulary, example sentences, ethnographic data, about 98 personal names, and two appended Ainu texts — a confession scene narrated by Ciwokanke and a marriage dialogue <Cite key="Sakaguchi 2021a" page="124" />. Its Cyrillic transcription is unusually good for the period in that it writes syllable-final consonants, where contemporary Japanese katakana records did not; but it confuses *i*/*e* and *o*/*u* and ignores vowel length. The data point chiefly to the West-central coast around Kushunnai, a localisation <Cite key="Sakaguchi 2021a" paren={false} /> establishes by cross-referencing census and registry records against the named speakers. A characteristic sentence from Ciwokanke's confession shows the <Gl t="INDEF" /> *-an* used throughout as the ordinary first person:
 
 <Example
   surface="Tan kotàn ohtà utása-an kusú áriki-an."
   ain="tan kotan ohta utasa-an kusu ariki-an"
-  gloss="this village at visit-PRM.S CAUF come.PL-PRM.S"
+  gloss="this village at visit-INDEF.S CAUF come.PL-INDEF.S"
   free="I have come in order to visit this village."
   cite="Sakaguchi 2021" page="49"
   dialect="Sakhalin"
   note="Dobrotvorskij 1875, text 1; segmentation following Sakaguchi's romanisation." />
 
-The dictionary is also the clearest single witness to the *in-* / *i-* object contrast, because it records both in adjacent material. The East/West-central exclusive object *in-* appears alongside the <Gl t="PRM" /> object *i-*:
+The dictionary is also the clearest single witness to the *in-* / *i-* object contrast, because it records both in adjacent material. The East/West-central exclusive object *in-* appears alongside the <Gl t="INDEF" /> object *i-*:
 
 <Example
   surface="Tamà in-konte."
@@ -116,16 +116,16 @@ The dictionary is also the clearest single witness to the *in-* / *i-* object co
   free="You gave me a jewel."
   cite="Sakaguchi 2021" page="49"
   dialect="Sakhalin"
-  note="KU/CI-class 1SG object prefix in- in an otherwise PRM context." />
+  note="KU/CI-class 1SG object prefix in- in an otherwise INDEF context." />
 
 <Example
   surface="Anokay an-renkayne, i-koyki ánpe ka hánne."
   ain="anokay an=renkayne i=koyki anpe ka hanne"
-  gloss="1SG.PRO PRM.S=accordingly 1.O=hit NMLZ ADD NEG"
+  gloss="1SG.PRO INDEF.S=accordingly 1.O=hit NMLZ ADD NEG"
   free="In accordance with my wish, I was not hit."
   cite="Sakaguchi 2021" page="50"
   dialect="Sakhalin"
-  note="PRM object prefix i- with the pronoun anokay; the dictionary records a parallel kuani … in-koyki, exhibiting the in-/i- contrast." />
+  note="INDEF object prefix i- with the pronoun anokay; the dictionary records a parallel kuani … in-koyki, exhibiting the in-/i- contrast." />
 
 ## The documentary record III — Murasaki, Furukawa, Hattori
 
@@ -178,6 +178,6 @@ Third, the <strong>diachronic-comparison pitfall</strong>. Piłsudski's East tex
 
 Finally, two practical cautions. The corpus is reached partly through OCR and re-transcription, so some morpheme breaks in the modern and primer examples here are editorial — flagged "segmentation mine" where they are — and elements such as the *-p(e)* of *inranupan* are left unanalysed following the sources.
 
-The second practical caution can now be partly retired. Piłsudski introduces his informants only ad hoc in his notes, so for a long time it was natural to say that no consolidated record tied each published folktale to a named narrator. The re-edition tradition has in fact reconstructed exactly such a census. <Cite key="Sakaguchi 2020" page="55" paren={false} /> assembles a narrator-by-tale table for the eleven *tuita* that carry usable person-marking, recovering for each its narrator, place of collection, and even the speaker's wider documentary identity: *Tuita* 2 from <strong>Sukoyamma</strong> (= Kasuga Chiyo, who also worked with Hattori and Chiri) at Siraroko/Shiraura; *Tuita* 11 from <strong>Usarosma</strong> (probably Kimura Usarusmah of Ay) at Otosan; *Tuita* 1, 3 and 10 from three narrators at <strong>Takoye</strong>, the last including *Tuita* 3 from <strong>Kusurikoya</strong>, a nineteen-year-old woman; *Tuita* 4 and 7 from <strong>Kutokere</strong> at Ocohpoka; and *Tuita* 5, 6, 8 and 9 from <strong>Ramante</strong> and others at <strong>Tunayci</strong> — Ramante being the well-known transmitter of the *Kita Ezo koyō ihen* (Japanese name Tōnai Chūzō). The census is thus attested, if incomplete: it covers the morphologically richest published tales rather than all of Piłsudski's ~138 *tuita*, most of whose manuscripts are lost. It also turns out to carry grammatical weight, for the table aligns narrator with the *person system each one uses*: the Takoye and Shiraura tellers move between third person and the <Gl t="PRM" /> *-an* across a tale (the 3→PRM→3 narrative shift), whereas the Tunayci tellers stay in *-an* throughout and admit the *ku-* and *ci-* classes only inside quoted speech <Cite key="Sakaguchi 2020" page="55" />. The *Tuita* 3 opening cited above (§ on Piłsudski) is, on this census, the speech of <strong>Kusurikoya</strong> of Takoye — so an example that once floated free of its speaker can now be anchored to a named nineteen-year-old narrator and to her place on the East coast.
+The second practical caution can now be partly retired. Piłsudski introduces his informants only ad hoc in his notes, so for a long time it was natural to say that no consolidated record tied each published folktale to a named narrator. The re-edition tradition has in fact reconstructed exactly such a census. <Cite key="Sakaguchi 2020" page="55" paren={false} /> assembles a narrator-by-tale table for the eleven *tuita* that carry usable person-marking, recovering for each its narrator, place of collection, and even the speaker's wider documentary identity: *Tuita* 2 from <strong>Sukoyamma</strong> (= Kasuga Chiyo, who also worked with Hattori and Chiri) at Siraroko/Shiraura; *Tuita* 11 from <strong>Usarosma</strong> (probably Kimura Usarusmah of Ay) at Otosan; *Tuita* 1, 3 and 10 from three narrators at <strong>Takoye</strong>, the last including *Tuita* 3 from <strong>Kusurikoya</strong>, a nineteen-year-old woman; *Tuita* 4 and 7 from <strong>Kutokere</strong> at Ocohpoka; and *Tuita* 5, 6, 8 and 9 from <strong>Ramante</strong> and others at <strong>Tunayci</strong> — Ramante being the well-known transmitter of the *Kita Ezo koyō ihen* (Japanese name Tōnai Chūzō). The census is thus attested, if incomplete: it covers the morphologically richest published tales rather than all of Piłsudski's ~138 *tuita*, most of whose manuscripts are lost. It also turns out to carry grammatical weight, for the table aligns narrator with the *person system each one uses*: the Takoye and Shiraura tellers move between third person and the <Gl t="INDEF" /> *-an* across a tale (the 3→INDEF→3 narrative shift), whereas the Tunayci tellers stay in *-an* throughout and admit the *ku-* and *ci-* classes only inside quoted speech <Cite key="Sakaguchi 2020" page="55" />. The *Tuita* 3 opening cited above (§ on Piłsudski) is, on this census, the speech of <strong>Kusurikoya</strong> of Takoye — so an example that once floated free of its speaker can now be anchored to a named nineteen-year-old narrator and to her place on the East coast.
 
 None of this undermines the description; it simply means that, for Sakhalin Ainu, the dialect label, the narrator, and the source citation on every example are part of the data, not decoration.

@@ -52,7 +52,7 @@ incomplete verb marks it with a <strong>prefix</strong> (<Gl t="A" />-form, e.g.
 
 <Example
 	ain="ahun-an"
-	gloss="enter.SG-PRM.S"
+	gloss="enter.SG-INDEF.S"
 	free="I enter."
 	cite="Chiri 1942" page="§28"
 	dialect="Sakhalin" />
@@ -60,7 +60,7 @@ incomplete verb marks it with a <strong>prefix</strong> (<Gl t="A" />-form, e.g.
 <Example
 	surface="anahunke"
 	ain="an-ahunke"
-	gloss="PRM.A-put.in"
+	gloss="INDEF.A-put.in"
 	free="I put (it) in."
 	cite="Chiri 1942" page="§28"
 	dialect="Sakhalin"
@@ -87,7 +87,7 @@ to suffixal agreement.
 
 <Example
 	ain="i-ku-an"
-	gloss="ANTIP-drink-PRM.S"
+	gloss="ANTIP-drink-INDEF.S"
 	free="I drank (something)."
 	cite="Chiri 1942" page="§33"
 	dialect="Sakhalin"
@@ -106,15 +106,15 @@ slots to its left and a smaller set of suffixal slots to its right. Schematicall
 | Zone | Slot contents | Glossing |
 |---|---|---|
 | Proclitic | negation `ham=` (`han=`) | <Gl t="NEG" /> |
-| Prefix (outer) | subject/object agreement (`ku-`, `e-`, `an-`, `eci-`, `en-`, `i-`…) | <Gl t="A" /> / <Gl t="O" /> / <Gl t="PRM" /> |
+| Prefix (outer) | subject/object agreement (`ku-`, `e-`, `an-`, `eci-`, `en-`, `i-`…) | <Gl t="A" /> / <Gl t="O" /> / <Gl t="INDEF" /> |
 | Prefix (inner) | valency prefixes: applicative `e-`/`o-`/`ko-`, reflexive `yay-`/`si-`, reciprocal `u-` | <Gl t="APPL" /> / <Gl t="REFL" /> / <Gl t="RECP" /> |
 | Stem | (incorporated noun/adverb +) verb root | — |
 | Suffix (inner) | causative `-re`/`-te`/`-ka`/`-ke`, plural/iterative `-pa` | <Gl t="CAUS" /> / <Gl t="PL" /> |
-| Suffix (outer) | suffixal agreement `-an`, `-as` | <Gl t="PRM" /> / <Gl t="S" /> |
+| Suffix (outer) | suffixal agreement `-an`, `-as` | <Gl t="INDEF" /> / <Gl t="S" /> |
 | Enclitic | collective `=(a)hci` | <Gl t="COLL" /> |
 
 Most agreement is realised by a single prefixal slot, but a closed set of forms
-— the 1PL.EXCL <Gl t="S" /> `-as` and the 4th-person/PRM <Gl t="S" /> `-an` — is
+— the 1PL.EXCL <Gl t="S" /> `-as` and the 4th-person/INDEF <Gl t="S" /> `-an` — is
 <strong>suffixal</strong>, which produces <strong>discontinuous agreement</strong> in some transitive cells
 (see [Chapter 16](/grammar/person-marking-alignment)). A relatively simple
 transitive word shows the agreement prefix sitting outside a valency suffix:
@@ -160,14 +160,14 @@ collective clitic. Many high-frequency verbs have suppletive or derived
 
 On intransitives the plural stem agrees with <strong>subject</strong> plurality; on
 transitives the `-pa` plural agrees with <strong>object</strong> plurality <Cite key="Sakaguchi 2024" page="§5" />. A striking wrinkle is that agreement
-here is partly <strong>grammatical</strong> rather than semantic: the 4th-person (PRM) set
+here is partly <strong>grammatical</strong> rather than semantic: the 4th-person (INDEF) set
 *always* selects the plural stem, regardless of how many real-world referents are
 involved, because the set is historically a plural <Cite key="Sakaguchi 2024" page="127–128" />.
 
 <Example
 	surface="peray-an kusu makap-an manu"
 	ain="peray-an kusu makap-an manu"
-	gloss="fish-PRM.S because go.uphill.PL-PRM.S REP"
+	gloss="fish-INDEF.S because go.uphill.PL-INDEF.S REP"
 	free="[I] went uphill to fish, it is said."
 	cite="Sakaguchi 2024" page="127"
 	dialect="East"
@@ -184,7 +184,7 @@ plural-stem trigger is the <strong>category</strong> (4th person), not the refer
 <Example
 	surface="kahkumihi onnayke ta ahup-an"
 	ain="kahkumi-hi onnayke ta ahup-an"
-	gloss="dipper-POSS inside at enter.PL-PRM.S"
+	gloss="dipper-POSS inside at enter.PL-INDEF.S"
 	free="I went into the dipper."
 	cite="Chiba (archive)"
 	dialect="East"
@@ -237,7 +237,7 @@ on the root *uosma* 'place into' — appears in a West-coast text:
 <Example
 	surface="Sonnoka an-yaykoramuosma."
 	ain="sonnoka an-yay-ko-ram-uosma"
-	gloss="truly PRM.A-REFL-APPL-heart-place.into"
+	gloss="truly INDEF.A-REFL-APPL-heart-place.into"
 	free="Truly, I was convinced."
 	cite="Chiba (archive)"
 	dialect="West"
@@ -273,7 +273,7 @@ historical signature worth flagging.
   East/West divide and is not an artefact of any single recorder.
 - <strong>The exclusive 1PL stem-and-affix set</strong> (`ci-`/`-as`/`in-`) is robust in
   <strong>East</strong> Sakhalin (Piłsudski's texts) but largely <strong>absent in West (Rayciska)</strong>,
-  where the 4th-person/PRM set covers ⟪1PL⟫ — a "defective" paradigm in Western
+  where the 4th-person/INDEF set covers ⟪1PL⟫ — a "defective" paradigm in Western
   terms <Cite key="Dal Corso 2025" page="194–195" />. Because both the 4th person
   and the exclusive 1PL grammatically force plural stems, verbal number on these
   forms must be read as agreement with the *category*, not the referent.
