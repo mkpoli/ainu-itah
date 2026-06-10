@@ -57,7 +57,7 @@ Our anchor text is Piłsudski's Tuita 3, recorded on the east coast and
 re-edited with a full morpheme gloss by <Cite key="Sakaguchi 2020" paren={false} />.
 It is a *tuytah* that opens in the third person, shifts into the flatfish-man's
 own first-person voice partway through, and shifts back — the <strong>person-shifting narrative technique</strong> characteristic of Piłsudski's 1903 east-coast tales, in
-which the <Gl t="INDEF" /> set (`-an`/`an=`/`i-`) cross-references the foregrounded
+which the <Gl t="INDEF" /> set (`-an`/`an-`/`i-`) cross-references the foregrounded
 narrator. The tale also showcases the east-coast collective suffix <Gl t="COLL" /> `-ahci`, the belonging (<Gl t="POSS" />) form on relational
 nouns, and the quotative frame `nah … yee`.
 
@@ -65,7 +65,7 @@ The opening line establishes the two protagonists and immediately uses the
 collective, which agrees with the dual subject:
 
 <Example
-	ain="pon kapariw ohkayo poy sohkana ohkayo u-tur[a] okay-ahci"
+	ain="pon kapariw ohkayo poy sohkana ohkayo u-tur[a] okay=ahci"
 	gloss="small flatfish man small sculpin man RECP-together.with live.PL-COLL"
 	surface="Pon kapariw ohkayo poy sohkana ohkayo utur okay-ahci."
 	free="A small flatfish-man and a small sculpin-man lived together."
@@ -157,7 +157,7 @@ collective <Gl t="COLL" /> — a clear demonstration that `-hci`/`-si` agrees wi
 participant number:
 
 <Example
-	ain="tura niina-hci kusu nah yee-si"
+	ain="tura niina=hci kusu nah yee-si"
 	gloss="together.with gather.firewood-COLL will QUOT say-COLL"
 	free="‘Let's go gather firewood together,’ they said."
 	cite="Sakaguchi 2020" page="57 (Tuita 3, l. 18)"
@@ -203,8 +203,8 @@ thrown", `an-kii-re-hsi` "(he) was granted (an audience)", and even on a verb
 of psychological affect, `an-ramu-hsi` "(he) was favoured" — in all of which
 both agent and patient are singular and definite, and the reading is uniformly
 passive (Sakaguchi 2020: 52–53, drawing on Murasaki 1979: 51 and Yamabe &
-Kindaichi 1913). Third, in most of those examples `-ahci` co-occurs with the <Gl t="INDEF" /> clitic `an=`, the ordinary Sakhalin passive marker; in `ocipa-hsi` alone
-`an=` is *absent*, so the collective is left carrying the passive sense by
+Kindaichi 1913). Third, in most of those examples `-ahci` co-occurs with the <Gl t="INDEF" /> clitic `an-`, the ordinary Sakhalin passive marker; in `ocipa-hsi` alone
+`an-` is *absent*, so the collective is left carrying the passive sense by
 itself. This is the configuration that makes the line probative.
 
 Cross-linguistically this is a familiar drift. An impersonal-plural ("they
@@ -215,7 +215,7 @@ longer counts agents but signals that the agent is demoted, leaving the patient
 as the sole tracked argument. We adopt this as the grammar's analysis: the
 Sakhalin collective is a plural-agreement clitic at base, and its passive use
 is the impersonal-plural-to-passive extension caught here mid-grammaticalisation
-— not yet a dedicated passive morpheme (the dedicated passive is `an=`), but
+— not yet a dedicated passive morpheme (the dedicated passive is `an-`), but
 already an independent way of building one. What remains genuinely open is only
 whether the language had reached the point of *obligatory* agent suppression;
 the handful of attested tokens is too small to tell, and that is the one
@@ -236,7 +236,7 @@ The tale resolves in marriage, with the reciprocal <Gl t="RECP" /> `u-` plus
 the collective — a near-obligatory pairing on reciprocal verbs in this dialect:
 
 <Example
-	ain="kakan mahpoo-ho pon kapariw ohkayo tura u-sam-ahci"
+	ain="kakan mahpoo-ho pon kapariw ohkayo tura u-sam=ahci"
 	gloss="governor daughter-POSS small flatfish man together.with RECP-marry-COLL"
 	free="Kakan's daughter married the small flatfish-man."
 	cite="Sakaguchi 2020" page="59 (Tuita 3, l. 24)"
@@ -247,7 +247,7 @@ the collective — a near-obligatory pairing on reciprocal verbs in this dialect
 
 This west-coast Tarantomari "rumour tale" was recorded from Chiri's field notes
 and re-edited by <Cite key="Sakaguchi 2019a" paren={false} />. It is told in the
-third person throughout — the west-coast norm — with `an=` functioning as a
+third person throughout — the west-coast norm — with `an-` functioning as a
 plain indefinite/passive rather than as a logophoric narrator. It opens with
 the locative postposition <W w="otta" gloss="at, in" /> (&lt; *or-ta*) and the
 existential closed by `manu`:
@@ -371,14 +371,14 @@ SW `imiki`:
 	free="When he prayed, all that feces disappeared."
 	cite="Sakaguchi 2019b" page="119 (l. 12002)"
 	dialect="West"
-	note="inonitah ‘pray’ is the reduced katakana spelling of inonno-itah ‘prayer-speak’ (the full form is attested in modern Sakhalin didactic prose, e.g. ku=acapo inonnoitah ‘my uncle prayed’); emuyke ‘all’ (general Sakhalin) and isan (&lt; isam, West final m &gt; n) ‘not exist’ are both secure. The only residue of uncertainty is the bare reading of si ‘feces’ in the katakana original; the clause as a whole is well analysed." />
+	note="inonitah ‘pray’ is the reduced katakana spelling of inonno-itah ‘prayer-speak’ (the full form is attested in modern Sakhalin didactic prose, e.g. ku-acapo inonnoitah ‘my uncle prayed’); emuyke ‘all’ (general Sakhalin) and isan (&lt; isam, West final m &gt; n) ‘not exist’ are both secure. The only residue of uncertainty is the bare reading of si ‘feces’ in the katakana original; the clause as a whole is well analysed." />
 
 The reward scene gathers the restrictive <Gl t="RESTR" /> `pateh` "only", the
 comitative <Gl t="COM" /> `tura` "together (with it)", and the collective on the
 verb of giving:
 
 <Example
-	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
+	ain="sine ikoro sehpa ta pateh an-konte-si numano cise ohta tura oman"
 	gloss="one treasure clasp FOC only 1.A=give-COLL gladly house LOC together go.SG"
 	free="She was given only one treasure, a clasp, and gladly took it back home."
 	cite="Sakaguchi 2019b" page="117 (l. 11903)"
@@ -407,14 +407,14 @@ Their Cyrillic transcription faithfully records syllable-final consonants but
 confuses *i*/*e* and *o*/*u* and ignores vowel length. The consequence is a
 predictable one, and worth stating precisely: the consonantal skeleton — and
 therefore the *person-marking* morphology, which lives on consonants
-(`an=`, `in=`, `i=`, `e=`, the suffix `-an`) — is recoverable, whereas
+(`an-`, `in-`, `i=`, `e=`, the suffix `-an`) — is recoverable, whereas
 contrasts that hinge on vowel quality or length (e.g. the desiderative `rusuy`
 vs a long-vowel stem, or `e`- vs `i`-prefixes) cannot always be told apart from
 the spelling alone. Since the diagnostic features of interest here are exactly
 the consonant-borne person prefixes, the texts are in fact *more* reliable for
 the morphosyntactic point they are cited for than their reputation suggests;
 the segmentations below follow Sakaguchi's notes.
-What the texts most clearly attest is the <strong>east-coast-style first-person system</strong> — the AN-class `-an`/`an=` and, diagnostically, the KU/CI-class object
+What the texts most clearly attest is the <strong>east-coast-style first-person system</strong> — the AN-class `-an`/`an-` and, diagnostically, the KU/CI-class object
 prefix `in-` — confirming that this West-central material patterns with the East
 rather than with the northern West coast.
 
@@ -429,24 +429,24 @@ The confession opens with a purposive `kusu` linking two AN-class verbs:
 	dialect="Sakhalin"
 	note="AN-class -an on both verbs; purposive kusu. Segmentation following Sakaguchi's romanisation." />
 
-An AN-class transitive frame `an=e=…` "I … you" expresses gratitude for the
+An AN-class transitive frame `an-e=…` "I … you" expresses gratitude for the
 visit, with `renkayne` "thanks to, because":
 
 <Example
-	ain="tan kotan ta eh renkayne an=e=nukara"
+	ain="tan kotan ta eh renkayne an-e-nukara"
 	gloss="this village LOC come thanks.to 1.A=2.O=see"
 	surface="Tan kotán ta eh renkáyne, an-è-núkara."
 	free="Thanks to your coming to this village, I have been able to see you."
 	cite="Sakaguchi 2021" page="49 (Dobrotvorskij text 1, ex. 3)"
 	dialect="Sakhalin"
-	note="AN-class transitive 1A=2O frame an=e=…; renkayne ‘thanks to’." />
+	note="AN-class transitive 1A=2O frame an-e=…; renkayne ‘thanks to’." />
 
 The diagnostic line uses the KU/CI-class 1SG object prefix `in-` inside an
 otherwise AN-class context, together with the causative <Gl t="CAUS" /> `-re`
 and reflexive `yay-`:
 
 <Example
-	ain="tama in=konte reekoro yay-irayki-re-an"
+	ain="tama in-konte reekoro yay-irayki-re-an"
 	gloss="jewel 1SG.O=give very REFL-thank-CAUS-INDEF.S"
 	surface="Tamà in-konte. Rékoro yay'iráykire-an."
 	free="You gave me a jewel. I am very grateful."
@@ -470,7 +470,7 @@ The second text contrasts the AN-class object prefix `i-` (with the free pronoun
 `anokay`) against the `in-` of the first text, and negates with `hanne`:
 
 <Example
-	ain="anokay an=renkayne i=koyki anpe ka hanne"
+	ain="anokay an-renkayne i-koyki anpe ka hanne"
 	gloss="1SG.PRO 1.S=accordingly 1.O=hit NMLZ even NEG"
 	surface="Anokay an-renkayne, i-koyki ánpe ka hánne."
 	free="In accordance with my wish, I was not hit."
@@ -482,7 +482,7 @@ A concessive `yahka` "even if" and the epistemic `nankoro pe ne` "it would
 probably be" round out the dialogue's politeness formulae:
 
 <Example
-	ain="sine utah-ta ne kusu porono ham e=(i=)ye yahka pirika nankoro pe ne"
+	ain="sine utah-ta ne kusu porono ham e-(i-)ye yahka pirika nankoro pe ne"
 	gloss="one relative-? COP because much NEG 2.A=(1.O=)say even good probably NMLZ COP"
 	free="Because we are close kin, it would be fine even if you did not say much to me."
 	cite="Sakaguchi 2021" page="52 (Dobrotvorskij text 2, ex. 21)"
@@ -494,31 +494,31 @@ probably be" round out the dialogue's politeness formulae:
 The final group illustrates the <strong>living tail</strong> of the documentary record:
 modern west-coast revival prose, and an east-coast text written by a native
 speaker rather than dictated to a researcher. They show that the same
-constructions — `manu`, `an=`, the belonging form, the additive `naa` — persist
+constructions — `manu`, `an-`, the belonging form, the additive `naa` — persist
 into didactic and self-authored registers.
 
-In a modern west-coast didactic dialogue, `an=` functions as a plain
+In a modern west-coast didactic dialogue, `an-` functions as a plain
 indefinite/passive ("she was raised"), and the line closes with the hearsay
 `manu`:
 
 <Example
-	ain="aaca haciko ohta siisam hatagoya ohta an=reske manu"
+	ain="aaca haciko ohta siisam hatagoya ohta an-reske manu"
 	gloss="father small LOC Japanese inn LOC INDEF.A=raise REP"
 	free="Father: She was raised in a Japanese inn when she was little, it is said."
 	cite="Kitahara 2016"
 	dialect="West"
-	note="an= as indefinite-person/passive; hearsay manu; modern pan-West didactic register." />
+	note="an- as indefinite-person/passive; hearsay manu; modern pan-West didactic register." />
 
-The KU-class possessive prefix `ku=` on the belonging form `ahci-hi` "(my)
+The KU-class possessive prefix `ku-` on the belonging form `ahci-hi` "(my)
 grandmother", with two additive `naa` "too":
 
 <Example
-	ain="aaca ku=ahci-hi kawren itah naa nuca itah naa ponno wante manu"
+	ain="aaca ku-ahci-hi kawren itah naa nuca itah naa ponno wante manu"
 	gloss="father 1SG=grandmother-POSS Korean language too Russian language too a.little know REP"
 	free="Father: My grandmother understood a little Korean and Russian too, it is said."
 	cite="Kitahara 2016"
 	dialect="West"
-	note="KU-class possessive prefix ku=; additive naa ‘too’; hearsay manu." />
+	note="KU-class possessive prefix ku-; additive naa ‘too’; hearsay manu." />
 
 The belonging form `ahci-hi` here is singular ("(my) one grandmother"), and
 this is the point at which Sakhalin departs sharply from Hokkaido: the Sakhalin
@@ -529,7 +529,7 @@ the same root that appears singular as `mahpoo-ho` "her daughter" in Text 1
 appears plural here, doubly marked (`-ho-hcin` on the noun, `-hci` on the verb):
 
 <Example
-	ain="mahpoo-ho-hcin reske-hci"
+	ain="mahpoo-ho-hcin reske=hci"
 	gloss="daughter-POSS-PL raise-COLL"
 	free="They raised their daughters."
 	cite="Murasaki 1976" page="28 (Dal Corso 2021a: 281; 2024: 73, ex. 15)"
@@ -596,20 +596,20 @@ tale-closing formula <W w="hemaka" gloss="the end" />:
 ## What the texts show together
 
 Read side by side, the five texts sort along a clear east–west line. The <strong>east-coast</strong> *tuytah* (Text 1) and the West-central dialogues (Text 4) attest
-the full first-person apparatus — the AN-class `-an`/`an=`, the KU/CI-class
+the full first-person apparatus — the AN-class `-an`/`an-`, the KU/CI-class
 object prefix `in-`, and the narrator-shifting use of the <Gl t="INDEF" /> set —
 while the <strong>west-coast</strong> tales (Texts 2–3) are consistently third-person
-narratives in which `an=` has drifted toward a plain indefinite/passive, as <Cite key="Chiri 1942" paren={false} /> already observed.
+narratives in which `an-` has drifted toward a plain indefinite/passive, as <Cite key="Chiri 1942" paren={false} /> already observed.
 The collective <Gl t="COLL" /> `-ahci`/`-hsi`/`-si` is everywhere on plural and
 reciprocal predicates, and in Text 1 it does double duty as a passive marker.
 Counting the tokens settles what an isolated example cannot: of the nine
 collective verbs in *Tuita 3*, eight agree straightforwardly with a plural
 participant and only `ocipa-hsi` does not, and that one stands exactly where a
 passive is expected (definite patient, backgrounded agent, and — uniquely — no
-accompanying `an=`). We therefore treat the collective as a participant-plural
+accompanying `an-`). We therefore treat the collective as a participant-plural
 agreement clitic that has been recruited, by the cross-linguistically common
 impersonal-plural-to-passive route, as a *second* way of forming the passive
-alongside the primary marker `an=` — a grammaticalisation caught in progress
+alongside the primary marker `an-` — a grammaticalisation caught in progress
 rather than an unresolved ambiguity.
 
 Phonologically the texts display the <strong>coda shibboleth</strong>: the west-coast SW

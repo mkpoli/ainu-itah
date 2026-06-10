@@ -70,7 +70,7 @@ Here the reduced form *nanpe* (&lt; *neanpe*) chains the shooting-event to its r
 	dialect="West"
 	note="neanpe marks the contrastive nominal topic; the comment is a negated predicate." />
 
-The same nominal-topic *neanpe* recurs in *ku-reehe neanpe Ciwrantay nee* 'as for my name, it is Ciwrantay' and *aynu itah neanpe okore oyra hemaka manu* 'as for the Ainu language, (she) forgot it all' <Cite key="Kitahara 2016" />, and in the East-coast tales it likewise sets off a heavy nominal topic, e.g. *mahnekuh kiipe neanpe* 'as for women's work, …' <Cite key="Sakaguchi 2020" page="55" />. Crucially, Murasaki observed that whatever precedes *neanpe* must be nominal: a verb is first nominalised with the affiliative suffix -*hV* before *neanpe* can attach (*an=nukara-ha neanpe* 'as for my looking, …') <Cite key="Sakaguchi 2019a" paren={false} page="137 n.23" />. We therefore analyse *neanpe* not as two homophonous particles but as a single <strong>topic marker</strong> that selects a nominal host — a lexical NP, a possessed noun, or a nominalised clause — and the "when / and then" reading of the clausal uses is the predictable result of taking a nominalised event as topic. The reduced *nanpe*, by contrast, is the form that recurs specifically in the tight event-chaining use (*cotca nanpe ray manu* 'when (he) shot, (it) died'). On the distribution available to us, then, the West-coast contrast is best stated as <strong>phonological reduction tracking grammaticalisation</strong>: the fuller *neanpe* retains its nominal-topic syntax, while the reduced *nanpe* has advanced furthest toward a bleached clause-linking connective. This is a hypothesis the corpus supports rather than a fully settled fact; what would confirm it is a minimal pair in which one and the same speaker uses *neanpe* for a nominal topic and *nanpe* for an event chain in the same text — a configuration the Kusurikoya tale approaches but does not isolate.
+The same nominal-topic *neanpe* recurs in *ku-reehe neanpe Ciwrantay nee* 'as for my name, it is Ciwrantay' and *aynu itah neanpe okore oyra hemaka manu* 'as for the Ainu language, (she) forgot it all' <Cite key="Kitahara 2016" />, and in the East-coast tales it likewise sets off a heavy nominal topic, e.g. *mahnekuh kiipe neanpe* 'as for women's work, …' <Cite key="Sakaguchi 2020" page="55" />. Crucially, Murasaki observed that whatever precedes *neanpe* must be nominal: a verb is first nominalised with the affiliative suffix -*hV* before *neanpe* can attach (*an-nukara-ha neanpe* 'as for my looking, …') <Cite key="Sakaguchi 2019a" paren={false} page="137 n.23" />. We therefore analyse *neanpe* not as two homophonous particles but as a single <strong>topic marker</strong> that selects a nominal host — a lexical NP, a possessed noun, or a nominalised clause — and the "when / and then" reading of the clausal uses is the predictable result of taking a nominalised event as topic. The reduced *nanpe*, by contrast, is the form that recurs specifically in the tight event-chaining use (*cotca nanpe ray manu* 'when (he) shot, (it) died'). On the distribution available to us, then, the West-coast contrast is best stated as <strong>phonological reduction tracking grammaticalisation</strong>: the fuller *neanpe* retains its nominal-topic syntax, while the reduced *nanpe* has advanced furthest toward a bleached clause-linking connective. This is a hypothesis the corpus supports rather than a fully settled fact; what would confirm it is a minimal pair in which one and the same speaker uses *neanpe* for a nominal topic and *nanpe* for an event chain in the same text — a configuration the Kusurikoya tale approaches but does not isolate.
 
 ## Additive and restrictive particles
 
@@ -79,7 +79,7 @@ Focus on a constituent — marking it as the asserted or contrasted element — 
 The additive *naa* attaches to each conjoined noun phrase, so a list 'X too, Y too, Z too' carries one *naa* per member. The following West-coast sentence coordinates three language-names this way:
 
 <Example
-	ain="ku=ahci-hi kawren itah naa nuca itah naa ponno wante manu"
+	ain="ku-ahci-hi kawren itah naa nuca itah naa ponno wante manu"
 	gloss="1SG.A=grandmother-POSS Korean language ADD Russian language ADD a.little know REP"
 	free="‘My grandmother understood a little Korean and Russian too, it is said.’"
 	cite="Kitahara 2016"
@@ -88,7 +88,7 @@ The additive *naa* attaches to each conjoined noun phrase, so a list 'X too, Y t
 The same iterated-*naa* pattern scales up: an *Ainu Times* passage strings *enciw utah naa siisam utah naa nuca utah naa* 'the Enchiw too, the Japanese too, the Russians too' to enumerate the peoples who once lived together on Sakhalin <Cite key="Ainu Times" page="56" />. The restrictive counterpart *pateh* 'only' likewise cliticises to the focused phrase; in the Aihama tale it follows the object that is singled out from everything that might have been given:
 
 <Example
-	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
+	ain="sine ikoro sehpa ta pateh an-konte-si numano cise ohta tura oman"
 	gloss="one treasure clasp FOC only 1SG.A=give-PL gladly house LOC together go.SG"
 	free="‘(She) was given only one treasure, a clasp, and gladly took it back home.’"
 	cite="Sakaguchi 2019b" page="117"
@@ -189,7 +189,7 @@ In connected narrative the most powerful information-structuring resource is not
 The mechanics are visible in the Piłsudski "Flatfish-man and Sculpin-man" tale. The story opens in the third person, with the dual protagonists living together:
 
 <Example
-	ain="pon kapariw ohkayo poy sohkana ohkayo u-tura okay-ahci"
+	ain="pon kapariw ohkayo poy sohkana ohkayo u-tura okay=ahci"
 	surface="Pon kapariw ohkayo poy sohkana ohkayo utur okay-ahci."
 	gloss="small flatfish man small sculpin man RECP-together live.PL-COLL"
 	free="‘A small flatfish-man and a small sculpin-man lived together.’"

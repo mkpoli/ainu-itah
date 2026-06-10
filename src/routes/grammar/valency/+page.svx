@@ -92,7 +92,7 @@ the same way. This <W w="konte" gloss="give" /> 'give' is exactly what surfaces 
 West-coast texts, confirming the rule outside the descriptive literature:
 
 <Example
-	ain="tama in=kor-te"
+	ain="tama in-kor-te"
 	surface="Tamà in=konte."
 	gloss="jewel 1SG.O=3SG.A/have-CAUS"
 	free="‘You gave me the jewel.’"
@@ -221,7 +221,7 @@ Compare the base transitive <W w="reske" gloss="raise" /> 'raise', which takes t
 agreement, with its reflexive counterpart, which takes the <Gl t="INDEF" /> subject suffix <W w="-an" />:
 
 <Example
-	ain="mahpo-ho-hcin reske-hci"
+	ain="mahpo-ho-hcin reske=hci"
 	surface="Mahpoo-ho-hcin reske-hci."
 	gloss="3.PSR/daughter-POSS-COLL 3PL.A/3SG.O/raise-COLL"
 	free="‘They raised their daughter.’"
@@ -390,7 +390,7 @@ reflexives wrapped around an incorporated noun, is:
 	dialect="Sakhalin"
 	note="Two reflexives (yay-, si-) and two applicatives (e-, ko-) plus incorporated ram ‘heart’ on one stem." />
 
-The same kind of stacking turns up in West-coast material, where applicative <W w="ko-" /> (addressee) and reflexive <W w="yay-" /> combine on <W w="irayki" gloss="be grateful" /> 'be grateful', as in *an=e=ko-yay-irayki* 'I am very
+The same kind of stacking turns up in West-coast material, where applicative <W w="ko-" /> (addressee) and reflexive <W w="yay-" /> combine on <W w="irayki" gloss="be grateful" /> 'be grateful', as in *an-e=ko-yay-irayki* 'I am very
 grateful to you' (<Cite key="Chiba (archive)" />; segmentation mine).
 
 ## Dialectal and diachronic variation
@@ -399,7 +399,7 @@ Several valency facts are diagnostic of Sakhalin, or split the island's two coas
 
 - <strong>Causative on -r stems.</strong> Both coasts use <W w="-te" /> with <strong>r &gt; n</strong>
   (<W w="kor-te" /> → *konte*, <W w="nukar-te" /> → *nukante*), against Hokkaido <W w="-e" /> (<Cite key="Chiri 1942" page="§15, §55(4)" paren={false} />). This is corroborated by the
-  West-coast form *in=konte*.
+  West-coast form *in-konte*.
 - <strong>u- plus causative as plain plural.</strong> <Cite key="Chiri 1942" paren={false} /> (§52(1))
   singles out Sakhalin as permitting the <W w="u-" /> + causative pattern for mere
   plurality, not only true reciprocity or collectivity.

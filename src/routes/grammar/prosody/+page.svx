@@ -67,7 +67,7 @@ of <W w="kuu" gloss="drink" /> both surface in Murasaki's recorded material.
 	dialect="West" />
 
 <Example
-	ain="nam wahka ku=kuu rusuy"
+	ain="nam wahka ku-kuu rusuy"
 	gloss="cold water 1SG.A=drink DESID"
 	free="‘I want to drink cold water.’"
 	cite="FF-Ainu (Karafuto materials)"
@@ -97,7 +97,7 @@ robustly attested rather than an artefact of citation forms.
 	dialect="West" />
 
 <Example
-	ain="keeh aynu itah ani yuukara=an=ahci"
+	ain="keeh aynu itah ani yuukara-an-ahci"
 	gloss="come.on Ainu language with sing=INDEF.S=COLL"
 	free="‘Come on, let us sing in Ainu.’"
 	cite="FF-Ainu (Karafuto materials)"
@@ -271,7 +271,7 @@ written with an apostrophe — *'itah* 'word, speak', *'e'ani* 'you', *'okay*
 syllable rather than being a free segment of its own.
 
 <Example
-	ain="tay sine=an=too ta soy peeka horokewpo itah haw an"
+	ain="tay sine=an-too ta soy peeka horokewpo itah haw an"
 	surface="tay sineantoo ta soy peeka horokewpo itah haw an."
 	gloss="that one=COP=day at outside along young.man speak voice EXIST"
 	free="‘One day, outside (the house) there was the voice of a young man speaking.’"

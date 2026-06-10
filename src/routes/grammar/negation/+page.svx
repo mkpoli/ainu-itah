@@ -35,7 +35,7 @@ The defining story of negation in this language is a diachronic one. The conserv
 *Ham=* is best analysed as a proclitic rather than a true prefix: it is not class-selective and is phonologically dependent on its host, triggering re-syllabification and first-syllable stress <Cite key="Dal Corso 2025" page="45" />. It undergoes regressive assimilation of its /m/ (*ham=ne* > *hanne*; *ham=suy* > *haysuy*, with /y/ from /m/). On a verb, *ham=* sits <strong>more peripherally than the person-agreement prefixes</strong>, unlike every other inflectional prefix (antipassive, applicative, reflexive), which all precede agreement <Cite key="Dal Corso 2025" page="46" />. This is the synthetic standard-negation pattern, common in the East:
 
 <Example
-	ain="ham=eci-nu yayne tani numan e-mat-i-hi toma-ta or-ta"
+	ain="ham-eci-nu yayne tani numan e-mat-i-hi toma-ta or-ta"
 	surface="Ham=eci-nu yayne tani numan e-mat-i-hi toma-ta or-ta …"
 	gloss="NEG=2PL.A-3SG.O/listen and.then now yesterday 2SG.PSR-wife-EP-POSS tuber-collect.NMLZ place-LOC"
 	free="‘You did not listen [to my warning] and eventually yesterday your wife, when she collected tubers…’"
@@ -68,7 +68,7 @@ The dominant strategy overall hosts the negator on <W w="ki" gloss="do" /> 'do' 
 In the older East variant, the agreement prefix instead appears on *ki* itself, leaving the notional verb non-finite:
 
 <Example
-	ain="anoka neampe tohse ka ham=an-ki-no yay-nu-no-ka-an"
+	ain="anoka neampe tohse ka ham-an-ki-no yay-nu-no-ka-an"
 	surface="Anoka neampe tohse ka ham=an-ki-no yay-nu-no-ka-an."
 	gloss="I TOP lie.down.NMLZ even NEG=INDEF.A-do-ADV REFL-listen-well-CAUS-INDEF.S"
 	free="‘As for me, I kept an ear out [for strange noises] without sleeping.’"
@@ -130,7 +130,7 @@ In West Sakhalin, by contrast, the negative copula is *hannehka* — the Stage-5
 The negative existential is the lexical, intransitive verb <W w="isam" gloss="not exist" /> 'not exist', the suppletive counterpart of *an* (<Gl t="PC" />) / *okay* (<Gl t="PL" />) 'exist'; it cannot be negated with *ham=* <Cite key="Dal Corso 2025" page="40" />. Its intransitivity is precisely what motivates the decomposition *i-* (<Gl t="ANTIP" />) + *\*sam* <Cite key="Dal Corso 2025" page="43" />. <Cite key="Chiri 1942" paren={false} /> notes that in Sakhalin, and especially on the west coast, syllable-final /m/ is realised as [n], so *isam* is heard as [isan] <Cite key="Chiri 1942" page="461" />.
 
 <Example
-	ain="ku=itanki-hi 'isam"
+	ain="ku-itanki-hi 'isam"
 	surface="Ku=itankihi 'isam."
 	gloss="1SG.A=bowl-POSS not.exist"
 	free="‘My bowl is not there / I have no bowl.’"
@@ -152,7 +152,7 @@ Beyond *isam*, a small set of verbs negate suppletively rather than with *ham=* 
 | √nak | 'not have' (root) | √nu | 'have' |
 | sak | 'not have' | koro | 'have' |
 
-The East variant *eramuskari* is found in Hunup, Takoye, Tarayka and Tunayci; *eaykap* is East only (Tunayci), while West Rayciska uses only *koyaykus* <Cite key="Dal Corso 2025" page="40" />. These items are simply selected in place of their affirmative counterparts (so the modern Enchiw *ku=ahkas etunne* 'I don't want to walk' stands to *ku=ahkas-rusuy* 'I want to walk'):
+The East variant *eramuskari* is found in Hunup, Takoye, Tarayka and Tunayci; *eaykap* is East only (Tunayci), while West Rayciska uses only *koyaykus* <Cite key="Dal Corso 2025" page="40" />. These items are simply selected in place of their affirmative counterparts (so the modern Enchiw *ku-ahkas etunne* 'I don't want to walk' stands to *ku-ahkas-rusuy* 'I want to walk'):
 
 <Example
 	ain="siisam 'utah neyke nuca 'itah 'erameskari=hci hii"
@@ -184,7 +184,7 @@ The reinforcing particle may equally be the polite *kanne*, as in the modern Enc
 A residue of older, productive strategies survives mainly in the East. In <strong>focus negation</strong>, *ham=* attaches not to the verb but to a noun, an adverb, or a topic particle, marking contrastive focus on that element <Cite key="Dal Corso 2025" page="51" />:
 
 <Example
-	ain="an-matak-hi nah ye yahka ham=utara nu-hci"
+	ain="an-matak-hi nah ye yahka ham=utara nu=hci"
 	surface="An-matak-hi nah ye yahka ham=utara nu-hci."
 	gloss="INDEF.PSR-younger.sister-POSS so 3SG.A/3SG.O/say though NEG=people 3PL.A/3SG.O/listen-COLL"
 	free="‘Although my sister said so, not [you] men listened to her [but I did].’"

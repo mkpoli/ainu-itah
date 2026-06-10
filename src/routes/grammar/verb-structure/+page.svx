@@ -133,7 +133,7 @@ texts show the reflex directly:
 
 <Example
 	surface="Tamà in=konte."
-	ain="tama in=kor-te"
+	ain="tama in-kor-te"
 	gloss="jewel 1SG.O=3SG.A/have-CAUS"
 	free="You gave me the jewel."
 	cite="Chiba (archive)"

@@ -26,7 +26,7 @@ Sakhalin Ainu builds words from a small set of syllable shapes. An onset, when p
 <Cite key="Itabashi 2001" page="89" paren={false} /> frames Sakhalin as a mora-counting language with three mora types: CV, V, and a coda consonant C* drawn from the closed set /s m n w y h/. The minimal accent-bearing free form is two moras, so that monosyllabic open roots are systematically lengthened to CVV — for example <W w="kuu" gloss="drink" />, <W w="nii" gloss="tree" />, <W w="too" gloss="lake" /> <Cite key="Itabashi 2001" page="89" />. (The phonemic length contrast and its relation to Hokkaido pitch are the subject of the next chapter.) Vowel length is visible even in the most ordinary running text:
 
 <Example
-	ain="nam wahka ku=kuu rusuy"
+	ain="nam wahka ku-kuu rusuy"
 	gloss="cold water 1SG.A=drink DESID"
 	free="I want to drink cold water."
 	cite="FF-Ainu (Karafuto materials)"
@@ -99,7 +99,7 @@ A second source of coda-*h* is the simplification of Hokkaido geminate stops. Wh
 The debuccalisation is strictly conditioned by the absence of a following vowel. When a vowel-initial suffix or enclitic follows, the underlying stop <strong>reappears</strong> intact across the morpheme boundary <Cite key="Chiri 1942" page="471" />: *mat-ak* surfaces as *matax* 'younger sister' (with /t/), *rap-us* as *rapus* 'be feathered', and *sik-i* as *siki* 'his eye'. The clearest paradigm is the verb <W w="itah" gloss="speak" /> 'speak', whose underlying /k/ is hidden word-finally but restored before the vowel-initial collective suffix:
 
 <Example
-	ain="'itah ; 'itak-ahci"
+	ain="'itah ; 'itak=ahci"
 	gloss="3SG/speak ; speak-COLL"
 	free="‘he spoke’ / ‘they spoke’"
 	cite="Tangiku 1998" page="224"
@@ -109,7 +109,7 @@ The debuccalisation is strictly conditioned by the absence of a following vowel.
 The same alternation organises everyday uses in which <W w="itah" gloss="word" /> appears as a bare predicate or noun:
 
 <Example
-	ain="keeh aynu itah ani yuukara=an=ahci"
+	ain="keeh aynu itah ani yuukara-an-ahci"
 	gloss="come.on Ainu language INS sing=INDEF.S=COLL"
 	free="Come on, let us sing in Ainu."
 	cite="FF-Ainu (Karafuto materials)"
@@ -167,7 +167,7 @@ On the East coast, by contrast, the same plural word *utar* is resolved by the e
 The echo vowel created by route (a) is <strong>phonologically real</strong>, not a mere transcriptional convenience. <Cite key="Tangiku 1998" page="230" paren={false} /> shows that West-coast verbs ending in *-rV* fall into two classes that behave differently under suffixation. Verbs whose Hokkaido cognate is *r*-final — <W w="koro" gloss="have" /> 'have' (Hokkaido *kor*), *nukara* 'see' (*nukar*) — are <strong>underlyingly consonant-final</strong>: before the desiderative <W w="rusuy" gloss="want" /> their final *rVr* sequence collapses to *nr*, exposing the closed syllable beneath the echo vowel.
 
 <Example
-	ain="hemata e=kon rusuy hii"
+	ain="hemata e-kon rusuy hii"
 	gloss="what 2SG.A=have DESID Q"
 	free="What do you want?"
 	cite="Tangiku 1998" page="227"
@@ -185,7 +185,7 @@ The echo vowel created by route (a) is <strong>phonologically real</strong>, not
 Verbs that are vowel-final even in Hokkaido — <W w="tura" gloss="be together" /> 'be with', *poro* 'be big' — do <strong>not</strong> trigger this alternation; the underlying open syllable surfaces unchanged before the very same morpheme:
 
 <Example
-	ain="'orowa hosipi-hci 'ike taa 'orowa 'an=tura rusuy yahka"
+	ain="'orowa hosipi=hci 'ike taa 'orowa 'an-tura rusuy yahka"
 	gloss="then return-COLL and then then INDEF.S=be.together DESID CONC"
 	free="Then (the men) went back, and (the women) wanted to stay together, but…"
 	cite="Tangiku 1998" page="227"
@@ -213,12 +213,12 @@ The same split appears before the causative: an underlyingly *r*-final stem show
 
 The productivity of these sandhi rules is graded, and the gradation tracks the morphological boundary involved rather than the individual lexeme. Three boundaries can be separated.
 
-The <strong>causative</strong> *r* → *n* before *-te* is, on the available evidence, fully regular and productive. *Konte* (&lt; *kor-te*) is attested right across the Sakhalin registers that the corpus samples — the West-central Chiba texts (*tamà in=konte* 'you gave me a jewel'), the Murasaki Enchiw conversation primer (*tuh 'en=konte waa* 'give me two of them'), the FF-Ainu teaching texts (*wa i=konte* 'please give it to me'), and, tellingly, the spontaneous epistolary prose of Sentoku Tarōji, an L1 East-coast speaker writing to Piłsudski (*…yahka konte ciki…* 'if you let me have it…') <Cite key="Sentoku (letters)" />. A form that surfaces uniformly in a native writer's free composition, not merely in elicitation, is by definition an active rule and not a memorised allomorph.
+The <strong>causative</strong> *r* → *n* before *-te* is, on the available evidence, fully regular and productive. *Konte* (&lt; *kor-te*) is attested right across the Sakhalin registers that the corpus samples — the West-central Chiba texts (*tamà in-konte* 'you gave me a jewel'), the Murasaki Enchiw conversation primer (*tuh 'en-konte waa* 'give me two of them'), the FF-Ainu teaching texts (*wa i=konte* 'please give it to me'), and, tellingly, the spontaneous epistolary prose of Sentoku Tarōji, an L1 East-coast speaker writing to Piłsudski (*…yahka konte ciki…* 'if you let me have it…') <Cite key="Sentoku (letters)" />. A form that surfaces uniformly in a native writer's free composition, not merely in elicitation, is by definition an active rule and not a memorised allomorph.
 
-The <strong>rVr → nr</strong> rule before the desiderative auxiliary *rusuy* is regular <strong>within its conditioning class but not beyond it</strong>, and that class is morphophonologically defined. <Cite key="Tangiku 1998" page="227" paren={false} /> shows that the verbs that undergo it — *koro* 'have', *nukara* 'see', *'inkara* 'look', *mokoro* 'sleep' — are exactly those with an *r*-final Hokkaido cognate (/kor/, /nukar/, /'inkar/, /mokor/), and *within* this set the change is exceptionless ("the alternation always occurs", with *\*koro rusuy* unattested for *koro*); the verbs that fail to undergo it — *tura* 'be with', *koore* 'hand over', *mahnuure* 'make take a wife', *'eere* 'feed' — are underlyingly vowel-final and so present no coda /r/ to begin with. The "irregularity" is thus only apparent: it is the predictable consequence of two underlying classes, not of lexical listing. That the rule is genuinely productive is shown by its appearance in twenty-first-century revitalisation prose: the *Ainu Times* writer Aihara Noriaki coins *ku=nukan rusuy* 'I want to see it' (&lt; *nukar* + *rusuy*) in an original essay, applying the alternation to a verb in a context Murasaki's elicitation never recorded.
+The <strong>rVr → nr</strong> rule before the desiderative auxiliary *rusuy* is regular <strong>within its conditioning class but not beyond it</strong>, and that class is morphophonologically defined. <Cite key="Tangiku 1998" page="227" paren={false} /> shows that the verbs that undergo it — *koro* 'have', *nukara* 'see', *'inkara* 'look', *mokoro* 'sleep' — are exactly those with an *r*-final Hokkaido cognate (/kor/, /nukar/, /'inkar/, /mokor/), and *within* this set the change is exceptionless ("the alternation always occurs", with *\*koro rusuy* unattested for *koro*); the verbs that fail to undergo it — *tura* 'be with', *koore* 'hand over', *mahnuure* 'make take a wife', *'eere* 'feed' — are underlyingly vowel-final and so present no coda /r/ to begin with. The "irregularity" is thus only apparent: it is the predictable consequence of two underlying classes, not of lexical listing. That the rule is genuinely productive is shown by its appearance in twenty-first-century revitalisation prose: the *Ainu Times* writer Aihara Noriaki coins *ku-nukan rusuy* 'I want to see it' (&lt; *nukar* + *rusuy*) in an original essay, applying the alternation to a verb in a context Murasaki's elicitation never recorded.
 
 <Example
-	ain="neya sirihi ku=nukan rusuy"
+	ain="neya sirihi ku-nukan rusuy"
 	gloss="that situation[POSS] 1SG.A=see.[r→n] DESID"
 	free="I want to see that situation (for myself)."
 	cite="Ainu Times"

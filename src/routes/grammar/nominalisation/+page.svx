@@ -63,13 +63,13 @@ nominaliser can take its own possessive suffix, stacking lexical nominalisation
 under the possessive form:
 
 <Example
-	ain="an=oyra-pe-he an=hunara kusu paye=an-ihi ne-yah naata ka uk-ahci wa isam"
+	ain="an-oyra-pe-he an-hunara kusu paye-an-ihi ne-yah naata ka uk=ahci wa isam"
 	gloss="INDEF.A=forget-NMLZ-POSS INDEF.A=search CAUF go.PL=INDEF.S-POSS COP-CONC who ADD take-COLL CONJ NEG"
 	free="Although we went to search for what we had left, someone had already taken it."
 	cite="Bugaeva 2016" page="106-107"
 	dialect="West" />
 
-The first word, *an=oyra-pe-he* 'our forgotten thing(s)', is a lexical
+The first word, *an-oyra-pe-he* 'our forgotten thing(s)', is a lexical
 nominalisation (V-NMLZ) carrying the possessive suffix; the clause-medial
 *paye=an-ihi ne-yah* 'although we went' is the V-poss form treated below.
 
@@ -82,20 +82,20 @@ result is a possessive-marked event noun — literally 'my Ving' on the model of
 'my N' — that functions as a subject:
 
 <Example
-	ain="ku=ye-he sunke"
+	ain="ku-ye-he sunke"
 	gloss="1SG.A=say-NMLZ be.untrue"
 	free="What you said is not true."
 	cite="Bugaeva 2016" page="108"
 	dialect="West" />
 
 <Example
-	ain="isa oh-ta ku=oman keray-kusu ku=araka-ha pirka"
+	ain="isa oh-ta ku-oman keray-kusu ku-araka-ha pirka"
 	gloss="doctor place-LOC 1SG.S=go.SG thanks-CAUF 1SG.A=be.sick-NMLZ be.good"
 	free="Because I went to the doctor, my being sick got better."
 	cite="Bugaeva 2016" page="108"
 	dialect="West" />
 
-In both, the V-poss form (*ku=ye-he* 'your/my saying it', *ku=araka-ha* 'my being
+In both, the V-poss form (*ku-ye-he* 'your/my saying it', *ku-araka-ha* 'my being
 sick') is the grammatical subject of the matrix predicate (<W w="sunke" gloss="be untrue" />, <W w="pirka" gloss="be good" />). Because the form is morphologically the
 possessive of the verb, the clausal subject is cross-referenced by the <Gl t="A" />-series (possessor) prefixes, not the ordinary <Gl t="S" />-series.
 
@@ -131,7 +131,7 @@ languages typically resolves into a *prosodic* or *register* alternation rather 
 a difference of meaning. The attested distribution is consistent with this: the short
 *setur-u* is the form that surfaces in running West-coast Sakhalin text (e.g. *hekaci
 seturu kasi* 'on the child's back', *seturu orowa* 'from its back', in Uɕoro material),
-whereas the long *ci=setur-uhu* turns up in metrically organised Hokkaido verse — i.e.
+whereas the long *ci-setur-uhu* turns up in metrically organised Hokkaido verse — i.e.
 the long variant patterns with weightier, song- or careful-register contexts, the
 short with ordinary speech. We therefore analyse short vs long as a single
 phonologically conditioned doublet — full restoration of the *-hi* coda under stress,
@@ -150,10 +150,10 @@ marked with the <Gl t="A" />-series prefixes:
 
 | | 1SG | 2SG | 3 | 1PL | 2PL |
 |---|---|---|---|---|---|
-| prefix | ku=…-hV | ‘e=…-hV | ø=…-hV | ‘an=…-hV | ‘eci=…-hV |
+| prefix | ku-…-hV | ‘e=…-hV | ø=…-hV | ‘an-…-hV | ‘eci-…-hV |
 
 The West coast has lost the Hokkaido 1PL inclusive/exclusive split (the old 1PL
-*an=* now also does duty as a 1SG and an indefinite/4th-person <Gl t="INDEF" />) and
+*an-* now also does duty as a 1SG and an indefinite/4th-person <Gl t="INDEF" />) and
 has developed plural possessive marking <Cite key="Bugaeva 2016" page="96-97" />.
 
 Where the subject is plural, V-poss is built on the *plural* stem and the
@@ -166,7 +166,7 @@ modern Karafuto materials attest the form directly, including in main-clause
 questions and assertions:
 
 <Example
-	ain="taranoka cikah utah nah ene paye-hci-hi"
+	ain="taranoka cikah utah nah ene paye=hci-hi"
 	surface="taranoka cikah utah nah ene payehcihi?"
 	gloss="those bird PL where ALL go.PL-COLL-PK"
 	free="Where are those birds going?"
@@ -175,7 +175,7 @@ questions and assertions:
 	note="Plural V-poss: suppletive plural paye 'go' + COLL -hci + nominaliser -hi; sentence-final content question." />
 
 <Example
-	ain="haciko huureceh an=reske-hci kusu okay=an-ahci-hi"
+	ain="haciko huureceh an-reske=hci kusu okay-an-ahci-hi"
 	surface="haciko huureceh an=reskehci kusu okay=anahcihi."
 	gloss="be.small red.fish INDEF.A=raise-COLL CAUF exist.PL=INDEF.S-COLL-PK"
 	free="We keep little goldfish."
@@ -207,13 +207,13 @@ there is an answer) — does take V-poss, even though a declarative *that*-compl
 does not. The Murasaki conversation primer attests exactly this:
 
 <Example
-	ain="taranoka aynu utah hemata ki-hci kusu okay=an-ahci-hi hee an=eram'eskari"
+	ain="taranoka aynu utah hemata ki=hci kusu okay-an-ahci-hi hee an-eram'eskari"
 	surface="taranoka 'aynu 'utah hemata ki=hci kusu 'okay=ahcihi hee 'an=eram'eskari."
 	gloss="those person PL what do-COLL CAUF exist.PL=INDEF.S-COLL-PK Q INDEF.A=not.know"
 	free="I don't know what those people are doing."
 	cite="Murasaki 2024"
 	dialect="West"
-	note="Embedded (indirect) question in V-poss, [… okay=an-ahci-hi hee], serving as the complement of an=eram'eskari 'I don't know'; the question particle hee marks the complement boundary." />
+	note="Embedded (indirect) question in V-poss, [… okay=an-ahci-hi hee], serving as the complement of an-eram'eskari 'I don't know'; the question particle hee marks the complement boundary." />
 
 The embedded clause *[… okay=an-ahci-hi hee]* 'what they are doing' is itself a
 clausal nominalisation (an indirect content question), here the object of <W w="eram'eskari" gloss="not know" />. We therefore sharpen Bugaeva's
@@ -232,14 +232,14 @@ a Sakhalin peculiarity — the Hokkaido cognates take finite verbs and often lac
 the copula element.
 
 <Example
-	ain="ene e=ramu-hu nee-no pirka no kii wa"
+	ain="ene e-ramu-hu nee-no pirka no kii wa"
 	gloss="like.this 2SG.A=think-NMLZ COP-ADV be.good ADV do FIN"
 	free="Do it well, just as you think."
 	cite="Bugaeva 2016" page="106"
 	dialect="West" />
 
 <Example
-	ain="ø=e-ye-hci-hi nee-no kii wa"
+	ain="ø-e-ye=hci-hi nee-no kii wa"
 	surface="‘eyehcihi neeno kii wa"
 	gloss="3.A=APPL-say-COLL-NMLZ COP-ADV do IMP"
 	free="Do as you were told (lit. like the thing they said about it)."
@@ -250,7 +250,7 @@ The same V-poss + copula frame underlies modal sentences, where the
 copula-based auxiliary carries the modal force:
 
 <Example
-	ain="tani ‘uunas an=ee-he nee-ko"
+	ain="tani ‘uunas an-ee-he nee-ko"
 	gloss="now early INDEF.A=eat-NMLZ COP-EMPH"
 	free="Definitely, I have just eaten."
 	cite="Bugaeva 2016" page="106"
@@ -268,7 +268,7 @@ In the "mermaid"-type evidential construction the nominalised clause is followed
 the copula plus an evidential bound noun and the existential <W w="an" gloss="exist" />:
 
 <Example
-	ain="nah kanne ka itah ku=wante-he nee ruu-he an"
+	ain="nah kanne ka itah ku-wante-he nee ruu-he an"
 	gloss="that like ADD speech 1SG.A=know-NMLZ COP trace-POSS EXIST"
 	free="I think I remember the language so well."
 	cite="Bugaeva 2016" page="108"
@@ -287,7 +287,7 @@ had already documented this for Raychishka, noting that statement and question a
 distinguished only by intonation:
 
 <Example
-	ain="tara aynu ø=‘oman-ihi"
+	ain="tara aynu ø-‘oman-ihi"
 	surface="tara aynu ‘omanihi."
 	gloss="that person 3.A=go.SG-PK"
 	free="That man went."
@@ -296,7 +296,7 @@ distinguished only by intonation:
 	note="V-poss as a sentence-final assertion; rising/falling intonation distinguishes statement from question." />
 
 <Example
-	ain="tara aynu ø=‘oman-ihi"
+	ain="tara aynu ø-‘oman-ihi"
 	surface="tara aynu ‘omanihi?"
 	gloss="that person 3.A=go.SG-PK"
 	free="Did that man go?"
@@ -308,7 +308,7 @@ The pattern is robust in assertions and in both polar and content questions, and
 it survives in modern West-coast pedagogical material:
 
 <Example
-	ain="ku‘ani tani uwas ku=ek-ihi"
+	ain="ku‘ani tani uwas ku-ek-ihi"
 	gloss="I now only 1SG.A=come.SG-PK"
 	free="I just came."
 	cite="Bugaeva 2016" page="109"
@@ -325,7 +325,7 @@ it survives in modern West-coast pedagogical material:
 	note="Stative verb pirika in V-poss; cf. Hokkaido, which uses a nominalising word instead." />
 
 <Example
-	ain="hemanta kusu e=cis-ihi tara hekaci"
+	ain="hemanta kusu e-cis-ihi tara hekaci"
 	surface="hemanta kusu e=cisihi, tara hekaci?"
 	gloss="what CAUF 2SG.A=cry-PK this boy"
 	free="Why are you crying, boy?"
@@ -334,7 +334,7 @@ it survives in modern West-coast pedagogical material:
 	note="Content question with sentence-final V-poss." />
 
 <Example
-	ain="naata tura e=ek-ihi"
+	ain="naata tura e-ek-ihi"
 	surface="naata tura e=ekihi?"
 	gloss="who COM 2SG.A=come.SG-PK"
 	free="Who did you come with?"
@@ -342,7 +342,7 @@ it survives in modern West-coast pedagogical material:
 	dialect="West" />
 
 <Example
-	ain="tanto aaca ø=an-ihi"
+	ain="tanto aaca ø-an-ihi"
 	surface="tanto aaca anihi?"
 	gloss="today father 3.A=exist.SG-PK"
 	free="Is father in today?"
@@ -354,7 +354,7 @@ The expected answer to such a question is itself V-poss, confirming that the
 pattern is conversationally productive:
 
 <Example
-	ain="ku=ommo tura ku=ek-ihi"
+	ain="ku-ommo tura ku-ek-ihi"
 	gloss="1SG.POSS=mother COM 1SG.A=come.SG-PK"
 	free="I came together with my mother."
 	cite="FF-Ainu (Karafuto materials)"
@@ -432,7 +432,7 @@ More tellingly, V-poss appears East-coast in an unembedded <strong>main-clause c
 left open:
 
 <Example
-	ain="hemata kusu ene an pon kapariw e=raanu-p-ihi hetane-a-na"
+	ain="hemata kusu ene an pon kapariw e-raanu-p-ihi hetane-a-na"
 	surface="hemata kusu ene an pon kapariw eraanupihi hetaneana?"
 	gloss="what CAUF like.this exist.SG be.small flounder.man 2SG.A=love-NMLZ-PK Q-FP-FP"
 	free="Why do you love such a little Flounder-man?"
@@ -441,7 +441,7 @@ left open:
 	note="East-coast main-clause content question with V-poss on a lexically nominalised stem (raanu 'love' → raanu-p), closed by the interrogative hetane a; the stage-IV insubordinated use is thus attested East as well as West." />
 
 The verb here is *e=raanu-p-ihi* — the lexical nominaliser -p stacked under the
-possessive -ihi (the same stacking the chapter described for *an=oyra-pe-he*), the
+possessive -ihi (the same stacking the chapter described for *an-oyra-pe-he*), the
 whole functioning as a finite interrogative predicate closed by the interrogative
 particle *hetane(a)*. The reading is reinforced by the East-coast personal-knowledge
 forms that <Cite key="Dal Corso 2018" paren={false} /> draws from the same Piłsudski

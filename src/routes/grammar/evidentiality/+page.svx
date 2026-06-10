@@ -78,15 +78,15 @@ Morphosyntactically it is a clausal nominalisation: the verb takes either the
 overt possessive suffix <Gl t="PK" /> -hV (with vowel copy: *koro* › *koro-ho*;
 consonant-final stems insert an epenthetic *i*: *an* › *an-i-hi*) or a
 non-morphemic -Ø, optionally followed by the copula. <Cite key="Bugaeva 2016" paren={false} />
-identifies this verbal -hV with the nominal possessive suffix, so that *ku=ye-he*
-'my saying' parallels a possessed noun like *ku=sapa-ha* 'my head'.
+identifies this verbal -hV with the nominal possessive suffix, so that *ku-ye-he*
+'my saying' parallels a possessed noun like *ku-sapa-ha* 'my head'.
 
 Chiri independently described this West/East Sakhalin "confirmation/emphasis"
 form, where the verb takes a personal-stem ending and is then closed by the
 copula:
 
 <Example
-	ain="miči an=koro-ho ne"
+	ain="miči an-koro-ho ne"
 	surface="miči an-koró-ho ne"
 	gloss="grandchild 1SG.A=3SG.O/have-PK COP.3"
 	free="(I tell you,) I have a grandchild."
@@ -97,7 +97,7 @@ ruwe ne* 'it is the case that I have a grandchild', and noted that the -hV form
 is <strong>the usual shape of questions</strong> in Sakhalin Ainu:
 
 <Example
-	ain="tonnosiki ipe e=hemaka-ha"
+	ain="tonnosiki ipe e-hemaka-ha"
 	gloss="midday meal 2SG.A=finish-PK"
 	free="Have you finished your midday meal?"
 	cite="Chiri 1942" page="§40" dialect="Sakhalin" />
@@ -109,7 +109,7 @@ neutrally — a tendency, not an exceptionless rule. The certainty reading of -h
 is visible here, reinforced by the adverb <W w="ampene" gloss="really" />:
 
 <Example
-	ain="anoka kayki ampene an=eramiskari-hi nee ko"
+	ain="anoka kayki ampene an-eramiskari-hi nee ko"
 	surface="'Anoka kayki 'ampene 'an-eramiskari-hi nee ko."
 	gloss="I too really 1SG.S=3SG.O/not.know-PK COP FIN"
 	free="I really did not know him either."
@@ -132,7 +132,7 @@ nominalised clause and scope over it; in the next example the perfective <W w="a
 -hV predicate:
 
 <Example
-	ain="e=niina teh orowa e=i-wooneka kusu teeta e=san-i-hi ne an ike aa"
+	ain="e-niina teh orowa e-i-wooneka kusu teeta e-san-i-hi ne an ike aa"
 	surface="'E-niina teh 'orowa 'e-'i-wooneka kusu teeta 'e-san-i-hi ne 'an ike 'aa?"
 	gloss="2SG.S=collect.wood and then 2SG.A=1PL.O-situation.look because here 2SG.S=descend.SG-EP-PK COP PFV and FIN"
 	free="You collected wood and then came down here to check on us, right?"
@@ -145,7 +145,7 @@ This use is West-coast and is treated more fully in
 [Chapter 23](/grammar/nominalisation):
 
 <Example
-	ain="ku'ani tani uwas ku=ek-ihi"
+	ain="ku'ani tani uwas ku-ek-ihi"
 	surface="ku'ani tani uwas ku=ek-ihii."
 	gloss="I now only 1SG.S=come.SG-PK"
 	free="I just came."
@@ -404,7 +404,7 @@ combines a personal-knowledge predicate, the copula, the inferential *ruwehe 'an
 and finally the reportative — three layers in continuum order:
 
 <Example
-	ain="an=ko-nupuru kusu tani pahno moyre-an-i-hi ne manu"
+	ain="an-ko-nupuru kusu tani pahno moyre-an-i-hi ne manu"
 	surface="Ànkonúpuru kusu, tani paxno mójre anhi né manu."
 	gloss="1SG.S=APPL-3SG.O/find.interesting because now until be.late-1SG.S-EP-PK COP REP"
 	free="Because I found that situation interesting, I was late."
@@ -419,7 +419,7 @@ will (probably)', often in the frame *nankoro pe ne* 'it is a thing that
 probably…':
 
 <Example
-	ain="sine utah-ta ne kusu porono ham e=ye yahka pirika nankoro pe ne"
+	ain="sine utah-ta ne kusu porono ham e-ye yahka pirika nankoro pe ne"
 	gloss="one fellow-? COP because much NEG 2SG.A=3SG.O/say although 3SG.S/be.good PROB thing COP"
 	free="Since we are close kin, even if you do not say much, it will surely be fine."
 	cite="Chiba (archive)" dialect="West" />
@@ -438,7 +438,7 @@ The same copula-prefixing pattern recurs with the vowel-final dubitative *nanko(
 'maybe', which closes a V-poss-plus-copula predicate carrying a perfective:
 
 <Example
-	ain="neera an pe ne yahka nuu-hci teh-an-i-hi nee nanko"
+	ain="neera an pe ne yahka nuu=hci teh-an-i-hi nee nanko"
 	gloss="which 3SG.S/exist.SG thing COP although 3PL.S/hear-PL PFV-EP-PK COP PROB"
 	free="Although it could be anything, she must have heard such things."
 	cite="Murasaki 1979" page="25" dialect="West" />

@@ -9,6 +9,7 @@ sources:
   - Chiri 1942
   - Murasaki 2009
   - Sakaguchi 2021
+  - Sakaguchi 2024
   - Dal Corso 2025
   - Kindaichi 1911
   - Tangiku 1998
@@ -170,12 +171,12 @@ affixes. A textbook sentence from the modern Karafuto teaching corpus shows the
 register in use:
 
 <Example
-	ain="nee aynu itah ka an=nuu rusuy"
+	ain="nee aynu itah ka an-nuu rusuy"
 	gloss="some Ainu language too 1S=hear DESID"
 	free="I want to hear some Ainu."
 	cite="FF-Ainu (Karafuto materials)"
 	dialect="Sakhalin"
-	note="The = clitic boundary marks the person prefix an=; segmentation mine." />
+	note="The = clitic boundary marks the person prefix an-; segmentation mine." />
 
 The same orthography supplies the modern glossonym, <W w="aynu itah" gloss="Ainu language" />
 'the Ainu language', built on the autonym <W w="enciw" gloss="human being" />. <Cite key="Dal Corso 2025" paren={false} /> records the autonymous name
@@ -251,7 +252,7 @@ morpheme. Thus <W w="itah" gloss="speak" /> 'he spoke' has final *-h*, but the
 underlying /k/ re-emerges before the collective suffix *-ahci*:
 
 <Example
-	ain="'itah ; 'itak-ahci"
+	ain="'itah ; 'itak=ahci"
 	gloss="3S/speak ; speak-3PL"
 	free="‘he spoke’ / ‘they spoke’"
 	cite="Tangiku 1998" page="2-2"
@@ -305,7 +306,7 @@ collective *-hci*, never the consonant-type *-ahci*, confirming the stem is
 already vowel-final <Cite key="Tangiku 1998" page="6" />:
 
 <Example
-	ain="koro ; koro-hci"
+	ain="koro ; koro=hci"
 	gloss="3S/have ; have-3PL"
 	free="‘have’ / ‘they have’"
 	cite="Tangiku 1998" page="6"
@@ -344,8 +345,8 @@ be demonstrated from attested forms. The long open monosyllables are systematic:
 monosyllable in the language is long, since a free word must be at least two
 morae and a single short CV is sub-minimal. Against these stand short
 function words and bound elements of the same CV shape — <W w="to" gloss="day" />
-'day', the clitic *ku=* (1SG) — giving the near-pairs *too* 'lake' ≠ *to* 'day'
-and *kuu* 'drink' ≠ *ku=* 'I'. Length is contrastive
+'day', the clitic *ku-* (1SG) — giving the near-pairs *too* 'lake' ≠ *to* 'day'
+and *kuu* 'drink' ≠ *ku-* 'I'. Length is contrastive
 in polysyllables too, where it falls on the accented open syllable: *reekoh*
 'very', *seeseh* 'be warm' (attested *tanto anpene sihseeseh* 'today it is really
 hot', FF-Ainu Karafuto materials), *koore* 'hand over', *tuuri* 'stretch',
@@ -440,8 +441,13 @@ In its running text and in the object line of every example, this grammar uses
 the <strong>modern phonemic Latin</strong> orthography of the Chiri-Hattori-Murasaki
 tradition: one grapheme per phoneme, *y* for /j/, *c* for /t͡ɕ/, the coda-*h*,
 double vowels for length, and the apostrophe for the glottal stop only where it
-is contrastive. Person affixes are joined to the host by `=` (clitics) or `-`
-(affixes), as in <Gl t="INDEF" />-marked *an=nuu* 'I hear' above. Where a Piłsudski
+is contrastive. Boundary symbols follow the practice of <Cite key="Sakaguchi 2024" page="vii–viii" paren={false} />:
+the hyphen `-` joins <strong>affixes</strong> — including the person markers
+(*ku-*, *eci-*, *an-*, *-an*, *-as*) and the nominal plural suffix *-hcin* —
+while `=` is reserved for <strong>clitics</strong>, chiefly the verbal
+collective *=hci* / *=ahci*. So <Gl t="INDEF" />-marked *an-nuu* 'I hear', but
+*okay=ahci* 'they live'. Square brackets supply a phoneme that the source
+notation omits (*nu-[h]ci*), again as in Sakaguchi's editions. Where a Piłsudski
 form is quoted in his own notation, the phonemic equivalent is given on the
 segmentation line and the phonetic original on the surface line. Where a
 segmentation is the present author's rather than a source's, the example note

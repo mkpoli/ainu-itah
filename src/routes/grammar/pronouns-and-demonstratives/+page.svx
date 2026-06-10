@@ -125,14 +125,14 @@ exchange below, 1sg *ku'ani* and 2sg *e'ani* each carry the topic marker *neyke*
 stand as the subject of an equational clause:
 
 <Example
-	ain="ku'ani neyke Kiyoko ku=nee"
+	ain="ku'ani neyke Kiyoko ku-nee"
 	gloss="PRO.1SG TOP Kiyoko 1SG.A=COP"
 	free="‘As for me, I am Kiyoko.’"
 	cite="Murasaki 2024"
 	dialect="West" />
 
 The fourth-person pronoun *anoka* behaves identically — it too takes *neyke* and
-heads an equational predicate (*anoka neyke Tahkonanna an=nee* 'As for me, I am
+heads an equational predicate (*anoka neyke Tahkonanna an-nee* 'As for me, I am
 Tahkonanna') — which settles a point the descriptive literature had left open. We
 analyse *anoka(y)* as a <strong>genuine free pronoun</strong>, not a frozen existential phrase
 *an-oka* 'we exist'. Three converging facts support this. First, distributionally it
@@ -244,7 +244,7 @@ shapes *neanpe* and *nanpe* have been reported as "not yet distinguishable",
 glossed uniformly <Cite key="Sakaguchi 2024" page="18" />. Across the corpus,
 however, their distribution is complementary in <strong>form, not function</strong>: *neanpe* is
 the full prosodic shape (East-coast Kusurikoya texts: *neanpe kusu* 'because of
-that'; Murasaki and the conversational corpus: *tukar neanpe*, *ku=reehe neanpe*
+that'; Murasaki and the conversational corpus: *tukar neanpe*, *ku-reehe neanpe*
 'as for my name…'), and *nanpe* is its <strong>reduced variant</strong> with the unstressed
 first vowel syncopated, occurring in the same topic and "when/then" functions
 (*cotca nanpe ray manu* '(when he) shot it, it died'). The same *nea-* > *na-*

@@ -149,7 +149,7 @@ the nominalising-plus-copula frame that dominates finite predication (treated
 below):
 
 <Example
-	ain="neera an pe ne yahka nuu-hci teh-an-[i]-hi nee nanko"
+	ain="neera an pe ne yahka nuu=hci teh-an-[i]-hi nee nanko"
 	gloss="which 3SG.S/exist.SG thing COP although 3PL.S/hear-PL PFV-EP-NMLZ COP probably"
 	free="Although it could be anything, … she must have heard such things."
 	cite="Handbook (Bugaeva ed.)" page="Rayciska text, Dal Corso, ex. 25 / Fujiyama Haru"
@@ -168,7 +168,7 @@ recurs in narrative, here stacked with the collective marking of a plural
 subject:
 
 <Example
-	ain="suu naa oypeh naa kara-hci ranke suye-hci ne manu"
+	ain="suu naa oypeh naa kara=hci ranke suye=hci ne manu"
 	gloss="pot also vessel also 3.make-3PL.A ITER 3.cook-3PL.A ? REP 3.say-3PL.A"
 	surface="Suu naa oypeh naa kara-hci ranke suye-hci ne manu"
 	free="It is said they made pots and vessels and (repeatedly) cooked."
@@ -186,13 +186,13 @@ serves as the argument of the copula — originally a biclausal structure, a
 nominalised clause taking *ne(e)* as its predicate, that has grammaticalised
 toward a single complex predicate (<Cite key="Dal Corso 2018" page="§5.2.2" paren={false} />). The copula *ne(e)* is, in Chiri's
 terms, the language's only simple ‘incomplete verb’ (<Cite key="Chiri 1942" page="§32" paren={false} />),
-and like a transitive it takes the A-series prefixes (West *ku=nee* ‘I am’,
-*e=nee* ‘you are’, *an=nee*, the latter from an original 1PL serving as 1SG). <strong>Aspectual markers sit inside the nominalised clause</strong>, scoping over
+and like a transitive it takes the A-series prefixes (West *ku-nee* ‘I am’,
+*e=nee* ‘you are’, *an-nee*, the latter from an original 1PL serving as 1SG). <strong>Aspectual markers sit inside the nominalised clause</strong>, scoping over
 it before the copula closes the predicate:
 
 <Example
 	surface="'E-niina teh 'orowa 'e-'i-wooneka kusu teeta 'e-san-i-hi ne 'an ike 'aa?"
-	ain="e=niina teh orowa e=i-wooneka kusu teeta e=san-[i]-hi ne an ike aa"
+	ain="e-niina teh orowa e-i-wooneka kusu teeta e-san-[i]-hi ne an ike aa"
 	gloss="2SG.S=collect.wood and then 2SG.A=1PL.O-situation.look because here 2SG.S=descend.SG-[EP]-PK COP PRF and FIN"
 	free="You collected wood and then came down here to check on us, right?"
 	cite="Dal Corso 2018" page="§5.2.2.2 ex.114 (Murasaki MRA: 3)"
@@ -219,7 +219,7 @@ that probably …’, with the verb nominalised by the formal noun *pe* ‘thing
 closed by the copula:
 
 <Example
-	ain="sine utah-ta ne kusu porono ham e=ye yahka pirika nankoro pe ne"
+	ain="sine utah-ta ne kusu porono ham e-ye yahka pirika nankoro pe ne"
 	gloss="one fellow-? COP because much NEG 2SG.A=3SG.O/say although 3SG.S/be.good probably thing COP"
 	surface="Sine utahta ne kusu, porono ham e-ye yahka pirika nankoro pe ne."
 	free="Since we are close kin, even if you do not say much, it will surely be fine."
@@ -243,7 +243,7 @@ nominalised under the copula, illustrating how mood layers neatly on top of the
 aspectual machinery already in place:
 
 <Example
-	ain="nuu-hci teh-an-[i]-hi nee nanko"
+	ain="nuu=hci teh-an-[i]-hi nee nanko"
 	gloss="3PL.S/hear-PL PFV-EP-NMLZ COP probably"
 	free="… she must have heard (such things)."
 	cite="Handbook (Bugaeva ed.)" page="Rayciska text, Dal Corso, ex. 25 / Fujiyama Haru"
@@ -254,7 +254,7 @@ Inner thought and prediction combine the dubitative with the cogitative quotativ
 frame *nah ramu* ‘think that’ (see [Complementation](/grammar/complementation)):
 
 <Example
-	ain="temana neera'an an=kara an=kii-hi nee nanko nah ramu"
+	ain="temana neera'an an-kara an-kii-hi nee nanko nah ramu"
 	gloss="how such 4=make 4=do-NMLZ COP maybe COMP 3.think"
 	surface="‘Temana neera'an 'an-kara 'an-kii-hi nee nanko’ nah ramu."
 	free="She thought, ‘How should I do it?’"
@@ -266,7 +266,7 @@ A future-oriented prediction can also be hosted by the conditional protasis
 *'anah* ‘if, when’, with the apodosis taking *nee nanko*:
 
 <Example
-	ain="taa teh ee anah an=nukara easkay-Ø nee nanko"
+	ain="taa teh ee anah an-nukara easkay-Ø nee nanko"
 	gloss="3.dig.up and 3.eat if 4=see be.able-NMLZ COP maybe"
 	surface="Taa teh 'ee 'anah, 'an-nukara 'e'askay-Ø nee nanko."
 	free="Maybe I will be able to see her if she digs up the potatoes and eats them."
@@ -380,8 +380,8 @@ the prospective rather than the durative.
 
 ### ‘Short’ vs ‘long’ V-poss: a phonological doublet, not a semantic contrast
 
-Bugaeva (2016: 104) records that the "short" (*ci=setur-u*) and "long"
-(*ci=setur-uhu*) possessive forms — the same suffix that nominalises the verb in
+Bugaeva (2016: 104) records that the "short" (*ci-setur-u*) and "long"
+(*ci-setur-uhu*) possessive forms — the same suffix that nominalises the verb in
 the V-poss predicate — stand in a relation that "is unclear", and flags the wider
 derivation as conditioned by tongue-root harmony, an areal Northeast-Asian trait
 (<Cite key="Bugaeva 2016" page="104" paren={false} />). Chiri (1942 §71) had in fact already

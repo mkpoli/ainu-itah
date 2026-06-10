@@ -43,7 +43,7 @@ to number and possessor. The <strong>affiliative form</strong> (所属形) adds 
 The conceptual form is what surfaces as a bare core argument:
 
 <Example
-	ain="tan seta en=kupapa"
+	ain="tan seta en-kupapa"
 	gloss="this dog 1SG.O=bite"
 	free="This dog bit me."
 	cite="FF-Ainu (Karafuto materials)"
@@ -309,14 +309,14 @@ inalienable construction. We therefore analyse Sakhalin not
 as having reassigned individual nouns from one class to the other, but as having <strong>loosened the construction-to-noun mapping</strong>: the PSD has become available to
 much of the alienable lexicon (the *cip-ihi* 'boat', *itanki-hi* 'bowl' type),
 while *kor* remains available to almost anything — the garment in
-*tan imii ku=koro pe nee* 'this garment is mine'
-(<Cite key="FF-Ainu (Karafuto materials)" paren={false} />), the fish in *ceh ku=koro*
+*tan imii ku-koro pe nee* 'this garment is mine'
+(<Cite key="FF-Ainu (Karafuto materials)" paren={false} />), the fish in *ceh ku-koro*
 'I have/buy fish', even prototypical inalienables. The kin
 term *maci* 'wife' appears equally in the *kor* frame (*e=koro maci* 'your wife',
 in <Cite key="Sentoku (letters)" />), and the bear-feast term
 *metoh-mic-ihi* '(our reared) bear cub' — itself already an affiliative form —
-is found governed by *kor* as well (*an=koro metoh-mic-ihi* 'our bear cub'; <Cite key="FF-Ainu (Karafuto materials)" />). That last form is exactly Chiri's
-"illogical" <strong>fusion</strong> type *an=koro cise-he* 'my house', *kor* plus a noun that
+is found governed by *kor* as well (*an-koro metoh-mic-ihi* 'our bear cub'; <Cite key="FF-Ainu (Karafuto materials)" />). That last form is exactly Chiri's
+"illogical" <strong>fusion</strong> type *an-koro cise-he* 'my house', *kor* plus a noun that
 already bears the PSD: a possessor marked twice over, once analytically and once
 affixally. This is the constructional face of Chiri's "breakdown of the person
 concept": where Hokkaido fixes each noun to one construction, Sakhalin lets the
@@ -333,7 +333,7 @@ follows an adnominal, a noun, or a relative clause and means '~people':
 
 <Example
 	surface="ohkayo utara kii anpe utara yee"
-	ain="ohkayo utara kii an=pe utara yee"
+	ain="ohkayo utara kii an-pe utara yee"
 	gloss="man people do.PL exist=NMLZ they say"
 	free="The men's doings, they spoke of …"
 	cite="Piłsudski 1912"
