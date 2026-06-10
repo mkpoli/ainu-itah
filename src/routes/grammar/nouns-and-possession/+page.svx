@@ -38,9 +38,7 @@ residue of formal and non-inflecting nouns alongside (<Cite key="Chiri 1942" pag
 
 A concrete noun has three derivationally layered forms. The <strong>conceptual form</strong>
 (概念形) is the bare citation stem; it names the concept only and is neutral as
-to number and possessor. The <strong>affiliative form</strong> (所属形) adds a **possessed
-suffix<strong> (<Gl t="PSD" />) and fixes the noun as someone's; and the </strong>personal
-form** (人称形) prefixes a possessor to the affiliative form
+to number and possessor. The <strong>affiliative form</strong> (所属形) adds a <strong>possessed suffix<strong> (<Gl t="PSD" />) and fixes the noun as someone's; and the </strong>personal form</strong> (人称形) prefixes a possessor to the affiliative form
 (<Cite key="Chiri 1942" page="530-532" />; <Cite key="Sakaguchi 2024" page="19" />).
 The conceptual form is what surfaces as a bare core argument:
 
@@ -87,8 +85,7 @@ co-occur (<Cite key="Chiri 1952" page="463-464" paren={false} />). On this analy
 residue — pairs like *sar-a* 'its tail' vs. *sar-i* 'its reed-field', where one
 stem shape supports two harmonically licit vowels distinguishing two senses
 (<Cite key="Chiri 1952" page="463" paren={false} />) — is therefore best treated not as
-across-the-board unpredictability but as a small set of **inflection-class
-diacritics**, of the kind familiar from declension-class or thematic-vowel
+across-the-board unpredictability but as a small set of <strong>inflection-class diacritics</strong>, of the kind familiar from declension-class or thematic-vowel
 systems elsewhere: the harmony rule fixes the class, and only the few
 harmony-internal choices are listed. A complete Sakhalin per-noun list is not
 given in these sources; compiling one is a finite, tractable lexicographic task,
@@ -127,7 +124,7 @@ kin term:
 	note="hoko-ho 'her/the husband's', the strong affiliative of hoko 'husband'." />
 
 Two divergences from Hokkaido are diagnostic of Sakhalin, and both are instances
-of a general Sakhalin **generalisation of *-he*** (<Cite key="Chiri 1952" page="463-464" paren={false} />).
+of a general Sakhalin <strong>generalisation of <em>-he</em></strong> (<Cite key="Chiri 1952" page="463-464" paren={false} />).
 First, on diphthongal *-j/-w* stems Sakhalin uses *-he* (<W w="ajhe" gloss="his arrow" />, <W w="hawhe" gloss="his voice" />), where Hokkaido has *-e/-ehe* (Hokkaido *aje*, *ajehe*).
 
 <Example
@@ -182,8 +179,7 @@ The A-form thus does double duty as subject marker and possessor:
 	note="資料 Nr.16; the free pronoun kuani co-occurs with the prefix ku-." />
 
 The free pronoun <W w="kuani" gloss="I" /> and the prefix *ku-* co-occur here:
-the prefix is the agreement marker, not the pronoun itself. **Locative
-(relational) nouns** behave differently. They mark the spatial ground of a head
+the prefix is the agreement marker, not the pronoun itself. <strong>Locative (relational) nouns</strong> behave differently. They mark the spatial ground of a head
 noun and take the <strong>O-series</strong> prefix, not the A-series — for the fourth person
 this is *i-*:
 
@@ -367,8 +363,7 @@ prefix would occupy, e.g. *utara eumiinare* 'they laughed at one another'
 (<Cite key="Piłsudski 1912" paren={false} />). On the standard clitichood diagnostics —
 fixed position relative to the host verb, inability to bear independent stress, and
 its co-occurrence with (rather than replacement of) the zero third-person
-agreement — this autonomous use patterns as a **phrasal pronominal element that
-hosts on the verb**, not as a free NP (which would be ordering-free) and not as a
+agreement — this autonomous use patterns as a <strong>phrasal pronominal element that hosts on the verb</strong>, not as a free NP (which would be ordering-free) and not as a
 bound agreement affix (which would not also surface as the head of a full NP, as
 *kotan ohta okay utara* shows it does). We therefore treat autonomous *utara* as
 a <strong>weak/pronominal clitic</strong> along the cline from full noun to agreement marker —

@@ -196,8 +196,7 @@ verdict is agnostic: Piłsudski "does not mention this sound at all," and since
 the glottal onset is a feature of every Hokkaido dialect and of West Sakhalin,
 its silence in his East transcription is most economically read as a gap of his
 self-described "Slav ear" rather than as positive evidence of absence <Cite key="Dal Corso 2024" page="60" />. We can, however, go further than
-agnosticism, because the segment leaves an indirect but unambiguous **structural
-trace** even where Piłsudski did not hear it. The diagnostic is
+agnosticism, because the segment leaves an indirect but unambiguous <strong>structural trace</strong> even where Piłsudski did not hear it. The diagnostic is
 resyllabification. A word-final coda that would otherwise debuccalise only before
 a consonant should, before a genuinely vowel-initial word, resyllabify into the
 following onset and so escape debuccalisation; if instead it debuccalises, the

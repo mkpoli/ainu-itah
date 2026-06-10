@@ -69,8 +69,7 @@ transitive <W w="ahunke" gloss="put in" /> takes the prefix `an-`. On the east
 coast the same contrast surfaces directly, with <W w="anahunke" gloss="I put in" />
 ('I let in') carrying exactly this prefixal marking <Cite key="Dal Corso 2025" paren={false} />. The two classes
 correspond to Chiri's two conjugation types: the <strong>subjective conjugation</strong>
-(主体活用), which takes only nominative person affixes, and the **incorporating
-conjugation** (抱合活用), which carries nominative *and* objective person affixes
+(主体活用), which takes only nominative person affixes, and the <strong>incorporating conjugation</strong> (抱合活用), which carries nominative *and* objective person affixes
 simultaneously on one stem <Cite key="Chiri 1942" page="§39" />.
 
 Class membership is <strong>derivationally fluid</strong>: a given root may be

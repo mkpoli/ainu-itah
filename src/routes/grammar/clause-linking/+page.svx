@@ -349,8 +349,7 @@ by the converb *koro wa* 'holding and':
 
 ## Aspectual collocations as monoclausal predicates
 
-Several converb + verb collocations are grammaticalised as **aspectual complex
-predicates**: progressive *kusu ‘an*, resultative *teh ‘an*, durative *kusu kara*,
+Several converb + verb collocations are grammaticalised as <strong>aspectual complex predicates</strong>: progressive *kusu ‘an*, resultative *teh ‘an*, durative *kusu kara*,
 and conclusive *wa ‘isam*. <Cite key="Chiri 1942" paren={false} /> notes that
 Sakhalin *kusu ‘an* corresponds to Hokkaido *kor an* (continuative), that *kusu
 kara* parallels the Hokkaido *kus ki* future, and that the Sakhalin-specific *ea*
@@ -463,8 +462,7 @@ relation between clauses, Sakhalin uses <W w="korka" gloss="but" />
 
 <Cite key="Dal Corso 2018" page="134–135" paren={false} />
 argues that Sakhalin <strong>nominalisation + copula</strong> constructions (V-*hV* *ne(e)*)
-have, in their latest diachronic stage, been re-used as **independent main
-clauses** — a formally subordinate (nominalised) clause standing alone,
+have, in their latest diachronic stage, been re-used as <strong>independent main clauses</strong> — a formally subordinate (nominalised) clause standing alone,
 conventionalised to express personal-knowledge evidentiality. The interrogative
 final particle <W w="hetaneya" gloss="?" />, which attaches only to nouns, is the
 diagnostic that the host is nominal. This is the clearest Sakhalin case where

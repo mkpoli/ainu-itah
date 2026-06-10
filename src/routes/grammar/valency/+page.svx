@@ -267,8 +267,7 @@ Sakhalin material on this cline directly. At the reflexive pole sit transparent 
 self-induced motion — <W w="si-kira" /> 'flee' (lit. 'turn oneself away'), and the type <W w="si-pusu" /> 'float up of itself', <W w="si-etaye" /> 'retract, draw back' that <Cite key="Chiri 1942" paren={false} /> and later <Cite key="Bugaeva 2025" paren={false} />
 analyse as middle. The decisive Sakhalin datum for the anticausative endpoint is <W w="si-masa" />: Bugaeva's comparative table glosses Hokkaido <W w="si-masa" /> 'open' but <strong>Sakhalin <W w="si-masa" /> 'increase, grow'</strong> — a change-of-state intransitive with no
 agent, i.e. a true anticausative reading distinct from the Hokkaido one
-(<Cite key="Bugaeva 2025" page="Table 2" paren={false} />). We therefore take the cline to be **attested
-in full for Sakhalin**, with the autocausative as its statistical centre of gravity (the
+(<Cite key="Bugaeva 2025" page="Table 2" paren={false} />). We therefore take the cline to be <strong>attested in full for Sakhalin</strong>, with the autocausative as its statistical centre of gravity (the
 self-motion verbs are the commonest <W w="si-" /> forms in the texts) and the anticausative
 as a lexicalised, root-specific extension rather than a productive operation — the mirror
 image of the suffixal <W w="-ke" /> anticausative, which is productive but loses out to <W w="si-" /> on roots where <W w="si-" /> has already lexicalised.
@@ -321,8 +320,7 @@ transitives where the object is demoted or left unspecified, e.g. *i-rura* 'tran
 (things)' from <W w="rura" gloss="transport" /> (<Cite key="Piłsudski 1912" page="287" paren={false} />).
 
 The sources use several labels for what may be one or more <W w="i-" /> morphemes — the
-antipassive, a general-object/incorporated object, and the <Gl t="INDEF" /> object marker <W w="i-" /> of the agreement paradigm. We analyse these as **one morpheme with several
-construction-bound uses**, not a homophony. Diachronically all three trace to a single
+antipassive, a general-object/incorporated object, and the <Gl t="INDEF" /> object marker <W w="i-" /> of the agreement paradigm. We analyse these as <strong>one morpheme with several construction-bound uses</strong>, not a homophony. Diachronically all three trace to a single
 generic-noun source (*i 'thing'; <Cite key="Bugaeva 2006" paren={false} />, and the
 agreement chapter), and synchronically they form a natural class: each fills the object slot
 of a transitive stem with a referentially backgrounded participant, the difference lying in
@@ -372,8 +370,7 @@ Sakhalin-specific twist that on at least the *cah*/*cak* root the reflex is tran
 rather than intransitive — a localised reanalysis, not evidence of a gap. Second, on <strong>relative frequency</strong>: the same comparison predicts that <W w="si-" /> will dominate where
 it has lexicalised (self-motion middles such as <W w="si-kira" />, <W w="si-noye" />
 'twist') while <W w="-ke" /> remains the default elsewhere. We therefore describe the
-Sakhalin anticausative as a **two-marker system in complementary, partly-lexicalised
-distribution** — productive suffixal <W w="-ke" /> versus root-bound prefixal <W w="si-" /> —
+Sakhalin anticausative as a <strong>two-marker system in complementary, partly-lexicalised distribution</strong> — productive suffixal <W w="-ke" /> versus root-bound prefixal <W w="si-" /> —
 rather than leaving the question open. The one quantitative claim that still awaits a larger
 annotated West-coast corpus is the precise ratio of the two markers in running text; the
 romanised Sakhalin materials are at present too small to count reliably.
@@ -407,8 +404,7 @@ Several valency facts are diagnostic of Sakhalin, or split the island's two coas
   singles out Sakhalin as permitting the <W w="u-" /> + causative pattern for mere
   plurality, not only true reciprocity or collectivity.
 - <strong>Valency-preserving e-/ko-/yay-.</strong> <Cite key="Dal Corso 2025" paren={false} /> finds the
-  presentative <W w="e-a" />, the high-transitivity <W w="ko-" />, and the andative <W w="yay-" /> <strong>common in the East-coast Piłsudski materials (1903–04)</strong> but **rare in
-  the West-coast Murasaki corpus (1960s–70s)**. He proposes this is either a genuine
+  presentative <W w="e-a" />, the high-transitivity <W w="ko-" />, and the andative <W w="yay-" /> <strong>common in the East-coast Piłsudski materials (1903–04)</strong> but <strong>rare in the West-coast Murasaki corpus (1960s–70s)</strong>. He proposes this is either a genuine
   East/West split or a diachronic loss of these secondary functions under Japanese contact
   after relocation to Hokkaido.
 - <strong>The -ke/-ki reflex.</strong> Sakhalin <W w="cah-ki" /> is transitive against Hokkaido

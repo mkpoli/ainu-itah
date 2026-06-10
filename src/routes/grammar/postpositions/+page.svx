@@ -336,7 +336,7 @@ verbal argument by an applicative:
 Three developments distinguish the Sakhalin system from Hokkaido Ainu and from
 its own internal subvarieties.
 
-**Bare *oro* as ablative.** Where Hokkaido (and the conservative analysis)
+<strong>Bare <em>oro</em> as ablative.</strong> Where Hokkaido (and the conservative analysis)
 requires a relational noun plus an overt case particle (*or-o wa*), Sakhalin
 allows the bare relational noun *oro* to mark the ablative on its own, with no
 following *wa* <Cite key="Chiri 1942" page="§79" />. This is the leading edge of
@@ -389,8 +389,7 @@ redundantly. The relational noun supplies the region, and a plain *ta* then
 locates the event within it — exactly the *[ground] [relational-noun] ta*
 template of the relational-noun section above. The apparent freedom of *ta* ~
 *ohta*, in other words,
-resolves on inspection into a **default *ohta*** with ordinary nouns and a
-**bare *ta*** wherever the ground is already relational or temporal. The
+resolves on inspection into a <strong>default <em>ohta</em><strong> with ordinary nouns and a </strong>bare <em>ta</em></strong> wherever the ground is already relational or temporal. The
 residual genuinely-free cases (e.g. *kotan ohta* ~ *kotan ta* 'at the village',
 where both occur at comparable rates) we take to be the leakage expected at the
 edges of a grammaticalising distinction, rather than evidence that the
@@ -400,8 +399,7 @@ distribution is random.
 
 The inventory of relational nouns set out above is drawn largely from Chiri's elicited
 and lexicographic material, and it is worth confirming that the same forms — with
-the same case-particle and prefix syntax — are **fully productive in
-spontaneous, recorded narrative** and not merely a paradigm of the descriptive
+the same case-particle and prefix syntax — are <strong>fully productive in spontaneous, recorded narrative</strong> and not merely a paradigm of the descriptive
 tradition. The Odasu tales recorded from Asai Take in the late 1980s and early
 1990s supply that confirmation. There the relational nouns appear with the full
 range of oblique case particles: the locative *ta* (*cise samake ta* 'beside the

@@ -314,7 +314,7 @@ The possessed (affiliative) form of a concrete noun adds a possessed suffix
 final vowel of the stem: *sapa* 'head' → *sapa-ha*, *cise* 'house' → *cise-he*,
 *hoko* 'husband' → *hoko-ho* (<Cite key="Chiri 1942" page="532" paren={false} />). The
 interesting morphophonology is in the irregular finals, where Sakhalin sharply
-diverges from Hokkaido by **generalising *-he*** across stem types that Hokkaido
+diverges from Hokkaido by <strong>generalising <em>-he</em></strong> across stem types that Hokkaido
 treats separately.
 
 Monosyllabic nouns ending in *-i* or *-u* take *-he* in Sakhalin, where Hokkaido

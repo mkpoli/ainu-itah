@@ -295,8 +295,7 @@ in a single clause:
 	dialect="West"
 	note="Restrictive pateh 'only'; locative ohta; comitative tura." />
 
-The clause is closed by a slot of **sentence-final mood and evidential
-particles**, where Sakhalin is especially rich: the imperative *kane* / *kanne*
+The clause is closed by a slot of <strong>sentence-final mood and evidential particles</strong>, where Sakhalin is especially rich: the imperative *kane* / *kanne*
 (against Hokkaido *hani* / *ani*), the reportative *manu* ‘it is said’, and the
 conventional tale-closing *hemaka* ‘the end’ (<Cite key="Chiri 1942" page="§119" />; <Cite key="Sakaguchi 2019a" />). In the West-coast Raychishka dialect the final
 particle is obligatory and intonation is contrastive, with rising *wa* an
