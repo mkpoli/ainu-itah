@@ -100,7 +100,7 @@ Unless noted, the West-coast varieties are taken as the descriptive baseline,
 because they are the most fully documented; East-coast data is flagged wherever
 it diverges or fills a gap.
 
-**See also:** the dialect divisions and the documentary record behind these
+<strong>See also:</strong> the dialect divisions and the documentary record behind these
 labels are set out in full in [Chapter 3, Dialects, Sources, and Philology](/grammar/dialects-and-sources).
 
 ## Situating this grammar
