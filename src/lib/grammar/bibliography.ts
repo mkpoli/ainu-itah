@@ -7,8 +7,12 @@ export const BIBLIOGRAPHY: BibEntry[] = [
 	{ key: "Piłsudski 1912", region: "sakhalin", full: "Piłsudski, Bronisław (1912). Materials for the Study of the Ainu Language and Folklore. Cracow: Spółka Wydawnicza Polska. [East Sakhalin folktale corpus: Tarayka, Tunayci, Ay, Hunup.]" },
 	{ key: "Pilsudskij 2002", region: "sakhalin", reported: true, full: "Piłsudski, B. (2002). Materialy dlja izučenija ajnskogo jazyka i fol'klora (re-edition / Latyshev ed.). [reported, re-edition of Piłsudski 1912 used by Sakaguchi 2020]" },
 	{ key: "Dobrotvorskij 1875", region: "sakhalin", full: "Dobrotvorskij, M. M. (1875). Ainsko-russkij slovar' [Ainu–Russian Dictionary]. Kazan'. [West-central Sakhalin (Kushunnai/Usoro area); incl. Ciwokanke texts. Jp. tr. Terada & Yasuda 1995–2019.]" },
-	{ key: "ainu-corpora (樺太)", region: "sakhalin", full: "ainu-corpora Sakhalin (樺太) sub-corpus, accessed via the Ainu MCP (`corpus_search`, `convert_script`): FF-Ainu Karafuto teaching texts; Chiba-University Piłsudski re-transcriptions; Murasaki Enciw primer texts; Ainu Times; Sentoku Tarōji letters; Yamada Hayo (ELPR); Kitahara Mokottunas revival texts." },
-	{ key: "Sentoku (letters)", region: "sakhalin", full: "Sentoku Tarōji, letters to B. Piłsudski (c.1900s), East-coast Naibuchi; via ainu-corpora (樺太)." },
+	{ key: "FF-Ainu (Karafuto materials)", region: "sakhalin", full: "Foundation for Ainu Culture 公益財団法人アイヌ民族文化財団. Sakhalin (Karafuto) Ainu teaching materials: word lists and conversation texts. ff-ainu.or.jp." },
+	{ key: "Chiba (archive)", region: "sakhalin", full: "Chiba University Sakhalin Ainu text archive (digitised West-coast and East-coast texts)." },
+	{ key: "Yamada (ELPR)", region: "sakhalin", full: "Yamada, Hayo. Sakhalin Ainu oral texts, in the Endangered Languages of the Pacific Rim (ELPR) series. Osaka Gakuin University." },
+	{ key: "Fujiyama (ELPR)", region: "sakhalin", full: "Fujiyama Haru 藤山ハル (narr.). West-coast (Rayciska) Sakhalin Ainu oral narratives (uchashkuma, tuytah), recorded 1959; published in the Endangered Languages of the Pacific Rim (ELPR) series, Osaka Gakuin University." },
+	{ key: "Ainu Times", region: "sakhalin", full: "アイヌタイムズ (Ainu Times). The Ainu-language newspaper; Sakhalin-dialect items by Aihara Noriaki and others." },
+	{ key: "Sentoku (letters)", region: "sakhalin", full: "Sentoku Tarōji, letters to B. Piłsudski (c. 1900s), East-coast Naibuchi." },
 	{ key: "Yamabe-Kindaichi 1913", region: "sakhalin", reported: true, full: "Yamabe Yasunosuke (narr.) & Kindaichi Kyōsuke (ed.) (1913). Ainu monogatari / Karafuto Ainugo gairon [\"An Outline of Sakhalin Ainu\"], with appended autobiography. [reported]" },
 	{ key: "Chiri 1942", region: "general", full: "Chiri Mashiho 知里真志保 (1942). Ainu gohō kenkyū アイヌ語法研究 [Studies in Ainu Grammar]. (Repr. in Chiri Mashiho chosakushū vol. 3, 1973 = Chiri 1973[1942].) Pan-Ainu grammar foregrounding Sakhalin." },
 	{ key: "Chiri 1952", region: "general", full: "Chiri Mashiho 知里真志保 (1952). Ainugo ni okeru boin chōwa アイヌ語に於ける母音調和 [Vowel harmony in Ainu]." },
@@ -100,7 +104,10 @@ export const BIBLIOGRAPHY: BibEntry[] = [
 	{ key: "Golovnin 1811", region: "general", reported: true, full: "Golovnin, V. M. (1811). Kuril Ainu glossary. [reported]" },
 	{ key: "Krasheninnikov", region: "general", reported: true, full: "Krasheninnikov, S. P. (18th c.). [Early Kuril Ainu numeral data.] [reported]" },
 	{ key: "Dybowski", region: "general", reported: true, full: "Dybowski, Benedykt (19th c.). [Kuril Ainu numeral data.] [reported]" },
-	{ key: "Wada (WDB)", region: "sakhalin", reported: true, full: "Wada Bunjirō, Sakhalin Ainu (Ussoro/East) records cited as WDA/WDB in Dal Corso 2018. [reported]" }
+	{ key: "Wada (WDB)", region: "sakhalin", reported: true, full: "Wada Bunjirō, Sakhalin Ainu (Ussoro/East) records cited as WDA/WDB in Dal Corso 2018. [reported]" },
+	{ key: "Ono 2020", region: "general", full: "Ono, Yohei (2020). Reconsideration of \"Major Division\" of Ainu Dialects: A Statistical Reanalysis of Asai (1974). Northern Language Studies 10: 231–254. [Spectral-clustering reanalysis: North Kuril clusters with Hokkaidō, not as a separate major branch.]" },
+	{ key: "Murayama 1971", region: "general", reported: true, full: "Murayama, Shichirō 村山七郎 (1971). Kita Chishima Ainugo 北千島アイヌ語 [North Kuril Ainu]. [Lexical analysis relating North Kuril to northern Hokkaidō dialects; cited via Ono 2020 and Janhunen in Handbook (Bugaeva ed.).] [reported]" },
+	{ key: "Satō-Bugaeva 2019", region: "general", reported: true, full: "Satō Tomomi & Bugaeva, Anna (2019). [On unpublished 19th-c. Kuril Ainu documents clustering with Southern Hokkaidō (Saru/Chitose); cited via Ono 2020.] [reported]" }
 ];
 
 const BIB_MAP = new Map(BIBLIOGRAPHY.map((b) => [b.key, b]));

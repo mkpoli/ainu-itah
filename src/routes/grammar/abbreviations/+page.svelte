@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { GLOSS_ABBREVS } from '$lib/grammar/glossing';
+	import { tagId } from '$lib/grammar/glossUtil';
 </script>
 
 <svelte:head>
@@ -24,7 +25,7 @@
 
 	<dl class="grid gap-x-8 gap-y-2 sm:grid-cols-2">
 		{#each GLOSS_ABBREVS as g}
-			<div class="flex gap-3 border-b border-gray-100 py-1.5">
+			<div id={tagId(g.tag)} class="flex scroll-mt-20 gap-3 border-b border-gray-100 py-1.5">
 				<dt
 					class="w-24 shrink-0 font-mono text-sm"
 					style="font-variant-caps: all-small-caps; letter-spacing: 0.03em"

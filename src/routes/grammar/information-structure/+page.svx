@@ -11,6 +11,10 @@ sources:
   - Sakaguchi 2019a
   - Sakaguchi 2019b
   - Sakaguchi 2020
+  - Piłsudski 1912
+  - Kitahara 2016
+  - Sentoku (letters)
+  - Ainu Times
 ---
 
 <script lang="ts">
@@ -24,7 +28,7 @@ sources:
 
 Sakhalin Ainu (Enchiw) is verb-final and head-marking, so the bare order of words tells us relatively little about which constituent is being highlighted: core arguments are cross-referenced on the verb and overt noun phrases are largely optional (Chapter 22). Information structure — the packaging of an utterance into what is *given* (topic) and what is *asserted* or *contrasted* (focus) — is instead carried by a small set of dedicated particles that attach to the constituent in question, by the choice of whether to express an argument overtly at all, and, in connected narrative, by an elaborate system of person-shifting that tracks who is who. This chapter surveys, in turn, topic marking with <W w="anakne" gloss="as for" /> and Sakhalin <W w="neampe" gloss="topic; when" />; the additive and restrictive particles <W w="ka" gloss="also, even" />, <W w="naa" gloss="also, too" /> and <W w="pateh" gloss="only" />; the contrastive pro-verb focus construction *V ka kii*; the use of applicatives and the presentative *e-a* as discourse-level foregrounding devices; and the reference-tracking role of the fourth person in the folktale.
 
-The descriptive baseline is the West coast (Rayciska, Tarantomari, Aihama), the best-documented variety; East-coast (Piłsudski) data are flagged where they diverge, and Hokkaido is mentioned only for contrast. As several of the editors of these texts caution, information structure beyond the topic and focus particles — cleft-like uses of relational nouns, the applicative-as-focus hypothesis — remains under-described for Sakhalin specifically <Cite key="Dal Corso 2024" page="71" />, and the relevant gaps are noted as they arise.
+Most of the examples below are West-coast (Rayciska, Tarantomari, Aihama), the best-documented variety; eastern material from Piłsudski's texts is brought in where it diverges. Information structure beyond the topic and focus particles — cleft-like uses of relational nouns, the applicative-as-focus hypothesis — remains under-described for Sakhalin <Cite key="Dal Corso 2024" page="71" />, and these gaps are noted as they arise.
 
 ## Topic marking
 
@@ -62,16 +66,16 @@ Here the reduced form *nanpe* (&lt; *neanpe*) chains the shooting-event to its r
 
 Focus on a constituent — marking it as the asserted or contrasted element — is mainly the work of a small inventory of "adverbial / focus particles" (Chiri's 副助詞・係助詞). The additive *ka* 'also; (under negation) even' and *naa* 'too' add the marked constituent to a set; the restrictive *pateh* (West; East *pate*, general *patek*) 'only' excludes the complement of the set.
 
-The additive *naa* attaches to each conjoined noun phrase, so a list 'X too, Y too, Z too' carries one *naa* per member. This West-coast revitalisation sentence coordinates three language-names this way and simultaneously contrasts the grandmother's competence with the comment that follows in its source text:
+The additive *naa* attaches to each conjoined noun phrase, so a list 'X too, Y too, Z too' carries one *naa* per member. The following West-coast sentence coordinates three language-names this way:
 
 <Example
 	ain="ku=ahci-hi kawren itah naa nuca itah naa ponno wante manu"
 	gloss="1SG.A=grandmother-POSS Korean language ADD Russian language ADD a.little know REP"
 	free="‘My grandmother understood a little Korean and Russian too, it is said.’"
-	cite="ainu-corpora (樺太)" page="express-special/001#0"
+	cite="Kitahara 2016"
 	dialect="West" />
 
-The same iterated-*naa* pattern scales up: an Ainu Times passage strings *enciw utah naa siisam utah naa nuca utah naa* 'the Enchiw too, the Japanese too, the Russians too' to enumerate the peoples who once lived together on Sakhalin <Cite key="ainu-corpora (樺太)" page="ainu-times/056/0#3" />. The restrictive counterpart *pateh* 'only' likewise cliticises to the focused phrase; in the Aihama tale it follows the object that is singled out from everything that might have been given:
+The same iterated-*naa* pattern scales up: an *Ainu Times* passage strings *enciw utah naa siisam utah naa nuca utah naa* 'the Enchiw too, the Japanese too, the Russians too' to enumerate the peoples who once lived together on Sakhalin <Cite key="Ainu Times" page="56" />. The restrictive counterpart *pateh* 'only' likewise cliticises to the focused phrase; in the Aihama tale it follows the object that is singled out from everything that might have been given:
 
 <Example
 	ain="sine ikoro sehpa ta pateh an=konte-si numano cise ohta tura oman"
@@ -87,7 +91,7 @@ The same iterated-*naa* pattern scales up: an Ainu Times passage strings *enciw 
 	cite="Sakaguchi 2019b" page="118"
 	dialect="West" />
 
-The contribution of *pateh* is to assert that the focused referent exhausts the relevant set — only a clasp, only feces, nothing else. The same particle is well attested on the east coast in Sentoku Tarōji's letters, where *pateki* 'only, just' recurs as a restrictive on noun phrases (*nispa pateki tere okay* 'we are only waiting for you', <Cite key="ainu-corpora (樺太)" paren={false} page="sentoku/1#11" />), confirming that the restrictive is pan-Sakhalin and differs across the island only in its final segment: West *pateh*, East *pate(ki)* <Cite key="Dal Corso 2024" page="61" />.
+The contribution of *pateh* is to assert that the focused referent exhausts the relevant set — only a clasp, only feces, nothing else. The same particle is well attested on the east coast in Sentoku Tarōji's letters, where *pateki* 'only, just' recurs as a restrictive on noun phrases (*nispa pateki tere okay* 'we are only waiting for you', <Cite key="Sentoku (letters)" paren={false} />), confirming that the restrictive is pan-Sakhalin and differs across the island only in its final segment: West *pateh*, East *pate(ki)* <Cite key="Dal Corso 2024" page="61" />.
 
 Under negation, additive *ka* turns into a negative-polarity 'even', combining with an interrogative-indefinite to give 'not … at all':
 
@@ -119,7 +123,7 @@ Beyond marking nominal focus, Sakhalin has a dedicated construction for putting 
 	cite="Furukawa 1967" page="113"
 	dialect="West" />
 
-Here *oman* 'go' and *eh* 'come' are each isolated, focus-marked by *ka*, and each resumed by *ku-kii* 'I do', so the person and the assertion sit on the pro-verb while the lexical verb carries the focus. The negation of this construction is informative: rather than negating *kii*, the negator *han* is inserted before the pro-verb, giving *oman ka han kukii* 'I do not go' <Cite key="Furukawa 1967" page="113" />. This shows that the focus particle *ka* and the pro-verb together form a single predicate frame into which negation slots, exactly parallel to the analytic negation *poso han ki* 'did not pierce' seen above.
+Here *oman* 'go' and *eh* 'come' are each isolated, focus-marked by *ka*, and each resumed by *ku-kii* 'I do', so the person and the assertion sit on the pro-verb while the lexical verb carries the focus. The construction negates not on *kii* but with *han* inserted before the pro-verb, giving *oman ka han kukii* 'I do not go' <Cite key="Furukawa 1967" page="113" />. This shows that the focus particle *ka* and the pro-verb together form a single predicate frame into which negation slots, exactly parallel to the analytic negation *poso han ki* 'did not pierce' seen above.
 
 This construction is the one piece of Sakhalin focus morphosyntax that is reasonably well described; cleft-like strategies built on relational nouns, by contrast, are not securely documented for Sakhalin and remain a gap <Cite key="Furukawa 1967" page="113" />.
 
@@ -143,7 +147,7 @@ A second, less overtly marked, foregrounding strategy operates through the verb'
 	cite="Dal Corso 2025" page="§4.4.1 (9)"
 	dialect="West" />
 
-Closely related is the **presentative** use of *e-a* 'sit', which <Cite key="Dal Corso 2024" paren={false} page="72" /> describes as bringing a participant onto the discourse stage — a kind of staging device that introduces or re-introduces a referent in a salient location. In the East-coast example below, the smoke rising from the narrator's hut is presented as a newly noticed, foregrounded scene:
+Closely related is the <strong>presentative</strong> use of *e-a* 'sit', which <Cite key="Dal Corso 2024" paren={false} page="72" /> describes as bringing a participant onto the discourse stage — a kind of staging device that introduces or re-introduces a referent in a salient location. In the East-coast example below, the smoke rising from the narrator's hut is presented as a newly noticed, foregrounded scene:
 
 <Example
 	ain="An-kuca-ha-oro-wa paa numa e-a kusu an"
@@ -158,7 +162,7 @@ Both of these devices come with an important diachronic caveat. <Cite key="Dal C
 
 ## Reference tracking and the fourth-person narrative technique
 
-In connected narrative the most powerful information-structuring resource is not a particle at all but the **fourth person** (prm) set *-an / an- / i-*, glossed here <Gl t="PRM" /> and called the "4th person" in Sakaguchi's terms. Because third persons are zero-marked and arguments are freely dropped, a folktale needs some way of signalling who, among several third-person participants, is currently in view. East-coast *tuytah* exploit the fourth person for exactly this: a participant who is the current narrative centre — typically the protagonist whose perspective the tale adopts — is re-cast as a first-person-like fourth person, while others remain plain third persons <Cite key="Sakaguchi 2020" page="50-51" />.
+In connected narrative the most powerful information-structuring resource is not a particle at all but the <strong>fourth person</strong> (prm) set *-an / an- / i-*, glossed here <Gl t="PRM" /> and called the "4th person" in Sakaguchi's terms. Because third persons are zero-marked and arguments are freely dropped, a folktale needs some way of signalling who, among several third-person participants, is currently in view. East-coast *tuytah* exploit the fourth person for exactly this: a participant who is the current narrative centre — typically the protagonist whose perspective the tale adopts — is re-cast as a first-person-like fourth person, while others remain plain third persons <Cite key="Sakaguchi 2020" page="50-51" />.
 
 The mechanics are visible in the Piłsudski "Flatfish-man and Sculpin-man" tale. The story opens in the third person, with the dual protagonists living together:
 
@@ -181,9 +185,9 @@ But once the flatfish-man becomes the centre of attention, the narration shifts 
 	dialect="East"
 	note="Shift into the flatfish-man's 1st-person self-narration; PRM.S suffix -an, plural stem ahup." />
 
-This *3 → prm → 3* alternation is a structuring device: the switch in person marks a switch in narrative viewpoint, foregrounding the participant who carries the fourth person and backgrounding the rest. Two grammatical facts make the device especially economical. First, the fourth person is morphologically a **plural** form — it obligatorily selects a verb's plural stem (here *ahup*, not singular *ahun*) regardless of the referent's actual number <Cite key="Sakaguchi 2024" page="127" /> — so the viewpoint shift is doubly cued, by the suffix and by the stem. Second, the same set independently encodes an inclusive first-person plural, a logophoric narrator, an indefinite agent, and the agent of an impersonal passive (Chapter 16), so the listener relies on discourse context to recover which reading is intended.
+This *3 → prm → 3* alternation is a structuring device: the switch in person marks a switch in narrative viewpoint, foregrounding the participant who carries the fourth person and backgrounding the rest. Two grammatical facts make the device especially economical. First, the fourth person is morphologically a <strong>plural</strong> form — it obligatorily selects a verb's plural stem (here *ahup*, not singular *ahun*) regardless of the referent's actual number <Cite key="Sakaguchi 2024" page="127" /> — so the viewpoint shift is doubly cued, by the suffix and by the stem. Second, the same set independently encodes an inclusive first-person plural, a logophoric narrator, an indefinite agent, and the agent of an impersonal passive (Chapter 16), so the listener relies on discourse context to recover which reading is intended.
 
-A further consequence for reference tracking is that, when an action is reported with the fourth person *an-* on a low-referential third-person agent acting on a more salient patient, the construction reads as an **impersonal passive** that keeps the patient in topic position:
+A further consequence for reference tracking is that, when an action is reported with the fourth person *an-* on a low-referential third-person agent acting on a more salient patient, the construction reads as an <strong>impersonal passive</strong> that keeps the patient in topic position:
 
 <Example
 	ain="ahci an-nukara"
@@ -194,7 +198,7 @@ A further consequence for reference tracking is that, when an action is reported
 	dialect="Sakhalin"
 	note="prm an- as an inverse / impersonal-passive marker keeping the patient salient." />
 
-By demoting the agent to an unspecified fourth person, the speaker keeps *ahci* 'the old woman' as the discourse-prominent argument — an information-structural effect achieved entirely through the person system. This *3 → prm → 3* technique is most richly attested in the East-coast Piłsudski corpus; West-coast (Murasaki, 1970s) and northwest *tuytah* are by contrast consistently third-person, reserving the *ku-* and *ci-* sets for speech inside quotation <Cite key="Sakaguchi 2020" page="50-51" />.
+By demoting the agent to an unspecified fourth person, the speaker keeps *ahci* 'the old woman' as the discourse-prominent argument — an information-structural effect achieved entirely through the person system. This *3 → prm → 3* technique is most richly attested in Piłsudski's East-coast texts; West-coast (Murasaki, 1970s) and northwest *tuytah* are by contrast consistently third-person, reserving the *ku-* and *ci-* sets for speech inside quotation <Cite key="Sakaguchi 2020" page="50-51" />.
 
 ## Reportative framing and the closed text
 
@@ -214,7 +218,7 @@ At the largest scale, a tale is sealed with the conventionalised closing *hemaka
 	surface="usoy ta pirika okay utara kii manu. hemaka."
 	gloss="neighbor LOC be.good exist.PL people 3PL.A/do REP end"
 	free="‘Living as neighbors, the people lived well, it is said. The end.’"
-	cite="ainu-corpora (樺太)" page="Chiba 354/43#48"
+	cite="Piłsudski 1912"
 	dialect="East" />
 
-Taken together, these resources show that Sakhalin Ainu manages the flow of given and new information at every level: particles partition the clause into topic and focus; valency morphology and the pro-verb *kii* foreground individual constituents; the fourth person tracks viewpoint across a narrative; and the reportative *manu* frames the whole as inherited speech. Where the West-coast record is thin — notably for the applicative-as-focus and presentative strategies, and for any cleft-like construction — the East-coast Piłsudski texts supply the richest evidence, and the dialectal and diachronic flags placed throughout this chapter mark exactly where that evidence does and does not extend.
+These resources show that Sakhalin Ainu manages the flow of given and new information at every level: particles partition the clause into topic and focus; valency morphology and the pro-verb *kii* foreground individual constituents; the fourth person tracks viewpoint across a narrative; and the reportative *manu* frames the whole as inherited speech. Where the West-coast record is thin — for the applicative-as-focus and presentative strategies, and for any cleft-like construction — Piłsudski's East-coast texts supply the richest evidence.

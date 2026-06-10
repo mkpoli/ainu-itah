@@ -11,6 +11,9 @@ sources:
   - Handbook (Bugaeva ed.)
   - Murasaki 1979
   - Furukawa 1967
+  - FF-Ainu (Karafuto materials)
+  - Chiba (archive)
+  - Sentoku (letters)
 ---
 
 <script lang="ts">
@@ -18,13 +21,12 @@ sources:
 	import Gl from '$lib/components/grammar/Gl.svelte';
 	import Cite from '$lib/components/grammar/Cite.svelte';
 	import W from '$lib/components/grammar/W.svelte';
+	import Foreign from '$lib/components/grammar/Foreign.svelte';
 </script>
 
 ## No tense, much aspect
 
-The single most important fact about the Sakhalin Ainu verb, for the purposes of
-this chapter, is a negative one: there is **no morphological tense**.
-<Cite key="Chiri 1942" paren={false} /> lists the absence of tense as a defining
+The Sakhalin Ainu verb has <strong>no morphological tense</strong>. <Cite key="Chiri 1942" paren={false} /> lists the absence of tense as a defining
 property of the Ainu verb, contrasting it explicitly with Indo-European, and
 notes that aspect is expressed richly in its place. A bare verb is neutral as to
 location in time; *oman* alone means simply ‘go’, and only context, or an
@@ -32,17 +34,16 @@ overt aspectual or evidential marker, anchors the event to a past, present, or
 future moment.
 
 Aspect is realised by four overlapping means
-(<Cite key="Chiri 1942" page="§26, §42" />). It can be **lexical** — *an* ‘be’
-and <W w="koro" gloss="have" /> are inherently durative, whereas verbs such as
-<W w="osma" gloss="fall in" /> and <W w="numa" gloss="rise" /> are inherently
-punctual. It can be carried by **reduplication** (full reduplication gives the
+(<Cite key="Chiri 1942" page="§26, §42" paren={false} />). It can be <strong>lexical</strong> — *an* ‘be’
+and <W w="koro" gloss="have" /> are inherently durative, whereas verbs such as <W w="osma" gloss="fall in" /> and <W w="numa" gloss="rise" /> are inherently
+punctual. It can be carried by <strong>reduplication</strong> (full reduplication gives the
 repetitive of punctual verbs, partial reduplication an iterative or durative).
-It can be marked by **aspectual suffixes** (momentary *-kosanu*/*-kosampa*,
+It can be marked by <strong>aspectual suffixes</strong> (momentary *-kosanu*/*-kosampa*,
 durative *-natara*/*-hitara*, and the like). But it is most productively built
-**periphrastically**, by a light-verb construction of the shape
+<strong>periphrastically</strong>, by a light-verb construction of the shape
 *V₁ + particle + V₂*, where the second verb is usually the existential *an*
 ‘be, exist’ and still inflects for person. These periphrases are the backbone of
-the system and the focus of this chapter.
+the aspectual system.
 
 ## Aspectual periphrases
 
@@ -50,23 +51,23 @@ The recurring frame is a content verb followed by a conjunctive particle
 (*wa*, *kor*, *kusu*, *teh*) and a light verb, most often the existential *an*.
 The light verb carries the person agreement; the particle is, in Dal Corso's
 analysis, ‘merely a syntactic link’ between the two constituents, so that the
-whole is best read as a **monoclausal complex predicate** rather than two
-chained clauses (<Cite key="Dal Corso 2018" page="178" />). The table below
-collects the principal constructions; West-coast members are baseline, and the
-Sakhalin-specific innovations are flagged.
+whole is best read as a <strong>monoclausal complex predicate</strong> rather than two
+chained clauses (<Cite key="Dal Corso 2018" page="178" paren={false} />). The table below
+collects the principal constructions, marking those that are peculiar to
+Sakhalin.
 
 | Construction | Aspect | Gloss tag | Distribution |
 | --- | --- | --- | --- |
 | *V kor an* | progressive ‘be …ing’ | <Gl t="PROG" /> | pan-Ainu |
-| *V kusu an* | progressive / durative (= HA *kor an*) | <Gl t="PROG" /> | **Sakhalin** |
-| *V kusu kara* | durative | <Gl t="DUR" /> | **Sakhalin** |
+| *V kusu an* | progressive / durative (= HA *kor an*) | <Gl t="PROG" /> | <strong>Sakhalin</strong> |
+| *V kusu kara* | prospective ‘be about to’ (= HA *kus ki*) | <Gl t="PROSP" /> | <strong>Sakhalin</strong> |
 | *V kusu oka(y)* | progressive (plural subject) | <Gl t="PROG" /> | Sakhalin |
 | *V wa an* / *hine an* / *kane an* | resultative ‘be …ed, stay …ing’ | <Gl t="RES" /> | pan-Ainu |
-| *V ea* | durative | <Gl t="DUR" /> | **Sakhalin** |
+| *V ea* | durative | <Gl t="DUR" /> | <strong>Sakhalin</strong> |
 | *V teh an* | perfective | <Gl t="PFV" /> | Sakhalin (Rayciska) |
 | *V wa isam* / *wa okere* | conclusive / perfective | <Gl t="CONCL" /> | pan-Ainu |
 | *V kus-ki* / *kus(u)-ne* | prospective ‘be about to’ | <Gl t="PROSP" /> | pan-Ainu |
-| *-pa* (suffix) | iterative | <Gl t="ITER" /> | **Sakhalin** |
+| *-pa* (suffix) | iterative | <Gl t="ITER" /> | <strong>Sakhalin</strong> |
 
 ### Progressive: kor an and the Sakhalin kusu an
 
@@ -90,19 +91,18 @@ explicitly equates with the Hokkaido *kor an*:
 	ain="hacikopon hekaci miina kusu an"
 	gloss="be.small.little child 3SG.S/laugh PROG 3SG.S/exist"
 	free="A little child is laughing."
-	cite="ainu-corpora (樺太)" page="Karahuto shokyu textbook, step 13"
+	cite="FF-Ainu (Karafuto materials)"
 	dialect="West" />
 
 When the subject is plural, the existential is supplied by its suppletive plural
-*oka(y)*, giving *V kusu oka(y)* (<Cite key="Handbook (Bugaeva ed.)" />).
+*oka(y)*, giving *V kusu oka(y)* (<Cite key="Handbook (Bugaeva ed.)" paren={false} />).
 
 ### Resultative, conclusive, prospective
 
 The resultative — ‘be in the state of having V-ed’ — uses *wa an*, *hine an*, or
-*kane an* (<Cite key="Chiri 1942" page="§46" />). The conclusive or completive
+*kane an* (<Cite key="Chiri 1942" page="§46" paren={false} />). The conclusive or completive
 *V wa isam* / *V wa okere* ‘end up …ing, … completely’ pairs the sequential
-converb <W w="wa" gloss="and" /> with the negative existential
-<W w="isam" gloss="not exist" /> or with *okere* ‘finish’:
+converb <W w="wa" gloss="and" /> with the negative existential <W w="isam" gloss="not exist" /> or with *okere* ‘finish’:
 
 <Example
 	surface="'omanu wa 'isam"
@@ -112,16 +112,40 @@ converb <W w="wa" gloss="and" /> with the negative existential
 	cite="Murasaki 1979" page="primer intro; cf. Chiri 1942 §46"
 	dialect="West" />
 
-The prospective ‘be about to V’ is *V kus-ki* or *V kus(u)-ne*; on the West
-coast the closely related *kusu kara* expresses a durative, and Chiri also
-records a Sakhalin-only durative *V ea* (<Cite key="Chiri 1942" page="§45" />).
+The prospective ‘be about to V’ is *V kus-ki* or *V kus(u)-ne*; Chiri groups
+the Sakhalin *V kusu kara* with these, stating that it "has the same use"
+(<Foreign lang="ja" rom="yahari dōyō no yōhō">やはり同様の用法</Foreign>) as
+the prospective *kus-ki*, and illustrating it with *ipe-an kusu an-kara ko*
+‘when I am about to eat’ and *wakka an-tah kusu an-kara ike* ‘when I was about to
+draw water’ (<Cite key="Chiri 1942" page="§45 (503-504)" paren={false} />). We therefore
+analyse *kusu kara* as a <strong>prospective</strong>, not — as it is sometimes labelled — a
+durative; the genuine Sakhalin-only durative is the separate, monomorphemic-looking
+*V ea* ‘be in the course of V-ing’ (<Cite key="Chiri 1942" page="§45 (7), §47" paren={false} />).
+The prospective value of *kusu kara* is confirmed in connected text by Sentoku
+Taroji's 1903 letters to Piłsudski, where *oman kusu kara* is rendered ‘(it
+means/intends) to go’ and stands beside the parallel *oman kusu ne(e)* ‘intends
+to go’:
+
+<Example
+	ain="oman kusu kara"
+	gloss="3SG.S/go.SG PROSP 3SG.S/make"
+	free="(He) is going to go / intends to go."
+	cite="Sentoku (letters)" page="Letter 2 (Chiba archive, sentoku/1)"
+	dialect="East"
+	note="prospective kusu kara in epistolary prose; rendered 'to go (= intend to)', glossed parallel to oman kusu ne 'intends to go' in the same correspondence." />
+
+This minimal contrast — prospective *kusu kara* vs durative *ea* — resolves an
+apparent overlap left open in the descriptive literature: the two are not
+competing duratives, but a prospective and a durative respectively, distinguished
+by both their second element (the verb *kara* ‘make, do’ vs the bound *ea*) and
+their temporal orientation (pre-event vs intra-event).
 
 ### The Rayciska perfective teh an
 
 Dal Corso's glossing of the West-coast Rayciska material standardises a small
 inventory in which the bare existential *an* after a verb marks imperfective,
 *teh an* marks perfective, and the suffix *-pa* marks iterative
-(<Cite key="Handbook (Bugaeva ed.)" />). The perfective *teh an* recurs inside
+(<Cite key="Handbook (Bugaeva ed.)" paren={false} />). The perfective *teh an* recurs inside
 the nominalising-plus-copula frame that dominates finite predication (treated
 below):
 
@@ -136,7 +160,7 @@ below):
 ### Aspectual and modal particles
 
 Beyond the light-verb frames, Chiri (after Kindaichi) lists a set of aspectual
-and modal particles (<Cite key="Chiri 1942" page="§45" />): the perfect or
+and modal particles (<Cite key="Chiri 1942" page="§45" paren={false} />): the perfect or
 anterior *a*, *rok*, *a-an* (which Chiri argues are partly mood, not pure
 aspect); inceptive *oasi*, *heasi*; prospective or imminent *anke*, *anki*,
 *etokoiki*, *etokus*; progressive *kor*; completive ‘already’ *nisa*,
@@ -158,15 +182,15 @@ subject:
 A characteristically Sakhalin feature cuts across aspect and mood alike: finite
 main clauses are very often built on a **nominalised verb followed by the copula
 *ne(e)***. The possessive suffix *-hV* / *-V(hV)*, which Sakhalin Ainu has
-generalised to mark possession on **all** nouns (<Cite key="Bugaeva 2016" />),
+generalised to mark possession on <strong>all</strong> nouns (<Cite key="Bugaeva 2016" paren={false} />),
 attaches to a verb to yield a non-finite ‘V-poss’ form; that nominalisation then
 serves as the argument of the copula — originally a biclausal structure, a
 nominalised clause taking *ne(e)* as its predicate, that has grammaticalised
-toward a single complex predicate (<Cite key="Dal Corso 2018" page="§5.2.2" />). The copula *ne(e)* is, in Chiri's
-terms, the language's only simple ‘incomplete verb’ (<Cite key="Chiri 1942" page="§32" />),
+toward a single complex predicate (<Cite key="Dal Corso 2018" page="§5.2.2" paren={false} />). The copula *ne(e)* is, in Chiri's
+terms, the language's only simple ‘incomplete verb’ (<Cite key="Chiri 1942" page="§32" paren={false} />),
 and like a transitive it takes the A-series prefixes (West *ku=nee* ‘I am’,
 *e=nee* ‘you are’, *an=nee*, the latter from an original 1PL serving as 1SG).
-Crucially, **aspectual markers sit inside the nominalised clause**, scoping over
+<strong>Aspectual markers sit inside the nominalised clause</strong>, scoping over
 it before the copula closes the predicate:
 
 <Example
@@ -185,9 +209,9 @@ where the construction is treated in full.
 
 ## Mood and modality
 
-Sakhalin Ainu modality is dominated by a set of **dubitative–future** markers,
+Sakhalin Ainu modality is dominated by a set of <strong>dubitative–future</strong> markers,
 several of which share a striking Sakhalin trait: they incorporate the copula
-*ne(e)* as their first element (<Cite key="Bugaeva 2016" />). The core members
+*ne(e)* as their first element (<Cite key="Bugaeva 2016" paren={false} />). The core members
 are *nankor(o)* / *nanko(o)* ‘probably, (will) probably’, the
 copula-prefixed *nee nankor* ‘probably’, *nee-ko* ‘surely, definitely’, and
 *ne-'an* ‘probably’. Hokkaido uses a bare *nankor*; the Sakhalin prefixing of
@@ -202,7 +226,7 @@ closed by the copula:
 	gloss="one fellow-? COP because much NEG 2SG.A=3SG.O/say although 3SG.S/be.good probably thing COP"
 	surface="Sine utahta ne kusu, porono ham e-ye yahka pirika nankoro pe ne."
 	free="Since we are close kin, even if you do not say much, it will surely be fine."
-	cite="ainu-corpora (樺太)" page="Chiba-358/4/2-2 #6"
+	cite="Chiba (archive)"
 	dialect="West"
 	note="dubitative/future nankoro framed as nankoro pe ne." />
 
@@ -263,23 +287,23 @@ described above — the copula recruited from equation into a modal auxiliary.
 The directive moods sit slightly apart from the aspectual and modal periphrases,
 being marked chiefly by sentence-final particles and dedicated prefixes; they are
 treated in detail under [clause structure](/grammar/clause-structure-word-order)
-and [negation](/grammar/negation), and only sketched here. The **imperative** is
+and [negation](/grammar/negation), and only sketched here. The <strong>imperative</strong> is
 formed with final *yan* (plural or polite addressee), plain *waa*, or *kanne*;
-the **prohibitive** uses preverbal *hanka(yki)* ‘do not’, as in the negated
-reciprocal below; and the **hortative** ‘let us’ uses *roo* / *anaa*.
+the <strong>prohibitive</strong> uses preverbal *hanka(yki)* ‘do not’, as in the negated
+reciprocal below; and the <strong>hortative</strong> ‘let us’ uses *roo* / *anaa*.
 
 <Example
 	ain="hanka u-koyki yan"
 	gloss="PROH RECP-fight 2PL.IMP"
 	surface="hanka ukoyki yan."
 	free="Do not fight with each other."
-	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/01 #2"
+	cite="FF-Ainu (Karafuto materials)"
 	dialect="Sakhalin"
 	note="prohibitive hanka 'do not' + plural imperative yan." />
 
 In West-coast conversation, *kanne* doubles as a polite connective in
 clause-chaining; Furukawa records it linking two same-subject clauses where the
-chain-final clause carries the progressive *kusu an* (<Cite key="Furukawa 1967" page="§5" />):
+chain-final clause carries the progressive *kusu an* (<Cite key="Furukawa 1967" page="§5" paren={false} />):
 
 <Example
 	surface="'ahci kuwa koro kanne 'ahkas kusu 'an."
@@ -293,11 +317,11 @@ chain-final clause carries the progressive *kusu an* (<Cite key="Furukawa 1967" 
 ## Aspect, evidentiality, and relative tense
 
 Because Sakhalin Ainu lacks tense, the work of locating an event in time falls
-partly to **aspect** and partly to the **evidential** system, which is treated in
-full in [Evidentiality](/grammar/evidentiality). The connection is worth flagging
-here. Dal Corso (2018) shows that the inferential evidentials double as
-**relative-tense** markers: the sensorial stimulus fixes a Reichenbachian
-reference point, and the **telicity** of the scoped predicate then resolves a
+partly to <strong>aspect</strong> and partly to the <strong>evidential</strong> system, which is treated in
+full in [Evidentiality](/grammar/evidentiality). The two interact closely.
+Dal Corso (2018) shows that the inferential evidentials double as
+<strong>relative-tense</strong> markers: the sensorial stimulus fixes a Reichenbachian
+reference point, and the <strong>telicity</strong> of the scoped predicate then resolves a
 present from a past reading. A telic scope predicate under *ruwehe 'an* yields
 past reference, an atelic one yields present:
 
@@ -316,18 +340,92 @@ language does not have. The mechanics of that interaction — the
 source-reliability continuum, the sensorial-channel licensing, and the full set
 of inferential and reportative markers — belong to the next chapter.
 
-## What remains open
+## Three loose ends, resolved
 
-Several points in the aspectual system are under-described in the available
-sources. Furukawa (1967) reports identifying roughly forty conjunctive forms for
-West-coast Rayciska but published only a handful, so the full inventory of
-aspectual and converbal collocations is **[unattested]** in the consulted
-material. The conditions distinguishing the Sakhalin durative *V ea* from
-*V kusu kara*, and the precise contrast between ‘short’ and ‘long’ possessive
-forms in the V-poss predicate (*-u* vs *-uhu*), remain **[uncertain]**
-(<Cite key="Bugaeva 2016" page="104" />). And the telicity of central Sakhalin
-verbs of motion and possession — <W w="eh" gloss="come" /> and
-<W w="koro" gloss="have" /> — is itself hard to fix, which undermines sharp
-present-versus-past predictions for the evidential-as-relative-tense mechanism
-(<Cite key="Dal Corso 2018" page="§7.6" />). These gaps are real and are flagged
-rather than papered over.
+Three points where the descriptive literature stops short can be carried further
+once the attested data and the cross-linguistic typology are brought to bear.
+
+### The converb inventory is larger than any single source publishes
+
+Furukawa (1967: §3) states that she identified roughly forty conjunctive
+(<Foreign lang="ja" rom="Con.">接続</Foreign>) forms for West-coast Rayciska but
+chose to describe only "two or three examples"
+(<Cite key="Furukawa 1967" page="§3" paren={false} />), and her published set is just
+*wa, teh, yayne, yahka, kanne*. The natural inference is not that the system is
+undescribed but that her forty are the **fine-grained collocational variants of a
+small closed class of converb particles**. Pooling Chiri's pan-dialectal account
+with the corpus recovers that class directly: the sequential converbs *wa*
+(tight, gapless), *teh* (delayed), *hine ~ ine*, the simultaneous *kane(-ne)*,
+the durative-trigger *yayne*, the concessive *yahka*, and the subordinators
+*kusu*, *'anah*, *(h)ike*, *'orowa*, *ayne* (see
+[Clause linking](/grammar/clause-linking)). Each of these enters one or more of
+the light-verb aspectual frames tabulated above, and the multiplicity Furukawa
+counted is what we would expect of a polysynthetic clause-chaining language in
+which one converb particle yields several aspectual readings according to the
+light verb it selects (*kusu an* progressive, *kusu kara* prospective, *kusu*
+alone causal-purposive). We therefore treat the "forty forms" as a
+collocation count over this closed converb set, not as evidence of an
+unrecoverable inventory; what awaits Furukawa's unpublished material is the
+<strong>frequency profile</strong> of the collocations, not their identity.
+
+### *V ea* (durative) vs *V kusu kara* (prospective): not two duratives
+
+The two Sakhalin-specific frames sometimes lumped together as "duratives" are in
+fact aspectually distinct, and the evidence already adduced settles the matter.
+Chiri (1942 §45) places *kusu kara* with the prospective *kus-ki*/*kus-ne* —
+"about to V" — and his two examples (*ipe-an kusu an-kara ko* ‘when I am about to
+eat’, *wakka an-tah kusu an-kara ike* ‘when I was about to draw water’) are
+unambiguously pre-event; Sentoku's *oman kusu kara* ‘intends to go’ confirms the
+reading in connected prose. By contrast Chiri's *ea* is listed under the durative
+(<Foreign lang="ja" rom="jizoku-tai">持続態</Foreign>) ‘be in the course of
+V-ing’ (<Cite key="Chiri 1942" page="§45 (7)" paren={false} />), an intra-event aspect. We
+therefore analyse the contrast as **prospective (*kusu kara*) vs durative
+(*ea*)**: the two differ in temporal orientation relative to the event nucleus
+and in their second element (*kara* ‘make, do’ vs the bound *ea*), and there is
+no residual indeterminacy between them once *kusu kara* is correctly classed with
+the prospective rather than the durative.
+
+### ‘Short’ vs ‘long’ V-poss: a phonological doublet, not a semantic contrast
+
+Bugaeva (2016: 104) records that the "short" (*ci=setur-u*) and "long"
+(*ci=setur-uhu*) possessive forms — the same suffix that nominalises the verb in
+the V-poss predicate — stand in a relation that "is unclear", and flags the wider
+derivation as conditioned by tongue-root harmony, an areal Northeast-Asian trait
+(<Cite key="Bugaeva 2016" page="104" paren={false} />). Chiri (1942 §71) had in fact already
+described exactly this alternation and resolved it: he names the monosyllabic
+series *-a/-i/-u/-e/-o/-he* the <strong>weak form</strong>
+(<Foreign lang="ja" rom="jakkei">弱形</Foreign>) and the disyllabic series
+*-aha/-ihi/-uhu/-ehe/-oho* the <strong>strong form</strong>
+(<Foreign lang="ja" rom="kyōkei">強形</Foreign>), and states plainly that the
+strong form is simply the weak form "fully pronounced," the two series being
+<strong>functionally identical</strong> (<Cite key="Chiri 1942" page="§71" paren={false} />). For
+closed-syllable stems the choice of forming-suffix is, in his words, governed
+"entirely by habit" — i.e. lexically fixed rather than meaningful (<Cite
+key="Chiri 1942" page="§72" paren={false} />). On the strength of Chiri's prior and fuller
+account we analyse the short/long contrast as a **lento–allegro phonological
+doublet with lexical conditioning, carrying no aspectual or evidential meaning**;
+Bugaeva's "unclear" is best read as the absence of a *semantic* contrast to be
+found, exactly as the morphophonological analysis predicts.
+
+### The one genuinely open question: variable-telicity verbs
+
+What does remain open is narrower and sharper. Dal Corso's
+evidential-as-relative-tense mechanism resolves a present from a past reading off
+the <strong>telicity</strong> of the scoped predicate; but for verbs of motion, state, and
+possession — paradigmatically <W w="eh" gloss="come" /> and <W w="koro" gloss="have" /> — telicity itself is not fixed. <W w="eh" gloss="come" />
+may foreground either the path (atelic) or the goal (telic) of the movement, and <W w="koro" gloss="have" /> either the process of acquiring or the resulting state,
+<strong>independently of incremental arguments or co-occurring aspectual marking</strong>
+(<Cite key="Dal Corso 2018" page="§7.6" paren={false} />). This is not a gap peculiar to
+Sakhalin Ainu but an instance of a well-known typological class: these are
+<strong>variable-telicity (aspectually underspecified) predicates</strong>, like English
+verbs of directed motion and the "degree-achievement" verbs, whose telicity is
+contextually coerced rather than lexically encoded. The implication for the
+relative-tense mechanism is that, with such verbs, telicity cannot be the sole
+switch between present and past reference; the reading must instead be fixed
+<strong>pragmatically</strong>, by the discourse construal of the event as bounded or
+unbounded. The evidence that would settle the matter is straightforward in
+principle — a larger sample of *eh* and *koro* under *ruwehe 'an* with
+independent contextual cues to boundedness — and we predict, by analogy with the
+typology of these verbs elsewhere, that no purely lexical telicity value will be
+recoverable: the contextual, goal-versus-path construal will turn out to be doing
+the work.

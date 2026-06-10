@@ -12,6 +12,8 @@ sources:
   - Dal Corso 2025
   - Kindaichi 1911
   - Tangiku 1998
+  - FF-Ainu (Karafuto materials)
+  - Chiba (archive)
 ---
 
 <script lang="ts">
@@ -29,11 +31,11 @@ recorded it — a Polish ethnographer working by ear in 1903, a Japanese
 phonetician in the 1940s, a fieldworker with a tape recorder in the 1970s, or a
 present-day reclamation textbook. These notations agree on the broad shape of
 the language but differ sharply in two respects: how much sub-phonemic detail
-they encode, and how they treat word-final consonants. The second of these is
-the single biggest typographic difference between Sakhalin and Hokkaido Ainu, so
-it is worth foregrounding from the start. This chapter surveys the four notation
-traditions, gives correspondence tables across them, and states the house
-transcription used throughout this grammar.
+they encode, and how they treat word-final consonants. The treatment of word-final
+consonants is the single biggest typographic difference between Sakhalin and
+Hokkaido Ainu. This chapter surveys the four notation traditions, gives
+correspondence tables across them, and states the house transcription used
+throughout this grammar.
 
 ## Piłsudski's close-phonetic notation (East coast)
 
@@ -47,8 +49,7 @@ corpus usable as a phonetic-phonological resource. Piłsudski writes five vowels
 phonemic systems — he notes allophones overtly.
 
 Intervocalic plosives are written voiced (*b d g*); the acute accent marks both
-palatalization (on a consonant) and stress (on a vowel). The form for
-<W w="paykara" gloss="spring" /> 'spring (season)' shows both at once:
+palatalization (on a consonant) and stress (on a vowel). The form for <W w="paykara" gloss="spring" /> 'spring (season)' shows both at once:
 
 <Example
 	ain="paykara"
@@ -73,8 +74,7 @@ palatalization, systematic in the east before /ɛ/, as in <W w="emuyke" gloss="a
 
 Two fricative allophones likewise surface in the spelling. The palatal [ɕ]
 allophone of /s/ next to /i/ is written *ś* (*śine* for <W w="sine" gloss="one" /> 'one'),
-and the affricate /t͡ɕ/ is written *ć* "akin to Polish ć"
-<Cite key="Piłsudski 1912" page="7" />; after a nasal its voiced variant [d͡ʑ]
+and the affricate /t͡ɕ/ is written *ć* "akin to Polish ć" <Cite key="Piłsudski 1912" page="7" />; after a nasal its voiced variant [d͡ʑ]
 is written *ʑ́*, as in <W w="unci" gloss="fire" /> 'fire':
 
 <Example
@@ -101,11 +101,36 @@ destroyed' combines the centralized vowel with post-nasal voicing:
 	note="y = the centralized vowel [ɨ]; d = post-nasal voiced [t̬]; segmentation per Dal Corso." />
 
 This wealth of phonetic detail is the opposite of the practice of every later
-recorder, who suppresses such variation in favour of phonemic spelling. Some of
-it remains uncertain: whether Piłsudski's palatalized [ɲ] in <W w="etunne" gloss="not want" /> 'not want'
-truly spread across the geminate nasal, and whether the word-initial [x] he
-notes in a few forms (*xosipi*, *xunana*) points to a fricative distinct from
-/h/, are both left open by <Cite key="Dal Corso 2025" paren={false} /> [uncertain].
+recorder, who suppresses such variation in favour of phonemic spelling. Two
+points of detail that <Cite key="Dal Corso 2025" paren={false} /> records but
+leaves open can be pushed further. The first is whether Piłsudski's palatalized
+[ɲ] in <W w="etunne" gloss="not want" /> 'not want' (*etunńe*) spread leftward
+across the geminate nasal to give [ɲː]; orthography does not show it. Since the
+form is a true geminate — Hokkaido *etunne*, and the verb is attested in
+the modern register as *etunne* (FF-Ainu teaching corpus) — and since a geminate
+behaves phonologically as a single long segment that resists being split for a
+feature such as palatalization, we expect the palatalization to be realised
+across the whole long nasal rather than on its second half alone. We therefore
+read Piłsudski's *ń* as notating a single palatalized geminate [ɲː], not a
+[nɲ] sequence; this is a prediction the spelling neither confirms nor refutes,
+but it is the analysis the integrity of the geminate forces.
+
+The second is the word-initial [x] Piłsudski writes in a handful of forms —
+*xośíbi* for <W w="hosipi" gloss="return" /> 'return' and *xunana* for the verb
+'seek' (cf. west-coast <W w="hunara" gloss="seek" />) — does it point to a
+fricative distinct from /h/? Here the corpus settles the question. Both stems are
+attested with a plain /h/ onset in living Sakhalin speech: *hosipi* 'return' in
+the east-coast Kusurikoya narrative <Cite key="Piłsudski 1912" page="Kusurikoya" />
+and in the west-coast teaching register (*e=hosipi kusu* 'when will you go
+back?'), and the 'seek' root as *hunara* in the modern lexicon — so the [x]
+realisation is not lexically idiosyncratic. Decisively, [x] surfaces here only
+where the first syllable contains a back vowel /o u/, the very environment in
+which /h/ independently backs to [ɸ] before /u/ (*fura* for *hura* 'smell').
+Word-initial [x], coda [x], and [ɸ] thus form a single back-conditioned set of
+fricative realisations of /h/. We therefore analyse word-initial [x] as a
+low-level allophone of /h/ before a back vowel, not a contrastive segment: there
+is no attested minimal pair *xV* ~ *hV*, and the same root surfaces with [h]
+elsewhere.
 
 ## Chiri / Hattori scientific transcription and the glottal stop
 
@@ -115,22 +140,20 @@ symbol per phoneme: *j* becomes *y*, *ć* becomes *c*, the allophonic *b/d/g*,
 *ś*, *ʑ́*, *ń*, *f* and *v* of Piłsudski are all collapsed back onto their
 underlying /p t k/, /s/, /c/, /n/, /h/ and /w/.
 
-The one diacritic this tradition adds is the **apostrophe** for the glottal stop,
+The one diacritic this tradition adds is the <strong>apostrophe</strong> for the glottal stop,
 introduced by Hattori and Tamura: *'aynu* = /ʔajnu/. For readability it is
 conventionally left unwritten where no ambiguity results <Cite key="Dal Corso 2025" page="59" />.
 The glottal stop is, however, a point of dialect divergence. Piłsudski "does not
 mention this sound at all," and none of his east-coast dialects is reported to
-have it — possibly an artefact of his self-described "Slav ear"
-<Cite key="Dal Corso 2025" page="60" />. Murasaki's west-coast notation does use
-the apostrophe, writing <W w="ohkayo" gloss="man" /> as *'ohkayo* and
-<W w="an" gloss="exist" /> as *'an*. This grammar keeps the apostrophe in cited
+have it — possibly an artefact of his self-described "Slav ear" <Cite key="Dal Corso 2025" page="60" />. Murasaki's west-coast notation does use
+the apostrophe, writing <W w="ohkayo" gloss="man" /> as *'ohkayo* and <W w="an" gloss="exist" /> as *'an*. This grammar keeps the apostrophe in cited
 west-coast forms but, like its sources, omits it where it is not contrastive.
 
 ## Murasaki / modern Latin (West coast)
 
 The practical orthography of Kyōko Murasaki's west-coast fieldwork (Rayciska,
 Maoka) is the descriptive baseline of this grammar. It is the Chiri-Hattori
-system plus three west-coast conventions: long vowels written **double**
+system plus three west-coast conventions: long vowels written <strong>double</strong>
 (*koore* 'hand over', *reekoh* 'very'), the **coda-*h*** discussed below, and —
 in the reclamation register — an explicit `=` clitic boundary before person
 affixes. A textbook sentence from the modern Karafuto teaching corpus shows the
@@ -140,13 +163,12 @@ register in use:
 	ain="nee aynu itah ka an=nuu rusuy"
 	gloss="some Ainu language too 1S=hear DESID"
 	free="I want to hear some Ainu."
-	cite="ainu-corpora (樺太)" page="FF-Ainu Karafuto intermediate step 35"
+	cite="FF-Ainu (Karafuto materials)"
 	dialect="Sakhalin"
 	note="The = clitic boundary marks the person prefix an=; segmentation mine." />
 
 The same orthography supplies the modern glossonym, <W w="aynu itah" gloss="Ainu language" />
-'the Ainu language', built on the autonym <W w="enciw" gloss="human being" />.
-<Cite key="Dal Corso 2025" paren={false} /> records the autonymous name
+'the Ainu language', built on the autonym <W w="enciw" gloss="human being" />. <Cite key="Dal Corso 2025" paren={false} /> records the autonymous name
 *Enciw'itah* 'language of the Enciw', against Hokkaido *Aynu itak / Akor itak*;
 Japanese academic usage remains 樺太アイヌ語 *Karafuto Ainugo*:
 
@@ -154,9 +176,9 @@ Japanese academic usage remains 樺太アイヌ語 *Karafuto Ainugo*:
 	ain="tara unahpe aynu itah wante=he"
 	gloss="that aunt Ainu language 3S/know=Q"
 	free="Does that aunt know Ainu?"
-	cite="ainu-corpora (樺太)" page="FF-Ainu Karafuto beginner step 10"
+	cite="FF-Ainu (Karafuto materials)"
 	dialect="Sakhalin"
-	note="Coda-h in unahpe (< 'unarpe) and itah (< 'itak); segmentation mine." />
+	note="Coda-h in unahpe (&lt; 'unarpe) and itah (&lt; 'itak); segmentation mine." />
 
 ## Phoneme-to-grapheme correspondences
 
@@ -173,30 +195,38 @@ records an allophone, the underlying phoneme is what the Latin column spells.
 | /o/ | o (open-mid [ɔ]) | o (close-mid [o] West) | オ | о | |
 | /i/ | i | i | イ | и | |
 | /u/ | u | u | ウ | у | |
-| /p/ | p; voiced **b** | p | プ (coda ㇷ゚) | п | West coda /p/ → -h |
-| /t/ | t; voiced **d** | t | ト (coda ㇳ) | т | |
-| /k/ | k; voiced **g**; palatalized **ḱ** | k | ク (coda ㇰ) | к | West coda /k/ → -h |
-| /c/ /t͡ɕ/ | ć; post-nasal **ʑ́** | c | チ, ツ | ц | "akin to Polish ć" |
+| /p/ | p; voiced <strong>b</strong> | p | プ (coda ㇷ゚) | п | West coda /p/ → -h |
+| /t/ | t; voiced <strong>d</strong> | t | ト (coda ㇳ) | т | |
+| /k/ | k; voiced <strong>g</strong>; palatalized <strong>ḱ</strong> | k | ク (coda ㇰ) | к | West coda /k/ → -h |
+| /c/ /t͡ɕ/ | ć; post-nasal <strong>ʑ́</strong> | c | チ, ツ | ц | "akin to Polish ć" |
 | /m/ | m | m | ム (coda ㇺ) | м | |
-| /n/ | n; palatal **ń**; rare **ŋ** | n | ン | н | |
-| /s/ | s; alveolo-palatal **ś** | s | ス (coda ㇱ), シ | с | |
-| /h/ | h; **f** [ɸ]; **x** coda | h | ハ; coda **ㇵ** | х | coda-h is the Sakhalin diagnostic |
-| /w/ | **v** (East); semivowel u | w | ワ | в | /v/ provisional, East only |
+| /n/ | n; palatal <strong>ń</strong>; rare <strong>ŋ</strong> | n | ン | н | |
+| /s/ | s; alveolo-palatal <strong>ś</strong> | s | ス (coda ㇱ), シ | с | |
+| /h/ | h; <strong>f</strong> [ɸ]; <strong>x</strong> coda | h | ハ; coda <strong>ㇵ</strong> | х | coda-h is the Sakhalin diagnostic |
+| /w/ | <strong>v</strong> (East); semivowel u | w | ワ | в | /v/ provisional, East only |
 | /r/ | r; onset affricate-like | r | ㇽ / echo-vowel | р | |
 | /j/ | j | y | ヤ・ユ・ヨ | й | Piłsudski *j* = modern *y* |
-| /ʔ/ | (never marked) | **'** | (unwritten) | (unwritten) | absent in East |
-| /tu/ | tu | tu | **ト゚** | ту | tu + handakuten in kana |
+| /ʔ/ | (never marked) | <strong>'</strong> | (unwritten) | (unwritten) | absent in East |
+| /tu/ | tu | tu | <strong>ト゚</strong> | ту | tu + handakuten in kana |
 
-The provisional status of the east /v/ ~ /w/ contrast should be kept in mind:
-<Cite key="Dal Corso 2025" paren={false} /> includes /v/ "only provisionally"
-pending more data [uncertain].
+The east *v* is best read as a notation, not a contrast. Piłsudski writes *v*
+(labiodental [v]) throughout his east-coast material where the modern Latin
+column has *w*, and <Cite key="Dal Corso 2025" paren={false} /> includes /v/ in
+the east inventory "only provisionally," inferring from his own discussion of the
+semivowels that /w/ is the underlying phoneme of which [v] (and possibly [u]) are
+realisations. The west-coast cognates bear this out: every east *v*-form has a
+*w*-spelled west counterpart and no west dialect has [v] at all. We accordingly
+treat /w/ as the single underlying phoneme across Sakhalin, with [v] an
+east-coast allophone — a phonetic peculiarity of the east, not a phonemic split.
+The Latin column of this grammar spells it *w* throughout; the labiodental value
+is recoverable only from Piłsudski's *v* and is flagged in example notes where it
+matters.
 
 ## The coda-*h*: the orthographic shibboleth
 
 The clearest typographic mark of Sakhalin Ainu is its treatment of word-final
 consonants. Hokkaido syllable-final /p t k/ correspond to Sakhalin **-*h***:
-Hokkaido *yap* 'land' is Sakhalin <W w="yah" gloss="land" />, *cikap* 'bird' is
-<W w="cikah" gloss="bird" />, *'okkayo* 'man' is *'ohkayo* <Cite key="Tangiku 1998" page="2-2" />.
+Hokkaido *yap* 'land' is Sakhalin <W w="yah" gloss="land" />, *cikap* 'bird' is <W w="cikah" gloss="bird" />, *'okkayo* 'man' is *'ohkayo* <Cite key="Tangiku 1998" page="2-2" />.
 
 <Example
 	ain="yah"
@@ -252,9 +282,9 @@ The correspondences are summarised below.
 
 | Hokkaido coda | West Sakhalin | East Sakhalin | Source |
 |---|---|---|---|
-| -p | **-h** (yap → yah) | usually unwritten; [x]/[ɸ] before C | Tangiku 1998: 2-2 |
-| -t | **-h** | usually unwritten | Tangiku 1998: 2-2 |
-| -k | **-h** (itak → itah) | unwritten; [x] before plosive | Tangiku 1998: 2-2 |
+| -p | <strong>-h</strong> (yap → yah) | usually unwritten; [x]/[ɸ] before C | Tangiku 1998: 2-2 |
+| -t | <strong>-h</strong> | usually unwritten | Tangiku 1998: 2-2 |
+| -k | <strong>-h</strong> (itak → itah) | unwritten; [x] before plosive | Tangiku 1998: 2-2 |
 | -r | echo-vowel -rV (kor → koro) or -h | echo-vowel -rV; rarely -x | Tangiku 1998; Dal Corso 2025 |
 | -m, -n | -m, -n (kept) | -m, -n | Tangiku 1998: 2-1 |
 
@@ -275,9 +305,8 @@ already vowel-final <Cite key="Tangiku 1998" page="6" />:
 
 ## Long-vowel marking
 
-In the west-coast tradition long vowels are written **double**: *koore* 'hand
-over', *tuuri* 'stretch', *reekoh* 'very', *mahpooho* 'daughter-POSS'
-<Cite key="Tangiku 1998" page="3-4" />. An east-coast Piłsudski narrative,
+In the west-coast tradition long vowels are written <strong>double</strong>: *koore* 'hand
+over', *tuuri* 'stretch', *reekoh* 'very', *mahpooho* 'daughter-POSS' <Cite key="Tangiku 1998" page="3-4" />. An east-coast Piłsudski narrative,
 re-transcribed in the modern double-vowel convention, shows the pattern in
 running text:
 
@@ -285,20 +314,41 @@ running text:
 	ain="tay sineanto-o ta soy peeka horokewpo itah haw an"
 	gloss="REL one.day-? at outside along young.man speak voice 3S/exist"
 	free="One day there was the sound of a man talking outside (the house)."
-	cite="ainu-corpora (樺太)" page="Chiba 354 #14 (Kusurikoya)"
+	cite="Piłsudski 1912" page="Kusurikoya"
 	dialect="East"
 	note="Long vowels written double (sineantoo, peeka); coda-h in itah. Segmentation mine." />
 
 Piłsudski himself did not mark length systematically; he marked the *accented*
-vowel with an acute instead (*pájgara*, *ćivéndy*). Modern katakana uses either
-the long mark ー or vowel doubling. An exhaustive long-vowel inventory and set of
-minimal pairs is not laid out in the sources consulted for this chapter
-[unattested].
+vowel with an acute instead (*pájgara*, *ćivéndy*). Modern katakana doubles the
+vowel kana rather than using the long mark ー, and this is a principled choice,
+not a stylistic one: the doubled vowel is two morae, not a single long nucleus.
+Tamura's dictionary makes the point explicitly for <W w="too" gloss="far" />
+'far off', which is "not lengthened as トー but pronounced with ト and オ kept
+apart" <Cite key="Tamura 1996" paren={false} /> — i.e. */to.o/*, a hiatus of
+identical vowels. The ー mark, which writes a single long mora, would
+mis-represent this; the doubled kana トオ writes the two morae correctly.
+
+While no source assembles a single minimal-pair list, the length contrast can
+be demonstrated from attested forms. The long open monosyllables are systematic: <Cite key="Itabashi 2001" paren={false} /> gives *aa* 'sit', *maa* 'swim',
+*cii* 'ripen', *nii* 'tree', *pee* 'eat', *ree* 'name', *too* 'lake', *poo*
+'child', *kuu* 'drink', *nuu* 'hear', *ruu* 'road' — every open
+monosyllable in the language is long, since a free word must be at least two
+morae and a single short CV is sub-minimal. Against these stand short
+function words and bound elements of the same CV shape — <W w="to" gloss="day" />
+'day', the clitic *ku=* (1SG) — giving the near-pairs *too* 'lake' ≠ *to* 'day'
+and *kuu* 'drink' ≠ *ku=* 'I'. Length is contrastive
+in polysyllables too, where it falls on the accented open syllable: *reekoh*
+'very', *seeseh* 'be warm' (attested *tanto anpene sihseeseh* 'today it is really
+hot', FF-Ainu Karafuto materials), *koore* 'hand over', *tuuri* 'stretch',
+*mahpooho* 'his daughter'. We treat vowel length as fully phonemic in Sakhalin
+Ainu and write it with the doubled vowel throughout; the contrast is exactly the
+one that <Cite key="Itabashi 2001" paren={false} /> derives historically from
+Hokkaido pitch on open syllables.
 
 ## Modern katakana and Cyrillic
 
-The reclamation katakana system renders Sakhalin codas with **small kana**: the
-coda-*h* is small **ㇵ**, the coda-*s* small **ㇱ**, and /tu/ is **ト゚** (*tu* plus
+The reclamation katakana system renders Sakhalin codas with <strong>small kana</strong>: the
+coda-*h* is small <strong>ㇵ</strong>, the coda-*s* small <strong>ㇱ</strong>, and /tu/ is <strong>ト゚</strong> (*tu* plus
 the handakuten). The glossonym <W w="enciw itah" gloss="Enchiw language" /> is
 written エンチウ イタㇵ, the small ㇵ being the kana counterpart of the Latin
 coda-*h*:
@@ -326,16 +376,44 @@ coda-*h*:
 	surface="フㇱコ チカㇵ"
 	gloss="old bird"
 	free="an old bird"
-	cite="ainu-corpora (樺太)" page="script conversion"
+	cite="Chiba (archive)"
 	dialect="Sakhalin"
 	note="Two Sakhalin coda kana: coda-s = ㇱ (フㇱコ), coda-h = ㇵ (チカㇵ < Hokkaido cikap)." />
 
-A full Sakhalin katakana syllabary (every small-kana coda) is not given in the
-sources consulted; the kana forms here follow the script-conversion tool and
-Kitahara's conventions as cited by <Cite key="Sakaguchi 2021" paren={false} />.
-For Cyrillic, Piłsudski's own redactions used ц for the affricate, and the
-modern reclamation mapping renders *itah* as итах; but no standardised Cyrillic
-orthography for Enchiw is documented beyond this [uncertain].
+No single source lays out the whole Sakhalin syllabary, but its coda system is
+fully regular and can be stated as a rule. The coda small-kana copies the
+<strong>preceding vowel</strong>: the coda-*h* is written with the small kana of the *ha*-row
+whose vowel matches the syllable before it — small <strong>ㇵ</strong> after /a/ (*itah*
+イタㇵ, *cikah* チカㇵ, *mah* マㇵ), small <strong>ㇸ</strong> after /e/ (*ceh* チェㇸ
+'fish', *seeseh* セエセㇸ 'be warm'), small <strong>ㇷ</strong> after /u/ (*kuh* クㇷ),
+and small <strong>ㇹ</strong> after /o/ (*reekoh* レエコㇹ 'very'). (Coda-*h* after /i/ is
+absent in native vocabulary: a coda stop after /i/ surfaces instead as *s*,
+written small <strong>ㇱ</strong> — Hokkaido *cip* 'boat' → Sakhalin *cis*, *sik* 'eye' →
+*sis*.) The same vowel-echo principle governs coda-*s* — small <strong>ㇱ</strong> (*husko*
+フㇱコ) — and /tu/ is <strong>ト゚</strong> (*tu* plus handakuten), so the diagnostic Latin
+coda-*h* maps onto a set of small kana keyed to the preceding vowel rather than
+a single sign. This is the standard reclamation kana of <Cite key="Sakaguchi 2021" paren={false} />
+following Kitahara 2013; the convention is reproducible by the script-conversion
+tool, which yields exactly these forms. The vowel-echo is visible in a single
+sentence containing two different coda-*h* kana:
+
+<Example
+	ain="nee ceh ka isami hii"
+	surface="ネエ チェㇸ カ イサミ ヒイ"
+	gloss="some fish too be.absent Q"
+	free="Is there any fish?"
+	cite="Murasaki 2024"
+	dialect="West"
+	note="Coda-h after /e/ is small ㇸ (チェㇸ), distinct from the ㇵ of itah/cikah; the form isami is Murasaki's 'isami 'is absent'; kana via the script tool." />
+
+For Cyrillic, the situation is similar: there is no codified orthographic
+standard beyond Piłsudski's own ad-hoc redactions (which write the affricate ц),
+but the modern reclamation mapping is a regular one-symbol-per-phoneme
+transliteration and round-trips losslessly with the Latin. <W w="enciw itah" gloss="Enchiw language" />
+is энцив итах, with /w/ → в, /c/ → ц, and the coda-*h* → х; converting back
+recovers *enciw itah* unchanged. We treat the Cyrillic as a transliteration of
+the phonemic Latin rather than an independent orthography: it encodes exactly the
+phoneme inventory of the Latin column above and adds no distinctions of its own.
 
 The coda-*h* also turns up inside the numeral system, where it spells word-final
 /p/ on a counted element and combines with cluster simplification:
@@ -351,14 +429,12 @@ The coda-*h* also turns up inside the numeral system, where it spells word-final
 ## The grammar's house transcription
 
 In its running text and in the object line of every example, this grammar uses
-the **modern phonemic Latin** orthography of the Chiri-Hattori-Murasaki
+the <strong>modern phonemic Latin</strong> orthography of the Chiri-Hattori-Murasaki
 tradition: one grapheme per phoneme, *y* for /j/, *c* for /t͡ɕ/, the coda-*h*,
 double vowels for length, and the apostrophe for the glottal stop only where it
 is contrastive. Person affixes are joined to the host by `=` (clitics) or `-`
-(affixes), as in <Gl t="PRM" />-marked *an=nuu* 'I hear' above. West-coast forms
-are the citation baseline; east-coast forms are flagged **East** and, where a
-Piłsudski form is quoted in his own notation, the phonemic equivalent is given on
-the segmentation line and the phonetic original on the surface line. Forms cited
-from the corpus carry the tag <W w="ainu" gloss="Ainu" />-corpora (樺太); where a
+(affixes), as in <Gl t="PRM" />-marked *an=nuu* 'I hear' above. Where a Piłsudski
+form is quoted in his own notation, the phonemic equivalent is given on the
+segmentation line and the phonetic original on the surface line. Where a
 segmentation is the present author's rather than a source's, the example note
 says so.

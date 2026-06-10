@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { expandGloss } from '$lib/grammar/glossing';
+	import { expandGloss, lookupGloss } from '$lib/grammar/glossing';
+	import { tagId } from '$lib/grammar/glossUtil';
 
 	// Inline gloss abbreviation for use in prose, e.g. <Gl t="PFV" />.
 	// Renders the tag in small caps with a hover tooltip from the glossing
@@ -7,7 +8,11 @@
 	let { t = '' }: { t?: string } = $props();
 </script>
 
-<abbr class="gloss-gram cursor-help no-underline" title={expandGloss(t)}>{t}</abbr>
+<a
+	href={lookupGloss(t) ? `/grammar/abbreviations#${tagId(t)}` : '/grammar/abbreviations'}
+	class="gloss-gram cursor-help text-inherit no-underline"
+	title={expandGloss(t)}>{t}</a
+>
 
 <style>
 	.gloss-gram {

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { TOC, neighbours } from '$lib/grammar/toc';
-	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 
 	let { children } = $props();
 
@@ -105,10 +104,6 @@
 					</div>
 				</nav>
 			{/if}
-
-			<div class="mt-10">
-				<LanguageSwitcher />
-			</div>
 		</main>
 	</div>
 </div>

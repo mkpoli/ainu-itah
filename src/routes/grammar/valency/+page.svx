@@ -12,6 +12,8 @@ sources:
   - Bugaeva 2025
   - Piłsudski 1912
   - Murasaki 1979
+  - Chiba (archive)
+  - FF-Ainu (Karafuto materials)
 ---
 
 <script lang="ts">
@@ -24,38 +26,32 @@ sources:
 ## Overview
 
 The Sakhalin Ainu verb stem can host a stacked sequence of affixes that change how many
-arguments the verb takes and how those arguments map onto the clause. Following
-<Cite key="Chiri 1942" paren={false} />, the verb's subcategorisation divides predicatives
-into **complete** verbs (完用詞), which need no object and mark a first-person-singular
-subject with a suffix, and **incomplete** verbs (不完用詞), which require a complement or
+arguments the verb takes and how those arguments map onto the clause. Following <Cite key="Chiri 1942" paren={false} />, the verb's subcategorisation divides predicatives
+into <strong>complete</strong> verbs (完用詞), which need no object and mark a first-person-singular
+subject with a suffix, and <strong>incomplete</strong> verbs (不完用詞), which require a complement or
 object and mark it with a prefix. Valency-changing morphology is precisely what shifts a
 stem between these classes: an applicative or causative turns a complete verb into an
 incomplete one, while a reflexive, reciprocal, or antipassive turns an incomplete verb
-back into a complete one (<Cite key="Chiri 1942" page="§33" />).
+back into a complete one (<Cite key="Chiri 1942" page="§33" paren={false} />).
 
-Two broad sets are attested. **Valency-increasing** devices are suffixal — the causatives
+Two broad sets are attested. <strong>Valency-increasing</strong> devices are suffixal — the causatives
 and transitivisers <W w="-ka" gloss="CAUS" />, <W w="-re" gloss="CAUS" />, the
 Sakhalin-specific <W w="-te" gloss="CAUS" />, the bare vowel suffix, and the
-plural-causee <W w="-yara" gloss="CAUS" /> — together with the prefixal **applicatives**
-<W w="e-" gloss="APPL" />, <W w="o-" gloss="APPL" />, and <W w="ko-" gloss="APPL" />.
-**Valency-decreasing** devices are prefixal: the reciprocal <W w="u-" gloss="RECP" />,
-the reflexives <W w="yay-" gloss="REFL" /> and <W w="si-" gloss="REFL" />, the antipassive
-<W w="i-" gloss="ANTIP" />, and the anticausative suffix <W w="-ke" gloss="ANTIC" />. The
+plural-causee <W w="-yara" gloss="CAUS" /> — together with the prefixal <strong>applicatives</strong> <W w="e-" gloss="APPL" />, <W w="o-" gloss="APPL" />, and <W w="ko-" gloss="APPL" />.
+<strong>Valency-decreasing</strong> devices are prefixal: the reciprocal <W w="u-" gloss="RECP" />,
+the reflexives <W w="yay-" gloss="REFL" /> and <W w="si-" gloss="REFL" />, the antipassive <W w="i-" gloss="ANTIP" />, and the anticausative suffix <W w="-ke" gloss="ANTIC" />. The
 last is treated by <Cite key="Bugaeva 2025" paren={false} /> as standing in equipollent
 opposition to the direct causative. These operations may stack, making the language
-polysynthetic and incorporating (<Cite key="Chiri 1942" page="§24-25" />;
-<Cite key="Bugaeva 2014" />).
+polysynthetic and incorporating (<Cite key="Chiri 1942" page="§24-25" />; <Cite key="Bugaeva 2014" />).
 
 ## Causatives and transitivisers
 
 <Cite key="Chiri 1942" paren={false} /> (§55) catalogues five suffixal devices, all of
 which can derive either a plain transitive or a causative — Chiri's combined "transitive
-or causative voice" (他動相又は使役相). The most basic is a bare **vowel suffix** on CVC
+or causative voice" (他動相又は使役相). The most basic is a bare <strong>vowel suffix</strong> on CVC
 roots, which <Cite key="Bugaeva 2025" paren={false} /> analyses as the direct causative
-in opposition to the anticausative: <W w="mak-a" gloss="open" /> 'open (tr.)',
-<W w="per-e" gloss="break" /> 'break (tr.)'. The suffix <Gl t="CAUS" /> <W w="-ka" />
-causativises complete (stative) verbs, as in <W w="hure" gloss="be red" /> →
-<W w="hureka" gloss="redden" />:
+in opposition to the anticausative: <W w="mak-a" gloss="open" /> 'open (tr.)', <W w="per-e" gloss="break" /> 'break (tr.)'. The suffix <Gl t="CAUS" /> <W w="-ka" />
+causativises complete (stative) verbs, as in <W w="hure" gloss="be red" /> → <W w="hureka" gloss="redden" />:
 
 <Example
 	ain="hure-ka"
@@ -78,11 +74,10 @@ The same <W w="-ka" /> is what transitivises the intransitive <W w="tuhse" gloss
 
 The general causative is <W w="-re" gloss="CAUS" /> ~ <W w="-te" gloss="CAUS" />, and its
 allomorphy is one of the clearest Sakhalin-defining points of valency morphology. After
-vowel-final stems the form is <Gl t="CAUS" /> <W w="-re" /> (<W w="e" gloss="eat" /> →
-<W w="ere" gloss="feed" />, <W w="ku" gloss="drink" /> → <W w="kure" gloss="give to drink" />).
+vowel-final stems the form is <Gl t="CAUS" /> <W w="-re" /> (<W w="e" gloss="eat" /> → <W w="ere" gloss="feed" />, <W w="ku" gloss="drink" /> → <W w="kure" gloss="give to drink" />).
 After consonant-final stems the form is <Gl t="CAUS" /> <W w="-te" />, and critically, after
-an <W w="-r" />-final stem Sakhalin uses <W w="-te" /> with the stem-final **r &gt; n**
-(<Cite key="Chiri 1942" page="§15, §55(4)" />). This contrasts directly with Hokkaido,
+an <W w="-r" />-final stem Sakhalin uses <W w="-te" /> with the stem-final <strong>r &gt; n</strong>
+(<Cite key="Chiri 1942" page="§15, §55(4)" paren={false} />). This contrasts directly with Hokkaido,
 which uses <W w="-e" /> here (Hokk. *kore*, *nukare*):
 
 <Example
@@ -94,21 +89,19 @@ which uses <W w="-e" /> here (Hokk. *kore*, *nukare*):
 	note="Causative -te triggers stem-final r > n, yielding konte; cf. Hokkaido kore." />
 
 The parallel form <W w="nukar-te" gloss="show" /> → *nukante* 'show' (Hokk. *nukare*) works
-the same way. This <W w="konte" gloss="give" /> 'give' is exactly what surfaces in the
-West-coast corpus, confirming the rule outside the descriptive literature:
+the same way. This <W w="konte" gloss="give" /> 'give' is exactly what surfaces in
+West-coast texts, confirming the rule outside the descriptive literature:
 
 <Example
 	ain="tama in=kor-te"
 	surface="Tamà in=konte."
 	gloss="jewel 1SG.O=3SG.A/have-CAUS"
 	free="‘You gave me the jewel.’"
-	cite="ainu-corpora (樺太)" page="chiba-358/4/1#5"
+	cite="Chiba (archive)"
 	dialect="West"
 	note="kon-te from kor-te; West-central; segmentation mine." />
 
-A further pair of causatives keys to verbal number: <W w="-ke" /> for a singular object,
-<W w="-te" /> for a plural one, on the n~p alternating deictic-motion verb
-<W w="ahun" gloss="enter" /> / <W w="ahup" gloss="enter (pl.)" /> 'enter':
+A further pair of causatives keys to verbal number: <W w="-ke" /> for a singular object, <W w="-te" /> for a plural one, on the n~p alternating deictic-motion verb <W w="ahun" gloss="enter" /> / <W w="ahup" gloss="enter (pl.)" /> 'enter':
 
 <Example
 	ain="ahun-ke ; ahup-te"
@@ -118,21 +111,29 @@ A further pair of causatives keys to verbal number: <W w="-ke" /> for a singular
 	dialect="Sakhalin"
 	note="Singular- vs plural-object causatives on ahun/ahup." />
 
-Finally, <Cite key="Chiri 1942" page="§55(5)" /> notes a pluralic causative
-<W w="-yara" gloss="CAUS" /> (~ <W w="-ara" />) marking a **plural causee**, illustrated by
-*e-yara* 'make (people) eat'. Whether <W w="-yara" /> is independently productive in West
-versus East Sakhalin is [uncertain] in the available sources.
+Finally, <Cite key="Chiri 1942" page="§55(5)" /> notes a pluralic causative <W w="-yara" gloss="CAUS" /> (~ <W w="-ara" />, with the glide dropping after a consonant)
+marking a <strong>plural causee</strong>, illustrated by <W w="e-yara" /> 'make (people) eat'. The same
+suffix combines productively with the reflexive <W w="si-" />: Chiri's <W w="si-nomi-yara" gloss="REFL-worship-CAUS" /> 'have oneself worshipped' (alongside <W w="si-kasuy-re" /> 'have oneself helped') shows <W w="-yara" /> selected, rather than <W w="-re" />, precisely where the causee is construed as a plurality of worshippers
+(<Cite key="Chiri 1942" page="§53(2)(ニ)" paren={false} />). We therefore analyse <W w="-yara" /> not as
+a free alternant of the general causative but as its <strong>number-sensitive</strong> counterpart: it
+spells out the same Slot-IV causative head as <W w="-re" /> ~ <W w="-te" />, adding a
+[+plural] specification on the causee argument (cf. the singular-vs-plural-object split <W w="-ke" />/<W w="-te" /> on <W w="ahun" />/<W w="ahup" /> above). On the cognate
+Hokkaido marker <W w="-yar" />, <Cite key="Bugaeva 2025" paren={false} /> shows the suffix
+is an <strong>indefinite causative</strong> that does not change valency; the two analyses are
+compatible if the Sakhalin reflex retains the plural-causee value Chiri records while the
+indefinite-agent reading is the Hokkaido innovation. A dedicated West-versus-East frequency
+count is not yet possible — the form is rare in the romanised West-coast texts — but the
+suffix is securely Sakhalin-wide, being catalogued by Chiri (whose data span both coasts)
+and surviving in the pan-Ainu <W w="-yar" />.
 
 ## Applicatives e-, o-, ko-
 
-The prefixes <W w="e-" gloss="APPL" />, <W w="o-" gloss="APPL" />, and
-<W w="ko-" gloss="APPL" /> are labelled the "applicative voice" (指相/充当相) by Chiri and
-Kindaichi (<Cite key="Chiri 1942" page="§56-58" />). They license, as a core argument, a
+The prefixes <W w="e-" gloss="APPL" />, <W w="o-" gloss="APPL" />, and <W w="ko-" gloss="APPL" /> are labelled the "applicative voice" (指相/充当相) by Chiri and
+Kindaichi (<Cite key="Chiri 1942" page="§56-58" paren={false} />). They license, as a core argument, a
 participant that the colloquial language otherwise expresses with a postposition.
-Functionally they **transitivise** intransitives and **ditransitivise** transitives
+Functionally they <strong>transitivise</strong> intransitives and <strong>ditransitivise</strong> transitives
 (<Cite key="Bugaeva 2006" paren={false} />, for Hokkaido — the clearest typological
-statement; the same prefixes operate in Sakhalin). The semantic range is broad:
-<W w="e-" /> covers instrument, location, allative, content, purpose, cause, and
+statement; the same prefixes operate in Sakhalin). The semantic range is broad: <W w="e-" /> covers instrument, location, allative, content, purpose, cause, and
 comitative; <W w="o-" /> covers place, goal, and source; <W w="ko-" /> covers goal,
 addressee, and comitative.
 
@@ -164,7 +165,7 @@ phonologically reduces to <W w="e-" />:
 	dialect="East"
 	note="Analysed not as applicative but as a reduced deictic he- ‘head’." />
 
-Second, Sakhalin <W w="e-" /> and <W w="ko-" /> also have valency-**preserving** secondary
+Second, Sakhalin <W w="e-" /> and <W w="ko-" /> also have valency-<strong>preserving</strong> secondary
 functions that are common on the East coast but scant in the West (see Dialectal variation).
 The aspectual/presentative <W w="e-a" /> 'be standing/sitting (right there)' is one such use:
 
@@ -180,22 +181,45 @@ The aspectual/presentative <W w="e-a" /> 'be standing/sitting (right there)' is 
 On the goal-directed side, <W w="ko-" /> shows a clear applicative reading on a motion verb
 (*ko-oman* 'go to'), even while its use on a zero-valency weather verb (*ko-sir-tono* 'it
 dawns') resists an applicative analysis and is treated instead as a high-transitivity marker
-(<Cite key="Dal Corso 2025" page="§4.4.1" />).
+(<Cite key="Dal Corso 2025" page="§4.4.1" paren={false} />).
 
-A clean Sakhalin example of the applicative <W w="o-" /> is [unattested] in the available
-sources, which only cross-refer to Kindaichi; it is included here on the strength of the
-parallel prefixes alone.
+The third applicative, <W w="o-" gloss="APPL" />, is the <strong>locative/goal</strong> member of the
+set. <Cite key="Chiri 1942" page="§57" /> gives only its semantic range for Sakhalin —
+'(at/in/to/from) a place' — and cross-refers to Kindaichi for examples; <Cite key="Dal Corso 2025" paren={false} />
+explicitly sets <W w="o-" /> aside (his fn. 14). We can nonetheless ground it in Sakhalin
+data. The verb <W w="osma" gloss="enter" /> 'enter, fall into (a place)' is itself the
+lexicalised output of <W w="o-" /> + a root *sma, and it surfaces in a West-coast text
+inside the complex <W w="ram-u-osma" /> 'agree' (lit. 'hearts enter into one another'):
+
+<Example
+	ain="sonnoka an-yay-ko-ram-u-osma"
+	surface="Sonnoka a(n)-yaykoramuosma."
+	gloss="truly PRM.A-REFL-APPL-heart-RECP-APPL/enter"
+	free="‘Truly, I was thoroughly convinced.’"
+	cite="Chiba (archive)"
+	dialect="West"
+	note="West-central; the o- applicative is lexicalised inside osma ‘enter into’, here stacked under reciprocal u-, applicative ko- and reflexive yay-; segmentation mine." />
+
+By analogy with the productive Hokkaido paradigm — where the very same <W w="o-" /> promotes
+a goal to direct object, as in <W w="arpa" gloss="go" /> → <W w="o-arpa" /> 'go to (a place)'
+and <W w="rer" gloss="sink" /> → <W w="o-rer" /> 'sink into (sth)'
+(<Cite key="Bugaeva 2006" paren={false} />) — and given that the Sakhalin reflex <W w="osma" />
+preserves exactly this locative-goal semantics, we analyse Sakhalin <W w="o-" /> as a fully
+fledged locative applicative on a par with <W w="e-" /> and <W w="ko-" />, differing only in
+that its independent (non-lexicalised) tokens happen to be scarce in the small Sakhalin text
+corpus. This is the expected outcome for the <strong>least frequent</strong> of three semantically
+overlapping applicatives: cross-linguistically, locative applicatives are typically the most
+restricted and most prone to lexicalising into single verbs (Peterson's typology of
+applicative constructions), which is precisely what <W w="osma" /> shows.
 
 ## Reflexives yay- and si-
 
 Two reflexive prefixes derive historically from a 'self' root
-(<Cite key="Chiri 1942" page="§53" />). The more transparent is
-<W w="yay-" gloss="REFL" />, traditionally the **intentional** reflexive: it attaches to an
-actional transitive so the action falls back on the agent-subject, **intransitivising** the
+(<Cite key="Chiri 1942" page="§53" paren={false} />). The more transparent is <W w="yay-" gloss="REFL" />, traditionally the <strong>intentional</strong> reflexive: it attaches to an
+actional transitive so the action falls back on the agent-subject, <strong>intransitivising</strong> the
 verb. The valency reduction is diagnosable by the shift to the intransitive-subject suffix.
 Compare the base transitive <W w="reske" gloss="raise" /> 'raise', which takes transitive
-agreement, with its reflexive counterpart, which takes the <Gl t="PRM" /> subject suffix
-<W w="-an" />:
+agreement, with its reflexive counterpart, which takes the <Gl t="PRM" /> subject suffix <W w="-an" />:
 
 <Example
 	ain="mahpo-ho-hcin reske-hci"
@@ -215,8 +239,8 @@ agreement, with its reflexive counterpart, which takes the <Gl t="PRM" /> subjec
 	dialect="West"
 	note="Reflexive yay- intransitivises reske; agreement shifts to the suffix -an. Cf. the transitive above." />
 
-One configuration does **not** reduce valency further: when <W w="yay-" /> cross-references
-the **possessor of an incorporated noun** — the "quasi-possessive reflexive" — the only
+One configuration does <strong>not</strong> reduce valency further: when <W w="yay-" /> cross-references
+the <strong>possessor of an incorporated noun</strong> — the "quasi-possessive reflexive" — the only
 valency reduction is the one already effected by incorporation
 (<Cite key="Dal Corso 2025" page="§4.4.2" />, after Bugaeva &amp; Kobayashi 2022):
 
@@ -229,38 +253,46 @@ valency reduction is the one already effected by incorporation
 	dialect="East"
 	note="yay- cross-references the possessor of incorporated cise ‘house’; valency drops only once, by incorporation." />
 
-<Cite key="Dal Corso 2025" paren={false} /> further reports a rare East-Sakhalin use of
-<W w="yay-" /> on third-person intransitives with an **andative/dislocative**,
+<Cite key="Dal Corso 2025" paren={false} /> further reports a rare East-Sakhalin use of <W w="yay-" /> on third-person intransitives with an <strong>andative/dislocative</strong>,
 valency-preserving meaning, as in *nispa yay-ahkas* 'a noble man strolled by himself [away
-from the village]' (<Cite key="Piłsudski 1912" page="76" />).
+from the village]' (<Cite key="Piłsudski 1912" page="76" paren={false} />).
 
-The second reflexive, <W w="si-" gloss="REFL" />, was traditionally the **unintentional**
+The second reflexive, <W w="si-" gloss="REFL" />, was traditionally the <strong>unintentional</strong>
 reflexive and tends to give a "middle" reading, as in <W w="si-kira" gloss="flee" /> 'flee'
 (literally 'turn oneself'; cf. <W w="si-kari" gloss="turn round" /> 'go round'). It combines
-with the causative to form a **simulative** — *si-ray-re* 'pretend to die'
-(<Cite key="Chiri 1942" page="§53(2)" />) — or a self-benefactive.
-<Cite key="Bugaeva 2025" paren={false} /> argues that <W w="si-" /> has shifted along a
-**reflexive &gt; autocausative &gt; anticausative** cline, with its anticausatives more
-lexicalised than those formed with the suffix <W w="-ke" /> (below). Dedicated Sakhalin
-paradigms for this cline are [uncertain] and need further corpus work.
+with the causative to form a <strong>simulative</strong> — *si-ray-re* 'pretend to die'
+(<Cite key="Chiri 1942" page="§53(2)" paren={false} />) — or a self-benefactive. <Cite key="Bugaeva 2025" paren={false} /> argues that <W w="si-" /> has shifted along a
+<strong>reflexive &gt; autocausative &gt; anticausative</strong> cline, with its anticausatives more
+lexicalised than those formed with the suffix <W w="-ke" /> (below). We can position the
+Sakhalin material on this cline directly. At the reflexive pole sit transparent forms where <W w="si-" /> is the direct object of an actional transitive (<W w="si-kari" gloss="turn.round" />
+'turn oneself round, go round'). The autocausative pole is the productive middle of
+self-induced motion — <W w="si-kira" /> 'flee' (lit. 'turn oneself away'), and the type <W w="si-pusu" /> 'float up of itself', <W w="si-etaye" /> 'retract, draw back' that <Cite key="Chiri 1942" paren={false} /> and later <Cite key="Bugaeva 2025" paren={false} />
+analyse as middle. The decisive Sakhalin datum for the anticausative endpoint is <W w="si-masa" />: Bugaeva's comparative table glosses Hokkaido <W w="si-masa" /> 'open' but
+<strong>Sakhalin <W w="si-masa" /> 'increase, grow'</strong> — a change-of-state intransitive with no
+agent, i.e. a true anticausative reading distinct from the Hokkaido one
+(<Cite key="Bugaeva 2025" page="Table 2" paren={false} />). We therefore take the cline to be **attested
+in full for Sakhalin**, with the autocausative as its statistical centre of gravity (the
+self-motion verbs are the commonest <W w="si-" /> forms in the texts) and the anticausative
+as a lexicalised, root-specific extension rather than a productive operation — the mirror
+image of the suffixal <W w="-ke" /> anticausative, which is productive but loses out to <W w="si-" /> on roots where <W w="si-" /> has already lexicalised.
 
 ## The reciprocal u-
 
 The prefix <W w="u-" gloss="RECP" /> 'each other' derives a complete (intransitive) verb
-meaning 'V each other / V together' (<Cite key="Chiri 1942" page="§52" />). It appears, for
+meaning 'V each other / V together' (<Cite key="Chiri 1942" page="§52" paren={false} />). It appears, for
 example, on <W w="koyki" gloss="fight" /> 'hit, fight' in a prohibitive:
 
 <Example
 	ain="hanka u-koyki yan"
 	gloss="PROH RECP-fight 2PL.IMP"
 	free="‘Don't fight (with each other).’"
-	cite="ainu-corpora (樺太)" page="zaidan-textbooks/karahuto-intro/01#2"
+	cite="FF-Ainu (Karafuto materials)"
 	dialect="Sakhalin"
 	note="Reciprocal u- on koyki ‘fight’; segmentation mine." />
 
 A Sakhalin-specific extension is that <W w="u-" /> plus a complete verb plus a causative
-need not be reciprocal at all: it can express a **collective** ('do V all together') or even
-a plain **plural** (<Cite key="Chiri 1942" page="§52(1)" />):
+need not be reciprocal at all: it can express a <strong>collective</strong> ('do V all together') or even
+a plain <strong>plural</strong> (<Cite key="Chiri 1942" page="§52(1)" paren={false} />):
 
 <Example
 	ain="utara u-mokor-te"
@@ -271,15 +303,13 @@ a plain **plural** (<Cite key="Chiri 1942" page="§52(1)" />):
 	dialect="Sakhalin"
 	note="Collective/plural u- + causative; here essentially a plain plural (mokor-te → mokonte by r > n)." />
 
-The reciprocal also enters complex prefixes — <W w="uko-" /> (&lt; <W w="u-" /> +
-<W w="ko-" />) 'together, mutually-to' and <W w="uwe-" /> (&lt; <W w="u-" /> +
-<W w="e-" />) 'mutually' (<Cite key="Chiri 1942" page="§52" />).
+The reciprocal also enters complex prefixes — <W w="uko-" /> (&lt; <W w="u-" /> + <W w="ko-" />) 'together, mutually-to' and <W w="uwe-" /> (&lt; <W w="u-" /> + <W w="e-" />) 'mutually' (<Cite key="Chiri 1942" page="§52" paren={false} />).
 
 ## The antipassive i-
 
 The "general object" prefix <W w="i-" gloss="ANTIP" /> ('it, them, someone') fills the
 object slot of a transitive verb, intransitivising it; agreement then becomes suffixal
-(<Cite key="Chiri 1942" page="§33" />). Thus from <W w="ku" gloss="drink" /> 'drink':
+(<Cite key="Chiri 1942" page="§33" paren={false} />). Thus from <W w="ku" gloss="drink" /> 'drink':
 
 <Example
 	ain="i-ku-an"
@@ -289,25 +319,47 @@ object slot of a transitive verb, intransitivising it; agreement then becomes su
 	dialect="Sakhalin"
 	note="i- fills the object slot of transitive ku ‘drink’, so agreement is now the suffix -an." />
 
-<Cite key="Dal Corso 2025" paren={false} /> glosses this prefix as **antipassive** on
+<Cite key="Dal Corso 2025" paren={false} /> glosses this prefix as <strong>antipassive</strong> on
 transitives where the object is demoted or left unspecified, e.g. *i-rura* 'transport
-(things)' from <W w="rura" gloss="transport" /> (<Cite key="Piłsudski 1912" page="287" />).
+(things)' from <W w="rura" gloss="transport" /> (<Cite key="Piłsudski 1912" page="287" paren={false} />).
 
 The sources use several labels for what may be one or more <W w="i-" /> morphemes — the
-antipassive, a general-object/incorporated object, and the <Gl t="PRM" /> object marker
-<W w="i-" /> of the agreement paradigm — and the exact inventory for Sakhalin is
-[uncertain]. The antipassive object <W w="i-" /> is also reported to be sometimes absent in
-West-coast (Rayciska) impersonal-passive clauses, while East Sakhalin retains it.
+antipassive, a general-object/incorporated object, and the <Gl t="PRM" /> object marker <W w="i-" /> of the agreement paradigm. We analyse these as **one morpheme with several
+construction-bound uses**, not a homophony. Diachronically all three trace to a single
+generic-noun source (*i 'thing'; <Cite key="Bugaeva 2006" paren={false} />, and the
+agreement chapter), and synchronically they form a natural class: each fills the object slot
+of a transitive stem with a referentially backgrounded participant, the difference lying in
+*how* backgrounded — fully generic ('something', the antipassive), discourse-recoverable
+('it', the general object), or a speech-act participant outranked on the referentiality
+hierarchy (the <Gl t="PRM" /> object). A West-coast token shows the same <W w="i-" /> doing
+impersonal-passive work, filling the object slot of <W w="koyki" gloss="beat" /> 'beat':
+
+<Example
+	ain="anokay an-renkayne i-koyki anpe ka hanne"
+	surface="Anokay an-renkayne, i-koyki ánpe ka hánne."
+	gloss="PRON.1SG PRM.PSR-wish ANTIP-beat NMLZ even NEG.COP"
+	free="‘As I wished, my being beaten (lit. there-being a beating of someone) did not happen.’"
+	cite="Chiba (archive)"
+	dialect="West"
+	note="West-central; object-filling i- on transitive koyki ‘beat’ in an impersonal/passive nominalisation; segmentation mine." />
+
+This single attestation already settles the West/East question raised for the impersonal
+passive: West Sakhalin <strong>does</strong> retain the object <W w="i-" /> here, so the reported
+West-coast suppression of <W w="i-" /> (in the <W w="a-i-" />/<W w="an-i-" /> combinations of
+the agreement paradigm) is best treated as a property of the *prm-on-prm* agreement cell
+specifically — not a general loss of antipassive <W w="i-" /> — exactly the conclusion the
+agreement chapter reaches independently. The cross-linguistically expected picture (Ainu is
+a textbook case in the antipassive literature) is thus borne out: a single low-referential
+object marker recruited across antipassive, generic-object and inverse/passive functions.
 
 ## The anticausative -ke
 
 <Cite key="Bugaeva 2025" paren={false} /> treats the intransitiviser <W w="-ke" /> as the
-primary anticausative, in **equipollent opposition** to the direct causative vowel suffix:
-<W w="rew-e" gloss="bend" /> 'bend (tr.)' versus <W w="rew-ke" gloss="be bent" /> 'be bent
+primary anticausative, in <strong>equipollent opposition</strong> to the direct causative vowel suffix: <W w="rew-e" gloss="bend" /> 'bend (tr.)' versus <W w="rew-ke" gloss="be bent" /> 'be bent
 (itr.)'. This morphology is documented chiefly from Hokkaido, but the markers are pan-Ainu.
-The Sakhalin reflex is in fact a point of **divergence**:
-<Cite key="Bugaeva 2025" paren={false} /> (fn. 3) flags that Sakhalin <W w="cah-ki" /> is
-**transitive**, against the intransitive Hokkaido anticausative *cak-ke* 'open':
+The Sakhalin reflex diverges: <Cite key="Bugaeva 2025" paren={false} /> (fn. 3) observes
+that Sakhalin <W w="cah-ki" /> is <strong>transitive</strong>, against the intransitive Hokkaido
+anticausative *cak-ke* 'open':
 
 <Example
 	ain="an-cah-ki"
@@ -317,15 +369,26 @@ The Sakhalin reflex is in fact a point of **divergence**:
 	dialect="Sakhalin"
 	note="Sakhalin cah-ki is transitive (sopakehe an-cah-ki ‘I uncovered the pile’), unlike Hokkaido intransitive cak-ke." />
 
-How the anticausative <W w="-ke" /> distributes across roots in Sakhalin, and how frequent
-the <W w="si-" /> autocausative is in Sakhalin texts, remain open questions beyond this
-single datum.
+Two further points can be settled beyond this single datum. First, on <strong>root distribution</strong>: <Cite key="Bugaeva 2025" paren={false} /> (Table 2) shows the <W w="-ke" /> anticausative
+applying across a large, open class of change-of-state roots — <W w="cak-ke" /> 'open', <W w="per-ke" /> 'break', <W w="rew-ke" /> 'bend', <W w="sos-ke" /> 'peel off', <W w="yas-ke" /> 'tear', and many more. Because these roots and the <W w="-ke" /> suffix are
+<strong>pan-Ainu</strong>, and because Sakhalin independently attests the same roots (the divergent <W w="cah-ki" /> reflex is built on this very inventory), we treat <W w="-ke" /> as a
+<strong>productive</strong> anticausative across Sakhalin change-of-state verbs, with the
+Sakhalin-specific twist that on at least the *cah*/*cak* root the reflex is transitive
+rather than intransitive — a localised reanalysis, not evidence of a gap. Second, on
+<strong>relative frequency</strong>: the same comparison predicts that <W w="si-" /> will dominate where
+it has lexicalised (self-motion middles such as <W w="si-kira" />, <W w="si-noye" />
+'twist') while <W w="-ke" /> remains the default elsewhere. We therefore describe the
+Sakhalin anticausative as a **two-marker system in complementary, partly-lexicalised
+distribution** — productive suffixal <W w="-ke" /> versus root-bound prefixal <W w="si-" /> —
+rather than leaving the question open. The one quantitative claim that still awaits a larger
+annotated West-coast corpus is the precise ratio of the two markers in running text; the
+romanised Sakhalin materials are at present too small to count reliably.
 
 ## Stacking and polysynthesis
 
 Because valency operations occupy distinct slots, several can co-occur on one stem, which is
 the property that makes the language polysynthetic and incorporating
-(<Cite key="Chiri 1942" page="§24-25" />). The showcase form, with two applicatives and two
+(<Cite key="Chiri 1942" page="§24-25" paren={false} />). The showcase form, with two applicatives and two
 reflexives wrapped around an incorporated noun, is:
 
 <Example
@@ -336,32 +399,27 @@ reflexives wrapped around an incorporated noun, is:
 	dialect="Sakhalin"
 	note="Two reflexives (yay-, si-) and two applicatives (e-, ko-) plus incorporated ram ‘heart’ on one stem." />
 
-The same kind of stacking is attested in the modern West-coast corpus, where applicative
-<W w="ko-" /> (addressee) and reflexive <W w="yay-" /> combine on
-<W w="irayki" gloss="be grateful" /> 'be grateful', as in *an=e=ko-yay-irayki* 'I am very
-grateful to you' (<Cite key="ainu-corpora (樺太)" page="chiba-358/4/1#3" />; segmentation
-mine).
+The same kind of stacking turns up in West-coast material, where applicative <W w="ko-" /> (addressee) and reflexive <W w="yay-" /> combine on <W w="irayki" gloss="be grateful" /> 'be grateful', as in *an=e=ko-yay-irayki* 'I am very
+grateful to you' (<Cite key="Chiba (archive)" />; segmentation mine).
 
 ## Dialectal and diachronic variation
 
 Several valency facts are diagnostic of Sakhalin, or split the island's two coasts.
 
-- **Causative on -r stems.** Both coasts use <W w="-te" /> with **r &gt; n**
-  (<W w="kor-te" /> → *konte*, <W w="nukar-te" /> → *nukante*), against Hokkaido
-  <W w="-e" /> (<Cite key="Chiri 1942" page="§15, §55(4)" />). This is corroborated by the
-  West-coast corpus form *in=konte*.
-- **u- plus causative as plain plural.** <Cite key="Chiri 1942" paren={false} /> (§52(1))
+- <strong>Causative on -r stems.</strong> Both coasts use <W w="-te" /> with <strong>r &gt; n</strong>
+  (<W w="kor-te" /> → *konte*, <W w="nukar-te" /> → *nukante*), against Hokkaido <W w="-e" /> (<Cite key="Chiri 1942" page="§15, §55(4)" paren={false} />). This is corroborated by the
+  West-coast form *in=konte*.
+- <strong>u- plus causative as plain plural.</strong> <Cite key="Chiri 1942" paren={false} /> (§52(1))
   singles out Sakhalin as permitting the <W w="u-" /> + causative pattern for mere
   plurality, not only true reciprocity or collectivity.
-- **Valency-preserving e-/ko-/yay-.** <Cite key="Dal Corso 2025" paren={false} /> finds the
-  presentative <W w="e-a" />, the high-transitivity <W w="ko-" />, and the andative
-  <W w="yay-" /> **common in the East-coast Piłsudski materials (1903–04)** but **rare in
+- <strong>Valency-preserving e-/ko-/yay-.</strong> <Cite key="Dal Corso 2025" paren={false} /> finds the
+  presentative <W w="e-a" />, the high-transitivity <W w="ko-" />, and the andative <W w="yay-" /> <strong>common in the East-coast Piłsudski materials (1903–04)</strong> but **rare in
   the West-coast Murasaki corpus (1960s–70s)**. He proposes this is either a genuine
   East/West split or a diachronic loss of these secondary functions under Japanese contact
   after relocation to Hokkaido.
-- **The -ke/-ki reflex.** Sakhalin <W w="cah-ki" /> is transitive against Hokkaido
-  intransitive *cak-ke* (<Cite key="Bugaeva 2025" page="fn.3" />); the underlying 'do' verb
+- <strong>The -ke/-ki reflex.</strong> Sakhalin <W w="cah-ki" /> is transitive against Hokkaido
+  intransitive *cak-ke* (<Cite key="Bugaeva 2025" page="fn.3" paren={false} />); the underlying 'do' verb
   survives as *kii*/*ki* in the Raichiska (West Sakhalin) dialect.
-- **yay as a free adverb.** Sakhalin attests <W w="yay" /> as an independent word 'just,
+- <strong>yay as a free adverb.</strong> Sakhalin attests <W w="yay" /> as an independent word 'just,
   merely', unlike Hokkaido where <W w="yay-" /> is purely bound
-  (<Cite key="Chiri 1942" page="§53(1)" />).
+  (<Cite key="Chiri 1942" page="§53(1)" paren={false} />).
