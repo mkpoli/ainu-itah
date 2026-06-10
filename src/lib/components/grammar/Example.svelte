@@ -78,12 +78,15 @@
 				<div class="flex flex-wrap gap-x-4 gap-y-1.5">
 					{#each words as w}
 						<div class="flex flex-col leading-tight">
-							<a
-								href={`/?q=${encodeURIComponent(w.ain.replace(/[-=]/g, ''))}`}
-								lang="ain-Latn"
-								class="ain-line font-medium text-inherit underline-offset-2 hover:text-blue-600 hover:underline"
-								title="Look up in the dictionary">{w.ain}</a
-							>
+							<span lang="ain-Latn" class="ain-line font-medium">
+								{#each pieces(w.ain) as p}{#if p.sep}<span class="text-gray-400"
+											>{p.text}</span
+										>{:else}<a
+											href={`/?q=${encodeURIComponent(p.text)}`}
+											class="text-inherit underline-offset-2 hover:text-blue-600 hover:underline"
+											title={`Look up ${p.text} in the dictionary`}>{p.text}</a
+										>{/if}{/each}
+							</span>
 							<span class="gloss-line text-sm text-gray-700">
 								{#each pieces(w.gloss) as p}{#if p.sep}<span class="text-gray-400"
 											>{p.text}</span
