@@ -49,13 +49,13 @@
 		note="The overt 1SG prefix ku= on the copula, in an identificational clause naming the referent."
 	/>
 	<Ex
-		m="ku'ani neyke siisam mahtekuh ku=nee"
+		m="kuani neyke siisam mahtekuh ku=nee"
 		g="1SG TOP Wajin woman 1SG=COP"
 		tr="I am a Wajin woman."
 		lit="as for me, I am a Wajin woman"
 		cite="murasaki2025:lesson 3"
 		dial="WS"
-		note="The same speaker has just identified herself by name (ku'ani neyke Kiyoko ku=nee ‘I am Kiyoko’); here the predicate nominal siisam mahtekuh assigns her to a class. neyke is the conditional-based topic ‘as for’ (Chapter 23)."
+		note="The same speaker has just identified herself by name (kuani neyke Kiyoko ku=nee ‘I am Kiyoko’); here the predicate nominal siisam mahtekuh assigns her to a class. neyke is the conditional-based topic ‘as for’ (Chapter 23)."
 	/>
 	<p>
 		The predicate nominal may itself be a noun phrase of any internal complexity,
