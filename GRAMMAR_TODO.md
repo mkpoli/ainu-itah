@@ -165,8 +165,14 @@ self-contained fixes have already been applied.
   OPEN: `Jasinoske ~ Yasinoske` (narrator name), `Nairo ~ Nayro`, and **`Taraytomari`** — do NOT
   assume it is a typo of `Tarantomari` (west); it is paired with Nayro (northeast) in numerals
   and may be a distinct Taraika-area place. Verify before unifying.
-- [ ] **plural `=hci` notation** — `=hci` vs `-hci` vs `=ahci` vs `-ahci` across chapters;
-  settle clitic-vs-suffix notation to match the prose ("plural clitic =hci").
+- [ ] **plural `=hci` notation** — AUTHOR AUDIT (clarified; do NOT blind-sweep). The grammar already
+  draws a principled split, not a single inconsistent marker: the VERBAL plural clitic is `-hci` /
+  `-ahci` (hyphen, no -n; ~185 tokens, and §8.4's prose + section title call it "the plural clitic
+  -hci"), while the NOMINAL plural is `=hcin` / `=ahcin` (equals **+n**; number §8.4, e.g.
+  `seta-ha=hcin`). The dominant verbal convention `-hci` is settled. The 23 stray `=hci` / `=ahci`
+  tokens (equals but NO -n) are neither shape — these are the items to audit: each is either a
+  verbal `-hci` mis-set with `=`, or a nominal `=hcin` missing its `-n`. Needs the author's eye per
+  token; a global replace would conflate the two morphemes.
 - [~] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2 —
   PARTIALLY RESOLVED: unified `maskin` (negation "overly" → "too.much" to match TAM). The
   remaining differences — `kun` (going.to vs COND) and `kusu` (PURP vs because) — are NOT trivial
