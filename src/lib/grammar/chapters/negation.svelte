@@ -253,7 +253,7 @@
 	</p>
 	<Ex
 		m="anihi humpecehpo hannehka"
-		g="self puffer.fish NEG.COP"
+		g="3SG puffer.fish NEG.COP"
 		tr="He himself is not a puffer-fish."
 		cite="murasaki2001:198; dalcorso2025neg:49"
 		dial="WS"
