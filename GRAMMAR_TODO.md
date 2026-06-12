@@ -17,19 +17,23 @@ self-contained fixes have already been applied.
   Confirm whether that token is plain negation (fine) or a distinct bare-`ham` caritive.
 
 ## Source-form checks
-- [ ] **morphophonology / nouns-and-possession** — monosyllabic `-he`: §71 vs §72 of Chiri
-  1942 appear to disagree on whether `kuu`→`kuu-he` (retained) or `ku-he` (shortened). Now
-  presented as a variable rule with the attested `reehe` as the unshortened case; verify
-  which Chiri section says what.
+- [x] **morphophonology / nouns-and-possession** — monosyllabic `-he` — RESOLVED (Chiri 1942
+  OCR): no §71/§72 disagreement. §71 (l.1032) only lists the formation-ending inventory; §72
+  (l.1037) gives the formation. §72(は) attests monosyllabic `kuu` 弓 → `kuuhe`, `suu` → `suuhe`,
+  `tūhe` — long vowel RETAINED. §72(ろ) attests `ree` 名 → `reehe`, `kaa` → `kaaha`, `cee` →
+  `ceehe`. Chiri shows NO shortening to `ku-he`. The grammar's variable-rule framing with
+  `reehe` as the attested unshortened anchor is consistent with §72. No change.
 - [x] **verb-structure** `tampe huci ku-kore` (Chiri §68) — RESOLVED (Chiri 1942 OCR, l.1019):
   Chiri quotes Kindaichi's 摘要 p.51 with the genuine form `tampe huči ku-kore na`, and uses
   `kore` in his own example too (`tun eči-ne ǔa a-eči-kore`). The chapter already does the right
   thing — presents Sakhalin `ku-konte` as primary and explicitly flags `ku-kore` as Chiri's
   cited pan-Ainu shape (verb-structure.svelte l.203–204). Changing it to `ku-konte` would
   misquote the source; the flag is correct. No change.
-- [ ] **verb-structure** — `ne` called "the single underived verb that takes a complement
-  rather than an object" (Chiri §§27, 32). Verify whether `ye` 'say' / `ramu` 'think' also
-  qualify; if so, soften "single".
+- [x] **verb-structure** — `ne` "single underived verb that takes a complement" — VERIFIED
+  CORRECT (Chiri 1942 §32 OCR l.464): "(1)補語を要求するもの…(1)は単純用詞としては ne「である」
+  「になる」の一語を有するのみである" — Chiri says the complement-requiring (補語) class has
+  exactly ONE simple/underived (単純) member, `ne`. `ye`/`ramu` are transitives taking objects
+  (目的語), a different class. "Single" is Chiri's own wording. No change.
 - [ ] **verb-structure** — reconcile the singular 'come' forms: West `eh (ek-)` vs East
   `eki ~ iki` are both given without relating them.
 - [x] **phonology** — coda `*t` after `i` → `s` is ATTESTED (Hattori 1964, entry 86 'elbow'):
