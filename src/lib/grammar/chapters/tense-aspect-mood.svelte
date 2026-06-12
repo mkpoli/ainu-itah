@@ -381,7 +381,7 @@
 	</p>
 	<Ex
 		m="uma ihoku ciki nuca kotan oman kusu ne manuy"
-		g="horse buy if Russian village go.SG PURP COP REP"
+		g="horse sell if Russian village go.SG PURP COP REP"
 		tr="If he sells the horses, he will go to the Russian village, they say."
 		cite="tangiku2001:Letter 1"
 		dial="ES"
