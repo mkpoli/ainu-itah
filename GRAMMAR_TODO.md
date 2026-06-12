@@ -159,9 +159,11 @@ self-contained fixes have already been applied.
   Chiri explicitly lists the prefixal roots that form intransitives — "he-「顔」 ho-「尻」 si-「自身」
   u-「互」" — and gives "pen 上。pen-u 上げる。" So the segmentation is genuinely `he-` ('face') +
   `pen-u` ('raise'), NOT a corruption of `hepuni`. Fable/Opus suspicion refuted. No change.
-- [ ] **UNCERTAIN, verify against sources** — `mat kayki` vs expected `mah` (person Ex 7).
-  OCR search of Chiri 1942 and Piłsudski 1912 for `mat kayki`/`mah` returned no hit; needs a
-  source not available locally, or a dialectological decision (defer).
+- [x] **`mat kayki` → `mah kayki`** (person Ex 7) — FIXED. Piłsudski 1912 (p.23, the cited source)
+  writes "**max** kajki anekonddsi kusu" — his `x` = /h/, so the form is `mah`. By the grammar's
+  own Piłsudski retranscription rule (`x` → `h`), the Sakhalin coda rule (`*t` → `h`), AND the
+  parallel Asai Take corpus token (`horokewpo 'utah mah kayki sakahci`, aa-asai/008), the Sakhalin
+  surface form is `mah`. The `mat` was an errant Hokkaidō underlying shape. Corrected to `mah`.
 
 ## From Sonnet round (deferred / verified)
 - [x] **`pasuy` 'chopsticks'** — CHECKED, CORRECT as-is. Sonnet flagged it as 'prayer stick',

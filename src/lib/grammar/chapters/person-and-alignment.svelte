@@ -212,7 +212,7 @@
 		place="West coast, central (recorded 1867–1872)"
 	/>
 	<Ex
-		m="kamuy oro-wa mat kayki an-e-kor-te-si kusu"
+		m="kamuy oro-wa mah kayki an-e-kor-te-si kusu"
 		g="god place-from wife even INDEF.A-2SG.O-have-CAUS-PL because"
 		tr="since you have been given even a wife by the gods"
 		note="Impersonal passive: an- indexes the backgrounded agent, the recipient ‘you’ is indexed by e-, and the demoted agent kamuy appears as an oblique."
