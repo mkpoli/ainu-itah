@@ -10,9 +10,14 @@ self-contained fixes have already been applied.
   Sakaguchi's analysis that `-(y)an` marks **2nd-person plurality, whatever its role**.
   Decide the glossing convention for the discontinuous `eci-…-yan` form (this sits on the
   disputed inverse-vs-Sakaguchi analysis); align gloss and prose.
-- [ ] **negation** — `hanna` in `hanna mawa-an-ike` is glossed `NEG` but described as an
-  apprehensive 'lest'. Consider the `ADM` (admonitive) atom, which already exists, if the
-  apprehensive analysis is firm.
+- [ ] **negation** — `hanna` in `hanna mawa-an-ike` is glossed `NEG` but described as apprehensive
+  'lest'. AUTHOR DECISION (sharpened): the functional case against `NEG` is strong — here `hanna`
+  does NOT negate the verb ('lest I starve' ≠ 'I do not starve'), it marks apprehensive modality,
+  so `NEG` is functionally misleading. Against relabeling: (a) it depends on how Dal Corso 2025:54–55
+  analyses `hanna` (etymologically `han` + `na`, a negator form), and (b) the existing atom is `ADM`
+  'admonitive', whereas the prose says 'apprehensive' — related but not the same category, so a new
+  `APPR` atom might be cleaner. Decide: keep `NEG` (gloss-the-form) + prose function, or introduce
+  an apprehensive gloss. Not auto-changed — convention call.
 - [x] **negation** — bare `ham ipe` in the caritive section — RESOLVED: the token is the plain
   negator `ham` (gloss `NEG`), not adverbialized `hamo`; the 'without eating' reading comes from
   the adverbial juxtaposition and the absent clause linker (the caritive's defining syntax). Added
@@ -50,9 +55,12 @@ self-contained fixes have already been applied.
 ## Factual inconsistencies needing a source check (from Fable-5 review)
 - [x] **Sentoku Tarōji birth year** — RESOLVED: reference materials give 1872–1929; texts'
   "1871" corrected to 1872 (orthography was already right).
-- [ ] **Sentoku place** — still open: "of Otasan" (texts §26.2, l.204) and all example tags
-  use Otasan, but l.207 says he "wrote three letters from Naybuci". Could both hold (origin
-  vs place of writing); confirm where the letters were written and make the tags consistent.
+- [x] **Sentoku place** — RESOLVED: both facts hold and the tags are already consistent with the
+  grammar's `place=` convention, which everywhere denotes the speaker's *dialectal home locality*
+  (cf. "Odasu (Asai Take)" regardless of where Murasaki recorded her), NOT the utterance's physical
+  location. So "Otasan (Sentoku Tarōji)" correctly tags Sentoku's east-coast home dialect, while
+  Naybuci — where he penned the 1906 letters — is the biographical writing-place, correctly stated
+  in the prose (l.207). No conflict; no change.
 - [x] **Dobrotvorsky appendix** — RESOLVED: texts §26.4 (which glosses the material) and
   dialects §2.2 both describe TWO pieces (Ciwokanke's speech + a dialogue); orthography's
   "three (a farewell address and two reconciliation dialogues)" was the outlier → corrected to
