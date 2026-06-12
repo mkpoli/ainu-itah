@@ -99,7 +99,13 @@ self-contained fixes have already been applied.
   Pick ONE convention across the chapter (entangled with the inverse-vs-Sakaguchi debate).
 - [ ] **`kun(i)` gloss** — 'going.to' (person-and-alignment, TAM) vs `COND` (complementation,
   negation, relative-clauses). Decide one label (prospective vs conditional-irrealis) or
-  distinguish two morphemes explicitly.
+  distinguish two morphemes explicitly. SHARPENED (Fable-5): the grammar looks like it already has
+  a TWO-morpheme split — `going.to` is used pervasively for the prospective `kun pe (ne)` 'is going
+  to' (evidentiality §16, person-and-alignment ×3, pronouns, TAM §15 "kun pe ne 'is going to'"),
+  while `COND` is the irrealis complementizer `kun(i)` that complementation §22.2 EXPLICITLY declares
+  ("kun(i), which we gloss COND"). If that two-morpheme analysis is intended, document it; the only
+  genuine clash is the shared maskin sentence `ham an-ki kun ki kusu`, glossed `going.to` in TAM
+  §15.4 but `COND` in negation §17.2 — decide which reading that one `kun ki` gets and align the two.
 - [x] **morphophonology `sistoh` 'elbow'** — VERIFIED CORRECT (Hattori 1964, entry 86 'ひじ'):
   general Sakhalin (樺太) is `sistoh, -kihi` → possessed `sistokihi`, exactly the grammar's form.
   Fable's claim that Hattori has `sittoh`/`sittokihi` is wrong; `síttok` is the Taraika/Hokkaidō
@@ -252,3 +258,24 @@ self-contained fixes have already been applied.
   parse (the `rep-` root is opaque to speakers). The contrast with productive `sine-p` 'one-NMLZ'
   in the same example is exactly the point — productive derivation is segmented, lexicalised nouns
   are glossed whole. No inconsistency; no change.
+
+## From Fable-5 round 4 (general content review — deferred analytical items)
+- [ ] **evidential "scaffolding" overgeneralised** (Fable-5) — nominalization §20.x and
+  complementation §22.x both state the evidential frame as *V*-POSS + copula `nee` + N-POSS + `an`
+  ("the lexical verb is nominalized with the possessive suffix and linked to the evidential noun by
+  the copula `nee` … closes with existential `an`"). But almost every evidential example in
+  evidentiality §16 has a plain FINITE scope clause with neither POSS nor `nee` — `re monimahpo an
+  ruwehe an`, `ahun sirihi an`, `cis hawehe-hcin an`, `utohseka ruhe-hcin an` — and §16's own
+  analysis treats the bare finite clause as the possessor. The `V`-POSS-`nee` variant
+  (`itah-no-ho nee sirihi an`) is ONE attested pattern, not the general shape. Reframe: present the
+  finite-clause + N-POSS `an` frame as basic and the copula-linked `V`-POSS variant as a subtype
+  (fix in both nominalization and complementation). Analytical — author call.
+- [ ] **possessive-suffix segmentation inconsistency** (Fable-5) — the consonant-stem possessive is
+  cut two ways across (and within) chapters: `an-mosiri-hi` (nouns-and-possession) vs `an=mosir-ihi`
+  (nominalization) for the SAME `murasaki1979:5` form (note also prefix `-` vs `=`); `tek-ihi`
+  (morphophonology) vs `teki-hi` (same chapter); `kam-ihi` vs `kami-hi` (TAM/relative-clauses);
+  `sir-ihi` vs `siri-hi` (nominalization vs evidentiality); and evidentiality glosses an unsegmented
+  m-line `ruwehe` with a hyphenated gloss `trace-POSS`. Since the grammar analyses the consonant-stem
+  suffix as `-VhV` (morphophonology §5), the `tek-ihi`/`sir-ihi` cuts are the analysis-consistent
+  ones. Settle ONE convention and sweep (like the `=hci` notation item) — do NOT blind-replace, since
+  vowel-stem `-he`/`-hi` and consonant-stem `-ihi` differ. Author convention call.
