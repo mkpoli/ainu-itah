@@ -413,7 +413,11 @@
 		Where sources disagree on a form, the example keeps the form of the text actually
 		cited, and the variation is discussed in prose (so Sentoku's <i lang="ain">okta</i>
 		stands beside Dobrotvorsky's <i lang="ain">ohta</i> in §3.1). We never normalise one
-		writer's dialect to another's. Plural verb morphology such as
+		writer's dialect to another's. Restoring a phoneme the writer left unwritten — Sentoku's
+		devoiced <i lang="ain">i</i> in <i lang="ain">cikin</i> — is recovery <em>within</em> his
+		own dialect, a different operation from rewriting one dialect's form as another's; the
+		first is phonemic restoration, the second is the normalisation we avoid. Plural verb
+		morphology such as
 		<i lang="ain">-(a)hci</i> in (7) is treated in <Xr ch="number">the number
 		chapter</Xr>, and the person clitics that the equals sign separates in
 		<Xr ch="person-and-alignment">person and alignment</Xr>.
