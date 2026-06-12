@@ -41,9 +41,10 @@ self-contained fixes have already been applied.
 - [ ] **Sentoku place** — still open: "of Otasan" (texts §26.2, l.204) and all example tags
   use Otasan, but l.207 says he "wrote three letters from Naybuci". Could both hold (origin
   vs place of writing); confirm where the letters were written and make the tags consistent.
-- [ ] **Dobrotvorsky appendix** — "two connected texts" (dialects §2.2, texts §26.4) vs
-  "three short connected pieces — a farewell address and two reconciliation dialogues"
-  (orthography §3.1.1). Verify the count.
+- [x] **Dobrotvorsky appendix** — RESOLVED: texts §26.4 (which glosses the material) and
+  dialects §2.2 both describe TWO pieces (Ciwokanke's speech + a dialogue); orthography's
+  "three (a farewell address and two reconciliation dialogues)" was the outlier → corrected to
+  two.
 - [~] **Asai Take corpus size/dates** — PARTLY CHECKED: the local corpus has exactly 54
   numbered texts (001–054), so "54 tales" is right and `murasaki2001:text 92` (numerals) is a
   bad citation (no text 92 exists). Still need the published edition to find that example's
