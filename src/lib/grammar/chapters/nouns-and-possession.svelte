@@ -60,7 +60,7 @@
 			<i lang="ain">ii/uu</i> take <i lang="ain">-(y/w)ehe</i>,
 			<A w="imii" gl="garment" /> ~ <i lang="ain">imi-yehe</i>
 			<Ref k="chiri1942" p="§72" />, <Ref k="bugaeva2022" p="ch. 9, §4.1" paren />, and
-			in the corpus <A w="etu" gl="beak" /> ~ <i lang="ain">etu-wehe</i> (example 4 of
+			in the corpus <A w="etu" gl="beak" /> ~ <i lang="ain">etu-wehe</i> (example 5 of
 			<Xr ch="word-classes">Chapter 6</Xr>); short <i lang="ain">-i</i>,
 			<i lang="ain">-u</i> and the glide codas are the domain of a Sakhalin
 			innovation, the generalized <i lang="ain">-he</i>, taken up in the next
