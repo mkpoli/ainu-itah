@@ -21,19 +21,24 @@ self-contained fixes have already been applied.
   1942 appear to disagree on whether `kuu`→`kuu-he` (retained) or `ku-he` (shortened). Now
   presented as a variable rule with the attested `reehe` as the unshortened case; verify
   which Chiri section says what.
-- [ ] **verb-structure** — the ditransitive example cites Chiri §68 `tampe huci ku-kore`
-  with the Hokkaidō-looking `kore` right after the chapter establishes Sakhalin `konte`.
-  Check Chiri §68's actual form; use `ku-konte` or flag it explicitly as Chiri's pan-Ainu
-  citation.
+- [x] **verb-structure** `tampe huci ku-kore` (Chiri §68) — RESOLVED (Chiri 1942 OCR, l.1019):
+  Chiri quotes Kindaichi's 摘要 p.51 with the genuine form `tampe huči ku-kore na`, and uses
+  `kore` in his own example too (`tun eči-ne ǔa a-eči-kore`). The chapter already does the right
+  thing — presents Sakhalin `ku-konte` as primary and explicitly flags `ku-kore` as Chiri's
+  cited pan-Ainu shape (verb-structure.svelte l.203–204). Changing it to `ku-konte` would
+  misquote the source; the flag is correct. No change.
 - [ ] **verb-structure** — `ne` called "the single underived verb that takes a complement
   rather than an object" (Chiri §§27, 32). Verify whether `ye` 'say' / `ramu` 'think' also
   qualify; if so, soften "single".
 - [ ] **verb-structure** — reconcile the singular 'come' forms: West `eh (ek-)` vs East
   `eki ~ iki` are both given without relating them.
-- [ ] **phonology** — the rule "coda `*p *t *k` → `h`, except after `i` → `s`": confirm the
-  `s` outcome is attested for `*t` after `i`, not only for `*k`/`*p`.
-- [ ] **phonology** — `sahka` glossed 'chopsticks' (Asai Take text 5). Confirm against the
-  source (Gemini flagged a possible 'summer' reading; the attested gloss is likely correct).
+- [x] **phonology** — coda `*t` after `i` → `s` is ATTESTED (Hattori 1964, entry 86 'elbow'):
+  underlying `sittok` surfaces as Sakhalin `sistoh` — `sit`→`sis` (`*t`/i → s) plus `tok`→`toh`
+  (`*k` → h). The grammar's own coda rule predicts exactly this, and Hattori attests it. Rule
+  confirmed for `*t`, not only `*k`/`*p`.
+- [x] **phonology** — `sahka` 'chopsticks' — VERIFIED CORRECT (Hattori 1964 + FRPAC Karafuto
+  wordlist): both give Sakhalin/Rayciska `sahka` = 箸 'chopsticks' (vs Hokkaidō `pasuy`). The
+  Gemini 'summer' reading is wrong. No change.
 
 ## Factual inconsistencies needing a source check (from Fable-5 review)
 - [x] **Sentoku Tarōji birth year** — RESOLVED: reference materials give 1872–1929; texts'
@@ -59,8 +64,11 @@ self-contained fixes have already been applied.
 - [ ] **`kun(i)` gloss** — 'going.to' (person-and-alignment, TAM) vs `COND` (complementation,
   negation, relative-clauses). Decide one label (prospective vs conditional-irrealis) or
   distinguish two morphemes explicitly.
-- [ ] **morphophonology `sistoh` 'elbow'** — Fable: Hattori's Rayciska form is `sittoh` /
-  `sittokihi` (< `sittok`); `sist-` looks corrupt. Verify against Hattori 1964.
+- [x] **morphophonology `sistoh` 'elbow'** — VERIFIED CORRECT (Hattori 1964, entry 86 'ひじ'):
+  general Sakhalin (樺太) is `sistoh, -kihi` → possessed `sistokihi`, exactly the grammar's form.
+  Fable's claim that Hattori has `sittoh`/`sittokihi` is wrong; `síttok` is the Taraika/Hokkaidō
+  shape, but West/general Sakhalin metathesises to `sistoh` (regular coda `*t`/i → s, `*k` → h).
+  Not corrupt. No change.
 - [ ] **pronouns `taan` "far distal"** — `taan` is transparently `ta-an` (proximal/medial root
   `ta-`); a "far distal" built on it vs distal `tara(-an)` needs a source (Murasaki 2025).
 
