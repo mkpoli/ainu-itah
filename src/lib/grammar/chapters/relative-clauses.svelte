@@ -31,8 +31,8 @@
 		one-word clause. With fuller clauses the pattern is unchanged:
 	</p>
 	<Ex
-		m="ehah-taa monimahpo utah hecire-hci wa sapa-hci"
-		g="lily.root-dig girl PL dance-PL and come.down-PL"
+		m="ehah-taa monimahpo utah hecire-hci wa sap-ahci"
+		g="lily.root-dig girl PL dance-PL and come.down.PL-PL"
 		tr="The girls who went lily-root digging are coming down dancing."
 		cite="murasaki2001:text 5"
 		dial="WS"

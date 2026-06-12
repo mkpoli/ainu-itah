@@ -393,7 +393,7 @@
 		vowel (<i lang="ain">imii</i> → <i lang="ain">imi-yehe</i> ‘garment’,
 		<Xr ch="morphophonology" s="poss-vowel-copy">Chapter 5</Xr>). Word-internal
 		consonant sequences are exhausted by coda + onset: <i lang="ain">ahkas</i> ‘walk’,
-		<i lang="ain">tehkup</i> ‘wing’, <i lang="ain">muysankeh</i> ‘broom’. Sequences of
+		<i lang="ain">tehkuh</i> ‘wing’, <i lang="ain">muysankeh</i> ‘broom’. Sequences of
 		unlike vowels within a morpheme are rare, and at morpheme boundaries hiatus is
 		repaired by glide or <i lang="ain">h</i> insertion
 		(<Xr ch="morphophonology" s="prefix-sandhi">Chapter 5</Xr>).
@@ -529,8 +529,11 @@
 		<p>
 			The signature phonotactic rule of Sakhalin Ainu is the neutralisation of coda
 			obstruents. Syllable-final <i lang="ain">*p *t *k</i> all surface as
-			<i lang="ain">h</i> (phonetically [x ç ɸ] by vowel environment, §4.1.1), except
-			after <i lang="ain">i</i>, where the outcome is <i lang="ain">s</i>
+			<i lang="ain">h</i> (phonetically [x ç ɸ] by vowel environment, §4.1.1), except that
+			the coronal and dorsal <i lang="ain">*t *k</i> after <i lang="ain">i</i> palatalise to
+			<i lang="ain">s</i> (<i lang="ain">sik</i> → <i lang="ain">sis</i> ‘eye’); labial
+			<i lang="ain">*p</i> gives <i lang="ain">h</i> even after <i lang="ain">i</i>
+			(<i lang="ain">cip</i> → West <i lang="ain">cih</i> ‘boat’, East <i lang="ain">cis</i>)
 			(<Ref k="chiri1942" p="§16,1" paren />; <Ref k="tangiku2022" p="§2.3" paren />).
 			Final <i lang="ain">*r</i> goes its own way and is treated in §4.4.4. The rule
 			applies word-internally as well as
@@ -591,7 +594,7 @@
 				</tr>
 				<tr>
 					<td><i lang="ain">cip</i></td>
-					<td><i lang="ain">cis</i></td>
+					<td><i lang="ain">cih</i> (E <i lang="ain">cis</i>)</td>
 					<td>‘boat’</td>
 				</tr>
 				<tr>
@@ -721,8 +724,9 @@
 			has accented <i lang="ain">káni</i> <Ref k="tangiku2022" p="§2.1" paren />, and
 			<i lang="ja">tuki</i> ‘cup’ gives <A w="tuuki" /> <Ref k="bugaeva2022" paren />.
 			Geminates of the source language are resolved like native stop clusters: Japanese
-			<i lang="ja">watabōshi</i> ‘cotton hood’ yields <i lang="ain">atampusa</i>
-			<Ref k="chiri1942" p="§19,1" paren />. Contact vocabulary also flowed from the
+			<i lang="ja">teppō</i> ‘gun’ yields <i lang="ain">tehpo</i>, the geminate
+			<i lang="ain">pp</i> surfacing as <i lang="ain">hp</i>
+			(<Xr ch="language-contact">Chapter 26</Xr>). Contact vocabulary also flowed from the
 			Amur–Sakhalin languages, e.g. <A w="tanku" gl="hundred" /> from Tungusic
 			<Ref k="tangiku2022" p="§3.3" paren />; Russian words pervade the letters of
 			Sentoku Tarōji (<i lang="ain">nuca kanpi</i> ‘Russian paper’,

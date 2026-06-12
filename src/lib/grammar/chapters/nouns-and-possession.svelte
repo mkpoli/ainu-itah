@@ -20,7 +20,9 @@
 
 <S t="Conceptual and possessed form" id="possessed-form">
 	<p>
-		Chiri introduces the opposition with <A w="sik" gl="eye" />: the conceptual form
+		Chiri introduces the opposition with <A w="sik" gl="eye" /> (Chiri's morphophonemic
+		citation; the West-coast isolation form is <i lang="ain">sis</i> by coda neutralisation,
+		<Xr ch="phonology" s="coda-h">Chapter 4</Xr>): the conceptual form
 		names the bare concept, while the possessed form anchors the referent to a
 		possessor, third person being zero-marked
 		<Ref k="chiri1942" p="§70" />.
