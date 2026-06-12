@@ -211,6 +211,18 @@ export const parts: Part[] = [
 		]
 	},
 	{
+		title: 'The lexicon and language contact',
+		chapters: [
+			{
+				slug: 'language-contact',
+				title: 'Language contact and loanwords',
+				short: 'Language contact',
+				summary:
+					'Loanwords from Japanese, the Manchu–Amur trade network, Nivkh, and Russian; their phonological adaptation and morphological integration; and the Cyrillic epistolary register.'
+			}
+		]
+	},
+	{
 		title: 'Texts',
 		chapters: [
 			{

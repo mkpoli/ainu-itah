@@ -24,7 +24,7 @@
 	into our romanisation (<Xr ch="orthography">Chapter 3</Xr>): the glottal-stop apostrophes
 	of Murasaki's transcription are dropped, and the orthography of each older source —
 	Sentoku's Cyrillic, Piłsudski's diacritics, Dobrotvorsky's Cyrillic as romanised by
-	Sakaguchi — is interpreted as set out in the headnote to its text (§§25.2–25.4 below);
+	Sakaguchi — is interpreted as set out in the headnote to its text (§§26.2–26.4 below);
 	where the original spelling is itself of
 	interest it is shown as a separate line above the gloss. Glossing follows the conventions
 	stated in <Xr ch="person-and-alignment">Chapter 13</Xr> and the front matter: the
@@ -452,7 +452,7 @@
 		g="QUOT exist.SG because there long.time Paratunnay-LOC exist.SG be.unable"
 		ain="Nax án ani, táta ohórono Parátunnaj-ta án kojákuś."
 		tr="This being so, it was impossible to stay long there in Paratunnay."
-		note="nah an ani ‘by its being so’ presses the instrumental ani (cf. cicay ani ‘with a scrap’ in §25.2) into causal service; the next sentence varies the same formula as nah an renkayne — the two causal postpositions interchangeable in the fixed connective."
+		note="nah an ani ‘by its being so’ presses the instrumental ani (cf. cicay ani ‘with a scrap’ in §26.2) into causal service; the next sentence varies the same formula as nah an renkayne — the two causal postpositions interchangeable in the fixed connective."
 		cite="pilsudski1912:text 2, ll. 25–29"
 		dial="ES"
 		place="Tarayka (Sisratoka)"
@@ -505,7 +505,7 @@
 		his. We give four sentences from the first text and two from the second.
 	</p>
 	<p>
-		As with Sentoku's letters (§25.2), the Cyrillic record is strong exactly where the
+		As with Sentoku's letters (§26.2), the Cyrillic record is strong exactly where the
 		grammatical interest lies. Dobrotvorsky's transcription registers syllable-final
 		consonants faithfully, but it ignores vowel length and wavers between
 		<span lang="ru">и</span> and <span lang="ru">е</span> and between

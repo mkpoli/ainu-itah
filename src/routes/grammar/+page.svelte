@@ -2,7 +2,7 @@
 	import { parts, appendices, chapterNumber } from '$lib/grammar/toc';
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
 
-	const roman = ['I', 'II', 'III', 'IV', 'V', 'VI'];
+	const roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII'];
 </script>
 
 <svelte:head>

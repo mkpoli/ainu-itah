@@ -145,7 +145,7 @@
 		Sentoku Tarōji's letters attest the particle <i lang="ain">ya</i> in the same
 		function, stacked after <i lang="ain">hetane</i> in
 		<i lang="ain">temana an okay e=kihi hetane ya</i> ‘how are you faring?’
-		(<Xr ch="texts">Chapter 25</Xr>). Content questions leave the interrogative word in
+		(<Xr ch="texts">Chapter 26</Xr>). Content questions leave the interrogative word in
 		its clause-internal position (<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr> for
 		the inventory); no fronting is attested in the corpus:
 	</p>
