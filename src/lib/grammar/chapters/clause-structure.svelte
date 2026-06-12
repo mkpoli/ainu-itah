@@ -142,6 +142,21 @@
 		note="The particle aa questions a nominalized (perfect) form in -hV; see Chapter 20."
 	/>
 	<p>
+		The default polar particle of the modern conversational record is
+		<i lang="ain">hee</i>, which closes copular and verbal questions alike; it is the
+		interrogative particle of Murasaki's Enciw course
+		(<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr>), and the rest of this grammar
+		relies on it. A copular polar question:
+	</p>
+	<Ex
+		m="tara mahtekuh neyke Husako nee hee"
+		g="that woman TOP Husako COP Q"
+		tr="Is that woman Husako?"
+		cite="murasaki2025:lesson 3"
+		dial="WS"
+		note="The negative answer in the same exchange is Husako ka hannehka ‘she is not Husako’ (§17.3)."
+	/>
+	<p>
 		Sentoku Tarōji's letters attest the particle <i lang="ain">ya</i> in the same
 		function, stacked after <i lang="ain">hetane</i> in
 		<i lang="ain">temana an okay e=kihi hetane ya</i> ‘how are you faring?’
