@@ -1,56 +1,118 @@
 <script lang="ts">
-	import { BIBLIOGRAPHY, slugifyKey } from '$lib/grammar/bibliography';
+	import { bibliography, type BibEntry } from '$lib/grammar/bibliography';
 
-	const REGION_ORDER = ['sakhalin', 'kuril', 'general', 'hokkaido'] as const;
-	const REGION_LABEL: Record<string, string> = {
-		sakhalin: 'Sakhalin Ainu',
-		kuril: 'Kuril Ainu',
-		general: 'Ainu (general / cross-dialectal)',
-		hokkaido: 'Hokkaido Ainu (for contrast)'
-	};
+	const REGIONS: { id: BibEntry['region']; title: string; blurb: string }[] = [
+		{
+			id: 'sakhalin',
+			title: 'Sakhalin Ainu',
+			blurb: 'Primary sources and studies of the language this grammar describes.'
+		},
+		{
+			id: 'hokkaido',
+			title: 'Hokkaidō Ainu',
+			blurb: 'Works on Hokkaidō varieties, cited for contrast only.'
+		},
+		{ id: 'kuril', title: 'Kuril Ainu', blurb: 'Works on the extinct Kuril varieties.' },
+		{
+			id: 'general',
+			title: 'Pan-Ainu, comparative and methodological works',
+			blurb: 'Dialectology, reconstruction, typology, and conventions.'
+		}
+	];
 
-	const grouped = REGION_ORDER.map((r) => ({
-		region: r,
-		entries: BIBLIOGRAPHY.filter((b) => (b.region ?? 'general') === r).sort((a, b) =>
-			a.key.localeCompare(b.key)
-		)
-	})).filter((g) => g.entries.length);
+	const byRegion = REGIONS.map((r) => ({
+		...r,
+		entries: Object.entries(bibliography)
+			.filter(([, e]) => e.region === r.id)
+			.sort(([, a], [, b]) => {
+				const cmp = a.author.localeCompare(b.author);
+				return cmp !== 0 ? cmp : a.year.localeCompare(b.year);
+			})
+	})).filter((r) => r.entries.length > 0);
 </script>
 
 <svelte:head>
 	<title>References — A Grammar of Sakhalin Ainu</title>
+	<meta name="description" content="Works cited in the grammar of Sakhalin Ainu." />
 </svelte:head>
 
-<article>
-	<header class="mb-8 border-b border-gray-200 pb-6">
-		<p class="text-xs font-semibold uppercase tracking-widest text-gray-400">Texts and Reference</p>
-		<h1 class="mt-1 text-3xl font-bold tracking-tight">References</h1>
-		<p class="mt-3 max-w-2xl text-gray-600">
-			Sources cited throughout the grammar. Inline citations such as “(Dal Corso 2025b: 192)” link
-			here.
-		</p>
-	</header>
+<article class="grammar-chapter">
+	<h1><span class="ch-num">Back matter</span>References</h1>
 
-	{#each grouped as group}
-		<section class="mb-10">
-			<h2 class="mb-3 text-sm font-semibold uppercase tracking-widest text-gray-500">
-				{REGION_LABEL[group.region]}
-			</h2>
-			<ul class="space-y-3">
-				{#each group.entries as b}
-					<li id={slugifyKey(b.key)} class="scroll-mt-20 text-sm leading-relaxed">
-						<span class="text-gray-700">{b.full}</span>
-						{#if b.reported}
-							<span class="ml-1 text-xs text-gray-400" title="Cited as reported in another work, not consulted in the original">[reported]</span>
-						{/if}
-						{#if b.url}
-							<a href={b.url} class="text-blue-600 hover:underline" target="_blank" rel="noreferrer"
-								>↗</a
-							>
-						{/if}
-					</li>
-				{/each}
-			</ul>
-		</section>
+	<p class="bib-note">
+		Entries marked <span class="reported-badge">reported</span> are cited second-hand, through
+		the source named in the citation, and were not consulted directly.
+	</p>
+
+	{#each byRegion as group (group.id)}
+		<h2>{group.title}</h2>
+		<p class="bib-blurb">{group.blurb}</p>
+		<ul class="bib">
+			{#each group.entries as [key, e] (key)}
+				<li id={key}>
+					{e.author}. {e.year}.
+					{#if e.url}
+						<cite lang={e.lang ?? 'en'}><a href={e.url}>{e.title}</a></cite
+						>{:else}<cite lang={e.lang ?? 'en'}>{e.title}</cite>{/if}{#if e.titleTr}
+						[{e.titleTr}]{/if}.
+					{#if e.container}
+						{#if e.editor}In {e.editor} (ed.),{/if}
+						<i>{e.container}</i>{#if e.pages}&nbsp;{e.pages}{/if}.
+					{:else if e.pages}{e.pages}.
+					{/if}
+					{#if e.place || e.publisher}
+						{[e.place, e.publisher].filter(Boolean).join(': ')}.
+					{/if}
+					{#if e.note}{e.note}.{/if}
+					{#if e.reported}<span class="reported-badge">reported</span>{/if}
+				</li>
+			{/each}
+		</ul>
 	{/each}
+
+	<nav class="ch-nav" aria-label="Chapter navigation">
+		<span><a href="/grammar/abbreviations">← Abbreviations and conventions</a></span>
+		<span><a href="/grammar">Contents →</a></span>
+	</nav>
 </article>
+
+<style>
+	.bib {
+		list-style: none;
+		padding: 0;
+	}
+
+	.bib li {
+		margin: 0 0 0.7em;
+		padding-left: 2em;
+		text-indent: -2em;
+	}
+
+	cite {
+		font-style: italic;
+	}
+
+	.bib-note {
+		font-size: 0.92rem;
+		color: #4b5563;
+	}
+
+	.bib-blurb {
+		margin-top: -0.4em;
+		font-size: 0.92rem;
+		color: #6b7280;
+	}
+
+	.reported-badge {
+		display: inline-block;
+		text-indent: 0;
+		font-size: 0.72em;
+		font-variant-caps: all-small-caps;
+		letter-spacing: 0.06em;
+		border: 1px solid #d1d5db;
+		border-radius: 0.5em;
+		padding: 0 0.5em;
+		color: #6b7280;
+		vertical-align: 0.1em;
+	}
+</style>
