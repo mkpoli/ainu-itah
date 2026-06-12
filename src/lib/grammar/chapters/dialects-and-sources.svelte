@@ -249,8 +249,9 @@
 		of Rayciska syntax appeared under her maiden name as <Ref k="furukawa1967" paren />.
 	</p>
 	<p>
-		<strong>The last speakers.</strong> Asai Take of Odasu was recorded by Murasaki in
-		the 1980s; the corpus files of the present project carry session dates of 1986–1988.
+		<strong>The last speakers.</strong> Asai Take of Odasu was recorded by Murasaki from the
+		mid-1980s into the early 1990s; the corpus files of the present project carry session
+		dates of 1984–1991.
 		A first volume of the folktales was issued privately in 1996
 		<Ref k="murasaki1996" paren />; the complete set then appeared with audio as
 		<span lang="ja">改訂浅井タケ昔話全集</span> in two volumes in the ELPR series

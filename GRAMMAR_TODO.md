@@ -44,9 +44,11 @@ self-contained fixes have already been applied.
 - [ ] **Dobrotvorsky appendix** — "two connected texts" (dialects §2.2, texts §26.4) vs
   "three short connected pieces — a farewell address and two reconciliation dialogues"
   (orthography §3.1.1). Verify the count.
-- [ ] **Asai Take corpus size/dates** — "54 tales" (TAM, evidentiality) vs `murasaki2001:text 92`
-  cited in numerals (impossible if only 54); recording window "1986–1988" (dialects §2) vs
-  "1984–early 1990s", with text 40 dated 7 April 1990 (texts). Reconcile.
+- [~] **Asai Take corpus size/dates** — PARTLY CHECKED: the local corpus has exactly 54
+  numbered texts (001–054), so "54 tales" is right and `murasaki2001:text 92` (numerals) is a
+  bad citation (no text 92 exists). Still need the published edition to find that example's
+  true text number. Dates: RESOLVED — corpus `recorded_at` fields run 1984-04-17 … 1991-05-04
+  (text 40 = 1990-04-07); dialects §2 "1986–1988" corrected to 1984–1991.
 - [x] **numerals `asikne`** — RESOLVED: Table 1 gives Sakhalin `asne ~ asisne` and §10.2 prose
   uses `asisne`; the lone `asikne` in the twenty-five example was the Hokkaidō shape → `asisne`.
 - [ ] **person-and-alignment `-(y)an` gloss** (also from GPT-5.5) — Ex with `eci-…-yan` glosses
