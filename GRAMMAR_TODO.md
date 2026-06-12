@@ -83,9 +83,13 @@ self-contained fixes have already been applied.
   supply Sakhalin-attested stranding tokens or flag the inventory as Hokkaidō-based contrast.
 
 ## More (from Opus round)
-- [ ] **`ucaskoma` vs `ucaskuma`** — Piłsudski's narrative-genre term is spelled `ucaskoma`
-  in dialects-and-sources but `ucaskuma` (×3) in texts, with the gloss word-order also flipped.
-  Pick the correct Piłsudski spelling and align (Opus: `ucaskoma` is likely correct).
+- [ ] **`ucaskoma` vs `ucaskuma` — BIGGER than a spelling pick (OCR-checked).** The authoritative
+  source (Dal Corso in Bugaeva 2022 Handbook) spells the Sakhalin genre term **`upaskuma`**
+  (with *p*: "Legends are called upaskuma, oi, ikopepeka…"), and Piłsudski's own Materials OCR
+  uses **`oi`** for his tales, not any `uc/pask-` form. So the grammar's `ucaskoma`/`ucaskuma`
+  (with *c*) is internally inconsistent AND may be the Hokkaidō shape (Hokkaidō `ucaskuma`) used
+  for a Sakhalin term whose attested forms are `upaskuma`/`oi`. Needs an expert decision on the
+  right Sakhalin form before changing — do not auto-align the two c-spellings.
 - [x] **Piłsudski recording dates** — NON-ISSUE on inspection: phonology and texts both scope
   "1903–04" explicitly to the *east-coast* texts (a subset), while the introduction's
   "1902–1905" / dialects' "1896 and again 1902–1905" describe the whole fieldwork. Consistent
@@ -118,9 +122,12 @@ self-contained fixes have already been applied.
   language-contact account, ratcaku < 蠟燭 Chinese via Japanese.] `imi-yehe` vs `imiye-he`; clause-linking Ex 3
   one-off labels PFV/CONJ; copula Ex 3 keeps the `ku'ani` apostrophe against the drop-apostrophe
   policy; numerals Table 1 caption "identical except 4, 5, 9" but row 7 varies (`arawan ~ aruwan`).
-- [ ] **UNCERTAIN, verify against sources** — Piłsudski checked with Rousselot in **Paris**
-  (Collège de France), not "London" (dialects §2.2); `he-pen-u` 'raise face' looks like a
-  corrupt segmentation of `hepuni` (valency §14.6); `mat kayki` vs expected `mah` (person Ex 7).
+- [x] **Rousselot "London"** — VERIFIED CORRECT (Bugaeva 2022 Handbook): Rousselot consulted
+  Piłsudski at the **1910 Anglo-Japanese Exhibition in London**, where ten Ainu were brought as
+  informants. Fable and Sonnet both wrongly assumed Paris (his Collège de France lab); the
+  grammar's "London" is right. No change.
+- [ ] **UNCERTAIN, verify against sources** — `he-pen-u` 'raise face' looks like a corrupt
+  segmentation of `hepuni` (valency §14.6); `mat kayki` vs expected `mah` (person Ex 7).
 
 ## From Sonnet round (deferred / verified)
 - [x] **`pasuy` 'chopsticks'** — CHECKED, CORRECT as-is. Sonnet flagged it as 'prayer stick',
