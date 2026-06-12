@@ -539,9 +539,9 @@
 	/>
 	<Ex
 		m="tama in=konte reekoro yay-irayki-re-an"
-		g="jewel 1SG.O=give very REFL-thank-CAUS-INDEF.S"
+		g="bead 1PL.EXCL.O=give very REFL-thank-CAUS-INDEF.S"
 		ain="Tamà in-konte. Rékoro yay’iráykire-an."
-		tr="You gave me a jewel. I am very grateful."
+		tr="You gave me a bead. I am very grateful."
 		note="The diagnostic line: in= ‘me’, the first-person object prefix of the east-coast paradigms, inside an otherwise INDEF-marked passage. yay-irayki-re-an ‘I cause myself to be thankful’ stacks reflexive, causative, and the INDEF -an; Rékoro for reekoro shows the script’s blindness to vowel length."
 		cite="sakaguchi2021:49"
 		dial="SA"
