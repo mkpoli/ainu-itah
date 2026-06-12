@@ -86,9 +86,10 @@ self-contained fixes have already been applied.
 - [ ] **`ucaskoma` vs `ucaskuma`** — Piłsudski's narrative-genre term is spelled `ucaskoma`
   in dialects-and-sources but `ucaskuma` (×3) in texts, with the gloss word-order also flipped.
   Pick the correct Piłsudski spelling and align (Opus: `ucaskoma` is likely correct).
-- [ ] **Piłsudski recording dates** — "1902–1905" (intro), "1896 and again 1902–1905"
-  (dialects), bare "1903–04" (phonology header, texts §26.3). The 1903–04 may be a true
-  subset, but the phonology header reads as the whole-corpus date — clarify.
+- [x] **Piłsudski recording dates** — NON-ISSUE on inspection: phonology and texts both scope
+  "1903–04" explicitly to the *east-coast* texts (a subset), while the introduction's
+  "1902–1905" / dialects' "1896 and again 1902–1905" describe the whole fieldwork. Consistent
+  at different granularities; no change needed.
 - [ ] **`murasaki1976:95` at evidentiality §16.6** was changed to `murasaki1979:95` to match the
   other two citations of the same `ku=ye-he sunke` sentence — but confirm which year is right
   at the source (1979 = grammar, 1976 = text collection; both "p. 95" was the red flag).
