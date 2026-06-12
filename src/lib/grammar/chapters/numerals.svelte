@@ -38,8 +38,8 @@
 		<caption>
 			The cardinal numerals 1–10. The Rayciska forms are those of Murasaki's course
 			book and ultimately of Hattori's survey; divergent forms from other localities
-			are noted. The adnominal series is identical across the island except for 4, 5,
-			and 9.
+			are noted. The adnominal series is identical across the island except for 4, 5, 7,
+			and 9, where localities diverge.
 		</caption>
 		<thead>
 			<tr><th></th><th>adnominal</th><th>nominal</th><th>sources</th></tr>

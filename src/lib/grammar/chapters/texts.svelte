@@ -131,7 +131,7 @@
 		place="Odasu (Asai Take)"
 	/>
 	<Ex
-		m="neeteh tani taa imiye-he naa neya horokewpo mii-re horokewpo imiye-he anihi mii"
+		m="neeteh tani taa imi-yehe naa neya horokewpo mii-re horokewpo imi-yehe anihi mii"
 		g="and.then now EMPH garment-POSS also that young.man wear-CAUS young.man garment-POSS 3SG wear"
 		tr="And then she dressed the young man in her own garment, and the young man’s garment she put on herself."
 		cite="murasaki2001:text 40"
@@ -190,7 +190,7 @@
 		<i lang="ain">makan-ihi neampe</i> and <i lang="ain">V-an ohta</i> to
 		<Xr ch="clause-linking">Chapter 23</Xr> and <Xr ch="nominalization">Chapter 20</Xr>.
 		Possessive morphology is dense even in this short stretch
-		(<i lang="ain">imiye-he</i>, <i lang="ain">niske-he</i>, <i lang="ain">hawe-he</i>;
+		(<i lang="ain">imi-yehe</i>, <i lang="ain">niske-he</i>, <i lang="ain">hawe-he</i>;
 		<Xr ch="nouns-and-possession">Chapter 7</Xr>), and the valency machinery of
 		<Xr ch="valency">Chapter 14</Xr> appears in <i lang="ain">yay-reske</i>,
 		causative <i lang="ain">mii-re</i> ‘dress someone’, and applicative

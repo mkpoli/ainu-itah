@@ -150,10 +150,16 @@ self-contained fixes have already been applied.
   notation: they are the two competing analyses of this `kun ki kusu` construction (prospective
   +purposive vs conditional+causal), entangled with the deferred `kun(i)` gloss decision above.
   Defer the rest to that decision.
-- [ ] **misc one-liners** — [`cahraku` etymology RESOLVED: phonology aligned to the
-  language-contact account, ratcaku < 蠟燭 Chinese via Japanese.] `imi-yehe` vs `imiye-he`; clause-linking Ex 3
-  one-off labels PFV/CONJ; copula Ex 3 keeps the `ku'ani` apostrophe against the drop-apostrophe
-  policy; numerals Table 1 caption "identical except 4, 5, 9" but row 7 varies (`arawan ~ aruwan`).
+- [x] **misc one-liners** — ALL RESOLVED:
+  • `cahraku` etymology — phonology aligned to the language-contact account (ratcaku < 蠟燭).
+  • `imi-yehe` vs `imiye-he` — normalised the two texts §26 tokens to `imi-yehe` (stem `imi`/`imii`
+    + possessive `-yehe`), matching the morphophonological analysis used in 6 other places.
+  • `ku'ani` apostrophe — normalised copula §6's two `ku'ani` to `kuani`, matching the
+    drop-apostrophe policy and the 20 other `kuani` tokens across 9 chapters.
+  • numerals Table 1 caption — "identical except 4, 5, and 9" → "4, 5, 7, and 9": row 7
+    (`arawan ~ aruwan`) shows the same locality variation as the others; the caption had omitted it.
+  • clause-linking PFV/CONJ — NO CHANGE: both are defined in `abbreviations.ts` and build-validated;
+    a once-occurring construction legitimately uses each label once.
 - [x] **Rousselot "London"** — VERIFIED CORRECT (Bugaeva 2022 Handbook): Rousselot consulted
   Piłsudski at the **1910 Anglo-Japanese Exhibition in London**, where ten Ainu were brought as
   informants. Fable and Sonnet both wrongly assumed Paris (his Collège de France lab); the
