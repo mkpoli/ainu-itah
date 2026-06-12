@@ -181,7 +181,7 @@
 		in 1887, worked among the east-coast Ainu in 1896 and again from 1902 to 1905,
 		latterly for the Russian Academy of Sciences <Ref k="dalcorso2024" p="56–57" paren />.
 		His <em>Materials for the Study of the Ainu Language and Folklore</em> publishes 27
-		<A w="ucaskoma" gl="tradition, historical tale" /> out of a collection he himself put
+		<A w="ucaskuma" gl="tradition, historical tale" /> out of a collection he himself put
 		at 350 texts <Ref k="pilsudski1912" p="XXI" paren />. The texts were dictated by named
 		speakers of four east-coast villages — Tarayka, Hunup, Ay, and Tunayci — each
 		introduced in the notes to his or her first text: Sisratoka, aged 28, of Tarayka,
