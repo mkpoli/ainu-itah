@@ -86,11 +86,15 @@ self-contained fixes have already been applied.
 - [x] **`u-sam` homophony** — RESOLVED: added a note in postpositions (§11.8) distinguishing the
   relational noun `sam` 'side' (→ `u-sam` 'next to each other') from the homophonous verb `sam`
   'marry' (→ `u-sam` 'marry each other'), cross-referenced to valency §14 (reciprocal).
-- [ ] **`ani(hi)` labelled 3SG** but also described as a respectful 2nd-person address
-  (pronouns §9.1.1) — note the honorific use or relabel.
-- [ ] **orthography normalisation policy** — §3.4 says "we never normalise", yet the Sentoku
-  morphemic line restores devoiced vowels (`цкін`→`cikin`). Distinguish phonemic restoration
-  from dialect normalisation in the policy statement.
+- [x] **`ani(hi)` labelled 3SG** — ALREADY HANDLED (pronouns §9.1, "Third person: anihi"). The
+  3SG gloss is morphologically correct, and the honorific 2nd-person use is documented in prose:
+  the Ex note reads "the third-person pronoun used of the hearer as respectful avoidance, the
+  singular counterpart of honorific utara." Keeping the 3SG gloss + noting the pragmatic use is
+  the right treatment. No change.
+- [x] **orthography normalisation policy** — RESOLVED: added an explicit clause to §3.4. Restoring
+  Sentoku's devoiced-but-phonemic `i` in `cikin` is recovery *within* his own dialect (phonemic
+  restoration), categorially different from rewriting one dialect's form as another's (the
+  normalisation the policy avoids). No contradiction; now stated outright.
 - [ ] **relative-clauses oblique stranding** (GPT-5.5) — the strandable set `ani/tura/pahno`
   (and `onne` for dative) is given as the Sakhalin counterpart of Bugaeva's Hokkaidō set;
   supply Sakhalin-attested stranding tokens or flag the inventory as Hokkaidō-based contrast.
