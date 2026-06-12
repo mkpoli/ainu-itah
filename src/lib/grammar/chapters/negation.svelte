@@ -188,7 +188,7 @@
 	</p>
 	<Ex
 		m="maskin han neran itah ham an-ki kun ki kusu"
-		g="overly NEG what.kind word NEG INDEF.A-do COND do because"
+		g="too.much NEG what.kind word NEG INDEF.A-do COND do because"
 		tr="I do not intend to say any words of that kind at all."
 		cite="dobrotvorsky1875; sakaguchi2021"
 		dial="WS"

@@ -427,7 +427,11 @@
 		<i lang="ain">en=oponi</i> &lsquo;after me&rsquo;
 		<Ref k="murasaki2025" p="26" />; and the reciprocal prefix yields
 		<i lang="ain">u-sam</i> &lsquo;next to each other&rsquo;
-		<Ref k="dalcorso2024" p="74" paren />.
+		<Ref k="dalcorso2024" p="74" paren /> — built on the relational noun
+		<i lang="ain">sam</i> &lsquo;side&rsquo;, not the homophonous verb
+		<i lang="ain">sam</i> &lsquo;marry&rsquo; whose reciprocal
+		<i lang="ain">u-sam</i> means &lsquo;marry each other&rsquo;
+		(<Xr ch="valency" s="reciprocal">Chapter 14</Xr>).
 	</p>
 	<p>
 		The inventory for Rayciska, with the locative <i lang="ain">-ta</i> attached, is

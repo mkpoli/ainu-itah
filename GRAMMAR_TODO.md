@@ -83,8 +83,9 @@ self-contained fixes have already been applied.
   the context-sensitive labels deliberately.
 - [ ] **texts gloss hygiene** — a `?` gloss ("one kin-? COP") and parenthesised `(INDEF.O=)`
   in texts §26 are not clean Leipzig; resolve or annotate the uncertainty explicitly.
-- [ ] **`u-sam` homophony** — valency: 'marry each other' (< `sam` 'marry'); postpositions:
-  'next to each other' (< relational `sam` 'side'). Add a note distinguishing the two `sam`.
+- [x] **`u-sam` homophony** — RESOLVED: added a note in postpositions (§11.8) distinguishing the
+  relational noun `sam` 'side' (→ `u-sam` 'next to each other') from the homophonous verb `sam`
+  'marry' (→ `u-sam` 'marry each other'), cross-referenced to valency §14 (reciprocal).
 - [ ] **`ani(hi)` labelled 3SG** but also described as a respectful 2nd-person address
   (pronouns §9.1.1) — note the honorific use or relabel.
 - [ ] **orthography normalisation policy** — §3.4 says "we never normalise", yet the Sentoku
@@ -131,8 +132,12 @@ self-contained fixes have already been applied.
   and may be a distinct Taraika-area place. Verify before unifying.
 - [ ] **plural `=hci` notation** — `=hci` vs `-hci` vs `=ahci` vs `-ahci` across chapters;
   settle clitic-vs-suffix notation to match the prose ("plural clitic =hci").
-- [ ] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2
-  (PURP/because + lexical glosses) — unify beyond the TODO'd `kun` issue.
+- [~] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2 —
+  PARTIALLY RESOLVED: unified `maskin` (negation "overly" → "too.much" to match TAM). The
+  remaining differences — `kun` (going.to vs COND) and `kusu` (PURP vs because) — are NOT trivial
+  notation: they are the two competing analyses of this `kun ki kusu` construction (prospective
+  +purposive vs conditional+causal), entangled with the deferred `kun(i)` gloss decision above.
+  Defer the rest to that decision.
 - [ ] **misc one-liners** — [`cahraku` etymology RESOLVED: phonology aligned to the
   language-contact account, ratcaku < 蠟燭 Chinese via Japanese.] `imi-yehe` vs `imiye-he`; clause-linking Ex 3
   one-off labels PFV/CONJ; copula Ex 3 keeps the `ku'ani` apostrophe against the drop-apostrophe
