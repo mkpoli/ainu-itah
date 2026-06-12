@@ -559,7 +559,7 @@
 	/>
 	<Ex
 		m="anokay an=renkayne i=koyki anpe ka hanne"
-		g="1SG INDEF.A=accordingly INDEF.O=hit NMLZ even NEG"
+		g="INDEF INDEF.A=accordingly INDEF.O=hit NMLZ even NEG"
 		ain="Anokay an-renkayne, i-koyki ánpe ka hánne."
 		tr="In accordance with my wish, I was not hit."
 		note="The second text uses i= ‘me’ — the INDEF-series object, doubled by the free pronoun anokay — where the first text had in= (34); Sakaguchi notes that the dictionary itself records the parallel kuani … in-koyki, a minimal pair between the two object prefixes. The negation is the analytic hanne over the nominalized anpe ka ‘even the fact of…’."
