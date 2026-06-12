@@ -45,9 +45,8 @@ self-contained fixes have already been applied.
 - [ ] **Asai Take corpus size/dates** — "54 tales" (TAM, evidentiality) vs `murasaki2001:text 92`
   cited in numerals (impossible if only 54); recording window "1986–1988" (dialects §2) vs
   "1984–early 1990s", with text 40 dated 7 April 1990 (texts). Reconcile.
-- [ ] **numerals `asikne`** — Fable flags `asikne` 'five' as the Hokkaidō shape vs Sakhalin
-  `asne ~ asisne` (coda k after i → s). Check Table 1 and the person-counter `asiknen`;
-  decide whether `asikne` should be `asisne`.
+- [x] **numerals `asikne`** — RESOLVED: Table 1 gives Sakhalin `asne ~ asisne` and §10.2 prose
+  uses `asisne`; the lone `asikne` in the twenty-five example was the Hokkaidō shape → `asisne`.
 - [ ] **person-and-alignment `-(y)an` gloss** (also from GPT-5.5) — Ex with `eci-…-yan` glosses
   the suffix `1.A`, another Ex glosses `-an` as `2PL.A`, and the table labels `eci-…-yan`
   "1.A (KU/CI)"; the adopted Sakaguchi analysis says `-(y)an` marks 2nd-person plurality.
