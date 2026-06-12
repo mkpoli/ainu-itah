@@ -336,7 +336,7 @@
 		The corpus distribution is sharply skewed. In Asai Take's 54 tales we count 53 tokens of
 		<i lang="ain">hawehe an</i>, 15 of <i lang="ain">ruwehe an</i>, 10 of
 		<i lang="ain">humihi an</i> and none of <i lang="ain">sirihi an</i>; the visual form is a
-		Rayciska and east-coast resource (17 tokens in the Fujiyama Haru texts, none in
+		Rayciska, west-coast resource (17 tokens in the Fujiyama Haru texts, none in
 		Piłsudski's east-coast corpus by Dal Corso's count, where instead
 		<i lang="ain">ruwehe ne</i> appears) <Ref k="dalcorso2018" p="72" paren />. The
 		auditory form earns its frequency from narrative technique: scenes are routinely

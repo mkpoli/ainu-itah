@@ -10,6 +10,7 @@
 
 export const abbreviations: Record<string, string> = {
 	'1': 'first person',
+	ATTR: 'attributive',
 	'1SG': 'first person singular',
 	'1PL': 'first person plural',
 	'2': 'second person',

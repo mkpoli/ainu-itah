@@ -409,7 +409,7 @@
 			intensity or distributed reading — <i lang="ain">ponno ponno</i> &lsquo;just a
 			little, bit by bit&rsquo; (example 2 above, and the &lsquo;skip a little&rsquo; of
 			Asai Take's <i lang="ain">ponno ponno&hellip;cooko</i>) — continuous with the lexical
-			reduplication described in <Xr ch="morphophonology" s="plural-sandhi">§4.5</Xr>.
+			reduplication described in <Xr ch="morphophonology" s="plural-sandhi" />.
 		</p>
 		<p>
 			By meaning the inventory falls into a handful of classes. <em>Temporal</em> adverbs
@@ -477,7 +477,7 @@
 			<A w="pateh" gl="only" /> are clitic focus particles, placed after their host rather
 			than before it (<Xr ch="information-structure" s="focus-particles">§24.3</Xr>). The
 			interaction of adverb placement with the basic verb-final order of the clause is
-			taken up in <Xr ch="clause-structure" s="word-order">§5.2</Xr>.
+			taken up in <Xr ch="clause-structure" s="word-order" />.
 		</p>
 	</S>
 	<S t="Conjunctive particles">

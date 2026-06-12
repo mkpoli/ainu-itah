@@ -18,8 +18,8 @@
 
 <S t="Cyrillic" id="cyrillic">
 	<p>
-		Cyrillic is the script of the two oldest bodies of connected Sakhalin Ainu text: the
-		specimens appended to Mikhail M. Dobrotvorsky's (<span lang="ru"
+		Cyrillic is the script of two of the earliest bodies of connected Sakhalin Ainu text:
+		the specimens appended to Mikhail M. Dobrotvorsky's (<span lang="ru"
 			>Михаил Михайлович Добротворский</span
 		>) dictionary of 1875, and the letters that Sentoku Tarōji
 		(<span lang="ja">千徳太郎治</span>) wrote to Piłsudski in 1906.
