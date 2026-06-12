@@ -74,7 +74,7 @@
 		m="ikoro neanpe tomi neanpe an-i yahka nata koro kun-pe han ne"
 		g="treasure TOP riches TOP exist.SG-NMLZ although who have should-NMLZ NEG COP"
 		tr="Treasures, riches — though they exist, they are not things for anyone to own."
-		note="The speech continues yaykota e-koro kun-pe ne ‘you must keep it yourself’ (Chapter 9, example (8) there)."
+		note="The speech continues yaykota e-koro kun-pe ne ‘you must keep it yourself’ (Chapter 9, example (7) there)."
 		cite="pilsudski1912:text 23, l. 201; sakaguchi2020utara:195"
 		dial="ES"
 	/>
@@ -83,7 +83,7 @@
 		<i lang="ain">anakne</i>. Piłsudski glosses it ‘as regards’ in his interlinear English
 		<Ref k="pilsudski1912" p="23" paren />; in his texts it favours scene-setting adverbs —
 		<i lang="ain">tani anahne</i> ‘now, for its part’ is a recurrent narrative re-launcher
-		(<Xr ch="pronouns-and-demonstratives" s="third-person">Chapter 9</Xr>, example (7)
+		(<Xr ch="pronouns-and-demonstratives" s="third-person">Chapter 9</Xr>, example (6)
 		there; <Ref k="sakaguchi2020utara" p="194" />). The two markers stack in one sentence:
 	</p>
 	<Ex
@@ -98,7 +98,7 @@
 	<p>
 		In the west-coast corpus <i lang="ain">anahne</i> is absent: Asai Take's
 		<i lang="ain">anah</i> (17 tokens, all of them) is the conditional converb ‘if, when’
-		(<Ref k="murasaki2025" p="33" />; <Xr ch="clause-linking">Chapter 23</Xr>; example (18)
+		(<Ref k="murasaki2025" p="33" />; <Xr ch="clause-linking">Chapter 23</Xr>; example (19)
 		below), and its combination <i lang="ain">anahkayki</i> with the focus particle
 		<i lang="ain">kayki</i> yields concessive ‘even if, although’. We take the division of
 		labour to be dialectal: the east coast retains the inherited topic particle
@@ -333,9 +333,9 @@
 	<p>
 		A variant places the numeral after the noun in its nominalized form
 		<i lang="ain">sineh</i> (<Xr ch="numerals">Chapter 10</Xr>): <i lang="ain">ahci sineh
-		an manu</i> ‘there was an old woman’ (text 1), and example (13) above. Inside a
+		an manu</i> ‘there was an old woman’ (text 1), and example (14) above. Inside a
 		running narrative the presentation is typically framed by a
-		<i lang="ain">-hi neampe</i> clause topic, as in (5): the protagonist's movement sets
+		<i lang="ain">-hi neampe</i> clause topic, as in (6): the protagonist's movement sets
 		the scene, the existential introduces the new participant, and the anaphorics
 		<i lang="ain">neya</i> and <i lang="ain">nean</i> ‘the aforementioned’ then track it
 		for the rest of the tale (<Xr ch="pronouns-and-demonstratives" s="anaphoric">Chapter
@@ -409,7 +409,7 @@
 		question particle <i lang="ain">he</i> belongs to the same interjectional class
 		<Ref k="chiri1942" p="§129" paren />. Dialogue turns themselves are managed by
 		interjections, above all <A w="iineahsuy" gl="hey, say" />, which opens an appeal to
-		the hearer 210 times in the Asai Take corpus — examples (2) and (17) — and shades from
+		the hearer 210 times in the Asai Take corpus — examples (2) and (18) — and shades from
 		‘hey!’ into ‘now listen, the fact is…’. Together with the topic chains of §24.1 and
 		the presentational formula of §24.4, these little words are what give the spoken
 		Sakhalin sentence its characteristic shape: frame first, verb last, and the speaker's

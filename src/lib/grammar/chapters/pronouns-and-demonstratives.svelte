@@ -321,7 +321,7 @@
 			spoken narrative; we analyse it as the medial root in adverbial function rather than
 			as a filler without content, since it still contrasts with <i lang="ain">teeta</i>
 			in dialogue. Manner deictics are <i lang="ain">ene</i> ‘thus, in this way’ (216
-			tokens), typically cataphoric before quotations as in example (12), and the
+			tokens), typically cataphoric before quotations as in example (11), and the
 			quotative <i lang="ain">nah</i> ‘so’ (<Xr ch="evidentiality">Chapter 16</Xr>);
 			<i lang="ain">tani</i> ‘now’ completes the set as the temporal proximal.
 		</p>
@@ -433,7 +433,7 @@
 		(<Xr ch="valency">Chapter 14</Xr>). What the language does have are adverbial
 		intensifiers: <i lang="ain">yaykota</i> ‘oneself, of one's own accord’, attested in
 		Piłsudski's texts (<i lang="ain">yaykota e-koro kun-pe ne</i> ‘it is something you must
-		keep yourself’, and example (8) above; <Ref k="sakaguchi2020utara" p="195" paren />);
+		keep yourself’, and example (7) above; <Ref k="sakaguchi2020utara" p="195" paren />);
 		<i lang="ain">sinenehka</i> ‘alone, by oneself’, with 35 tokens the everyday form in
 		Asai Take's tales; and appositive <i lang="ain">anihi</i> ‘X himself’ (§9.1.1). The
 		emphatic doubling function that other languages assign to reflexive pronouns falls in
