@@ -287,7 +287,7 @@
 			<i lang="ain">tara</i> and 7 of <i lang="ain">taranoka</i> — the exophorics confined
 			almost entirely to quoted dialogue, the anaphorics carrying reference-tracking in the
 			narration. Add pronominal <i lang="ain">tah</i> ‘this (just said)’ (198 tokens) and
-			topicalised <i lang="ain">neʼampe</i> ‘that thing; as for that, thereupon’ (916
+			topicalised <i lang="ain">neʼampe</i> ‘that thing; as for that, thereupon’ (917
 			tokens, mostly grammaticalized as a topic-switching connective,
 			<Xr ch="information-structure">Chapter 24</Xr>), and the deictic word family makes up
 			a remarkable share of running narrative text.

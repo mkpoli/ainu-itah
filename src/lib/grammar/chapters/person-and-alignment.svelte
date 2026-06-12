@@ -681,7 +681,7 @@
 		<i lang="ain">an-kuyra-si</i> ‘I stole up on them’ that the plural sign is there “not on
 		account of the subject (‘I’) but because the object (the gods) is in the pl.”
 		<Ref k="pilsudski1912" p="40–41" paren />. Second, suppletive stem pairs
-		(<A w="oman" gl="go (sg)" /> ~ <A w="payeh" gl="go (pl)" />, <A w="an" gl="exist (sg)" />
+		(<A w="oman" gl="go (sg)" /> ~ <A w="paye" gl="go (pl)" />, <A w="an" gl="exist (sg)" />
 		~ <A w="okay" gl="exist (pl)" />) agree with the grammatical number of the person series:
 		the CI- and AN-series select plural stems even for a single referent —
 		<i lang="ain">asip-as</i>, <i lang="ain">paye-as</i>, <i lang="ain">makap-an</i>,
