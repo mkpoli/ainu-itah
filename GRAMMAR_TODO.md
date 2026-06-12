@@ -13,8 +13,11 @@ self-contained fixes have already been applied.
 - [ ] **negation** — `hanna` in `hanna mawa-an-ike` is glossed `NEG` but described as an
   apprehensive 'lest'. Consider the `ADM` (admonitive) atom, which already exists, if the
   apprehensive analysis is firm.
-- [ ] **negation** — caritive is given as `hamo ~ hamu`, but one example has bare `ham ipe`.
-  Confirm whether that token is plain negation (fine) or a distinct bare-`ham` caritive.
+- [x] **negation** — bare `ham ipe` in the caritive section — RESOLVED: the token is the plain
+  negator `ham` (gloss `NEG`), not adverbialized `hamo`; the 'without eating' reading comes from
+  the adverbial juxtaposition and the absent clause linker (the caritive's defining syntax). Added
+  an Ex note stating the caritive slot admits bare `ham` as well as `hamo ~ hamu`, so there is no
+  inconsistency — it is plain negation doing caritive duty by position.
 
 ## Source-form checks
 - [x] **morphophonology / nouns-and-possession** — monosyllabic `-he` — RESOLVED (Chiri 1942
@@ -178,8 +181,8 @@ self-contained fixes have already been applied.
   person-and-alignment examples and all of texts §26.4, where the prose argues it "patterns
   East". Same west-central source, contradictory tags. Decide one tag and apply it uniformly
   (a real dialectological call: geographically west-central but with East-patterning features).
-- [ ] **`Sambaku kuani ohta tampaku in-konte`** (person-and-alignment) — `ohta` is glossed "at"
-  but unaccounted for in the free translation; `kuani ohta` is likely the dative recipient
-  ("to me") doubling `in-`. Reflect it in the translation or add a note.
+- [x] **`Sambaku kuani ohta tampaku in-konte`** (person-and-alignment) — RESOLVED: expanded the Ex
+  note to account for `ohta` — `kuani ohta` 'to me' is the dative recipient overtly doubling the
+  1SG object prefix `in-` (literal 'Sambaku gave tobacco to me'). The doubling is now stated.
 - [ ] **`repohpe` 'seal'** (negation) — left unsegmented (`repo(t)-pe` 'open-sea-thing') against
   the otherwise full segmentation; minor.

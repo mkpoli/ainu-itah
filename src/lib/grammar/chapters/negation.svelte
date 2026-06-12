@@ -434,6 +434,7 @@
 		tr="For two, three days I went on uphill without eating."
 		cite="pilsudski1912:123; dalcorso2025neg:56"
 		dial="ES"
+		note="The negator here is bare ham, not adverbialized hamo; the ‘without eating’ reading comes from the adverbial juxtaposition and the absent clause linker, so the caritive slot admits the plain negator as well as hamo ~ hamu."
 	/>
 	<p>
 		No split form *<i lang="ain">ham no</i> is attested, so the segmentation is a

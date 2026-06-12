@@ -275,7 +275,7 @@
 		orig="Самбаку квани охта тамбаку инь контэ."
 		origLang="ain-Cyrl"
 		tr="Sambaku gave me tobacco."
-		note="The third-person subject is zero; in- co-occurs with the KU-series pronoun kuani."
+		note="The third-person subject is zero; the dative phrase kuani ohta ‘to me’ overtly doubles the 1SG object prefix in-, recapitulating the recipient (so the KU-series pronoun co-occurs with in-). The literal sense is ‘Sambaku gave tobacco to me’."
 		cite="dobrotvorsky1875:238; sakaguchi2024:ex. 3-8"
 		dial="SA"
 		place="recorded 1867–1872"
