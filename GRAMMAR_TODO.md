@@ -171,9 +171,11 @@ self-contained fixes have already been applied.
   but nominalization §20.5 / evidentiality §16.6 adopt Bugaeva 2016's analysis that sentence-
   final `-hV` is the possessive nominalization in insubordinated use. Reconcile, or cross-
   reference, or argue they are distinct homophones.
-- [ ] **Piłsudski "voicing commoner in the west"** (phonology, voicing §) — Piłsudski's corpus
-  is east-coast only, so crediting him with a west-coast voicing observation is internally odd.
-  Verify what Dal Corso 2024:61 actually attributes to him; reattribute or reword if needed.
+- [x] **Piłsudski "voicing commoner in the west"** — VERIFIED CORRECT (Piłsudski 1912 Materials,
+  phonology preface, p.5): Piłsudski writes verbatim "On the western shore of Saghalien, the latter
+  group [voiced g, d, b] is more often to be met with than on the eastern shore." He makes the
+  west↔east comparison himself in his phonological description, independent of his (east-coast)
+  text corpus. The attribution is sound, not internally odd. No change.
 
 ## From Opus round 2 (deferred)
 - [ ] **Dobrotvorsky corpus dialect tag** — the 1867–1872 Kusunnay material is tagged `WS` in
