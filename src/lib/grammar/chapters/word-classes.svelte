@@ -386,16 +386,96 @@
 			note="muhru empoke ene ‘to under the pillow’: locative noun empoke with the allative ene (§6.2, §7.5)."
 		/>
 	</S>
-	<S t="Adverbs">
+	<S t="Adverbs" id="adverbs">
 		<p>
-			Underived adverbs modify predicates and are themselves uninflected:
-			<A w="tani" gl="now" />, <A w="suy" gl="again" />, <A w="naa" gl="still, more" />,
-			<A w="reekoh" gl="very" />, <A w="pateh" gl="only" />,
-			<A w="ramma" gl="always" />, <A w="monasno" gl="quickly" />. Chiri notes that the
-			Sakhalin adverb lexicon diverges considerably from Hokkaidō
-			<Ref k="chiri1942" p="§88" paren />. The class is enlarged productively by
-			<i lang="ain">-no</i> adverbs from property verbs (§6.4), so its underived core
-			is small and closed.
+			Adverbs modify a predicate or a whole clause and are themselves uninflected: they
+			take no person, number, mood or case morphology, which is what separates them from
+			verbs and nouns, and they precede the element they modify rather than following it,
+			which separates them from the particles. Chiri sets the adverb
+			(<span lang="ja">副詞</span>) up as a class of its own, distinct from both the
+			nominals and the adnominals, and notes that the Sakhalin adverb lexicon diverges
+			considerably from Hokkaidō <Ref k="chiri1942" p="§§64, 88" paren />. The class has
+			three morphological sources. (i) A small closed set of <em>underived</em> adverbs,
+			mostly temporal, aspectual and degree words: <A w="tani" gl="now" />,
+			<A w="suy" gl="again" />, <A w="naa" gl="still, more" />,
+			<A w="ramma" gl="always" />, <A w="reekoh" gl="very" />, <A w="ponno" gl="a little" />.
+			(ii) A large open set of <em>manner</em> adverbs derived from property verbs by the
+			adverbializer <i lang="ain">-no</i> (§6.4): <i lang="ain">pirika-no</i>
+			&lsquo;well&rsquo; from <A w="pirika" gl="be good" />, <i lang="ain">monas-no</i>
+			&lsquo;quickly, at once&rsquo; from <A w="monas" gl="be quick" />
+			<Ref k="chiri1942" p="§64" paren />. Because any property verb can feed it, this is
+			where the productivity of the class lies; the underived core stays small.
+			(iii) <em>Reduplicated</em> and expressive adverbs, in which a base is doubled for
+			intensity or distributed reading — <i lang="ain">ponno ponno</i> &lsquo;just a
+			little, bit by bit&rsquo; (example 2 above, and the &lsquo;skip a little&rsquo; of
+			Asai Take's <i lang="ain">ponno ponno&hellip;cooko</i>) — continuous with the lexical
+			reduplication described in <Xr ch="morphophonology" s="plural-sandhi">§4.5</Xr>.
+		</p>
+		<p>
+			By meaning the inventory falls into a handful of classes. <em>Temporal</em> adverbs
+			locate the event in time: <A w="tani" gl="now" />, ubiquitous in the Asai corpus as
+			a narrative &lsquo;now, at this point&rsquo;, <A w="tanto" gl="today" />,
+			<A w="nuuman" gl="yesterday" />, <A w="simma" gl="tomorrow" />
+			(<i lang="ain">simma e=oman</i> &lsquo;go tomorrow&rsquo;, Asai Take). Since the verb
+			has no tense (<Xr ch="tense-aspect-mood" s="tenselessness">§15.1</Xr>), these words
+			carry much of the temporal location that inflection does elsewhere.
+			<em>Aspectual and frequency</em> adverbs quantify over occurrences:
+			<A w="suy" gl="again" />, the commonest of all, which restarts an episode in
+			narrative; <A w="naa" gl="still, yet" />, which in Sentoku Tarōji's letters marks a
+			state as continuing (<i lang="ain">naa&hellip;e=an</i> &lsquo;you are still
+			there&rsquo;); and <A w="ramma" gl="always, as ever" />, likewise from the Sentoku
+			letters (<i lang="ain">ramma ka pirika</i> &lsquo;are well as ever&rsquo;). The
+			completive notion &lsquo;finish doing&rsquo; is carried not by an adverb but by the
+			verb <A w="hemaka" gl="finish" /> (<Xr ch="tense-aspect-mood" s="completive">§15.6</Xr>),
+			the iterative-habitual by the conjunctive <A w="koh" />
+			(<Xr ch="tense-aspect-mood" s="iterative">§15.5</Xr>). <em>Degree</em> adverbs scale
+			the predicate: intensifying <A w="reekoh" gl="very" />, which the Karafuto wordlists
+			label explicitly as an adverb &lsquo;very, exceedingly&rsquo;; diminishing
+			<A w="ponno" gl="a little" />; and the quantifier-like <A w="okore" gl="all" />
+			(<i lang="ain">okore oyra</i> &lsquo;forget all&rsquo;), the Sakhalin counterpart of
+			Hokkaidō <i lang="ain">opitta</i>, which the corpus does not use.
+			<em>Manner</em> adverbs are chiefly the <i lang="ain">-no</i> class, joined by the
+			demonstrative-based <A w="nah" gl="thus, so" /> &lsquo;in that way&rsquo;
+			(<i lang="ain">nah kii</i> &lsquo;do so&rsquo;) and <A w="ene" gl="like this" />. The
+			deictic and directional adverbs — <A w="teeta" gl="here" />, <A w="ene" /> and their
+			kin — pattern with the demonstrative system and are treated under it
+			(<Xr ch="pronouns-and-demonstratives" s="adverbs">§9.6</Xr>).
+		</p>
+		<Ex
+			m="suy niina kusu makan manu"
+			g="again gather.firewood PURP go.up REP"
+			tr="Again she went up into the hills to gather firewood, it is said."
+			cite="murasaki2001:text 12"
+			dial="WS"
+			place="Odasu (Asai Take)"
+			note="suy ‘again’ stands clause-initially, scoping over the whole event; the purpose phrase niina kusu precedes the matrix verb makan."
+		/>
+		<Ex
+			m="reekoh pirika haw nee manu"
+			g="very be.good sound COP REP"
+			tr="It was a very fine sound, it is said."
+			cite="murasaki2001:text 51"
+			dial="WS"
+			place="Odasu (Asai Take)"
+			note="The degree adverb reekoh modifies the property verb pirika directly, immediately to its left."
+		/>
+		<p>
+			Syntactically, adverbs are not arguments and take no postposition; they attach to
+			the predicate rather than to a noun. The default position is immediately before the
+			constituent modified — degree adverbs hug the property verb, as
+			<i lang="ain">reekoh pirika</i> in the second example, and manner
+			<i lang="ain">-no</i> adverbs sit just before their verb, as
+			<i lang="ain">pirika-no reske</i> &lsquo;raised (the child) well&rsquo; in (8) —
+			while temporal and aspectual adverbs with clausal scope favour clause-initial
+			position, as <i lang="ain">suy</i> and <i lang="ain">tani</i> repeatedly do in
+			narrative. Two neighbouring devices are not part of this class. Negative polarity is
+			not adverbial: it is built on the negators <A w="somo" /> and <A w="ette" /> and the
+			negative existential <A w="isam" /> (<Xr ch="negation" s="standard-negation">§17.2</Xr>).
+			And the scalar-additive <A w="ka" />, <A w="kayki" /> and the restrictive
+			<A w="pateh" gl="only" /> are clitic focus particles, placed after their host rather
+			than before it (<Xr ch="information-structure" s="focus-particles">§24.3</Xr>). The
+			interaction of adverb placement with the basic verb-final order of the clause is
+			taken up in <Xr ch="clause-structure" s="word-order">§5.2</Xr>.
 		</p>
 	</S>
 	<S t="Conjunctive particles">

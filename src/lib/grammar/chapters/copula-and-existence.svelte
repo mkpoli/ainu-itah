@@ -35,6 +35,29 @@
 		note="The possessive suffix here nominalizes the clause, ‘their looking’; see Chapter 20."
 	/>
 	<p>
+		A first- or second-person subject is indexed on the copula itself, as the conversational
+		record makes plain; the predicate nominal may identify the referent by name (an
+		identificational clause) or assign it to a class (a classificatory one), a contrast
+		Murasaki's conversation course draws in a single exchange:
+	</p>
+	<Ex
+		m="Taroo ku=nee"
+		g="Tarō 1SG=COP"
+		tr="I am Tarō."
+		cite="murasaki2025:lesson 2"
+		dial="WS"
+		note="The overt 1SG prefix ku= on the copula, in an identificational clause naming the referent."
+	/>
+	<Ex
+		m="ku'ani neyke siisam mahtekuh ku=nee"
+		g="1SG TOP Wajin woman 1SG=COP"
+		tr="I am a Wajin woman."
+		lit="as for me, I am a Wajin woman"
+		cite="murasaki2025:lesson 3"
+		dial="WS"
+		note="The same speaker has just identified herself by name (ku'ani neyke Kiyoko ku=nee ‘I am Kiyoko’); here the predicate nominal siisam mahtekuh assigns her to a class. neyke is the conditional-based topic ‘as for’ (Chapter 23)."
+	/>
+	<p>
 		The predicate nominal may itself be a noun phrase of any internal complexity,
 		including one headed by a relative clause
 		(<Xr ch="relative-clauses">Chapter 21</Xr>):
