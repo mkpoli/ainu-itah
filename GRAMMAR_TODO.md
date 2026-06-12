@@ -126,8 +126,13 @@ self-contained fixes have already been applied.
   Piłsudski at the **1910 Anglo-Japanese Exhibition in London**, where ten Ainu were brought as
   informants. Fable and Sonnet both wrongly assumed Paris (his Collège de France lab); the
   grammar's "London" is right. No change.
-- [ ] **UNCERTAIN, verify against sources** — `he-pen-u` 'raise face' looks like a corrupt
-  segmentation of `hepuni` (valency §14.6); `mat kayki` vs expected `mah` (person Ex 7).
+- [x] **`he-pen-u` 'raise one's face'** — VERIFIED CORRECT (Chiri 1942 『アイヌ語法研究』 OCR):
+  Chiri explicitly lists the prefixal roots that form intransitives — "he-「顔」 ho-「尻」 si-「自身」
+  u-「互」" — and gives "pen 上。pen-u 上げる。" So the segmentation is genuinely `he-` ('face') +
+  `pen-u` ('raise'), NOT a corruption of `hepuni`. Fable/Opus suspicion refuted. No change.
+- [ ] **UNCERTAIN, verify against sources** — `mat kayki` vs expected `mah` (person Ex 7).
+  OCR search of Chiri 1942 and Piłsudski 1912 for `mat kayki`/`mah` returned no hit; needs a
+  source not available locally, or a dialectological decision (defer).
 
 ## From Sonnet round (deferred / verified)
 - [x] **`pasuy` 'chopsticks'** — CHECKED, CORRECT as-is. Sonnet flagged it as 'prayer stick',
