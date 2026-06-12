@@ -103,14 +103,16 @@ self-contained fixes have already been applied.
   1SG object (Satō 1985), so 1SG.O is right — align morphophonology.
 - [ ] **postpositions internal §-numbering off by one** — the uncounted "Mutative ne" section
   shifts several in-prose §11.x references; renumber the cross-refs.
-- [ ] **place/speaker spelling canon** — Tarantomari ~ Taraytomari, Tunayci ~ Tunaychi,
-  Jasinoske ~ Yasinoske, Nairo ~ Nayro, Odasu ~ "Otasuh"; pick one spelling each.
+- [~] **place/speaker spelling canon** — FIXED `Tunaychi`→`Tunayci`, `Otasuh`→`Odasu`. STILL
+  OPEN: `Jasinoske ~ Yasinoske` (narrator name), `Nairo ~ Nayro`, and **`Taraytomari`** — do NOT
+  assume it is a typo of `Tarantomari` (west); it is paired with Nayro (northeast) in numerals
+  and may be a distinct Taraika-area place. Verify before unifying.
 - [ ] **plural `=hci` notation** — `=hci` vs `-hci` vs `=ahci` vs `-ahci` across chapters;
   settle clitic-vs-suffix notation to match the prose ("plural clitic =hci").
 - [ ] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2
   (PURP/because + lexical glosses) — unify beyond the TODO'd `kun` issue.
-- [ ] **misc one-liners** — `cahraku` etymology differs (phonology "Japanese rōsoku" vs
-  language-contact "Hokkaidō ratcaku < Chinese"); `imi-yehe` vs `imiye-he`; clause-linking Ex 3
+- [ ] **misc one-liners** — [`cahraku` etymology RESOLVED: phonology aligned to the
+  language-contact account, ratcaku < 蠟燭 Chinese via Japanese.] `imi-yehe` vs `imiye-he`; clause-linking Ex 3
   one-off labels PFV/CONJ; copula Ex 3 keeps the `ku'ani` apostrophe against the drop-apostrophe
   policy; numerals Table 1 caption "identical except 4, 5, 9" but row 7 varies (`arawan ~ aruwan`).
 - [ ] **UNCERTAIN, verify against sources** — Piłsudski checked with Rousselot in **Paris**
