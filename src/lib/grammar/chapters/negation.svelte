@@ -284,7 +284,7 @@
 				<td>‘want’</td>
 			</tr>
 			<tr>
-				<td><i lang="ain">koyaykus</i>, <i lang="ain">eaykap</i></td>
+				<td><i lang="ain">koyaykus</i>, <i lang="ain">eaykah</i></td>
 				<td>‘not be able’</td>
 				<td><i lang="ain">easkay</i></td>
 				<td>‘be able’</td>

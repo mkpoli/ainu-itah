@@ -144,11 +144,14 @@ self-contained fixes have already been applied.
   at the source (1979 = grammar, 1976 = text collection; both "p. 95" was the red flag).
 
 ## Canon / transcription / glossing consistency (from Fable-5 round 2 — deferred)
-- [ ] **Sakhalin coda shapes for citation forms** — several still appear in Hokkaidō shape vs
-  the grammar's own coda rules: `sik` 'eye (conceptual)' (nouns Table 1; surface free form is
-  `sis`), formal nouns `-p`/`kur` (Sakhalin `-h`/`kuru~kuh`), `eaykap` (negation; vs `eaykah`
-  in TAM/complementation). Decide per item whether to use the Sakhalin surface form or flag the
-  cited underlying form explicitly.
+- [~] **Sakhalin coda shapes for citation forms** — PARTIALLY RESOLVED. Fixed the clear internal
+  inconsistency: negation's negator-table `eaykap` → `eaykah` (Sakhalin coda `*p`→`h`), matching the
+  4 `eaykah` tokens in TAM/complementation. REMAINING (citation-convention decision, deferred):
+  `sik` 'eye' in nouns Table 1 (underlying citation vs surface free form `sis`) and the formal
+  nouns `-p`/`kur` (vs Sakhalin `-h`/`kuru~kuh`) — these are deliberate underlying-citation choices
+  in a paradigm table; decide per item whether to switch to the surface form or flag the underlying
+  form explicitly. (The possessed forms resurface the stop — `sik` → `sikihi` — so the underlying
+  citation is defensible, unlike the `eaykah` free-standing word.)
 - [x] **`tama in=konte`** — RESOLVED: the grammar's own convention (dialects §2.1.2 "in- is the
   exclusive first-person plural object prefix"; morphophonology Ex 8) glosses `in-` as
   1PL.EXCL.O, so the texts chapter's `jewel 1SG.O=give` was the outlier → aligned to
