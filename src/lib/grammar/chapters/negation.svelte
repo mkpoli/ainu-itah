@@ -9,8 +9,9 @@
 	and <Ref k="dalcorso2025neg" /> analyses the full system on the basis of 324 negative
 	tokens drawn from the East- and West-coast corpora. This chapter describes the attested
 	negators and their syntax, the negative existential, prohibitives and other irrealis
-	negation, and the history of the system. The basic facts are these: all Sakhalin negators
-	are built on a negative element <i lang="ain">ham</i>; the older pattern, best preserved
+	negation, and the history of the system. The basic facts are these: Sakhalin's productive
+	verbal negators are built on a single negative element <i lang="ain">ham</i> (the negative
+	existential <A w="isam" /> stands apart); the older pattern, best preserved
 	on the East coast, attaches <i lang="ain">ham=</i> directly to the negated word; and the
 	West-coast dialects of the twentieth-century recordings negate almost exclusively with
 	analytic constructions, above all <A w="hannehka" /> and the postverbal

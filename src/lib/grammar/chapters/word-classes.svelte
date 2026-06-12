@@ -155,7 +155,7 @@
 		class. First, person: a verb is indexed for its subject and object by affixes,
 		third person being zero <Ref k="chiri1942" p="§§22–23, 37" paren />. Second, strict
 		transitivity: every verb stem is lexically specified as intransitive or transitive,
-		and valency is changed only by overt morphology — causative <i lang="ain">-te/-re/-e</i>,
+		and valency is changed only by overt morphology — causative <i lang="ain">-te/-re</i>,
 		applicative <i lang="ain">e-/ko-/o-</i>, antipassive <i lang="ain">i-</i> and the
 		like (<Xr ch="valency">Chapter 14</Xr>). Pairs such as <A w="ahun" gl="enter" />
 		versus <A w="ahunke" gl="put in" /> or <A w="maka" gl="open (something)" /> versus

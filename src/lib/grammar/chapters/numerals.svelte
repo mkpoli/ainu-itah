@@ -211,7 +211,7 @@
 			<i lang="ain">e-</i>: <i lang="ain">wan e-tu-hoh</i> &lsquo;thirty&rsquo;,
 			literally &lsquo;ten (going) to forty&rsquo;
 			<Ref k="chiri1942" p="§110" />, and units are undercounted with
-			<i lang="ain">ikasma</i>, <i lang="ain">asikne ikasma hotne</i>
+			<i lang="ain">ikasma</i>, <i lang="ain">asikne ikasma hohne</i>
 			&lsquo;twenty-five&rsquo; <Ref k="chiri1942" p="§111" paren />.
 		</p>
 		<p>
