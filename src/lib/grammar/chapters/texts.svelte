@@ -571,7 +571,7 @@
 		m="sine utah-ta ne kusu porono ham e=(i=)ye yahka pirika nankoro pe ne"
 		g="one kin-? COP because much NEG 2SG.A=(INDEF.O=)say even.if good probably NMLZ COP"
 		tr="Since we are close kin, it would be fine even if you did not say much to me."
-		note="sine utahta ne kusu is a fixed idiom that Dobrotvorsky himself enters in the dictionary as sne utahta ne kusu ‘because we are relatives’: utah is the concept form of utar(a) ‘people, kin’, so the literal sense is ‘being one set of kinfolk’ (Sakaguchi 2021, n. 43). The parenthesized i= is the editor’s restoration. The negator here is ham, beside hanne in (36); the close nankoro pe ne ‘it will probably be (that…)’ is the epistemic formula."
+		note="sine utahta ne kusu is a fixed idiom that Dobrotvorsky himself enters in the dictionary as sne utahta ne kusu ‘because we are relatives’: utah is the concept form of utar(a) ‘people, kin’, so the literal sense is ‘being one set of kinfolk’ (Sakaguchi 2021, n. 43). The function of the frozen final -ta is unclear — plausibly the locative -ta in a lexicalized idiom — hence the ? in its gloss. The parenthesized i= on the morpheme line, and its (INDEF.O=) in the gloss, mark the editor’s restoration of an unwritten indefinite-object clitic. The negator here is ham, beside hanne in (36); the close nankoro pe ne ‘it will probably be (that…)’ is the epistemic formula."
 		cite="sakaguchi2021:52"
 		dial="SA"
 		place="Kusunnay"
