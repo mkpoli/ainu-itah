@@ -76,8 +76,11 @@ self-contained fixes have already been applied.
   Fable's claim that Hattori has `sittoh`/`sittokihi` is wrong; `síttok` is the Taraika/Hokkaidō
   shape, but West/general Sakhalin metathesises to `sistoh` (regular coda `*t`/i → s, `*k` → h).
   Not corrupt. No change.
-- [ ] **pronouns `taan` "far distal"** — `taan` is transparently `ta-an` (proximal/medial root
-  `ta-`); a "far distal" built on it vs distal `tara(-an)` needs a source (Murasaki 2025).
+- [x] **pronouns `taan` "far distal"** — VERIFIED (Murasaki, Enciw conversation book OCR, l.262):
+  Murasaki gives `taa`《あの》'that (distal)' → `ta'aan`《ずっと向こうの》'way over there' explicitly.
+  The grammar's far-distal `taan` is the apostrophe-dropped rendering of Murasaki's `ta'aan`, so
+  the emphatic far form built on the distal `taa-`/`ta-` (distinct from `tara(-an)`) is
+  source-grounded, not a reconstruction. No change.
 
 ## Glossing-convention decisions (from DeepSeek-V4 / GPT-5.5 round-2)
 - [ ] **possessed `-hV` glossed three ways** — `NMLZ` (nouns-and-possession), `PERS`
