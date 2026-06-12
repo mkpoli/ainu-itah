@@ -522,7 +522,7 @@
 			Hokkaidō, are largely supplanted in the corpus by the construction with
 			<A w="neampe" /> (<Xr ch="information-structure">Chapter 24</Xr>). Emotive and
 			interactional particles include interrogative <A w="hee" />, softening
-			<A w="waa" /> (example 9 of <Xr ch="nouns-and-possession">Chapter 7</Xr>), and
+			<A w="waa" /> (example 10 of <Xr ch="nouns-and-possession">Chapter 7</Xr>), and
 			<A w="na" /> of assertion; Chiri's minimal pair is <i lang="ain">seta he?</i>
 			&lsquo;a dog?&rsquo; against <i lang="ain">seta un!</i> &lsquo;a dog!&rsquo;
 			<Ref k="chiri1942" p="§128" paren />.
