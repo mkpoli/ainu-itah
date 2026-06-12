@@ -429,7 +429,7 @@
 	/>
 	<Ex
 		m="Tarayka un nispa kotan-u ohta hosipi hemaka"
-		g="Tarayka in master village-POSS to return.SG finish"
+		g="Tarayka ATTR master village-POSS to return.SG finish"
 		ain="Tarájkaun niśpa kotánu oxta xośíbi hemaka."
 		tr="The rich man of Tarayka went back to his village."
 		note="kotan-u ‘his village’ shows the possessive suffix with elided h (kotan-[h]u), a regular east-coast alternation."

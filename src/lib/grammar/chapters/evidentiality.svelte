@@ -154,8 +154,8 @@
 	</p>
 	<Ex
 		m="Sannupista sine horokewpo an manu"
-		g="Sannupet.LOC one man exist.SG REP"
-		tr="In Sannupet there lived a man, they say."
+		g="Sannupis.LOC one man exist.SG REP"
+		tr="In Sannupis there lived a man, they say."
 		cite="murasaki2001:text 19"
 		dial="WS"
 		place="Odasu (Asai Take)"
@@ -562,7 +562,7 @@
 		<Ref k="dalcorso2024" p="68" paren />. Piłsudski's incipit above (§16.1) shows the
 		pattern: <i lang="ain">an-kor henki-hi i-reske manu</i>, indefinite person under the
 		traditional-knowledge reportative. The letters invert both settings at once: Sentoku
-		writes of himself with <i lang="ain">ku=</i> and <i lang="ain">ci=</i>, vouching for his
+		writes of himself with <i lang="ain">an=</i> and <i lang="ain">ci=</i>, vouching for his
 		news in unmarked clauses, and reserves <i lang="ain">manuy</i> for the items he has at
 		second hand (§16.1). Genre, person marking and evidential choice are thus a single
 		package: indefinite narration under <i lang="ain">manu</i> for inherited tales,

@@ -89,3 +89,28 @@ self-contained fixes have already been applied.
 - [ ] **`murasaki1976:95` at evidentiality §16.6** was changed to `murasaki1979:95` to match the
   other two citations of the same `ku=ye-he sunke` sentence — but confirm which year is right
   at the source (1979 = grammar, 1976 = text collection; both "p. 95" was the red flag).
+
+## Canon / transcription / glossing consistency (from Fable-5 round 2 — deferred)
+- [ ] **Sakhalin coda shapes for citation forms** — several still appear in Hokkaidō shape vs
+  the grammar's own coda rules: `sik` 'eye (conceptual)' (nouns Table 1; surface free form is
+  `sis`), formal nouns `-p`/`kur` (Sakhalin `-h`/`kuru~kuh`), `eaykap` (negation; vs `eaykah`
+  in TAM/complementation). Decide per item whether to use the Sakhalin surface form or flag the
+  cited underlying form explicitly.
+- [ ] **`tama in=konte`** — glossed `bead 1PL.EXCL.O=give` (morphophonology Ex 8) vs
+  `jewel 1SG.O=give` (texts Ex 34) for the same Dobrotvorsky token; `in=` is the East-coast
+  1SG object (Satō 1985), so 1SG.O is right — align morphophonology.
+- [ ] **postpositions internal §-numbering off by one** — the uncounted "Mutative ne" section
+  shifts several in-prose §11.x references; renumber the cross-refs.
+- [ ] **place/speaker spelling canon** — Tarantomari ~ Taraytomari, Tunayci ~ Tunaychi,
+  Jasinoske ~ Yasinoske, Nairo ~ Nayro, Odasu ~ "Otasuh"; pick one spelling each.
+- [ ] **plural `=hci` notation** — `=hci` vs `-hci` vs `=ahci` vs `-ahci` across chapters;
+  settle clitic-vs-suffix notation to match the prose ("plural clitic =hci").
+- [ ] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2
+  (PURP/because + lexical glosses) — unify beyond the TODO'd `kun` issue.
+- [ ] **misc one-liners** — `cahraku` etymology differs (phonology "Japanese rōsoku" vs
+  language-contact "Hokkaidō ratcaku < Chinese"); `imi-yehe` vs `imiye-he`; clause-linking Ex 3
+  one-off labels PFV/CONJ; copula Ex 3 keeps the `ku'ani` apostrophe against the drop-apostrophe
+  policy; numerals Table 1 caption "identical except 4, 5, 9" but row 7 varies (`arawan ~ aruwan`).
+- [ ] **UNCERTAIN, verify against sources** — Piłsudski checked with Rousselot in **Paris**
+  (Collège de France), not "London" (dialects §2.2); `he-pen-u` 'raise face' looks like a
+  corrupt segmentation of `hepuni` (valency §14.6); `mat kayki` vs expected `mah` (person Ex 7).

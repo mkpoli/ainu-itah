@@ -426,20 +426,20 @@
 			there&rsquo;); and <A w="ramma" gl="always, as ever" />, likewise from the Sentoku
 			letters (<i lang="ain">ramma ka pirika</i> &lsquo;are well as ever&rsquo;). The
 			completive notion &lsquo;finish doing&rsquo; is carried not by an adverb but by the
-			verb <A w="hemaka" gl="finish" /> (<Xr ch="tense-aspect-mood" s="completive">§15.6</Xr>),
+			verb <A w="hemaka" gl="finish" /> (<Xr ch="tense-aspect-mood" s="completive">Chapter 15</Xr>),
 			the iterative-habitual by the conjunctive <A w="koh" />
-			(<Xr ch="tense-aspect-mood" s="iterative">§15.5</Xr>). <em>Degree</em> adverbs scale
+			(<Xr ch="tense-aspect-mood" s="iterative">Chapter 15</Xr>). <em>Degree</em> adverbs scale
 			the predicate: intensifying <A w="reekoh" gl="very" />, which the Karafuto wordlists
 			label explicitly as an adverb &lsquo;very, exceedingly&rsquo;; diminishing
 			<A w="ponno" gl="a little" />; and the quantifier-like <A w="okore" gl="all" />
 			(<i lang="ain">okore oyra</i> &lsquo;forget all&rsquo;), the Sakhalin counterpart of
-			Hokkaidō <i lang="ain">opitta</i>, which the corpus does not use.
+			Hokkaidō <i lang="ain">opitta</i>, whose own reflex <i lang="ain">opista</i> the corpus uses only in the Sentoku letters.
 			<em>Manner</em> adverbs are chiefly the <i lang="ain">-no</i> class, joined by the
 			demonstrative-based <A w="nah" gl="thus, so" /> &lsquo;in that way&rsquo;
 			(<i lang="ain">nah kii</i> &lsquo;do so&rsquo;) and <A w="ene" gl="like this" />. The
 			deictic and directional adverbs — <A w="teeta" gl="here" />, <A w="ene" /> and their
 			kin — pattern with the demonstrative system and are treated under it
-			(<Xr ch="pronouns-and-demonstratives" s="adverbs">§9.6</Xr>).
+			(<Xr ch="pronouns-and-demonstratives" s="adverbs">Chapter 9</Xr>).
 		</p>
 		<Ex
 			m="suy niina kusu makan manu"

@@ -608,8 +608,11 @@
 		place="Yamada Hayo"
 	/>
 	<p>
-		Hokkaidō-type <i lang="ain">opitta</i> &lsquo;all&rsquo; is absent from the
-		Sakhalin corpus; Chiri cites it only from Hokkaidō sources, distinguishing it from
+		The Hokkaidō <em>shape</em> <i lang="ain">opitta</i> &lsquo;all&rsquo; is absent from the
+		Sakhalin corpus, though its regular reflex <i lang="ain">opista</i>
+		(<Xr ch="phonology" s="coda-h" />) does appear in the Sentoku letters
+		(<Xr ch="valency" />); <i lang="ain">okore</i> and <i lang="ain">emuyke</i> are the usual
+		exponents. Chiri cites <i lang="ain">opitta</i> only from Hokkaidō sources, distinguishing it from
 		<i lang="ain">epitta</i> &lsquo;all over&rsquo;
 		<Ref k="chiri1942" p="§123(104), (131)" paren />. Negative quantification uses
 		<i lang="ain">ka</i> &lsquo;even&rsquo; with the negative existential, as in (13)
