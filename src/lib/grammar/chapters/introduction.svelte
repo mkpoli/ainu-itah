@@ -118,7 +118,7 @@
 		and, where known, the locality and the speaker — here Sisratoka of Tarayka. Some
 		examples close with a small-print note on points the gloss cannot carry, such as the
 		note on <i lang="ain">-ahci</i> spelt <i lang="ain">-axći</i> in
-		<Xr ch="texts">Chapter 25</Xr>, where this tale is glossed in full.
+		<Xr ch="texts">Chapter 26</Xr>, where this tale is glossed in full.
 	</p>
 </S>
 

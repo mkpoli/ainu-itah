@@ -40,6 +40,18 @@ export interface BibEntry {
 }
 
 export const bibliography: Record<string, BibEntry> = {
+	austerlitz1976: {
+		region: 'general',
+		author: 'Austerlitz, Robert',
+		citeAuthor: 'Austerlitz',
+		year: '1976',
+		title: "L'appellation du renne en ghiliak",
+		container: 'Études finno-ougriennes',
+		pages: '13: 25–28',
+		lang: 'fr',
+		note: 'Cited after Janhunen (2022)',
+		reported: true
+	},
 	asai1974: {
 		region: 'general',
 		author: 'Asai Tōru 浅井亨',
@@ -764,6 +776,20 @@ export const bibliography: Record<string, BibEntry> = {
 		title: 'The languages of Japan',
 		publisher: 'Cambridge University Press',
 		place: 'Cambridge'
+	},
+	tamura1999: {
+		region: 'sakhalin',
+		author: 'Tamura Masashi 田村雅史',
+		citeAuthor: 'Tamura',
+		year: '1999',
+		title: '樺太アイヌ語の借用語について——ウイルタ語・ニヴフ語との関係を中心に',
+		titleTr:
+			'On loanwords in Sakhalin Ainu, with special reference to the Uilta and Nivkh connections',
+		container: '北方言語研究 [Northern language studies]',
+		pages: '別冊',
+		note: 'Cited after Shiraishi & Tangiku (2022)',
+		reported: true,
+		lang: 'ja'
 	},
 	tamura2000: {
 		region: 'hokkaido',

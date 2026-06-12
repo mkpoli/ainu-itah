@@ -21,7 +21,7 @@
 				<summary>Contents</summary>
 				<nav aria-label="Grammar table of contents">
 					{#each parts as part, pi}
-						<p class="g-part">Part {['I', 'II', 'III', 'IV', 'V', 'VI'][pi]} · {part.title}</p>
+						<p class="g-part">Part {['I', 'II', 'III', 'IV', 'V', 'VI', 'VII'][pi]} · {part.title}</p>
 						<ul>
 							{#each part.chapters as c}
 								<li class:current={current === c.slug}>

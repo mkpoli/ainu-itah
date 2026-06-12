@@ -58,7 +58,7 @@
 		<i lang="ain">teh</i> is the default sequencer, often several to a sentence; the
 		Sentoku letters use <i lang="ain">wa</i> more freely, as in
 		<i lang="ain">nukara konte wa</i> ‘please read it’ (Letter 1), where it chains onto
-		a benefactive (<Xr ch="texts">Chapter 25</Xr>).
+		a benefactive (<Xr ch="texts">Chapter 26</Xr>).
 	</p>
 	<p>
 		The interval that <i lang="ain">teh</i> asserts can be made explicit by a following
