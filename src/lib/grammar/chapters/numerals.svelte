@@ -217,7 +217,7 @@
 		<p>
 			The two devices are not in free variation: they divide each score at its
 			midpoint. Below it, the count hangs from the score just passed — twenty-one to
-			twenty-nine are <i lang="ain">ikasma</i>-forms on <i lang="ain">hotne</i>; above
+			twenty-nine are <i lang="ain">ikasma</i>-forms on <i lang="ain">hohne</i>; above
 			it, the count reaches for the score ahead — thirty-one is <i lang="ain">sine
 			ikasma wan e-tu-hoh</i>, &lsquo;(one over ten) toward forty&rsquo;. Ochiai, who
 			states the rule in these terms, observes that Hokkaidō and Sakhalin agree on the

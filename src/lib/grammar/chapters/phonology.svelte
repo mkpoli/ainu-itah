@@ -756,7 +756,7 @@
 	</p>
 	<Ex
 		m="tan kotan ohta utasa=an kusu ariki=an"
-		g="this village in visit=INDEF.S because come.PL=INDEF.S"
+		g="this village in visit=INDEF.S PURP come.PL=INDEF.S"
 		orig="Tan kotàn ohtà utása=an kusú áriki=an."
 		tr="I have come to call on this village."
 		cite="dobrotvorsky1875; sakaguchi2021"

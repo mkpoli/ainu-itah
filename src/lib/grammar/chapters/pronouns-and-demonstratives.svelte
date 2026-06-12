@@ -248,7 +248,7 @@
 		‘lake’ and ‘day’; the distal slot is <i lang="ain">tara(-an)</i>, literally ‘being
 		there’, a Sakhalin–Kuril retention <Ref k="chiri1942" p="§97" paren />. The plural
 		adnominals contain <i lang="ain">okay</i> ‘exist.PL’ and pluralise the noun phrase by
-		themselves (<i lang="ain">nerox nuso-utara</i> ‘those sledges’,
+		themselves (<i lang="ain">neeroh nuso-utara</i> ‘those sledges’,
 		<Xr ch="number">Chapter 8</Xr>); a plural form is never used of a singular referent,
 		though the singular may stand for plurals <Ref k="sakaguchi2020ahcin" p="16" paren />.
 		Only <i lang="ain">tan</i> compounds with time nouns: <i lang="ain">tanto</i> ‘today’,
