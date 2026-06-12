@@ -97,8 +97,9 @@
 		(Det<sub>n</sub>) (clause) N (plural) <Ref k="furukawa1967" p="102" paren />.
 		Modifying ‘adjectives’ are clauses (<Xr ch="word-classes">Chapter 6</Xr>;
 		<Xr ch="relative-clauses">Chapter 21</Xr>), and the plural words
-		<i lang="ain">uta(h)</i>, <i lang="ain">oy</i>, <i lang="ain">ikiri</i> close the
-		phrase (<Xr ch="number">Chapter 8</Xr>). The possessive morphology wraps around the
+		<i lang="ain">uta(h)</i> (<Xr ch="number">Chapter 8</Xr>),
+		<i lang="ain">oy</i>, and <i lang="ain">ikiri</i> close the
+		phrase. The possessive morphology wraps around the
 		whole phrase, not just the head noun: Furukawa records
 		<i lang="ain">e-kurasno seta-ha</i> ‘your black dog’ and, with a numeral,
 	</p>
