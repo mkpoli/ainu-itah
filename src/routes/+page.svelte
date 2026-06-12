@@ -58,18 +58,39 @@
 	</a>
 </p>
 
-<a
-	href="/grammar"
-	class="group mx-auto my-8 block max-w-screen-md rounded-lg border border-blue-200 bg-gradient-to-br from-blue-50 to-white p-5 transition hover:border-blue-300 hover:shadow-sm"
->
-	<p class="text-xs font-semibold uppercase tracking-widest text-blue-600">{m.reference_grammar()}</p>
-	<p class="mt-1 text-gray-600">{m.reference_grammar_desc()}</p>
-	<span class="mt-2 inline-block text-sm font-medium text-blue-600 group-hover:underline"
-		>{m.read_grammar()} →</span
+<!-- The two halves of the site, given equal billing. -->
+<nav class="mx-auto my-8 grid max-w-screen-md grid-cols-1 gap-4 px-4 sm:grid-cols-2">
+	<a
+		href="#dictionaries"
+		onclick={(e) => {
+			e.preventDefault();
+			document.getElementById('dictionaries')?.scrollIntoView({ behavior: 'smooth' });
+		}}
+		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm"
 	>
-</a>
+		<p class="text-3xl" aria-hidden="true">📚</p>
+		<p class="mt-2 text-lg font-bold text-gray-800 group-hover:text-blue-800">
+			{m.dictionaries()}
+		</p>
+		<p class="mt-1 grow text-sm text-gray-500">{m.dictionary_desc()}</p>
+		<span class="mt-3 text-sm font-medium text-blue-800 group-hover:underline">↓</span>
+	</a>
+	<a
+		href="/grammar"
+		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm"
+	>
+		<p class="text-3xl" aria-hidden="true">📖</p>
+		<p class="mt-2 text-lg font-bold text-gray-800 group-hover:text-blue-800">
+			{m.reference_grammar()}
+		</p>
+		<p class="mt-1 grow text-sm text-gray-500">{m.reference_grammar_desc()}</p>
+		<span class="mt-3 text-sm font-medium text-blue-800 group-hover:underline"
+			>{m.read_grammar()} →</span
+		>
+	</a>
+</nav>
 
-<h2 class="my-6 text-center text-2xl font-bold">{m.dictionaries()}</h2>
+<h2 id="dictionaries" class="my-6 scroll-mt-4 text-center text-2xl font-bold">{m.dictionaries()}</h2>
 
 <DictionaryTable />
 
