@@ -543,7 +543,7 @@
 	</p>
 	<Ex
 		m="cise-ta paye-hci ike tani taa acahcipo reekoh e-yayko-nopuru manu"
-		g="house-LOC go.PL-PL and now EMPH old.woman very APPL-REFL.APPL-be.delighted manu"
+		g="house-LOC go.PL-PL and now EMPH old.woman very APPL-REFL.APPL-be.delighted REP"
 		tr="They came to the house, and the old woman was overjoyed at it."
 		note="yayko-nopuru ‘rejoice (within oneself)’ takes a further e- introducing the stimulus."
 		cite="murasaki2001:text 51"

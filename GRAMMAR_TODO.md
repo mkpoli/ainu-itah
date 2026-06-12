@@ -34,3 +34,28 @@ self-contained fixes have already been applied.
   `s` outcome is attested for `*t` after `i`, not only for `*k`/`*p`.
 - [ ] **phonology** — `sahka` glossed 'chopsticks' (Asai Take text 5). Confirm against the
   source (Gemini flagged a possible 'summer' reading; the attested gloss is likely correct).
+
+## Factual inconsistencies needing a source check (from Fable-5 review)
+- [ ] **Sentoku Tarōji dates/place** — birth year given as 1872 (orthography §3.1.2) vs 1871
+  (texts §26.2); and the letters localised to Otasan everywhere but "from Naybuci" once
+  (texts §26.2). Determine the correct year and village; align.
+- [ ] **Dobrotvorsky appendix** — "two connected texts" (dialects §2.2, texts §26.4) vs
+  "three short connected pieces — a farewell address and two reconciliation dialogues"
+  (orthography §3.1.1). Verify the count.
+- [ ] **Asai Take corpus size/dates** — "54 tales" (TAM, evidentiality) vs `murasaki2001:text 92`
+  cited in numerals (impossible if only 54); recording window "1986–1988" (dialects §2) vs
+  "1984–early 1990s", with text 40 dated 7 April 1990 (texts). Reconcile.
+- [ ] **numerals `asikne`** — Fable flags `asikne` 'five' as the Hokkaidō shape vs Sakhalin
+  `asne ~ asisne` (coda k after i → s). Check Table 1 and the person-counter `asiknen`;
+  decide whether `asikne` should be `asisne`.
+- [ ] **person-and-alignment `-(y)an` gloss** (also from GPT-5.5) — Ex with `eci-…-yan` glosses
+  the suffix `1.A`, another Ex glosses `-an` as `2PL.A`, and the table labels `eci-…-yan`
+  "1.A (KU/CI)"; the adopted Sakaguchi analysis says `-(y)an` marks 2nd-person plurality.
+  Pick ONE convention across the chapter (entangled with the inverse-vs-Sakaguchi debate).
+- [ ] **`kun(i)` gloss** — 'going.to' (person-and-alignment, TAM) vs `COND` (complementation,
+  negation, relative-clauses). Decide one label (prospective vs conditional-irrealis) or
+  distinguish two morphemes explicitly.
+- [ ] **morphophonology `sistoh` 'elbow'** — Fable: Hattori's Rayciska form is `sittoh` /
+  `sittokihi` (< `sittok`); `sist-` looks corrupt. Verify against Hattori 1964.
+- [ ] **pronouns `taan` "far distal"** — `taan` is transparently `ta-an` (proximal/medial root
+  `ta-`); a "far distal" built on it vs distal `tara(-an)` needs a source (Murasaki 2025).

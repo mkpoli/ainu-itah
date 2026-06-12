@@ -217,8 +217,7 @@
 		grammar: syllable codas are written with small kana (<span lang="ain-Kana">ㇷ゚ ッ ㇰ ㇱ
 			ㇺ</span> for -p, -t, -k, -s, -m), and the coda fricative /h/ with a small ha-row kana
 		agreeing in vowel colour with the preceding vowel — <span lang="ain-Kana">マㇵ</span>
-		<i lang="ain">mah</i> 'woman', <span lang="ain-Kana">シㇶ</span>
-		<i lang="ain">sih</i> 'eye', <span lang="ain-Kana">クㇷ</span>
+		<i lang="ain">mah</i> 'woman', <span lang="ain-Kana">クㇷ</span>
 		<i lang="ain">kuh</i> 'belt', <span lang="ain-Kana">テㇸ</span>
 		<i lang="ain">teh</i> 'hand', <span lang="ain-Kana">オㇹ</span>
 		<i lang="ain">oh</i> 'spear' <Ref k="chiri1942" p="凡例" paren />. The vowel-matched

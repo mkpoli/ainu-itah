@@ -200,7 +200,8 @@
 			Three-place predicates are derived, not basic: the recipient verbs are causatives
 			of possession and ingestion. <A w="konte" gl="give" /> is
 			<i lang="ain">kor-te</i> ‘cause to have’, and Chiri insists that in
-			<i lang="ain">tampe huci ku-kore</i> ‘I give this to grandmother’ the grandmother
+			<i lang="ain">tampe huci ku-konte</i> ‘I give this to grandmother’ (his §68 example,
+			cited in pan-Ainu shape as <i lang="ain">ku-kore</i>) the grandmother
 			is the causee-object, not a dative <Ref k="chiri1942" p="§68" paren />. The
 			recipient is the argument the verb indexes; the theme stays a bare unindexed
 			noun:
@@ -492,7 +493,7 @@
 		are cited with their echo vowel (<i lang="ain">nukara</i>, not
 		<i lang="ain">nukar</i>), coda-neutralised verbs with <i lang="ain">h</i>
 		(<i lang="ain">itah</i>, <i lang="ain">yah</i>), and suppletive verbs as a pair with
-		the singular first (<i lang="ain">oman</i> ~ <i lang="ain">payeh</i>). Where an
+		the singular first (<i lang="ain">oman</i> ~ <i lang="ain">paye</i>). Where an
 		underlying stem matters we add it in parentheses (<i lang="ain">itak-</i>,
 		<i lang="ain">kor-</i>).
 	</p>

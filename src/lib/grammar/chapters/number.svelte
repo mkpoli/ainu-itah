@@ -53,7 +53,7 @@
 			the commoner <i lang="ain">anokay-ahsin</i>
 			<Ref k="sakaguchi2020ahcin" p="6" paren />. With demonstratives the marker interacts
 			with the number distinction of the demonstrative itself: <i lang="ain">nea seta</i>
-			‘that dog’, <i lang="ain">nea seta-utar(a)</i> ‘those dogs’, <i lang="ain">nerox
+			‘that dog’, <i lang="ain">nea seta-utar(a)</i> ‘those dogs’, <i lang="ain">neeroh
 			nuso-utara</i> ‘those sledges’ <Ref k="chiri1942" p="§67" paren />. In Asai Take's
 			tales the combination of anaphoric demonstrative, noun and <i lang="ain">utah</i> is a
 			narrative staple:

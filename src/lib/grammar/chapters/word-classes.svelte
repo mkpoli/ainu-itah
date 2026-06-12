@@ -162,7 +162,7 @@
 		<A w="makke" gl="come open" /> show the opposition lexically
 		<Ref k="chiri1942" p="§§28, 35" paren />. Third, number: a set of stems distinguishes
 		singular and plural by suppletion or stem alternation
-		(<A w="oman" gl="go (one)" /> ~ <A w="payeh" gl="go (several)" />,
+		(<A w="oman" gl="go (one)" /> ~ <A w="paye" gl="go (several)" />,
 		<A w="an" gl="exist (one)" /> ~ <A w="okay" gl="exist (several)" />), and Sakhalin
 		Ainu adds the plural suffix <i lang="ain">-hci</i> to verbs of either class
 		<Ref k="chiri1942" p="§§35, 41" paren />; <Xr ch="number">Chapter 8</Xr>. Verbs have
@@ -358,7 +358,7 @@
 			they must be nominalized by a classifier, <i lang="ain">-p/-pe</i> for things,
 			<i lang="ain">-n</i> for people, <A w="pis" /> for &lsquo;pieces&rsquo;
 			<Ref k="chiri1942" p="§113" paren />. The system is vigesimal
-			(<A w="hox" gl="twenty" />, <Ref k="chiri1942" p="§108" paren />), and Sakhalin
+			(<A w="hoh" gl="twenty" />, <Ref k="chiri1942" p="§108" paren />), and Sakhalin
 			speakers also used a decimal series borrowed through the Amur
 			(&ldquo;Santan&rdquo;) trade, <i lang="ain">sine kunkutu</i> &lsquo;ten&rsquo;,
 			<i lang="ain">sine tanku</i> &lsquo;hundred&rsquo;
@@ -469,8 +469,10 @@
 			while temporal and aspectual adverbs with clausal scope favour clause-initial
 			position, as <i lang="ain">suy</i> and <i lang="ain">tani</i> repeatedly do in
 			narrative. Two neighbouring devices are not part of this class. Negative polarity is
-			not adverbial: it is built on the negators <A w="somo" /> and <A w="ette" /> and the
-			negative existential <A w="isam" /> (<Xr ch="negation" s="standard-negation">§17.2</Xr>).
+			not adverbial: it is built on the <i lang="ain">ham</i>-family negators
+			(<A w="hannehka" />, <A w="hanki" />, the proclitic <i lang="ain">ham=</i>) and the
+			negative existential <A w="isam" />, all treated in
+			<Xr ch="negation" s="standard-negation">Chapter 17</Xr>.
 			And the scalar-additive <A w="ka" />, <A w="kayki" /> and the restrictive
 			<A w="pateh" gl="only" /> are clitic focus particles, placed after their host rather
 			than before it (<Xr ch="information-structure" s="focus-particles">§24.3</Xr>). The
