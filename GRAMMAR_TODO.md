@@ -99,9 +99,10 @@ self-contained fixes have already been applied.
   `sis`), formal nouns `-p`/`kur` (Sakhalin `-h`/`kuru~kuh`), `eaykap` (negation; vs `eaykah`
   in TAM/complementation). Decide per item whether to use the Sakhalin surface form or flag the
   cited underlying form explicitly.
-- [ ] **`tama in=konte`** — glossed `bead 1PL.EXCL.O=give` (morphophonology Ex 8) vs
-  `jewel 1SG.O=give` (texts Ex 34) for the same Dobrotvorsky token; `in=` is the East-coast
-  1SG object (Satō 1985), so 1SG.O is right — align morphophonology.
+- [x] **`tama in=konte`** — RESOLVED: the grammar's own convention (dialects §2.1.2 "in- is the
+  exclusive first-person plural object prefix"; morphophonology Ex 8) glosses `in-` as
+  1PL.EXCL.O, so the texts chapter's `jewel 1SG.O=give` was the outlier → aligned to
+  `bead 1PL.EXCL.O=give`.
 - [ ] **postpositions internal §-numbering off by one** — the uncounted "Mutative ne" section
   shifts several in-prose §11.x references; renumber the cross-refs.
 - [~] **place/speaker spelling canon** — FIXED `Tunaychi`→`Tunayci`, `Otasuh`→`Odasu`. STILL
