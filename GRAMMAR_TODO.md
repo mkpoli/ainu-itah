@@ -116,8 +116,11 @@ self-contained fixes have already been applied.
   exclusive first-person plural object prefix"; morphophonology Ex 8) glosses `in-` as
   1PL.EXCL.O, so the texts chapter's `jewel 1SG.O=give` was the outlier → aligned to
   `bead 1PL.EXCL.O=give`.
-- [ ] **postpositions internal §-numbering off by one** — the uncounted "Mutative ne" section
-  shifts several in-prose §11.x references; renumber the cross-refs.
+- [x] **postpositions internal §-numbering off by one** — FIXED. The auto-numberer counts the
+  overview `<S t="The case-particle system">` as §11.1, so every case particle is +1 vs the
+  prose's manual numbers (which started counting at the first real particle). Corrected all six
+  references: intro "(§11.1–§11.7), relational nouns (§11.8), boundary (§11.9)"; `kasketa` forms
+  →§11.8; ene examples →§11.8; comitative note →§11.6; overlap note →§11.9.
 - [~] **place/speaker spelling canon** — FIXED `Tunaychi`→`Tunayci`, `Otasuh`→`Odasu`. STILL
   OPEN: `Jasinoske ~ Yasinoske` (narrator name), `Nairo ~ Nayro`, and **`Taraytomari`** — do NOT
   assume it is a typo of `Tarantomari` (west); it is paired with Nayro (northeast) in numerals
