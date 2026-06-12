@@ -122,6 +122,20 @@ self-contained fixes have already been applied.
   (Collège de France), not "London" (dialects §2.2); `he-pen-u` 'raise face' looks like a
   corrupt segmentation of `hepuni` (valency §14.6); `mat kayki` vs expected `mah` (person Ex 7).
 
+## From Sonnet round (deferred / verified)
+- [x] **`pasuy` 'chopsticks'** — CHECKED, CORRECT as-is. Sonnet flagged it as 'prayer stick',
+  but that confused `pasuy` (chopsticks) with `ikupasuy` (libation stick, lit. "drinking-
+  chopstick") — the derivation confirms `pasuy` = chopstick. `sahka` is simply the other
+  (native) Sakhalin word for chopsticks; both can coexist. No change.
+- [ ] **`hVV` final particle vs `-hV` evidential** — information-structure §24.5 lists
+  sentence-final `hii/hee` as a "strengthening discourse particle" (grouped with kanne/waa),
+  but nominalization §20.5 / evidentiality §16.6 adopt Bugaeva 2016's analysis that sentence-
+  final `-hV` is the possessive nominalization in insubordinated use. Reconcile, or cross-
+  reference, or argue they are distinct homophones.
+- [ ] **Piłsudski "voicing commoner in the west"** (phonology, voicing §) — Piłsudski's corpus
+  is east-coast only, so crediting him with a west-coast voicing observation is internally odd.
+  Verify what Dal Corso 2024:61 actually attributes to him; reattribute or reword if needed.
+
 ## From Opus round 2 (deferred)
 - [ ] **Dobrotvorsky corpus dialect tag** — the 1867–1872 Kusunnay material is tagged `WS` in
   ~11 chapters (and is the introduction's canonical WS specimen) but `SA` for several
