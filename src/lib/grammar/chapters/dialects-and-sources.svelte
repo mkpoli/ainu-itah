@@ -221,7 +221,7 @@
 		<span lang="ja">金田一京助</span> visited the new territory in 1907 and published
 		detailed reports on the phonetics of Tunayci and Ociho, followed by the
 		autobiography of the Tsuishikari-raised speaker Yamabe Yasunosuke
-		<span lang="ja">山邊安之助</span>, <span lang="ja">あいぬ物語</span>
+		<span lang="ja">山辺安之助</span>, <span lang="ja">あいぬ物語</span>
 		<i>Ainu monogatari</i> (1913), with a grammatical outline as its appendix — the first
 		systematic sketch of the language <Ref k="sakaguchi2024" p="8" paren />. The central
 		work of the period is <Ref k="chiri1942" />, on which see
