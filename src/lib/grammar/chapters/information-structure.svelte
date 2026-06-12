@@ -93,7 +93,7 @@
 		note="A fox in human disguise introduces himself; -si is the east-coast shape of plural -hci."
 		cite="pilsudski1912:text 21, ll. 23–25"
 		dial="ES"
-		place="Tunaychi (Yasinoske)"
+		place="Tunayci (Yasinoske)"
 	/>
 	<p>
 		In the west-coast corpus <i lang="ain">anahne</i> is absent: Asai Take's

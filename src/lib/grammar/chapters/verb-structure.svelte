@@ -486,7 +486,7 @@
 		note="inkara ‘look’ (from i-nukar) is an underlying r-stem: inkan rusuy, like kon rusuy."
 		cite="tangiku1998:227"
 		dial="WS"
-		place="Otasuh"
+		place="Odasu (Asai Take)"
 	/>
 	<p>
 		Citation forms in this grammar follow the surface word: <i lang="ain">-rV</i> verbs

@@ -712,10 +712,11 @@
 		<p>
 			Borrowings are reshaped to this template. Initial <i lang="ain">r</i> and foreign
 			<i lang="ain">l</i> are avoided: Tungusic <i lang="ain">luca</i> ‘Russian’ was
-			borrowed as <A w="nuca" /> <Ref k="chiri1942" p="§17,2" paren />, and Japanese
-			<span lang="ja">蠟燭</span> <i lang="ja">rōsoku</i> ‘candle’ appears as
-			<i lang="ain">cahraku</i> ‘lamp’ with metathesis of the initial
-			<Ref k="chiri1942" p="§20" paren />. Japanese accent and vowel quantity are mapped
+			borrowed as <A w="nuca" /> <Ref k="chiri1942" p="§17,2" paren />, and
+			<span lang="ja">蠟燭</span> ‘candle’ (Chinese, via Japanese <i lang="ja">rōsoku</i>),
+			through the intermediate <i lang="ain">ratcaku</i>, appears as
+			<i lang="ain">cahraku</i> ‘lamp’ with metathesis of the initial <i lang="ain">r</i>
+			(<Ref k="chiri1942" p="§20" paren />; <Xr ch="language-contact" s="adaptation" />). Japanese accent and vowel quantity are mapped
 			onto length: <i lang="ja">kane</i> ‘metal’ gives <A w="kaani" />, where Hokkaidō
 			has accented <i lang="ain">káni</i> <Ref k="tangiku2022" p="§2.1" paren />, and
 			<i lang="ja">tuki</i> ‘cup’ gives <A w="tuuki" /> <Ref k="bugaeva2022" paren />.
