@@ -84,8 +84,11 @@ self-contained fixes have already been applied.
   (evidentiality perception-noun construction), `POSS` (nominalization). The grammar says it
   is one form extended from nouns to verbs; decide whether to gloss it uniformly or document
   the context-sensitive labels deliberately.
-- [ ] **texts gloss hygiene** — a `?` gloss ("one kin-? COP") and parenthesised `(INDEF.O=)`
-  in texts §26 are not clean Leipzig; resolve or annotate the uncertainty explicitly.
+- [x] **texts gloss hygiene** — RESOLVED by explicit annotation. The `?` on `utah-ta` reflects a
+  genuinely unclear frozen `-ta` (plausibly locative in a lexicalized idiom); the note now says so
+  outright. The parenthesised `(INDEF.O=)` mirrors the morpheme line's editorial `(i=)` restoration
+  — a recognised convention for an editor-restored unwritten clitic — and the note now states that
+  too. Both uncertainties are annotated rather than silently left as bare symbols.
 - [x] **`u-sam` homophony** — RESOLVED: added a note in postpositions (§11.8) distinguishing the
   relational noun `sam` 'side' (→ `u-sam` 'next to each other') from the homophonous verb `sam`
   'marry' (→ `u-sam` 'marry each other'), cross-referenced to valency §14 (reciprocal).
