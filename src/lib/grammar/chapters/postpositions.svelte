@@ -498,7 +498,7 @@
 		cite="murasaki2001:text 4"
 		dial="WS"
 		place="Odasu (Asai Take)"
-		note="The perceiver-oriented frame of (5) again, here with a relational noun."
+		note="The perceiver-oriented frame of (6) again, here with a relational noun."
 	/>
 	<p>
 		Temporal uses follow the spatial ones: <i lang="ain">etoko ta</i>

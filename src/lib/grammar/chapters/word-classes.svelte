@@ -465,7 +465,7 @@
 			constituent modified — degree adverbs hug the property verb, as
 			<i lang="ain">reekoh pirika</i> in the second example, and manner
 			<i lang="ain">-no</i> adverbs sit just before their verb, as
-			<i lang="ain">pirika-no reske</i> &lsquo;raised (the child) well&rsquo; in (8) —
+			<i lang="ain">pirika-no reske</i> &lsquo;raised (the child) well&rsquo; in (7) —
 			while temporal and aspectual adverbs with clausal scope favour clause-initial
 			position, as <i lang="ain">suy</i> and <i lang="ain">tani</i> repeatedly do in
 			narrative. Two neighbouring devices are not part of this class. Negative polarity is
@@ -494,8 +494,8 @@
 			purpose, and with a following existential builds an incipient progressive
 			(<i lang="ain">kayo kusu an</i> &lsquo;is calling&rsquo;,
 			<Xr ch="tense-aspect-mood" >Chapter 15</Xr>). The division of labour among these
-			linkers is the subject of <Xr ch="clause-linking">Chapter 23</Xr>. Example (12)
-			shows <A w="anah" /> with the first person plural exclusive set; (13) shows
+			linkers is the subject of <Xr ch="clause-linking">Chapter 23</Xr>. Example (14)
+			shows <A w="anah" /> with the first person plural exclusive set; (15) shows
 			<A w="yahkayki" /> and <A w="teh" />.
 		</p>
 		<Ex
@@ -540,8 +540,8 @@
 		<p>
 			Interjections stand outside clause syntax: attention-calling
 			<A w="iineahsuy" gl="say, hey" />, which opens requests and questions throughout
-			the Asai corpus (so in example 9 of <Xr ch="nouns-and-possession">Chapter
-			7</Xr>); <A w="keh" gl="well then" /> in (12) above; assenting
+			the Asai corpus (so in example 10 of <Xr ch="nouns-and-possession">Chapter
+			7</Xr>); <A w="keh" gl="well then" /> in (14) above; assenting
 			<A w="ee" gl="yes" />. They take no morphology and combine with no particle,
 			which is what distinguishes them from adverbs.
 		</p>

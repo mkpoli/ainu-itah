@@ -162,7 +162,7 @@
 		cite="murasaki2001:text 19"
 		dial="WS"
 		place="Odasu (Asai Take)"
-		note="tuh pis in apposition to the subject; for another example see (10) of Chapter 6."
+		note="tuh pis in apposition to the subject; for another example see (11) of Chapter 6."
 	/>
 	<p>
 		<i lang="ain">sine</i> doubles as an indefinite article-like determiner
@@ -642,7 +642,7 @@
 	</p>
 	<p>
 		Used without a noun, the nominal numerals function as floating quantifiers in
-		apposition to an argument, as in (3) and (4); the distributive particle
+		apposition to an argument, as in (3) and (14); the distributive particle
 		<i lang="ain">ranke</i> &lsquo;each&rsquo; <Ref k="chiri1942" p="§125(172)" paren />
 		combines with them:
 	</p>
