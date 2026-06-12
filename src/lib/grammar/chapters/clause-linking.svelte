@@ -56,9 +56,10 @@
 		(<Xr ch="tense-aspect-mood">Chapter 15</Xr>;
 		<Xr ch="negation" s="negative-existential">§17.4</Xr>). In Asai Take's narration
 		<i lang="ain">teh</i> is the default sequencer, often several to a sentence; the
-		Sentoku letters use <i lang="ain">wa</i> more freely, as in
-		<i lang="ain">nukara konte wa</i> ‘please read it’ (Letter 1), where it chains onto
-		a benefactive (<Xr ch="texts">Chapter 26</Xr>).
+		Sentoku letters use <i lang="ain">wa</i> more freely. In
+		<i lang="ain">nukara konte wa</i> ‘please read it’ (Letter 1), though, the
+		<i lang="ain">wa</i> is the request-softening final particle that follows the
+		benefactive, not a sequencer (<Xr ch="texts">Chapter 26</Xr>).
 	</p>
 	<p>
 		The interval that <i lang="ain">teh</i> asserts can be made explicit by a following
@@ -399,7 +400,7 @@
 			</tr>
 			<tr>
 				<td><i lang="ain">kunak ~ kuni</i></td>
-				<td>indirect-speech complementizer</td>
+				<td>irrealis (expectative) complementizer</td>
 				<td
 					><Ref k="chiri1942" p="§64" paren />; see
 					<Xr ch="complementation" s="kuni">§22.2</Xr></td
@@ -415,7 +416,7 @@
 		discrimination among near-synonyms — <i lang="ain">a(h)i</i> against
 		<i lang="ain">a(h)ike</i>, <i lang="ain">kane</i> against <i lang="ain">koh</i> — in
 		West-coast speech, which only elicitation could have settled. Two members of the
-		catalogue belong to complementation rather than linking: the indirect-speech
+		catalogue belong to complementation rather than linking: the irrealis
 		<i lang="ain">kunak ~ kuni</i> (<Xr ch="complementation" s="kuni">§22.2</Xr>), and
 		the quotative frame in <i lang="ain">nah</i>, inside which a quoted speaker refers
 		to him- or herself with the indefinite <i lang="ain">an-</i> rather than a
