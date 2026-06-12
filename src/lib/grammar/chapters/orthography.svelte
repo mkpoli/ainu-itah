@@ -31,8 +31,8 @@
 			compiled an Ainu–Russian dictionary of over ten thousand headwords, more than half of
 			them collected by himself, mainly from speakers of the central West coast such as
 			Sambaku of Nayoro <Ref k="sakaguchi2021" p="43–44" />. At the end of the dictionary he
-			printed three short connected pieces — a farewell address and two reconciliation
-			dialogues — which Piłsudski already singled out as the first usable Sakhalin texts
+			printed two short connected pieces — Ciwokanke's speech and a reconciliation
+			dialogue — which Piłsudski already singled out as the first usable Sakhalin texts
 			<Ref k="pilsudski1912" p="XXIV" paren />.
 		</p>
 		<p>
