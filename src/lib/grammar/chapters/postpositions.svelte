@@ -18,8 +18,8 @@
 	phrase and then combine with the case particles (Chiri's &lsquo;first-class formal
 	nouns&rsquo;, <Ref k="chiri1942" p="§§78–79" paren />; cf.
 	<Xr ch="nouns-and-possession">Chapter 7</Xr>). This chapter describes the particles
-	(§11.1–§11.6), the relational nouns (§11.7), and the fuzzy boundary between case
-	particle, relational noun, and clause linker (§11.8).
+	(§11.1–§11.7), the relational nouns (§11.8), and the fuzzy boundary between case
+	particle, relational noun, and clause linker (§11.9).
 </p>
 
 <S t="The case-particle system" id="case-particles">
@@ -167,7 +167,7 @@
 		<i lang="ain">teeta</i> &lsquo;here&rsquo;, <i lang="ain">taata</i>
 		&lsquo;there&rsquo;, <i lang="ain">kotanta</i> &lsquo;in the village&rsquo;,
 		<i lang="ain">ciseta</i> &lsquo;at the house&rsquo; (17 tokens), and the
-		<i lang="ain">kasketa</i>-type forms of §11.7 — while full noun phrases are
+		<i lang="ain">kasketa</i>-type forms of §11.8 — while full noun phrases are
 		hosted by <i lang="ain">ohta</i>. This distribution, which we draw from the
 		corpus, matches Murasaki's teaching rule: place names and common nouns take
 		<i lang="ain">ohta</i>, locative nouns take <i lang="ain">-ta</i>
@@ -232,7 +232,7 @@
 		to relational nouns (<i lang="ain">empoke-ene</i> &lsquo;to under&rsquo;,
 		<i lang="ain">kaske-ene</i> &lsquo;onto&rsquo;, <i lang="ain">onnayke ene</i>
 		&lsquo;to inside&rsquo;) and to deictics (<i lang="ain">hekimoh ene</i>
-		&lsquo;toward the hills&rsquo;), not to plain nouns; examples follow in §11.7.
+		&lsquo;toward the hills&rsquo;), not to plain nouns; examples follow in §11.8.
 		The interrogatives pattern with the particles: <i lang="ain">nakene</i>
 		&lsquo;whither&rsquo;, <i lang="ain">nahta</i> &lsquo;where&rsquo;,
 		<i lang="ain">nahwa</i> &lsquo;whence&rsquo; <Ref k="murasaki2025" p="21" paren />.
@@ -255,7 +255,7 @@
 		cite="murasaki2001:text 2"
 		dial="WS"
 		place="Odasu (Asai Take)"
-		note="Clause-initial turano is the independent use of the comitative, §11.5."
+		note="Clause-initial turano is the independent use of the comitative, §11.6."
 	/>
 	<Ex
 		m="muhru empoke wa tani neya kosonto soma-ha taa asinke manu"
@@ -336,7 +336,7 @@
 		cite="murasaki2001:text 49"
 		dial="WS"
 		place="Odasu (Asai Take)"
-		note="For ani on a verb (‘chop’) marking immediate sequence with turano, see §11.8 on category overlap."
+		note="For ani on a verb (‘chop’) marking immediate sequence with turano, see §11.9 on category overlap."
 	/>
 	<p>
 		Causal <i lang="ain">ani</i> — &lsquo;because of this&rsquo;
