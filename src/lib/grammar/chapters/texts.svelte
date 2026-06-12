@@ -51,7 +51,7 @@
 		(<Xr ch="phonology">Chapter 4</Xr>, <Xr ch="orthography">Chapter 3</Xr>). The extract
 		below is the opening of text 40,
 		<i lang="ain">imuu monimahpo</i> ‘The imu girl’, recorded on 7 April 1990. The
-		twelve sentences are consecutive and complete — this opening happens to be free of the
+		thirteen sentences are consecutive and complete — this opening happens to be free of the
 		Japanese asides and interviewer turns that intersperse many of the tales — and they
 		carry the story to its first turning point: immediately after (13) the imu woman
 		breaks into the nonsense verse (<i lang="ain">niiteh kaa cira rii too…</i>) that is the

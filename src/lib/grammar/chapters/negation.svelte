@@ -82,10 +82,12 @@
 	</table>
 	<p>
 		The proclitic shows the regular nasal assimilation described in
-		<Xr ch="morphophonology">Chapter 5</Xr>: /m/ assimilates to a following coronal, so
-		<i lang="ain">ham=ne</i> yields <i lang="ain">hanne</i>, <i lang="ain">ham=ki</i>
-		yields <i lang="ain">hanki</i>, and <i lang="ain">ham=suy</i> ‘not again’ yields
-		<i lang="ain">haysuy</i> <Ref k="dalcorso2025neg" p="45–46" paren />. Two further
+		<Xr ch="morphophonology">Chapter 5</Xr>: /m/ assimilates in place to a following
+		consonant, so <i lang="ain">ham=ne</i> yields <i lang="ain">hanne</i> and
+		<i lang="ain">ham=ki</i> yields <i lang="ain">hanki</i>, while before
+		<i lang="ain">s</i> it dissimilates to <i lang="ain">y</i>, <i lang="ain">ham=suy</i>
+		‘not again’ yielding <i lang="ain">haysuy</i> — the same alternations the nasal-final
+		clitic <i lang="ain">an=</i> shows <Ref k="dalcorso2025neg" p="45–46" paren />. Two further
 		observations bear on the clitic analysis. The first is prosodic:
 		<i lang="ain">ham=</i> ordinarily fuses with its host into one phonological word,
 		re-syllabifying it and drawing the stress onto itself (<i lang="ain">hánne</i>,
@@ -538,7 +540,7 @@
 		<tbody>
 			<tr>
 				<td><i lang="ain">ham=</i> (synthetic)</td>
-				<td>25 (22.6%)</td>
+				<td>25 (22.5%)</td>
 				<td>7 (3.3%; all in the fixed formula)</td>
 			</tr>
 			<tr>

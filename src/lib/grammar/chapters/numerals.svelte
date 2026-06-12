@@ -541,7 +541,7 @@
 		too</i> &lsquo;one day&rsquo;, <i lang="ain">iwan too</i> &lsquo;six days&rsquo;,
 		with suppletive <i lang="ain">tutko</i>, <i lang="ain">rerko</i> &lsquo;two,
 		three days&rsquo; <Ref k="chiri1942" p="§113" paren />. Years and months:
-		<i lang="ain">paa</i> and <i lang="ain">cuh</i>, as in (7) and in Sentoku's
+		<i lang="ain">paa</i> and <i lang="ain">cuh</i>, as in (6) and in Sentoku's
 		<i lang="ain">sine cup okta</i> &lsquo;per month&rsquo;
 		<Ref k="tangiku2001" p="Letter 1" paren />. Times: <i lang="ain">suy</i>, with
 		<i lang="ain">ar-suy</i> &lsquo;once&rsquo; (§10.1). Fathoms:

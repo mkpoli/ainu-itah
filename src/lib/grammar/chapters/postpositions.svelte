@@ -336,7 +336,7 @@
 		cite="murasaki2001:text 49"
 		dial="WS"
 		place="Odasu (Asai Take)"
-		note="For ani on a verb (‘chop’) marking immediate sequence with turano, see §11.9 on category overlap."
+		note="Here ani is the instrumental on the noun mukara ‘axe’; the immediate-sequence marker is turano after the verb humpa ‘chop’ — for turano on a verb, see §11.9 on category overlap."
 	/>
 	<p>
 		Causal <i lang="ain">ani</i> — &lsquo;because of this&rsquo;
@@ -371,7 +371,7 @@
 		above, <i lang="ain">turano</i> &lsquo;simultaneously with that&rsquo; — and a
 		use with verbs, &lsquo;while V-ing, as soon as V&rsquo;
 		(<i lang="ain">cis turano</i> &lsquo;while crying&rsquo;,
-		<i lang="ain">humpa turano</i> in (14)); Chiri registers both extensions
+		<i lang="ain">humpa turano</i> in (12)); Chiri registers both extensions
 		<Ref k="chiri1942" p="§123(153)" paren />. In the letters,
 		<i lang="ain">tura</i> coordinates noun phrases outright:
 		<i lang="ain">Seraroka aynu Sakayhama aynu tura</i> &lsquo;the Seraroka people
@@ -577,7 +577,7 @@
 		<i lang="ain">ani</i> on an infinitive verb yields &lsquo;by V-ing&rsquo;
 		(Chiri's Sakhalin example <i lang="ain">kira ani eh</i> &lsquo;came fleeing&rsquo;,
 		<Ref k="chiri1942" p="§123(98)" paren />), and comitative
-		<i lang="ain">turano</i> on a verb means &lsquo;as soon as&rsquo;, (14). The
+		<i lang="ain">turano</i> on a verb means &lsquo;as soon as&rsquo;, (12). The
 		converse also holds: ablative <i lang="ain">wa</i> and the converb
 		<i lang="ain">wa</i> &lsquo;and&rsquo; <Ref k="chiri1942" p="§121(88)" paren />
 		are segmentally one item distinguished only by host class. Sakhalin Ainu thus
