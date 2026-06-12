@@ -114,3 +114,15 @@ self-contained fixes have already been applied.
 - [ ] **UNCERTAIN, verify against sources** — Piłsudski checked with Rousselot in **Paris**
   (Collège de France), not "London" (dialects §2.2); `he-pen-u` 'raise face' looks like a
   corrupt segmentation of `hepuni` (valency §14.6); `mat kayki` vs expected `mah` (person Ex 7).
+
+## From Opus round 2 (deferred)
+- [ ] **Dobrotvorsky corpus dialect tag** — the 1867–1872 Kusunnay material is tagged `WS` in
+  ~11 chapters (and is the introduction's canonical WS specimen) but `SA` for several
+  person-and-alignment examples and all of texts §26.4, where the prose argues it "patterns
+  East". Same west-central source, contradictory tags. Decide one tag and apply it uniformly
+  (a real dialectological call: geographically west-central but with East-patterning features).
+- [ ] **`Sambaku kuani ohta tampaku in-konte`** (person-and-alignment) — `ohta` is glossed "at"
+  but unaccounted for in the free translation; `kuani ohta` is likely the dative recipient
+  ("to me") doubling `in-`. Reflect it in the translation or add a note.
+- [ ] **`repohpe` 'seal'** (negation) — left unsegmented (`repo(t)-pe` 'open-sea-thing') against
+  the otherwise full segmentation; minor.
