@@ -103,13 +103,15 @@ self-contained fixes have already been applied.
   supply Sakhalin-attested stranding tokens or flag the inventory as Hokkaidō-based contrast.
 
 ## More (from Opus round)
-- [ ] **`ucaskoma` vs `ucaskuma` — BIGGER than a spelling pick (OCR-checked).** The authoritative
-  source (Dal Corso in Bugaeva 2022 Handbook) spells the Sakhalin genre term **`upaskuma`**
-  (with *p*: "Legends are called upaskuma, oi, ikopepeka…"), and Piłsudski's own Materials OCR
-  uses **`oi`** for his tales, not any `uc/pask-` form. So the grammar's `ucaskoma`/`ucaskuma`
-  (with *c*) is internally inconsistent AND may be the Hokkaidō shape (Hokkaidō `ucaskuma`) used
-  for a Sakhalin term whose attested forms are `upaskuma`/`oi`. Needs an expert decision on the
-  right Sakhalin form before changing — do not auto-align the two c-spellings.
+- [x] **`ucaskoma` vs `ucaskuma`** — RESOLVED (Bugaeva 2022 Handbook OCR, fuller check): the
+  earlier note overstated `upaskuma`. Dal Corso's own Chapter 21 — the Sakhalin **Rayciska**
+  material the grammar cites — is titled "a Sakhalin Ainu **`ucaskuma`** narrated by Haru
+  Fujiyama", and §1 calls the genre "`ucaskuma` or `upaskuma`" (ucaskuma primary). The Handbook
+  glossary (l.13187) lists "upaskuma, ucaskuma, ikopepeka" as co-existing variant terms, so
+  `ucaskuma` (with *c*) is NOT a Hokkaidō intrusion — it is Dal Corso's spelling for this exact
+  dialect. The grammar's `ucaskuma` is vindicated; fixed the lone internal outlier `ucaskoma`
+  (dialects §2) → `ucaskuma` to match texts §26 (×3). `upaskuma` remains a legitimate variant the
+  author may mention, but no change is forced.
 - [x] **Piłsudski recording dates** — NON-ISSUE on inspection: phonology and texts both scope
   "1903–04" explicitly to the *east-coast* texts (a subset), while the introduction's
   "1902–1905" / dialects' "1896 and again 1902–1905" describe the whole fieldwork. Consistent
