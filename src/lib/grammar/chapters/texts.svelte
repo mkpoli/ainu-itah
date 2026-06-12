@@ -409,7 +409,7 @@
 	/>
 	<Ex
 		m="neete Tarayka un nispa Inanupirika sam rusuy"
-		g="and.then Tarayka in master Inanupirika marry DES"
+		g="and.then Tarayka ATTR master Inanupirika marry DES"
 		ain="Néte Tarájkaun niśpa Inanupírika sám rusúi."
 		tr="Then a rich man of Tarayka wished to marry Inanupirika."
 		note="un is the attributive ‘belonging to (a place)’, as in tan cise un monimahpo ‘the girl of this house’."

@@ -26,7 +26,7 @@
 <S t="The gap strategy" id="strategy">
 	<p>
 		Any clause may modify a noun. The simplest case is a bare intransitive verb — the
-		‘adjectives’ of <Xr ch="word-classes" s="property-verbs">§6.2</Xr>, as in Furukawa's
+		‘adjectives’ of <Xr ch="word-classes" s="property-verbs" />, as in Furukawa's
 		<i lang="ain">kurasno seta</i> ‘black dog’, are exactly this construction with a
 		one-word clause. With fuller clauses the pattern is unchanged:
 	</p>

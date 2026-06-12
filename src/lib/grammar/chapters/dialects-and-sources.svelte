@@ -99,7 +99,8 @@
 			Piłsudski’s corpus have a dedicated exclusive first-person plural set —
 			<i lang="ain">ci-</i> for transitive subjects, <i lang="ain">-as</i> for
 			intransitive subjects, and an object prefix <i lang="ain">in-</i> found nowhere
-			else in Ainu — while the west-coast materials lack the set entirely
+			else in Ainu — while the west-coast materials lack the productive set, retaining at
+			most marginal traces (<Xr ch="person-and-alignment" />)
 			<Ref k="dalcorso2024" p="66–68" paren />:
 		</p>
 		<Ex

@@ -59,3 +59,21 @@ self-contained fixes have already been applied.
   `sittokihi` (< `sittok`); `sist-` looks corrupt. Verify against Hattori 1964.
 - [ ] **pronouns `taan` "far distal"** — `taan` is transparently `ta-an` (proximal/medial root
   `ta-`); a "far distal" built on it vs distal `tara(-an)` needs a source (Murasaki 2025).
+
+## Glossing-convention decisions (from DeepSeek-V4 / GPT-5.5 round-2)
+- [ ] **possessed `-hV` glossed three ways** — `NMLZ` (nouns-and-possession), `PERS`
+  (evidentiality perception-noun construction), `POSS` (nominalization). The grammar says it
+  is one form extended from nouns to verbs; decide whether to gloss it uniformly or document
+  the context-sensitive labels deliberately.
+- [ ] **texts gloss hygiene** — a `?` gloss ("one kin-? COP") and parenthesised `(INDEF.O=)`
+  in texts §26 are not clean Leipzig; resolve or annotate the uncertainty explicitly.
+- [ ] **`u-sam` homophony** — valency: 'marry each other' (< `sam` 'marry'); postpositions:
+  'next to each other' (< relational `sam` 'side'). Add a note distinguishing the two `sam`.
+- [ ] **`ani(hi)` labelled 3SG** but also described as a respectful 2nd-person address
+  (pronouns §9.1.1) — note the honorific use or relabel.
+- [ ] **orthography normalisation policy** — §3.4 says "we never normalise", yet the Sentoku
+  morphemic line restores devoiced vowels (`цкін`→`cikin`). Distinguish phonemic restoration
+  from dialect normalisation in the policy statement.
+- [ ] **relative-clauses oblique stranding** (GPT-5.5) — the strandable set `ani/tura/pahno`
+  (and `onne` for dative) is given as the Sakhalin counterpart of Bugaeva's Hokkaidō set;
+  supply Sakhalin-attested stranding tokens or flag the inventory as Hokkaidō-based contrast.

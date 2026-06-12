@@ -560,8 +560,8 @@
 		negator <i lang="ain">hanka</i> (<Xr ch="negation">Chapter 17</Xr>).
 	</p>
 	<p>
-		For the hortative ‘let us’ Sakhalin does not use Hokkaidō <i lang="ain">ro</i>: Chiri
-		notes its absence and cites instead <i lang="ain">ke mosso paye-an-hcin!</i> ‘come, let
+		For the hortative ‘let us’ Chiri notes the absence of Hokkaidō <i lang="ain">ro</i> in
+		his Sakhalin data, citing instead <i lang="ain">ke mosso paye-an-hcin!</i> ‘come, let
 		us go quickly!’ <Ref k="chiri1942" p="§119" paren /> — the indefinite suffix
 		<i lang="ain">-an</i> (<Xr ch="person-and-alignment">Chapter 13</Xr>) on a plural stem,
 		optionally reinforced by <i lang="ain">-hci(n)</i>. Since the indefinite is the ordinary
