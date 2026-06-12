@@ -201,7 +201,7 @@
 
 <S t="A letter of Sentoku Tarōji (1906)" id="sentoku-letter">
 	<p>
-		Sentoku Tarōji (<span lang="ja">千徳太郎治</span>, 1871–1929), of Otasan on the east
+		Sentoku Tarōji (<span lang="ja">千徳太郎治</span>, 1872–1929), of Otasan on the east
 		coast, was Piłsudski's interpreter and collaborator and later the author of a
 		Japanese-language account of his people <Ref k="sentoku1929" paren />. In 1906, after
 		Piłsudski had left Sakhalin, Sentoku wrote him three letters in Ainu from Naybuci,

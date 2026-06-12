@@ -36,9 +36,11 @@ self-contained fixes have already been applied.
   source (Gemini flagged a possible 'summer' reading; the attested gloss is likely correct).
 
 ## Factual inconsistencies needing a source check (from Fable-5 review)
-- [ ] **Sentoku Tarōji dates/place** — birth year given as 1872 (orthography §3.1.2) vs 1871
-  (texts §26.2); and the letters localised to Otasan everywhere but "from Naybuci" once
-  (texts §26.2). Determine the correct year and village; align.
+- [x] **Sentoku Tarōji birth year** — RESOLVED: reference materials give 1872–1929; texts'
+  "1871" corrected to 1872 (orthography was already right).
+- [ ] **Sentoku place** — still open: "of Otasan" (texts §26.2, l.204) and all example tags
+  use Otasan, but l.207 says he "wrote three letters from Naybuci". Could both hold (origin
+  vs place of writing); confirm where the letters were written and make the tags consistent.
 - [ ] **Dobrotvorsky appendix** — "two connected texts" (dialects §2.2, texts §26.4) vs
   "three short connected pieces — a farewell address and two reconciliation dialogues"
   (orthography §3.1.1). Verify the count.
