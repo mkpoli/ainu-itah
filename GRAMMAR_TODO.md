@@ -42,8 +42,13 @@ self-contained fixes have already been applied.
   「になる」の一語を有するのみである" — Chiri says the complement-requiring (補語) class has
   exactly ONE simple/underived (単純) member, `ne`. `ye`/`ramu` are transitives taking objects
   (目的語), a different class. "Single" is Chiri's own wording. No change.
-- [ ] **verb-structure** — reconcile the singular 'come' forms: West `eh (ek-)` vs East
-  `eki ~ iki` are both given without relating them.
+- [x] **verb-structure** — singular 'come' forms — ALREADY RECONCILED in the chapter (reviewer
+  missed the connecting prose). Table 3 gives the West-coast (Asai Take) suppletive `eh (ek-)` /
+  `ariki(h)`; the prose four lines below (l.442–447) explicitly contrasts the East-coast `eki ~ iki`
+  (Yamabe), "used for plural subjects as well, even combined with the plural suffix (eki-hsi) — a
+  hint that for 'come' the suppletion was already decaying in the early twentieth century, while
+  the west-coast tales of Asai Take keep all the pairs intact." The dialectal relation is stated.
+  No change.
 - [x] **phonology** — coda `*t` after `i` → `s` is ATTESTED (Hattori 1964, entry 86 'elbow'):
   underlying `sittok` surfaces as Sakhalin `sistoh` — `sit`→`sis` (`*t`/i → s) plus `tok`→`toh`
   (`*k` → h). The grammar's own coda rule predicts exactly this, and Hattori attests it. Rule
@@ -112,9 +117,13 @@ self-contained fixes have already been applied.
   Sentoku's devoiced-but-phonemic `i` in `cikin` is recovery *within* his own dialect (phonemic
   restoration), categorially different from rewriting one dialect's form as another's (the
   normalisation the policy avoids). No contradiction; now stated outright.
-- [ ] **relative-clauses oblique stranding** (GPT-5.5) — the strandable set `ani/tura/pahno`
-  (and `onne` for dative) is given as the Sakhalin counterpart of Bugaeva's Hokkaidō set;
-  supply Sakhalin-attested stranding tokens or flag the inventory as Hokkaidō-based contrast.
+- [x] **relative-clauses oblique stranding** — ALREADY HANDLED both ways the item asks. The chapter
+  explicitly attributes the strandable set to Bugaeva's Hokkaidō analysis (`bugaeva2015`:48,50) and
+  maps the Sakhalin counterparts (`ani`/`tura`/`pahno`, dative `onne` for Hokkaidō `eun`); it then
+  supplies the available Sakhalin tokens — `pakno` stranded before `isam`, and the `or-ta`
+  relational-noun bridge (Ex 6, Dal Corso 2025:53) — while honestly flagging scarcity ("the one
+  direct Sakhalin token of an oblique relative"). Flagged as Hokkaidō-based contrast AND backed by
+  the Sakhalin tokens that exist. No change.
 
 ## More (from Opus round)
 - [x] **`ucaskoma` vs `ucaskuma`** — RESOLVED (Bugaeva 2022 Handbook OCR, fuller check): the
@@ -210,5 +219,8 @@ self-contained fixes have already been applied.
 - [x] **`Sambaku kuani ohta tampaku in-konte`** (person-and-alignment) — RESOLVED: expanded the Ex
   note to account for `ohta` — `kuani ohta` 'to me' is the dative recipient overtly doubling the
   1SG object prefix `in-` (literal 'Sambaku gave tobacco to me'). The doubling is now stated.
-- [ ] **`repohpe` 'seal'** (negation) — left unsegmented (`repo(t)-pe` 'open-sea-thing') against
-  the otherwise full segmentation; minor.
+- [x] **`repohpe` 'seal'** (negation) — CORRECT as-is. Glossing the frozen animal name whole
+  (`seal`) is principled: `repo(t)-pe` 'open-sea-thing' is diachronic etymology, not a synchronic
+  parse (the `rep-` root is opaque to speakers). The contrast with productive `sine-p` 'one-NMLZ'
+  in the same example is exactly the point — productive derivation is segmented, lexicalised nouns
+  are glossed whole. No inconsistency; no change.
