@@ -137,7 +137,7 @@
 		cite="tangiku2001:Letter 1"
 		dial="ES"
 		place="Otasan (Sentoku Tarōji)"
-		note="Two loans cooccur: kanpi ‘paper, letter’ (< Japanese kami) and nuca ‘Russian’ (not from Russian directly; see §25.2). The clause is glossed in full in Chapter 23 (Glossed texts), §sentoku-letter."
+		note="Two loans cooccur: kanpi ‘paper, letter’ (< Japanese kami) and nuca ‘Russian’ (not from Russian directly; see §25.2). The clause is glossed in full in Chapter 26 (Glossed texts), §sentoku-letter."
 	/>
 	<p>
 		Spoken code-switching into Japanese is also recorded, increasingly so in the latest

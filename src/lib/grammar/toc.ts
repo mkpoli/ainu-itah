@@ -145,7 +145,7 @@ export const parts: Part[] = [
 				slug: 'tense-aspect-mood',
 				title: 'Tense, aspect, and modality',
 				summary:
-					'The tenseless verb, aspectual periphrasis with teh an and kusu an, perfect okere, and modal predicates.'
+					'The tenseless verb, aspectual periphrasis with teh an and kusu an, the perfect, and modal predicates.'
 			},
 			{
 				slug: 'evidentiality',

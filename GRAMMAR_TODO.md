@@ -77,3 +77,14 @@ self-contained fixes have already been applied.
 - [ ] **relative-clauses oblique stranding** (GPT-5.5) — the strandable set `ani/tura/pahno`
   (and `onne` for dative) is given as the Sakhalin counterpart of Bugaeva's Hokkaidō set;
   supply Sakhalin-attested stranding tokens or flag the inventory as Hokkaidō-based contrast.
+
+## More (from Opus round)
+- [ ] **`ucaskoma` vs `ucaskuma`** — Piłsudski's narrative-genre term is spelled `ucaskoma`
+  in dialects-and-sources but `ucaskuma` (×3) in texts, with the gloss word-order also flipped.
+  Pick the correct Piłsudski spelling and align (Opus: `ucaskoma` is likely correct).
+- [ ] **Piłsudski recording dates** — "1902–1905" (intro), "1896 and again 1902–1905"
+  (dialects), bare "1903–04" (phonology header, texts §26.3). The 1903–04 may be a true
+  subset, but the phonology header reads as the whole-corpus date — clarify.
+- [ ] **`murasaki1976:95` at evidentiality §16.6** was changed to `murasaki1979:95` to match the
+  other two citations of the same `ku=ye-he sunke` sentence — but confirm which year is right
+  at the source (1979 = grammar, 1976 = text collection; both "p. 95" was the red flag).

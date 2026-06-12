@@ -464,7 +464,7 @@
 		m="ku=yee-he sunke"
 		g="1SG.A=say-PERS be.false"
 		tr="What I say is a lie."
-		cite="murasaki1976:95; dalcorso2018:73"
+		cite="murasaki1979:95; dalcorso2018:73"
 		dial="WS"
 		place="Rayciska (Fujiyama Haru)"
 	/>
