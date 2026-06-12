@@ -37,9 +37,9 @@
 		<i lang="ain">i-</i>, applicative <i lang="ain">e-</i>/<i lang="ain">ko-</i>/<i
 		lang="ain">o-</i>); an incorporated noun; the root; valency-changing suffixes
 		(causative <i lang="ain">-te</i>/<i lang="ain">-re</i>, <i lang="ain">-ke</i>,
-		<i lang="ain">-ka</i>); the desiderative <i lang="ain">rusuy</i>; the plural suffix
-		<i lang="ain">-hci</i>; and the person suffixes <i lang="ain">-an</i>,
-		<i lang="ain">-as</i>, <i lang="ain">-yan</i>. Chiri demonstrated the prefixal
+		<i lang="ain">-ka</i>); the desiderative <i lang="ain">rusuy</i>; the person suffixes
+		<i lang="ain">-an</i>, <i lang="ain">-as</i>, <i lang="ain">-yan</i>; and, outside them,
+		the plural clitic <i lang="ain">=hci</i> (<Xr ch="number">Chapter 8</Xr>). Chiri demonstrated the prefixal
 		expansion with built-up forms like <i lang="ain">u-ko-itak</i> ‘talk to each other’
 		and <i lang="ain">usa-oruspe a-e-u-ko-itak</i> ‘we talk to each other about various
 		news’, where the applicative <i lang="ain">ko-</i> licenses the reciprocal and

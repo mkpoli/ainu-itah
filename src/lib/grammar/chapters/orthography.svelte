@@ -155,8 +155,8 @@
 		<Ex
 			id="ex-pilsudski"
 			orig="Ćiśe oxta eśirep án."
-			m="cise ohta esirepa=an"
-			g="house in arrive=INDEF.S"
+			m="cise ohta e-sirepa=an"
+			g="house in APPL-arrive=INDEF.S"
 			tr="I arrived at the house."
 			cite="pilsudski1912:160; dalcorso2024:71"
 			dial="ES"

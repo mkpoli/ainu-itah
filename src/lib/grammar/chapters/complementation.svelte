@@ -270,7 +270,7 @@
 		the complement is stripped bare and the person marking migrates onto the matrix
 		predicate; here the complement keeps its own person marking and carries full
 		nominalizing morphology, while the matrix contributes nothing but a plain
-		one-place predicate. The two classes never overlap: no evaluative predicate is
+		one-place predicate. The two classes show no attested overlap: no evaluative predicate is
 		attested with a bare-verb complement, and no desiderative or potential with a
 		<i>V</i>-POSS one. The attested evaluative class is admittedly small — only
 		<i lang="ain">pirka</i> and <i lang="ain">sunke</i> are secure in the corpus as

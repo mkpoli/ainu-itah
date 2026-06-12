@@ -169,11 +169,13 @@
 		West-coast counterpart <Ref k="tangiku2022" p="§4.1" paren />.
 	</p>
 	<p>
-		Long-vowel stems take <i lang="ain">-he</i> directly when monosyllabic:
-		<A w="kuu" gl="bow" /> → <i lang="ain">kuu-he</i>, <A w="nii" gl="tree" /> →
-		<i lang="ain">nii-he</i>, <A w="ree" gl="name" /> → <i lang="ain">ree-he</i>
-		<Ref k="chiri1942" p="§71" paren />; the last is attested in the Yamada Hayo corpus
-		(<i lang="ain">reehe tah nee manu</i> ‘his name was this’,
+		Lengthened monosyllabic stems regularly shorten before <i lang="ain">-he</i>, since the
+		suffixed word is already bimoraic and the lengthening that made the free form heavy is no
+		longer needed: <A w="kuu" gl="bow" /> ~ <i lang="ain">ku-he</i>, <A w="nii" gl="tree" /> ~
+		<i lang="ain">ni-he</i> (<Ref k="chiri1952" p="463" />, <Ref k="chiri1942" p="§72" paren />;
+		<Xr ch="nouns-and-possession" s="he-generalisation">Chapter 7</Xr>). The shortening is not
+		exceptionless, however: <A w="ree" gl="name" /> surfaces unshortened in the Yamada Hayo
+		corpus (<i lang="ain">reehe tah nee manu</i> ‘his name was this’,
 		<Ref k="tamura2003" paren />). Polysyllabic stems in <i lang="ain">ii uu</i> shorten
 		the vowel and surface a glide before <i lang="ain">-ehe</i>:
 		<A w="imii" gl="garment" /> → <i lang="ain">imi-yehe</i>, and <A w="ruu" gl="road" />

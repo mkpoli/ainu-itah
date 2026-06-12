@@ -514,9 +514,10 @@
 		<i lang="ain">manu</i> (five corpus tokens of the type <i lang="ain">V ka hankii
 		manu</i>, our count), and we find no token in which an evidential noun is negated by
 		<i lang="ain">isam</i> or by a preverbal negator — ‘there is no trace that…’ is simply
-		not how the system works. We analyse this as a scope fact: evidentiality in Sakhalin Ainu
-		is illocutionary, attaching outside polarity, and a counter-evidential reading would
-		require the lexical strategy (e.g. <i lang="ain">nukara ka hankii</i> ‘did not see it’).
+		not how the system works. We analyse this as a scope fact: in the attested material
+		evidentiality in Sakhalin Ainu consistently scopes outside polarity, attaching at the
+		illocutionary level, and a counter-evidential reading would require the lexical strategy
+		(e.g. <i lang="ain">nukara ka hankii</i> ‘did not see it’).
 	</p>
 	<Ex
 		m="mokoro yahka ray ka hankii manu"

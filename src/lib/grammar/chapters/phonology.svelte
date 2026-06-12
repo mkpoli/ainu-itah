@@ -541,15 +541,15 @@
 			since the underlying stop reappears before vowel-initial suffixes.
 		</p>
 		<p>
-			A second source of coda <i lang="ain">h</i> is the resolution of geminates. Where
-			Hokkaidō has a long stop, Sakhalin has <i lang="ain">h</i> plus stop:
+			A second source of coda <i lang="ain">h</i> is the resolution of geminates and other
+			stop clusters. Where Hokkaidō has a long stop or a heterorganic stop sequence,
+			Sakhalin has <i lang="ain">h</i> plus the following stop: the geminates
 			<i lang="ain">wakka</i> : <A w="wahka" gl="water" />, <i lang="ain">satte</i> :
-			<i lang="ain">sahte</i> ‘dry’, <i lang="ain">hotke</i> :
+			<i lang="ain">sahte</i> ‘dry’, and the cluster <i lang="ain">hotke</i> :
 			<A w="hohke" gl="lie down" /> (<Ref k="itabashi2001" p="93–94" paren />;
 			<Ref k="chiri1942" p="§16,8" paren />). Nothing new needs to be stated: the first
-			half of the geminate is a stop with no following vowel of its own, so it
-			debuccalises by the rule just given, while the second half survives as the onset
-			of the next syllable. Geminates in loanwords are reshaped the same way (§4.4.5).
+			stop has no following vowel of its own, so it debuccalises by the rule just given,
+			while the second survives as the onset of the next syllable. Geminates in loanwords are reshaped the same way (§4.4.5).
 		</p>
 		<table>
 			<caption>
