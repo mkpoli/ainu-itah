@@ -77,6 +77,22 @@ self-contained fixes have already been applied.
   (text 40 = 1990-04-07); dialects §2 "1986–1988" corrected to 1984–1991.
 - [x] **numerals `asikne`** — RESOLVED: Table 1 gives Sakhalin `asne ~ asisne` and §10.2 prose
   uses `asisne`; the lone `asikne` in the twenty-five example was the Hokkaidō shape → `asisne`.
+- [ ] **`eci-` portmanteau glossed two ways** (Fable-5, same disputed area) — the 1→2 portmanteau
+  `eci-` is glossed `1PL.EXCL.A>2SG.O` at person-and-alignment §13.1 (`eci-nukan-te`, she-bear,
+  CI-series by morphology) but `1SG.A>2SG.O` at §13.4 (`cookay eani eci-koyki` 'I beat you'), even
+  though that line's own subject pronoun `cookay` is glossed `1PL.EXCL`. So the chapter wavers
+  between glossing CI-series forms by morphological series (1PL.EXCL) and by singular reference
+  (1SG). Tie this to the `-(y)an`/inverse decision below: pick ONE — either `1.A>2SG.O` (Table 2
+  collapses KU/CI as '1') or `1PL.EXCL` throughout — and apply to both the prefix and the
+  co-occurring free pronoun.
+- [ ] **`in-` object gloss: `1SG.O` vs `1PL.EXCL.O`** (Fable-5) — person-and-alignment §13.x
+  glosses `in-` as `1SG.O` in `Sambaku … in-konte` 'gave me' (KU-series singular, doubled by
+  `kuani`), consistent with that chapter's analysis that `in-` is the KU/CI-series exclusive object
+  (so 1SG with a KU referent); but dialects §2.1.2, morphophonology Ex 8, and texts §26 gloss the
+  same prefix `1PL.EXCL.O` (the "exclusive first-person plural object prefix" label). These are two
+  defensible analyses (gloss `in-` by referent vs by the uniform series label). Decide one. NOTE:
+  the earlier `tama in=konte` resolution committed texts to `1PL.EXCL.O`; if the referent-based
+  analysis wins, that and the Sambaku note ("1SG object prefix") both need revisiting.
 - [ ] **person-and-alignment `-(y)an` gloss** (also from GPT-5.5) — Ex with `eci-…-yan` glosses
   the suffix `1.A`, another Ex glosses `-an` as `2PL.A`, and the table labels `eci-…-yan`
   "1.A (KU/CI)"; the adopted Sakaguchi analysis says `-(y)an` marks 2nd-person plurality.
@@ -225,6 +241,9 @@ self-contained fixes have already been applied.
   person-and-alignment examples and all of texts §26.4, where the prose argues it "patterns
   East". Same west-central source, contradictory tags. Decide one tag and apply it uniformly
   (a real dialectological call: geographically west-central but with East-patterning features).
+  (Fable-5 confirmed: the IDENTICAL sentence `tan kotan ohta utasa-an kusu ariki-an` is `WS` in
+  orthography §3.1 + person-and-alignment but `SA` in texts §26.4 — same place "Kusunnay/West
+  coast central". Whatever tag is chosen, this sentence at minimum must carry one tag.)
 - [x] **`Sambaku kuani ohta tampaku in-konte`** (person-and-alignment) — RESOLVED: expanded the Ex
   note to account for `ohta` — `kuani ohta` 'to me' is the dative recipient overtly doubling the
   1SG object prefix `in-` (literal 'Sambaku gave tobacco to me'). The doubling is now stated.
