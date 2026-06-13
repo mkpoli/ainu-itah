@@ -3,11 +3,16 @@
 	import { chapterNumber, appendices } from '$lib/grammar/toc';
 
 	let { data } = $props();
+
+	const ogTitle = $derived(`${data.num}. ${data.meta.title} — A Grammar of Sakhalin Ainu`);
 </script>
 
 <svelte:head>
-	<title>{data.num}. {data.meta.title} — A Grammar of Sakhalin Ainu</title>
+	<title>{ogTitle}</title>
 	<meta name="description" content={data.meta.summary} />
+	<meta property="og:title" content={ogTitle} />
+	<meta property="og:description" content={data.meta.summary} />
+	<meta property="og:type" content="article" />
 </svelte:head>
 
 {#key data.meta.slug}
