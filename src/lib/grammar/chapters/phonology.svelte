@@ -123,8 +123,9 @@
 		<p>
 			The sibilant <i lang="ain">s</i> varies between [s] and [ɕ]. Before and after
 			<i lang="ain">i</i>, and generally in coda position, it is [ɕ] on both coasts
-			(<i lang="ain">śine</i> for <A w="sine" gl="one" />, <i lang="ain">iśo</i> for
-			<A w="iso" gl="bear" />); elsewhere word-initially the two sounds vary freely,
+			(<i lang="ain">śine</i> for <A w="sine" gl="one" /> and <i lang="ain">iśo</i> for
+			<A w="iso" gl="bear" /> next to <i lang="ain">i</i>, and <i lang="ain">ahkaś</i> for
+			<A w="ahkas" gl="walk" /> in coda); elsewhere word-initially the two sounds vary freely,
 			Piłsudski recording both <i lang="ain">suj</i> and <i lang="ain">śuj</i> for
 			<A w="suy" gl="again" /> (<Ref k="pilsudski1912" p="5" paren />;
 			<Ref k="dalcorso2024" p="62–63" paren />). Chiri adds that plain [s] is the usual
