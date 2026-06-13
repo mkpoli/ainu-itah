@@ -156,13 +156,14 @@
 		<Ref k="janhunen2022" paren />. The position of Sakhalin Ainu as a primary branch is
 		supported quantitatively: in the lexicostatistical survey conducted by Hattori Shirō
 		<span lang="ja">服部四郎</span> and Chiri Mashiho <span lang="ja">知里真志保</span> in
-		1955, the cluster analysis of <Ref k="asai1974" p="100" /> set the Sakhalin dialects
+		the 1950s, the cluster analysis of <Ref k="asai1974" p="100" /> set the Sakhalin dialects
 		apart from both Hokkaidō and North Kuril as one of three top-level groups, and the
 		statistical reanalysis of <Ref k="ono2020" /> yields an even sharper picture in which
 		the deepest split in the family runs between the Sakhalin dialects and everything else.
-		A Bayesian phylogenetic analysis of the same Hattori–Chiri wordlists likewise recovers a
-		primary division between a Sakhalin and a Hokkaidō subgroup, and places the family’s
-		homeland in northern Hokkaidō <Ref k="lee2013" paren />.
+		A Bayesian phylogeographic analysis of the same Hattori–Chiri wordlists — which sample the
+		Hokkaidō and Sakhalin dialects but not Kuril — likewise splits them into a Sakhalin and a
+		Hokkaidō subgroup and traces their spread from a homeland in northern Hokkaidō
+		<Ref k="lee2013" paren />.
 		Sakhalin Ainu separates from Hokkaidō Ainu by regular phonological correspondences and
 		by its own grammatical retentions and innovations; <Ref k="vovin1993" /> draws on
 		Sakhalin evidence, including the Nairo dialect, throughout his reconstruction of
@@ -263,14 +264,15 @@
 		Sakhalin Ainu is today a dormant language: natural transmission ended in the first
 		half of the twentieth century, and no native speaker has lived since 1994
 		<Ref k="dalcorso2024" p="55, 57" paren />, <Ref k="janhunen2022" paren />; the UNESCO
-			<i>Atlas of the World’s Languages in Danger</i> accordingly lists it among the world’s
-			extinct languages <Ref k="unesco2010" paren />. It is not,
+			<i>Atlas of the World’s Languages in Danger</i> accordingly records Sakhalin Ainu
+			among the languages that have become extinct since they were linguistically described
+			<Ref k="unesco2010" paren />. It is not,
 		however, an unused one. Descendants of the Sakhalin Ainu in Japan study and revive the
 		language under the name <i lang="ain">Enciw itah</i>, with the scholar and activist
 		Kitahara Jirōta Mokottunas <span lang="ja">北原次郎太</span> among those leading the
 		effort <Ref k="dalcorso2024" p="55" paren />, and teaching materials now exist,
 		including the conversation course of <Ref k="murasaki2025" />. The recorded legacy is
-		substantial: Piłsudski’s wax-cylinder recordings of 1902–1905 have been partly
+		substantial: Piłsudski’s wax-cylinder recordings of the Ainu, made in 1902–1903, have been partly
 		restored from the 1980s onward by a laser-beam reflection method developed for the purpose <Ref k="iwai1987" paren />, <Ref k="dalcorso2024" p="59" paren />, and the
 		post-war tape recordings of Fujiyama Haru and Asai Take were published with audio
 		<Ref k="murasaki2001" paren />, <Ref k="tangiku2022" paren />.
