@@ -373,8 +373,9 @@
 		<i lang="ain">niina</i>, or <i lang="ain">nociw</i> : <i lang="ain">noociw</i>
 		‘star’, and concludes — with <Ref k="vovin1993" /> — that the proto-language needed
 		both length and pitch as independent features. The opposite position, that Sakhalin
-		length is a secondary development from accent, is argued by Satō on the strength of
-		the Japanese loan <A w="tuuki" gl="lacquered cup" /> (long <i lang="ain">uu</i>
+		length is a secondary development from accent, is argued by Satō
+		<Ref k="sato2015" paren />, who reconstructs Proto-Ainu with pitch accent and no
+		length, on the strength of the Japanese loan <A w="tuuki" gl="lacquered cup" /> (long <i lang="ain">uu</i>
 		matching the irregular accent of Hokkaidō <i lang="ain">túki</i>, though the Japanese
 		source vowel is short) and of alternations like <A w="nii" gl="tree" /> beside the
 		compound <i lang="ain">ah-ni</i> ‘elm’ <Ref k="bugaeva2022" paren />. The debate does
@@ -414,6 +415,26 @@
 			accordingly reduces the basic templates to CV and CVC, with the onsetless types as
 			word-initial variants carrying a zero onset <Ref k="chiri1942" p="§5" paren />.
 		</p>
+		<table>
+			<caption>
+				The five syllable types, with the relevant syllable shown first (a raised dot
+				marks the syllable boundary); V and VC occur only word-initially
+			</caption>
+			<thead>
+				<tr>
+					<th>type</th>
+					<th>example</th>
+					<th>gloss</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><th>V</th><td><i lang="ain">o·ro</i></td><td>place</td></tr>
+				<tr><th>CV</th><td><i lang="ain">ko·tan</i></td><td>village</td></tr>
+				<tr><th>VC</th><td><i lang="ain">ah·kas</i></td><td>walk</td></tr>
+				<tr><th>CVC</th><td><i lang="ain">sik</i></td><td>eye</td></tr>
+				<tr><th>CVV</th><td><i lang="ain">nii</i></td><td>tree</td></tr>
+			</tbody>
+		</table>
 		<p>
 			Following Murasaki's moraic description, <Ref k="itabashi2001" p="89" /> treats
 			Sakhalin as a mora-counting language: a CV sequence, a bare V, and a coda

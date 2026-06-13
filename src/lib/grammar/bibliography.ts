@@ -784,6 +784,17 @@ export const bibliography: Record<string, BibEntry> = {
 		publisher: 'Hokkaido University',
 		place: 'Sapporo'
 	},
+	sato2015: {
+		region: 'general',
+		author: 'Satō Tomomi 佐藤知己',
+		citeAuthor: 'Satō',
+		year: '2015',
+		title: 'アイヌ語の合成語のアクセント規則とその例外について',
+		titleTr: 'On the accent rules of Ainu compounds and their exceptions',
+		container: 'アイヌ語研究の諸問題 [Problems in Ainu language research]',
+		pages: '1–13',
+		lang: 'ja'
+	},
 	sentoku1929: {
 		region: 'sakhalin',
 		author: 'Sentoku Tarōji 千徳太郎治',
