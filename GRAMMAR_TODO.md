@@ -241,14 +241,19 @@ self-contained fixes have already been applied.
   text corpus. The attribution is sound, not internally odd. No change.
 
 ## From Opus round 2 (deferred)
-- [ ] **Dobrotvorsky corpus dialect tag** — the 1867–1872 Kusunnay material is tagged `WS` in
-  ~11 chapters (and is the introduction's canonical WS specimen) but `SA` for several
-  person-and-alignment examples and all of texts §26.4, where the prose argues it "patterns
-  East". Same west-central source, contradictory tags. Decide one tag and apply it uniformly
-  (a real dialectological call: geographically west-central but with East-patterning features).
-  (Fable-5 confirmed: the IDENTICAL sentence `tan kotan ohta utasa-an kusu ariki-an` is `WS` in
-  orthography §3.1 + person-and-alignment but `SA` in texts §26.4 — same place "Kusunnay/West
-  coast central". Whatever tag is chosen, this sentence at minimum must carry one tag.)
+- [x] **Dobrotvorsky corpus dialect tag** — RESOLVED to `WS` uniformly. Decisive: the texts §26.4
+  prose itself states the dialogues "come from the Kusunnay area of the **west-central coast**", and
+  every other Dobrotvorsky example across the grammar (clause-linking, complementation,
+  morphophonology, negation, numerals, orthography, phonology, TAM, valency, verb-structure,
+  person-and-alignment ×2) already carries `WS`, with the introduction using Dobrotvorsky as its
+  canonical WS specimen. `dial=` denotes geographic dialect (cf. the `place=` convention), so
+  Kusunnay = West. Retagged the outliers: texts §26.4 block (6 ex.) `SA`→`WS` and the three
+  Dobrotvorsky examples in person-and-alignment (`dobrotvorsky1875:238/453`) `SA`→`WS`. The
+  identical sentence `tan kotan ohta utasa-an kusu ariki-an` is now `WS` everywhere. The
+  East-patterning INDEF-series parallel to Sentoku's (east-coast) letters stays a prose feature
+  observation, which a west-coast source can legitimately show. (Left `SA` on the constructed
+  `ahci an-nukara` inverse example, cite `dalcorso2025align`, which is general/illustrative, not
+  Kusunnay-sourced.)
 - [x] **`Sambaku kuani ohta tampaku in-konte`** (person-and-alignment) — RESOLVED: expanded the Ex
   note to account for `ohta` — `kuani ohta` 'to me' is the dative recipient overtly doubling the
   1SG object prefix `in-` (literal 'Sambaku gave tobacco to me'). The doubling is now stated.

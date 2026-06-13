@@ -277,7 +277,7 @@
 		tr="Sambaku gave me tobacco."
 		note="The third-person subject is zero; the dative phrase kuani ohta ‘to me’ overtly doubles the 1SG object prefix in-, recapitulating the recipient (so the KU-series pronoun co-occurs with in-). The literal sense is ‘Sambaku gave tobacco to me’."
 		cite="dobrotvorsky1875:238; sakaguchi2024:ex. 3-8"
-		dial="SA"
+		dial="WS"
 		place="recorded 1867–1872"
 	/>
 	<p>
@@ -374,7 +374,7 @@
 		origLang="ain-Cyrl"
 		tr="I beat you."
 		cite="dobrotvorsky1875:453; sakaguchi2024:ex. 3-31"
-		dial="SA"
+		dial="WS"
 		place="recorded 1867–1872"
 	/>
 	<Ex
@@ -384,7 +384,7 @@
 		origLang="ain-Cyrl"
 		tr="You beat me."
 		cite="dobrotvorsky1875:453; sakaguchi2024:ex. 3-19"
-		dial="SA"
+		dial="WS"
 		place="recorded 1867–1872"
 	/>
 	<p>

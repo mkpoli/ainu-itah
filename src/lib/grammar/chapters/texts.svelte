@@ -524,7 +524,7 @@
 		tr="I have come in order to visit this village."
 		note="The INDEF-series -an stands on both verbs, exactly as in Sentoku’s letters thirty years later; the purposive kusu links them. ariki is the plural stem of ‘come’: the indefinite person selects plural stems even under singular reference."
 		cite="sakaguchi2021:49"
-		dial="SA"
+		dial="WS"
 		place="Kusunnay (Ciwokanke)"
 	/>
 	<Ex
@@ -534,7 +534,7 @@
 		tr="Thanks to your coming to this village, I have been able to see you."
 		note="an=e= stacks the INDEF agent on the second-person object, the transitive ‘I…you’ frame; renkayne ‘thanks to, because of’ is the same connective that runs through Sentoku’s letters and Sisratoka’s narrative above."
 		cite="sakaguchi2021:49"
-		dial="SA"
+		dial="WS"
 		place="Kusunnay (Ciwokanke)"
 	/>
 	<Ex
@@ -544,7 +544,7 @@
 		tr="You gave me a bead. I am very grateful."
 		note="The diagnostic line: in= ‘me’, the first-person object prefix of the east-coast paradigms, inside an otherwise INDEF-marked passage. yay-irayki-re-an ‘I cause myself to be thankful’ stacks reflexive, causative, and the INDEF -an; Rékoro for reekoro shows the script’s blindness to vowel length."
 		cite="sakaguchi2021:49"
-		dial="SA"
+		dial="WS"
 		place="Kusunnay (Ciwokanke)"
 	/>
 	<Ex
@@ -554,7 +554,7 @@
 		tr="It would be good if you went carefully."
 		note="A parting formula: pirika adverbialized with -no in the protasis and predicative in the apodosis, hinged on the conditional ciki — the same ciki(n) as in Sentoku’s opening request (15)."
 		cite="sakaguchi2021:49"
-		dial="SA"
+		dial="WS"
 		place="Kusunnay (Ciwokanke)"
 	/>
 	<Ex
@@ -564,7 +564,7 @@
 		tr="In accordance with my wish, I was not hit."
 		note="The second text uses i= ‘me’ — the INDEF-series object, doubled by the free pronoun anokay — where the first text had in= (34); Sakaguchi notes that the dictionary itself records the parallel kuani … in-koyki, a minimal pair between the two object prefixes. The negation is the analytic hanne over the nominalized anpe ka ‘even the fact of…’."
 		cite="sakaguchi2021:50"
-		dial="SA"
+		dial="WS"
 		place="Kusunnay"
 	/>
 	<Ex
@@ -573,7 +573,7 @@
 		tr="Since we are close kin, it would be fine even if you did not say much to me."
 		note="sine utahta ne kusu is a fixed idiom that Dobrotvorsky himself enters in the dictionary as sne utahta ne kusu ‘because we are relatives’: utah is the concept form of utar(a) ‘people, kin’, so the literal sense is ‘being one set of kinfolk’ (Sakaguchi 2021, n. 43). The function of the frozen final -ta is unclear — plausibly the locative -ta in a lexicalized idiom — hence the ? in its gloss. The parenthesized i= on the morpheme line, and its (INDEF.O=) in the gloss, mark the editor’s restoration of an unwritten indefinite-object clitic. The negator here is ham, beside hanne in (36); the close nankoro pe ne ‘it will probably be (that…)’ is the epistemic formula."
 		cite="sakaguchi2021:52"
-		dial="SA"
+		dial="WS"
 		place="Kusunnay"
 	/>
 	<p>
