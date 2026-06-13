@@ -46,7 +46,7 @@
 		stays in place:
 	</p>
 	<Ex
-		m="ci-reske moromahpo kami-hi ci-ee rusuy"
+		m="ci-reske moromahpo kam-ihi ci-ee rusuy"
 		g="1PL.EXCL-raise girl flesh-POSS 1PL.EXCL-eat DES"
 		tr="we want to eat the flesh of the girl we raised"
 		cite="murasaki2001:text 36"

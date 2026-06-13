@@ -27,7 +27,7 @@
 		Table 1 surveys the system. The particles follow the noun phrase directly; the
 		noun keeps its conceptual or possessed form as the sense requires, and plural
 		<i lang="ain">-hcin</i> precedes the particle
-		(<i lang="ain">teki-hi-cin ohta</i> &lsquo;in his hands&rsquo;,
+		(<i lang="ain">tek-ihi-cin ohta</i> &lsquo;in his hands&rsquo;,
 		<Ref k="pilsudski1912" p="70" paren />; <Ref k="chiri1942" p="§67" paren />).
 		Most of the particles also have an independent, anaphoric use without a host
 		noun — <i lang="ain">ohta</i> &lsquo;there&rsquo;, <i lang="ain">orowa</i>

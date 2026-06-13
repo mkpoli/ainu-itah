@@ -272,12 +272,16 @@ self-contained fixes have already been applied.
   "[clause] N-POSS an (± V-POSS nee)". Complementation §22 checked and left as-is: its prose already
   analyses the sensory case correctly as a topicalised nominalized complement (xref §16.4) and its
   summary table is a pointer to §20.3 + Chapter 16, not an overstatement.
-- [ ] **possessive-suffix segmentation inconsistency** (Fable-5) — the consonant-stem possessive is
-  cut two ways across (and within) chapters: `an-mosiri-hi` (nouns-and-possession) vs `an=mosir-ihi`
-  (nominalization) for the SAME `murasaki1979:5` form (note also prefix `-` vs `=`); `tek-ihi`
-  (morphophonology) vs `teki-hi` (same chapter); `kam-ihi` vs `kami-hi` (TAM/relative-clauses);
-  `sir-ihi` vs `siri-hi` (nominalization vs evidentiality); and evidentiality glosses an unsegmented
-  m-line `ruwehe` with a hyphenated gloss `trace-POSS`. Since the grammar analyses the consonant-stem
-  suffix as `-VhV` (morphophonology §5), the `tek-ihi`/`sir-ihi` cuts are the analysis-consistent
-  ones. Settle ONE convention and sweep (like the `=hci` notation item) — do NOT blind-replace, since
-  vowel-stem `-he`/`-hi` and consonant-stem `-ihi` differ. Author convention call.
+- [x] **possessive-suffix segmentation inconsistency** (Fable-5) — RESOLVED (segmentation).
+  Adopted the §5 declared convention: consonant-stem possessive = stem + `-VhV` (`teh ~ tek-ihi`,
+  `kam-ihi`, `ram-uhu`, `kotan-uhu`). Swept the mis-cut variants to the analysis-consistent form:
+  `teki-hi`→`tek-ihi` (nouns ×2, morphophonology ×3, postpositions, numerals — incl. `teki-hi-cin`
+  →`tek-ihi-cin`), `kami-hi`→`kam-ihi` (relative-clauses, TAM), `siri-hi`→`sir-ihi`
+  (evidentiality, person-and-alignment — now matching nominalization §20's `sir-ihi`),
+  `mosiri-hi`→`mosir-ihi` (nouns, now matching nominalization's `mosir-ihi`). Each is a single
+  m-line token so word counts are unaffected; build validates. Did NOT touch vowel-stem `-he`/`-ha`
+  forms (`kema-ha`, `sapa-ha`, `koro-ho`) or the frozen evidential `ruwehe`/`ruhe` (vowel stem
+  `ruu`; its `trace-POSS` gloss belongs to the `-hV` three-way gloss item below). REMAINING (separate
+  item): the possessor-prefix boundary `an=mosir-ihi` (nominalization, clitic `=`) vs `an-mosir-ihi`
+  (nouns, affix `-`) — this `=`/`-` choice is the same clitic-notation question as the `=hci` item;
+  segmentation is now uniform, only the prefix boundary differs.

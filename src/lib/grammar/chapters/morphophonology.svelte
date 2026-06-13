@@ -105,16 +105,16 @@
 		</tbody>
 	</table>
 	<Ex
-		m="tani taa mukara ani humpa-ha neampe mukara kotahma orowa tani taa teh ani sitayki-hi neampe teki-hi kotahma"
+		m="tani taa mukara ani humpa-ha neampe mukara kotahma orowa tani taa teh ani sitayki-hi neampe tek-ihi kotahma"
 		g="now so axe with chop-NMLZ then axe stick then now so hand with strike-NMLZ then hand-POSS stick"
 		tr="now when she chopped it with the axe, the axe stuck; then when she struck it with her hand, her hand stuck"
 		cite="murasaki2001:text 43"
 		dial="WS"
 		place="Odasu (Asai Take)"
-		note="Citation form teh before the vowel-initial word ani, possessed form teki-hi before the vowel-initial suffix: the stop is recovered word-internally only."
+		note="Citation form teh before the vowel-initial word ani, possessed form tek-ihi before the vowel-initial suffix: the stop is recovered word-internally only."
 	/>
 	<Ex
-		m="orowa taa toyaynu teki-hi ehekempa-ha neampe nisapuaane nisapu-hu kayteh teh wahka onne ahun teh ray"
+		m="orowa taa toyaynu tek-ihi ehekempa-ha neampe nisapuaane nisapu-hu kayteh teh wahka onne ahun teh ray"
 		g="then so Earth.Man hand-POSS pull-NMLZ then Spindleshanks shin-POSS break and water into enter.SG and die.SG"
 		tr="then, when he pulled Earth-Man's hand, Spindleshanks broke his shin, fell into the water and died"
 		cite="murasaki2001:text 10"
