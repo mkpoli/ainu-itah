@@ -726,7 +726,7 @@
 			Geminates of the source language are resolved like native stop clusters: Japanese
 			<i lang="ja">teppō</i> ‘gun’ yields <i lang="ain">tehpo</i>, the geminate
 			<i lang="ain">pp</i> surfacing as <i lang="ain">hp</i>
-			(<Xr ch="language-contact">Chapter 26</Xr>). Contact vocabulary also flowed from the
+			(<Xr ch="language-contact">Chapter 25</Xr>). Contact vocabulary also flowed from the
 			Amur–Sakhalin languages, e.g. <A w="tanku" gl="hundred" /> from Tungusic
 			<Ref k="tangiku2022" p="§3.3" paren />; Russian words pervade the letters of
 			Sentoku Tarōji (<i lang="ain">nuca kanpi</i> ‘Russian paper’,
