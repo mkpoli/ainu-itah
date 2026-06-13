@@ -409,7 +409,7 @@
 		question particle <i lang="ain">he</i> belongs to the same interjectional class
 		<Ref k="chiri1942" p="§129" paren />. Dialogue turns themselves are managed by
 		interjections, above all <A w="iineahsuy" gl="hey, say" />, which opens an appeal to
-		the hearer 210 times in the Asai Take corpus — examples (2) and (18) — and shades from
+		the hearer many times over in the Asai Take corpus — example (2) — and shades from
 		‘hey!’ into ‘now listen, the fact is…’. Together with the topic chains of §24.1 and
 		the presentational formula of §24.4, these little words are what give the spoken
 		Sakhalin sentence its characteristic shape: frame first, verb last, and the speaker's

@@ -389,7 +389,7 @@
 		<Ref k="chiri1942" p="§123(121)" />. The commonest frames are with
 		<i lang="ain">kara</i> &lsquo;make (into)&rsquo;, <i lang="ain">koro</i>
 		&lsquo;take as&rsquo; (<i lang="ain">mah ne koro</i> &lsquo;take as wife&rsquo;,
-		example (3) of <Xr ch="nouns-and-possession">Chapter 7</Xr>), and verbs of
+		example (4) of <Xr ch="nouns-and-possession">Chapter 7</Xr>), and verbs of
 		becoming:
 	</p>
 	<Ex

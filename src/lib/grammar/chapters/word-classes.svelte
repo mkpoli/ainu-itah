@@ -475,7 +475,7 @@
 			<Xr ch="negation" s="standard-negation">Chapter 17</Xr>.
 			And the scalar-additive <A w="ka" />, <A w="kayki" /> and the restrictive
 			<A w="pateh" gl="only" /> are clitic focus particles, placed after their host rather
-			than before it (<Xr ch="information-structure" s="focus-particles">§24.3</Xr>). The
+			than before it (<Xr ch="information-structure" s="focus-particles">§24.2</Xr>). The
 			interaction of adverb placement with the basic verb-final order of the clause is
 			taken up in <Xr ch="clause-structure" s="word-order" />.
 		</p>
