@@ -45,7 +45,7 @@
 		<tr>
 			<td>Evidential construction</td>
 			<td>yes</td>
-			<td><i>V</i>-POSS <i lang="ain">nee</i> N-POSS <i lang="ain">an</i></td>
+			<td>[clause] N-POSS <i lang="ain">an</i> (± <i>V</i>-POSS <i lang="ain">nee</i>)</td>
 			<td>§20.4</td>
 		</tr>
 		<tr>
@@ -204,11 +204,16 @@
 		The evidential sentences of <Xr ch="evidentiality">Chapter 16</Xr> are themselves
 		built on nominalization: the possessed evidential nouns
 		<i lang="ain">ruwehe</i>, <i lang="ain">hawehe</i>, <i lang="ain">sirihi</i>,
-		<i lang="ain">humihi</i> head the clause. Sakhalin again diverges from Hokkaidō in
-		the scaffolding: the lexical verb is nominalized with the possessive suffix and
-		linked to the evidential noun by the copula <i lang="ain">nee</i>, and the sentence
-		closes with existential <i lang="ain">an</i> — <i>V</i>-POSS
-		<i lang="ain">nee</i> N-POSS <i lang="ain">an</i>
+		<i lang="ain">humihi</i> head the clause, taking the scope proposition as their
+		possessor and existential <i lang="ain">an</i> as predicate, on the template
+		[possessor clause]–N-POSS–<i lang="ain">an</i>. In the basic pattern the possessor is a
+		plain finite clause and no overt nominaliser appears on the scope verb at all —
+		<i lang="ain">re monimahpo an ruwehe an</i> ‘evidently three girls lived there’,
+		literally ‘the trace of three girls being there existed’
+		(<Xr ch="evidentiality" s="inferential">§16.3</Xr>). Sakhalin diverges from Hokkaidō in
+		also admitting a copula-linked subtype, in which the lexical verb is overtly nominalised
+		with the possessive suffix and joined to the evidential noun by the copula
+		<i lang="ain">nee</i> — <i>V</i>-POSS <i lang="ain">nee</i> N-POSS <i lang="ain">an</i>
 		<Ref k="bugaeva2016" p="108" paren />:
 	</p>
 	<Ex
