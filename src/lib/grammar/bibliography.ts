@@ -342,6 +342,20 @@ export const bibliography: Record<string, BibEntry> = {
 		pages: '4(3): 333–377',
 		reported: true
 	},
+	gruzdeva1996: {
+		region: 'general',
+		author: 'Gruzdeva, Ekaterina',
+		citeAuthor: 'Gruzdeva',
+		year: '1996',
+		title: 'The linguistic situation on Sakhalin Island',
+		container:
+			'Atlas of languages of intercultural communication in the Pacific, Asia, and the Americas, vol. II.1',
+		editor: 'Wurm, Stephen A., Peter Mühlhäusler & Darrell T. Tryon',
+		pages: '1007–1012',
+		publisher: 'Mouton de Gruyter',
+		place: 'Berlin & New York',
+		url: 'https://doi.org/10.1515/9783110819724.3.1007'
+	},
 	'hattori-chiri1960': {
 		region: 'general',
 		author: 'Hattori Shirō 服部四郎 & Chiri Mashiho 知里真志保',
@@ -401,6 +415,20 @@ export const bibliography: Record<string, BibEntry> = {
 		url: 'https://doi.org/10.15017/5392',
 		lang: 'ja'
 	},
+	iwai1987: {
+		region: 'sakhalin',
+		author:
+			'Iwai Toshiaki 岩井隆盛, Asakura Toshio 朝倉利光, Ifukube Tōru 伊福部達 & Kawashima Toshio 川嶋稔夫',
+		citeAuthor: 'Iwai et al.',
+		year: '1987',
+		title: 'ピウスツキ蠟管の音声再生と録音内容——レーザビーム反射法による光学式音声再生',
+		titleTr:
+			'Sound-reproduction from Bronisław Piłsudski’s recordings and their contents: Reproduction of sound from old wax cylinders using the laser-beam reflection method',
+		container: '国立民族学博物館研究報告別冊 [Bulletin of the National Museum of Ethnology, special issue]',
+		pages: '5: 147–163',
+		url: 'https://doi.org/10.15021/00003757',
+		lang: 'ja'
+	},
 	janhunen2022: {
 		region: 'general',
 		author: 'Janhunen, Juha A.',
@@ -448,6 +476,16 @@ export const bibliography: Record<string, BibEntry> = {
 		lang: 'ja',
 		note: 'Cited after Dal Corso (2025b)',
 		reported: true
+	},
+	lee2013: {
+		region: 'general',
+		author: 'Lee, Sean & Toshikazu Hasegawa',
+		citeAuthor: 'Lee & Hasegawa',
+		year: '2013',
+		title: 'Evolution of the Ainu language in space and time',
+		container: 'PLOS ONE',
+		pages: '8(4): e62243',
+		url: 'https://doi.org/10.1371/journal.pone.0062243'
 	},
 	majewicz1998: {
 		region: 'sakhalin',
@@ -851,6 +889,16 @@ export const bibliography: Record<string, BibEntry> = {
 			'千葉大学ユーラシア言語文化論集 [Chiba University Eurasian languages and cultures studies]',
 		pages: '4: 187–226',
 		lang: 'ja'
+	},
+	unesco2010: {
+		region: 'general',
+		author: 'Moseley, Christopher (ed.)',
+		citeAuthor: 'UNESCO',
+		year: '2010',
+		title: 'Atlas of the world’s languages in danger, 3rd edn',
+		publisher: 'UNESCO Publishing',
+		place: 'Paris',
+		url: 'https://unesdoc.unesco.org/ark:/48223/pf0000187026'
 	},
 	urata1998: {
 		region: 'hokkaido',
