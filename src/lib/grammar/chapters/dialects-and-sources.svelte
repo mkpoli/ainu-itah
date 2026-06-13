@@ -186,7 +186,7 @@
 		speakers of four east-coast villages — Tarayka, Hunup, Ay, and Tunayci — each
 		introduced in the notes to his or her first text: Sisratoka, aged 28, of Tarayka,
 		Ipoxni, aged 32, of Hunup, and several tellers at Tunayci, among them the
-		88-year-old Jasinoske
+		88-year-old Yasinoske
 		<Ref k="pilsudski1912" paren />, <Ref k="dalcorso2024" p="58" paren />. Most were monolingual first-language speakers, so the corpus shows the language
 		with almost no Japanese or Russian admixture — a state never again captured
 		<Ref k="dalcorso2024" p="54, 58" paren />. Each text carries an English translation

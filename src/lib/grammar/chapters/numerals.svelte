@@ -117,7 +117,7 @@
 		records and east-Sakhalin speakers keep <i lang="ain">asisne(h)</i>
 		<Ref k="murasaki2009" p="74" />, <Ref k="sakaguchi2022" p="69" paren />; both
 		shapes occur in the corpus, cf. (12). Second, the final consonant: Naert's
-		informants from Taraytomari and Nayro pronounced final <i lang="ain">-p</i>
+		informants from Taraytomari and Nairo pronounced final <i lang="ain">-p</i>
 		(<i lang="ain">sinep</i>), so the <i lang="ain">-h</i> shapes of Table 1 must not
 		be projected onto every locality <Ref k="sakaguchi2022" p="69" />.
 	</p>
@@ -301,7 +301,7 @@
 			Ainu word pressed into service for trade counting
 			<Ref k="sakaguchi2022" p="66" />. By the twentieth century the decimal forms
 			had displaced the scores everywhere: Naert's mid-century informants from
-			Taraytomari and Nayro knew only <i lang="ain">kunkutu</i> forms for
+			Taraytomari and Nairo knew only <i lang="ain">kunkutu</i> forms for
 			&lsquo;thirty&rsquo;, and his Rayciska informant offered <i lang="ain">wanpe
 			ikasma sine hoh</i> only as an archaism <Ref k="sakaguchi2022" p="71" />.
 			Hattori's dictionary likewise lists <i lang="ain">hohne</i> &lsquo;twenty&rsquo;
