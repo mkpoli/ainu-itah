@@ -349,7 +349,7 @@ export const bibliography: Record<string, BibEntry> = {
 		year: '1996',
 		title: 'The linguistic situation on Sakhalin Island',
 		container:
-			'Atlas of languages of intercultural communication in the Pacific, Asia, and the Americas, vol. II.1',
+			'Atlas of languages of intercultural communication in the Pacific, Asia, and the Americas, vol. II: Texts',
 		editor: 'Wurm, Stephen A., Peter Mühlhäusler & Darrell T. Tryon',
 		pages: '1007–1012',
 		publisher: 'Mouton de Gruyter',
@@ -418,7 +418,7 @@ export const bibliography: Record<string, BibEntry> = {
 	iwai1987: {
 		region: 'sakhalin',
 		author:
-			'Iwai Toshiaki 岩井隆盛, Asakura Toshio 朝倉利光, Ifukube Tōru 伊福部達 & Kawashima Toshio 川嶋稔夫',
+			'Iwai Toshiaki 岩井俊昭, Asakura Toshimitsu 朝倉利光, Ifukube Tōru 伊福部達 & Kawashima Toshio 川嶋稔夫',
 		citeAuthor: 'Iwai et al.',
 		year: '1987',
 		title: 'ピウスツキ蠟管の音声再生と録音内容——レーザビーム反射法による光学式音声再生',
