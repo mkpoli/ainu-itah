@@ -450,11 +450,15 @@
 		(<i lang="ain">poro-p</i> &lsquo;a big one&rsquo;), <A w="hi" gl="place, time,
 		fact" />, <A w="kur" gl="person" /> and <A w="usi" gl="place" />
 		<Ref k="chiri1942" p="§§60–63" paren />; their syntax is treated with
-		nominalization in <Xr ch="nominalization">Chapter 20</Xr>. The variants
-		<i lang="ain">-p</i> and <i lang="ain">kur</i> are given in Chiri's morphophonemic
-		citation; in West-coast isolation their codas undergo the regular neutralisation of
+		nominalization in <Xr ch="nominalization">Chapter 20</Xr>. The nominaliser
+		<i lang="ain">-p</i> is given in Chiri's morphophonemic citation; in West-coast isolation
+		it undergoes the regular coda-obstruent neutralisation of
 		<Xr ch="phonology" s="coda-h">Chapter 4</Xr>, as with <i lang="ain">sik</i> ~
-		<i lang="ain">sis</i> earlier in this chapter. Distinctively Sakhalin
+		<i lang="ain">sis</i> earlier in this chapter. The formal noun <i lang="ain">kur</i>
+		likewise appears in its morphophonemic shape, but its final <i lang="ain">r</i> follows
+		the separate coda-<i lang="ain">r</i> alternation (West-coast <i lang="ain">r</i> →
+		<i lang="ain">h</i> or an echo vowel, varying word by word) rather than the obstruent
+		rule (<Xr ch="phonology">Chapter 4</Xr>). Distinctively Sakhalin
 		is the extension of the possessive suffix itself to verbs: a clause may be
 		nominalized by <i lang="ain">-hV</i> on its predicate, as in
 		<i lang="ain">sitayki-hi neampe</i> &lsquo;when (she) struck it&rsquo; in (2),

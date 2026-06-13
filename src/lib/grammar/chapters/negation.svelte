@@ -191,7 +191,7 @@
 	<Ex
 		m="maskin han neran itah ham an-ki kun ki kusu"
 		g="too.much NEG what.kind word NEG INDEF.A-do going.to do PURP"
-		tr="I do not intend to say any words of that kind at all."
+		tr="I will not say any word at all."
 		cite="dobrotvorsky1875; sakaguchi2021"
 		dial="WS"
 		place="West coast, central (recorded 1867–1872)"
