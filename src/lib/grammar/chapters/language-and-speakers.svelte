@@ -30,7 +30,10 @@
 		word was in use in this sense among all regional groups, including those of Sakhalin
 		<Ref k="janhunen2022" paren />, <Ref k="hattori1964" p="34" paren />. Sakhalin speakers
 		applied it to themselves in ordinary discourse: writing to Bronisław Piłsudski in 1906,
-		Sentoku Tarōji <span lang="ja">千徳太郎治</span> reports on his community as follows.
+		Sentoku Tarōji <span lang="ja">千徳太郎治</span> — himself a Sakhalin Ainu, who would later publish
+			<span lang="ja">樺太アイヌ叢話</span>, one of the earliest accounts of the community
+			written from within it <Ref k="sentoku1929" paren /> — reports on his community as
+			follows.
 	</p>
 	<Ex
 		m="anokay aynu utara ramma ka pirka"
@@ -157,6 +160,9 @@
 		apart from both Hokkaidō and North Kuril as one of three top-level groups, and the
 		statistical reanalysis of <Ref k="ono2020" /> yields an even sharper picture in which
 		the deepest split in the family runs between the Sakhalin dialects and everything else.
+		A Bayesian phylogenetic analysis of the same Hattori–Chiri wordlists likewise recovers a
+		primary division between a Sakhalin and a Hokkaidō subgroup, and places the family’s
+		homeland in northern Hokkaidō <Ref k="lee2013" paren />.
 		Sakhalin Ainu separates from Hokkaidō Ainu by regular phonological correspondences and
 		by its own grammatical retentions and innovations; <Ref k="vovin1993" /> draws on
 		Sakhalin evidence, including the Nairo dialect, throughout his reconstruction of
@@ -211,7 +217,8 @@
 		On Sakhalin the Ainu bordered on the Uilta (Orok), speakers of a Tungusic language,
 		and the Nivkh, speakers of another isolate; the principal contact area was the Poronay
 		basin and the Tarayka region in the north-east, with a second mixed zone on the
-		northern west coast <Ref k="janhunen2022" paren />, <Ref k="shiraishi2022" paren />.
+		northern west coast <Ref k="janhunen2022" paren />, <Ref k="shiraishi2022" paren />,
+		<Ref k="gruzdeva1996" paren />.
 		Japanese travel records of the late eighteenth and nineteenth centuries show that
 		multilingualism was limited and localised rather than general: in contact situations
 		around Lake Tarayka it was usually the Uilta who spoke Ainu, while command of Ainu
@@ -255,14 +262,16 @@
 	<p>
 		Sakhalin Ainu is today a dormant language: natural transmission ended in the first
 		half of the twentieth century, and no native speaker has lived since 1994
-		<Ref k="dalcorso2024" p="55, 57" paren />, <Ref k="janhunen2022" paren />. It is not,
+		<Ref k="dalcorso2024" p="55, 57" paren />, <Ref k="janhunen2022" paren />; the UNESCO
+			<i>Atlas of the World’s Languages in Danger</i> accordingly lists it among the world’s
+			extinct languages <Ref k="unesco2010" paren />. It is not,
 		however, an unused one. Descendants of the Sakhalin Ainu in Japan study and revive the
 		language under the name <i lang="ain">Enciw itah</i>, with the scholar and activist
 		Kitahara Jirōta Mokottunas <span lang="ja">北原次郎太</span> among those leading the
 		effort <Ref k="dalcorso2024" p="55" paren />, and teaching materials now exist,
 		including the conversation course of <Ref k="murasaki2025" />. The recorded legacy is
 		substantial: Piłsudski’s wax-cylinder recordings of 1902–1905 have been partly
-		restored by modern laser technology <Ref k="dalcorso2024" p="59" paren />, and the
+		restored from the 1980s onward by a laser-beam reflection method developed for the purpose <Ref k="iwai1987" paren />, <Ref k="dalcorso2024" p="59" paren />, and the
 		post-war tape recordings of Fujiyama Haru and Asai Take were published with audio
 		<Ref k="murasaki2001" paren />, <Ref k="tangiku2022" paren />.
 	</p>
