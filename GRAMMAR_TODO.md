@@ -10,8 +10,17 @@ self-contained fixes have already been applied.
   Sakaguchi's analysis that `-(y)an` marks **2nd-person plurality, whatever its role**.
   Decide the glossing convention for the discontinuous `eci-…-yan` form (this sits on the
   disputed inverse-vs-Sakaguchi analysis); align gloss and prose.
-- [ ] **negation** — `hanna` in `hanna mawa-an-ike` is glossed `NEG` but described as apprehensive
-  'lest'. AUTHOR DECISION (sharpened): the functional case against `NEG` is strong — here `hanna`
+- [x] **negation** — `hanna` gloss — DECISION: KEEP `NEG`. Grounds: `hanna` is a member of the
+  negator inventory (it heads a row in negation §17's negator table) and is etymologically `han`
+  'NEG' + `na`, so glossing it `NEG` follows the grammar's own stated convention — "we keep the
+  conventional gloss … while flagging this mismatch" (person-and-alignment §13.1, for 1PL.EXCL) —
+  and the apprehensive function is already flagged in the prose, the Ex note ("Apprehensive
+  hanna"), and the table. Glossing it `ADM`/`APPR` would commit to the stronger claim that `hanna`
+  is synchronically a distinct apprehensive morpheme rather than a negator-derived form; the
+  conservative, table-consistent `NEG` is preferred and needs no code change (already `NEG`). The
+  defined-but-unused `ADM` atom is left in place in case a future APPR reanalysis wants it.
+  (Original deliberation retained below.)
+  AUTHOR DECISION (sharpened): the functional case against `NEG` is strong — here `hanna`
   does NOT negate the verb ('lest I starve' ≠ 'I do not starve'), it marks apprehensive modality,
   so `NEG` is functionally misleading. Against relabeling: (a) it depends on how Dal Corso 2025:54–55
   analyses `hanna` (etymologically `han` + `na`, a negator form), and (b) the existing atom is `ADM`
