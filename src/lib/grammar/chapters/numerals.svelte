@@ -565,7 +565,7 @@
 		<Xr ch="postpositions">Chapter 11</Xr>.
 	</p>
 	<Ex
-		m="teki-hi-cin ohta neya ay ne kun-pe poronno uyna"
+		m="tek-ihi-cin ohta neya ay ne kun-pe poronno uyna"
 		g="hand-POSS-PL LOC that arrow COP should-NMLZ many take.PL"
 		tr="In his hands he grabbed up many of the things that were to be those arrows."
 		cite="pilsudski1912:70; chiri1942:§67"

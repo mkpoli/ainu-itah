@@ -111,7 +111,7 @@
 			shows the alternation live in one clause.
 		</p>
 		<Ex
-			m="orowa tani taa teh ani sitayki-hi neampe teki-hi kotahma"
+			m="orowa tani taa teh ani sitayki-hi neampe tek-ihi kotahma"
 			g="then now EMPH hand INS hit-NMLZ TOP hand-POSS stick"
 			tr="Then, when she struck it with a hand, her hand stuck fast."
 			cite="murasaki2001:text 43"
@@ -325,7 +325,7 @@
 		<Ref k="chiri1942" p="§76" />, <Ref k="bugaeva2022" p="ch. 9, §4.2" paren />. The
 		corpus matches this distribution: hands, legs, heads, eyes, beaks, names, voices,
 		fathers, mothers, sisters, wives, husbands and children appear as
-		<i lang="ain">teki-hi</i>, <i lang="ain">kema-ha</i>, <i lang="ain">sapa-ha</i>,
+		<i lang="ain">tek-ihi</i>, <i lang="ain">kema-ha</i>, <i lang="ain">sapa-ha</i>,
 		<i lang="ain">siki-hi</i>, <i lang="ain">etu-wehe</i>, <i lang="ain">ree-he</i>,
 		<i lang="ain">maci-hi</i>, <i lang="ain">hoku-hu</i>, <i lang="ain">poo-ho</i> in
 		example after example above. At the other pole, nouns for natural phenomena —
@@ -348,7 +348,7 @@
 		<i lang="ain">a-kor mosir</i> &lsquo;our land, lit. the land we have&rsquo;. In
 		Sakhalin the suffixal construction has been generalized to nouns of all classes —
 		houses (6), garments (7), boats (9), axes (5), villages and lands
-		(<i lang="ain">an-mosiri-hi</i> &lsquo;our land&rsquo;,
+		(<i lang="ain">an-mosir-ihi</i> &lsquo;our land&rsquo;,
 		<Ref k="murasaki1979" p="5" paren />) — so that both inalienable and alienable
 		relations are head-marked <Ref k="bugaeva2016" p="105" paren />; for the place of
 		this appositive possessor-plus-possessed pattern within Ainu and the wider Pacific

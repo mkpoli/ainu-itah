@@ -298,7 +298,7 @@
 		<Ref k="dalcorso2018" p="272–295" paren />.
 	</p>
 	<Ex
-		m="tuhso neeno an puy ahun siri-hi an manu"
+		m="tuhso neeno an puy ahun sir-ihi an manu"
 		g="cave as.if exist.SG hole enter.SG appearance-POSS exist.SG REP"
 		tr="It looked as though a hole like a cave opened up."
 		note="Visual appearance, with the proviso that looks may deceive."

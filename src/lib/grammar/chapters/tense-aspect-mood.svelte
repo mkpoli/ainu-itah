@@ -469,7 +469,7 @@
 		<Ref k="murasaki1976" p="53" paren />.
 	</p>
 	<Ex
-		m="ci-reske moromahpo kami-hi ci-ee rusuy kusu"
+		m="ci-reske moromahpo kam-ihi ci-ee rusuy kusu"
 		g="1PL.EXCL.A-raise girl flesh-POSS 1PL.EXCL.A-eat DES because"
 		tr="because we want to eat the flesh of the girl we raised"
 		note="The ogress speaks of herself alone in the CI-series (Chapter 13)."

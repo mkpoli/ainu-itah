@@ -129,7 +129,7 @@
 		flagging this mismatch wherever it matters.
 	</p>
 	<Ex
-		m="nahte asip-as cikin paye-as siri-hi eci-nukan-te"
+		m="nahte asip-as cikin paye-as sir-ihi eci-nukan-te"
 		g="then go.out.PL-1PL.EXCL.S if go.PL-1PL.EXCL.S appearance-POSS 1PL.EXCL.A>2SG.O-see-CAUS"
 		tr="Then, when I go out, I will show you how I go."
 		note="The she-bear speaks of herself alone; the CI-series forms nonetheless take the plural stems asip and paye, and the 1→2 interaction surfaces as the portmanteau eci- (§13.4)."
