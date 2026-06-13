@@ -189,14 +189,22 @@ self-contained fixes have already been applied.
   OPEN: `Jasinoske ~ Yasinoske` (narrator name), `Nairo ~ Nayro`, and **`Taraytomari`** — do NOT
   assume it is a typo of `Tarantomari` (west); it is paired with Nayro (northeast) in numerals
   and may be a distinct Taraika-area place. Verify before unifying.
-- [ ] **plural `=hci` notation** — AUTHOR AUDIT (clarified; do NOT blind-sweep). The grammar already
-  draws a principled split, not a single inconsistent marker: the VERBAL plural clitic is `-hci` /
-  `-ahci` (hyphen, no -n; ~185 tokens, and §8.4's prose + section title call it "the plural clitic
-  -hci"), while the NOMINAL plural is `=hcin` / `=ahcin` (equals **+n**; number §8.4, e.g.
-  `seta-ha=hcin`). The dominant verbal convention `-hci` is settled. The 23 stray `=hci` / `=ahci`
-  tokens (equals but NO -n) are neither shape — these are the items to audit: each is either a
-  verbal `-hci` mis-set with `=`, or a nominal `=hcin` missing its `-n`. Needs the author's eye per
-  token; a global replace would conflate the two morphemes.
+- [ ] **plural `=hci` notation** — AUTHOR CONVENTION CALL (sharpened on audit; do NOT blind-sweep).
+  Two settled facts: the NOMINAL plural is `=hcin`/`=ahcin` (equals **+n**, e.g. `seta-ha=hcin`),
+  and the dominant VERBAL example notation is `-hci`/`-ahci` (hyphen; 65 vs 4 tokens, `okay-ahci`
+  ×15). BUT the 8 stray verbal `=hci`/`=ahci` (equals, no -n) are NOT random mis-sets: they cluster
+  in exactly the passages that **argue the plural is a clitic** — number §8.4 ("the clitic attaches
+  outside the person suffixes (`paye-an=ahci`)… ranks it with the clitic-like person markers",
+  Sakaguchi) and word-classes §6 (the clitic discussion), where the m-line `an=e=hci` is m/g-aligned
+  with gloss `INDEF.A=eat=PL`. So `=` there is deliberate and internally consistent. The real
+  decision is the grammar's clitic-notation PHILOSOPHY: the work writes person clitics with `=`
+  (`an=`, `ku=`, `e=`) and endorses Sakaguchi's analysis that the plural is the SAME kind of clitic
+  — which argues for `=hci` everywhere — yet the house example-style uses `-hci`. Pick one: (a) keep
+  `-hci` as boundary-notation house style and renormalise the 8 clitic-passage tokens (+their `=PL`
+  glosses → `-PL`); or (b) commit to `=hci` for the endorsed clitic analysis and sweep the 65
+  example tokens (+`-PL`→`=PL`). Either is a whole-grammar stylistic commitment — author's call.
+  Files with the 8 `=`-tokens: verb-structure:42, word-classes:172/175, number:327,
+  information-structure:179/239, morphophonology:227/495.
 - [x] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2 —
   FULLY RESOLVED. `maskin` was already unified ("overly" → "too.much"). The remaining `kun`
   (going.to vs COND) and `kusu` (PURP vs because) differences are now settled with the `kun(i)`
