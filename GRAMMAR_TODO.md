@@ -166,14 +166,16 @@ self-contained fixes have already been applied.
   at the source (1979 = grammar, 1976 = text collection; both "p. 95" was the red flag).
 
 ## Canon / transcription / glossing consistency (from Fable-5 round 2 — deferred)
-- [~] **Sakhalin coda shapes for citation forms** — PARTIALLY RESOLVED. Fixed the clear internal
-  inconsistency: negation's negator-table `eaykap` → `eaykah` (Sakhalin coda `*p`→`h`), matching the
-  4 `eaykah` tokens in TAM/complementation. REMAINING (citation-convention decision, deferred):
-  `sik` 'eye' in nouns Table 1 (underlying citation vs surface free form `sis`) and the formal
-  nouns `-p`/`kur` (vs Sakhalin `-h`/`kuru~kuh`) — these are deliberate underlying-citation choices
-  in a paradigm table; decide per item whether to switch to the surface form or flag the underlying
-  form explicitly. (The possessed forms resurface the stop — `sik` → `sikihi` — so the underlying
-  citation is defensible, unlike the `eaykah` free-standing word.)
+- [x] **Sakhalin coda shapes for citation forms** — RESOLVED. Convention chosen: paradigm/citation
+  tables keep Chiri's morphophonemic underlying form (which explains the alternation), with the
+  Sakhalin surface flagged. `eaykap`→`eaykah` was already fixed (free-standing word, so surface).
+  `sik` 'eye' was already handled — §7.1 explicitly states "Chiri's morphophonemic citation; the
+  West-coast isolation form is `sis` by coda neutralisation" (and possessed `sikihi` resurfaces the
+  stop, so the underlying citation is right). Now closed the last gap: the formal nouns `-p` and
+  `kur` (nouns §7.8) carry a note that they are Chiri's morphophonemic citations whose codas undergo
+  the Chapter 4 neutralisation in West-coast isolation, cross-referenced to `sik ~ sis` (kept the
+  morphophonemic form rather than asserting specific surface strings, which the corpus does not pin
+  down for the nominaliser).
 - [x] **`tama in=konte`** — RESOLVED: the grammar's own convention (dialects §2.1.2 "in- is the
   exclusive first-person plural object prefix"; morphophonology Ex 8) glosses `in-` as
   1PL.EXCL.O, so the texts chapter's `jewel 1SG.O=give` was the outlier → aligned to
