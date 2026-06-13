@@ -17,7 +17,16 @@ self-contained fixes have already been applied.
   analyses `hanna` (etymologically `han` + `na`, a negator form), and (b) the existing atom is `ADM`
   'admonitive', whereas the prose says 'apprehensive' — related but not the same category, so a new
   `APPR` atom might be cleaner. Decide: keep `NEG` (gloss-the-form) + prose function, or introduce
-  an apprehensive gloss. Not auto-changed — convention call.
+  an apprehensive gloss. Not auto-changed — convention call. INVESTIGATED (no change made): the
+  current `NEG` is internally CONSISTENT and defensible — `hanna` is listed in negation §17's
+  negator table (row: "East coast (Hunup); apprehensive, negative intention"), so it is classified
+  as a negator, and the apprehensive function is already flagged three ways (prose §17.x, the Ex
+  note "Apprehensive hanna", and the table). This mirrors the grammar's stated convention "we keep
+  the conventional gloss … while flagging this mismatch" (person-and-alignment §13.1, for 1PL.EXCL).
+  So the choice is genuinely the author's synchronic-status call: gloss `NEG` (hanna = a negator-
+  derived form, current) vs gloss the function. NB the `ADM` atom ('admonitive (lest)') is defined
+  in abbreviations.ts but currently UNUSED — if the functional gloss wins, wire `hanna` to `ADM`
+  (or add `APPR`); if `NEG` stays, consider removing the dead `ADM` entry.
 - [x] **negation** — bare `ham ipe` in the caritive section — RESOLVED: the token is the plain
   negator `ham` (gloss `NEG`), not adverbialized `hamo`; the 'without eating' reading comes from
   the adverbial juxtaposition and the absent clause linker (the caritive's defining syntax). Added
