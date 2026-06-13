@@ -750,9 +750,14 @@
 			<i lang="ain">pp</i> surfacing as <i lang="ain">hp</i>
 			(<Xr ch="language-contact">Chapter 25</Xr>). Contact vocabulary also flowed from the
 			Amur–Sakhalin languages, e.g. <A w="tanku" gl="hundred" /> from Tungusic
-			<Ref k="tangiku2022" p="§3.3" paren />; Russian words pervade the letters of
-			Sentoku Tarōji (<i lang="ain">nuca kanpi</i> ‘Russian paper’,
-			<Ref k="tangiku2001" paren />).
+			<Ref k="tangiku2022" p="§3.3" paren />. Russian, by contrast, left almost no
+			integrated lexicon: its mark on Sentoku Tarōji's Cyrillic letters is chiefly the
+			written apparatus of dates and sums and the personal and place names adapted to Ainu
+			phonology — <i lang="ru">Aleksandr</i> → <i lang="ain">Ariksandoru</i> (with the
+			cluster broken by an echo vowel and <i lang="ain">l</i> → <i lang="ain">r</i>),
+			<i lang="ru">lesnichiy</i> ‘forester’ → <i lang="ain">Lesneciy</i> — rather than
+			borrowed words (<Xr ch="language-contact" s="russian">Chapter 25</Xr>)
+			<Ref k="tangiku2001" paren />.
 		</p>
 	</S>
 </S>
