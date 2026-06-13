@@ -21,6 +21,20 @@
 	const xDefaultUrl = $derived(
 		new URL(i18n.resolveRoute(canonicalPath, sourceLanguageTag), CANONICAL_HOSTNAME).toString()
 	);
+
+	const websiteJsonLd = {
+		'@context': 'https://schema.org',
+		'@type': 'WebSite',
+		name: 'A Grammar of Sakhalin Ainu',
+		alternateName: 'Aynu Itah',
+		url: CANONICAL_HOSTNAME,
+		description:
+			'A modern reference grammar of Sakhalin (Karafuto) Ainu — Enciw itah — with corpus-attested, glossed examples.',
+		inLanguage: 'en',
+		publisher: { '@type': 'Organization', name: 'Aynu Itah', url: CANONICAL_HOSTNAME }
+	};
+	const websiteJsonLdScript =
+		'<' + 'script type="application/ld+json">' + JSON.stringify(websiteJsonLd) + '<\/script>';
 </script>
 
 <svelte:head>
@@ -33,6 +47,7 @@
 	<meta property="og:image" content={OG_IMAGE} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:image" content={OG_IMAGE} />
+	{@html websiteJsonLdScript}
 </svelte:head>
 
 <ParaglideJS {i18n}>
