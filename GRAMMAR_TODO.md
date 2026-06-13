@@ -97,15 +97,15 @@ self-contained fixes have already been applied.
   the suffix `1.A`, another Ex glosses `-an` as `2PL.A`, and the table labels `eci-…-yan`
   "1.A (KU/CI)"; the adopted Sakaguchi analysis says `-(y)an` marks 2nd-person plurality.
   Pick ONE convention across the chapter (entangled with the inverse-vs-Sakaguchi debate).
-- [ ] **`kun(i)` gloss** — 'going.to' (person-and-alignment, TAM) vs `COND` (complementation,
-  negation, relative-clauses). Decide one label (prospective vs conditional-irrealis) or
-  distinguish two morphemes explicitly. SHARPENED (Fable-5): the grammar looks like it already has
-  a TWO-morpheme split — `going.to` is used pervasively for the prospective `kun pe (ne)` 'is going
-  to' (evidentiality §16, person-and-alignment ×3, pronouns, TAM §15 "kun pe ne 'is going to'"),
-  while `COND` is the irrealis complementizer `kun(i)` that complementation §22.2 EXPLICITLY declares
-  ("kun(i), which we gloss COND"). If that two-morpheme analysis is intended, document it; the only
-  genuine clash is the shared maskin sentence `ham an-ki kun ki kusu`, glossed `going.to` in TAM
-  §15.4 but `COND` in negation §17.2 — decide which reading that one `kun ki` gets and align the two.
+- [x] **`kun(i)` gloss** — RESOLVED as a TWO-morpheme split, kept and now consistent. The
+  prospective/expectative formal noun `kun ~ kuni` (Chiri §80 予期法) is glossed `going.to`
+  (`kun pe ne` 'is going to', and the periphrasis `kun ki`); the homophonous irrealis
+  complementizer `kun(i)` is glossed `COND` (complementation §22.2, which explicitly declares it).
+  Both are documented in their owner chapters (TAM §15.4 notes `kuni` "also serves as the
+  complementizer of expected events"). The lone clash — `ham an-ki kun ki kusu` glossed
+  `going.to … PURP` in TAM but `COND … because` in negation — is fixed by aligning negation to
+  TAM's analysis (this `kun ki` is the expectative periphrasis, not the complementizer):
+  negation §17.2 gloss → `going.to do PURP`.
 - [x] **morphophonology `sistoh` 'elbow'** — VERIFIED CORRECT (Hattori 1964, entry 86 'ひじ'):
   general Sakhalin (樺太) is `sistoh, -kihi` → possessed `sistokihi`, exactly the grammar's form.
   Fable's claim that Hattori has `sittoh`/`sittokihi` is wrong; `síttok` is the Taraika/Hokkaidō
@@ -195,12 +195,11 @@ self-contained fixes have already been applied.
   tokens (equals but NO -n) are neither shape — these are the items to audit: each is either a
   verbal `-hci` mis-set with `=`, or a nominal `=hcin` missing its `-n`. Needs the author's eye per
   token; a global replace would conflate the two morphemes.
-- [~] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2 —
-  PARTIALLY RESOLVED: unified `maskin` (negation "overly" → "too.much" to match TAM). The
-  remaining differences — `kun` (going.to vs COND) and `kusu` (PURP vs because) — are NOT trivial
-  notation: they are the two competing analyses of this `kun ki kusu` construction (prospective
-  +purposive vs conditional+causal), entangled with the deferred `kun(i)` gloss decision above.
-  Defer the rest to that decision.
+- [x] **`maskin … kun ki kusu` sentence** glossed differently in TAM §15.4 vs negation §17.2 —
+  FULLY RESOLVED. `maskin` was already unified ("overly" → "too.much"). The remaining `kun`
+  (going.to vs COND) and `kusu` (PURP vs because) differences are now settled with the `kun(i)`
+  decision above: the prospective+purposive analysis wins (this is the expectative `kun ki`
+  periphrasis), so negation §17.2 was aligned to TAM's `going.to do PURP`.
 - [x] **misc one-liners** — ALL RESOLVED:
   • `cahraku` etymology — phonology aligned to the language-contact account (ratcaku < 蠟燭).
   • `imi-yehe` vs `imiye-he` — normalised the two texts §26 tokens to `imi-yehe` (stem `imi`/`imii`
