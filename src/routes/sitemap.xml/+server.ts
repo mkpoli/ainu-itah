@@ -1,37 +1,63 @@
 import { CANONICAL_HOSTNAME } from '$lib/consts';
-import { availableLanguageTags } from '$lib/paraglide/runtime';
+import { availableLanguageTags, sourceLanguageTag } from '$lib/paraglide/runtime';
+import { parts, appendices } from '$lib/grammar/toc';
 
-function generateSitemap(hostname: string, urls: string[]) {
-	return `<?xml version="1.0" encoding="UTF-8" ?>
-		<urlset
-			xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-			xmlns:xhtml="https://www.w3.org/1999/xhtml"
-			xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0"
-			xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
-			xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
-			xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
-		>
-      <url>
-        <loc>${hostname}</loc>
-        <changefreq>daily</changefreq>
-      </url>
-      ${urls
-				.map(
-					(url) =>
-						`<url><loc>${new URL(url, hostname).toString()}</loc><changefreq>daily</changefreq></url>`
-				)
-				.join('\n')}
-		</urlset>`;
+/**
+ * Content page paths without a language prefix. Every path is served under each
+ * language tag (prefixDefaultLanguage: 'always'), so the sitemap lists each
+ * path once per language with a full set of hreflang alternates.
+ */
+function contentPaths(): { path: string; priority: string }[] {
+	const grammarPages = parts.flatMap((p) =>
+		p.chapters.map((c) => ({ path: `/grammar/${c.slug}`, priority: '0.8' }))
+	);
+	const appendixPages = appendices.map((a) => ({
+		path: `/grammar/${a.slug}`,
+		priority: '0.5'
+	}));
+	return [
+		{ path: '', priority: '1.0' },
+		{ path: '/grammar', priority: '0.9' },
+		...grammarPages,
+		...appendixPages
+	];
 }
 
-export async function GET() {
-	return new Response(
-		generateSitemap(
-			CANONICAL_HOSTNAME,
-			availableLanguageTags.map((tag) => `/${tag}`)
-		),
-		{
-			headers: { 'Content-Type': 'application/xml', 'Cache-Control': 'max-age=0' }
-		}
+function href(tag: string, path: string): string {
+	return new URL(`/${tag}${path}`, CANONICAL_HOSTNAME).toString();
+}
+
+/** hreflang alternates for one content path, across every language + x-default. */
+function alternates(path: string): string {
+	const links = availableLanguageTags.map(
+		(tag) => `<xhtml:link rel="alternate" hreflang="${tag}" href="${href(tag, path)}"/>`
 	);
+	links.push(
+		`<xhtml:link rel="alternate" hreflang="x-default" href="${href(sourceLanguageTag, path)}"/>`
+	);
+	return links.join('');
+}
+
+function generateSitemap(): string {
+	const urls = contentPaths().flatMap(({ path, priority }) =>
+		availableLanguageTags.map(
+			(tag) =>
+				`<url><loc>${href(tag, path)}</loc>${alternates(path)}<changefreq>weekly</changefreq><priority>${priority}</priority></url>`
+		)
+	);
+	return `<?xml version="1.0" encoding="UTF-8" ?>
+<urlset
+	xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="https://www.w3.org/1999/xhtml"
+>
+${urls.join('\n')}
+</urlset>`;
+}
+
+export const prerender = true;
+
+export async function GET() {
+	return new Response(generateSitemap(), {
+		headers: { 'Content-Type': 'application/xml' }
+	});
 }
