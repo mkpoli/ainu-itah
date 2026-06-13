@@ -3,6 +3,22 @@
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
 
 	const roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII'];
+
+	const bookJsonLd = {
+		'@context': 'https://schema.org',
+		'@type': 'Book',
+		name: 'A Grammar of Sakhalin Ainu',
+		url: new URL('/grammar', CANONICAL_HOSTNAME).toString(),
+		description:
+			'A reference grammar of Sakhalin (Karafuto) Ainu with corpus-attested interlinear examples.',
+		inLanguage: 'en',
+		genre: 'Reference grammar',
+		about: { '@type': 'Language', name: 'Sakhalin Ainu', alternateName: 'Karafuto Ainu' },
+		publisher: { '@type': 'Organization', name: 'Aynu Itah', url: CANONICAL_HOSTNAME },
+		isPartOf: { '@type': 'WebSite', name: 'Aynu Itah', url: CANONICAL_HOSTNAME }
+	};
+	const bookJsonLdScript =
+		'<' + 'script type="application/ld+json">' + JSON.stringify(bookJsonLd) + '<\/script>';
 </script>
 
 <svelte:head>
@@ -18,6 +34,7 @@
 	/>
 	<meta property="og:url" content={new URL('/grammar', CANONICAL_HOSTNAME).toString()} />
 	<meta property="og:type" content="website" />
+	{@html bookJsonLdScript}
 </svelte:head>
 
 <article class="grammar-cover">
