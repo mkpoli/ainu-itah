@@ -185,10 +185,17 @@ self-contained fixes have already been applied.
   prose's manual numbers (which started counting at the first real particle). Corrected all six
   references: intro "(§11.1–§11.7), relational nouns (§11.8), boundary (§11.9)"; `kasketa` forms
   →§11.8; ene examples →§11.8; comitative note →§11.6; overlap note →§11.9.
-- [~] **place/speaker spelling canon** — FIXED `Tunaychi`→`Tunayci`, `Otasuh`→`Odasu`. STILL
-  OPEN: `Jasinoske ~ Yasinoske` (narrator name), `Nairo ~ Nayro`, and **`Taraytomari`** — do NOT
-  assume it is a typo of `Tarantomari` (west); it is paired with Nayro (northeast) in numerals
-  and may be a distinct Taraika-area place. Verify before unifying.
+- [~] **place/speaker spelling canon** — MOSTLY RESOLVED. Fixed `Tunaychi`→`Tunayci`,
+  `Otasuh`→`Odasu`; now also `Jasinoske`→`Yasinoske` (dialects §2 — the orthography §3.4
+  retranscription rule replaces Piłsudski's `j` with `y`, and information-structure already had
+  `Yasinoske`), and `Nayro`→`Nairo` (numerals — Hattori's locality is `Nairo` 内路, an `ai`/`ay`
+  orthographic variant of one place). STILL OPEN — **`Taraytomari`** (numerals ×2, postpositions
+  ×2): evidence now leans toward it being the west-coast `Tarantomari` 多蘭泊 (the kanji reads
+  Taran-, and numerals' "Taraytomari and Nairo pronounced final -p" mirrors phonology §4's
+  "Tarantomari … Nairo stand outside the neutralisation" — the same two -p-retaining localities),
+  but the `Taray-` spelling echoes Tarayka and the postpositions use is a different (syntactic)
+  feature. Confirm the spelling in the cited sources (Sakaguchi 2022; the postpositions source)
+  before unifying — a segmental change, unlike the orthographic `Nayro`/`Nairo`.
 - [ ] **plural `=hci` notation** — AUTHOR CONVENTION CALL (sharpened on audit; do NOT blind-sweep).
   Two settled facts: the NOMINAL plural is `=hcin`/`=ahcin` (equals **+n**, e.g. `seta-ha=hcin`),
   and the dominant VERBAL example notation is `-hci`/`-ahci` (hyphen; 65 vs 4 tokens, `okay-ahci`
