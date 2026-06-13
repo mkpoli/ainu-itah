@@ -260,16 +260,14 @@ self-contained fixes have already been applied.
   are glossed whole. No inconsistency; no change.
 
 ## From Fable-5 round 4 (general content review — deferred analytical items)
-- [ ] **evidential "scaffolding" overgeneralised** (Fable-5) — nominalization §20.x and
-  complementation §22.x both state the evidential frame as *V*-POSS + copula `nee` + N-POSS + `an`
-  ("the lexical verb is nominalized with the possessive suffix and linked to the evidential noun by
-  the copula `nee` … closes with existential `an`"). But almost every evidential example in
-  evidentiality §16 has a plain FINITE scope clause with neither POSS nor `nee` — `re monimahpo an
-  ruwehe an`, `ahun sirihi an`, `cis hawehe-hcin an`, `utohseka ruhe-hcin an` — and §16's own
-  analysis treats the bare finite clause as the possessor. The `V`-POSS-`nee` variant
-  (`itah-no-ho nee sirihi an`) is ONE attested pattern, not the general shape. Reframe: present the
-  finite-clause + N-POSS `an` frame as basic and the copula-linked `V`-POSS variant as a subtype
-  (fix in both nominalization and complementation). Analytical — author call.
+- [x] **evidential "scaffolding" overgeneralised** (Fable-5) — RESOLVED. Reframed nominalization
+  §20.4: the evidential template is now stated as [possessor clause]–N-POSS–`an`, with the BASIC
+  pattern being a plain finite possessor clause and no overt nominaliser (`re monimahpo an ruwehe an`
+  'evidently three girls lived there', xref §16.3), and the copula-linked `V`-POSS `nee` N-POSS `an`
+  presented as a Sakhalin *subtype* (bugaeva2016:108). Updated the §20 summary-table form cell to
+  "[clause] N-POSS an (± V-POSS nee)". Complementation §22 checked and left as-is: its prose already
+  analyses the sensory case correctly as a topicalised nominalized complement (xref §16.4) and its
+  summary table is a pointer to §20.3 + Chapter 16, not an overstatement.
 - [ ] **possessive-suffix segmentation inconsistency** (Fable-5) — the consonant-stem possessive is
   cut two ways across (and within) chapters: `an-mosiri-hi` (nouns-and-possession) vs `an=mosir-ihi`
   (nominalization) for the SAME `murasaki1979:5` form (note also prefix `-` vs `=`); `tek-ihi`
