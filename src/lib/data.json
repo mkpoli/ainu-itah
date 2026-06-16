@@ -7801,7 +7801,15 @@
 		"en": ["doing"],
 		"ru": ["делая"],
 		"poses": ["sconj"],
-		"frequency": 1509
+		"frequency": 1509,
+		"hokkaido": [
+			{
+				"lemma": "tek",
+				"type": "regular-sound-change",
+				"rules": ["coda-stop-debuccalisation"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "tehkotoroho",
