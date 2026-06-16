@@ -709,7 +709,11 @@
 		"en": ["the act of entering"],
 		"ru": ["действие входа"],
 		"poses": ["vi"],
-		"frequency": 50
+		"frequency": 50,
+		"structure": [
+			["ahun", "enter"],
+			["ihi", "act of (nmlz)"]
+		]
 	},
 	{
 		"lemma": "ahupahci",
@@ -1072,7 +1076,8 @@
 		"en": ["really", "indeed"],
 		"ru": ["действительно", "в самом деле"],
 		"poses": ["adv"],
-		"frequency": 115
+		"frequency": 115,
+		"hokkaido": [{ "lemma": "ampene", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "i=",
@@ -1114,7 +1119,11 @@
 		"en": ["to say ~"],
 		"ru": ["говорить ~"],
 		"poses": ["vt"],
-		"frequency": 103
+		"frequency": 103,
+		"structure": [
+			["ye", "say"],
+			["hci", "(plural)"]
+		]
 	},
 	{
 		"lemma": "yee",
@@ -2281,7 +2290,8 @@
 				],
 				"type": "possessed"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "unci", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "unciaare",
@@ -3728,7 +3738,8 @@
 				],
 				"type": "plural"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "ociwe", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "otoopenpe",
@@ -3924,7 +3935,11 @@
 		"en": ["the act of going"],
 		"ru": ["действие идти"],
 		"poses": ["n"],
-		"frequency": 62
+		"frequency": 62,
+		"structure": [
+			["oman", "go"],
+			["ihi", "act of (nmlz)"]
+		]
 	},
 	{
 		"lemma": "oman",
@@ -4184,7 +4199,8 @@
 		"en": ["towards ~"],
 		"ru": ["по направлению к ~"],
 		"poses": ["postp"],
-		"frequency": 261
+		"frequency": 261,
+		"hokkaido": [{ "lemma": "onne", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "onnew",
@@ -4949,6 +4965,14 @@
 					["-he", "POSS"]
 				],
 				"type": "possessed"
+			}
+		],
+		"hokkaido": [
+			{
+				"lemma": "ku",
+				"type": "regular-sound-change",
+				"rules": ["pitch-accent-to-vowel-length"],
+				"curated": true
 			}
 		]
 	},
@@ -5740,7 +5764,8 @@
 				],
 				"type": "plural"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "konte", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "konrusuy",
@@ -5999,7 +6024,11 @@
 		"en": ["to descend"],
 		"ru": ["спускаться"],
 		"poses": ["vi"],
-		"frequency": 129
+		"frequency": 129,
+		"structure": [
+			["sap", "go down"],
+			["hci", "(plural)"]
+		]
 	},
 	{
 		"lemma": "samake",
@@ -6066,7 +6095,8 @@
 				],
 				"type": "case"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "sanke", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "sihseeseh",
@@ -6338,7 +6368,15 @@
 		"en": ["one"],
 		"ru": ["один"],
 		"poses": ["n"],
-		"frequency": 117
+		"frequency": 117,
+		"hokkaido": [
+			{
+				"lemma": "sinep",
+				"type": "regular-sound-change",
+				"rules": ["coda-stop-debuccalisation"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "sinepisan",
@@ -6920,7 +6958,8 @@
 		"en": ["at", "in"],
 		"ru": ["в", "на"],
 		"poses": ["postp"],
-		"frequency": 183
+		"frequency": 183,
+		"hokkaido": [{ "lemma": "ta", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "tah",
@@ -8208,7 +8247,15 @@
 		"en": ["folk tale"],
 		"ru": ["народная сказка"],
 		"poses": ["n"],
-		"frequency": 49
+		"frequency": 49,
+		"hokkaido": [
+			{
+				"lemma": "tuytak",
+				"type": "regular-sound-change",
+				"rules": ["coda-stop-debuccalisation"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "tuyma",
@@ -9264,7 +9311,11 @@
 		"en": ["and"],
 		"ru": ["и"],
 		"poses": ["advp"],
-		"frequency": 52
+		"frequency": 52,
+		"structure": [
+			["nee", "to be"],
+			["wa", "and"]
+		]
 	},
 	{
 		"lemma": "nea",
@@ -9523,7 +9574,15 @@
 		"en": ["to fall"],
 		"ru": ["упасть"],
 		"poses": ["vi"],
-		"frequency": 47
+		"frequency": 47,
+		"hokkaido": [
+			{
+				"lemma": "hacir",
+				"type": "regular-sound-change",
+				"rules": ["pitch-accent-to-vowel-length"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "haarehci",
@@ -9976,6 +10035,14 @@
 				],
 				"type": "plural"
 			}
+		],
+		"hokkaido": [
+			{
+				"lemma": "pirka",
+				"type": "regular-sound-change",
+				"rules": ["epenthetic-i"],
+				"curated": true
+			}
 		]
 	},
 	{
@@ -10427,7 +10494,8 @@
 		"en": ["what"],
 		"ru": ["что"],
 		"poses": ["int"],
-		"frequency": 196
+		"frequency": 196,
+		"hokkaido": [{ "lemma": "hemanta", "type": "irregular-correspondence", "curated": true }]
 	},
 	{
 		"lemma": "hemoy",
@@ -11965,7 +12033,8 @@
 				],
 				"type": "possessed"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "yupo", "type": "irregular-correspondence", "curated": true }]
 	},
 	{
 		"lemma": "yuukara",
@@ -12170,7 +12239,8 @@
 				],
 				"type": "plural"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "rayke", "type": "irregular-correspondence", "curated": true }]
 	},
 	{
 		"lemma": "ranihi",
@@ -12647,7 +12717,8 @@
 				],
 				"type": "valency"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "reske", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "reh",
@@ -14649,7 +14720,11 @@
 		"en": ["to climb"],
 		"ru": ["взбираться"],
 		"poses": ["colloc"],
-		"frequency": 53
+		"frequency": 53,
+		"structure": [
+			["makan", "go up"],
+			["ihi", "act of (nmlz)"]
+		]
 	},
 	{
 		"lemma": "kimma",
@@ -14667,7 +14742,11 @@
 		"en": ["middle"],
 		"ru": ["средний"],
 		"poses": ["colloc"],
-		"frequency": 51
+		"frequency": 51,
+		"structure": [
+			["inoske", "middle"],
+			["un", "at"]
+		]
 	},
 	{
 		"lemma": "toyree",
