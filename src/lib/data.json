@@ -393,7 +393,7 @@
 		"ru": ["закрывать ~"],
 		"poses": ["vt"],
 		"frequency": 0,
-		"frequencyRolled": 28,
+		"frequencyRolled": 26,
 		"forms": [
 			{
 				"lemma": "asipahci",
@@ -410,19 +410,6 @@
 				"type": "plural"
 			},
 			{
-				"lemma": "koasi",
-				"ja": ["立てる", "に立てかける", "突き立てる"],
-				"en": ["to stand (something) against", "to set up against"],
-				"ru": ["приставлять", "ставить к"],
-				"poses": ["vt"],
-				"frequency": 2,
-				"analysis": [
-					["ko-", "APPL"],
-					["asi", "to close ~"]
-				],
-				"type": "valency"
-			},
-			{
 				"lemma": "yayasi",
 				"ja": ["閉まる"],
 				"en": ["to close"],
@@ -437,6 +424,14 @@
 			}
 		],
 		"hokkaido": [{ "lemma": "asi", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "koasi",
+		"ja": ["立てる", "に立てかける", "突き立てる"],
+		"en": ["to stand (something) against", "to set up against"],
+		"ru": ["приставлять", "ставить к"],
+		"poses": ["vt"],
+		"frequency": 2
 	},
 	{
 		"lemma": "asihne",
@@ -1198,7 +1193,8 @@
 		"en": ["doing"],
 		"ru": ["делая"],
 		"poses": ["sconj"],
-		"frequency": 1213
+		"frequency": 1213,
+		"hokkaido": [{ "lemma": "hike", "type": "regular-sound-change", "curated": true }]
 	},
 	{
 		"lemma": "ikoas",
@@ -1206,24 +1202,15 @@
 		"en": ["to dance"],
 		"ru": ["танцевать"],
 		"poses": ["vi"],
-		"frequency": 0,
-		"frequencyRolled": 3,
-		"forms": [
-			{
-				"lemma": "ikoastehci",
-				"ja": ["あやす", "（子を）躍らせる"],
-				"en": ["dandle (a baby)", "make dance to soothe"],
-				"ru": ["баюкать", "забавлять (ребёнка)"],
-				"poses": ["vt"],
-				"frequency": 3,
-				"analysis": [
-					["ikoas", "to dance"],
-					["-te", "CAUS"],
-					["=hci", "COLL"]
-				],
-				"type": "plural"
-			}
-		]
+		"frequency": 0
+	},
+	{
+		"lemma": "ikoastehci",
+		"ja": ["あやす", "（子を）躍らせる"],
+		"en": ["dandle (a baby)", "make dance to soothe"],
+		"ru": ["баюкать", "забавлять (ребёнка)"],
+		"poses": ["vt"],
+		"frequency": 3
 	},
 	{
 		"lemma": "isam",
@@ -2229,23 +2216,15 @@
 		"en": ["to start a fire"],
 		"ru": ["разжечь огонь"],
 		"poses": ["vi"],
-		"frequency": 2,
-		"frequencyRolled": 4,
-		"forms": [
-			{
-				"lemma": "kounciaare",
-				"ja": ["に火を焚く", "に向かって火を焚く"],
-				"en": ["to make a fire at/toward", "to light a fire against"],
-				"ru": ["разжигать огонь напротив", "топить огонь у"],
-				"poses": ["vt"],
-				"frequency": 2,
-				"analysis": [
-					["ko-", "APPL"],
-					["unciaare", "to start a fire"]
-				],
-				"type": "valency"
-			}
-		]
+		"frequency": 2
+	},
+	{
+		"lemma": "kounciaare",
+		"ja": ["に火を焚く", "に向かって火を焚く"],
+		"en": ["to make a fire at/toward", "to light a fire against"],
+		"ru": ["разжигать огонь напротив", "топить огонь у"],
+		"poses": ["vt"],
+		"frequency": 2
 	},
 	{
 		"lemma": "uncikamuy",
@@ -2386,23 +2365,15 @@
 		"ru": ["мочь", "быть способным", "уметь", "быть искусным"],
 		"poses": ["vt", "auxv", "vi"],
 		"frequency": 9,
-		"frequencyRolled": 14,
-		"forms": [
-			{
-				"lemma": "easkayahci",
-				"ja": ["上手だ", "できる", "たくみだ"],
-				"en": ["be able to", "be skilled at"],
-				"ru": ["уметь", "быть искусным"],
-				"poses": ["vt"],
-				"frequency": 5,
-				"analysis": [
-					["easkay", "can"],
-					["=ahci", "COLL"]
-				],
-				"type": "plural"
-			}
-		],
 		"hokkaido": [{ "lemma": "easkay", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "easkayahci",
+		"ja": ["上手だ", "できる", "たくみだ"],
+		"en": ["be able to", "be skilled at"],
+		"ru": ["уметь", "быть искусным"],
+		"poses": ["vt"],
+		"frequency": 5
 	},
 	{
 		"lemma": "eah",
@@ -3907,6 +3878,7 @@
 			}
 		],
 		"hokkaido": [
+			{ "lemma": "oman", "type": "identity", "curated": true },
 			{ "lemma": "omanan", "type": "identity", "conf": 0.75, "form": "omanan" },
 			{ "lemma": "omante", "type": "identity", "conf": 0.75, "form": "omante" }
 		]
@@ -3989,22 +3961,6 @@
 		"ru": ["место", "внутри"],
 		"poses": ["vd", "nl"],
 		"frequency": 16,
-		"frequencyRolled": 19,
-		"forms": [
-			{
-				"lemma": "oroun",
-				"ja": ["～へ", "～の", "～にいる"],
-				"en": ["of/at (a place)", "belonging to a place"],
-				"ru": ["из/в (месте)"],
-				"poses": ["postp"],
-				"frequency": 3,
-				"analysis": [
-					["oro", "place"],
-					["=un", "ALL"]
-				],
-				"type": "case"
-			}
-		],
 		"hokkaido": [
 			{ "lemma": "oro", "type": "identity", "conf": 0.9 },
 			{
@@ -4016,28 +3972,28 @@
 		]
 	},
 	{
+		"lemma": "oroun",
+		"ja": ["～へ", "～の", "～にいる"],
+		"en": ["of/at (a place)", "belonging to a place"],
+		"ru": ["из/в (месте)"],
+		"poses": ["postp"],
+		"frequency": 3
+	},
+	{
 		"lemma": "oroo",
 		"ja": ["酌をする", "酌"],
 		"en": ["to pour (drinks)", "pouring drinks"],
 		"ru": ["наливать (напитки)", "наливание"],
 		"poses": ["vi", "n"],
-		"frequency": 0,
-		"frequencyRolled": 4,
-		"forms": [
-			{
-				"lemma": "oroohci",
-				"ja": ["（中に）入れる", "盛り入れる"],
-				"en": ["to put (sth) into; pour in", "insert (pl.)"],
-				"ru": ["класть внутрь; насыпать", "вкладывать (мн.)"],
-				"poses": ["vt"],
-				"frequency": 4,
-				"analysis": [
-					["oroo", "to pour (drinks)"],
-					["=hci", "COLL"]
-				],
-				"type": "plural"
-			}
-		]
+		"frequency": 0
+	},
+	{
+		"lemma": "oroohci",
+		"ja": ["（中に）入れる", "盛り入れる"],
+		"en": ["to put (sth) into; pour in", "insert (pl.)"],
+		"ru": ["класть внутрь; насыпать", "вкладывать (мн.)"],
+		"poses": ["vt"],
+		"frequency": 4
 	},
 	{
 		"lemma": "orokehe",
@@ -6846,7 +6802,8 @@
 		"en": ["that"],
 		"ru": ["тот", "этот"],
 		"poses": ["adn"],
-		"frequency": 6745
+		"frequency": 6745,
+		"hokkaido": [{ "lemma": "ta", "type": "regular-sound-change", "curated": true }]
 	},
 	{
 		"lemma": "taah",
@@ -6923,7 +6880,7 @@
 		"ru": ["сейчас", "уже"],
 		"poses": ["pl"],
 		"frequency": 1190,
-		"hokkaido": [{ "lemma": "tani", "type": "identity", "curated": true }]
+		"hokkaido": [{ "lemma": "tane", "type": "irregular-correspondence", "curated": true }]
 	},
 	{
 		"lemma": "tanoka",
@@ -7219,7 +7176,7 @@
 		"ru": ["дом"],
 		"poses": ["n"],
 		"frequency": 444,
-		"frequencyRolled": 505,
+		"frequencyRolled": 500,
 		"forms": [
 			{
 				"lemma": "cisehe",
@@ -7262,19 +7219,6 @@
 				"type": "case"
 			},
 			{
-				"lemma": "ciseun",
-				"ja": ["家の", "この家の"],
-				"en": ["of the house", "belonging to the house"],
-				"ru": ["домашний", "принадлежащий дому"],
-				"poses": ["adn"],
-				"frequency": 5,
-				"analysis": [
-					["cise", "house"],
-					["=un", "ALL"]
-				],
-				"type": "case"
-			},
-			{
 				"lemma": "cisehehcinta",
 				"ja": ["（彼らの）家に"],
 				"en": ["at their house(s)"],
@@ -7291,6 +7235,14 @@
 			}
 		],
 		"hokkaido": [{ "lemma": "cise", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "ciseun",
+		"ja": ["家の", "この家の"],
+		"en": ["of the house", "belonging to the house"],
+		"ru": ["домашний", "принадлежащий дому"],
+		"poses": ["adn"],
+		"frequency": 5
 	},
 	{
 		"lemma": "citosyaoo",
@@ -8335,7 +8287,7 @@
 		"ru": ["уже", "ещё"],
 		"poses": ["advp", "adv"],
 		"frequency": 338,
-		"hokkaido": [{ "lemma": "naa", "type": "identity", "curated": true }]
+		"hokkaido": [{ "lemma": "na", "type": "regular-sound-change", "curated": true }]
 	},
 	{
 		"lemma": "naah",
@@ -9068,7 +9020,8 @@
 		"en": ["as of ~"],
 		"ru": ["на ~"],
 		"poses": ["advp"],
-		"frequency": 339
+		"frequency": 339,
+		"hokkaido": [{ "lemma": "ne hike", "type": "contraction", "curated": true }]
 	},
 	{
 		"lemma": "neoro",
@@ -10063,36 +10016,23 @@
 		"en": ["to play", "play", "song", "dance"],
 		"ru": ["играть", "игра", "песня", "танец"],
 		"poses": ["vi", "n"],
-		"frequency": 52,
-		"frequencyRolled": 57,
-		"forms": [
-			{
-				"lemma": "hecirean",
-				"ja": ["踊る"],
-				"en": ["dance"],
-				"ru": ["танцевать"],
-				"poses": ["vi"],
-				"frequency": 3,
-				"analysis": [
-					["hecire", "to play"],
-					["=an", "=4.S"]
-				],
-				"type": "personal"
-			},
-			{
-				"lemma": "hecireani",
-				"ja": ["踊る", "踊って来る"],
-				"en": ["to dance", "to come dancing"],
-				"ru": ["танцевать", "плясать"],
-				"poses": ["vi"],
-				"frequency": 2,
-				"analysis": [
-					["hecire", "to play"],
-					["=ani", "INS"]
-				],
-				"type": "case"
-			}
-		]
+		"frequency": 52
+	},
+	{
+		"lemma": "hecirean",
+		"ja": ["踊る"],
+		"en": ["dance"],
+		"ru": ["танцевать"],
+		"poses": ["vi"],
+		"frequency": 3
+	},
+	{
+		"lemma": "hecireani",
+		"ja": ["踊る", "踊って来る"],
+		"en": ["to dance", "to come dancing"],
+		"ru": ["танцевать", "плясать"],
+		"poses": ["vi"],
+		"frequency": 2
 	},
 	{
 		"lemma": "hecinte",
@@ -11099,7 +11039,7 @@
 		"ru": ["спать"],
 		"poses": ["vi"],
 		"frequency": 126,
-		"frequencyRolled": 155,
+		"frequencyRolled": 153,
 		"forms": [
 			{
 				"lemma": "mokorohci",
@@ -11113,19 +11053,6 @@
 					["=hci", "COLL"]
 				],
 				"type": "plural"
-			},
-			{
-				"lemma": "mokoroan",
-				"ja": ["寝る", "眠る"],
-				"en": ["to sleep"],
-				"ru": ["спать"],
-				"poses": ["vi"],
-				"frequency": 2,
-				"analysis": [
-					["mokoro", "to sleep"],
-					["=an", "=4.S"]
-				],
-				"type": "personal"
 			}
 		],
 		"hokkaido": [
@@ -11136,6 +11063,14 @@
 				"conf": 0.85
 			}
 		]
+	},
+	{
+		"lemma": "mokoroan",
+		"ja": ["寝る", "眠る"],
+		"en": ["to sleep"],
+		"ru": ["спать"],
+		"poses": ["vi"],
+		"frequency": 2
 	},
 	{
 		"lemma": "mokoroho",
@@ -14738,11 +14673,7 @@
 		"en": ["then", "and so"],
 		"ru": ["тогда", "и тогда"],
 		"poses": ["conj"],
-		"frequency": 23,
-		"structure": [
-			["nean", "that"],
-			["ike", "doing"]
-		]
+		"frequency": 23
 	},
 	{
 		"lemma": "kiiru",
@@ -14825,11 +14756,7 @@
 		"en": ["carrion crow"],
 		"ru": ["серая ворона"],
 		"poses": ["n"],
-		"frequency": 22,
-		"structure": [
-			["etu", "nose"],
-			["aane", "thin"]
-		]
+		"frequency": 22
 	},
 	{
 		"lemma": "usahci",
@@ -15093,11 +15020,7 @@
 		"en": ["it is like this", "how/why is it so"],
 		"ru": ["так", "почему же так"],
 		"poses": ["adv"],
-		"frequency": 17,
-		"structure": [
-			["ene", "like this"],
-			["ani", "using ~"]
-		]
+		"frequency": 17
 	},
 	{
 		"lemma": "nahan",
@@ -18752,11 +18675,7 @@
 		"en": ["to cry out (of birds)", "to make a sound", "to speak"],
 		"ru": ["кричать (о птицах)", "издавать звук"],
 		"poses": ["vi"],
-		"frequency": 5,
-		"structure": [
-			["hawe", "voice"],
-			["ikihci", "to behave"]
-		]
+		"frequency": 5
 	},
 	{
 		"lemma": "nisapuhu",
@@ -19683,11 +19602,7 @@
 		"en": ["fire goddess", "fire grandmother"],
 		"ru": ["богиня огня", "бабушка-огонь"],
 		"poses": ["n"],
-		"frequency": 4,
-		"structure": [
-			["unci", "fire"],
-			["acahcipo", "old woman"]
-		]
+		"frequency": 4
 	},
 	{
 		"lemma": "cioka",
@@ -20807,11 +20722,7 @@
 		"en": ["if so", "in that case", "then"],
 		"ru": ["в таком случае", "тогда", "если так"],
 		"poses": ["conj"],
-		"frequency": 7,
-		"structure": [
-			["nea", "that"],
-			["nah", "where"]
-		]
+		"frequency": 7
 	},
 	{
 		"lemma": "ekanraye",
@@ -21265,11 +21176,7 @@
 		"en": ["such", "like this"],
 		"ru": ["такой", "подобный"],
 		"poses": ["adn"],
-		"frequency": 3,
-		"structure": [
-			["ene", "like this"],
-			["oka", "want to do"]
-		]
+		"frequency": 3
 	},
 	{
 		"lemma": "situusi",
@@ -21285,11 +21192,7 @@
 		"en": ["make a sound", "cry out", "speak"],
 		"ru": ["издавать звук", "кричать", "говорить"],
 		"poses": ["vi"],
-		"frequency": 3,
-		"structure": [
-			["hawe", "voice"],
-			["iki", "to behave"]
-		]
+		"frequency": 3
 	},
 	{
 		"lemma": "uwasi",
@@ -21696,11 +21599,7 @@
 		"en": ["it is so", "it is the case (that)"],
 		"ru": ["так и есть", "это так"],
 		"poses": ["aux"],
-		"frequency": 3,
-		"structure": [
-			["nea", "that"],
-			["nii", "tree"]
-		]
+		"frequency": 3
 	},
 	{
 		"lemma": "kuwante",
@@ -22104,11 +22003,7 @@
 		"en": ["various foods", "assorted dishes"],
 		"ru": ["разные кушанья", "всевозможная еда"],
 		"poses": ["n"],
-		"frequency": 2,
-		"structure": [
-			["usa", "various"],
-			["ipe", "food"]
-		]
+		"frequency": 2
 	},
 	{
 		"lemma": "tehkupi",
@@ -23199,11 +23094,7 @@
 		"en": ["such a thing", "a thing like this"],
 		"ru": ["такая вещь", "нечто подобное"],
 		"poses": ["n"],
-		"frequency": 2,
-		"structure": [
-			["ene", "like this"],
-			["anpe", "thing"]
-		]
+		"frequency": 2
 	},
 	{
 		"lemma": "eyrankotuyehci",
@@ -23235,11 +23126,7 @@
 		"en": ["the top", "upper part", "surface"],
 		"ru": ["верх", "верхняя часть", "поверхность"],
 		"poses": ["n"],
-		"frequency": 2,
-		"structure": [
-			["kaske", "up"],
-			["ike", "doing"]
-		]
+		"frequency": 2
 	},
 	{
 		"lemma": "pecikaha",
@@ -23799,11 +23686,7 @@
 		"en": ["into the middle", "into the inside"],
 		"ru": ["в середину", "внутрь"],
 		"poses": ["n", "postp"],
-		"frequency": 2,
-		"structure": [
-			["tunke", "between ~"],
-			["ene", "like this"]
-		]
+		"frequency": 2
 	},
 	{
 		"lemma": "ekos",
@@ -24474,11 +24357,7 @@
 		"en": ["onto", "on top of", "over"],
 		"ru": ["на", "поверх"],
 		"poses": ["postp"],
-		"frequency": 2,
-		"structure": [
-			["kaske", "up"],
-			["ene", "like this"]
-		]
+		"frequency": 2
 	},
 	{
 		"lemma": "eokoyse",
@@ -24738,11 +24617,7 @@
 		"en": ["to below me", "under me"],
 		"ru": ["подо мной", "вниз подо мной"],
 		"poses": ["n", "postp"],
-		"frequency": 2,
-		"structure": [
-			["enpoke", "did"],
-			["ene", "like this"]
-		]
+		"frequency": 2
 	},
 	{
 		"lemma": "nuuhu",
