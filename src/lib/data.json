@@ -9293,7 +9293,8 @@
 		"en": ["that", "the said", "that one"],
 		"ru": ["тот", "этот", "оный"],
 		"poses": ["adn", "pron"],
-		"frequency": 317
+		"frequency": 317,
+		"hokkaido": [{ "lemma": "nea", "type": "irregular-correspondence", "curated": true }]
 	},
 	{
 		"lemma": "neanpe",
