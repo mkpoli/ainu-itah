@@ -1980,7 +1980,15 @@
 		"en": ["people", "they"],
 		"ru": ["люди", "они"],
 		"poses": ["n"],
-		"frequency": 293
+		"frequency": 293,
+		"hokkaido": [
+			{
+				"lemma": "utar",
+				"type": "regular-sound-change",
+				"rules": ["coda-r-debuccalisation"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "utasa",
