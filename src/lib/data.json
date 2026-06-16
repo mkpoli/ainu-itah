@@ -359,8 +359,8 @@
 	{
 		"lemma": "aynuitah",
 		"ja": ["アイヌ語"],
-		"en": ["Ainu language"],
-		"ru": ["язык айнов"],
+		"en": ["Ainu language", "the Ainu language"],
+		"ru": ["язык айнов", "айнский язык"],
 		"poses": ["n"],
 		"frequency": 4,
 		"structure": [
@@ -410,7 +410,7 @@
 				"type": "plural"
 			},
 			{
-				"lemma": "ko'asi",
+				"lemma": "koasi",
 				"ja": ["立てる", "に立てかける", "突き立てる"],
 				"en": ["to stand (something) against", "to set up against"],
 				"ru": ["приставлять", "ставить к"],
@@ -1070,15 +1070,7 @@
 		"ja": ["ねえ"],
 		"en": ["hey"],
 		"ru": ["эй"],
-		"poses": ["adn"],
-		"frequency": 46
-	},
-	{
-		"lemma": "iine",
-		"ja": ["ねえ"],
-		"en": ["hey"],
-		"ru": ["эй"],
-		"poses": ["intj"],
+		"poses": ["adn", "intj"],
 		"frequency": 46
 	},
 	{
@@ -1218,7 +1210,7 @@
 		"frequencyRolled": 3,
 		"forms": [
 			{
-				"lemma": "iko'astehci",
+				"lemma": "ikoastehci",
 				"ja": ["あやす", "（子を）躍らせる"],
 				"en": ["dandle (a baby)", "make dance to soothe"],
 				"ru": ["баюкать", "забавлять (ребёнка)"],
@@ -2241,7 +2233,7 @@
 		"frequencyRolled": 4,
 		"forms": [
 			{
-				"lemma": "ko'unci'aare",
+				"lemma": "kounciaare",
 				"ja": ["に火を焚く", "に向かって火を焚く"],
 				"en": ["to make a fire at/toward", "to light a fire against"],
 				"ru": ["разжигать огонь напротив", "топить огонь у"],
@@ -2389,15 +2381,15 @@
 	},
 	{
 		"lemma": "easkay",
-		"ja": ["できる"],
-		"en": ["can", "be able to"],
-		"ru": ["мочь", "быть способным"],
-		"poses": ["vt", "auxv"],
+		"ja": ["できる", "上手だ", "得意だ"],
+		"en": ["can", "be able to", "be skilled at", "be good at"],
+		"ru": ["мочь", "быть способным", "уметь", "быть искусным"],
+		"poses": ["vt", "auxv", "vi"],
 		"frequency": 9,
 		"frequencyRolled": 14,
 		"forms": [
 			{
-				"lemma": "e'askayahci",
+				"lemma": "easkayahci",
 				"ja": ["上手だ", "できる", "たくみだ"],
 				"en": ["be able to", "be skilled at"],
 				"ru": ["уметь", "быть искусным"],
@@ -2462,10 +2454,10 @@
 	},
 	{
 		"lemma": "eani",
-		"ja": ["君"],
-		"en": ["you"],
+		"ja": ["君", "あなた", "お前"],
+		"en": ["you", "you (sg.)"],
 		"ru": ["ты"],
-		"poses": ["pron"],
+		"poses": ["pron", "pers"],
 		"frequency": 31,
 		"hokkaido": [{ "lemma": "eani", "type": "identity", "curated": true }]
 	},
@@ -2683,9 +2675,9 @@
 	},
 	{
 		"lemma": "ecioka",
-		"ja": ["君達"],
+		"ja": ["君達", "お前たち", "あなた方"],
 		"en": ["you (plural)"],
-		"ru": ["вы"],
+		"ru": ["вы", "вы все"],
 		"poses": ["pron"],
 		"frequency": 5,
 		"structure": [
@@ -2893,17 +2885,9 @@
 		"ja": ["このように"],
 		"en": ["like this", "in this way"],
 		"ru": ["таким образом", "в таком виде"],
-		"poses": ["postp"],
+		"poses": ["postp", "adv"],
 		"frequency": 265,
 		"hokkaido": [{ "lemma": "ene", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "ene",
-		"ja": ["このように"],
-		"en": ["like this", "in this way"],
-		"ru": ["таким образом", "в таком виде"],
-		"poses": ["adv"],
-		"frequency": 265
 	},
 	{
 		"lemma": "eneka",
@@ -3174,7 +3158,7 @@
 		"ja": ["所", "中"],
 		"en": ["place", "inside"],
 		"ru": ["место", "внутри"],
-		"poses": ["n"],
+		"poses": ["n", "nl"],
 		"frequency": 43,
 		"hokkaido": [
 			{
@@ -3184,14 +3168,6 @@
 				"conf": 0.7
 			}
 		]
-	},
-	{
-		"lemma": "oh",
-		"ja": ["所", "中"],
-		"en": ["place", "inside"],
-		"ru": ["место", "внутри"],
-		"poses": ["nl"],
-		"frequency": 43
 	},
 	{
 		"lemma": "ohkayo",
@@ -3385,17 +3361,9 @@
 		"ja": ["したい"],
 		"en": ["want to do"],
 		"ru": ["хочу сделать"],
-		"poses": ["nl"],
+		"poses": ["nl", "auxv"],
 		"frequency": 18,
 		"hokkaido": [{ "lemma": "oka(y)", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "oka",
-		"ja": ["したい"],
-		"en": ["want to do"],
-		"ru": ["хочу сделать"],
-		"poses": ["auxv"],
-		"frequency": 18
 	},
 	{
 		"lemma": "okaakara",
@@ -4019,12 +3987,12 @@
 		"ja": ["所", "中"],
 		"en": ["place", "inside"],
 		"ru": ["место", "внутри"],
-		"poses": ["vd"],
+		"poses": ["vd", "nl"],
 		"frequency": 16,
 		"frequencyRolled": 19,
 		"forms": [
 			{
-				"lemma": "oro'un",
+				"lemma": "oroun",
 				"ja": ["～へ", "～の", "～にいる"],
 				"en": ["of/at (a place)", "belonging to a place"],
 				"ru": ["из/в (месте)"],
@@ -4048,14 +4016,6 @@
 		]
 	},
 	{
-		"lemma": "oro",
-		"ja": ["所", "中"],
-		"en": ["place", "inside"],
-		"ru": ["место", "внутри"],
-		"poses": ["nl"],
-		"frequency": 16
-	},
-	{
 		"lemma": "oroo",
 		"ja": ["酌をする", "酌"],
 		"en": ["to pour (drinks)", "pouring drinks"],
@@ -4065,7 +4025,7 @@
 		"frequencyRolled": 4,
 		"forms": [
 			{
-				"lemma": "oro'ohci",
+				"lemma": "oroohci",
 				"ja": ["（中に）入れる", "盛り入れる"],
 				"en": ["to put (sth) into; pour in", "insert (pl.)"],
 				"ru": ["класть внутрь; насыпать", "вкладывать (мн.)"],
@@ -4184,7 +4144,7 @@
 		"ja": ["上"],
 		"en": ["up", "above"],
 		"ru": ["вверх", "над"],
-		"poses": ["advp"],
+		"poses": ["advp", "nl"],
 		"frequency": 405,
 		"hokkaido": [
 			{ "lemma": "ka", "type": "identity", "conf": 0.9 },
@@ -4192,14 +4152,6 @@
 			{ "lemma": "ka,-si tusmak", "type": "identity", "conf": 0.9 },
 			{ "lemma": "ka⁵", "type": "identity", "conf": 0.9 }
 		]
-	},
-	{
-		"lemma": "ka",
-		"ja": ["上"],
-		"en": ["up", "above"],
-		"ru": ["вверх", "над"],
-		"poses": ["nl"],
-		"frequency": 405
 	},
 	{
 		"lemma": "kaske",
@@ -4627,18 +4579,10 @@
 		"ja": ["よ", "ね", "～しつつ"],
 		"en": ["yo", "ne", "while doing ~"],
 		"ru": ["ё", "нэ", "пока делаешь ~"],
-		"poses": ["sconj", "sconj"],
+		"poses": ["sconj", "sconj", "sfp"],
 		"frequency": 120,
 		"hokkaido": [{ "lemma": "kane", "type": "irregular-correspondence", "curated": true }],
 		"cognates": ["kane"]
-	},
-	{
-		"lemma": "kanne",
-		"ja": ["よ", "ね"],
-		"en": ["yo", "ne"],
-		"ru": ["ё", "нэ"],
-		"poses": ["sfp"],
-		"frequency": 120
 	},
 	{
 		"lemma": "kisma",
@@ -4918,7 +4862,7 @@
 		"ja": ["弓"],
 		"en": ["bow"],
 		"ru": ["лук"],
-		"poses": ["vt"],
+		"poses": ["vt", "n"],
 		"frequency": 70,
 		"frequencyRolled": 70,
 		"forms": [
@@ -4937,13 +4881,12 @@
 			}
 		]
 	},
-	{ "lemma": "kuu", "ja": ["弓"], "en": ["bow"], "ru": ["лук"], "poses": ["n"], "frequency": 70 },
 	{
 		"lemma": "kuani",
-		"ja": ["私"],
+		"ja": ["私", "わたし"],
 		"en": ["I", "me"],
-		"ru": ["я", "мне"],
-		"poses": ["pron"],
+		"ru": ["я", "мне", "меня"],
+		"poses": ["pron", "pers"],
 		"frequency": 51,
 		"hokkaido": [{ "lemma": "kuani", "type": "identity", "conf": 0.9 }]
 	},
@@ -5724,7 +5667,7 @@
 		"ja": ["乾く"],
 		"en": ["to dry"],
 		"ru": ["сохнуть"],
-		"poses": ["vt"],
+		"poses": ["vt", "vi", "n"],
 		"frequency": 6,
 		"frequencyRolled": 10,
 		"forms": [
@@ -5751,22 +5694,6 @@
 				"conf": 0.7
 			}
 		]
-	},
-	{
-		"lemma": "sah",
-		"ja": ["乾く"],
-		"en": ["to dry"],
-		"ru": ["сохнуть"],
-		"poses": ["vi"],
-		"frequency": 6
-	},
-	{
-		"lemma": "sah",
-		"ja": ["乾く"],
-		"en": ["to dry"],
-		"ru": ["сохнуть"],
-		"poses": ["n"],
-		"frequency": 6
 	},
 	{
 		"lemma": "sahka",
@@ -6018,7 +5945,7 @@
 		"ja": ["そば"],
 		"en": ["nearby", "next to"],
 		"ru": ["рядом", "близко"],
-		"poses": ["vt"],
+		"poses": ["vt", "nl"],
 		"frequency": 53,
 		"frequencyRolled": 75,
 		"forms": [
@@ -6036,14 +5963,6 @@
 				"type": "case"
 			}
 		]
-	},
-	{
-		"lemma": "sanke",
-		"ja": ["そば"],
-		"en": ["nearby", "next to"],
-		"ru": ["рядом", "близко"],
-		"poses": ["nl"],
-		"frequency": 53
 	},
 	{
 		"lemma": "sihseeseh",
@@ -6119,9 +6038,9 @@
 	},
 	{
 		"lemma": "siinaan",
-		"ja": ["はい", "もちろん", "当然"],
-		"en": ["yes", "of course", "naturally"],
-		"ru": ["да", "конечно", "естественно"],
+		"ja": ["はい", "もちろん", "当然", "そうだ", "なるほど", "もっともだ"],
+		"en": ["yes", "of course", "naturally", "that's right", "indeed"],
+		"ru": ["да", "конечно", "естественно", "вот именно", "действительно"],
 		"poses": ["intj"],
 		"frequency": 12
 	},
@@ -6870,15 +6789,7 @@
 		"ja": ["シラカバ"],
 		"en": ["birch"],
 		"ru": ["береза"],
-		"poses": ["pron"],
-		"frequency": 229
-	},
-	{
-		"lemma": "tah",
-		"ja": ["シラカバ"],
-		"en": ["birch"],
-		"ru": ["береза"],
-		"poses": ["n"],
+		"poses": ["pron", "n"],
 		"frequency": 229
 	},
 	{
@@ -6939,10 +6850,10 @@
 	},
 	{
 		"lemma": "taah",
-		"ja": ["あれ", "それ"],
-		"en": ["that"],
-		"ru": ["то", "это"],
-		"poses": ["pron"],
+		"ja": ["あれ", "それ", "その"],
+		"en": ["that", "that one"],
+		"ru": ["то", "это", "тот"],
+		"poses": ["pron", "adn"],
 		"frequency": 20
 	},
 	{
@@ -7351,7 +7262,7 @@
 				"type": "case"
 			},
 			{
-				"lemma": "cise'un",
+				"lemma": "ciseun",
 				"ja": ["家の", "この家の"],
 				"en": ["of the house", "belonging to the house"],
 				"ru": ["домашний", "принадлежащий дому"],
@@ -8422,17 +8333,9 @@
 		"ja": ["もう", "まだ"],
 		"en": ["already", "yet"],
 		"ru": ["уже", "ещё"],
-		"poses": ["advp"],
+		"poses": ["advp", "adv"],
 		"frequency": 338,
 		"hokkaido": [{ "lemma": "naa", "type": "identity", "curated": true }]
-	},
-	{
-		"lemma": "naa",
-		"ja": ["もう", "まだ"],
-		"en": ["already", "yet"],
-		"ru": ["уже", "ещё"],
-		"poses": ["adv"],
-		"frequency": 338
 	},
 	{
 		"lemma": "naah",
@@ -8686,7 +8589,7 @@
 		"ja": ["木"],
 		"en": ["tree"],
 		"ru": ["дерево"],
-		"poses": ["vt"],
+		"poses": ["vt", "n"],
 		"frequency": 175,
 		"frequencyRolled": 176,
 		"forms": [
@@ -8704,14 +8607,6 @@
 				"type": "possessed"
 			}
 		]
-	},
-	{
-		"lemma": "nii",
-		"ja": ["木"],
-		"en": ["tree"],
-		"ru": ["дерево"],
-		"poses": ["n"],
-		"frequency": 175
 	},
 	{
 		"lemma": "niisahno",
@@ -9078,10 +8973,10 @@
 	},
 	{
 		"lemma": "neene",
-		"ja": ["どこへ"],
-		"en": ["to where"],
-		"ru": ["куда"],
-		"poses": ["int"],
+		"ja": ["どこへ", "どこかへ", "どのように"],
+		"en": ["to where", "somewhere", "how"],
+		"ru": ["куда", "куда-нибудь", "как"],
+		"poses": ["int", "adv"],
 		"frequency": 3
 	},
 	{
@@ -9110,10 +9005,10 @@
 	},
 	{
 		"lemma": "neeraanpe",
-		"ja": ["どんなもの"],
-		"en": ["what kind of thing"],
-		"ru": ["какая вещь"],
-		"poses": ["int"],
+		"ja": ["どんなもの", "何という物"],
+		"en": ["what kind of thing", "whatever thing"],
+		"ru": ["какая вещь", "что за вещь"],
+		"poses": ["int", "pron"],
 		"frequency": 4,
 		"structure": [
 			["neera", "how"],
@@ -9151,29 +9046,21 @@
 	},
 	{
 		"lemma": "nean",
-		"ja": ["その", "あの"],
-		"en": ["that"],
-		"ru": ["тот"],
-		"poses": ["adn"],
+		"ja": ["その", "あの", "それ"],
+		"en": ["that", "the said", "that one"],
+		"ru": ["тот", "этот", "оный"],
+		"poses": ["adn", "pron"],
 		"frequency": 317
 	},
 	{
 		"lemma": "neanpe",
-		"ja": ["は", "それ"],
-		"en": ["as of ~", "that"],
-		"ru": ["на ~", "это"],
-		"poses": ["nmlz", "n"],
+		"ja": ["は", "それ", "そのもの", "それは"],
+		"en": ["as of ~", "that", "that thing", "it (topic)"],
+		"ru": ["на ~", "это", "то", "та вещь", "оно"],
+		"poses": ["nmlz", "n", "advp", "pron", "ptcl"],
 		"frequency": 969,
 		"hokkaido": [{ "lemma": "neanpe", "type": "identity", "curated": true }],
 		"cognates": ["neanpe"]
-	},
-	{
-		"lemma": "neanpe",
-		"ja": ["は"],
-		"en": ["as of ~"],
-		"ru": ["на ~"],
-		"poses": ["advp"],
-		"frequency": 969
 	},
 	{
 		"lemma": "neyke",
@@ -10180,7 +10067,7 @@
 		"frequencyRolled": 57,
 		"forms": [
 			{
-				"lemma": "hecire'an",
+				"lemma": "hecirean",
 				"ja": ["踊る"],
 				"en": ["dance"],
 				"ru": ["танцевать"],
@@ -10193,7 +10080,7 @@
 				"type": "personal"
 			},
 			{
-				"lemma": "hecire'ani",
+				"lemma": "hecireani",
 				"ja": ["踊る", "踊って来る"],
 				"en": ["to dance", "to come dancing"],
 				"ru": ["танцевать", "плясать"],
@@ -10642,9 +10529,9 @@
 	},
 	{
 		"lemma": "ponunkayoh",
-		"ja": ["お化けの子供"],
-		"en": ["child ghost"],
-		"ru": ["детский призрак"],
+		"ja": ["お化けの子供", "小お化け", "小さい化け物"],
+		"en": ["child ghost", "little ogre", "small monster"],
+		"ru": ["детский призрак", "маленький людоед", "маленькое чудовище"],
 		"poses": ["n"],
 		"frequency": 23,
 		"structure": [
@@ -10811,15 +10698,7 @@
 		"ja": ["焼く"],
 		"en": ["to grill"],
 		"ru": ["жарить"],
-		"poses": ["vi"],
-		"frequency": 24
-	},
-	{
-		"lemma": "maa",
-		"ja": ["焼く"],
-		"en": ["to grill"],
-		"ru": ["жарить"],
-		"poses": ["vt"],
+		"poses": ["vi", "vt"],
 		"frequency": 24
 	},
 	{
@@ -11236,7 +11115,7 @@
 				"type": "plural"
 			},
 			{
-				"lemma": "mokoro'an",
+				"lemma": "mokoroan",
 				"ja": ["寝る", "眠る"],
 				"en": ["to sleep"],
 				"ru": ["спать"],
@@ -11813,7 +11692,7 @@
 		"ja": ["下りる"],
 		"en": ["to descend"],
 		"ru": ["спускаться"],
-		"poses": ["n"],
+		"poses": ["n", "vi"],
 		"frequency": 7,
 		"hokkaido": [
 			{
@@ -11823,14 +11702,6 @@
 				"conf": 0.7
 			}
 		]
-	},
-	{
-		"lemma": "rah",
-		"ja": ["下りる"],
-		"en": ["to descend"],
-		"ru": ["спускаться"],
-		"poses": ["vi"],
-		"frequency": 7
 	},
 	{
 		"lemma": "rahki",
@@ -12227,17 +12098,9 @@
 		"ja": ["砥石"],
 		"en": ["whetstone"],
 		"ru": ["точильный камень"],
-		"poses": ["vi"],
+		"poses": ["vi", "n"],
 		"frequency": 7,
 		"hokkaido": [{ "lemma": "ruy²", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "ruy",
-		"ja": ["砥石"],
-		"en": ["whetstone"],
-		"ru": ["точильный камень"],
-		"poses": ["n"],
-		"frequency": 7
 	},
 	{
 		"lemma": "ruyno",
@@ -14260,14 +14123,6 @@
 		"hokkaido": [{ "lemma": "ok'", "type": "identity", "conf": 0.9 }]
 	},
 	{
-		"lemma": "ne'anpe",
-		"ja": ["それ", "そのもの", "それは"],
-		"en": ["that", "that thing", "it (topic)"],
-		"ru": ["то", "та вещь", "оно"],
-		"poses": ["pron", "ptcl"],
-		"frequency": 969
-	},
-	{
 		"lemma": "neya",
 		"ja": ["その"],
 		"en": ["that"],
@@ -14303,14 +14158,6 @@
 		"frequency": 269
 	},
 	{
-		"lemma": "ne'an",
-		"ja": ["その", "それ", "あの"],
-		"en": ["that", "the said", "that one"],
-		"ru": ["тот", "этот", "оный"],
-		"poses": ["adn", "pron"],
-		"frequency": 317
-	},
-	{
 		"lemma": "omantene",
 		"ja": ["してから"],
 		"en": ["after doing"],
@@ -14319,12 +14166,14 @@
 		"frequency": 202
 	},
 	{
-		"lemma": "iine'ahsuy",
+		"lemma": "iineahsuy",
 		"ja": ["ねえ", "おい", "どれどれ"],
-		"en": ["hey", "say", "well now"],
+		"en": ["hey", "say", "well now", "eh"],
 		"ru": ["эй", "послушай", "ну-ка"],
-		"poses": ["intj"],
-		"frequency": 189
+		"poses": ["intj", "interj"],
+		"frequency": 189,
+		"hokkaido": [{ "lemma": "íne assuy", "type": "contraction", "curated": true }],
+		"cognates": ["íne assuy"]
 	},
 	{
 		"lemma": "anayne",
@@ -14519,11 +14368,11 @@
 		"frequency": 40
 	},
 	{
-		"lemma": "sinke'ikehe",
+		"lemma": "sinkeikehe",
 		"ja": ["翌日", "次の日"],
 		"en": ["the next day", "the following day"],
 		"ru": ["следующий день", "назавтра"],
-		"poses": ["n"],
+		"poses": ["n", "adv"],
 		"frequency": 40
 	},
 	{
@@ -14589,14 +14438,6 @@
 		"cognates": ["cepkoyki"]
 	},
 	{
-		"lemma": "ku'ani",
-		"ja": ["私", "わたし"],
-		"en": ["I", "me"],
-		"ru": ["я", "меня"],
-		"poses": ["pron", "pers"],
-		"frequency": 51
-	},
-	{
 		"lemma": "roo",
 		"ja": ["よ"],
 		"en": ["(sentence-final particle)"],
@@ -14653,7 +14494,7 @@
 		]
 	},
 	{
-		"lemma": "ene'an",
+		"lemma": "enean",
 		"ja": ["このような", "こんな", "そういう"],
 		"en": ["such", "like this", "this kind of"],
 		"ru": ["такой", "подобный"],
@@ -14755,10 +14596,10 @@
 	},
 	{
 		"lemma": "eraman",
-		"ja": ["知る", "分る"],
-		"en": ["to know", "to understand"],
-		"ru": ["знать", "понимать"],
-		"poses": ["v"],
+		"ja": ["知る", "分る", "わかる", "思う", "気づく"],
+		"en": ["to know", "to understand", "to realize", "to think"],
+		"ru": ["знать", "понимать", "сознавать", "думать"],
+		"poses": ["v", "vt"],
 		"frequency": 28,
 		"hokkaido": [{ "lemma": "eraman", "type": "identity", "conf": 0.9 }]
 	},
@@ -14820,11 +14661,11 @@
 		"frequency": 25
 	},
 	{
-		"lemma": "i'i",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"lemma": "ii",
+		"ja": ["食べる", "食事する"],
+		"en": ["(meaningless song-refrain word)", "to eat", "to have a meal"],
+		"ru": ["(песенный припев)", "есть", "принимать пищу"],
+		"poses": ["intj", "vi"],
 		"frequency": 36
 	},
 	{
@@ -14892,7 +14733,7 @@
 		"frequency": 23
 	},
 	{
-		"lemma": "ne'anike",
+		"lemma": "neanike",
 		"ja": ["それで", "そうしたら"],
 		"en": ["then", "and so"],
 		"ru": ["тогда", "и тогда"],
@@ -14926,7 +14767,7 @@
 		]
 	},
 	{
-		"lemma": "ku'inkaara",
+		"lemma": "kuinkaara",
 		"ja": ["見る", "眺める"],
 		"en": ["I look", "I see"],
 		"ru": ["смотрю", "гляжу"],
@@ -14962,10 +14803,10 @@
 		"frequency": 23
 	},
 	{
-		"lemma": "oro'oo",
-		"ja": ["入れる", "注ぐ"],
-		"en": ["to put in", "to pour in"],
-		"ru": ["класть внутрь", "наливать"],
+		"lemma": "orooo",
+		"ja": ["入れる", "注ぐ", "そこに入れる"],
+		"en": ["to put in", "to pour in", "to insert"],
+		"ru": ["класть внутрь", "наливать", "вкладывать"],
 		"poses": ["vt"],
 		"frequency": 33
 	},
@@ -14979,7 +14820,7 @@
 		"hokkaido": [{ "lemma": "ruwe(he)", "type": "identity", "conf": 0.8 }]
 	},
 	{
-		"lemma": "etu'aane",
+		"lemma": "etuaane",
 		"ja": ["ハシボソガラス"],
 		"en": ["carrion crow"],
 		"ru": ["серая ворона"],
@@ -14999,7 +14840,7 @@
 		"frequency": 21
 	},
 	{
-		"lemma": "ci'ee",
+		"lemma": "ciee",
 		"ja": ["食べる"],
 		"en": ["to eat"],
 		"ru": ["есть", "кушать"],
@@ -15007,7 +14848,7 @@
 		"frequency": 21
 	},
 	{
-		"lemma": "ha'ii",
+		"lemma": "haii",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -15239,7 +15080,7 @@
 		"hokkaido": [{ "lemma": "haa", "type": "identity", "conf": 0.9 }]
 	},
 	{
-		"lemma": "penka'ankuh",
+		"lemma": "penkaankuh",
 		"ja": ["川上の男", "川上のじいさん"],
 		"en": ["upstream man", "man living upriver"],
 		"ru": ["мужчина с верховья реки"],
@@ -15247,7 +15088,7 @@
 		"frequency": 17
 	},
 	{
-		"lemma": "ene'ani",
+		"lemma": "eneani",
 		"ja": ["こうだ", "どうして〜なのか"],
 		"en": ["it is like this", "how/why is it so"],
 		"ru": ["так", "почему же так"],
@@ -15259,7 +15100,7 @@
 		]
 	},
 	{
-		"lemma": "nah'an",
+		"lemma": "nahan",
 		"ja": ["こういう", "こんな", "そのような"],
 		"en": ["such", "this/that kind of"],
 		"ru": ["такой", "подобный"],
@@ -15315,7 +15156,7 @@
 		"frequency": 16
 	},
 	{
-		"lemma": "o'ara",
+		"lemma": "oara",
 		"ja": ["片方の", "一方の"],
 		"en": ["one (of a pair)"],
 		"ru": ["один из пары"],
@@ -15573,7 +15414,7 @@
 		"frequency": 14
 	},
 	{
-		"lemma": "sa'ii",
+		"lemma": "saii",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -15623,7 +15464,7 @@
 		"frequency": 14
 	},
 	{
-		"lemma": "ma'ii",
+		"lemma": "maii",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -15671,7 +15512,7 @@
 		"frequency": 13
 	},
 	{
-		"lemma": "caro'oykihci",
+		"lemma": "carooykihci",
 		"ja": ["ご馳走する", "食べさせる"],
 		"en": ["to feast (someone)", "to feed guests"],
 		"ru": ["угощать", "потчевать"],
@@ -15679,7 +15520,7 @@
 		"frequency": 13
 	},
 	{
-		"lemma": "re'usi",
+		"lemma": "reusi",
 		"ja": ["泊まる", "一泊する"],
 		"en": ["to stay overnight", "to lodge"],
 		"ru": ["ночевать", "останавливаться на ночь"],
@@ -15771,7 +15612,7 @@
 		"frequency": 13
 	},
 	{
-		"lemma": "toy'aynu",
+		"lemma": "toyaynu",
 		"ja": ["土男", "土の男"],
 		"en": ["Earth Man", "clay man (character)"],
 		"ru": ["Земляной человек"],
@@ -15795,7 +15636,7 @@
 		"frequency": 12
 	},
 	{
-		"lemma": "haw'iki",
+		"lemma": "hawiki",
 		"ja": ["言う", "声を出す", "鳴く"],
 		"en": ["to speak", "to utter", "to cry out"],
 		"ru": ["говорить", "издавать звук"],
@@ -15819,7 +15660,7 @@
 		"frequency": 12
 	},
 	{
-		"lemma": "situ'us",
+		"lemma": "situus",
 		"ja": ["スキーをはく", "スキーをする"],
 		"en": ["to ski", "put on skis"],
 		"ru": ["ходить на лыжах", "надевать лыжи"],
@@ -16004,14 +15845,6 @@
 		"frequency": 11
 	},
 	{
-		"lemma": "ta'ah",
-		"ja": ["それ", "その", "あれ"],
-		"en": ["that", "that one"],
-		"ru": ["тот", "это", "то"],
-		"poses": ["pron", "adn"],
-		"frequency": 20
-	},
-	{
 		"lemma": "hunpe",
 		"ja": ["鯨"],
 		"en": ["whale"],
@@ -16021,7 +15854,7 @@
 		"hokkaido": [{ "lemma": "hunpe", "type": "identity", "curated": true }]
 	},
 	{
-		"lemma": "ranka'orii",
+		"lemma": "rankaorii",
 		"ja": ["猫背の人", "せむし"],
 		"en": ["hunchbacked person"],
 		"ru": ["горбун", "сутулый человек"],
@@ -16154,7 +15987,7 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "e'ohayohayne",
+		"lemma": "eohayohayne",
 		"ja": ["驚く", "びっくりする"],
 		"en": ["to be startled", "to be surprised"],
 		"ru": ["испугаться", "удивиться"],
@@ -16162,7 +15995,7 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "ku'ee",
+		"lemma": "kuee",
 		"ja": ["食べる", "食う"],
 		"en": ["I eat"],
 		"ru": ["я ем"],
@@ -16186,7 +16019,7 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "situ'usahci",
+		"lemma": "situusahci",
 		"ja": ["スキーをする", "スキーで滑る"],
 		"en": ["ski", "glide on skis"],
 		"ru": ["кататься на лыжах"],
@@ -16194,7 +16027,7 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "nakapuru'aynu",
+		"lemma": "nakapuruaynu",
 		"ja": ["脂かす男"],
 		"en": ["Seal-oil-residue Man (folktale figure)"],
 		"ru": ["Человек-вытопки (персонаж сказки)"],
@@ -16218,14 +16051,6 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "ii",
-		"ja": ["食べる", "食事する"],
-		"en": ["to eat", "to have a meal"],
-		"ru": ["есть", "принимать пищу"],
-		"poses": ["vi"],
-		"frequency": 36
-	},
-	{
 		"lemma": "amahkahahcin",
 		"ja": ["娘たち", "女の子たち"],
 		"en": ["their daughters", "the girls"],
@@ -16242,7 +16067,7 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "are'anno",
+		"lemma": "areanno",
 		"ja": ["そのまま", "仕方なく"],
 		"en": ["just as it is", "leaving as is"],
 		"ru": ["как есть", "оставив как есть"],
@@ -16301,14 +16126,6 @@
 		"hokkaido": [{ "lemma": "ipehe", "type": "identity", "conf": 0.8 }]
 	},
 	{
-		"lemma": "e'ani",
-		"ja": ["あなた", "お前"],
-		"en": ["you (sg.)"],
-		"ru": ["ты"],
-		"poses": ["pron", "pers"],
-		"frequency": 31
-	},
-	{
 		"lemma": "naske",
 		"ja": ["裂ける", "破れる"],
 		"en": ["to burst", "to split open", "to tear"],
@@ -16317,7 +16134,7 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "ii'i",
+		"lemma": "iii",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -16341,7 +16158,7 @@
 		"hokkaido": [{ "lemma": "hunpa", "type": "identity", "conf": 0.9 }]
 	},
 	{
-		"lemma": "hera'oh",
+		"lemma": "heraoh",
 		"ja": ["下へ", "下方に"],
 		"en": ["downward", "down, to a lower place"],
 		"ru": ["вниз", "книзу"],
@@ -16401,7 +16218,7 @@
 		"frequency": 9
 	},
 	{
-		"lemma": "iine'ah",
+		"lemma": "iineah",
 		"ja": ["ねえ", "おい", "ちょっと"],
 		"en": ["say!", "hey!", "listen here"],
 		"ru": ["эй", "послушай", "смотри-ка"],
@@ -16457,7 +16274,7 @@
 		"frequency": 9
 	},
 	{
-		"lemma": "a'ii",
+		"lemma": "aii",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -16505,7 +16322,7 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "ine'ahsuy",
+		"lemma": "ineahsuy",
 		"ja": ["ねえ", "おい", "ちょっと"],
 		"en": ["say!", "hey!", "listen here"],
 		"ru": ["эй", "послушай", "смотри-ка"],
@@ -16538,7 +16355,7 @@
 		"frequency": 9
 	},
 	{
-		"lemma": "panka'ankuh",
+		"lemma": "pankaankuh",
 		"ja": ["川下男", "川下に住む男"],
 		"en": ["the downstream man", "man living downstream"],
 		"ru": ["мужчина с низовья реки"],
@@ -16570,7 +16387,7 @@
 		"frequency": 9
 	},
 	{
-		"lemma": "kira'uu",
+		"lemma": "kirauu",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -16619,7 +16436,7 @@
 		"hokkaido": [{ "lemma": "suye", "type": "identity", "conf": 0.9 }]
 	},
 	{
-		"lemma": "tope'enke",
+		"lemma": "topeenke",
 		"ja": ["先をけずる", "先端を尖らせる"],
 		"en": ["sharpen the tip", "whittle the point"],
 		"ru": ["заострять кончик", "строгать остриё"],
@@ -16627,7 +16444,7 @@
 		"frequency": 9
 	},
 	{
-		"lemma": "nisapu'aane",
+		"lemma": "nisapuaane",
 		"ja": ["スネ細男", "脛の細い者"],
 		"en": ["Thin-Shins (a folktale character)", "one with thin shins"],
 		"ru": ["Тонкоголенький (персонаж сказки)", "тот, у кого тонкие голени"],
@@ -16731,7 +16548,7 @@
 		"frequency": 9
 	},
 	{
-		"lemma": "ku'imiyehe",
+		"lemma": "kuimiyehe",
 		"ja": ["私の着物", "私の衣服"],
 		"en": ["my clothes, my garment"],
 		"ru": ["моя одежда", "моё платье"],
@@ -16799,7 +16616,7 @@
 		"frequency": 8
 	},
 	{
-		"lemma": "wooya'anpe",
+		"lemma": "wooyaanpe",
 		"ja": ["いろいろなもの", "様々な物"],
 		"en": ["various things, all sorts of things"],
 		"ru": ["разные вещи", "всякое"],
@@ -16815,7 +16632,7 @@
 		"frequency": 8
 	},
 	{
-		"lemma": "e'iruwa",
+		"lemma": "eiruwa",
 		"ja": ["くやしい", "腹立たしい"],
 		"en": ["to be vexing, mortifying", "to resent"],
 		"ru": ["досадно", "быть обидным"],
@@ -16848,7 +16665,7 @@
 		"hokkaido": [{ "lemma": "un", "type": "identity", "curated": true }]
 	},
 	{
-		"lemma": "ni'osuhtaa",
+		"lemma": "niosuhtaa",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -16856,7 +16673,7 @@
 		"frequency": 8
 	},
 	{
-		"lemma": "ni'osuh",
+		"lemma": "niosuh",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -17028,7 +16845,7 @@
 		"hokkaido": [{ "lemma": "hi", "type": "identity", "conf": 0.9 }]
 	},
 	{
-		"lemma": "ku'e'ocis",
+		"lemma": "kueocis",
 		"ja": ["私はくやしい", "私は残念に思う"],
 		"en": ["I resent it, it is mortifying to me"],
 		"ru": ["мне досадно", "я обижен"],
@@ -17183,7 +17000,7 @@
 		"frequency": 7
 	},
 	{
-		"lemma": "mun'aynu",
+		"lemma": "munaynu",
 		"ja": ["草男（昔話の人物）"],
 		"en": ["Grass-man (folktale figure)", "weed-person"],
 		"ru": ["Травяной человек (персонаж сказки)"],
@@ -17191,7 +17008,7 @@
 		"frequency": 7
 	},
 	{
-		"lemma": "tama'oo",
+		"lemma": "tamaoo",
 		"ja": ["玉のついた", "玉入りの"],
 		"en": ["bead-set", "fitted with a bead"],
 		"ru": ["с бусиной", "украшенный бусиной"],
@@ -17231,7 +17048,7 @@
 		"frequency": 7
 	},
 	{
-		"lemma": "ruy'aynu",
+		"lemma": "ruyaynu",
 		"ja": ["砥石男", "砥石の男"],
 		"en": ["whetstone-man", "grindstone-man"],
 		"ru": ["человек-точильный камень"],
@@ -17508,14 +17325,6 @@
 		"frequency": 7
 	},
 	{
-		"lemma": "siina'an",
-		"ja": ["そうだ", "なるほど", "もっともだ"],
-		"en": ["that's right", "indeed", "of course"],
-		"ru": ["вот именно", "действительно", "конечно"],
-		"poses": ["intj"],
-		"frequency": 12
-	},
-	{
 		"lemma": "oorin",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
@@ -17619,7 +17428,7 @@
 		"frequency": 6
 	},
 	{
-		"lemma": "nise'asin",
+		"lemma": "niseasin",
 		"ja": ["日が出る", "日光が出る"],
 		"en": ["the sun comes out", "daylight appears"],
 		"ru": ["солнце выходит", "появляется дневной свет"],
@@ -17635,7 +17444,7 @@
 		"frequency": 9
 	},
 	{
-		"lemma": "oro'onna",
+		"lemma": "oroonna",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -17667,7 +17476,7 @@
 		"frequency": 6
 	},
 	{
-		"lemma": "konkeni'ah",
+		"lemma": "konkeniah",
 		"ja": ["イロマキの木", "エリマキの木の樹皮"],
 		"en": ["the iromaki tree (its bark)", "a kind of tree"],
 		"ru": ["дерево иромаки", "кора этого дерева"],
@@ -17699,7 +17508,7 @@
 		"frequency": 6
 	},
 	{
-		"lemma": "u'aarehci",
+		"lemma": "uaarehci",
 		"ja": ["火をたく", "火を燃やす"],
 		"en": ["make a fire", "kindle a fire"],
 		"ru": ["разводить огонь", "разжигать"],
@@ -17756,9 +17565,9 @@
 	},
 	{
 		"lemma": "eneere",
-		"ja": ["食べさせる", "与えて食べさせる"],
-		"en": ["to feed (someone)", "to let (someone) eat"],
-		"ru": ["кормить", "давать поесть"],
+		"ja": ["食べさせる", "与えて食べさせる", "私に食べさせる", "私に食わせて"],
+		"en": ["to feed (someone)", "to let (someone) eat", "feed me", "give me to eat"],
+		"ru": ["кормить", "давать поесть", "накорми меня", "дай мне поесть"],
 		"poses": ["vt"],
 		"frequency": 6
 	},
@@ -17771,7 +17580,7 @@
 		"frequency": 6
 	},
 	{
-		"lemma": "e'oman",
+		"lemma": "eoman",
 		"ja": ["お前が行く", "あなたが行く"],
 		"en": ["you go"],
 		"ru": ["ты идёшь"],
@@ -17919,7 +17728,7 @@
 		]
 	},
 	{
-		"lemma": "e'iruwah",
+		"lemma": "eiruwah",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -18051,7 +17860,7 @@
 		"frequency": 6
 	},
 	{
-		"lemma": "re'usihci",
+		"lemma": "reusihci",
 		"ja": ["泊まる", "宿泊する"],
 		"en": ["to spend the night", "to lodge (plural subject)"],
 		"ru": ["ночевать", "останавливаться на ночлег"],
@@ -18123,7 +17932,7 @@
 		"frequency": 6
 	},
 	{
-		"lemma": "ekiroro'an",
+		"lemma": "ekiroroan",
 		"ja": ["おもしろい", "面白がる", "楽しい"],
 		"en": ["to be interesting, amusing", "to enjoy"],
 		"ru": ["быть интересным, забавным", "веселиться"],
@@ -18143,7 +17952,7 @@
 		]
 	},
 	{
-		"lemma": "e'imiyehe",
+		"lemma": "eimiyehe",
 		"ja": ["お前の着物", "あなたの服"],
 		"en": ["your clothes", "your garment"],
 		"ru": ["твоя одежда"],
@@ -18207,7 +18016,7 @@
 		"frequency": 5
 	},
 	{
-		"lemma": "po'us",
+		"lemma": "pous",
 		"ja": ["布切れ", "ぼろ布", "布"],
 		"en": ["cloth", "rag", "strip of cloth"],
 		"ru": ["лоскут", "тряпка", "ткань"],
@@ -18227,7 +18036,7 @@
 		]
 	},
 	{
-		"lemma": "unci'uwaare",
+		"lemma": "unciuwaare",
 		"ja": ["火をたく", "火をおこす", "（火で）乾かす"],
 		"en": ["light a fire", "make a fire", "dry by the fire"],
 		"ru": ["разводить огонь", "сушить у огня"],
@@ -18251,7 +18060,7 @@
 		"frequency": 5
 	},
 	{
-		"lemma": "ehah'oo",
+		"lemma": "ehahoo",
 		"ja": ["ユリ根入りの", "ユリ根を盛った"],
 		"en": ["filled with lily-root", "lily-root (dish)"],
 		"ru": ["с корнями лилии", "полный корней сараны"],
@@ -18471,9 +18280,9 @@
 		"frequency": 5
 	},
 	{
-		"lemma": "wooya'an",
+		"lemma": "wooyaan",
 		"ja": ["いろいろな", "さまざまな", "様々の"],
-		"en": ["various, all kinds of, diverse"],
+		"en": ["various, all kinds of, diverse", "various, all kinds of"],
 		"ru": ["разный", "всевозможный"],
 		"poses": ["adn"],
 		"frequency": 8
@@ -18519,7 +18328,7 @@
 		"frequency": 5
 	},
 	{
-		"lemma": "siro'eskari",
+		"lemma": "siroeskari",
 		"ja": ["暗くなる", "あたりが暗くなる", "もやが立ちこめる"],
 		"en": ["grow dark", "be enveloped in gloom/mist"],
 		"ru": ["темнеть", "заволакиваться мглой"],
@@ -18615,7 +18424,7 @@
 		"frequency": 5
 	},
 	{
-		"lemma": "caroke'ene",
+		"lemma": "carokeene",
 		"ja": ["ご馳走を作って", "たっぷりと", "食事を整えて"],
 		"en": ["lavishly (of feeding)", "preparing a feast for"],
 		"ru": ["щедро (угощая)", "устраивая угощение"],
@@ -18631,7 +18440,7 @@
 		"frequency": 5
 	},
 	{
-		"lemma": "ne'ani",
+		"lemma": "neani",
 		"ja": ["～なのだ", "そうなのだ", "というわけだ"],
 		"en": ["it is so", "that is how it is"],
 		"ru": ["так оно и есть", "вот так"],
@@ -18656,7 +18465,7 @@
 		"hokkaido": [{ "lemma": "soyke(he)", "type": "identity", "conf": 0.8 }]
 	},
 	{
-		"lemma": "o'issikaarinpa",
+		"lemma": "oissikaarinpa",
 		"ja": ["見回す", "あたりを見渡す"],
 		"en": ["look around", "cast one's eyes about"],
 		"ru": ["оглядываться", "осматриваться"],
@@ -18687,14 +18496,6 @@
 		"poses": ["n"],
 		"frequency": 9,
 		"hokkaido": [{ "lemma": "ota²", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "e'askay",
-		"ja": ["上手だ", "できる", "得意だ"],
-		"en": ["be able to", "be skilled at", "be good at"],
-		"ru": ["уметь", "быть искусным"],
-		"poses": ["vt", "vi"],
-		"frequency": 9
 	},
 	{
 		"lemma": "ehekenpaha",
@@ -18926,7 +18727,7 @@
 		"frequency": 5
 	},
 	{
-		"lemma": "an'ee",
+		"lemma": "anee",
 		"ja": ["食べる", "食う"],
 		"en": ["eat"],
 		"ru": ["есть", "кушать"],
@@ -18946,7 +18747,7 @@
 		]
 	},
 	{
-		"lemma": "hawe'ikihci",
+		"lemma": "haweikihci",
 		"ja": ["鳴く", "声を出す", "しゃべる"],
 		"en": ["to cry out (of birds)", "to make a sound", "to speak"],
 		"ru": ["кричать (о птицах)", "издавать звук"],
@@ -19147,7 +18948,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "eci'okacaakarire",
+		"lemma": "eciokacaakarire",
 		"ja": ["（死者の）供養をする", "葬儀のお祈りをする"],
 		"en": ["to hold a memorial/funeral rite (for the dead)"],
 		"ru": ["совершать поминальный обряд по умершему"],
@@ -19299,7 +19100,7 @@
 		]
 	},
 	{
-		"lemma": "a'ih",
+		"lemma": "aih",
 		"ja": ["ああ", "あー（叫び声）"],
 		"en": ["ah!", "ow! (cry of pain/dismay)"],
 		"ru": ["ах!", "ой! (вскрик)"],
@@ -19307,7 +19108,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "u'aare",
+		"lemma": "uaare",
 		"ja": ["火を焚く", "火をくべる", "燃やす"],
 		"en": ["to make a fire", "to burn (fuel)"],
 		"ru": ["разводить огонь", "топить"],
@@ -19397,7 +19198,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "rure'atu",
+		"lemma": "rureatu",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -19441,7 +19242,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "ku'an",
+		"lemma": "kuan",
 		"ja": ["いる", "存在する"],
 		"en": ["I am", "I exist"],
 		"ru": ["я есть", "я нахожусь"],
@@ -19457,7 +19258,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "kiroro'an",
+		"lemma": "kiroroan",
 		"ja": ["面白い", "おもしろい"],
 		"en": ["to be interesting", "to be fun"],
 		"ru": ["быть интересным", "быть забавным"],
@@ -19513,7 +19314,7 @@
 		]
 	},
 	{
-		"lemma": "e'utehkara",
+		"lemma": "eutehkara",
 		"ja": ["頼む", "言いつける", "用事を頼む"],
 		"en": ["to ask (someone to do something)", "to order", "to send on an errand"],
 		"ru": ["просить (сделать)", "поручать"],
@@ -19537,7 +19338,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "kesito'asinkoh",
+		"lemma": "kesitoasinkoh",
 		"ja": ["毎日", "日ごとに"],
 		"en": ["every day", "day after day"],
 		"ru": ["каждый день", "ежедневно"],
@@ -19657,7 +19458,7 @@
 		"frequency": 6
 	},
 	{
-		"lemma": "ku'acaapoh",
+		"lemma": "kuacaapoh",
 		"ja": ["おじさん", "叔父"],
 		"en": ["my uncle"],
 		"ru": ["мой дядя"],
@@ -19665,7 +19466,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "ehuu'oh",
+		"lemma": "ehuuoh",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -19869,7 +19670,7 @@
 		"hokkaido": [{ "lemma": "emus", "type": "identity", "conf": 0.8 }]
 	},
 	{
-		"lemma": "co'oma",
+		"lemma": "cooma",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -19877,7 +19678,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "unci'acahcipo",
+		"lemma": "unciacahcipo",
 		"ja": ["火の媼神", "火のおばあさん"],
 		"en": ["fire goddess", "fire grandmother"],
 		"ru": ["богиня огня", "бабушка-огонь"],
@@ -19889,7 +19690,7 @@
 		]
 	},
 	{
-		"lemma": "ci'oka",
+		"lemma": "cioka",
 		"ja": ["私（たち）", "我々", "自分"],
 		"en": ["we, us", "I myself (1st person)"],
 		"ru": ["мы, нас", "я сам"],
@@ -20005,7 +19806,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "ahci'ahcipo",
+		"lemma": "ahciahcipo",
 		"ja": ["おばあさん", "老婆"],
 		"en": ["grandmother", "old woman (folktale term for 'ahci)"],
 		"ru": ["бабушка", "старуха"],
@@ -20077,7 +19878,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "ta'ii",
+		"lemma": "taii",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -20133,7 +19934,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "kee'us",
+		"lemma": "keeus",
 		"ja": ["脂だらけだ", "脂がつく"],
 		"en": ["to be greasy", "to be covered in fat"],
 		"ru": ["быть в жире", "быть жирным"],
@@ -20278,7 +20079,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "toonupuru'usika",
+		"lemma": "toonupuruusika",
 		"ja": ["一日が過ぎる", "日が山のふもとを越える"],
 		"en": ["a day passes", "the sun sinks behind the mountain"],
 		"ru": ["проходит день", "солнце заходит за гору"],
@@ -20340,7 +20141,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "ko'ipisi",
+		"lemma": "koipisi",
 		"ja": ["尋ねる", "問う"],
 		"en": ["ask (someone)", "inquire of"],
 		"ru": ["спрашивать", "расспрашивать"],
@@ -20373,7 +20174,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "yaykotanpa'etuhturihci",
+		"lemma": "yaykotanpaetuhturihci",
 		"ja": ["村が栄える", "繁栄する"],
 		"en": ["for one's village to prosper/flourish"],
 		"ru": ["процветать (о селении)", "разрастаться (о селении)"],
@@ -20457,7 +20258,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "oki'oo",
+		"lemma": "okioo",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -20598,7 +20399,7 @@
 	},
 	{ "lemma": "wehta", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
 	{
-		"lemma": "e'etuwehe",
+		"lemma": "eetuwehe",
 		"ja": ["（お前の）くちばし"],
 		"en": ["(your) beak"],
 		"ru": ["(твой) клюв"],
@@ -20666,7 +20467,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "yay'ikisiw",
+		"lemma": "yayikisiw",
 		"ja": ["いらだつ", "手持ち無沙汰でいる", "どうしようもなくじっとしている"],
 		"en": ["to be irritated/at a loss", "to fret idly"],
 		"ru": ["томиться", "быть в растерянности", "раздражаться"],
@@ -20693,7 +20494,7 @@
 			["nuu", "to listen to ~"]
 		]
 	},
-	{ "lemma": "ta'aa", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
+	{ "lemma": "taaa", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
 	{
 		"lemma": "inkarah",
 		"ja": ["見る", "見渡す"],
@@ -20751,7 +20552,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "inoske'un",
+		"lemma": "inoskeun",
 		"ja": ["真ん中の", "中の"],
 		"en": ["middle", "central"],
 		"ru": ["средний", "центральный"],
@@ -20775,7 +20576,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "ku'etuwe",
+		"lemma": "kuetuwe",
 		"ja": ["私のくちばし", "私の口先"],
 		"en": ["my beak", "my bill"],
 		"ru": ["мой клюв"],
@@ -20823,7 +20624,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "nu'issikaarinpa",
+		"lemma": "nuissikaarinpa",
 		"ja": ["丸顔の", "顔が丸い"],
 		"en": ["round-faced"],
 		"ru": ["круглолицый"],
@@ -20949,18 +20750,6 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "aynu'itah",
-		"ja": ["アイヌ語"],
-		"en": ["the Ainu language"],
-		"ru": ["айнский язык"],
-		"poses": ["n"],
-		"frequency": 4,
-		"structure": [
-			["aynu", "human"],
-			["itah", "to speak"]
-		]
-	},
-	{
 		"lemma": "moya",
 		"ja": ["ゴザ", "敷物"],
 		"en": ["mat", "rush mat"],
@@ -20985,7 +20774,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "ku'oman",
+		"lemma": "kuoman",
 		"ja": ["私が行く"],
 		"en": ["I go"],
 		"ru": ["я иду", "я отправляюсь"],
@@ -21013,7 +20802,7 @@
 		]
 	},
 	{
-		"lemma": "ne'anah",
+		"lemma": "neanah",
 		"ja": ["それなら", "では", "～ならば"],
 		"en": ["if so", "in that case", "then"],
 		"ru": ["в таком случае", "тогда", "если так"],
@@ -21041,7 +20830,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "e'ohayohaynekahci",
+		"lemma": "eohayohaynekahci",
 		"ja": ["びっくりする", "驚く"],
 		"en": ["to be startled (plural)", "to be surprised"],
 		"ru": ["испугаться (мн.)", "удивиться"],
@@ -21049,7 +20838,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "ci'ehcin",
+		"lemma": "ciehcin",
 		"ja": ["食べる", "食べた"],
 		"en": ["to eat"],
 		"ru": ["есть", "съесть"],
@@ -21097,7 +20886,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "caro'osma",
+		"lemma": "caroosma",
 		"ja": ["口があく", "裂け目ができる", "開く"],
 		"en": ["to open up (a mouth/opening forms)", "to split open"],
 		"ru": ["раскрываться (образуется отверстие)"],
@@ -21113,7 +20902,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "ta'ene",
+		"lemma": "taene",
 		"ja": ["そこへ", "あちらへ", "そのように"],
 		"en": ["to there", "thither", "that way"],
 		"ru": ["туда", "в ту сторону", "таким образом"],
@@ -21129,7 +20918,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "kohaw'iki",
+		"lemma": "kohawiki",
 		"ja": ["～に向かって叫ぶ", "声を出す"],
 		"en": ["call out to", "shout at"],
 		"ru": ["кричать (кому-то)", "окликать"],
@@ -21144,7 +20933,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "e'ee",
+		"lemma": "eee",
 		"ja": ["食べる"],
 		"en": ["to eat"],
 		"ru": ["есть", "кушать"],
@@ -21220,18 +21009,6 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "eci'oka",
-		"ja": ["お前たち", "あなた方"],
-		"en": ["you (plural)"],
-		"ru": ["вы", "вы все"],
-		"poses": ["pron"],
-		"frequency": 5,
-		"structure": [
-			["eci", "your"],
-			["oka", "want to do"]
-		]
-	},
-	{
 		"lemma": "eciyee",
 		"ja": ["（お前たちが）言う"],
 		"en": ["(you pl.) say", "tell"],
@@ -21289,14 +21066,6 @@
 		"en": ["sleep"],
 		"ru": ["спать"],
 		"poses": ["vi"],
-		"frequency": 3
-	},
-	{
-		"lemma": "eram'an",
-		"ja": ["わかる", "思う", "気づく"],
-		"en": ["to understand", "to realize", "to think"],
-		"ru": ["понимать", "сознавать", "думать"],
-		"poses": ["vt"],
 		"frequency": 3
 	},
 	{
@@ -21491,7 +21260,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "ene'oka",
+		"lemma": "eneoka",
 		"ja": ["このような", "こうした"],
 		"en": ["such", "like this"],
 		"ru": ["такой", "подобный"],
@@ -21503,7 +21272,7 @@
 		]
 	},
 	{
-		"lemma": "situ'usi",
+		"lemma": "situusi",
 		"ja": ["スキーをする", "スキーで滑る"],
 		"en": ["to ski", "to go on skis"],
 		"ru": ["кататься на лыжах", "идти на лыжах"],
@@ -21511,7 +21280,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "hawe'iki",
+		"lemma": "haweiki",
 		"ja": ["声がする", "鳴く", "物を言う"],
 		"en": ["make a sound", "cry out", "speak"],
 		"ru": ["издавать звук", "кричать", "говорить"],
@@ -21635,7 +21404,7 @@
 		"hokkaido": [{ "lemma": "otuy", "type": "identity", "conf": 0.75 }]
 	},
 	{
-		"lemma": "ku'onkekara",
+		"lemma": "kuonkekara",
 		"ja": ["風邪をひく"],
 		"en": ["catch a cold", "be ill"],
 		"ru": ["простудиться", "заболеть"],
@@ -21659,7 +21428,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "caro'oyki",
+		"lemma": "carooyki",
 		"ja": ["ご馳走する", "食べさせる", "もてなす"],
 		"en": ["to feed", "to treat to food", "to entertain"],
 		"ru": ["угощать", "потчевать", "кормить"],
@@ -21667,7 +21436,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "co'omaa",
+		"lemma": "coomaa",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -21735,7 +21504,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "e'ohayohayneh",
+		"lemma": "eohayohayneh",
 		"ja": ["びっくりする", "驚く"],
 		"en": ["to be startled", "to be surprised"],
 		"ru": ["испугаться", "удивиться"],
@@ -21860,7 +21629,7 @@
 		]
 	},
 	{
-		"lemma": "ene'anii",
+		"lemma": "eneanii",
 		"ja": ["こうである", "このようである"],
 		"en": ["to be like this", "to be so"],
 		"ru": ["быть таким", "так обстоять"],
@@ -21905,7 +21674,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "e'erameskari",
+		"lemma": "eerameskari",
 		"ja": ["わからない", "知らない"],
 		"en": ["to not know", "to be unaware of"],
 		"ru": ["не знать", "не понимать"],
@@ -21922,7 +21691,7 @@
 	},
 	{ "lemma": "opokay", "ja": ["麝香鹿"], "en": ["musk deer"], "ru": ["кабарга"], "frequency": 3 },
 	{
-		"lemma": "ne'anii",
+		"lemma": "neanii",
 		"ja": ["～なのだ", "そうである"],
 		"en": ["it is so", "it is the case (that)"],
 		"ru": ["так и есть", "это так"],
@@ -21994,7 +21763,7 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "o'arakemaha",
+		"lemma": "oarakemaha",
 		"ja": ["片足", "片方の足"],
 		"en": ["one leg"],
 		"ru": ["одна нога"],
@@ -22062,7 +21831,7 @@
 		]
 	},
 	{
-		"lemma": "iramasreno'an",
+		"lemma": "iramasrenoan",
 		"ja": ["美しい", "立派である"],
 		"en": ["be beautiful", "be fine", "be handsome"],
 		"ru": ["быть красивым", "быть прекрасным"],
@@ -22070,7 +21839,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "haciko'oope",
+		"lemma": "hacikooope",
 		"ja": ["小さい包み", "小さい入れ物"],
 		"en": ["small bundle", "small package/container"],
 		"ru": ["маленький свёрток", "маленький узелок"],
@@ -22086,7 +21855,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "haw'an",
+		"lemma": "hawan",
 		"ja": ["声がする", "音がする", "～だという"],
 		"en": ["there is a voice/sound", "it is said that"],
 		"ru": ["раздаётся голос/звук", "говорят, что"],
@@ -22094,7 +21863,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'utasa",
+		"lemma": "kuutasa",
 		"ja": ["遊びに行く", "行き来する", "訪ねる"],
 		"en": ["go visiting", "go out to play", "go back and forth"],
 		"ru": ["ходить в гости", "навещать"],
@@ -22178,7 +21947,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "haw'ikihi",
+		"lemma": "hawikihi",
 		"ja": ["声", "音"],
 		"en": ["the sound", "the voice (of it)"],
 		"ru": ["звук", "голос (его)"],
@@ -22186,7 +21955,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'intaara",
+		"lemma": "kuintaara",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -22226,7 +21995,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "yaymosiripa'etuhturi",
+		"lemma": "yaymosiripaetuhturi",
 		"ja": ["国が栄える", "自分の国を広げる", "国土を繁栄させる"],
 		"en": ["one's land prospers", "extend one's country", "make one's land flourish"],
 		"ru": ["страна процветает", "расширять свою землю"],
@@ -22234,7 +22003,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'eekunpe",
+		"lemma": "kueekunpe",
 		"ja": ["私が食べるもの", "私が食べるべきもの"],
 		"en": ["what I (will) eat", "the thing I should eat"],
 		"ru": ["то, что я ем", "то, что мне есть"],
@@ -22330,7 +22099,7 @@
 		]
 	},
 	{
-		"lemma": "usa'ipe",
+		"lemma": "usaipe",
 		"ja": ["いろいろなご馳走", "さまざまな食べ物"],
 		"en": ["various foods", "assorted dishes"],
 		"ru": ["разные кушанья", "всевозможная еда"],
@@ -22390,7 +22159,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'eh",
+		"lemma": "kueh",
 		"ja": ["私が来る", "私が来た"],
 		"en": ["I come", "I came (for)"],
 		"ru": ["я прихожу", "я пришёл"],
@@ -22548,7 +22317,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "e'eysika",
+		"lemma": "eeysika",
 		"ja": ["盗む"],
 		"en": ["to steal (it)"],
 		"ru": ["красть"],
@@ -22556,7 +22325,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ki'anne",
+		"lemma": "kianne",
 		"ja": ["年上の", "姉の", "一番上の"],
 		"en": ["to be elder", "to be the eldest"],
 		"ru": ["быть старшим", "старшая"],
@@ -22604,7 +22373,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "an'ama",
+		"lemma": "anama",
 		"ja": ["置く", "入れておく"],
 		"en": ["to place", "to put (and leave)"],
 		"ru": ["класть", "помещать"],
@@ -22688,7 +22457,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "episka'ene",
+		"lemma": "episkaene",
 		"ja": ["あちこちへ", "方々に"],
 		"en": ["here and there", "in all directions"],
 		"ru": ["туда-сюда", "повсюду"],
@@ -23058,7 +22827,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "toonupuru'o'usika",
+		"lemma": "toonupuruousika",
 		"ja": ["日が暮れる", "日が山の端を過ぎる"],
 		"en": ["the day passes", "the sun passes behind the mountain", "night falls"],
 		"ru": ["день проходит", "солнце заходит за гору", "наступает ночь"],
@@ -23066,7 +22835,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "kuko'ocis",
+		"lemma": "kukoocis",
 		"ja": ["悔しがる", "残念に思う"],
 		"en": ["be vexed", "feel regret", "be frustrated"],
 		"ru": ["досадовать", "сожалеть"],
@@ -23090,7 +22859,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ta'ohta",
+		"lemma": "taohta",
 		"ja": ["そこに", "その中に"],
 		"en": ["there", "in there"],
 		"ru": ["там", "туда внутрь"],
@@ -23285,7 +23054,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "esa'ipe",
+		"lemma": "esaipe",
 		"ja": ["男のもの", "男の持ち物", "男の道具"],
 		"en": ["a man's belongings", "men's gear (e.g. bow and arrows)"],
 		"ru": ["мужские вещи", "мужское снаряжение (лук и стрелы)"],
@@ -23309,7 +23078,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'akamihi",
+		"lemma": "kuakamihi",
 		"ja": ["私の肉"],
 		"en": ["my flesh", "my meat"],
 		"ru": ["моё мясо", "моя плоть"],
@@ -23325,7 +23094,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'ommohohcin",
+		"lemma": "kuommohohcin",
 		"ja": ["母", "母親"],
 		"en": ["mother", "my mother"],
 		"ru": ["мать", "моя мать"],
@@ -23393,7 +23162,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ci'esuu",
+		"lemma": "ciesuu",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -23407,18 +23176,6 @@
 		"ru": ["проходить через"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "poso", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "neera'anpe",
-		"ja": ["どんなもの", "何という物"],
-		"en": ["what kind of thing", "whatever thing"],
-		"ru": ["что за вещь", "какая вещь"],
-		"poses": ["pron"],
-		"frequency": 4,
-		"structure": [
-			["neera", "how"],
-			["anpe", "thing"]
-		]
 	},
 	{
 		"lemma": "pirikaa",
@@ -23437,7 +23194,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ene'anpe",
+		"lemma": "eneanpe",
 		"ja": ["このようなもの", "こんな物"],
 		"en": ["such a thing", "a thing like this"],
 		"ru": ["такая вещь", "нечто подобное"],
@@ -23473,7 +23230,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "kaske'ike",
+		"lemma": "kaskeike",
 		"ja": ["上の方", "上部"],
 		"en": ["the top", "upper part", "surface"],
 		"ru": ["верх", "верхняя часть", "поверхность"],
@@ -23576,14 +23333,6 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "anama",
-		"ja": ["置く", "入れておく"],
-		"en": ["to place", "to put (and leave)"],
-		"ru": ["класть", "помещать"],
-		"poses": ["vt"],
-		"frequency": 2
-	},
-	{
 		"lemma": "ecikon",
 		"ja": ["欲しがる", "持つ"],
 		"en": ["to want (ecikon rusuy)", "to have"],
@@ -23592,7 +23341,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "yeepeta'usnaypo",
+		"lemma": "yeepetausnaypo",
 		"ja": ["イェーペタウㇱナイポ（固有名）"],
 		"en": ["Yeepeta'usnaypo (proper name)"],
 		"ru": ["Йеэпэтауснайпо (имя собственное)"],
@@ -23600,7 +23349,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "wahka'uskamuy",
+		"lemma": "wahkauskamuy",
 		"ja": ["水神", "水の神"],
 		"en": ["water deity", "god of the water"],
 		"ru": ["божество воды", "водяной дух"],
@@ -23708,7 +23457,7 @@
 		"frequency": 1
 	},
 	{
-		"lemma": "ta'un",
+		"lemma": "taun",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -23764,7 +23513,7 @@
 		"hokkaido": [{ "lemma": "kúsan", "type": "identity", "conf": 0.75 }]
 	},
 	{
-		"lemma": "e'ukoweepekerehci",
+		"lemma": "eukoweepekerehci",
 		"ja": ["話し合う", "語り合う"],
 		"en": ["to talk together", "to discuss with one another"],
 		"ru": ["беседовать друг с другом", "обсуждать"],
@@ -23772,7 +23521,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "siro'esikari",
+		"lemma": "siroesikari",
 		"ja": ["暗くなる", "暗闇に包まれる"],
 		"en": ["grow dark", "be enveloped in darkness"],
 		"ru": ["темнеть", "погружаться во тьму"],
@@ -23780,7 +23529,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "so'eere",
+		"lemma": "soeere",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -23868,7 +23617,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "sooka'ene",
+		"lemma": "sookaene",
 		"ja": ["このように", "そういう次第で"],
 		"en": ["in this manner", "thus"],
 		"ru": ["вот так", "таким образом"],
@@ -23981,7 +23730,7 @@
 		"frequency": 4
 	},
 	{
-		"lemma": "mawa'an",
+		"lemma": "mawaan",
 		"ja": ["腹が減る", "空腹である"],
 		"en": ["to be hungry"],
 		"ru": ["быть голодным"],
@@ -24021,7 +23770,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "pe'oci",
+		"lemma": "peoci",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -24045,7 +23794,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "tunke'ene",
+		"lemma": "tunkeene",
 		"ja": ["真ん中へ", "中へ"],
 		"en": ["into the middle", "into the inside"],
 		"ru": ["в середину", "внутрь"],
@@ -24096,7 +23845,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'etemii",
+		"lemma": "kuetemii",
 		"ja": ["私が嫌う", "私が嫌いだ"],
 		"en": ["I dislike", "I detest"],
 		"ru": ["я не люблю", "мне противно"],
@@ -24140,7 +23889,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "nonna'itah",
+		"lemma": "nonnaitah",
 		"ja": ["祈る", "祈りを唱える", "拝む"],
 		"en": ["to pray", "to recite a prayer/incantation"],
 		"ru": ["молиться", "произносить молитву"],
@@ -24157,7 +23906,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "eci'ee",
+		"lemma": "eciee",
 		"ja": ["（お前を）食べる"],
 		"en": ["to eat (you/it)"],
 		"ru": ["есть (тебя/это)"],
@@ -24217,7 +23966,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "uwe'omante",
+		"lemma": "uweomante",
 		"ja": ["恋しく思う", "懐かしむ", "思い慕う"],
 		"en": ["long for", "miss", "yearn after"],
 		"ru": ["тосковать по", "скучать по"],
@@ -24261,7 +24010,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "e'etuwe",
+		"lemma": "eetuwe",
 		"ja": ["（お前の）くちばし"],
 		"en": ["your beak"],
 		"ru": ["твой клюв"],
@@ -24317,7 +24066,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "e'ommoho",
+		"lemma": "eommoho",
 		"ja": ["（お前の）母"],
 		"en": ["your mother"],
 		"ru": ["твоя мать"],
@@ -24349,14 +24098,6 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ne'ene",
-		"ja": ["どこかへ", "どこへ", "どのように"],
-		"en": ["somewhere", "to where", "how"],
-		"ru": ["куда-нибудь", "как"],
-		"poses": ["adv"],
-		"frequency": 3
-	},
-	{
 		"lemma": "ruyahci",
 		"ja": ["上手だ", "達者だ", "強い"],
 		"en": ["be skilled", "be good at", "be strong (at)"],
@@ -24365,7 +24106,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ramo'ekayehci",
+		"lemma": "ramoekayehci",
 		"ja": ["機嫌をなおす", "気を取り直す"],
 		"en": ["recover one's mood", "cheer up", "be appeased"],
 		"ru": ["успокаиваться", "приходить в хорошее настроение"],
@@ -24409,7 +24150,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ko'inee",
+		"lemma": "koinee",
 		"ja": ["声を出す", "それに応える"],
 		"en": ["to make a sound toward", "to respond with a sound"],
 		"ru": ["подать голос", "откликнуться"],
@@ -24503,7 +24244,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "kema'us",
+		"lemma": "kemaus",
 		"ja": ["脚のついた", "足のある"],
 		"en": ["having legs", "leg-equipped (storehouse)"],
 		"ru": ["имеющий ноги", "на ножках"],
@@ -24511,7 +24252,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'anpa",
+		"lemma": "kuanpa",
 		"ja": ["私が持つ", "私が抱える", "私が持ち上げる"],
 		"en": ["I hold", "I carry", "I lift"],
 		"ru": ["я держу", "я несу"],
@@ -24543,7 +24284,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ko'omantene",
+		"lemma": "koomantene",
 		"ja": ["しばらくして", "そうしているうちに"],
 		"en": ["after a while", "as time passed"],
 		"ru": ["спустя время", "пока"],
@@ -24551,7 +24292,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "a'aa",
+		"lemma": "aaa",
 		"ja": ["ああ！", "あっ！"],
 		"en": ["ah!", "oh! (cry of alarm/dismay)"],
 		"ru": ["ах!", "ой!"],
@@ -24588,7 +24329,7 @@
 		"frequency": 7
 	},
 	{
-		"lemma": "ku'imii",
+		"lemma": "kuimii",
 		"ja": ["私が着る", "私の着物", "私が身につける"],
 		"en": ["I wear", "my clothes (I wear)"],
 		"ru": ["я надеваю", "моя одежда"],
@@ -24624,7 +24365,7 @@
 		"hokkaido": [{ "lemma": "usi", "type": "identity", "curated": true }]
 	},
 	{
-		"lemma": "e'iworoho",
+		"lemma": "eiworoho",
 		"ja": ["（お前の）うるかした物"],
 		"en": ["your soaked/marinated food"],
 		"ru": ["твоя вымоченная пища"],
@@ -24676,7 +24417,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "e'asakara",
+		"lemma": "easakara",
 		"ja": ["注文する", "作るよう頼む"],
 		"en": ["to order, request (to be made)", "to commission"],
 		"ru": ["заказывать", "просить изготовить"],
@@ -24728,7 +24469,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "kaske'ene",
+		"lemma": "kaskeene",
 		"ja": ["～の上に", "～の上へ"],
 		"en": ["onto", "on top of", "over"],
 		"ru": ["на", "поверх"],
@@ -24740,7 +24481,7 @@
 		]
 	},
 	{
-		"lemma": "e'okoyse",
+		"lemma": "eokoyse",
 		"ja": ["（に）小便をする"],
 		"en": ["to urinate (on)"],
 		"ru": ["мочиться (на)"],
@@ -24748,7 +24489,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "e'osoma",
+		"lemma": "eosoma",
 		"ja": ["（に）大便をする"],
 		"en": ["to defecate (on)"],
 		"ru": ["испражняться (на)"],
@@ -24756,7 +24497,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ekamuy'oh",
+		"lemma": "ekamuyoh",
 		"ja": ["（汚物などに）悩まされる", "閉口する"],
 		"en": ["be afflicted/overcome (by something foul)"],
 		"ru": ["страдать (от чего-то отвратительного)", "мучиться"],
@@ -24780,7 +24521,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "pe'oci'oruntah",
+		"lemma": "peocioruntah",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -24899,7 +24640,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "kaske'ikehe",
+		"lemma": "kaskeikehe",
 		"ja": ["上の方", "上部"],
 		"en": ["the top", "upper part", "its surface"],
 		"ru": ["верх", "верхняя часть", "его поверхность"],
@@ -24907,7 +24648,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ke'oo",
+		"lemma": "keoo",
 		"ja": ["脂が浮く", "脂がのる"],
 		"en": ["have fat floating on it", "be greasy"],
 		"ru": ["иметь жир на поверхности", "быть жирным"],
@@ -24984,7 +24725,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "yaykotanpa'etuhturi",
+		"lemma": "yaykotanpaetuhturi",
 		"ja": ["村が栄える", "自分の村を広げる", "村を繁栄させる"],
 		"en": ["one's village prospers", "extend one's village", "make one's settlement flourish"],
 		"ru": ["селение процветает", "расширять своё селение"],
@@ -24992,7 +24733,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "enpoke'ene",
+		"lemma": "enpokeene",
 		"ja": ["私の下へ", "私の下の方に"],
 		"en": ["to below me", "under me"],
 		"ru": ["подо мной", "вниз подо мной"],
@@ -25080,7 +24821,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "otaka'un",
+		"lemma": "otakaun",
 		"ja": ["浜の", "浜にいる"],
 		"en": ["of the beach", "living on the shore"],
 		"ru": ["прибрежный", "с берега"],
@@ -25088,7 +24829,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "wahka'us",
+		"lemma": "wahkaus",
 		"ja": ["水のある", "水に属する"],
 		"en": ["water-bearing", "of the water"],
 		"ru": ["водяной", "связанный с водой"],
@@ -25104,7 +24845,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "e'iskahci",
+		"lemma": "eiskahci",
 		"ja": ["盗む", "さらう"],
 		"en": ["to steal", "to abduct, carry off"],
 		"ru": ["красть", "похищать"],
@@ -25120,7 +24861,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ni'atus",
+		"lemma": "niatus",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -25257,7 +24998,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "e'ohayne",
+		"lemma": "eohayne",
 		"ja": ["怖がる", "びっくりする", "恐れる"],
 		"en": ["to be afraid (of)", "to be startled, frightened"],
 		"ru": ["бояться", "пугаться"],
@@ -25313,7 +25054,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "eramasreno'an",
+		"lemma": "eramasrenoan",
 		"ja": ["美しい", "きれいな", "立派な"],
 		"en": ["be beautiful", "be lovely"],
 		"ru": ["быть красивым", "быть прелестным"],
@@ -25341,7 +25082,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "o'unu",
+		"lemma": "ounu",
 		"ja": ["座らせる", "上に置く"],
 		"en": ["to seat (someone) on", "to place on"],
 		"ru": ["усадить (на что-л.)", "посадить"],
@@ -25373,7 +25114,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ni'oro'unte",
+		"lemma": "niorounte",
 		"ja": ["木で倒す"],
 		"en": ["to knock down with a tree/wood"],
 		"ru": ["повалить деревом"],
@@ -25381,7 +25122,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "sita'unpehe",
+		"lemma": "sitaunpehe",
 		"ja": ["ふんどし", "下帯"],
 		"en": ["loincloth", "fundoshi"],
 		"ru": ["набедренная повязка", "фундоси"],
@@ -25405,7 +25146,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "me'uu",
+		"lemma": "meuu",
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
@@ -25453,7 +25194,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ne'aynu",
+		"lemma": "neaynu",
 		"ja": ["どんな人", "だれか"],
 		"en": ["which person", "anyone"],
 		"ru": ["какой человек", "кто-либо"],
@@ -25511,23 +25252,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "repunkus'un",
-		"ja": ["沖の", "海の向こうの"],
-		"en": ["from offshore", "of the land across the sea"],
-		"ru": ["из-за моря", "с морской стороны"],
-		"poses": ["adn"],
-		"frequency": 1
-	},
-	{
-		"lemma": "pon'unkayoh",
-		"ja": ["小お化け", "小さい化け物"],
-		"en": ["little ogre", "small monster"],
-		"ru": ["маленький людоед", "маленькое чудовище"],
-		"poses": ["n"],
-		"frequency": 2
-	},
-	{
-		"lemma": "pi'inkarahcihi",
+		"lemma": "piinkarahcihi",
 		"ja": ["のぞく", "のぞき見る"],
 		"en": ["peep", "peek", "look secretly"],
 		"ru": ["подглядывать", "заглядывать тайком"],
@@ -25535,7 +25260,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ne'anpte",
+		"lemma": "neanpte",
 		"ja": ["それ", "その物"],
 		"en": ["that thing", "then (that)"],
 		"ru": ["то", "та вещь"],
@@ -25543,7 +25268,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "kas'orayahci",
+		"lemma": "kasorayahci",
 		"ja": ["走る", "駆けつける"],
 		"en": ["run", "rush", "dash"],
 		"ru": ["бежать", "мчаться"],
@@ -25595,7 +25320,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ci'eere",
+		"lemma": "cieere",
 		"ja": ["食べさせる", "食わせる"],
 		"en": ["to feed (someone)", "to make eat"],
 		"ru": ["кормить", "давать есть"],
@@ -25723,7 +25448,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "hura'ah",
+		"lemma": "huraah",
 		"ja": ["臭い", "においがする"],
 		"en": ["smell", "stink", "give off an odor"],
 		"ru": ["пахнуть", "вонять"],
@@ -25813,7 +25538,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "siske'uriri",
+		"lemma": "siskeuriri",
 		"ja": ["目をきょろきょろさせる", "目玉を動かす"],
 		"en": ["roll one's eyes about", "dart one's eyes"],
 		"ru": ["вращать глазами", "зыркать глазами"],
@@ -25901,7 +25626,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "simo'ene",
+		"lemma": "simoene",
 		"ja": ["横を向いて", "そっぽを向いて"],
 		"en": ["turned aside", "facing away"],
 		"ru": ["отвернувшись", "вбок"],
@@ -25925,7 +25650,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "mahko'omanan",
+		"lemma": "mahkoomanan",
 		"ja": ["嫁探しに行く", "妻を探しに行く"],
 		"en": ["go looking for a wife", "go seeking a bride"],
 		"ru": ["идти искать жену", "отправляться за невестой"],
@@ -25949,7 +25674,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "yooni'unparee",
+		"lemma": "yooniunparee",
 		"ja": ["叩け", "殴れ"],
 		"en": ["beat (them)!", "strike (them)!"],
 		"ru": ["бей (их)!", "колоти (их)!"],
@@ -25957,15 +25682,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "en'eere",
-		"ja": ["私に食べさせる", "私に食わせて"],
-		"en": ["feed me", "give me to eat"],
-		"ru": ["накорми меня", "дай мне поесть"],
-		"poses": ["vt"],
-		"frequency": 2
-	},
-	{
-		"lemma": "otaka'ene",
+		"lemma": "otakaene",
 		"ja": ["浜へ", "砂浜の方へ"],
 		"en": ["to the beach", "toward the shore"],
 		"ru": ["на берег", "к пляжу"],
@@ -25973,7 +25690,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "uko'anpahci",
+		"lemma": "ukoanpahci",
 		"ja": ["一緒に持つ", "共に運ぶ"],
 		"en": ["carry together", "hold together"],
 		"ru": ["нести вместе", "держать вместе"],
@@ -26029,7 +25746,7 @@
 		"frequency": 2
 	},
 	{
-		"lemma": "ku'ekira",
+		"lemma": "kuekira",
 		"ja": ["私が持ち逃げする", "私が盗んで逃げる"],
 		"en": ["I run off with (it)", "I steal and flee with"],
 		"ru": ["я убегаю с (чем-то)", "я уношу"],
@@ -26121,7 +25838,7 @@
 		"cognates": ["ekap"]
 	},
 	{
-		"lemma": "sita'unpe",
+		"lemma": "sitaunpe",
 		"ja": ["ふんどし", "下帯"],
 		"en": ["loincloth"],
 		"ru": ["набедренная повязка"],
@@ -26275,14 +25992,6 @@
 		"hokkaido": [{ "lemma": "p", "type": "identity", "curated": true }]
 	},
 	{
-		"lemma": "oro’oo",
-		"ja": ["入れる", "そこに入れる"],
-		"en": ["to put in", "to insert"],
-		"ru": ["вкладывать", "класть внутрь"],
-		"poses": ["vt"],
-		"frequency": 33
-	},
-	{
 		"lemma": "hure",
 		"ja": ["赤い"],
 		"en": ["red"],
@@ -26290,14 +25999,6 @@
 		"poses": ["v"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "húre", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "wooyaan",
-		"ja": ["いろいろな", "さまざまな"],
-		"en": ["various, all kinds of"],
-		"ru": ["разный", "всевозможный"],
-		"poses": ["adn"],
-		"frequency": 8
 	},
 	{
 		"lemma": "tukar",
@@ -26852,7 +26553,7 @@
 		"hokkaido": [{ "lemma": "tam", "type": "identity", "conf": 0.9 }]
 	},
 	{
-		"lemma": "yay’iráykire",
+		"lemma": "yayiráykire",
 		"ja": ["感謝する", "礼を言う", "ありがたく思う"],
 		"en": ["be grateful", "thank", "feel thankful"],
 		"ru": ["благодарить", "быть благодарным"],
@@ -27405,16 +27106,6 @@
 		"cognates": ["hapap"]
 	},
 	{
-		"lemma": "iineahsuy",
-		"ja": ["ねえ", "どれどれ"],
-		"en": ["eh"],
-		"ru": ["эй"],
-		"poses": ["interj"],
-		"frequency": 189,
-		"hokkaido": [{ "lemma": "íne assuy", "type": "contraction", "curated": true }],
-		"cognates": ["íne assuy"]
-	},
-	{
 		"lemma": "hetunaa",
 		"ja": ["（擬音）"],
 		"en": ["(onomatopoeia)"],
@@ -27431,14 +27122,6 @@
 		"frequency": 46,
 		"freqSource": "marker",
 		"hokkaido": [{ "lemma": "eci=", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "sinkeikehe",
-		"ja": ["翌日"],
-		"en": ["the next day"],
-		"ru": ["следующий день"],
-		"poses": ["adv"],
-		"frequency": 40
 	},
 	{
 		"lemma": "turaeh",
