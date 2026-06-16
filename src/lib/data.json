@@ -921,7 +921,8 @@
 		"ru": ["мы"],
 		"poses": ["pers"],
 		"frequency": 147,
-		"freqSource": "marker"
+		"freqSource": "marker",
+		"hokkaido": [{ "lemma": "=an", "type": "identity", "curated": true }]
 	},
 	{
 		"lemma": "an",
@@ -959,7 +960,7 @@
 		"frequency": 394,
 		"freqSource": "marker",
 		"hokkaido": [
-			{ "lemma": "=an", "type": "identity", "conf": 0.75 },
+			{ "lemma": "a=", "type": "irregular-correspondence", "curated": true },
 			{ "lemma": "an", "type": "identity", "conf": 0.75 }
 		]
 	},
@@ -8875,7 +8876,8 @@
 		"en": ["to be"],
 		"ru": ["быть"],
 		"poses": ["cop"],
-		"frequency": 345
+		"frequency": 345,
+		"hokkaido": [{ "lemma": "ne", "type": "regular-sound-change", "curated": true }]
 	},
 	{
 		"lemma": "neene",
