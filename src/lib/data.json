@@ -4148,14 +4148,6 @@
 		"ja": ["～の方へ"],
 		"en": ["towards ~"],
 		"ru": ["по направлению к ~"],
-		"poses": ["vi"],
-		"frequency": 261
-	},
-	{
-		"lemma": "onne",
-		"ja": ["～の方へ"],
-		"en": ["towards ~"],
-		"ru": ["по направлению к ~"],
 		"poses": ["postp"],
 		"frequency": 261
 	},
@@ -4966,20 +4958,12 @@
 		"ja": ["ので", "だから", "ために"],
 		"en": ["because", "so", "for"],
 		"ru": ["потому что", "так что", "для"],
-		"poses": ["auxv"],
+		"poses": ["sconj"],
 		"frequency": 1306,
 		"hokkaido": [
 			{ "lemma": "kus(u)", "type": "identity", "conf": 0.9 },
 			{ "lemma": "kusu", "type": "identity", "conf": 0.75 }
 		]
-	},
-	{
-		"lemma": "kusu",
-		"ja": ["ので", "だから", "ために"],
-		"en": ["because", "so", "for"],
-		"ru": ["потому что", "так что", "для"],
-		"poses": ["sconj"],
-		"frequency": 1306
 	},
 	{
 		"lemma": "kusuiki",
@@ -5301,7 +5285,7 @@
 		"ja": ["すると"],
 		"en": ["and then"],
 		"ru": ["и тогда"],
-		"poses": ["vt"],
+		"poses": ["sconj"],
 		"frequency": 33,
 		"frequencyRolled": 34,
 		"forms": [
@@ -5320,22 +5304,6 @@
 			}
 		],
 		"hokkaido": [{ "lemma": "kore", "type": "identity", "conf": 0.9, "form": "kore" }]
-	},
-	{
-		"lemma": "ko",
-		"ja": ["すると"],
-		"en": ["and then"],
-		"ru": ["и тогда"],
-		"poses": ["sconj"],
-		"frequency": 33
-	},
-	{
-		"lemma": "koh",
-		"ja": ["すると"],
-		"en": ["and then"],
-		"ru": ["и тогда"],
-		"poses": ["vt"],
-		"frequency": 236
 	},
 	{
 		"lemma": "koh",
@@ -6942,14 +6910,6 @@
 		"ja": ["あの", "その"],
 		"en": ["that"],
 		"ru": ["тот", "этот"],
-		"poses": ["vt"],
-		"frequency": 6745
-	},
-	{
-		"lemma": "taa",
-		"ja": ["あの", "その"],
-		"en": ["that"],
-		"ru": ["тот", "этот"],
 		"poses": ["adn"],
 		"frequency": 6745
 	},
@@ -8407,38 +8367,6 @@
 		"ru": ["рвать", "ломать"],
 		"poses": ["vt"],
 		"frequency": 0
-	},
-	{
-		"lemma": "nah",
-		"ja": ["どこ"],
-		"en": ["where"],
-		"ru": ["где"],
-		"poses": ["adv"],
-		"frequency": 1146,
-		"hokkaido": [
-			{
-				"lemma": "nak",
-				"type": "regular-sound-change",
-				"rules": ["coda-stop-debuccalisation"],
-				"curated": true
-			}
-		]
-	},
-	{
-		"lemma": "nah",
-		"ja": ["どこ"],
-		"en": ["where"],
-		"ru": ["где"],
-		"poses": ["advp"],
-		"frequency": 1146
-	},
-	{
-		"lemma": "nah",
-		"ja": ["どこ"],
-		"en": ["where"],
-		"ru": ["где"],
-		"poses": ["int"],
-		"frequency": 1146
 	},
 	{
 		"lemma": "nahtaan",
@@ -12892,10 +12820,10 @@
 	},
 	{
 		"lemma": "iani",
-		"ja": ["私", "自分"],
-		"en": ["I", "oneself"],
-		"ru": ["я", "сам"],
-		"poses": ["pron", "pers"],
+		"ja": ["持つ", "（物を）手に取る"],
+		"en": ["to hold", "to take (a thing) in hand"],
+		"ru": ["держать", "брать (предмет) в руки"],
+		"poses": ["vt"],
 		"frequency": 12
 	},
 	{
@@ -13013,10 +12941,10 @@
 	},
 	{
 		"lemma": "bagunke",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["パフンケ（人名）"],
+		"en": ["Pa(h)unke (personal name)"],
+		"ru": ["Пахункэ (имя)"],
+		"poses": ["n"],
 		"frequency": 7
 	},
 	{
@@ -15345,10 +15273,10 @@
 	},
 	{
 		"lemma": "hetaa",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["さあ", "どうした", "一体"],
+		"en": ["come now", "what is it", "on earth"],
+		"ru": ["ну же", "что такое", "вообще"],
+		"poses": ["intj", "adv"],
 		"frequency": 16
 	},
 	{
@@ -16135,10 +16063,10 @@
 	},
 	{
 		"lemma": "cireske",
-		"ja": ["育てる", "育てられる"],
-		"en": ["to raise", "to be reared"],
-		"ru": ["воспитывать", "быть выращенным"],
-		"poses": ["vt", "vi"],
+		"ja": ["育てる", "養い育てる"],
+		"en": ["to raise (a child)", "to bring up and nurture"],
+		"ru": ["растить (ребёнка)", "воспитывать и взращивать"],
+		"poses": ["vt"],
 		"frequency": 11
 	},
 	{
@@ -18111,18 +18039,18 @@
 	},
 	{
 		"lemma": "cakamnu",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["ぴちゃぴちゃ", "ぺちゃぺちゃ"],
+		"en": ["with a splashing, pattering sound"],
+		"ru": ["шлёпая, чавкая (звук)"],
+		"poses": ["adv"],
 		"frequency": 6
 	},
 	{
 		"lemma": "rinnu",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["ドシンドシン", "（重い足音）"],
+		"en": ["thud-thud (heavy footsteps)", "thumping"],
+		"ru": ["топ-топ (тяжёлые шаги)", "грузный топот"],
+		"poses": ["adv"],
 		"frequency": 6
 	},
 	{
@@ -19226,9 +19154,9 @@
 	},
 	{
 		"lemma": "oran",
-		"ja": ["低い（木）", "下がる"],
-		"en": ["low (tree); hanging down", "be low"],
-		"ru": ["низкий (о дереве); свисающий", "быть низким"],
+		"ja": ["低い"],
+		"en": ["low"],
+		"ru": ["низкий"],
 		"poses": ["vi", "adn"],
 		"frequency": 4
 	},
@@ -19326,10 +19254,10 @@
 	},
 	{
 		"lemma": "saanu",
-		"ja": ["いたずらをする", "悪さをする", "ふるまう"],
-		"en": ["do mischief", "play a prank", "behave"],
-		"ru": ["шалить", "проказничать"],
-		"poses": ["vt"],
+		"ja": ["もぞもぞする", "いたずらをする"],
+		"en": ["fidget", "misbehave, do mischief"],
+		"ru": ["копошиться", "озорничать, проказничать"],
+		"poses": ["adv"],
 		"frequency": 5
 	},
 	{
@@ -19407,10 +19335,10 @@
 	},
 	{
 		"lemma": "esumane",
-		"ja": ["ノリ（接着剤）のために"],
-		"en": ["for the sake of (making) glue/paste"],
-		"ru": ["ради (изготовления) клея"],
-		"poses": ["adv"],
+		"ja": ["獲物を射る", "（ノリのために）射止める"],
+		"en": ["to shoot game", "to bring down game (for glue)"],
+		"ru": ["подстрелить дичь", "добыть дичь (для клея)"],
+		"poses": ["vt"],
 		"frequency": 4
 	},
 	{
@@ -19786,10 +19714,10 @@
 	},
 	{
 		"lemma": "moromahpoo",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["娘", "若い女"],
+		"en": ["young woman", "maiden"],
+		"ru": ["девушка", "молодая женщина"],
+		"poses": ["n"],
 		"frequency": 4,
 		"structure": [
 			["moro", ""],
@@ -19879,10 +19807,10 @@
 	},
 	{
 		"lemma": "unci'acahcipo",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["火の媼神", "火のおばあさん"],
+		"en": ["fire goddess", "fire grandmother"],
+		"ru": ["богиня огня", "бабушка-огонь"],
+		"poses": ["n"],
 		"frequency": 4,
 		"structure": [
 			["unci", "fire"],
@@ -20426,8 +20354,10 @@
 	},
 	{
 		"lemma": "sipoososoo",
-		"ja": ["（高くそびえるさま）", "にょきにょき"],
-		"poses": ["adv"],
+		"ja": ["伸び上がる", "高くなる"],
+		"en": ["to rise up", "to grow taller"],
+		"ru": ["подниматься", "становиться выше"],
+		"poses": ["vi"],
 		"frequency": 3
 	},
 	{
@@ -21481,10 +21411,10 @@
 	},
 	{
 		"lemma": "cahka",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["揺りかご"],
+		"en": ["baby cradle"],
+		"ru": ["колыбель, люлька"],
+		"poses": ["n"],
 		"frequency": 3
 	},
 	{
@@ -22988,10 +22918,10 @@
 	},
 	{
 		"lemma": "urekucirin",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["足音", "（足音の擬音）"],
+		"en": ["sound of footsteps", "patter of bare feet"],
+		"ru": ["звук шагов", "топот босых ног"],
+		"poses": ["adv"],
 		"frequency": 2
 	},
 	{
@@ -23955,10 +23885,10 @@
 	},
 	{
 		"lemma": "kunoo",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["n"],
+		"ja": ["忠実な", "良い"],
+		"en": ["faithful", "fine, good"],
+		"ru": ["верный", "хороший"],
+		"poses": ["adn"],
 		"frequency": 2
 	},
 	{
@@ -24290,9 +24220,9 @@
 	},
 	{
 		"lemma": "esumaane",
-		"ja": ["獲物を射る", "狙い射る"],
-		"en": ["to shoot game", "to aim and shoot"],
-		"ru": ["стрелять в добычу", "целиться и стрелять"],
+		"ja": ["獲物を射る", "（ノリのために）射止める"],
+		"en": ["to shoot game", "to bring down game (for glue)"],
+		"ru": ["подстрелить дичь", "добыть дичь (для клея)"],
 		"poses": ["vt"],
 		"frequency": 2
 	},
@@ -24783,10 +24713,10 @@
 	},
 	{
 		"lemma": "cakannu",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["ぴちゃぴちゃ", "ぺちゃぺちゃ"],
+		"en": ["with a splashing, pattering sound"],
+		"ru": ["шлёпая, чавкая (звук)"],
+		"poses": ["adv"],
 		"frequency": 2
 	},
 	{
@@ -24999,10 +24929,10 @@
 	},
 	{
 		"lemma": "nuuhu",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"ja": ["聞く", "聞こえる"],
+		"en": ["to hear", "to be heard"],
+		"ru": ["слышать", "быть слышимым"],
+		"poses": ["vt", "vi"],
 		"frequency": 3
 	},
 	{
@@ -25139,9 +25069,9 @@
 	},
 	{
 		"lemma": "sanuu",
-		"ja": ["（擬態）もぞもぞする", "いたずらをする"],
-		"en": ["fidget about", "fuss (mimetic)"],
-		"ru": ["возиться", "ёрзать (звукоподр.)"],
+		"ja": ["もぞもぞする", "いたずらをする"],
+		"en": ["fidget", "misbehave, do mischief"],
+		"ru": ["копошиться", "озорничать, проказничать"],
 		"poses": ["adv"],
 		"frequency": 2
 	},
@@ -27624,6 +27554,22 @@
 		"hokkaido": [
 			{ "lemma": "hoku", "type": "identity", "conf": 0.9 },
 			{ "lemma": "hoku(hu)", "type": "identity", "conf": 0.75 }
+		]
+	},
+	{
+		"lemma": "nah",
+		"ja": ["（引用）～と", "そう", "そのように"],
+		"en": ["(quotative) that, …", "so, like that"],
+		"ru": ["(цитатив) что", "так"],
+		"poses": ["ptcl", "adv"],
+		"frequency": 1146,
+		"hokkaido": [
+			{
+				"lemma": "nak",
+				"type": "regular-sound-change",
+				"rules": ["coda-stop-debuccalisation"],
+				"curated": true
+			}
 		]
 	}
 ]
