@@ -6994,7 +6994,15 @@
 		"en": ["that", "that one"],
 		"ru": ["то", "это", "тот"],
 		"poses": ["pron", "adn"],
-		"frequency": 20
+		"frequency": 20,
+		"hokkaido": [
+			{
+				"lemma": "tap",
+				"type": "regular-sound-change",
+				"rules": ["pitch-accent-to-vowel-length", "coda-stop-debuccalisation"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "taanoka",
@@ -10951,7 +10959,22 @@
 		"poses": ["n"],
 		"frequency": 4
 	},
-	{ "lemma": "mah", "ja": ["妻"], "en": ["wife"], "ru": ["жена"], "poses": ["n"], "frequency": 15 },
+	{
+		"lemma": "mah",
+		"ja": ["妻"],
+		"en": ["wife"],
+		"ru": ["жена"],
+		"poses": ["n"],
+		"frequency": 15,
+		"hokkaido": [
+			{
+				"lemma": "mat",
+				"type": "regular-sound-change",
+				"rules": ["coda-stop-debuccalisation"],
+				"curated": true
+			}
+		]
+	},
 	{
 		"lemma": "mahtekuh",
 		"ja": ["女性"],
