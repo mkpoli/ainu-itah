@@ -14508,7 +14508,11 @@
 		"en": ["old woman"],
 		"ru": ["старая женщина"],
 		"poses": ["n"],
-		"frequency": 269
+		"frequency": 269,
+		"structure": [
+			["acahci", "old woman"],
+			["po", "diminutive"]
+		]
 	},
 	{
 		"lemma": "omantene",
@@ -20221,7 +20225,11 @@
 		"en": ["fire goddess", "fire grandmother"],
 		"ru": ["богиня огня", "бабушка-огонь"],
 		"poses": ["n"],
-		"frequency": 4
+		"frequency": 4,
+		"structure": [
+			["unci", "fire"],
+			["acahcipo", "old woman"]
+		]
 	},
 	{
 		"lemma": "cioka",
