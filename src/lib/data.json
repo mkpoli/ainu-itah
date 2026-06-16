@@ -797,7 +797,10 @@
 				"type": "plural"
 			}
 		],
-		"hokkaido": [{ "lemma": "ahunke", "type": "identity", "conf": 0.9, "form": "ahunke" }]
+		"hokkaido": [
+			{ "lemma": "ahun", "type": "identity", "curated": true },
+			{ "lemma": "ahunke", "type": "identity", "conf": 0.9, "form": "ahunke" }
+		]
 	},
 	{
 		"lemma": "apunitara",
@@ -1367,7 +1370,8 @@
 				],
 				"type": "valency"
 			}
-		]
+		],
+		"hokkaido": [{ "lemma": "isam", "type": "irregular-correspondence", "curated": true }]
 	},
 	{
 		"lemma": "isankekamuy",
@@ -8340,7 +8344,22 @@
 		"frequency": 47,
 		"hokkaido": [{ "lemma": "tu", "type": "identity", "conf": 0.9 }]
 	},
-	{ "lemma": "tuh", "ja": ["２つ"], "en": ["two"], "ru": ["два"], "poses": ["n"], "frequency": 27 },
+	{
+		"lemma": "tuh",
+		"ja": ["２つ"],
+		"en": ["two"],
+		"ru": ["два"],
+		"poses": ["n"],
+		"frequency": 27,
+		"hokkaido": [
+			{
+				"lemma": "tup",
+				"type": "regular-sound-change",
+				"rules": ["coda-stop-debuccalisation"],
+				"curated": true
+			}
+		]
+	},
 	{
 		"lemma": "tuhse",
 		"ja": ["はねる", "飛ぶ"],
@@ -11342,11 +11361,11 @@
 			},
 			{
 				"lemma": "makapahci",
-				"frequency": 32,
 				"ja": ["上る", "登る", "行く"],
 				"en": ["go up", "ascend", "go (inland)"],
 				"ru": ["подниматься", "идти вверх"],
 				"poses": ["vi"],
+				"frequency": 32,
 				"analysis": [
 					["makap", "to climb"],
 					["=ahci", "COLL"]
@@ -12256,7 +12275,10 @@
 				"type": "plural"
 			}
 		],
-		"hokkaido": [{ "lemma": "yanke", "type": "identity", "conf": 0.9, "form": "yanke" }]
+		"hokkaido": [
+			{ "lemma": "yan", "type": "identity", "curated": true },
+			{ "lemma": "yanke", "type": "identity", "conf": 0.9, "form": "yanke" }
+		]
 	},
 	{
 		"lemma": "yuh",
@@ -12699,7 +12721,10 @@
 				"type": "plural"
 			}
 		],
-		"hokkaido": [{ "lemma": "ranke", "type": "identity", "conf": 0.9, "form": "ranke" }]
+		"hokkaido": [
+			{ "lemma": "ran", "type": "identity", "curated": true },
+			{ "lemma": "ranke", "type": "identity", "conf": 0.9, "form": "ranke" }
+		]
 	},
 	{
 		"lemma": "ranneno",
@@ -13105,7 +13130,15 @@
 		"en": ["three"],
 		"ru": ["три"],
 		"poses": ["n"],
-		"frequency": 16
+		"frequency": 16,
+		"hokkaido": [
+			{
+				"lemma": "rep",
+				"type": "regular-sound-change",
+				"rules": ["coda-stop-debuccalisation"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "rehni",
