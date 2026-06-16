@@ -10694,7 +10694,11 @@
 		"en": ["male (in stories)"],
 		"ru": ["мужчина (в рассказах)"],
 		"poses": ["n"],
-		"frequency": 915
+		"frequency": 915,
+		"structure": [
+			["horokew", "wolf"],
+			["po", "diminutive"]
+		]
 	},
 	{
 		"lemma": "hontom",
@@ -11485,7 +11489,12 @@
 		"en": ["woman"],
 		"ru": ["женщина"],
 		"poses": ["n"],
-		"frequency": 819
+		"frequency": 819,
+		"structure": [
+			["moni", "?"],
+			["mah", "woman"],
+			["po", "diminutive"]
+		]
 	},
 	{
 		"lemma": "monpeci",
@@ -15426,7 +15435,12 @@
 		"en": ["upstream man", "man living upriver"],
 		"ru": ["мужчина с верховья реки"],
 		"poses": ["n"],
-		"frequency": 17
+		"frequency": 17,
+		"structure": [
+			["penka", "upstream"],
+			["an", "to be"],
+			["kuh", "person"]
+		]
 	},
 	{
 		"lemma": "eneani",
@@ -15991,7 +16005,11 @@
 		"en": ["Earth Man", "clay man (character)"],
 		"ru": ["Земляной человек"],
 		"poses": ["n"],
-		"frequency": 13
+		"frequency": 13,
+		"structure": [
+			["toy", "earth"],
+			["aynu", "person"]
+		]
 	},
 	{
 		"lemma": "suukawka",
@@ -16406,7 +16424,11 @@
 		"en": ["Seal-oil-residue Man (folktale figure)"],
 		"ru": ["Человек-вытопки (персонаж сказки)"],
 		"poses": ["n"],
-		"frequency": 10
+		"frequency": 10,
+		"structure": [
+			["nakapuru", "seal-oil residue"],
+			["aynu", "man"]
+		]
 	},
 	{
 		"lemma": "huh",
@@ -18759,7 +18781,12 @@
 		"en": ["three men", "three young men"],
 		"ru": ["трое мужчин", "трое юношей"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["re", "three"],
+			["horokew", "wolf"],
+			["po", "diminutive"]
+		]
 	},
 	{
 		"lemma": "siroeskari",
@@ -23864,7 +23891,12 @@
 		"en": ["two young men", "two men"],
 		"ru": ["двое мужчин", "двое юношей"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["tu", "two"],
+			["horokew", "wolf"],
+			["po", "diminutive"]
+		]
 	},
 	{
 		"lemma": "okayahcin",
