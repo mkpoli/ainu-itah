@@ -11751,7 +11751,15 @@
 		"en": ["while doing"],
 		"ru": ["пока делаете"],
 		"poses": ["sconj"],
-		"frequency": 350
+		"frequency": 350,
+		"hokkaido": [
+			{
+				"lemma": "ayne",
+				"type": "regular-sound-change",
+				"rules": ["glide-prothesis"],
+				"curated": true
+			}
+		]
 	},
 	{
 		"lemma": "yayramani",
@@ -14489,6 +14497,7 @@
 			["nee", "to be"],
 			["teh", "doing"]
 		],
+		"hokkaido": [{ "lemma": "ne tek", "type": "construction-difference", "curated": true }],
 		"hokkaidoNot": ["ne wa"],
 		"noncognates": ["ne wa"]
 	},
