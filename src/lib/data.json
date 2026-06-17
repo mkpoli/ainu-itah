@@ -8667,15 +8667,6 @@
 		"hokkaido": [{ "lemma": "turano", "type": "identity", "conf": 0.75 }]
 	},
 	{
-		"lemma": "turihi",
-		"ja": ["垢"],
-		"en": ["dirt", "grime"],
-		"ru": ["грязь"],
-		"poses": ["n"],
-		"frequency": 2,
-		"hokkaido": [{ "lemma": "turi(hi)", "type": "identity", "conf": 0.75 }]
-	},
-	{
 		"lemma": "turu",
 		"ja": ["垢"],
 		"en": ["dirt", "grime"],
@@ -16842,11 +16833,15 @@
 	},
 	{
 		"lemma": "atu",
-		"ja": ["atの所属形"],
-		"en": ["belonging to at"],
-		"ru": ["принадлежащий ат"],
+		"ja": ["（*at の所属形）"],
+		"en": ["3sg-possessed form of *at (sense unclear)"],
+		"ru": ["притяжательная форма *at (значение неясно)"],
 		"poses": ["v", "n"],
-		"frequency": 13
+		"frequency": 13,
+		"structure": [
+			["*at", "(unclear)"],
+			["u", "POSS"]
+		]
 	},
 	{
 		"lemma": "konpura",
@@ -20008,11 +20003,31 @@
 	},
 	{
 		"lemma": "turi",
-		"ja": ["turの所属形"],
-		"en": ["belonging to tur"],
-		"ru": ["принадлежащий tur"],
+		"ja": ["（その）垢（？）"],
+		"en": ["its grime/dirt (uncertain)"],
+		"ru": ["его грязь (?)"],
 		"poses": ["n"],
 		"frequency": 5,
+		"frequencyRolled": 7,
+		"structure": [
+			["*tur", "grime (?)"],
+			["i", "POSS"]
+		],
+		"forms": [
+			{
+				"lemma": "turihi",
+				"ja": ["垢"],
+				"en": ["dirt", "grime"],
+				"ru": ["грязь"],
+				"poses": ["n"],
+				"frequency": 2,
+				"analysis": [
+					["turi", "belonging to tur"],
+					["-hi", "POSS"]
+				],
+				"type": "possessed"
+			}
+		],
 		"hokkaido": [
 			{ "lemma": "turi(hi)", "type": "identity", "conf": 0.8 },
 			{ "lemma": "turi", "type": "identity", "conf": 0.75 },
@@ -21885,11 +21900,11 @@
 		"forms": [
 			{
 				"lemma": "kitayketa",
-				"frequency": 3,
 				"ja": ["頂上に", "上に", "てっぺんに"],
 				"en": ["on top of", "at the top of"],
 				"ru": ["на вершине", "наверху"],
 				"poses": ["postp"],
+				"frequency": 3,
 				"analysis": [
 					["kitayke", "belonging to kitay"],
 					["=ta", "LOC"]
@@ -26221,11 +26236,15 @@
 	},
 	{
 		"lemma": "kucihi",
-		"ja": ["kutの所属形"],
-		"en": ["belonging to kut"],
-		"ru": ["принадлежащий кут"],
+		"ja": ["（その）紐", "帯"],
+		"en": ["its cord, string, sash"],
+		"ru": ["его шнур, пояс"],
 		"poses": ["n"],
 		"frequency": 2,
+		"structure": [
+			["*kut", "cord, sash"],
+			["ihi", "POSS"]
+		],
 		"hokkaido": [
 			{ "lemma": "kuci(hi)", "type": "identity", "conf": 0.8 },
 			{ "lemma": "kut/kuci(hi)", "type": "identity", "conf": 0.75 }
