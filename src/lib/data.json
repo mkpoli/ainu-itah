@@ -1766,7 +1766,11 @@
 		"en": ["to get drunk"],
 		"ru": ["напиваться"],
 		"poses": ["vi"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*iyoski", "to get drunk"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "iraimeh",
@@ -1954,7 +1958,11 @@
 		"en": ["to take ~"],
 		"ru": ["брать ~"],
 		"poses": ["n"],
-		"frequency": 20
+		"frequency": 20,
+		"structure": [
+			["uyna", "to take ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "uywankere",
@@ -2068,6 +2076,10 @@
 		"poses": ["vt"],
 		"frequency": 29,
 		"frequencyRolled": 31,
+		"structure": [
+			["uk", "to take ~"],
+			["=ahci", "COLL"]
+		],
 		"forms": [
 			{
 				"lemma": "ukahcihi",
@@ -3088,7 +3100,11 @@
 		"en": ["to dislike ~", "to find ~ troublesome"],
 		"ru": ["не любить ~", "считать ~ обременительным"],
 		"poses": ["n"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*etoranne", "to dislike ~"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "ene",
@@ -3146,7 +3162,11 @@
 		"en": ["to bloom"],
 		"ru": ["цвести"],
 		"poses": ["vi"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*ehepitahpa", "to bloom"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "epes",
@@ -4471,7 +4491,11 @@
 		"en": ["wrinkled old woman"],
 		"ru": ["морщинистая старая женщина"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*kahciciahca", "wrinkled old woman"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kam",
@@ -4784,7 +4808,7 @@
 		"frequency": 1,
 		"structure": [
 			["kamuy", "god"],
-			["rusihi", "belonging to rus"]
+			["rusihi", "fur"]
 		]
 	},
 	{
@@ -5248,7 +5272,11 @@
 		"en": ["to ferry ~ by boat"],
 		"ru": ["переправлять ~ на лодке"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*kusa", "to ferry ~ by boat"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kusu",
@@ -5800,14 +5828,6 @@
 				"curated": true
 			}
 		]
-	},
-	{
-		"lemma": "kotuye",
-		"ja": ["～に通す"],
-		"en": ["to pass through ~"],
-		"ru": ["проходить через ~"],
-		"poses": ["vt"],
-		"frequency": 6
 	},
 	{
 		"lemma": "kotoro",
@@ -7255,7 +7275,11 @@
 		"en": ["to dig ~"],
 		"ru": ["копать ~"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*ta", "to dig ~"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "tahni",
@@ -7360,7 +7384,11 @@
 		"en": ["to invite ~"],
 		"ru": ["приглашать ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*taka", "to invite ~"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "tatatata",
@@ -8099,7 +8127,11 @@
 		"en": ["ancestors", "parents"],
 		"ru": ["предки", "родители"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*cinkewutari", "ancestors"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "cinkewhe",
@@ -8791,7 +8823,7 @@
 		"frequency": 1,
 		"structure": [
 			["ton", "(meaningless song-refrain word)"],
-			["tuye", "belonging to tuy"]
+			["tuye", "to cut ~"]
 		]
 	},
 	{
@@ -9105,7 +9137,11 @@
 		"en": ["to slurp ~"],
 		"ru": ["сёрбать ~"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ni", "to slurp ~"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "nii",
@@ -9738,8 +9774,8 @@
 		"poses": ["sconj"],
 		"frequency": 17,
 		"structure": [
-			["neyahka", "even if"],
-			["yki", "do"]
+			["neyah", "but"],
+			["kayki", "also"]
 		]
 	},
 	{
@@ -9900,7 +9936,11 @@
 		"en": ["to drop ~"],
 		"ru": ["уронить ~"],
 		"poses": ["vt"],
-		"frequency": 11
+		"frequency": 11,
+		"structure": [
+			["*haare", "to drop ~"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hayta",
@@ -10258,7 +10298,11 @@
 		"en": ["to count ~"],
 		"ru": ["считать ~"],
 		"poses": ["vt"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*piske", "to count ~"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "pise",
@@ -12084,8 +12128,8 @@
 		"poses": ["sconj"],
 		"frequency": 41,
 		"structure": [
-			["yahka", "even if"],
-			["yki", "do"]
+			["yah", "to land"],
+			["kayki", "also"]
 		],
 		"hokkaido": [
 			{
@@ -12987,7 +13031,11 @@
 		"en": ["appearance", "state"],
 		"ru": ["внешний вид", "состояние"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*ruuhe", "appearance"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "ruura",
@@ -13416,7 +13464,11 @@
 		"en": ["to sit"],
 		"ru": ["сидеть"],
 		"poses": ["vi"],
-		"frequency": 7
+		"frequency": 7,
+		"structure": [
+			["*roka", "to sit"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "rorunsoo",
@@ -15336,7 +15388,11 @@
 		"en": ["to dance (plural)"],
 		"ru": ["танцевать (множественное число)"],
 		"poses": ["sfx"],
-		"frequency": 45
+		"frequency": 45,
+		"structure": [
+			["hecire", "to play"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "soyta",
@@ -15536,7 +15592,11 @@
 		"en": ["to burn (firewood)", "feed the fire"],
 		"ru": ["подбрасывать дрова в огонь", "жечь"],
 		"poses": ["vt"],
-		"frequency": 33
+		"frequency": 33,
+		"structure": [
+			["*kuru", "to burn (firewood)"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "tuuneh",
@@ -15932,7 +15992,11 @@
 		"en": ["various"],
 		"ru": ["различные"],
 		"poses": ["adv"],
-		"frequency": 21
+		"frequency": 21,
+		"structure": [
+			["*usa", "various"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "ciee",
@@ -17010,7 +17074,11 @@
 		"en": ["mother", "their mother"],
 		"ru": ["мать", "их мать"],
 		"poses": ["n"],
-		"frequency": 12
+		"frequency": 12,
+		"structure": [
+			["*ommoho", "mother"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "ah",
@@ -17271,7 +17339,11 @@
 		"en": ["all of them", "everyone"],
 		"ru": ["все", "все они"],
 		"poses": ["pron", "n"],
-		"frequency": 11
+		"frequency": 11,
+		"structure": [
+			["*okorehe", "all of them"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "kotahmaa",
@@ -17595,7 +17667,11 @@
 		"en": ["their clothes", "their garments"],
 		"ru": ["их одежда", "их одеяния"],
 		"poses": ["n"],
-		"frequency": 9
+		"frequency": 9,
+		"structure": [
+			["*imiyehe", "their clothes"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "annukara",
@@ -17978,14 +18054,6 @@
 		"frequency": 8
 	},
 	{
-		"lemma": "tuyehci",
-		"ja": ["切る", "切断する"],
-		"en": ["to cut (plural subject/object)"],
-		"ru": ["резать", "разрезать (мн.)"],
-		"poses": ["vt"],
-		"frequency": 8
-	},
-	{
 		"lemma": "un",
 		"ja": ["に", "に有る"],
 		"en": ["to", "exists at"],
@@ -18145,6 +18213,35 @@
 		"ru": ["резать ~", "отрезать ~"],
 		"poses": ["vt"],
 		"frequency": 8,
+		"frequencyRolled": 22,
+		"forms": [
+			{
+				"lemma": "tuyehci",
+				"ja": ["切る", "切断する"],
+				"en": ["to cut (plural subject/object)"],
+				"ru": ["резать", "разрезать (мн.)"],
+				"poses": ["vt"],
+				"frequency": 8,
+				"analysis": [
+					["tuye", "to cut ~"],
+					["=hci", "COLL"]
+				],
+				"type": "plural"
+			},
+			{
+				"lemma": "kotuye",
+				"ja": ["～に通す"],
+				"en": ["to pass through ~"],
+				"ru": ["проходить через ~"],
+				"poses": ["vt"],
+				"frequency": 6,
+				"analysis": [
+					["ko-", "APPL"],
+					["tuye", "to cut ~"]
+				],
+				"type": "valency"
+			}
+		],
 		"hokkaido": [
 			{ "lemma": "tuye(he)", "type": "identity", "conf": 0.8 },
 			{ "lemma": "tuy/tuye(he)", "type": "identity", "conf": 0.75 },
@@ -18196,7 +18293,11 @@
 		"en": ["hang up", "suspend"],
 		"ru": ["подвешивать", "вешать"],
 		"poses": ["vt"],
-		"frequency": 8
+		"frequency": 8,
+		"structure": [
+			["*ahte", "hang up"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hi",
@@ -18257,7 +18358,11 @@
 		"en": ["their father(s)"],
 		"ru": ["их отец", "отцы"],
 		"poses": ["n"],
-		"frequency": 8
+		"frequency": 8,
+		"structure": [
+			["*aacaha", "their father(s)"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "hoorika",
@@ -18488,7 +18593,11 @@
 		"en": ["they shoot game", "they hunt down (an animal)"],
 		"ru": ["они подстреливают дичь", "добывают зверя"],
 		"poses": ["vt"],
-		"frequency": 7
+		"frequency": 7,
+		"structure": [
+			["*utukana", "they shoot game"],
+			["hci", "COLL"]
+		]
 	},
 	{ "lemma": "ma", "ja": ["船着き場"], "en": ["pier"], "ru": ["пристань"], "frequency": 8 },
 	{
@@ -18668,7 +18777,11 @@
 		"en": ["they marry", "they become husband and wife"],
 		"ru": ["они вступают в брак", "становятся супругами"],
 		"poses": ["vi"],
-		"frequency": 8
+		"frequency": 8,
+		"structure": [
+			["*usama", "they marry"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "ciyehe",
@@ -18803,7 +18916,12 @@
 		"en": ["they stick together", "they adhere to one another"],
 		"ru": ["они слипаются друг с другом"],
 		"poses": ["vi"],
-		"frequency": 7
+		"frequency": 7,
+		"structure": [
+			["u-", "REC"],
+			["kotahma", "to arrive at ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kopisi",
@@ -18896,7 +19014,11 @@
 		"en": ["their flesh", "their meat"],
 		"ru": ["их мясо", "их плоть"],
 		"poses": ["n"],
-		"frequency": 6
+		"frequency": 6,
+		"structure": [
+			["*kamihi", "their flesh"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "ehekenpa",
@@ -19063,6 +19185,10 @@
 		"poses": ["vi"],
 		"frequency": 6,
 		"frequencyRolled": 8,
+		"structure": [
+			["*yaynuynaka", "hide oneself"],
+			["hci", "COLL"]
+		],
 		"forms": [
 			{
 				"lemma": "yaynuynakahcihi",
@@ -19141,7 +19267,11 @@
 		"en": ["to not do", "to fail to do"],
 		"ru": ["не делать", "не совершать"],
 		"poses": ["vt", "vi"],
-		"frequency": 6
+		"frequency": 6,
+		"structure": [
+			["*hanki", "to not do"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kusoro",
@@ -19559,7 +19689,11 @@
 		"en": ["to rejoice over", "to delight in", "to be fond of"],
 		"ru": ["радоваться (чему-л.)", "умиляться"],
 		"poses": ["vt", "vi"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*eyaykonopuru", "to rejoice over"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "yohte",
@@ -19575,7 +19709,11 @@
 		"en": ["the two of them", "both of them"],
 		"ru": ["двое", "оба"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*tupena", "the two of them"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "kaype",
@@ -19897,7 +20035,11 @@
 		"en": ["to snore"],
 		"ru": ["храпеть"],
 		"poses": ["vi"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*etooro", "to snore"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "carokeene",
@@ -20022,7 +20164,7 @@
 				"poses": ["n"],
 				"frequency": 2,
 				"analysis": [
-					["turi", "belonging to tur"],
+					["turi", "its grime/dirt (uncertain)"],
 					["-hi", "POSS"]
 				],
 				"type": "possessed"
@@ -20113,7 +20255,11 @@
 		"en": ["howl (plural)", "bark", "cry out"],
 		"ru": ["выть (мн.)", "лаять", "завывать"],
 		"poses": ["vi"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*woose", "howl"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "utarihihcin",
@@ -20121,7 +20267,11 @@
 		"en": ["their kin", "companions", "relatives"],
 		"ru": ["их сородичи", "товарищи", "родня"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*utarihi", "their kin"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "uneeno",
@@ -20258,7 +20408,11 @@
 		"en": ["to be ashamed", "to be embarrassed"],
 		"ru": ["стыдиться", "смущаться"],
 		"poses": ["vi"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*eyrayki", "to be ashamed"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hay",
@@ -20307,7 +20461,11 @@
 		"en": ["their wives", "the wives"],
 		"ru": ["их жёны", "жёны"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*macihi", "their wives"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "anee",
@@ -20621,7 +20779,12 @@
 		"en": ["to chase", "to pursue (pl. subj.)"],
 		"ru": ["гнаться", "преследовать (мн.)"],
 		"poses": ["vt"],
-		"frequency": 4
+		"frequency": 4,
+		"structure": [
+			["an=", "4.A="],
+			["nospa", "to chase ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kiicin",
@@ -20645,7 +20808,11 @@
 		"en": ["to tell (tales), narrate", "to instruct, hand down (pl. subj.)"],
 		"ru": ["рассказывать (сказки)", "наставлять (мн.)"],
 		"poses": ["vt"],
-		"frequency": 4
+		"frequency": 4,
+		"structure": [
+			["*caskuma", "to tell (tales), narrate"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "oskoro",
@@ -20852,7 +21019,11 @@
 		"en": ["to pray", "to perform a shamanic ritual"],
 		"ru": ["молиться", "совершать шаманский обряд"],
 		"poses": ["vi"],
-		"frequency": 4
+		"frequency": 4,
+		"structure": [
+			["*tusu", "to pray"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "rureatu",
@@ -21409,7 +21580,11 @@
 		"en": ["their voice(s)", "the sound/voice of"],
 		"ru": ["их голос", "звук, голос"],
 		"poses": ["n"],
-		"frequency": 5
+		"frequency": 5,
+		"structure": [
+			["*hawehe", "their voice(s)"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "honkapuhu",
@@ -21906,7 +22081,7 @@
 				"poses": ["postp"],
 				"frequency": 3,
 				"analysis": [
-					["kitayke", "belonging to kitay"],
+					["kitayke", "its summit/top"],
 					["=ta", "LOC"]
 				],
 				"type": "case"
@@ -22233,7 +22408,11 @@
 		"en": ["to play (a stringed instrument)", "to strum (tonkori)"],
 		"ru": ["играть (на струнном инструменте)"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*rehte", "to play (a stringed instrument)"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hocaa",
@@ -22467,7 +22646,11 @@
 		"en": ["to lower", "to send down", "to make fall"],
 		"ru": ["опускать", "заставлять падать"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*ranke", "to lower"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "citaanii",
@@ -22519,7 +22702,12 @@
 		"en": ["to search for", "to look for"],
 		"ru": ["искать", "разыскивать"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["an=", "4.A="],
+			["hunara", "to search for ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "rankoro",
@@ -22568,7 +22756,11 @@
 		"en": ["to eat"],
 		"ru": ["есть", "съесть"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*cie", "to eat"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "unpaa",
@@ -22677,7 +22869,11 @@
 		"en": ["to get angry"],
 		"ru": ["сердиться", "гневаться"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*ruska", "to get angry"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hunkante",
@@ -22870,7 +23066,11 @@
 		"en": ["to bind", "to tie up", "to lash"],
 		"ru": ["связывать", "привязывать"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*atusi", "to bind"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "orun",
@@ -23089,7 +23289,11 @@
 		"en": ["gather together (around)", "flock to"],
 		"ru": ["собираться", "сходиться"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*koweeciwa", "gather together (around)"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "iramasinta",
@@ -23113,7 +23317,12 @@
 		"en": ["to see", "to look at"],
 		"ru": ["видеть", "смотреть"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["an=", "4.A="],
+			["nukara", "to see ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "keepuru",
@@ -23556,7 +23765,11 @@
 		"en": ["to distribute/parcel out (to grass and trees)", "to scatter as offerings"],
 		"ru": ["раздавать", "разбрасывать (как подношение)"],
 		"poses": ["vt"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["*eymehkarakara", "to distribute/parcel out (to grass and trees)"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "cihkarahci",
@@ -23712,7 +23925,11 @@
 		"en": ["flee", "run off (together)"],
 		"ru": ["убегать", "бежать (вместе)"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ekira", "flee"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "ecaroykikara",
@@ -23748,7 +23965,12 @@
 		"en": ["raise me", "bring me up"],
 		"ru": ["растить меня", "воспитывать меня"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["en=", "1SG.O="],
+			["reske", "to raise ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "enociwehci",
@@ -23756,7 +23978,12 @@
 		"en": ["throw me", "cast me (in)"],
 		"ru": ["бросить меня", "швырнуть меня"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["en=", "1SG.O="],
+			["ociwe", "to throw away ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "enhohpahci",
@@ -23764,7 +23991,12 @@
 		"en": ["leave me behind", "abandon me"],
 		"ru": ["бросить меня", "оставить меня"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["en=", "1SG.O="],
+			["hohpa", "to leave behind"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kuintaara",
@@ -24074,7 +24306,11 @@
 		"en": ["cut into pieces", "break into chunks (plural)"],
 		"ru": ["разрезать на куски", "ломать на части"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*rukunpa", "cut into pieces"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "wehwehtaa",
@@ -24323,7 +24559,11 @@
 		"en": ["go up", "go inland/up (plural)"],
 		"ru": ["подниматься", "идти вглубь (мн.)"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["makap", "to climb"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "yuhkoyki",
@@ -24359,7 +24599,11 @@
 		"en": ["to get up (pl.)", "to rise up"],
 		"ru": ["вставать (мн.)", "подниматься"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["hetesu", "to lift one's head"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "sarake",
@@ -24438,7 +24682,11 @@
 		"en": ["take a wife", "marry (plural subjects)"],
 		"ru": ["взять жену", "жениться (мн.)"],
 		"poses": ["vt", "vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*tumahkoro", "take a wife"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hokukorohci",
@@ -24458,7 +24706,11 @@
 		"en": ["all of them", "everyone"],
 		"ru": ["все они", "всё"],
 		"poses": ["adv", "pron"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*okore", "all of them"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "yane",
@@ -24609,7 +24861,12 @@
 		"en": ["to look at ~"],
 		"ru": ["смотреть на ~"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["in=", "1PL.EXCL.O="],
+			["kara", "to make"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "untapiipi",
@@ -24637,7 +24894,11 @@
 		"en": ["their garments", "their robes"],
 		"ru": ["их одежды", "их одеяния"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ekaanukanpehe", "their garments"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "toonupuruousika",
@@ -24729,7 +24990,11 @@
 		"en": ["their companions", "their kinsfolk", "their fellows"],
 		"ru": ["их товарищи", "их сородичи"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*utarikehe", "their companions"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "uhsoro",
@@ -24911,7 +25176,11 @@
 		"en": ["mother", "my mother"],
 		"ru": ["мать", "моя мать"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*kuommoho", "mother"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "canna",
@@ -25023,7 +25292,11 @@
 		"en": ["to do wicked things (pl.)", "to behave badly"],
 		"ru": ["творить зло (мн.)", "поступать дурно"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*eyrankotuye", "to do wicked things"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "nuniipe",
@@ -25039,7 +25312,11 @@
 		"en": ["to shake (awake)", "to rouse"],
 		"ru": ["трясти (будя)", "будить"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["moymoye", "to move"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kaskeike",
@@ -25207,7 +25484,11 @@
 		"en": ["to make glue/paste (pl. subj.)"],
 		"ru": ["варить клей/пасту (мн.)"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*nunpekara", "to make glue/paste (pl. subj.)"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "tuhorokewpo",
@@ -25228,7 +25509,11 @@
 		"en": ["to be, exist, live (pl. subj.)"],
 		"ru": ["быть", "жить (мн.)"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*okaya", "to be, exist, live (pl. subj.)"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "anehci",
@@ -25236,7 +25521,11 @@
 		"en": ["to eat (it) up (plural subject)", "they eat (it)"],
 		"ru": ["съедать (мн.)"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ane", "to eat (it) up "],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "sikenii",
@@ -25386,7 +25675,11 @@
 		"en": ["to talk together", "to discuss with one another"],
 		"ru": ["беседовать друг с другом", "обсуждать"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*eukoweepekere", "to talk together"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "siroesikari",
@@ -25434,7 +25727,11 @@
 		"en": ["to be ashamed (pl.)", "to feel embarrassed"],
 		"ru": ["стыдиться (мн.)", "смущаться"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*eyaykoyrayki", "to be ashamed"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "iramasno",
@@ -25506,7 +25803,11 @@
 		"en": ["hang one's head (pl.)", "bow one's head", "look down in shame"],
 		"ru": ["опускать голову", "понуриться"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*yaykoherawki", "hang one's head"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "tuuriri",
@@ -25904,7 +26205,11 @@
 		"en": ["to teach", "to hand down (a story)"],
 		"ru": ["учить", "передавать (рассказ)"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ecaakasnokara", "to teach"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kita",
@@ -25968,7 +26273,11 @@
 		"en": ["be skilled", "be good at", "be strong (at)"],
 		"ru": ["быть искусным", "хорошо уметь"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ruya", "be skilled"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "ramoekayehci",
@@ -25976,7 +26285,11 @@
 		"en": ["recover one's mood", "cheer up", "be appeased"],
 		"ru": ["успокаиваться", "приходить в хорошее настроение"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ramoekaye", "recover one's mood"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "eysikaha",
@@ -26316,7 +26629,11 @@
 		"en": ["mill about", "stir (as a crowd)"],
 		"ru": ["сновать", "толпиться"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*sikaate", "mill about"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "mahwa",
@@ -26342,7 +26659,7 @@
 		"poses": ["postp", "n"],
 		"frequency": 2,
 		"structure": [
-			["kitayke", "belonging to kitay"],
+			["kitayke", "its summit/top"],
 			["poka", "to"]
 		]
 	},
@@ -26533,7 +26850,7 @@
 		"frequency": 2,
 		"structure": [
 			["rep", "to keep rhythm"],
-			["unihi", "belonging to uni"]
+			["unihi", "one's home"]
 		]
 	},
 	{
@@ -26771,7 +27088,11 @@
 		"en": ["to steal", "to abduct, carry off"],
 		"ru": ["красть", "похищать"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*eiska", "to steal"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "niatus",
@@ -26811,7 +27132,12 @@
 		"en": ["god", "deity", "animal"],
 		"ru": ["божество", "зверь"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["kamuy", "god"],
+			["-ehe", "POSS"],
+			["=hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "tuytuye",
@@ -26827,7 +27153,11 @@
 		"en": ["their (3pl possessive suffix)"],
 		"ru": ["их (суффикс притяжательности 3 мн.)"],
 		"poses": ["ptcl"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*hi", "their (3pl possessive suffix)"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "moro",
@@ -26888,7 +27218,11 @@
 		"en": ["push through (grass/brush)", "wade through"],
 		"ru": ["продираться сквозь (траву)", "пробираться"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*maama", "push through (grass/brush)"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "sityakihi",
@@ -26920,7 +27254,11 @@
 		"en": ["their husbands"],
 		"ru": ["их мужья"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*hokuhu", "their husbands"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "mahna",
@@ -27004,7 +27342,12 @@
 		"en": ["search", "seek out", "come visiting"],
 		"ru": ["искать", "навещать"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["i=", "4.O="],
+			["hunara", "to search for ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "rohse",
@@ -27162,7 +27505,11 @@
 		"en": ["run", "rush", "dash"],
 		"ru": ["бежать", "мчаться"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*kasoraya", "run"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hahkane",
@@ -27198,7 +27545,11 @@
 		"en": ["chop up", "mince"],
 		"ru": ["рубить", "измельчать"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*tataki", "chop up"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "keepu",
@@ -27234,7 +27585,11 @@
 		"en": ["your (pl.) wives"],
 		"ru": ["ваши жёны"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ecimacihi", "your wives"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "sokonii",
@@ -27444,7 +27799,11 @@
 		"en": ["beat", "strike repeatedly (plural)", "pummel"],
 		"ru": ["бить", "колотить (мн.)"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ukota", "beat"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "yanpehe",
@@ -27532,7 +27891,11 @@
 		"en": ["chant in chorus (pl.)", "say together", "intone"],
 		"ru": ["говорить хором", "напевать вместе"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*utokana", "chant in chorus"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kohpaha",
@@ -27592,7 +27955,13 @@
 		"en": ["carry together", "hold together"],
 		"ru": ["нести вместе", "держать вместе"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["u-", "REC"],
+			["ko-", "APPL"],
+			["anpa", "to have ~"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "hunpahci",
@@ -27600,7 +27969,11 @@
 		"en": ["cut", "chop"],
 		"ru": ["резать", "рубить"],
 		"poses": ["vt"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["hunpa", "to chop"],
+			["=hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "sarakewkante",
@@ -27640,7 +28013,11 @@
 		"en": ["your (pl.) necklaces", "your beads"],
 		"ru": ["ваши ожерелья", "ваши бусы"],
 		"poses": ["n"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["*ecitokihi", "your necklaces"],
+			["hcin", "PL"]
+		]
 	},
 	{
 		"lemma": "kuekira",
@@ -27700,7 +28077,11 @@
 		"en": ["rocky shore"],
 		"ru": ["скалистый берег"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*sirara", "rocky shore"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "oya",
@@ -27716,7 +28097,11 @@
 		"en": ["bed"],
 		"ru": ["кровать"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*se", "bed"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "ekah",
@@ -27799,7 +28184,11 @@
 		"en": ["grandchild"],
 		"ru": ["внук"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*mi", "grandchild"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "anu",
@@ -27841,7 +28230,11 @@
 		"en": ["ash"],
 		"ru": ["пепел"],
 		"poses": ["n"],
-		"frequency": 1
+		"frequency": 1,
+		"structure": [
+			["*uuna", "ash"],
+			["hci", "COLL"]
+		]
 	},
 	{
 		"lemma": "kewe",
@@ -27895,8 +28288,8 @@
 		"poses": ["conj", "ptcl"],
 		"frequency": 2,
 		"structure": [
-			["wahka", "water"],
-			["yki", "do"]
+			["wah", "(meaningless song-refrain word)"],
+			["kayki", "also"]
 		]
 	},
 	{
@@ -28862,7 +29255,7 @@
 				"poses": ["n"],
 				"frequency": 3,
 				"analysis": [
-					["ruwehe", "belonging to ru"],
+					["ruwehe", "path"],
 					["=hcin", "PL"]
 				],
 				"type": "plural"
