@@ -12,6 +12,7 @@
 			<a href="/" class="g-site">Aynu Itah</a>
 			<span aria-hidden="true">·</span>
 			<a href="/grammar" class="g-book">A Grammar of Sakhalin Ainu</a>
+			<a href="/" class="g-dict">Dictionary →</a>
 		</nav>
 	</header>
 
@@ -91,6 +92,13 @@
 
 	.g-book {
 		font-style: italic;
+	}
+
+	.g-dict {
+		margin-left: auto;
+		font-weight: 600;
+		color: #1e40af;
+		white-space: nowrap;
 	}
 
 	.g-topnav a:hover {
