@@ -23,6 +23,7 @@
 	"freq_marker_qualifier": "概数：接語マーカー付きトークンに基づく",
 	"pos": "品詞順",
 	"search": "検索",
+	"word_count": "全{count}語",
 	"pos_n": "名詞",
 	"pos_v": "動詞",
 	"pos_vc": "完全動詞",

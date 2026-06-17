@@ -23,6 +23,7 @@
 	"freq_marker_qualifier": "approximate: from clitic-marked tokens",
 	"pos": "POS",
 	"search": "Search",
+	"word_count": "{count} words",
 	"pos_prep": "preposition",
 	"pos_conj": "conjunction",
 	"pos_interj": "interjection",

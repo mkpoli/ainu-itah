@@ -23,6 +23,7 @@
 	"freq_marker_qualifier": "概数：接語マーカー付きトークンに基づく",
 	"pos": "イタㇵ　イキリ",
 	"search": "フナラ",
+	"word_count": "イタㇵ {count}",
 	"pos_n": "名詞",
 	"pos_v": "動詞",
 	"pos_vc": "完全動詞",
