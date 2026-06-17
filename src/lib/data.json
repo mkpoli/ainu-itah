@@ -703,6 +703,21 @@
 		"ru": ["дверной проём"],
 		"poses": ["n"],
 		"frequency": 39,
+		"frequencyRolled": 43,
+		"forms": [
+			{
+				"lemma": "apaha",
+				"ja": ["戸口"],
+				"en": ["doorway"],
+				"ru": ["дверной проём"],
+				"frequency": 4,
+				"analysis": [
+					["apa", "doorway"],
+					["-ha", "POSS"]
+				],
+				"type": "possessed"
+			}
+		],
 		"hokkaido": [{ "lemma": "apa", "type": "identity", "curated": true }]
 	},
 	{
@@ -1514,7 +1529,7 @@
 		"ru": ["еда", "есть"],
 		"poses": ["n", "vi"],
 		"frequency": 43,
-		"frequencyRolled": 114,
+		"frequencyRolled": 124,
 		"forms": [
 			{
 				"lemma": "ipere",
@@ -1555,6 +1570,19 @@
 					["=hci", "COLL"]
 				],
 				"type": "plural"
+			},
+			{
+				"lemma": "ipehe",
+				"ja": ["食べ物", "食事する"],
+				"en": ["food", "to eat"],
+				"ru": ["еда", "есть"],
+				"poses": ["n"],
+				"frequency": 10,
+				"analysis": [
+					["ipe", "food"],
+					["-he", "POSS"]
+				],
+				"type": "possessed"
 			}
 		],
 		"hokkaido": [
@@ -4343,7 +4371,7 @@
 		"ru": ["внутри"],
 		"poses": ["nl"],
 		"frequency": 25,
-		"frequencyRolled": 58,
+		"frequencyRolled": 66,
 		"forms": [
 			{
 				"lemma": "onnayketa",
@@ -4357,6 +4385,19 @@
 					["=ta", "LOC"]
 				],
 				"type": "case"
+			},
+			{
+				"lemma": "onnaykehe",
+				"ja": ["中"],
+				"en": ["inside"],
+				"ru": ["внутри"],
+				"poses": ["n"],
+				"frequency": 8,
+				"analysis": [
+					["onnayke", "inside"],
+					["-he", "POSS"]
+				],
+				"type": "possessed"
 			}
 		],
 		"hokkaido": [{ "lemma": "onnayke(he)", "type": "identity", "conf": 0.9 }]
@@ -5404,7 +5445,23 @@
 		"en": ["blood"],
 		"ru": ["кровь"],
 		"poses": ["n"],
-		"frequency": 10
+		"frequency": 10,
+		"frequencyRolled": 15,
+		"forms": [
+			{
+				"lemma": "kemihi",
+				"ja": ["血"],
+				"en": ["blood"],
+				"ru": ["кровь"],
+				"poses": ["n"],
+				"frequency": 5,
+				"analysis": [
+					["kem", "blood"],
+					["-ihi", "POSS"]
+				],
+				"type": "possessed"
+			}
+		]
 	},
 	{
 		"lemma": "kee",
@@ -10361,6 +10418,22 @@
 		"ru": ["звук"],
 		"poses": ["n"],
 		"frequency": 34,
+		"frequencyRolled": 49,
+		"forms": [
+			{
+				"lemma": "humihi",
+				"ja": ["音"],
+				"en": ["sound"],
+				"ru": ["звук"],
+				"poses": ["n"],
+				"frequency": 15,
+				"analysis": [
+					["hum", "sound"],
+					["-ihi", "POSS"]
+				],
+				"type": "possessed"
+			}
+		],
 		"hokkaido": [{ "lemma": "hum", "type": "identity", "conf": 0.9 }]
 	},
 	{
@@ -12851,6 +12924,22 @@
 		"ru": ["мех", "кожаная одежда"],
 		"poses": ["n"],
 		"frequency": 4,
+		"frequencyRolled": 7,
+		"forms": [
+			{
+				"lemma": "rusihi",
+				"ja": ["毛皮", "皮衣"],
+				"en": ["fur", "leather garment"],
+				"ru": ["мех", "кожаная одежда"],
+				"poses": ["n"],
+				"frequency": 3,
+				"analysis": [
+					["rus", "fur"],
+					["-ihi", "POSS"]
+				],
+				"type": "possessed"
+			}
+		],
 		"hokkaido": [{ "lemma": "rus", "type": "identity", "conf": 0.9 }]
 	},
 	{
@@ -13007,6 +13096,22 @@
 		"ru": ["маленький кусочек"],
 		"poses": ["n"],
 		"frequency": 10,
+		"frequencyRolled": 25,
+		"forms": [
+			{
+				"lemma": "rukumihi",
+				"ja": ["小片"],
+				"en": ["small piece"],
+				"ru": ["маленький кусочек"],
+				"poses": ["n"],
+				"frequency": 15,
+				"analysis": [
+					["rukum", "small piece"],
+					["-ihi", "POSS"]
+				],
+				"type": "possessed"
+			}
+		],
 		"hokkaido": [{ "lemma": "rukum", "type": "identity", "curated": true }]
 	},
 	{
@@ -13800,7 +13905,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["ptcl"],
+		"poses": ["refrain"],
 		"frequency": 6
 	},
 	{
@@ -13892,7 +13997,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -13945,9 +14050,9 @@
 	},
 	{
 		"lemma": "no",
-		"ja": ["-noを参照"],
-		"en": ["see -no"],
-		"ru": ["см. -no"],
+		"ja": ["（副詞化接尾辞）"],
+		"en": ["adverbializer (-no)"],
+		"ru": ["адвербиализатор (-no)"],
 		"poses": ["sfx"],
 		"frequency": 7
 	},
@@ -14016,7 +14121,7 @@
 		"frequency": 3,
 		"hokkaido": [{ "lemma": "hetuku", "type": "identity", "conf": 0.9 }]
 	},
-	{ "lemma": "spa", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
+	{ "lemma": "spa", "ja": ["（はやし詞）"], "poses": ["refrain"], "frequency": 3 },
 	{
 		"lemma": "tokyo",
 		"ja": ["東京"],
@@ -14067,7 +14172,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["ptcl"],
+		"poses": ["refrain"],
 		"frequency": 6
 	},
 	{
@@ -14741,7 +14846,6 @@
 		],
 		"hokkaido": [{ "lemma": "orowano", "type": "identity", "conf": 0.9 }]
 	},
-	{ "lemma": "h", "frequency": 12 },
 	{
 		"lemma": "kawarini",
 		"ja": ["代わりに", "代わり"],
@@ -14767,7 +14871,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -14980,9 +15084,9 @@
 		"forms": [
 			{
 				"lemma": "katuhu",
-				"ja": ["katの所属形"],
-				"en": ["belonging to kat"],
-				"ru": ["принадлежащий кат"],
+				"ja": ["訳", "仕方", "様子", "katの所属形"],
+				"en": ["method", "manner", "way"],
+				"ru": ["способ", "манера", "путь"],
 				"poses": ["n"],
 				"frequency": 6,
 				"analysis": [
@@ -15253,7 +15357,7 @@
 		"ja": ["（擬音）"],
 		"en": ["(onomatopoeia)"],
 		"ru": ["(наговор)"],
-		"poses": ["interj"],
+		"poses": ["refrain"],
 		"frequency": 43
 	},
 	{
@@ -15423,7 +15527,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 34,
 		"structure": [
 			["kii", "to do ~"],
@@ -15444,7 +15548,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 32,
 		"structure": [
 			["tuu", "two"],
@@ -15545,7 +15649,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 28
 	},
 	{
@@ -15594,7 +15698,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 25,
 		"structure": [
 			["pee", "thing; one (nominalizer)"],
@@ -15670,7 +15774,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 24
 	},
 	{
@@ -15738,7 +15842,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 23
 	},
 	{
@@ -15816,15 +15920,6 @@
 		"frequency": 33
 	},
 	{
-		"lemma": "ruwehe",
-		"ja": ["ruの所属形"],
-		"en": ["belonging to ru"],
-		"ru": ["принадлежащий ru"],
-		"poses": ["n"],
-		"frequency": 22,
-		"hokkaido": [{ "lemma": "ruwe(he)", "type": "identity", "conf": 0.8 }]
-	},
-	{
 		"lemma": "etuaane",
 		"ja": ["ハシボソガラス"],
 		"en": ["carrion crow"],
@@ -15857,7 +15952,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 21
 	},
 	{
@@ -16099,7 +16194,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 18
 	},
 	{
@@ -16107,7 +16202,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 18
 	},
 	{ "lemma": "moni", "ja": ["～の手"], "en": ["~'s hand"], "ru": ["рука ~"], "frequency": 18 },
@@ -16205,7 +16300,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 16
 	},
 	{
@@ -16334,7 +16429,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 16
 	},
 	{
@@ -16357,27 +16452,6 @@
 		"poses": ["n"],
 		"frequency": 17,
 		"hokkaido": [{ "lemma": "mun", "type": "identity", "conf": 0.9 }]
-	},
-	{
-		"lemma": "humihi",
-		"ja": ["humの所属形"],
-		"en": ["belonging to hum"],
-		"ru": ["принадлежащий хуму"],
-		"poses": ["n"],
-		"frequency": 15,
-		"hokkaido": [
-			{ "lemma": "humi(hi)", "type": "identity", "conf": 0.8 },
-			{ "lemma": "hum/humi(hi)", "type": "identity", "conf": 0.75 }
-		]
-	},
-	{
-		"lemma": "rukumihi",
-		"ja": ["rukumの所属形"],
-		"en": ["belonging to rukum"],
-		"ru": ["принадлежащий рукуму"],
-		"poses": ["n"],
-		"frequency": 15,
-		"hokkaido": [{ "lemma": "rukumi(hi)", "type": "identity", "conf": 0.8 }]
 	},
 	{
 		"lemma": "niinaha",
@@ -16532,7 +16606,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14
 	},
 	{
@@ -16548,7 +16622,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14,
 		"structure": [
 			["mah", "wife"],
@@ -16568,7 +16642,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14
 	},
 	{
@@ -16576,7 +16650,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14
 	},
 	{
@@ -16592,7 +16666,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14
 	},
 	{
@@ -16600,7 +16674,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14
 	},
 	{
@@ -16624,7 +16698,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14,
 		"hokkaido": [{ "lemma": "tom", "type": "irregular-correspondence", "curated": true }],
 		"cognates": ["tom"]
@@ -16643,7 +16717,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 14
 	},
 	{
@@ -16827,7 +16901,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 12
 	},
 	{
@@ -16884,7 +16958,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 12
 	},
 	{
@@ -17005,7 +17079,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 12
 	},
 	{
@@ -17153,7 +17227,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 11
 	},
 	{
@@ -17238,7 +17312,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 11
 	},
 	{
@@ -17246,7 +17320,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 10
 	},
 	{
@@ -17347,7 +17421,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 10
 	},
 	{
@@ -17355,7 +17429,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 10
 	},
 	{
@@ -17371,7 +17445,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 10,
 		"hokkaido": [
 			{
@@ -17417,15 +17491,6 @@
 		"frequency": 10
 	},
 	{
-		"lemma": "ipehe",
-		"ja": ["ipeの所属形"],
-		"en": ["belonging to ipe"],
-		"ru": ["принадлежащий ипэ"],
-		"poses": ["n"],
-		"frequency": 10,
-		"hokkaido": [{ "lemma": "ipehe", "type": "identity", "conf": 0.8 }]
-	},
-	{
 		"lemma": "naske",
 		"ja": ["裂ける", "破れる"],
 		"en": ["to burst", "to split open", "to tear"],
@@ -17438,7 +17503,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 10
 	},
 	{
@@ -17470,7 +17535,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 12
 	},
 	{
@@ -17478,7 +17543,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 10
 	},
 	{
@@ -17486,7 +17551,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 10
 	},
 	{
@@ -17522,7 +17587,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 9
 	},
 	{
@@ -17562,7 +17627,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 9
 	},
 	{
@@ -17578,7 +17643,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 9,
 		"structure": [
 			["koo", "whenever, and then (iterative)"],
@@ -17655,7 +17720,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 9
 	},
 	{
@@ -17679,7 +17744,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 9
 	},
 	{
@@ -17687,7 +17752,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 9
 	},
 	{
@@ -17695,7 +17760,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 9
 	},
 	{
@@ -17874,7 +17939,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 8
 	},
 	{
@@ -17935,7 +18000,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 8,
 		"structure": [
 			["niosuh", "(meaningless song-refrain word)"],
@@ -17947,7 +18012,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 8
 	},
 	{
@@ -18027,15 +18092,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
-		"frequency": 8
-	},
-	{
-		"lemma": "onnaykehe",
-		"ja": ["onnayの所属形"],
-		"en": ["belonging to onnay"],
-		"ru": ["принадлежность оннай"],
-		"poses": ["n"],
+		"poses": ["refrain"],
 		"frequency": 8
 	},
 	{
@@ -18109,7 +18166,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 8
 	},
 	{
@@ -18188,7 +18245,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 8
 	},
 	{
@@ -18204,7 +18261,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 8,
 		"structure": [
 			["hoo", "(meaningless song-refrain word)"],
@@ -18275,7 +18332,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18299,7 +18356,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18335,7 +18392,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18371,7 +18428,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18379,7 +18436,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7,
 		"structure": [
 			["too", "milk"],
@@ -18403,7 +18460,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18419,7 +18476,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18464,7 +18521,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18488,7 +18545,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18520,7 +18577,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18663,7 +18720,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18671,7 +18728,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7
 	},
 	{
@@ -18679,7 +18736,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 7,
 		"structure": [
 			["etu", "nose"],
@@ -18794,7 +18851,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6
 	},
 	{
@@ -19040,7 +19097,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6
 	},
 	{
@@ -19060,7 +19117,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6,
 		"structure": [
 			["nah", "(quotative) that, …"],
@@ -19088,7 +19145,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6,
 		"structure": [
 			["kus", "to pass through"],
@@ -19100,7 +19157,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6
 	},
 	{
@@ -19124,7 +19181,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6
 	},
 	{
@@ -19164,7 +19221,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6,
 		"structure": [
 			["kon", "have"],
@@ -19176,7 +19233,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6,
 		"structure": [
 			["pon", "small"],
@@ -19260,7 +19317,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6
 	},
 	{
@@ -19333,7 +19390,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 6,
 		"structure": [
 			["tee", "here"],
@@ -19551,7 +19608,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5,
 		"structure": [
 			["riih", "(meaningless song-refrain word)"],
@@ -19605,7 +19662,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5
 	},
 	{
@@ -19816,7 +19873,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5
 	},
 	{
@@ -19824,7 +19881,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5
 	},
 	{
@@ -19971,7 +20028,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5,
 		"hokkaido": [
 			{
@@ -20060,7 +20117,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5,
 		"structure": [
 			["toh", "bamboo"],
@@ -20238,7 +20295,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5,
 		"structure": [
 			["ruy", "whetstone"],
@@ -20384,14 +20441,14 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5
 	},
 	{
 		"lemma": "kapuhu",
-		"ja": ["kapの所属形"],
-		"en": ["belonging to kap"],
-		"ru": ["принадлежность капу"],
+		"ja": ["様子"],
+		"en": ["appearance", "condition"],
+		"ru": ["внешний вид", "состояние"],
 		"poses": ["n"],
 		"frequency": 5,
 		"hokkaido": [
@@ -20544,7 +20601,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20584,7 +20641,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20608,7 +20665,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20616,7 +20673,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20759,7 +20816,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20775,7 +20832,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20811,7 +20868,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4,
 		"structure": [
 			["cii", "(meaningless song-refrain word)"],
@@ -20864,7 +20921,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20920,7 +20977,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20928,7 +20985,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -20936,7 +20993,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21048,7 +21105,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21056,7 +21113,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21107,7 +21164,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4,
 		"structure": [
 			["ruru", "tide"],
@@ -21139,7 +21196,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4,
 		"structure": [
 			["han", "not (negative)"],
@@ -21219,7 +21276,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21244,7 +21301,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21280,7 +21337,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 5
 	},
 	{
@@ -21304,7 +21361,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4,
 		"structure": [
 			["kee", "oil"],
@@ -21316,7 +21373,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21408,7 +21465,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21458,7 +21515,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21466,7 +21523,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21550,7 +21607,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -21773,7 +21830,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -21790,7 +21847,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -21874,7 +21931,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -22001,7 +22058,7 @@
 			["pis", "(number suffix)"]
 		]
 	},
-	{ "lemma": "wehta", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
+	{ "lemma": "wehta", "ja": ["（はやし詞）"], "poses": ["refrain"], "frequency": 3 },
 	{
 		"lemma": "notankamuhu",
 		"ja": ["頬", "ほお"],
@@ -22015,7 +22072,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -22090,7 +22147,7 @@
 			["nuu", "to listen to ~"]
 		]
 	},
-	{ "lemma": "taaa", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
+	{ "lemma": "taaa", "ja": ["（はやし詞）"], "poses": ["refrain"], "frequency": 3 },
 	{
 		"lemma": "inkarah",
 		"ja": ["見る", "見渡す"],
@@ -22152,7 +22209,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -22176,7 +22233,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -22255,8 +22312,8 @@
 		"poses": ["vt"],
 		"frequency": 3
 	},
-	{ "lemma": "unhororoo", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
-	{ "lemma": "saraku", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
+	{ "lemma": "unhororoo", "ja": ["（はやし詞）"], "poses": ["refrain"], "frequency": 3 },
+	{ "lemma": "saraku", "ja": ["（はやし詞）"], "poses": ["refrain"], "frequency": 3 },
 	{
 		"lemma": "rankaha",
 		"ja": ["背中", "背骨"],
@@ -22382,7 +22439,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3,
 		"structure": [
 			["kah", "appearance"],
@@ -22463,30 +22520,6 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "rusihi",
-		"ja": ["rusの所属形"],
-		"en": ["belonging to rus"],
-		"ru": ["принадлежность рус"],
-		"poses": ["n"],
-		"frequency": 3,
-		"hokkaido": [
-			{ "lemma": "rusi(hi)", "type": "identity", "conf": 0.8 },
-			{ "lemma": "rus/rusi(hi)", "type": "identity", "conf": 0.75 }
-		]
-	},
-	{
-		"lemma": "kemihi",
-		"ja": ["kemの所属形"],
-		"en": ["belonging to kem"],
-		"ru": ["принадлежащий кем"],
-		"poses": ["n"],
-		"frequency": 5,
-		"hokkaido": [
-			{ "lemma": "kemi(hi)", "type": "identity", "conf": 0.8 },
-			{ "lemma": "kem/kemi(hi)", "type": "identity", "conf": 0.75 }
-		]
-	},
-	{
 		"lemma": "unpaa",
 		"ja": ["たたく", "打つ", "殴る"],
 		"en": ["to beat", "to strike, hit"],
@@ -22533,13 +22566,6 @@
 		"ru": ["тем временем", "спустя некоторое время"],
 		"poses": ["conj"],
 		"frequency": 3
-	},
-	{
-		"lemma": "apaha",
-		"ja": ["が多く使われる"],
-		"en": ["used frequently", "often used"],
-		"ru": ["часто используется"],
-		"frequency": 4
 	},
 	{
 		"lemma": "eee",
@@ -22615,7 +22641,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -22651,7 +22677,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3,
 		"hokkaido": [
 			{
@@ -23051,7 +23077,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -23115,7 +23141,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -23155,7 +23181,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -23203,7 +23229,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3,
 		"structure": [
 			["kee", "oil"],
@@ -23226,7 +23252,7 @@
 		"poses": ["vi"],
 		"frequency": 3
 	},
-	{ "lemma": "suucika", "ja": ["（はやし詞）"], "poses": ["intj"], "frequency": 3 },
+	{ "lemma": "suucika", "ja": ["（はやし詞）"], "poses": ["refrain"], "frequency": 3 },
 	{
 		"lemma": "ehokuhu",
 		"ja": ["（彼女の）夫"],
@@ -23348,7 +23374,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 3
 	},
 	{
@@ -23418,14 +23444,6 @@
 		"en": ["to not know", "to be unaware of"],
 		"ru": ["не знать", "не понимать"],
 		"poses": ["vt"],
-		"frequency": 3
-	},
-	{
-		"lemma": "ruwehehcin",
-		"ja": ["跡", "痕跡", "様子"],
-		"en": ["trace", "track", "evidence"],
-		"ru": ["след", "признак"],
-		"poses": ["n"],
 		"frequency": 3
 	},
 	{ "lemma": "opokay", "ja": ["麝香鹿"], "en": ["musk deer"], "ru": ["кабарга"], "frequency": 3 },
@@ -23710,7 +23728,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -23726,7 +23744,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 4
 	},
 	{
@@ -23902,7 +23920,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["ciri", "bird"],
@@ -24020,7 +24038,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24028,7 +24046,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["kan", "to be on top"],
@@ -24065,7 +24083,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24089,7 +24107,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24097,7 +24115,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24185,7 +24203,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["han", "not (negative)"],
@@ -24229,7 +24247,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24253,7 +24271,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24336,7 +24354,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24460,7 +24478,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24555,7 +24573,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["unta", "to go to fetch"],
@@ -24567,7 +24585,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24615,7 +24633,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24801,7 +24819,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24857,7 +24875,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24873,7 +24891,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24889,7 +24907,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["nis", "sky"],
@@ -24901,7 +24919,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["ptcl"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -24917,7 +24935,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25222,7 +25240,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25246,7 +25264,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25291,7 +25309,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25299,7 +25317,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25340,7 +25358,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25348,7 +25366,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25412,7 +25430,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25566,7 +25584,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["n"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25574,7 +25592,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["postp"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25726,7 +25744,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25890,7 +25908,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -25983,7 +26001,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["koo", "whenever, and then (iterative)"],
@@ -26012,7 +26030,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26190,7 +26208,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["rih", "high place"],
@@ -26230,7 +26248,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26290,7 +26308,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["taskoro", "(meaningless song-refrain word)"],
@@ -26356,7 +26374,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26376,7 +26394,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["n"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["peoci", "(meaningless song-refrain word)"],
@@ -26428,7 +26446,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26444,7 +26462,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26480,7 +26498,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["ptcl"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["emus", "ceremonial sword"],
@@ -26500,7 +26518,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26516,7 +26534,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2,
 		"structure": [
 			["nii", "tree"],
@@ -26669,7 +26687,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26709,7 +26727,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26790,7 +26808,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26858,7 +26876,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26966,7 +26984,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -26974,7 +26992,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -27002,7 +27020,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -27010,7 +27028,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -27112,7 +27130,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -27120,7 +27138,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -27398,7 +27416,7 @@
 		"ja": ["（はやし詞）"],
 		"en": ["(meaningless song-refrain word)"],
 		"ru": ["(песенный припев)"],
-		"poses": ["intj"],
+		"poses": ["refrain"],
 		"frequency": 2
 	},
 	{
@@ -28762,6 +28780,35 @@
 		"ru": ["путь", "след", "немного"],
 		"poses": ["n"],
 		"frequency": 11,
+		"frequencyRolled": 36,
+		"forms": [
+			{
+				"lemma": "ruwehe",
+				"ja": ["跡？髪？", "道", "少し"],
+				"en": ["path", "trace", "a little"],
+				"ru": ["путь", "след", "немного"],
+				"poses": ["n"],
+				"frequency": 22,
+				"analysis": [
+					["ru", "path"],
+					["-wehe", "POSS"]
+				],
+				"type": "possessed"
+			},
+			{
+				"lemma": "ruwehehcin",
+				"frequency": 3,
+				"ja": ["跡", "痕跡", "様子"],
+				"en": ["trace", "track", "evidence"],
+				"ru": ["след", "признак"],
+				"poses": ["n"],
+				"analysis": [
+					["ruwehe", "belonging to ru"],
+					["=hcin", "PL"]
+				],
+				"type": "plural"
+			}
+		],
 		"hokkaido": [
 			{ "lemma": "ru", "type": "identity", "conf": 0.9 },
 			{ "lemma": "ru'", "type": "identity", "conf": 0.9 }
@@ -28948,7 +28995,7 @@
 		"ja": ["（擬音）"],
 		"en": ["(onomatopoeia)"],
 		"ru": ["(наговор)"],
-		"poses": ["interj"],
+		"poses": ["refrain"],
 		"frequency": 42
 	},
 	{
