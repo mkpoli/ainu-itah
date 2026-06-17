@@ -14688,11 +14688,15 @@
 	},
 	{
 		"lemma": "utari",
-		"ja": ["utarの所属形"],
-		"en": ["belonging to utar (people)"],
-		"ru": ["принадлежность утару (люди)"],
+		"ja": ["（その）一族", "人々"],
+		"en": ["one's people, kin"],
+		"ru": ["его люди, родня"],
 		"poses": ["n"],
 		"frequency": 4,
+		"structure": [
+			["utar", "people"],
+			["i", "POSS"]
+		],
 		"hokkaido": [{ "lemma": "utari(hi)", "type": "identity", "conf": 0.8 }]
 	},
 	{
@@ -18141,10 +18145,10 @@
 	},
 	{
 		"lemma": "tuye",
-		"ja": ["tuyの所属形"],
-		"en": ["belonging to tuy"],
-		"ru": ["принадлежность туй"],
-		"poses": ["n"],
+		"ja": ["（～を）切る"],
+		"en": ["to cut ~", "to sever ~"],
+		"ru": ["резать ~", "отрезать ~"],
+		"poses": ["vt"],
 		"frequency": 8,
 		"hokkaido": [
 			{ "lemma": "tuye(he)", "type": "identity", "conf": 0.8 },
@@ -18171,11 +18175,15 @@
 	},
 	{
 		"lemma": "uturu",
-		"ja": ["uturの所属形"],
-		"en": ["belonging to utur"],
-		"ru": ["принадлежность утур"],
+		"ja": ["（その）間", "間"],
+		"en": ["the space between", "interval"],
+		"ru": ["промежуток"],
 		"poses": ["n"],
 		"frequency": 8,
+		"structure": [
+			["*utur", "space between"],
+			["u", "POSS"]
+		],
 		"hokkaido": [
 			{ "lemma": "uturu", "type": "identity", "conf": 0.8 },
 			{
@@ -19683,11 +19691,15 @@
 	},
 	{
 		"lemma": "ricihi",
-		"ja": ["ritの所属形"],
-		"en": ["belonging to rit"],
-		"ru": ["принадлежащий rit"],
+		"ja": ["（その）筋", "腱"],
+		"en": ["its sinew/tendon"],
+		"ru": ["его сухожилие"],
 		"poses": ["n"],
 		"frequency": 5,
+		"structure": [
+			["*rit", "sinew"],
+			["ihi", "POSS"]
+		],
 		"hokkaido": [
 			{ "lemma": "rici(hi)", "type": "identity", "conf": 0.8 },
 			{ "lemma": "rit/rici(hi)", "type": "identity", "conf": 0.75 }
@@ -21860,11 +21872,31 @@
 	},
 	{
 		"lemma": "kitayke",
-		"ja": ["kitayの所属形"],
-		"en": ["belonging to kitay"],
-		"ru": ["принадлежащий китай"],
+		"ja": ["（その）頂上", "てっぺん"],
+		"en": ["its summit/top"],
+		"ru": ["его вершина"],
 		"poses": ["n"],
 		"frequency": 3,
+		"frequencyRolled": 6,
+		"structure": [
+			["kitay", "summit"],
+			["ke", "POSS"]
+		],
+		"forms": [
+			{
+				"lemma": "kitayketa",
+				"frequency": 3,
+				"ja": ["頂上に", "上に", "てっぺんに"],
+				"en": ["on top of", "at the top of"],
+				"ru": ["на вершине", "наверху"],
+				"poses": ["postp"],
+				"analysis": [
+					["kitayke", "belonging to kitay"],
+					["=ta", "LOC"]
+				],
+				"type": "case"
+			}
+		],
 		"hokkaido": [
 			{ "lemma": "kitayke(he)", "type": "identity", "conf": 0.8 },
 			{ "lemma": "kitay/kitayke(he)", "type": "identity", "conf": 0.75 }
@@ -22356,11 +22388,15 @@
 	},
 	{
 		"lemma": "putaha",
-		"ja": ["putaの所属形"],
-		"en": ["belonging to puta"],
-		"ru": ["принадлежность пута"],
+		"ja": ["（その）蓋"],
+		"en": ["its lid"],
+		"ru": ["его крышка"],
 		"poses": ["n"],
 		"frequency": 3,
+		"structure": [
+			["*puta", "lid"],
+			["ha", "POSS"]
+		],
 		"hokkaido": [
 			{ "lemma": "putaha", "type": "identity", "conf": 0.8 },
 			{ "lemma": "puta/puta(ha)", "type": "identity", "conf": 0.75 }
@@ -22573,14 +22609,6 @@
 		"en": ["to eat"],
 		"ru": ["есть", "кушать"],
 		"poses": ["vt"],
-		"frequency": 3
-	},
-	{
-		"lemma": "kitayketa",
-		"ja": ["頂上に", "上に", "てっぺんに"],
-		"en": ["on top of", "at the top of"],
-		"ru": ["на вершине", "наверху"],
-		"poses": ["postp"],
 		"frequency": 3
 	},
 	{
@@ -26233,11 +26261,15 @@
 	},
 	{
 		"lemma": "sumihi",
-		"ja": ["sumの所属形"],
-		"en": ["belonging to sum"],
-		"ru": ["принадлежащий сум"],
+		"ja": ["（その）脂", "油"],
+		"en": ["its fat/oil"],
+		"ru": ["его жир, масло"],
 		"poses": ["n"],
 		"frequency": 2,
+		"structure": [
+			["*sum", "fat/oil"],
+			["ihi", "POSS"]
+		],
 		"hokkaido": [
 			{ "lemma": "sumi(hi)", "type": "identity", "conf": 0.8 },
 			{ "lemma": "sum/sumi(hi)", "type": "identity", "conf": 0.75 }
@@ -28343,11 +28375,15 @@
 	},
 	{
 		"lemma": "rapoki",
-		"ja": ["rapokの所属形"],
-		"en": ["belonging to rapok"],
-		"ru": ["принадлежащий рапок"],
+		"ja": ["（その）間", "最中"],
+		"en": ["the interval", "the while"],
+		"ru": ["промежуток времени"],
 		"poses": ["n"],
 		"frequency": 3,
+		"structure": [
+			["*rapok", "interval"],
+			["i", "POSS"]
+		],
 		"hokkaido": [{ "lemma": "rápoki", "type": "identity", "conf": 0.8 }]
 	},
 	{
@@ -28639,11 +28675,15 @@
 	},
 	{
 		"lemma": "unihi",
-		"ja": ["uniの所属形"],
-		"en": ["belonging to uni"],
-		"ru": ["принадлежащий uni"],
+		"ja": ["（その）家", "住まい"],
+		"en": ["one's home"],
+		"ru": ["его дом"],
 		"poses": ["n"],
 		"frequency": 2,
+		"structure": [
+			["*uni", "home"],
+			["hi", "POSS"]
+		],
 		"hokkaido": [
 			{ "lemma": "uni(hi)", "type": "identity", "conf": 0.8 },
 			{ "lemma": "uni/uni(hi)", "type": "identity", "conf": 0.75 }
@@ -28797,11 +28837,11 @@
 			},
 			{
 				"lemma": "ruwehehcin",
-				"frequency": 3,
 				"ja": ["跡", "痕跡", "様子"],
 				"en": ["trace", "track", "evidence"],
 				"ru": ["след", "признак"],
 				"poses": ["n"],
+				"frequency": 3,
 				"analysis": [
 					["ruwehe", "belonging to ru"],
 					["=hcin", "PL"]
