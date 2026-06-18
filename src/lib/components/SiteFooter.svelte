@@ -16,6 +16,10 @@
 				>{m.reference_grammar()}</a
 			>
 			<span aria-hidden="true">·</span>
+			<a href="/resources" class="hover:text-blue-800 hover:underline dark:hover:text-blue-300"
+				>Resources</a
+			>
+			<span aria-hidden="true">·</span>
 			<a href="/about" class="hover:text-blue-800 hover:underline dark:hover:text-blue-300">About</a
 			>
 		</nav>
