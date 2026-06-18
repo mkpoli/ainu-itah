@@ -49,6 +49,9 @@
 			— with interlinear examples drawn from attested texts and linked to the
 			<a href="/">dictionary</a> on this site.
 		</p>
+		<p class="cover-actions">
+			<a href="/grammar.pdf" download>↓ Download as PDF</a>
+		</p>
 	</header>
 
 	<section class="preface">
@@ -140,6 +143,24 @@
 		color: #374151;
 	}
 
+	.cover-actions {
+		margin: 1em 0 0;
+	}
+
+	.cover-actions a {
+		display: inline-block;
+		padding: 0.4em 0.9em;
+		border: 1px solid #1e40af;
+		border-radius: 0.4rem;
+		color: #1e40af;
+		font-size: 0.95rem;
+	}
+
+	.cover-actions a:hover {
+		background: #1e40af;
+		color: #fff;
+	}
+
 	.toc-part {
 		margin: 1.4em 0 0.4em;
 		font-variant-caps: all-small-caps;
@@ -176,5 +197,32 @@
 		margin: 0.05em 0 0;
 		font-size: 0.9rem;
 		color: #6b7280;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.cover-kicker,
+		.cover-actions a,
+		.toc-list a:hover {
+			color: #93c5fd;
+		}
+		.cover-actions a {
+			border-color: #93c5fd;
+		}
+		.cover-actions a:hover {
+			background: #93c5fd;
+			color: #0b0f17;
+		}
+		.cover-sub {
+			color: #cbd5e1;
+		}
+		.toc-part {
+			color: #9ca3af;
+		}
+		.toc-list a {
+			color: #e5e7eb;
+		}
+		.toc-summary {
+			color: #9ca3af;
+		}
 	}
 </style>
