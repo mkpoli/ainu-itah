@@ -96,7 +96,7 @@
 <svelte:head>
 	<title>{metaTitle}</title>
 	<meta name="description" content={metaDescription} />
-	<link rel="canonical" href={canonicalUrl} />
+	<!-- canonical + hreflang are emitted for every route by the root layout -->
 	{#if entry}
 		<meta property="og:title" content={metaTitle} />
 		<meta property="og:description" content={metaDescription} />

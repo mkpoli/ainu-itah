@@ -2,7 +2,7 @@
 	import { i18n } from '$lib/i18n';
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import { page } from '$app/stores';
-	import { availableLanguageTags, sourceLanguageTag } from '$lib/paraglide/runtime';
+	import { availableLanguageTags } from '$lib/paraglide/runtime';
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
 	import SiteHeader from '$lib/components/SiteHeader.svelte';
 	import SiteFooter from '$lib/components/SiteFooter.svelte';
@@ -20,8 +20,10 @@
 			href: new URL(i18n.resolveRoute(canonicalPath, tag), CANONICAL_HOSTNAME).toString()
 		}))
 	);
+	// x-default points at English — the universal fallback for users whose language
+	// we can't match — rather than the ain-Cyrl source locale.
 	const xDefaultUrl = $derived(
-		new URL(i18n.resolveRoute(canonicalPath, sourceLanguageTag), CANONICAL_HOSTNAME).toString()
+		new URL(i18n.resolveRoute(canonicalPath, 'en'), CANONICAL_HOSTNAME).toString()
 	);
 
 	const websiteJsonLd = {
