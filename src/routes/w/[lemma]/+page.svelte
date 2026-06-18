@@ -152,6 +152,28 @@
 			{/each}
 		</dl>
 
+		{#if data.examples?.length}
+			<section class="mt-6">
+				<h2 class="mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Examples</h2>
+				<ul class="space-y-3">
+					{#each data.examples as ex}
+						<li>
+							<p lang="ain-Latn">{ex.text}</p>
+							<p class="text-sm text-gray-600 dark:text-gray-300" lang="ja">{ex.translation}</p>
+							<p class="mt-0.5 text-xs text-gray-500 dark:text-gray-400">
+								{ex.dialect} ·
+								{#if ex.uri.startsWith('http')}
+									<a href={ex.uri} target="_blank" rel="noopener" class="hover:underline"
+										>{ex.source}</a
+									>
+								{:else}{ex.source}{/if}
+							</p>
+						</li>
+					{/each}
+				</ul>
+			</section>
+		{/if}
+
 		{#if entry.structure}
 			<section class="mt-6">
 				<h2 class="text-sm font-semibold text-gray-500 dark:text-gray-400">{m.ikiri()}</h2>

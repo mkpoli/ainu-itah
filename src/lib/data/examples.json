@@ -1,0 +1,92 @@
+{
+	"cise": [
+		{
+			"text": "cise ohta makapan.",
+			"translation": "（カカンの）家に私は入った。",
+			"dialect": "樺太（東海岸）",
+			"source": "クスリコヤ／ピウスツキ採集テキスト（千葉大学）",
+			"uri": "https://opac.ll.chiba-u.jp/da/curator/107765/354-P043.pdf"
+		}
+	],
+	"san": [
+		{
+			"text": "neya iso hurekikoro. cise ohta san.",
+			"translation": "そのクマは死んでしまった。（カレイ男は山から）家に下りて行った。",
+			"dialect": "樺太（東海岸）",
+			"source": "クスリコヤ／ピウスツキ採集テキスト（千葉大学）",
+			"uri": "https://opac.ll.chiba-u.jp/da/curator/107765/354-P043.pdf"
+		}
+	],
+	"oman": [
+		{
+			"text": "tani okacoki omanihi?",
+			"translation": "もう汽車は行った？",
+			"dialect": "樺太",
+			"source": "北原モコットゥナㇱ／ニューエクスプレス・スペシャル",
+			"uri": "urn:isbn:9784560089231"
+		}
+	],
+	"tani": [
+		{
+			"text": "tani okacoki omanihi?",
+			"translation": "もう汽車は行った？",
+			"dialect": "樺太",
+			"source": "北原モコットゥナㇱ／ニューエクスプレス・スペシャル",
+			"uri": "urn:isbn:9784560089231"
+		}
+	],
+	"sine": [
+		{
+			"text": "sine iso nukarahci. caraha onne",
+			"translation": "一頭のクマを（二人は）見た。その口に、",
+			"dialect": "樺太（東海岸）",
+			"source": "クスリコヤ／ピウスツキ採集テキスト（千葉大学）",
+			"uri": "https://opac.ll.chiba-u.jp/da/curator/107765/354-P043.pdf"
+		}
+	],
+	"nukar": [
+		{
+			"text": "sine iso nukarahci. caraha onne",
+			"translation": "一頭のクマを（二人は）見た。その口に、",
+			"dialect": "樺太（東海岸）",
+			"source": "クスリコヤ／ピウスツキ採集テキスト（千葉大学）",
+			"uri": "https://opac.ll.chiba-u.jp/da/curator/107765/354-P043.pdf"
+		}
+	],
+	"yee": [
+		{
+			"text": "Pon kapariw ohkayo “Repun mosiri onne mahnuu kusu.” nah yee.",
+			"translation": "小カレイ男は「沖の国へ妻を探しに行く」と言った。",
+			"dialect": "樺太（東海岸）",
+			"source": "クスリコヤ／ピウスツキ採集テキスト（千葉大学）",
+			"uri": "https://opac.ll.chiba-u.jp/da/curator/107765/354-P043.pdf"
+		}
+	],
+	"kusu": [
+		{
+			"text": "Nuca 'utah ka siisam 'itah 'eramesikari=hci kusu karahuto 'aynu 'itah 'ani 'ukoytah manuu.",
+			"translation": "ロシア人も日本語を知らないので樺太アイヌ語で話し合っていたそうです。",
+			"dialect": "樺太",
+			"source": "相原典明／アイヌタイムズ",
+			"uri": "https://otarunay.at-ninja.jp/taimuzu.html"
+		}
+	],
+	"okay": [
+		{
+			"text": "Hoski MEIJI-JIDAI 'ohta 'enciw 'utah naa siisam 'utah naa nuca 'utah naa 'uturano karahuto 'ohta 'okay=ahcihi neewa kayki siisam 'utah neyke nuca 'itah 'erameskari=hci hii.",
+			"translation": "明治時代の初めエンチュウ達も日本人もロシア人も一緒に樺太に住んでいたけれども、日本人はロシア語を知りませんでした。",
+			"dialect": "樺太",
+			"source": "相原典明／アイヌタイムズ",
+			"uri": "https://otarunay.at-ninja.jp/taimuzu.html"
+		}
+	],
+	"horokewpo": [
+		{
+			"text": "tay sineantoo ta soy peeka horokewpo itah haw an.",
+			"translation": "ある時、（家の）外で男が話す声がした。",
+			"dialect": "樺太（東海岸）",
+			"source": "クスリコヤ／ピウスツキ採集テキスト（千葉大学）",
+			"uri": "https://opac.ll.chiba-u.jp/da/curator/107765/354-P043.pdf"
+		}
+	]
+}
