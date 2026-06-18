@@ -12,7 +12,7 @@
 	<meta property="og:type" content="website" />
 </svelte:head>
 
-<article class="prose prose-stone mx-auto max-w-screen-md px-4 py-8">
+<article class="prose prose-stone mx-auto max-w-screen-md px-4 py-8 dark:prose-invert">
 	<h1>About Aynu Itah</h1>
 
 	<p>

@@ -391,4 +391,65 @@
 	.g-main :global(.ch-nav a:hover) {
 		text-decoration: underline;
 	}
+
+	/* Dark mode (follows the OS preference) — flip the book's hardcoded colors. */
+	@media (prefers-color-scheme: dark) {
+		.grammar-root {
+			background: #0b0f17;
+			color: #d1d5db;
+		}
+		.g-part,
+		.g-chnum {
+			color: #9ca3af;
+		}
+		.g-toc li.current {
+			border-left-color: #93c5fd;
+		}
+		.g-toc li.current > a,
+		.g-main :global(h1 .ch-num),
+		.g-main :global(.sec-num),
+		.g-main :global(p a),
+		.g-main :global(li a),
+		.g-main :global(td a),
+		.g-main :global(a.ref),
+		.g-main :global(a.xr),
+		.g-main :global(.ch-nav a) {
+			color: #93c5fd;
+		}
+		.g-main :global(h1),
+		.g-main :global(h2),
+		.g-main :global(h3),
+		.g-main :global(h4) {
+			color: #f3f4f6;
+		}
+		.g-main :global(blockquote) {
+			border-left-color: #374151;
+			color: #cbd5e1;
+		}
+		.g-main :global(caption),
+		.g-main :global(.ex-orig),
+		.g-main :global(.ex-surface),
+		.g-main :global(.ex-g),
+		.g-main :global(.ex-lit),
+		.g-main :global(.ex-note) {
+			color: #cbd5e1;
+		}
+		.g-main :global(.ex-src) {
+			color: #9ca3af;
+		}
+		.g-main :global(th),
+		.g-main :global(td) {
+			border-color: #374151;
+		}
+		.g-main :global(thead th) {
+			border-top-color: #9ca3af;
+			border-bottom-color: #9ca3af;
+		}
+		.g-main :global(tbody tr:last-child td) {
+			border-bottom-color: #9ca3af;
+		}
+		.g-main :global(.ch-nav) {
+			border-top-color: #374151;
+		}
+	}
 </style>

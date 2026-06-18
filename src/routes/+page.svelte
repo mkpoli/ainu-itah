@@ -37,7 +37,11 @@
 <h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
 
 <p class="text-center">
-	<a href={wikipediaLink[languageTag()]} target="_blank" class="text-blue-500 hover:underline">
+	<a
+		href={wikipediaLink[languageTag()]}
+		target="_blank"
+		class="text-blue-500 hover:underline dark:text-blue-400"
+	>
 		{#if languageTag() === 'ja'}
 			ウィキペディア - 樺太アイヌ語
 		{:else if languageTag() === 'en'}
@@ -65,24 +69,28 @@
 				.getElementById('dictionaries')
 				?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
 		}}
-		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm"
+		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
 	>
 		<p class="text-3xl" aria-hidden="true">📚</p>
-		<p class="mt-2 text-lg font-bold text-gray-800 group-hover:text-blue-800">
+		<p
+			class="mt-2 text-lg font-bold text-gray-800 group-hover:text-blue-800 dark:text-gray-200 dark:group-hover:text-blue-300"
+		>
 			{m.dictionaries()}
 		</p>
-		<p class="mt-1 grow text-sm text-gray-500">{m.dictionary_desc()}</p>
+		<p class="mt-1 grow text-sm text-gray-500 dark:text-gray-400">{m.dictionary_desc()}</p>
 		<span class="mt-3 text-sm font-medium text-blue-800 group-hover:underline">↓</span>
 	</a>
 	<a
 		href="/grammar"
-		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm"
+		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
 	>
 		<p class="text-3xl" aria-hidden="true">📖</p>
-		<p class="mt-2 text-lg font-bold text-gray-800 group-hover:text-blue-800">
+		<p
+			class="mt-2 text-lg font-bold text-gray-800 group-hover:text-blue-800 dark:text-gray-200 dark:group-hover:text-blue-300"
+		>
 			{m.reference_grammar()}
 		</p>
-		<p class="mt-1 grow text-sm text-gray-500">{m.reference_grammar_desc()}</p>
+		<p class="mt-1 grow text-sm text-gray-500 dark:text-gray-400">{m.reference_grammar_desc()}</p>
 		<span class="mt-3 text-sm font-medium text-blue-800 group-hover:underline"
 			>{m.read_grammar()} →</span
 		>
@@ -100,7 +108,7 @@
 <ul class="mx-auto my-4 max-w-screen-md list-inside list-disc">
 	<li>
 		<a
-			class="text-blue-500 hover:underline"
+			class="text-blue-500 hover:underline dark:text-blue-400"
 			href="https://www.ff-ainu.or.jp/web/potal_site/files/karahuto_tango.pdf"
 			target="_blank"
 		>
@@ -109,7 +117,7 @@
 	</li>
 	<li>
 		<a
-			class="text-blue-500 hover:underline"
+			class="text-blue-500 hover:underline dark:text-blue-400"
 			href="https://ja.wiktionary.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E3%82%A2%E3%82%A4%E3%83%8C%E8%AA%9E"
 		>
 			日本語ウィクショナリー「カテゴリ:アイヌ語」
@@ -117,7 +125,7 @@
 	</li>
 	<li>
 		<a
-			class="text-blue-500 hover:underline"
+			class="text-blue-500 hover:underline dark:text-blue-400"
 			href="http://tommy1949.world.coocan.jp/aynudictionary.htm"
 		>
 			富田隆『アイヌ語電子辞書』
@@ -125,7 +133,7 @@
 	</li>
 	<li>
 		<a
-			class="text-blue-500 hover:underline"
+			class="text-blue-500 hover:underline dark:text-blue-400"
 			href="http://www.aa.tufs.ac.jp/~mmine/kiki_gen/murasaki/asai01.html"
 		>
 			村崎恭子 編訳『浅井タケ昔話全集 I, II』

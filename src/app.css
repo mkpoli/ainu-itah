@@ -9,6 +9,16 @@
 		outline: 2px solid #1e40af;
 		outline-offset: 2px;
 	}
+
+	/* Dark mode follows the OS preference (Tailwind's default `media` strategy). Set
+	   the canvas + default text + form color-scheme here; components add dark: variants. */
+	@media (prefers-color-scheme: dark) {
+		html {
+			background-color: #0b0f17;
+			color: #e5e7eb;
+			color-scheme: dark;
+		}
+	}
 }
 
 /* Honor the OS "reduce motion" preference: neutralize the chevron transitions, the

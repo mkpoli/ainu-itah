@@ -38,22 +38,24 @@
 	const inGrammar = $derived(delocalize($page.url.pathname).startsWith('/grammar'));
 </script>
 
-<header class="border-b border-gray-200 bg-white">
+<header class="border-b border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
 	<div class="mx-auto flex max-w-screen-lg flex-wrap items-center gap-x-5 gap-y-2 px-4 py-2.5">
-		<a href="/" class="text-sm font-bold tracking-wide text-gray-900">Aynu Itah</a>
+		<a href="/" class="text-sm font-bold tracking-wide text-gray-900 dark:text-gray-100"
+			>Aynu Itah</a
+		>
 		<nav class="flex items-center gap-4 text-sm" aria-label="Aynu Itah">
 			<a
 				href="/"
-				class="hover:text-blue-800 hover:underline {!inGrammar
-					? 'font-semibold text-blue-900'
-					: 'text-gray-600'}"
+				class="hover:text-blue-800 hover:underline dark:hover:text-blue-300 {!inGrammar
+					? 'font-semibold text-blue-900 dark:text-blue-300'
+					: 'text-gray-600 dark:text-gray-400'}"
 				aria-current={!inGrammar ? 'page' : undefined}>{m.dictionaries()}</a
 			>
 			<a
 				href="/grammar"
-				class="hover:text-blue-800 hover:underline {inGrammar
-					? 'font-semibold text-blue-900'
-					: 'text-gray-600'}"
+				class="hover:text-blue-800 hover:underline dark:hover:text-blue-300 {inGrammar
+					? 'font-semibold text-blue-900 dark:text-blue-300'
+					: 'text-gray-600 dark:text-gray-400'}"
 				aria-current={inGrammar ? 'page' : undefined}>{m.reference_grammar()}</a
 			>
 		</nav>
@@ -61,7 +63,7 @@
 			{#each Object.keys(LANGUAGE_LABELS) as lang}
 				<button
 					type="button"
-					class="rounded border border-gray-300 px-1.5 py-0.5 hover:bg-gray-100 data-[active=true]:bg-gray-800 data-[active=true]:text-white"
+					class="rounded border border-gray-300 px-1.5 py-0.5 hover:bg-gray-100 data-[active=true]:bg-gray-800 data-[active=true]:text-white dark:border-gray-700 dark:hover:bg-gray-800 dark:data-[active=true]:bg-gray-200 dark:data-[active=true]:text-gray-900"
 					data-active={languageTag() === lang}
 					aria-current={languageTag() === lang ? 'true' : undefined}
 					onclick={() => switchTo(lang as AvailableLanguageTag)}

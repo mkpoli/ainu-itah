@@ -109,8 +109,9 @@
 </svelte:head>
 
 <article class="mx-auto max-w-screen-md px-4 py-8">
-	<nav class="mb-4 text-sm text-gray-500" aria-label="Breadcrumb">
-		<a href="/" class="hover:text-blue-800 hover:underline">{m.dictionaries()}</a>
+	<nav class="mb-4 text-sm text-gray-500 dark:text-gray-400" aria-label="Breadcrumb">
+		<a href="/" class="hover:text-blue-800 hover:underline dark:text-blue-300">{m.dictionaries()}</a
+		>
 		<span aria-hidden="true">/</span>
 		<span lang="ain-Latn">{data.lemma}</span>
 	</nav>
@@ -118,13 +119,13 @@
 	{#if entry}
 		<header>
 			<h1 class="text-4xl font-bold" lang="ain-Latn">{entry.lemma}</h1>
-			<p class="mt-1 text-lg text-gray-500">
+			<p class="mt-1 text-lg text-gray-500 dark:text-gray-400">
 				<span lang="ain-Kana">{latn2kana(entry.lemma)}</span>
 				<span aria-hidden="true">·</span>
 				<span lang="ain-Cyrl">{latn2cyrl(entry.lemma)}</span>
 			</p>
 			{#if data.viaForm}
-				<p class="mt-2 text-sm text-gray-500">
+				<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
 					<span lang="ain-Latn">{data.viaForm}</span> — {m.forms()} ·
 					<span lang="ain-Latn">{entry.lemma}</span>
 				</p>
@@ -132,7 +133,7 @@
 			{#if entry.poses?.length}
 				<div class="mt-3 flex flex-wrap gap-2">
 					{#each entry.poses as pos}
-						<span class="rounded bg-gray-100 px-2 py-0.5 text-sm text-gray-600"
+						<span class="rounded bg-gray-100 px-2 py-0.5 text-sm text-gray-600 dark:bg-gray-800"
 							>{posLabel(pos)}</span
 						>
 					{/each}
@@ -143,7 +144,9 @@
 		<dl class="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2">
 			{#each glossLangs as lang}
 				{#if entry[lang]?.length}
-					<dt class="text-sm font-semibold text-gray-500" {lang}>{LANG_LABEL[lang]()}</dt>
+					<dt class="text-sm font-semibold text-gray-500 dark:text-gray-400" {lang}>
+						{LANG_LABEL[lang]()}
+					</dt>
 					<dd {lang}>{entry[lang]?.join(lang === 'ja' ? '、' : ', ')}</dd>
 				{/if}
 			{/each}
@@ -151,31 +154,35 @@
 
 		{#if entry.structure}
 			<section class="mt-6">
-				<h2 class="text-sm font-semibold text-gray-500">{m.ikiri()}</h2>
+				<h2 class="text-sm font-semibold text-gray-500 dark:text-gray-400">{m.ikiri()}</h2>
 				<p class="mt-1">
 					<span lang="ain-Latn">{joinMorphs(entry.structure)}</span>
-					<span class="text-gray-500">— {joinGlosses(entry.structure)}</span>
+					<span class="text-gray-500 dark:text-gray-400">— {joinGlosses(entry.structure)}</span>
 				</p>
 			</section>
 		{/if}
 
 		{#if entry.forms?.length}
 			<section class="mt-6">
-				<h2 class="mb-2 text-sm font-semibold text-gray-500">{m.forms()}</h2>
+				<h2 class="mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">{m.forms()}</h2>
 				<ul class="space-y-2">
 					{#each entry.forms as form}
 						<li class="flex flex-wrap items-baseline gap-x-2">
 							<a
 								href="/w/{encodeURIComponent(form.lemma)}"
-								class="font-medium text-blue-800 hover:underline"
+								class="font-medium text-blue-800 hover:underline dark:text-blue-300"
 								lang="ain-Latn">{form.lemma}</a
 							>
 							<span
-								class="rounded bg-gray-100 px-1 text-[10px] uppercase tracking-wide text-gray-500"
+								class="rounded bg-gray-100 px-1 text-[10px] uppercase tracking-wide text-gray-500 dark:bg-gray-800 dark:text-gray-400"
 								>{FORM_TYPE_ABBRS[form.type] ?? form.type}</span
 							>
-							<span class="text-sm text-gray-500" lang="ain-Latn">{joinMorphs(form.analysis)}</span>
-							<span class="text-sm text-gray-500">{joinGlosses(form.analysis)}</span>
+							<span class="text-sm text-gray-500 dark:text-gray-400" lang="ain-Latn"
+								>{joinMorphs(form.analysis)}</span
+							>
+							<span class="text-sm text-gray-500 dark:text-gray-400"
+								>{joinGlosses(form.analysis)}</span
+							>
 						</li>
 					{/each}
 				</ul>
@@ -184,7 +191,7 @@
 
 		{#if entry.hokkaido?.length || entry.cognates?.length}
 			<section class="mt-6">
-				<h2 class="mb-1 text-sm font-semibold text-gray-500">{m.hokkaido()}</h2>
+				<h2 class="mb-1 text-sm font-semibold text-gray-500 dark:text-gray-400">{m.hokkaido()}</h2>
 				<p lang="ain-Latn">
 					{[
 						...new Set([...(entry.hokkaido ?? []).map((c) => c.lemma), ...(entry.cognates ?? [])])
@@ -194,23 +201,28 @@
 		{/if}
 
 		<dl class="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
-			<dt class="font-semibold text-gray-500">{m.frequency()}</dt>
+			<dt class="font-semibold text-gray-500 dark:text-gray-400">{m.frequency()}</dt>
 			<dd class="tabular-nums">{entry.frequencyRolled ?? entry.frequency}</dd>
 		</dl>
 
-		<footer class="mt-8 flex flex-wrap items-center gap-4 border-t border-gray-200 pt-4 text-sm">
+		<footer
+			class="mt-8 flex flex-wrap items-center gap-4 border-t border-gray-200 pt-4 text-sm dark:border-gray-800"
+		>
 			<a
 				href={kampisosUrl(entry.lemma)}
 				target="_blank"
 				rel="noopener"
-				class="flex items-center gap-1.5 text-blue-800 hover:underline"
+				class="flex items-center gap-1.5 text-blue-800 hover:underline dark:text-blue-300"
 			>
 				<KampisosIcon class="h-5 w-5" /> Kampisos
 			</a>
-			<a href="/?q={encodeURIComponent(entry.lemma)}" class="text-blue-800 hover:underline"
-				>{m.search()} →</a
+			<a
+				href="/?q={encodeURIComponent(entry.lemma)}"
+				class="text-blue-800 hover:underline dark:text-blue-300">{m.search()} →</a
 			>
-			<a href="/grammar" class="text-blue-800 hover:underline">{m.reference_grammar()} →</a>
+			<a href="/grammar" class="text-blue-800 hover:underline dark:text-blue-300"
+				>{m.reference_grammar()} →</a
+			>
 		</footer>
 	{:else}
 		<h1 class="text-2xl font-bold" lang="ain-Latn">{data.lemma}</h1>
@@ -218,14 +230,15 @@
 			{m.word_count({ count: 0 })}
 		</p>
 		<div class="mt-6 flex flex-wrap gap-4 text-sm">
-			<a href="/?q={encodeURIComponent(data.lemma)}" class="text-blue-800 hover:underline"
-				>{m.search()} →</a
+			<a
+				href="/?q={encodeURIComponent(data.lemma)}"
+				class="text-blue-800 hover:underline dark:text-blue-300">{m.search()} →</a
 			>
 			<a
 				href={kampisosUrl(data.lemma)}
 				target="_blank"
 				rel="noopener"
-				class="flex items-center gap-1.5 text-blue-800 hover:underline"
+				class="flex items-center gap-1.5 text-blue-800 hover:underline dark:text-blue-300"
 			>
 				<KampisosIcon class="h-5 w-5" /> Kampisos
 			</a>
