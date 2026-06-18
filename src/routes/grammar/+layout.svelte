@@ -7,15 +7,6 @@
 </script>
 
 <div class="grammar-root">
-	<header class="g-header">
-		<nav class="g-topnav">
-			<a href="/" class="g-site">Aynu Itah</a>
-			<span aria-hidden="true">·</span>
-			<a href="/grammar" class="g-book">A Grammar of Sakhalin Ainu</a>
-			<a href="/" class="g-dict">Dictionary →</a>
-		</nav>
-	</header>
-
 	<div class="g-shell">
 		<aside class="g-sidebar">
 			<details class="g-toc" open>
@@ -52,59 +43,13 @@
 			{@render children()}
 		</main>
 	</div>
-
-	<footer class="g-footer">
-		<p>
-			<a href="/grammar">A Grammar of Sakhalin Ainu</a> · part of
-			<a href="/">Aynu Itah</a>, the Sakhalin Ainu dictionary · © 2024—2026
-			<a href="https://aynu.org/">Aynu.org</a>
-		</p>
-	</footer>
 </div>
 
 <style>
 	.grammar-root {
 		font-family: Charter, 'Bitstream Charter', 'Source Serif 4', 'Noto Serif', Georgia, serif;
 		color: #1f2937;
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
 		background: #ffffff;
-	}
-
-	.g-header {
-		border-bottom: 1px solid #e5e7eb;
-		background: #ffffff;
-	}
-
-	.g-topnav {
-		max-width: 72rem;
-		margin: 0 auto;
-		padding: 0.6rem 1rem;
-		display: flex;
-		gap: 0.6rem;
-		align-items: baseline;
-		font-size: 0.95rem;
-	}
-
-	.g-site {
-		font-weight: 700;
-		letter-spacing: 0.02em;
-	}
-
-	.g-book {
-		font-style: italic;
-	}
-
-	.g-dict {
-		margin-left: auto;
-		font-weight: 600;
-		color: #1e40af;
-		white-space: nowrap;
-	}
-
-	.g-topnav a:hover {
-		text-decoration: underline;
 	}
 
 	.g-shell {
@@ -181,23 +126,6 @@
 		max-width: 46rem;
 		font-size: 1.05rem;
 		line-height: 1.65;
-	}
-
-	.g-footer {
-		border-top: 1px solid #e5e7eb;
-		background: #ffffff;
-		font-size: 0.85rem;
-		color: #4b5563;
-	}
-
-	.g-footer p {
-		max-width: 72rem;
-		margin: 0 auto;
-		padding: 0.8rem 1rem;
-	}
-
-	.g-footer a:hover {
-		text-decoration: underline;
 	}
 
 	@media (max-width: 50rem) {

@@ -4,6 +4,8 @@
 	import { page } from '$app/stores';
 	import { availableLanguageTags, sourceLanguageTag } from '$lib/paraglide/runtime';
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import SiteFooter from '$lib/components/SiteFooter.svelte';
 	import '../app.css';
 	let { children } = $props();
 
@@ -52,5 +54,11 @@
 </svelte:head>
 
 <ParaglideJS {i18n}>
-	{@render children()}
+	<div class="flex min-h-screen flex-col">
+		<SiteHeader />
+		<main class="flex-1">
+			{@render children()}
+		</main>
+		<SiteFooter />
+	</div>
 </ParaglideJS>

@@ -1,9 +1,7 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages.js';
-	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 	import DictionaryTable from '$lib/components/DictionaryTable.svelte';
 	import { CANONICAL_HOSTNAME } from '$lib/consts';
-	import Footer from '$lib/components/Footer.svelte';
 	import { languageTag, type AvailableLanguageTag } from '$lib/paraglide/runtime';
 
 	let wikipediaLink: Record<AvailableLanguageTag, string> = {
@@ -35,8 +33,6 @@
 	<meta name="twitter:creator" content="@mkpoli" />
 	<meta name="twitter:image" content={new URL('/og.png', CANONICAL_HOSTNAME).toString()} />
 </svelte:head>
-
-<LanguageSwitcher />
 
 <h1 class="my-10 text-center text-3xl font-bold">{m.aynu_itah()}</h1>
 
@@ -133,5 +129,3 @@
 		</a>
 	</li>
 </ul>
-
-<Footer />
