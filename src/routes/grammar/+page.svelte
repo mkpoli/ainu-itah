@@ -18,7 +18,7 @@
 		isPartOf: { '@type': 'WebSite', name: 'Aynu Itah', url: CANONICAL_HOSTNAME }
 	};
 	const bookJsonLdScript =
-		'<' + 'script type="application/ld+json">' + JSON.stringify(bookJsonLd) + '<\/script>';
+		'<' + 'script type="application/ld+json">' + JSON.stringify(bookJsonLd) + '</' + 'script>';
 </script>
 
 <svelte:head>
@@ -34,6 +34,7 @@
 	/>
 	<meta property="og:url" content={new URL('/grammar', CANONICAL_HOSTNAME).toString()} />
 	<meta property="og:type" content="website" />
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -- controlled JSON-LD built from constants, never user input -->
 	{@html bookJsonLdScript}
 </svelte:head>
 
@@ -42,10 +43,10 @@
 		<p class="cover-kicker">Aynu Itah · itah.aynu.org</p>
 		<h1>A Grammar of Sakhalin Ainu</h1>
 		<p class="cover-sub">
-			A reference grammar of the Ainu language of Sakhalin
-			(<span lang="ja">樺太</span> <i>Karafuto</i>, <span lang="ru">Сахалин</span>), the
-			language its speakers called <i lang="ain">enciw itah</i> — with interlinear examples
-			drawn from attested texts and linked to the
+			A reference grammar of the Ainu language of Sakhalin (<span lang="ja">樺太</span>
+			<i>Karafuto</i>, <span lang="ru">Сахалин</span>), the language its speakers called
+			<i lang="ain">enciw itah</i>
+			— with interlinear examples drawn from attested texts and linked to the
 			<a href="/">dictionary</a> on this site.
 		</p>
 	</header>
@@ -53,37 +54,35 @@
 	<section class="preface">
 		<h2>Preface</h2>
 		<p>
-			Sakhalin Ainu is the variety of Ainu once spoken across the southern half of Sakhalin
-			island. Its last fully fluent speakers died in the 1990s, but it is among the better
-			documented Ainu varieties: Bronisław Piłsudski transcribed and translated a large body
-			of texts at the beginning of the twentieth century, Chiri Mashiho built his
-			<cite lang="ja">アイヌ語法研究</cite> (1942) around it, and from the 1960s onward Murasaki
-			Kyōko recorded and analysed the speech of the last generation, above all that of Asai
-			Take. This grammar stands on that work. It is not the first description of Sakhalin
-			Ainu — Piłsudski (1912), Chiri (1942) and Murasaki (1976; 1979) each contain one — but
-			it aims to be the first full-length reference grammar of the language in English: a
-			single, systematically organised description that covers phonology, morphology, and
-			syntax, incorporates the analytical advances of recent work by Anna Bugaeva, Elia Dal
-			Corso, Sakaguchi Ryō, and others, and supports every claim with attested, cited data.
+			Sakhalin Ainu is the variety of Ainu once spoken across the southern half of Sakhalin island.
+			Its last fully fluent speakers died in the 1990s, but it is among the better documented Ainu
+			varieties: Bronisław Piłsudski transcribed and translated a large body of texts at the
+			beginning of the twentieth century, Chiri Mashiho built his
+			<cite lang="ja">アイヌ語法研究</cite> (1942) around it, and from the 1960s onward Murasaki Kyōko
+			recorded and analysed the speech of the last generation, above all that of Asai Take. This grammar
+			stands on that work. It is not the first description of Sakhalin Ainu — Piłsudski (1912), Chiri
+			(1942) and Murasaki (1976; 1979) each contain one — but it aims to be the first full-length reference
+			grammar of the language in English: a single, systematically organised description that covers
+			phonology, morphology, and syntax, incorporates the analytical advances of recent work by Anna
+			Bugaeva, Elia Dal Corso, Sakaguchi Ryō, and others, and supports every claim with attested, cited
+			data.
 		</p>
 		<p>
-			Every numbered example is glossed morpheme by morpheme following the Leipzig Glossing
-			Rules and carries a citation of its original source and a dialect tag. The examples
-			come from the published record of the language: Piłsudski’s <cite>Materials</cite>, the
-			texts embedded in Dobrotvorsky’s dictionary of 1875, the letters and book of Sentoku
-			Tarōji, the folktales of Asai Take, the recordings edited in the Endangered Languages
-			of the Pacific Rim series, and the grammatical literature. Ainu words in examples are
-			linked to the dictionary of this site, which in turn links each word to a searchable
-			corpus, so the path from a grammatical statement to the primary record is never more
-			than two clicks long.
+			Every numbered example is glossed morpheme by morpheme following the Leipzig Glossing Rules
+			and carries a citation of its original source and a dialect tag. The examples come from the
+			published record of the language: Piłsudski’s <cite>Materials</cite>, the texts embedded in
+			Dobrotvorsky’s dictionary of 1875, the letters and book of Sentoku Tarōji, the folktales of
+			Asai Take, the recordings edited in the Endangered Languages of the Pacific Rim series, and
+			the grammatical literature. Ainu words in examples are linked to the dictionary of this site,
+			which in turn links each word to a searchable corpus, so the path from a grammatical statement
+			to the primary record is never more than two clicks long.
 		</p>
 		<p>
-			Unless a dialect tag says otherwise, statements describe the West-coast varieties
-			documented by Chiri and Murasaki, which form the core of the twentieth-century record;
-			East-coast data, chiefly from Piłsudski and Sentoku, are flagged as such, and Hokkaidō
-			Ainu appears only where a comparison clarifies the Sakhalin facts. Where the published
-			literature is silent, the description rests on our own analysis of the text corpus,
-			and the prose says so explicitly.
+			Unless a dialect tag says otherwise, statements describe the West-coast varieties documented
+			by Chiri and Murasaki, which form the core of the twentieth-century record; East-coast data,
+			chiefly from Piłsudski and Sentoku, are flagged as such, and Hokkaidō Ainu appears only where
+			a comparison clarifies the Sakhalin facts. Where the published literature is silent, the
+			description rests on our own analysis of the text corpus, and the prose says so explicitly.
 		</p>
 	</section>
 

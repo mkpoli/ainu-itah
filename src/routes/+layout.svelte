@@ -34,7 +34,7 @@
 		publisher: { '@type': 'Organization', name: 'Aynu Itah', url: CANONICAL_HOSTNAME }
 	};
 	const websiteJsonLdScript =
-		'<' + 'script type="application/ld+json">' + JSON.stringify(websiteJsonLd) + '<\/script>';
+		'<' + 'script type="application/ld+json">' + JSON.stringify(websiteJsonLd) + '</' + 'script>';
 </script>
 
 <svelte:head>
@@ -47,6 +47,7 @@
 	<meta property="og:image" content={OG_IMAGE} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:image" content={OG_IMAGE} />
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -- controlled JSON-LD built from constants, never user input -->
 	{@html websiteJsonLdScript}
 </svelte:head>
 
