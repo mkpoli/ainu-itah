@@ -111,8 +111,7 @@
 		<h2>How to cite</h2>
 		<p>
 			Aynu Itah. 2026. <cite>A Grammar of Sakhalin Ainu</cite>. Online:
-			<a href="https://itah.aynu.org/grammar">https://itah.aynu.org/grammar</a> (accessed
-			<i>date</i>).
+			<a href="https://itah.aynu.org/grammar">https://itah.aynu.org/grammar</a> (accessed [date]).
 		</p>
 	</section>
 </article>

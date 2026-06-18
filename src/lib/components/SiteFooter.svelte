@@ -7,10 +7,12 @@
 	<div
 		class="mx-auto flex max-w-screen-lg flex-col items-center gap-2 px-4 py-6 text-center text-sm text-gray-500"
 	>
-		<nav class="flex gap-3" aria-label="Aynu Itah">
+		<nav class="flex flex-wrap justify-center gap-x-3 gap-y-1" aria-label="Aynu Itah">
 			<a href="/" class="hover:text-blue-800 hover:underline">{m.dictionaries()}</a>
 			<span aria-hidden="true">·</span>
 			<a href="/grammar" class="hover:text-blue-800 hover:underline">{m.reference_grammar()}</a>
+			<span aria-hidden="true">·</span>
+			<a href="/about" class="hover:text-blue-800 hover:underline">About</a>
 		</nav>
 		<p class="flex items-center justify-center gap-2 text-xs">
 			© 2024—2026
