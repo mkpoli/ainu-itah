@@ -171,6 +171,16 @@
 						</li>
 					{/each}
 				</ul>
+				{#if data.exampleCount > data.examples.length}
+					<p class="mt-2 text-xs">
+						<a
+							href={kampisosUrl(entry.lemma)}
+							target="_blank"
+							rel="noopener"
+							class="text-blue-800 hover:underline dark:text-blue-300">More in the corpus →</a
+						>
+					</p>
+				{/if}
 			</section>
 		{/if}
 

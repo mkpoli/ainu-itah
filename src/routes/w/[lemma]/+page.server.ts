@@ -7,8 +7,10 @@ import type { PageServerLoad } from './$types';
 // word page is server-rendered (crawlable, bookmarkable) and edge-cached.
 const entries = data as unknown as Entry[];
 
-// Attested Sakhalin corpus sentences, keyed by lemma (a seed sidecar, kept separate
-// from data.json so it doesn't collide with the phased dictionary-data work).
+// Every glossed Sakhalin (樺太) corpus sentence, indexed by the dictionary lemma it
+// attests (built by scripts/gen-examples.ts; sentences stored once, referenced by
+// index). Kept separate from data.json so it doesn't collide with the phased
+// dictionary-data work.
 export interface Example {
 	text: string;
 	translation: string;
@@ -16,7 +18,8 @@ export interface Example {
 	source: string;
 	uri: string;
 }
-const EXAMPLES = examplesData as Record<string, Example[]>;
+const EXAMPLES = examplesData as { sentences: Example[]; byLemma: Record<string, number[]> };
+const DISPLAY_LIMIT = 8;
 
 export const load: PageServerLoad = ({ params, setHeaders }) => {
 	const lemma = params.lemma;
@@ -39,5 +42,10 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 		'cache-control': 'public, max-age=0, s-maxage=86400, stale-while-revalidate=604800'
 	});
 
-	return { lemma, entry, viaForm, examples: EXAMPLES[lemma] ?? [] };
+	// Examples are keyed by the base entry's lemma, so a sub-form page shows the
+	// base entry's attestations too.
+	const exIdx = entry ? (EXAMPLES.byLemma[entry.lemma] ?? []) : [];
+	const examples = exIdx.slice(0, DISPLAY_LIMIT).map((i) => EXAMPLES.sentences[i]);
+
+	return { lemma, entry, viaForm, examples, exampleCount: exIdx.length };
 };
