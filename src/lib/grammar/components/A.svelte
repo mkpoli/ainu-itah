@@ -16,7 +16,7 @@
 </script>
 
 <i lang="ain" class="ain"
-	><a href={`/?q=${encodeURIComponent(w)}`} hreflang="en" title={`Look up ${w} in the dictionary`}
+	><a href={`/w/${encodeURIComponent(w)}`} title={`Look up ${w} in the dictionary`}
 		>{#if children}{@render children()}{:else}{w}{/if}</a
 	></i
 >{#if gl}&nbsp;‘{gl}’{/if}
