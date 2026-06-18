@@ -114,8 +114,11 @@
 </script>
 
 <figure class="my-6">
+	<!-- The canvas map's markers/popups are pointer-only, so it's hidden from
+	     assistive tech; the <details> list below is the accessible equivalent. -->
 	<div
 		bind:this={el}
+		aria-hidden="true"
 		class="z-0 w-full overflow-hidden rounded-xl border border-gray-300"
 		style="height:{height}"
 	></div>
@@ -126,8 +129,30 @@
 				{COAST_LABEL[c]}
 			</span>
 		{/each}
-		<span class="text-xs text-gray-400">· tap a marker for its names; ⌘/Ctrl-scroll to zoom</span>
+		<span class="text-xs text-gray-500">· tap a marker for its names; ⌘/Ctrl-scroll to zoom</span>
 	</div>
+
+	<!-- Text equivalent of the map: the same place data, reachable by keyboard and
+	     screen readers (and by anyone the canvas markers don't reach). -->
+	<details class="mt-3 text-sm">
+		<summary class="cursor-pointer text-gray-600">Place names</summary>
+		{#each legendCoasts as c (c)}
+			<p class="mt-2 font-semibold text-gray-600">{COAST_LABEL[c]}</p>
+			<ul class="mt-1 space-y-0.5">
+				{#each DIALECT_POINTS.filter((p) => p.coast === c) as p}
+					<li>
+						<span lang="ain">{p.ainu ?? p.en}</span>{#if p.kanji}<span class="text-gray-500">
+								· {p.kana ? `${p.kanji}（${p.kana}）` : p.kanji}</span
+							>{/if}{#if p.ru}<span class="text-gray-500"> · {p.ru}</span>{/if}{#if p.note}<span
+								class="text-gray-500"
+							>
+								— {p.note}</span
+							>{/if}
+					</li>
+				{/each}
+			</ul>
+		{/each}
+	</details>
 	{#if caption}
 		<figcaption class="mt-2 text-sm text-gray-500">{caption}</figcaption>
 	{/if}

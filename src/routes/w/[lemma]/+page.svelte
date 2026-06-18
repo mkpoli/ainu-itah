@@ -175,7 +175,7 @@
 								>{FORM_TYPE_ABBRS[form.type] ?? form.type}</span
 							>
 							<span class="text-sm text-gray-500" lang="ain-Latn">{joinMorphs(form.analysis)}</span>
-							<span class="text-sm text-gray-400">{joinGlosses(form.analysis)}</span>
+							<span class="text-sm text-gray-500">{joinGlosses(form.analysis)}</span>
 						</li>
 					{/each}
 				</ul>
