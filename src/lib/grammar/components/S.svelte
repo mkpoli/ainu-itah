@@ -1,11 +1,6 @@
 <script lang="ts">
 	import { getContext, setContext, type Snippet } from 'svelte';
-	import {
-		GRAMMAR_CTX,
-		SECTION_CTX,
-		type GrammarContext,
-		type SectionContext
-	} from '../context';
+	import { GRAMMAR_CTX, SECTION_CTX, type GrammarContext, type SectionContext } from '../context';
 
 	let {
 		t,

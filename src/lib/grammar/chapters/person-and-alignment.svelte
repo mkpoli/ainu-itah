@@ -3,29 +3,32 @@
 </script>
 
 <p>
-	Sakhalin Ainu is a head-marking language: a finite verb indexes the person of its core
-	arguments by affixes, and independent pronouns (<Xr ch="pronouns-and-demonstratives"
-	>Chapter 9</Xr>) appear only for emphasis or contrast. The inventory of person markers is
-	small — five overt series and a zero third person — but their combinations in transitive
-	verbs are intricate, and they have been a centre of discussion since the earliest
-	descriptions. The foundations are <Ref k="chiri1942" p="§37" />, <Ref k="hattori1961" /> and
+	Sakhalin Ainu is a head-marking language: a finite verb indexes the person of its core arguments
+	by affixes, and independent pronouns (<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr>) appear
+	only for emphasis or contrast. The inventory of person markers is small — five overt series and a
+	zero third person — but their combinations in transitive verbs are intricate, and they have been a
+	centre of discussion since the earliest descriptions. The foundations are <Ref
+		k="chiri1942"
+		p="§37"
+	/>, <Ref k="hattori1961" /> and
 	<Ref k="murasaki1979" p="49–51" /> for the west-coast Rayciska variety, and
-	<Ref k="sato1985" /> for the east coast; <Ref k="sakaguchi2024" /> gives the fullest
-	philological account of the east-coast paradigm, and <Ref k="dalcorso2025align" /> the most
-	recent analysis of its alignment and history. This chapter follows the same order: the basic
-	paradigm, the indefinite set, object marking, the first–second person interaction forms, and
-	the alignment they jointly define, with short sections on nouns and on verbal number.
+	<Ref k="sato1985" /> for the east coast; <Ref k="sakaguchi2024" /> gives the fullest philological account
+	of the east-coast paradigm, and <Ref k="dalcorso2025align" /> the most recent analysis of its alignment
+	and history. This chapter follows the same order: the basic paradigm, the indefinite set, object marking,
+	the first–second person interaction forms, and the alignment they jointly define, with short sections
+	on nouns and on verbal number.
 </p>
 
 <p>
 	A word on terminology. Beside first and second person, Sakhalin Ainu has the set
 	<A w="an">-an</A> / <i lang="ain">an-</i> / <i lang="ain">i-</i>, called the
-	<em>fourth person</em> in Japanese-language scholarship, <em>indefinite person</em> since
-	Tamura's work on Saru, <em>inclusive</em> by Bugaeva, and <em>participant referentiality
-	mismatch marker</em> by Dal Corso <Ref k="dalcorso2025align" p="196–200" paren />. We gloss it
-	INDEF throughout. Following <Ref k="sato1985" /> and <Ref k="sakaguchi2024" p="26–28" />, it
-	is also convenient to speak of three first-person <em>series</em> named after their
-	transitive subject form: the KU-series (<i lang="ain">ku-</i>, pronoun
+	<em>fourth person</em> in Japanese-language scholarship, <em>indefinite person</em> since Tamura's
+	work on Saru, <em>inclusive</em> by Bugaeva, and
+	<em>participant referentiality mismatch marker</em>
+	by Dal Corso <Ref k="dalcorso2025align" p="196–200" paren />. We gloss it INDEF throughout.
+	Following <Ref k="sato1985" /> and <Ref k="sakaguchi2024" p="26–28" />, it is also convenient to
+	speak of three first-person <em>series</em> named after their transitive subject form: the
+	KU-series (<i lang="ain">ku-</i>, pronoun
 	<A w="kuani" gl="I" />), the CI-series (<i lang="ain">ci-</i>/<i lang="ain">-as</i>, pronoun
 	<A w="ciokay" gl="we" /> ~ <i lang="ain">cookay</i>), and the AN-series (the indefinite set,
 	pronoun <A w="anoka" gl="I, we" /> ~ <i lang="ain">anokay</i>).
@@ -36,8 +39,8 @@
 		Table 1 sets out the person markers of the Sakhalin verb. It combines
 		<Ref k="chiri1942" p="§37" />, <Ref k="murasaki1979" p="49–50" />,
 		<Ref k="sato1985" />, <Ref k="sakaguchi2024" p="29–34" /> and
-		<Ref k="dalcorso2025align" p="200–201" />; where the coasts diverge, the western form is
-		marked W and the eastern E.
+		<Ref k="dalcorso2025align" p="200–201" />; where the coasts diverge, the western form is marked
+		W and the eastern E.
 	</p>
 	<table>
 		<caption>Person markers on the Sakhalin Ainu verb</caption>
@@ -84,9 +87,8 @@
 		</tbody>
 	</table>
 	<p>
-		First person singular <i lang="ain">ku-</i> prefixes to intransitive and transitive verbs
-		alike. It is the everyday first person of conversation and of quoted dialogue in Asai
-		Take's tales:
+		First person singular <i lang="ain">ku-</i> prefixes to intransitive and transitive verbs alike.
+		It is the everyday first person of conversation and of quoted dialogue in Asai Take's tales:
 	</p>
 	<Ex
 		m="hemata ku-kara-ha kuani neyahka ku-inkara kusu otakaa-ta ku-san"
@@ -97,10 +99,10 @@
 		place="Odasu (Asai Take)"
 	/>
 	<p>
-		Second person singular <i lang="ain">e-</i> and plural <i lang="ain">eci-</i> are invariant
-		for role; Chiri records <i lang="ain">esi-</i> for 2PL at Tarantomari
-		<Ref k="chiri1942" p="§37" paren />. Sentoku Tarōji (<span lang="ja">千徳太郎治</span>)
-		writes <i lang="ain">e=</i> to Piłsudski:
+		Second person singular <i lang="ain">e-</i> and plural <i lang="ain">eci-</i> are invariant for
+		role; Chiri records <i lang="ain">esi-</i> for 2PL at Tarantomari
+		<Ref k="chiri1942" p="§37" paren />. Sentoku Tarōji (<span lang="ja">千徳太郎治</span>) writes
+		<i lang="ain">e=</i> to Piłsudski:
 	</p>
 	<Ex
 		m="e=koro kotan okta e=oman kusu nah e=ye renkayne"
@@ -111,22 +113,22 @@
 		place="Otasan (Sentoku Tarōji)"
 	/>
 	<p>
-		Third person is unmarked in all roles and numbers. With Chiri we take the absence of an
-		affix on a finite verb to be itself interpretable — a zero exponent read as third person
-		wherever no overt marker appears <Ref k="chiri1942" p="§23, §37" paren />; plurality of a
-		third person argument may be signalled by <i lang="ain">-hci</i> (§13.7).
+		Third person is unmarked in all roles and numbers. With Chiri we take the absence of an affix on
+		a finite verb to be itself interpretable — a zero exponent read as third person wherever no
+		overt marker appears <Ref k="chiri1942" p="§23, §37" paren />; plurality of a third person
+		argument may be signalled by <i lang="ain">-hci</i> (§13.7).
 	</p>
 	<p>
 		The CI-series splits by transitivity: <i lang="ain">-as</i> suffixes to intransitives,
 		<i lang="ain">ci-</i> prefixes to transitives and the copula. It is productive on the east
 		coast, while in Rayciska it is marginal — Hattori's consultants knew
-		<i lang="ain">cioka</i> as the speech of elders or of the southern west coast, and
-		Murasaki's Rayciska corpus contains a single possessive token
+		<i lang="ain">cioka</i> as the speech of elders or of the southern west coast, and Murasaki's
+		Rayciska corpus contains a single possessive token
 		<Ref k="hattori1961" p="5" />, <Ref k="sakaguchi2024" p="27" paren />. In the east-coast
-		folklore the CI-series regularly refers to a single speaker: it is grammatically plural
-		(it selects plural verb stems) but semantically ‘I’ <Ref k="sato1985" paren />,
-		<Ref k="sakaguchi2024" p="27" paren />. We keep the conventional gloss 1PL.EXCL while
-		flagging this mismatch wherever it matters.
+		folklore the CI-series regularly refers to a single speaker: it is grammatically plural (it
+		selects plural verb stems) but semantically ‘I’ <Ref k="sato1985" paren />,
+		<Ref k="sakaguchi2024" p="27" paren />. We keep the conventional gloss 1PL.EXCL while flagging
+		this mismatch wherever it matters.
 	</p>
 	<Ex
 		m="nahte asip-as cikin paye-as sir-ihi eci-nukan-te"
@@ -145,11 +147,11 @@
 		place="Otasan (Sentoku Tarōji)"
 	/>
 	<p>
-		The series do not mix freely. <Ref k="sato1985" /> formulated a <em>personal agreement
-		rule</em>: within one clause (pronoun included), markers of the AN-series do not co-occur
-		with markers of the KU- or CI-series, while KU- and CI-forms do co-occur with each other —
-		Dobrotvorsky already records <i lang="ain">cookay ku-eraman</i> ‘I understand’ with the
-		CI-pronoun and the KU-prefix <Ref k="dobrotvorsky1875" p="150" paren />,
+		The series do not mix freely. <Ref k="sato1985" /> formulated a
+		<em>personal agreement rule</em>: within one clause (pronoun included), markers of the AN-series
+		do not co-occur with markers of the KU- or CI-series, while KU- and CI-forms do co-occur with
+		each other — Dobrotvorsky already records <i lang="ain">cookay ku-eraman</i> ‘I understand’ with
+		the CI-pronoun and the KU-prefix <Ref k="dobrotvorsky1875" p="150" paren />,
 		<Ref k="sakaguchi2024" p="30" paren />. The rule is what justifies sorting the markers into
 		series in the first place, and §13.4 puts it to work.
 	</p>
@@ -157,22 +159,25 @@
 
 <S t="The indefinite person" id="indefinite">
 	<p>
-		The set <i lang="ain">-an</i> (S), <i lang="ain">an-</i> (A), <i lang="ain">i-</i> (O),
-		with the pronoun <A w="anoka" gl="I, we" /> ~ <i lang="ain">anokay</i>, is the workhorse of
-		Sakhalin first-person reference. Its attested functions are: a general first person plural
-		‘we’, with no exclusive–inclusive opposition of the Hokkaidō colloquial kind; an ordinary
-		first person singular ‘I’; an indefinite or unspecified agent; and the agent slot of the
-		impersonal passive construction (<Ref k="chiri1942" p="§37" />;
-		<Ref k="sakaguchi2024" p="27–28" />; <Ref k="dalcorso2025align" p="196–197" />). The
-		honorific second-person use of Hokkaidō dialects is unattested in Sakhalin
-		<Ref k="dalcorso2025align" p="196" paren />. Chiri observed that Sakhalin uses one and the
-		same paradigm in literary and colloquial registers, essentially the epic paradigm of
-		Hokkaidō <Ref k="chiri1942" p="§37" paren />.
+		The set <i lang="ain">-an</i> (S), <i lang="ain">an-</i> (A), <i lang="ain">i-</i> (O), with the
+		pronoun <A w="anoka" gl="I, we" /> ~ <i lang="ain">anokay</i>, is the workhorse of Sakhalin
+		first-person reference. Its attested functions are: a general first person plural ‘we’, with no
+		exclusive–inclusive opposition of the Hokkaidō colloquial kind; an ordinary first person
+		singular ‘I’; an indefinite or unspecified agent; and the agent slot of the impersonal passive
+		construction (<Ref k="chiri1942" p="§37" />;
+		<Ref k="sakaguchi2024" p="27–28" />; <Ref k="dalcorso2025align" p="196–197" />). The honorific
+		second-person use of Hokkaidō dialects is unattested in Sakhalin
+		<Ref k="dalcorso2025align" p="196" paren />. Chiri observed that Sakhalin uses one and the same
+		paradigm in literary and colloquial registers, essentially the epic paradigm of Hokkaidō <Ref
+			k="chiri1942"
+			p="§37"
+			paren
+		/>.
 	</p>
 	<p>
-		The indefinite is grammatically plural regardless of its reference: where a verb has
-		suppletive number stems, the AN-series selects the plural stem even for a single referent
-		(§13.7). In Sentoku's letters it is the unmarked way of saying both ‘I’ and ‘we’:
+		The indefinite is grammatically plural regardless of its reference: where a verb has suppletive
+		number stems, the AN-series selects the plural stem even for a single referent (§13.7). In
+		Sentoku's letters it is the unmarked way of saying both ‘I’ and ‘we’:
 	</p>
 	<Ex
 		m="anokay aynu utara ramma ka pirka ponno ponno cep ukoyki an=e-hci"
@@ -183,14 +188,17 @@
 		place="Otasan (Sentoku Tarōji)"
 	/>
 	<p>
-		In the same letter Sentoku writes <A w="omante">an=omante</A> ‘I send (it)’ of himself
-		alone and addresses Piłsudski as <i lang="ain">an=koro nispa</i> ‘my master’. The
-		indefinite is also the classic narrative first person of folklore: the protagonist of a
-		tale, often a god or hero, is cross-referenced by AN-forms throughout, a logophoric device
-		that keeps the narrator formally distinct from the character whose words the whole tale
-		constitutes <Ref k="dalcorso2025align" p="198–199" paren />. Piłsudski himself glossed such
-		forms simply as first person singular in his notes (e.g. <i lang="ain">sapan</i> ‘I went
-		down’, <Ref k="pilsudski1912" p="37–39" paren />):
+		In the same letter Sentoku writes <A w="omante">an=omante</A> ‘I send (it)’ of himself alone and
+		addresses Piłsudski as <i lang="ain">an=koro nispa</i> ‘my master’. The indefinite is also the
+		classic narrative first person of folklore: the protagonist of a tale, often a god or hero, is
+		cross-referenced by AN-forms throughout, a logophoric device that keeps the narrator formally
+		distinct from the character whose words the whole tale constitutes <Ref
+			k="dalcorso2025align"
+			p="198–199"
+			paren
+		/>. Piłsudski himself glossed such forms simply as first person singular in his notes (e.g.
+		<i lang="ain">sapan</i>
+		‘I went down’, <Ref k="pilsudski1912" p="37–39" paren />):
 	</p>
 	<Ex
 		m="an-koro nay-he or-ne kimoyki kusu makap-an"
@@ -229,36 +237,44 @@
 		place="Odasu (Asai Take)"
 	/>
 	<p>
-		The indefinite dominates Sakhalin first-person text frequency. In the three Sentoku
-		letters we count 23 tokens of <i lang="ain">an=</i> against 17 of <i lang="ain">ci=</i>,
-		19 of <i lang="ain">e=</i>, and not a single <i lang="ain">ku=</i>; in Yamabe Yasunosuke's
-		(<span lang="ja">山辺安之助</span>) book-length autobiography the AN-series carries the
-		whole narration, the KU-series appearing once and the CI-series twice
-		<Ref k="sakaguchi2024" p="46" paren />. The corpus texts recorded by Dobrotvorsky in
-		1867–1872 use fourth-person narration as their convention, while Asai Take's twentieth-
-		century <A w="tuytah" gl="folktale" /> are narrated in the third person with the
-		reportative <A w="manu" /> and use <i lang="ain">ku-</i> freely in dialogue — so the choice
-		between <i lang="ain">ku-</i> and the indefinite is a matter of register and genre, not of
-		grammar. Within quoted speech both occur, subject to the personal agreement rule of §13.1.
+		The indefinite dominates Sakhalin first-person text frequency. In the three Sentoku letters we
+		count 23 tokens of <i lang="ain">an=</i> against 17 of <i lang="ain">ci=</i>, 19 of
+		<i lang="ain">e=</i>, and not a single <i lang="ain">ku=</i>; in Yamabe Yasunosuke's (<span
+			lang="ja">山辺安之助</span
+		>) book-length autobiography the AN-series carries the whole narration, the KU-series appearing
+		once and the CI-series twice
+		<Ref k="sakaguchi2024" p="46" paren />. The corpus texts recorded by Dobrotvorsky in 1867–1872
+		use fourth-person narration as their convention, while Asai Take's twentieth- century <A
+			w="tuytah"
+			gl="folktale"
+		/> are narrated in the third person with the reportative <A w="manu" /> and use
+		<i lang="ain">ku-</i>
+		freely in dialogue — so the choice between <i lang="ain">ku-</i> and the indefinite is a matter of
+		register and genre, not of grammar. Within quoted speech both occur, subject to the personal agreement
+		rule of §13.1.
 	</p>
 </S>
 
 <S t="Object marking" id="object-marking">
 	<p>
-		Overt object prefixes exist only for first person and the indefinite; second person
-		objects are indexed by the same <i lang="ain">e-</i>/<i lang="ain">eci-</i> as subjects,
-		and third person objects are zero. The first person object form divides the island: the
-		west coast has <i lang="ain">en-</i>, as in Hokkaidō, while the east coast generalises
-		<i lang="ain">in-</i> for both the KU- and the CI-series
-		(<Ref k="sato1985" />; <Ref k="sakaguchi2024" p="33–39" />). Earlier work treated
-		<i lang="ain">i-</i> and <i lang="ain">in-</i> as free variants
-		(<Ref k="chiri1942" p="§37" />), but Satō showed from the personal agreement rule that
-		<i lang="ain">in-</i> belongs with the KU/CI-series and <i lang="ain">i-</i> with the
-		AN-series <Ref k="sato1985" paren />. For the exclusive object, Hattori recorded west-coast
-		<i lang="ain">un-</i>, cognate with Hokkaidō <i lang="ain">un-</i>, though even his
-		Rayciska consultants used the CI-series only rarely <Ref k="hattori1961" p="16" paren />;
-		Dal Corso notes that east-coast <i lang="ain">in-</i> cannot be derived from it by any
-		regular correspondence, so its origin remains open
+		Overt object prefixes exist only for first person and the indefinite; second person objects are
+		indexed by the same <i lang="ain">e-</i>/<i lang="ain">eci-</i> as subjects, and third person
+		objects are zero. The first person object form divides the island: the west coast has
+		<i lang="ain">en-</i>, as in Hokkaidō, while the east coast generalises
+		<i lang="ain">in-</i> for both the KU- and the CI-series (<Ref k="sato1985" />; <Ref
+			k="sakaguchi2024"
+			p="33–39"
+		/>). Earlier work treated
+		<i lang="ain">i-</i> and <i lang="ain">in-</i> as free variants (<Ref k="chiri1942" p="§37" />),
+		but Satō showed from the personal agreement rule that
+		<i lang="ain">in-</i> belongs with the KU/CI-series and <i lang="ain">i-</i> with the AN-series <Ref
+			k="sato1985"
+			paren
+		/>. For the exclusive object, Hattori recorded west-coast
+		<i lang="ain">un-</i>, cognate with Hokkaidō <i lang="ain">un-</i>, though even his Rayciska
+		consultants used the CI-series only rarely <Ref k="hattori1961" p="16" paren />; Dal Corso notes
+		that east-coast <i lang="ain">in-</i> cannot be derived from it by any regular correspondence,
+		so its origin remains open
 		<Ref k="dalcorso2025align" p="205" paren />.
 	</p>
 	<Ex
@@ -282,8 +298,8 @@
 	/>
 	<p>
 		Sentoku likewise writes <i lang="ain">in=konte</i> ‘give me’ in his third letter
-		<Ref k="tangiku2001" paren />. The indefinite object <i lang="ain">i-</i> appears wherever
-		an AN-series referent is acted on, including the narrative first person:
+		<Ref k="tangiku2001" paren />. The indefinite object <i lang="ain">i-</i> appears wherever an AN-series
+		referent is acted on, including the narrative first person:
 	</p>
 	<Ex
 		m="ruype kuma ohta oman te ceh huymampa anokay i-ranke"
@@ -297,10 +313,10 @@
 		This prefix is formally identical to the antipassive <i lang="ain">i-</i>
 		(<Xr ch="valency">Chapter 14</Xr>), from which it historically derives
 		<Ref k="dalcorso2025align" p="196" paren />; synchronically the two are kept apart by the
-		referential (first-person or logophoric) reading of the agreement use. The east coast
-		also has a dedicated first-person passive prefix <i lang="ain">inci-</i>, used when a
-		definite agent acts on the speaker; it serves both the KU- and the CI-series, and
-		corresponds to <i lang="ain">enci-</i>/<i lang="ain">unci-</i> of north-eastern Hokkaidō
+		referential (first-person or logophoric) reading of the agreement use. The east coast also has a
+		dedicated first-person passive prefix <i lang="ain">inci-</i>, used when a definite agent acts
+		on the speaker; it serves both the KU- and the CI-series, and corresponds to
+		<i lang="ain">enci-</i>/<i lang="ain">unci-</i> of north-eastern Hokkaidō
 		<Ref k="sakaguchi2024" p="35–37" paren />:
 	</p>
 	<Ex
@@ -315,15 +331,18 @@
 
 <S t="First–second person interaction forms" id="portmanteau">
 	<p>
-		When first and second person meet on one transitive verb, the marking is not the simple
-		sum of an A-prefix and an O-prefix: no Ainu variety allows the expected
+		When first and second person meet on one transitive verb, the marking is not the simple sum of
+		an A-prefix and an O-prefix: no Ainu variety allows the expected
 		<i lang="ain">*ku-e-</i>, <i lang="ain">*ci-e-</i>, <i lang="ain">*ku-eci-</i> or
-		<i lang="ain">*e-en-</i> <Ref k="sakaguchi2024" p="32" paren />. In Sakhalin the verb has
-		in effect a single prefixal person slot; the object is what gets expressed there, and the
-		subject is either recoverable from context or indexed by a suffix
+		<i lang="ain">*e-en-</i>
+		<Ref k="sakaguchi2024" p="32" paren />. In Sakhalin the verb has in effect a single prefixal
+		person slot; the object is what gets expressed there, and the subject is either recoverable from
+		context or indexed by a suffix
 		<Ref k="dalcorso2025align" p="207–208" paren />. Table 2 gives the attested forms; KU- and
-		CI-series behave identically throughout and are collapsed as ‘1’
-		(<Ref k="sakaguchi2024" p="53–55" />; <Ref k="murasaki1979" p="50" />;
+		CI-series behave identically throughout and are collapsed as ‘1’ (<Ref
+			k="sakaguchi2024"
+			p="53–55"
+		/>; <Ref k="murasaki1979" p="50" />;
 		<Ref k="hattori1961" p="14–16" />).
 	</p>
 	<table>
@@ -364,8 +383,7 @@
 	</table>
 	<p>
 		The portmanteau prefixes are best seen in a minimal pair that Dobrotvorsky recorded from
-		nineteenth-century speech — identical word order, the prefix alone carrying the
-		directionality:
+		nineteenth-century speech — identical word order, the prefix alone carrying the directionality:
 	</p>
 	<Ex
 		m="cookay eani eci-koyki"
@@ -388,8 +406,8 @@
 		place="recorded 1867–1872"
 	/>
 	<p>
-		The 1→2SG form <i lang="ain">eci-</i> is segmentally identical to the 2PL marker but is a
-		distinct portmanteau; Sentoku uses it to his single addressee:
+		The 1→2SG form <i lang="ain">eci-</i> is segmentally identical to the 2PL marker but is a distinct
+		portmanteau; Sentoku uses it to his single addressee:
 	</p>
 	<Ex
 		m="suy yoponi uepekere an ciki eci=nu-re kusu iki"
@@ -403,10 +421,10 @@
 		The AN-series, by contrast, combines its prefixes compositionally:
 		<i lang="ain">an-e-</i> for INDEF→2SG and <i lang="ain">e-i-</i> for 2SG→INDEF. Kindaichi
 		reported precisely this “strict” combinability as the hallmark of Sakhalin
-		<Ref k="sakaguchi2024" p="32" paren />, though his tables also contain regularised forms
-		(<i lang="ain">e-in-</i>, <i lang="ain">eci-in-</i>, <i lang="ain">an-eci-</i>) for which
-		no textual attestation has been found <Ref k="sakaguchi2024" p="38, 51" paren /> — a
-		caution against filling paradigms by analogy.
+		<Ref k="sakaguchi2024" p="32" paren />, though his tables also contain regularised forms (<i
+			lang="ain">e-in-</i
+		>, <i lang="ain">eci-in-</i>, <i lang="ain">an-eci-</i>) for which no textual attestation has
+		been found <Ref k="sakaguchi2024" p="38, 51" paren /> — a caution against filling paradigms by analogy.
 	</p>
 	<Ex
 		m="anoka orowano an-e-makan-ke"
@@ -424,8 +442,8 @@
 		dial="ES"
 	/>
 	<p>
-		One tale recorded twice on the east coast supplies the same insult in both series, the
-		neatest demonstration of the personal agreement rule: KU-series subject with
+		One tale recorded twice on the east coast supplies the same insult in both series, the neatest
+		demonstration of the personal agreement rule: KU-series subject with
 		<i lang="ain">in-</i>, AN-series subject with <i lang="ain">e-i-</i>, never crossed
 		<Ref k="sakaguchi2024" p="38" paren />:
 	</p>
@@ -452,10 +470,10 @@
 		portmanteau: <i lang="ain">eci-…-yan</i> for 1→2PL, <i lang="ain">in-…-an</i> (west coast
 		<i lang="ain">en-…-yan</i>, <Ref k="hattori1961" p="16" />) for 2PL→1. Murasaki stated the
 		generalisation for Rayciska — <i lang="ain">-yan</i> appears whenever a first person and a
-		plural second person interact, in either direction <Ref k="murasaki1979" p="50" paren /> —
-		and Sakaguchi confirms it for the east coast: the suffix marks the plurality of the second
-		person, whatever its role <Ref k="sakaguchi2024" p="53–54" paren />, an analysis Tangiku
-		also adopts for the contemporary description (Tangiku 2022: 358, in
+		plural second person interact, in either direction <Ref k="murasaki1979" p="50" paren /> — and Sakaguchi
+		confirms it for the east coast: the suffix marks the plurality of the second person, whatever its
+		role <Ref k="sakaguchi2024" p="53–54" paren />, an analysis Tangiku also adopts for the
+		contemporary description (Tangiku 2022: 358, in
 		<Ref k="bugaeva2022" paren />). It is surely related to the plural imperative particle
 		<A w="yan" /> (<Ref k="murasaki1979" p="30" />; <Xr ch="verb-structure">Chapter 12</Xr>).
 	</p>
@@ -476,30 +494,34 @@
 	/>
 	<p>
 		Piłsudski took <i lang="ain">inranupan</i> here to stand “instead of”
-		<i lang="ain">inranu</i> <Ref k="pilsudski1912" p="92" paren />; the two tokens in the same
-		tale show rather that the suffix tracks the number of the second-person subject
+		<i lang="ain">inranu</i>
+		<Ref k="pilsudski1912" p="92" paren />; the two tokens in the same tale show rather that the
+		suffix tracks the number of the second-person subject
 		<Ref k="sakaguchi2024" p="40–41" paren />. In the AN-series the same surface string
-		<i lang="ain">eci-…-(y)an</i> is compositional — object <i lang="ain">eci-</i> plus the
-		ordinary indefinite subject suffix <i lang="ain">-an</i> — as shown by tokens co-occurring
-		with the pronoun <i lang="ain">anokay</i> and prefix <i lang="ain">an-</i> in Yamabe's
-		narrative <Ref k="sakaguchi2024" p="49–51" paren />. In the corpus, Dobrotvorsky's
-		conversational texts attest the AN-series 1→2SG combination directly:
+		<i lang="ain">eci-…-(y)an</i> is compositional — object <i lang="ain">eci-</i> plus the ordinary
+		indefinite subject suffix <i lang="ain">-an</i> — as shown by tokens co-occurring with the
+		pronoun <i lang="ain">anokay</i> and prefix <i lang="ain">an-</i> in Yamabe's narrative <Ref
+			k="sakaguchi2024"
+			p="49–51"
+			paren
+		/>. In the corpus, Dobrotvorsky's conversational texts attest the AN-series 1→2SG combination
+		directly:
 		<i lang="ain">an=e=nukara</i> ‘I met you’ <Ref k="dobrotvorsky1875" paren />,
 		<Ref k="sakaguchi2021" paren />.
 	</p>
 	<p>
-		The empty cells of Table 2, finally, are not all gaps of the same standing. The
-		configurations in which agent and object are the same speech-act participant — a first
-		person acting on a first person, a second on a second — can never be filled. Such a
-		clause is necessarily coreferential, and coreference between the two core slots is not
-		built by stacking an A-prefix on an O-prefix: it is routed through the reflexive prefix
+		The empty cells of Table 2, finally, are not all gaps of the same standing. The configurations
+		in which agent and object are the same speech-act participant — a first person acting on a first
+		person, a second on a second — can never be filled. Such a clause is necessarily coreferential,
+		and coreference between the two core slots is not built by stacking an A-prefix on an O-prefix:
+		it is routed through the reflexive prefix
 		<i lang="ain">yay-</i> (marginally <i lang="ain">si-</i>;
-		<Xr ch="valency">Chapter 14</Xr>), which withdraws the object from the person paradigm,
-		so that the derived verb carries a single person marker. East-coast
-		<i lang="ain">yay-reske-an</i> ‘I brought myself up’ shows the reflexive stem taking
-		plain intransitive agreement where <i lang="ain">reske</i> ‘raise’ takes prefixes
-		<Ref k="dalcorso2024" p="73–74" paren />, and Dobrotvorsky's conversational texts
-		attest the configuration with the lexicalised <i lang="ain">yayko-</i>:
+		<Xr ch="valency">Chapter 14</Xr>), which withdraws the object from the person paradigm, so that
+		the derived verb carries a single person marker. East-coast
+		<i lang="ain">yay-reske-an</i> ‘I brought myself up’ shows the reflexive stem taking plain
+		intransitive agreement where <i lang="ain">reske</i> ‘raise’ takes prefixes
+		<Ref k="dalcorso2024" p="73–74" paren />, and Dobrotvorsky's conversational texts attest the
+		configuration with the lexicalised <i lang="ain">yayko-</i>:
 	</p>
 	<Ex
 		m="sonnoka an-yayko-ramuosma"
@@ -513,62 +535,64 @@
 		place="West coast, central (recorded 1867–1872)"
 	/>
 	<p>
-		The 1→1 (and 2→2) dashes are thus theorems of the grammar, not accidents of the record,
-		and no portmanteau should be reconstructed for them: reflexivisation empties this corner
-		of the person paradigm in head-marking languages quite generally. The cells pairing the
-		AN-series with the KU- or CI-series follow in turn from the personal agreement rule of
-		§13.1, which bars the two series from a single clause; where a genuinely indefinite agent
-		acts on the speaker — the one non-coreferential reading — the east coast resorts to the
-		passive <i lang="ain">inci-</i> (§13.3). Only what remains once these principles have
-		done their work counts as a documentary gap in the strict sense, and in a closed corpus
-		it must stay one.
+		The 1→1 (and 2→2) dashes are thus theorems of the grammar, not accidents of the record, and no
+		portmanteau should be reconstructed for them: reflexivisation empties this corner of the person
+		paradigm in head-marking languages quite generally. The cells pairing the AN-series with the KU-
+		or CI-series follow in turn from the personal agreement rule of §13.1, which bars the two series
+		from a single clause; where a genuinely indefinite agent acts on the speaker — the one
+		non-coreferential reading — the east coast resorts to the passive <i lang="ain">inci-</i> (§13.3).
+		Only what remains once these principles have done their work counts as a documentary gap in the strict
+		sense, and in a closed corpus it must stay one.
 	</p>
 </S>
 
 <S t="Morphological alignment" id="alignment">
 	<p>
-		Read off the paradigm, the synchronic alignment of Sakhalin Ainu person marking is split
-		by person, and we state it as follows. First person singular is
-		nominative–accusative: one form for S and A (<i lang="ain">ku-</i>), another for O
-		(<i lang="ain">en-</i>/<i lang="ain">in-</i>). The first person plural exclusive and the
-		indefinite distinguish all three roles — <i lang="ain">-as</i>/<i lang="ain">ci-</i>/<i
-		lang="ain">in-</i> and <i lang="ain">-an</i>/<i lang="ain">an-</i>/<i lang="ain">i-</i> —
-		a tripartite arrangement, with the S-form suffixed and the A-form prefixed. Second persons
-		are neutral (one invariant form each), and third person is neutral by zero. This is
-		Sakaguchi's classification of the east-coast system <Ref k="sakaguchi2024" p="31" paren />,
-		and it holds for the west coast with the lexical substitutions noted above.
+		Read off the paradigm, the synchronic alignment of Sakhalin Ainu person marking is split by
+		person, and we state it as follows. First person singular is nominative–accusative: one form for
+		S and A (<i lang="ain">ku-</i>), another for O (<i lang="ain">en-</i>/<i lang="ain">in-</i>).
+		The first person plural exclusive and the indefinite distinguish all three roles —
+		<i lang="ain">-as</i>/<i lang="ain">ci-</i>/<i lang="ain">in-</i> and <i lang="ain">-an</i>/<i
+			lang="ain">an-</i
+		>/<i lang="ain">i-</i> — a tripartite arrangement, with the S-form suffixed and the A-form
+		prefixed. Second persons are neutral (one invariant form each), and third person is neutral by
+		zero. This is Sakaguchi's classification of the east-coast system <Ref
+			k="sakaguchi2024"
+			p="31"
+			paren
+		/>, and it holds for the west coast with the lexical substitutions noted above.
 	</p>
 	<p>
 		<Ref k="dalcorso2025align" /> frames the same facts differently. Treating
 		<i lang="ain">-as</i>/<i lang="ain">ci-</i> and <i lang="ain">-an</i>/<i lang="ain">an-</i>
-		each as a single marker whose suffixal and prefixal realisations continue one historical
-		item — Tamura's old observation that <i lang="ain">-an</i> behaves prosodically like the
-		verb <A w="an" gl="exist" /> it descends from, reported and extended at
-		<Ref k="dalcorso2025align" p="190–191" /> — he dispenses with the tripartite component and
-		describes the basic system as mixed nominative–neutral: nominative for first person and
-		the indefinite, neutral for second and third. The difference is one of segmentation, not
-		of substance: once the distribution (suffix on intransitives, prefix on transitives,
-		distinct O-forms) is stated, nothing empirical hangs on whether S- and A-forms are one
-		morpheme or two. We use the role-explicit glosses INDEF.S, INDEF.A, INDEF.O precisely so
-		that the description does not prejudge this.
+		each as a single marker whose suffixal and prefixal realisations continue one historical item — Tamura's
+		old observation that <i lang="ain">-an</i> behaves prosodically like the verb <A
+			w="an"
+			gl="exist"
+		/> it descends from, reported and extended at
+		<Ref k="dalcorso2025align" p="190–191" /> — he dispenses with the tripartite component and describes
+		the basic system as mixed nominative–neutral: nominative for first person and the indefinite, neutral
+		for second and third. The difference is one of segmentation, not of substance: once the distribution
+		(suffix on intransitives, prefix on transitives, distinct O-forms) is stated, nothing empirical hangs
+		on whether S- and A-forms are one morpheme or two. We use the role-explicit glosses INDEF.S, INDEF.A,
+		INDEF.O precisely so that the description does not prejudge this.
 	</p>
 	<p>
-		The substantive part of Dal Corso's proposal concerns the interaction forms of §13.4 and
-		their history. He reconstructs Proto Sakhalin Ainu with only <i lang="ain">ku-</i>,
+		The substantive part of Dal Corso's proposal concerns the interaction forms of §13.4 and their
+		history. He reconstructs Proto Sakhalin Ainu with only <i lang="ain">ku-</i>,
 		<i lang="ain">en-</i> and <i lang="ain">e-</i>, plus a collective verb
-		<i lang="ain">*asti</i> that grammaticalised into the plural markers and, fused with the
-		person prefixes, yielded <i lang="ain">ci-</i>, <i lang="ain">-as</i> and
-		<i lang="ain">eci-</i> <Ref k="dalcorso2025align" p="203–205" paren />. A single prefix
-		slot, accent shift and syllable weight then conspired against double prefixation in
-		first–second person contexts, leaving object-only portmanteaux
-		(<i lang="ain">eci-</i>, <i lang="ain">en-</i>/<i lang="ain">in-</i>) with subject
-		syncretism <Ref k="dalcorso2025align" p="207–208" paren />. Finally, the indefinite —
-		already used for a low-referentiality agent acting on a more specific patient, as in
-		impersonal passives — was recruited to disambiguate subject number. The pivot of this
-		last step lies outside the speech-act domain altogether, in 3→3 clauses whose agent is
-		low in referentiality. There <i lang="ain">an-</i> already does inverse-like work: the
-		patient outranks the unexpressed agent, and the clause hovers between an
-		indefinite-agent and a passive reading:
+		<i lang="ain">*asti</i> that grammaticalised into the plural markers and, fused with the person
+		prefixes, yielded <i lang="ain">ci-</i>, <i lang="ain">-as</i> and
+		<i lang="ain">eci-</i>
+		<Ref k="dalcorso2025align" p="203–205" paren />. A single prefix slot, accent shift and syllable
+		weight then conspired against double prefixation in first–second person contexts, leaving
+		object-only portmanteaux (<i lang="ain">eci-</i>, <i lang="ain">en-</i>/<i lang="ain">in-</i>)
+		with subject syncretism <Ref k="dalcorso2025align" p="207–208" paren />. Finally, the indefinite
+		— already used for a low-referentiality agent acting on a more specific patient, as in
+		impersonal passives — was recruited to disambiguate subject number. The pivot of this last step
+		lies outside the speech-act domain altogether, in 3→3 clauses whose agent is low in
+		referentiality. There <i lang="ain">an-</i> already does inverse-like work: the patient outranks
+		the unexpressed agent, and the clause hovers between an indefinite-agent and a passive reading:
 	</p>
 	<Ex
 		m="ahci an-nukara"
@@ -581,48 +605,48 @@
 	<p>
 		Extending this device into the first–second person domain gave the discontinuous
 		<i lang="ain">eci-…-(y)an</i>, <i lang="ain">en-…-yan</i> and <i lang="ain">in-…-an</i>
-		of §13.4: the prefix goes on indexing the object, while the suffix, in origin the mark
-		of a backgrounded agent, comes to spell out the subject whose person the portmanteau
-		leaves syncretic. Dal Corso reads the result as an emerging, non-prototypical
+		of §13.4: the prefix goes on indexing the object, while the suffix, in origin the mark of a backgrounded
+		agent, comes to spell out the subject whose person the portmanteau leaves syncretic. Dal Corso reads
+		the result as an emerging, non-prototypical
 		<em>inverse</em> — special marking wherever the object outranks the subject in discourse
 		salience — and draws a typological parallel with Algonquian and Athabaskan, where
 		impersonal-agent forms (Meskwaki <i>-ekoː</i>, Potawatomi <i>-ikoː</i>) were likewise
-		regrammaticalised as inverse markers <Ref k="dalcorso2025align" p="209–213" paren />. He
-		is explicit that the system is not uniformly inverse — 1→2SG marking is hierarchical
-		rather than inverse, and 2→1 forms encode object role transparently — and that most
-		reconstructed stages are unattested <Ref k="dalcorso2025align" p="202, 212–213" paren />.
+		regrammaticalised as inverse markers <Ref k="dalcorso2025align" p="209–213" paren />. He is
+		explicit that the system is not uniformly inverse — 1→2SG marking is hierarchical rather than
+		inverse, and 2→1 forms encode object role transparently — and that most reconstructed stages are
+		unattested <Ref k="dalcorso2025align" p="202, 212–213" paren />.
 	</p>
 	<p>
-		As a diachronic account we find this persuasive: it derives the portmanteaux from
-		independently motivated phonology, connects the interaction suffix to the indefinite, and
-		explains why the object is always the overtly indexed argument. Synchronically, however,
-		we do not describe Sakhalin Ainu as inverse-aligned. The decisive datum is Sakaguchi's
-		demonstration that in the KU/CI-series the suffix <i lang="ain">-(y)an</i> co-varies with
-		the <em>number of the second person</em> in both directions (1→2PL and 2PL→1), while in
-		the AN-series the same string is the ordinary indefinite subject suffix
-		<Ref k="sakaguchi2024" p="53–55" paren />. A marker whose function is second-person
-		plurality is not an inverse marker. The two readings are nonetheless not flatly
-		incompatible: they approach the same closed corpus from opposite ends, Sakaguchi from
-		the synchronic distribution of the attested cells, Dal Corso from the trajectory that
-		produced them, and the elicitation that would force a choice can no longer be carried
-		out. Where the inverse analysis has genuine synchronic purchase is in the 3→3
-		indefinite-agent clauses above — a live textual pattern, not a reconstruction — and a
-		reader who follows <Ref k="dalcorso2025align" /> may prefer to gloss such tokens of
-		<i lang="ain">an-</i> as inverse where we keep INDEF. Our synchronic statement is
-		therefore: core alignment
-		nominative–accusative for first person and the indefinite (with role-split tripartite
-		exponence in the CI- and AN-series), neutral for second and third persons; and, overlaid
-		on it, a closed set of portmanteau prefixes and circumfixes for first–second person
-		interactions in which the object controls the prefix slot — a hierarchical trait whose
-		inverse-like asymmetries are the fossil of the development Dal Corso reconstructs.
+		As a diachronic account we find this persuasive: it derives the portmanteaux from independently
+		motivated phonology, connects the interaction suffix to the indefinite, and explains why the
+		object is always the overtly indexed argument. Synchronically, however, we do not describe
+		Sakhalin Ainu as inverse-aligned. The decisive datum is Sakaguchi's demonstration that in the
+		KU/CI-series the suffix <i lang="ain">-(y)an</i> co-varies with the
+		<em>number of the second person</em>
+		in both directions (1→2PL and 2PL→1), while in the AN-series the same string is the ordinary indefinite
+		subject suffix
+		<Ref k="sakaguchi2024" p="53–55" paren />. A marker whose function is second-person plurality is
+		not an inverse marker. The two readings are nonetheless not flatly incompatible: they approach
+		the same closed corpus from opposite ends, Sakaguchi from the synchronic distribution of the
+		attested cells, Dal Corso from the trajectory that produced them, and the elicitation that would
+		force a choice can no longer be carried out. Where the inverse analysis has genuine synchronic
+		purchase is in the 3→3 indefinite-agent clauses above — a live textual pattern, not a
+		reconstruction — and a reader who follows <Ref k="dalcorso2025align" /> may prefer to gloss such
+		tokens of
+		<i lang="ain">an-</i> as inverse where we keep INDEF. Our synchronic statement is therefore: core
+		alignment nominative–accusative for first person and the indefinite (with role-split tripartite exponence
+		in the CI- and AN-series), neutral for second and third persons; and, overlaid on it, a closed set
+		of portmanteau prefixes and circumfixes for first–second person interactions in which the object
+		controls the prefix slot — a hierarchical trait whose inverse-like asymmetries are the fossil of
+		the development Dal Corso reconstructs.
 	</p>
 </S>
 
 <S t="Person marking on nouns" id="nouns">
 	<p>
-		The transitive A-prefixes double as possessor indexes on nouns, which then take the
-		possessive (“belonging”) suffix — <i lang="ain">ku-matak-ihi</i> ‘my younger sister’ in
-		the following, with the 1→2 portmanteau on the verbs beside it:
+		The transitive A-prefixes double as possessor indexes on nouns, which then take the possessive
+		(“belonging”) suffix — <i lang="ain">ku-matak-ihi</i> ‘my younger sister’ in the following, with
+		the 1→2 portmanteau on the verbs beside it:
 	</p>
 	<Ex
 		m="ku-matak-ihi eski eci-sam-te kusu eci-ko-ruura ruuhe nee"
@@ -632,32 +656,36 @@
 		dial="ES"
 	/>
 	<p>
-		Alongside direct prefixation, possession is freely expressed by a relative construction
-		with the verb <A w="koro" gl="have" />: Sentoku's <i lang="ain">an=koro nispa</i> ‘my
-		master’ and <i lang="ain">e=koro kotan</i> ‘your village’, the hero's
+		Alongside direct prefixation, possession is freely expressed by a relative construction with the
+		verb <A w="koro" gl="have" />: Sentoku's <i lang="ain">an=koro nispa</i> ‘my master’ and
+		<i lang="ain">e=koro kotan</i>
+		‘your village’, the hero's
 		<i lang="ain">an-koro nay</i> ‘the river I own’ in §13.2, and the compounded
-		<i lang="ain">ci-koro-cise-he</i> ‘the house I own’ in §13.4. Chiri adds that dative
-		(recipient) persons are built on the object forms with an applicative:
+		<i lang="ain">ci-koro-cise-he</i> ‘the house I own’ in §13.4. Chiri adds that dative (recipient)
+		persons are built on the object forms with an applicative:
 		<i lang="ain">in-ko-</i> ‘to me/us’, <i lang="ain">e-ko-</i> ‘to you’
-		<Ref k="chiri1942" p="§37" paren />. The morphology and semantics of possessive forms,
-		including the nominal plural <i lang="ain">-ahcin</i>, are treated in
+		<Ref k="chiri1942" p="§37" paren />. The morphology and semantics of possessive forms, including
+		the nominal plural <i lang="ain">-ahcin</i>, are treated in
 		<Xr ch="nouns-and-possession">Chapter 7</Xr>.
 	</p>
 </S>
 
 <S t="Person and verbal number" id="number">
 	<p>
-		Person marking interlocks with verbal number at two points
-		(<Xr ch="number">Chapter 8</Xr>, <Xr ch="verb-structure">Chapter 12</Xr>). First, the
-		suffix <i lang="ain">-hci</i> (east-coast realisations also <i lang="ain">-(a)hci</i>,
-		<i lang="ain">-si</i>, <Ref k="dalcorso2024" p="62–63" />) marks plurality or
-		collectivity of a core argument. Murasaki listed it among the person affixes as an
-		optional third person plural <Ref k="murasaki1979" p="49–51" paren />, but since it
-		co-occurs with overt person markers of any person — Sentoku's
+		Person marking interlocks with verbal number at two points (<Xr ch="number">Chapter 8</Xr>, <Xr
+			ch="verb-structure">Chapter 12</Xr
+		>). First, the suffix <i lang="ain">-hci</i> (east-coast realisations also
+		<i lang="ain">-(a)hci</i>,
+		<i lang="ain">-si</i>, <Ref k="dalcorso2024" p="62–63" />) marks plurality or collectivity of a
+		core argument. Murasaki listed it among the person affixes as an optional third person plural <Ref
+			k="murasaki1979"
+			p="49–51"
+			paren
+		/>, but since it co-occurs with overt person markers of any person — Sentoku's
 		<i lang="ain">an=e-hci</i> ‘we eat it’ above, Murasaki's own
 		<i lang="ain">eci-itak-ahci</i> ‘you all speak’ — we treat it with
-		<Ref k="dalcorso2025align" p="202" /> and <Ref k="sakaguchi2024" /> as a number marker,
-		not person agreement. With unmarked third persons it is what signals plurality:
+		<Ref k="dalcorso2025align" p="202" /> and <Ref k="sakaguchi2024" /> as a number marker, not person
+		agreement. With unmarked third persons it is what signals plurality:
 	</p>
 	<Ex
 		m="iineahsuy tan cise un monimahpo uta hemata e-hci wa okay-ahci hii"
@@ -678,16 +706,18 @@
 	/>
 	<p>
 		The controller need not be the subject: Piłsudski already noted of
-		<i lang="ain">an-kuyra-si</i> ‘I stole up on them’ that the plural sign is there “not on
-		account of the subject (‘I’) but because the object (the gods) is in the pl.”
-		<Ref k="pilsudski1912" p="40–41" paren />. Second, suppletive stem pairs
-		(<A w="oman" gl="go (sg)" /> ~ <A w="paye" gl="go (pl)" />, <A w="an" gl="exist (sg)" />
-		~ <A w="okay" gl="exist (pl)" />) agree with the grammatical number of the person series:
-		the CI- and AN-series select plural stems even for a single referent —
+		<i lang="ain">an-kuyra-si</i> ‘I stole up on them’ that the plural sign is there “not on account
+		of the subject (‘I’) but because the object (the gods) is in the pl.”
+		<Ref k="pilsudski1912" p="40–41" paren />. Second, suppletive stem pairs (<A
+			w="oman"
+			gl="go (sg)"
+		/> ~ <A w="paye" gl="go (pl)" />, <A w="an" gl="exist (sg)" />
+		~ <A w="okay" gl="exist (pl)" />) agree with the grammatical number of the person series: the
+		CI- and AN-series select plural stems even for a single referent —
 		<i lang="ain">asip-as</i>, <i lang="ain">paye-as</i>, <i lang="ain">makap-an</i>,
 		<i lang="ain">ariki-an</i>, <i lang="ain">okay-an</i> in the examples above — while the
 		KU-series takes singular stems (<i lang="ain">ku-san</i>, <i lang="ain">e=oman</i>)
-		<Ref k="sakaguchi2024" p="27–29" paren />. This grammatical plurality is the reason we
-		segment the indefinite and the CI-series as plural categories whatever they refer to.
+		<Ref k="sakaguchi2024" p="27–29" paren />. This grammatical plurality is the reason we segment
+		the indefinite and the CI-series as plural categories whatever they refer to.
 	</p>
 </S>

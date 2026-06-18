@@ -2,3 +2,14 @@
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
+bun.lockb
+
+# Generated / hand-maintained data — don't let prettier fight the producing pipeline
+src/lib/data.json
+src/lib/data/sound_rules.json
+
+# Build output & local tooling
+.svelte-kit/
+.vercel/
+build/
+.claude/

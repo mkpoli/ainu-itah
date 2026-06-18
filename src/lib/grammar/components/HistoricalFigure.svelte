@@ -39,8 +39,11 @@
 		{caption}
 		<span class="mt-0.5 block text-xs text-gray-400">
 			{credit}{#if href}
-				· <a class="underline underline-offset-2 hover:text-gray-600" {href} target="_blank" rel="noopener"
-					>Wikimedia Commons</a
+				· <a
+					class="underline underline-offset-2 hover:text-gray-600"
+					{href}
+					target="_blank"
+					rel="noopener">Wikimedia Commons</a
 				>{/if}
 		</span>
 	</figcaption>

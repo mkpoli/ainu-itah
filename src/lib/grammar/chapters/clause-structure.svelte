@@ -3,29 +3,31 @@
 </script>
 
 <p>
-	The Sakhalin Ainu clause is head-marking: the verb indexes its arguments with the
-	person affixes of <Xr ch="person-and-alignment">Chapter 13</Xr>, and noun phrases
-	appear only when reference needs to be established or shifted. The one extended
-	syntactic description of a Sakhalin variety is Furukawa's generative sketch of
-	Rayciska, based on her own fieldwork with Fujiyama Haru
-	<Ref k="furukawa1967" paren />; its rules and examples, read together with the
-	narrative corpus, underpin much of this chapter. Furukawa's clause template —
-	subject, predicate, auxiliary, and an obligatory final-particle slot carried by
-	intonation <Ref k="furukawa1967" p="102, 105" paren /> — is a fair summary of what the
-	texts show: a verb-final clause closed by a small grammatical tail of auxiliaries,
-	evidentials, and final particles.
+	The Sakhalin Ainu clause is head-marking: the verb indexes its arguments with the person affixes
+	of <Xr ch="person-and-alignment">Chapter 13</Xr>, and noun phrases appear only when reference
+	needs to be established or shifted. The one extended syntactic description of a Sakhalin variety
+	is Furukawa's generative sketch of Rayciska, based on her own fieldwork with Fujiyama Haru
+	<Ref k="furukawa1967" paren />; its rules and examples, read together with the narrative corpus,
+	underpin much of this chapter. Furukawa's clause template — subject, predicate, auxiliary, and an
+	obligatory final-particle slot carried by intonation <Ref k="furukawa1967" p="102, 105" paren /> —
+	is a fair summary of what the texts show: a verb-final clause closed by a small grammatical tail of
+	auxiliaries, evidentials, and final particles.
 </p>
 
 <S t="Arguments and their omission" id="argument-omission">
 	<p>
-		Person marking makes independent pronouns redundant. Furukawa states the
-		distribution plainly: <i lang="ain">kuani</i> ‘I’, <i lang="ain">eani</i> ‘you’,
-		<i lang="ain">anoka</i> ‘we’, <i lang="ain">ecioka</i> ‘you (pl)’ are used only when
-		the speaker points to the referent itself, while in ordinary clauses the affixes
-		alone carry the relations <Ref k="furukawa1967" p="102–103" />
-		(<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr>). Third persons are unmarked on
-		the verb, so a third-person argument that is not recoverable from context is the one
-		that appears as an overt noun phrase:
+		Person marking makes independent pronouns redundant. Furukawa states the distribution plainly: <i
+			lang="ain">kuani</i
+		>
+		‘I’, <i lang="ain">eani</i> ‘you’,
+		<i lang="ain">anoka</i> ‘we’, <i lang="ain">ecioka</i> ‘you (pl)’ are used only when the speaker
+		points to the referent itself, while in ordinary clauses the affixes alone carry the relations <Ref
+			k="furukawa1967"
+			p="102–103"
+		/>
+		(<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr>). Third persons are unmarked on the verb,
+		so a third-person argument that is not recoverable from context is the one that appears as an
+		overt noun phrase:
 	</p>
 	<Ex
 		m="tampe ku-nukara"
@@ -44,24 +46,26 @@
 		place="Rayciska (Fujiyama Haru)"
 	/>
 	<p>
-		Connected narrative pushes the same economy further. In the Asai Take corpus, runs
-		of clauses with no overt noun phrase at all are the norm once protagonists are
-		established, with reference managed by the verbal morphology, by the anaphoric
-		demonstrative <A w="neya" /> when needed, and by the discourse conventions described
-		in <Xr ch="information-structure">Chapter 24</Xr>. Overt noun phrases cluster at
-		episode boundaries, where participants enter or change; this distribution is our
-		generalisation over the corpus, and it matches Furukawa's elicited judgements.
+		Connected narrative pushes the same economy further. In the Asai Take corpus, runs of clauses
+		with no overt noun phrase at all are the norm once protagonists are established, with reference
+		managed by the verbal morphology, by the anaphoric demonstrative <A w="neya" /> when needed, and
+		by the discourse conventions described in <Xr ch="information-structure">Chapter 24</Xr>. Overt
+		noun phrases cluster at episode boundaries, where participants enter or change; this
+		distribution is our generalisation over the corpus, and it matches Furukawa's elicited
+		judgements.
 	</p>
 </S>
 
 <S t="Constituent order" id="word-order">
 	<p>
-		The pragmatically neutral orders are subject–verb and agent–object–verb; obliques
-		and adverbs precede the verb, and nothing follows it except the grammatical tail —
-		auxiliaries, evidentials, and final particles
-		(<Ref k="furukawa1967" p="102" />; <Ref k="dalcorso2025neg" p="39" paren />).
-		Example (2) above shows the full A–O–V layout with a ditransitive verb. A clause
-		with a chained posture predicate illustrates the same head-final profile:
+		The pragmatically neutral orders are subject–verb and agent–object–verb; obliques and adverbs
+		precede the verb, and nothing follows it except the grammatical tail — auxiliaries, evidentials,
+		and final particles (<Ref k="furukawa1967" p="102" />; <Ref
+			k="dalcorso2025neg"
+			p="39"
+			paren
+		/>). Example (2) above shows the full A–O–V layout with a ditransitive verb. A clause with a
+		chained posture predicate illustrates the same head-final profile:
 	</p>
 	<Ex
 		m="ahci kuwa koro kanne ahkas kusu an"
@@ -73,11 +77,10 @@
 		note="On the progressive periphrasis kusu an see Chapter 15."
 	/>
 	<p>
-		Departures from verb-finality in the spoken corpus are afterthoughts: a noun phrase
-		identifying a referent is added after the predicate (and after the reportative
-		<A w="manu" />), with the prosody of a separate tail. We analyse these as
-		right-dislocation rather than basic order; they typically resolve the reference of
-		a quoted speaker:
+		Departures from verb-finality in the spoken corpus are afterthoughts: a noun phrase identifying
+		a referent is added after the predicate (and after the reportative
+		<A w="manu" />), with the prosody of a separate tail. We analyse these as right-dislocation
+		rather than basic order; they typically resolve the reference of a quoted speaker:
 	</p>
 	<Ex
 		m="nah yee manu tu horokewpo"
@@ -92,15 +95,16 @@
 
 <S t="The noun phrase" id="np-order">
 	<p>
-		Within the noun phrase the order is fixed: demonstrative, numeral, modifying clause,
-		head noun, plural word — Furukawa's rule NP → (Det<sub>d</sub>)
-		(Det<sub>n</sub>) (clause) N (plural) <Ref k="furukawa1967" p="102" paren />.
-		Modifying ‘adjectives’ are clauses (<Xr ch="word-classes">Chapter 6</Xr>;
+		Within the noun phrase the order is fixed: demonstrative, numeral, modifying clause, head noun,
+		plural word — Furukawa's rule NP → (Det<sub>d</sub>) (Det<sub>n</sub>) (clause) N (plural) <Ref
+			k="furukawa1967"
+			p="102"
+			paren
+		/>. Modifying ‘adjectives’ are clauses (<Xr ch="word-classes">Chapter 6</Xr>;
 		<Xr ch="relative-clauses">Chapter 21</Xr>), and the plural words
 		<i lang="ain">uta(h)</i> (<Xr ch="number">Chapter 8</Xr>),
-		<i lang="ain">oy</i>, and <i lang="ain">ikiri</i> close the
-		phrase. The possessive morphology wraps around the
-		whole phrase, not just the head noun: Furukawa records
+		<i lang="ain">oy</i>, and <i lang="ain">ikiri</i> close the phrase. The possessive morphology
+		wraps around the whole phrase, not just the head noun: Furukawa records
 		<i lang="ain">e-kurasno seta-ha</i> ‘your black dog’ and, with a numeral,
 	</p>
 	<Ex
@@ -116,13 +120,16 @@
 
 <S t="Questions" id="questions">
 	<p>
-		Sakhalin Ainu marks polar questions with intonation and final particles, never with
-		word-order change. The striking fact, recorded by Furukawa for Rayciska, is that the
-		interrogative contour is FALLING while declaratives end high: the same string
-		<i lang="ain">tara aynu omanihi</i> is ‘that person went’ with rising pitch and
-		‘did that person go?’ with falling pitch <Ref k="furukawa1967" p="109" paren />.
-		Final particles split by the same contour — <i lang="ain">wa</i> with rising pitch
-		commands, with falling pitch questions <Ref k="furukawa1967" p="105" paren />:
+		Sakhalin Ainu marks polar questions with intonation and final particles, never with word-order
+		change. The striking fact, recorded by Furukawa for Rayciska, is that the interrogative contour
+		is FALLING while declaratives end high: the same string
+		<i lang="ain">tara aynu omanihi</i> is ‘that person went’ with rising pitch and ‘did that person
+		go?’ with falling pitch <Ref k="furukawa1967" p="109" paren />. Final particles split by the
+		same contour — <i lang="ain">wa</i> with rising pitch commands, with falling pitch questions <Ref
+			k="furukawa1967"
+			p="105"
+			paren
+		/>:
 	</p>
 	<Ex
 		m="neya nispa eh wa"
@@ -144,10 +151,9 @@
 	/>
 	<p>
 		The default polar particle of the modern conversational record is
-		<i lang="ain">hee</i>, which closes copular and verbal questions alike; it is the
-		interrogative particle of Murasaki's Enciw course
-		(<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr>), and the rest of this grammar
-		relies on it. A copular polar question:
+		<i lang="ain">hee</i>, which closes copular and verbal questions alike; it is the interrogative
+		particle of Murasaki's Enciw course (<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr>), and
+		the rest of this grammar relies on it. A copular polar question:
 	</p>
 	<Ex
 		m="tara mahtekuh neyke Husako nee hee"
@@ -158,12 +164,13 @@
 		note="The negative answer in the same exchange is Husako ka hannehka ‘she is not Husako’ (§17.3)."
 	/>
 	<p>
-		Sentoku Tarōji's letters attest the particle <i lang="ain">ya</i> in the same
-		function, stacked after <i lang="ain">hetane</i> in
-		<i lang="ain">temana an okay e=kihi hetane ya</i> ‘how are you faring?’
-		(<Xr ch="texts">Chapter 26</Xr>). Content questions leave the interrogative word in
-		its clause-internal position (<Xr ch="pronouns-and-demonstratives">Chapter 9</Xr> for
-		the inventory); no fronting is attested in the corpus:
+		Sentoku Tarōji's letters attest the particle <i lang="ain">ya</i> in the same function, stacked
+		after <i lang="ain">hetane</i> in
+		<i lang="ain">temana an okay e=kihi hetane ya</i> ‘how are you faring?’ (<Xr ch="texts"
+			>Chapter 26</Xr
+		>). Content questions leave the interrogative word in its clause-internal position (<Xr
+			ch="pronouns-and-demonstratives">Chapter 9</Xr
+		> for the inventory); no fronting is attested in the corpus:
 	</p>
 	<Ex
 		m="hemata e-nukara haa"
@@ -177,9 +184,11 @@
 
 <S t="Commands and invitations" id="directives">
 	<p>
-		The imperative is the bare verb, normally supported by a final particle scaled to
-		politeness: <i lang="ain">kanne</i> for polite requests, <i lang="ain">wa</i> for
-		plain commands, <i lang="ain">kah</i> for brusque ones used with intimates
+		The imperative is the bare verb, normally supported by a final particle scaled to politeness: <i
+			lang="ain">kanne</i
+		>
+		for polite requests, <i lang="ain">wa</i> for plain commands, <i lang="ain">kah</i> for brusque
+		ones used with intimates
 		<Ref k="furukawa1967" p="105–108" paren />. The prohibitive counterpart with
 		<i lang="ain">hanka</i> is described in <Xr ch="negation" s="prohibitive">§17.5</Xr>.
 	</p>
@@ -201,8 +210,8 @@
 		note="Furukawa lists i- as the first-plural object prefix; we treat it as the object form of the indefinite set (Chapter 13)."
 	/>
 	<p>
-		Hortatives use the indefinite-person suffix <i lang="ain">-an</i> on the plural verb
-		stem, with the invitation particles <i lang="ain">anaa</i> (polite) or
+		Hortatives use the indefinite-person suffix <i lang="ain">-an</i> on the plural verb stem, with
+		the invitation particles <i lang="ain">anaa</i> (polite) or
 		<i lang="ain">roo</i> (familiar) <Ref k="furukawa1967" p="108" paren />
 		(<Xr ch="tense-aspect-mood">Chapter 15</Xr>):
 	</p>
@@ -218,12 +227,12 @@
 
 <S t="The final-particle slot" id="clause-types">
 	<p>
-		Furukawa treats the sentence-final particle as an obligatory constituent of the
-		clause, realised as zero (with its intonation) when no overt particle occurs
-		<Ref k="furukawa1967" p="105" paren />. Her Rayciska inventory, the fullest we have
-		for any Sakhalin variety, is worth setting out; the modal particles overlap with
-		the system described in <Xr ch="tense-aspect-mood">Chapter 15</Xr> and the
-		discourse particles with <Xr ch="information-structure">Chapter 24</Xr>.
+		Furukawa treats the sentence-final particle as an obligatory constituent of the clause, realised
+		as zero (with its intonation) when no overt particle occurs
+		<Ref k="furukawa1967" p="105" paren />. Her Rayciska inventory, the fullest we have for any
+		Sakhalin variety, is worth setting out; the modal particles overlap with the system described in <Xr
+			ch="tense-aspect-mood">Chapter 15</Xr
+		> and the discourse particles with <Xr ch="information-structure">Chapter 24</Xr>.
 	</p>
 	<table>
 		<caption>Final particles of Rayciska (after Furukawa 1967: 105–110)</caption>
@@ -248,9 +257,8 @@
 		</tbody>
 	</table>
 	<p>
-		Negative indefinite clauses — built with <i lang="ain">ne(e) … ka</i> plus a
-		negative predicate — round out the picture of simple-clause types
-		(<Xr ch="negation">Chapter 17</Xr>):
+		Negative indefinite clauses — built with <i lang="ain">ne(e) … ka</i> plus a negative predicate
+		— round out the picture of simple-clause types (<Xr ch="negation">Chapter 17</Xr>):
 	</p>
 	<Ex
 		m="ne aynu ka isam"

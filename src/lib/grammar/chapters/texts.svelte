@@ -3,61 +3,60 @@
 </script>
 
 <p>
-	This chapter presents four short Sakhalin Ainu texts in full interlinear glossing. They
-	were chosen to cover the main kinds of record on which this grammar rests: an oral
-	folktale (<A w="tuytah" gl="folktale" />) told on the west coast in 1990 by the last
-	native speaker, Asai Take; a private letter written on the east coast in 1906 by a
-	literate native speaker, Sentoku Tarōji, in Cyrillic script; a dictated folktale
-	(<A w="ucaskuma" gl="tale, tradition" />) taken down on the east coast in 1903 by
-	Bronisław Piłsudski; and two conversational texts from the west-central coast, printed
-	in 1875 in the appendix to Dobrotvorsky's dictionary — the oldest connected Sakhalin
-	Ainu prose. Between them the texts span a hundred and fifteen years, both coasts, the
-	spoken and the written language, and four genres with distinct grammatical profiles.
-	Each text is given with a philological introduction stating what is known of its
-	recording — medium, date, place, narrator, and the chain of transmission from
-	field record to printed edition — followed by consecutive numbered examples (one
-	sentence per example, nothing reordered) and a commentary that points from the text to
-	the chapters where each phenomenon is treated.
+	This chapter presents four short Sakhalin Ainu texts in full interlinear glossing. They were
+	chosen to cover the main kinds of record on which this grammar rests: an oral folktale (<A
+		w="tuytah"
+		gl="folktale"
+	/>) told on the west coast in 1990 by the last native speaker, Asai Take; a private letter written
+	on the east coast in 1906 by a literate native speaker, Sentoku Tarōji, in Cyrillic script; a
+	dictated folktale (<A w="ucaskuma" gl="tale, tradition" />) taken down on the east coast in 1903
+	by Bronisław Piłsudski; and two conversational texts from the west-central coast, printed in 1875
+	in the appendix to Dobrotvorsky's dictionary — the oldest connected Sakhalin Ainu prose. Between
+	them the texts span a hundred and fifteen years, both coasts, the spoken and the written language,
+	and four genres with distinct grammatical profiles. Each text is given with a philological
+	introduction stating what is known of its recording — medium, date, place, narrator, and the chain
+	of transmission from field record to printed edition — followed by consecutive numbered examples
+	(one sentence per example, nothing reordered) and a commentary that points from the text to the
+	chapters where each phenomenon is treated.
 </p>
 <p>
-	The conventions are those of the rest of the grammar. The morphemic line is retranscribed
-	into our romanisation (<Xr ch="orthography">Chapter 3</Xr>): the glottal-stop apostrophes
-	of Murasaki's transcription are dropped, and the orthography of each older source —
-	Sentoku's Cyrillic, Piłsudski's diacritics, Dobrotvorsky's Cyrillic as romanised by
-	Sakaguchi — is interpreted as set out in the headnote to its text (§§26.2–26.4 below);
-	where the original spelling is itself of
-	interest it is shown as a separate line above the gloss. Glossing follows the conventions
-	stated in <Xr ch="person-and-alignment">Chapter 13</Xr> and the front matter: the
-	indefinite set <i lang="ain">an-</i>/<i lang="ain">-an</i>/<i lang="ain">i-</i> is INDEF,
-	the reportative <A w="manu" /> is REP, the quotative <A w="nah" /> is QUOT, and the
-	pervasive narrative particle <i lang="ain">taa</i> is glossed EMPH. Translations are our
-	own, made against the Japanese of <Ref k="murasaki2001" />,
+	The conventions are those of the rest of the grammar. The morphemic line is retranscribed into our
+	romanisation (<Xr ch="orthography">Chapter 3</Xr>): the glottal-stop apostrophes of Murasaki's
+	transcription are dropped, and the orthography of each older source — Sentoku's Cyrillic,
+	Piłsudski's diacritics, Dobrotvorsky's Cyrillic as romanised by Sakaguchi — is interpreted as set
+	out in the headnote to its text (§§26.2–26.4 below); where the original spelling is itself of
+	interest it is shown as a separate line above the gloss. Glossing follows the conventions stated
+	in <Xr ch="person-and-alignment">Chapter 13</Xr> and the front matter: the indefinite set
+	<i lang="ain">an-</i>/<i lang="ain">-an</i>/<i lang="ain">i-</i> is INDEF, the reportative <A
+		w="manu"
+	/> is REP, the quotative <A w="nah" /> is QUOT, and the pervasive narrative particle
+	<i lang="ain">taa</i>
+	is glossed EMPH. Translations are our own, made against the Japanese of <Ref k="murasaki2001" />,
 	<Ref k="tangiku2001" /> and <Ref k="sakaguchi2021" /> and the English of
 	<Ref k="pilsudski1912" />.
 </p>
 
 <S t="A tuytah of Asai Take: the imu woman" id="asai-imu">
 	<p>
-		Asai Take (<span lang="ja">浅井タケ</span>, died 1994), of Odasu on the west coast, was
-		the last native speaker of Sakhalin Ainu <Ref k="dalcorso2024" p="58" paren />. Between
-		1984 and the early 1990s Murasaki Kyōko (<span lang="ja">村崎恭子</span>) recorded from
-		her, in tape-recorded sessions, several dozen <i lang="ain">tuytah</i>, which Murasaki
-		transcribed and published in full with Japanese translation, in revised edition, as
-		<Ref k="murasaki2001" />. The publication chain is thus short and modern — speaker to
-		tape to editor — and the transcript preserves the texture of live telling: hesitations,
-		clipped variants, and interviewer turns. Murasaki's transcription is broad; its
-		apostrophes mark the predictable glottal onset of vowel-initial words, and we drop them
-		in retranscription, since the onset is not contrastive
-		(<Xr ch="phonology">Chapter 4</Xr>, <Xr ch="orthography">Chapter 3</Xr>). The extract
-		below is the opening of text 40,
-		<i lang="ain">imuu monimahpo</i> ‘The imu girl’, recorded on 7 April 1990. The
-		thirteen sentences are consecutive and complete — this opening happens to be free of the
-		Japanese asides and interviewer turns that intersperse many of the tales — and they
-		carry the story to its first turning point: immediately after (13) the imu woman
-		breaks into the nonsense verse (<i lang="ain">niiteh kaa cira rii too…</i>) that is the
-		set piece of the tale. <A w="imuu">imu</A> is the dissociative startle behaviour,
-		well known across Ainu communities, in which the affected person (usually a woman)
-		echoes words or shouts formulaic verse when startled; here it is played for comedy.
+		Asai Take (<span lang="ja">浅井タケ</span>, died 1994), of Odasu on the west coast, was the last
+		native speaker of Sakhalin Ainu <Ref k="dalcorso2024" p="58" paren />. Between 1984 and the
+		early 1990s Murasaki Kyōko (<span lang="ja">村崎恭子</span>) recorded from her, in tape-recorded
+		sessions, several dozen <i lang="ain">tuytah</i>, which Murasaki transcribed and published in
+		full with Japanese translation, in revised edition, as
+		<Ref k="murasaki2001" />. The publication chain is thus short and modern — speaker to tape to
+		editor — and the transcript preserves the texture of live telling: hesitations, clipped
+		variants, and interviewer turns. Murasaki's transcription is broad; its apostrophes mark the
+		predictable glottal onset of vowel-initial words, and we drop them in retranscription, since the
+		onset is not contrastive (<Xr ch="phonology">Chapter 4</Xr>, <Xr ch="orthography">Chapter 3</Xr
+		>). The extract below is the opening of text 40,
+		<i lang="ain">imuu monimahpo</i> ‘The imu girl’, recorded on 7 April 1990. The thirteen
+		sentences are consecutive and complete — this opening happens to be free of the Japanese asides
+		and interviewer turns that intersperse many of the tales — and they carry the story to its first
+		turning point: immediately after (13) the imu woman breaks into the nonsense verse (<i
+			lang="ain">niiteh kaa cira rii too…</i
+		>) that is the set piece of the tale. <A w="imuu">imu</A> is the dissociative startle behaviour,
+		well known across Ainu communities, in which the affected person (usually a woman) echoes words or
+		shouts formulaic verse when startled; here it is played for comedy.
 	</p>
 	<Ex
 		m="orowa sine kotan-ta sine horokewpo yay-reske manu"
@@ -175,25 +174,30 @@
 		place="Odasu (Asai Take)"
 	/>
 	<p>
-		The extract is a compact display of the grammar of west-coast narrative. Nearly every
-		narrative sentence closes with the reportative <i lang="ain">manu</i>, the genre
-		signature of the <i lang="ain">tuytah</i> (<Xr ch="evidentiality">Chapter 16</Xr>),
-		while quoted dialogue inside the tale switches to the unmarked conversational register:
-		the old woman refers to herself with the KU-series (<i lang="ain">ku-an</i>,
-		<i lang="ain">ku-niina</i>, <i lang="ain">ku-hosipi</i>), and narrative third persons
-		are zero-marked throughout (<Xr ch="person-and-alignment">Chapter 13</Xr>). The
-		habitual chain <i lang="ain">niina koh kuruu, ceh-kii koh ee</i> with iterative
-		<i lang="ain">koh</i>, and the progressive <i lang="ain">an kusu an</i> of (11), belong
-		to <Xr ch="tense-aspect-mood">Chapter 15</Xr>; the clause-linkers
+		The extract is a compact display of the grammar of west-coast narrative. Nearly every narrative
+		sentence closes with the reportative <i lang="ain">manu</i>, the genre signature of the
+		<i lang="ain">tuytah</i>
+		(<Xr ch="evidentiality">Chapter 16</Xr>), while quoted dialogue inside the tale switches to the
+		unmarked conversational register: the old woman refers to herself with the KU-series (<i
+			lang="ain">ku-an</i
+		>,
+		<i lang="ain">ku-niina</i>, <i lang="ain">ku-hosipi</i>), and narrative third persons are
+		zero-marked throughout (<Xr ch="person-and-alignment">Chapter 13</Xr>). The habitual chain
+		<i lang="ain">niina koh kuruu, ceh-kii koh ee</i>
+		with iterative
+		<i lang="ain">koh</i>, and the progressive <i lang="ain">an kusu an</i> of (11), belong to <Xr
+			ch="tense-aspect-mood">Chapter 15</Xr
+		>; the clause-linkers
 		<i lang="ain">teh</i>, <i lang="ain">ike</i>, <i lang="ain">neeteh</i>,
 		<i lang="ain">neyke</i> and the temporal nominalizations
 		<i lang="ain">makan-ihi neampe</i> and <i lang="ain">V-an ohta</i> to
-		<Xr ch="clause-linking">Chapter 23</Xr> and <Xr ch="nominalization">Chapter 20</Xr>.
-		Possessive morphology is dense even in this short stretch
-		(<i lang="ain">imi-yehe</i>, <i lang="ain">niske-he</i>, <i lang="ain">hawe-he</i>;
+		<Xr ch="clause-linking">Chapter 23</Xr> and <Xr ch="nominalization">Chapter 20</Xr>. Possessive
+		morphology is dense even in this short stretch (<i lang="ain">imi-yehe</i>,
+		<i lang="ain">niske-he</i>, <i lang="ain">hawe-he</i>;
 		<Xr ch="nouns-and-possession">Chapter 7</Xr>), and the valency machinery of
-		<Xr ch="valency">Chapter 14</Xr> appears in <i lang="ain">yay-reske</i>,
-		causative <i lang="ain">mii-re</i> ‘dress someone’, and applicative
+		<Xr ch="valency">Chapter 14</Xr> appears in <i lang="ain">yay-reske</i>, causative
+		<i lang="ain">mii-re</i>
+		‘dress someone’, and applicative
 		<i lang="ain">e-imuu</i> ‘have an imu fit at (something)’. The assimilation in
 		<i lang="ain">kinta</i> is treated in <Xr ch="morphophonology">Chapter 5</Xr>.
 	</p>
@@ -201,32 +205,32 @@
 
 <S t="A letter of Sentoku Tarōji (1906)" id="sentoku-letter">
 	<p>
-		Sentoku Tarōji (<span lang="ja">千徳太郎治</span>, 1872–1929), of Otasan on the east
-		coast, was Piłsudski's interpreter and collaborator and later the author of a
-		Japanese-language account of his people <Ref k="sentoku1929" paren />. In 1906, after
-		Piłsudski had left Sakhalin, Sentoku wrote him three letters in Ainu from Naybuci,
-		using the Russian Cyrillic alphabet — the most substantial body of Ainu prose written
-		by a native speaker in Cyrillic script (<Xr ch="orthography">Chapter 3</Xr>). They
-		were deciphered and published, with Latin transliteration and Japanese translation, by
-		Tangiku Itsuji (<span lang="ja">丹菊逸治</span>) and Ogihara Shinko
-		(<span lang="ja">荻原眞子</span>) <Ref k="tangiku2001" paren />. We gloss the opening
-		of the first letter, dated 4 June 1906. The manuscript is written in narrow physical
-		lines that cut across words and sentences; we have rejoined them, resolving the
-		hyphenations, and we give the Cyrillic original for the first six sentences. One
-		opaque clause in the long final period is omitted at a clause boundary, marked by an
-		ellipsis; nothing else is left out, and no word is altered. The transliteration
-		follows Tangiku and Ogihara, including their clitic notation
+		Sentoku Tarōji (<span lang="ja">千徳太郎治</span>, 1872–1929), of Otasan on the east coast, was
+		Piłsudski's interpreter and collaborator and later the author of a Japanese-language account of
+		his people <Ref k="sentoku1929" paren />. In 1906, after Piłsudski had left Sakhalin, Sentoku
+		wrote him three letters in Ainu from Naybuci, using the Russian Cyrillic alphabet — the most
+		substantial body of Ainu prose written by a native speaker in Cyrillic script (<Xr
+			ch="orthography">Chapter 3</Xr
+		>). They were deciphered and published, with Latin transliteration and Japanese translation, by
+		Tangiku Itsuji (<span lang="ja">丹菊逸治</span>) and Ogihara Shinko (<span lang="ja"
+			>荻原眞子</span
+		>) <Ref k="tangiku2001" paren />. We gloss the opening of the first letter, dated 4 June 1906.
+		The manuscript is written in narrow physical lines that cut across words and sentences; we have
+		rejoined them, resolving the hyphenations, and we give the Cyrillic original for the first six
+		sentences. One opaque clause in the long final period is omitted at a clause boundary, marked by
+		an ellipsis; nothing else is left out, and no word is altered. The transliteration follows
+		Tangiku and Ogihara, including their clitic notation
 		<i lang="ain">an=</i>, <i lang="ain">ci=</i>, <i lang="ain">e=</i>.
 	</p>
 	<p>
-		The script sets the limits of the evidence. Russian Cyrillic registers the consonant
-		skeleton of Ainu well, but it has no device for vowel length, and unstressed vowels
-		waver in Sentoku's spelling: <span lang="ru">цкін</span> for
+		The script sets the limits of the evidence. Russian Cyrillic registers the consonant skeleton of
+		Ainu well, but it has no device for vowel length, and unstressed vowels waver in Sentoku's
+		spelling: <span lang="ru">цкін</span> for
 		<i lang="ain">cikin</i>, <span lang="ru">кестоно</span> for
 		<i lang="ain">kestoono</i>, <span lang="ru">пріка</span> for
-		<i lang="ain">pirka</i>. Quantity and some vowel qualities are therefore restored
-		editorially, while everything carried by consonants — above all the person clitics —
-		can be read directly off the page. Forms whose vowels matter are flagged in the notes.
+		<i lang="ain">pirka</i>. Quantity and some vowel qualities are therefore restored editorially,
+		while everything carried by consonants — above all the person clitics — can be read directly off
+		the page. Forms whose vowels matter are flagged in the notes.
 	</p>
 	<Ex
 		m="ituyaskara nispa"
@@ -314,24 +318,27 @@
 		place="Otasan (Sentoku Tarōji)"
 	/>
 	<p>
-		The letter shows the written vernacular of an east-coast speaker with no model to
-		imitate, and its grammar is continuous with the spoken corpus. First-person reference
-		alternates between the AN-series (<i lang="ain">an=omante</i>,
-		<i lang="ain">an=e-hci</i>, the address form <i lang="ain">an=koro nispa</i> ‘our
-		master’) and the CI-series (<i lang="ain">cokay</i> ~ <i lang="ain">coka</i>,
-		<i lang="ain">ci=nukara</i>, <i lang="ain">ci=nu</i>), each clause keeping to one
-		series as the personal agreement rule requires; the KU-series never appears in the
-		letters (<Xr ch="person-and-alignment">Chapter 13</Xr>). Clauses are chained with
+		The letter shows the written vernacular of an east-coast speaker with no model to imitate, and
+		its grammar is continuous with the spoken corpus. First-person reference alternates between the
+		AN-series (<i lang="ain">an=omante</i>,
+		<i lang="ain">an=e-hci</i>, the address form <i lang="ain">an=koro nispa</i> ‘our master’) and
+		the CI-series (<i lang="ain">cokay</i> ~ <i lang="ain">coka</i>,
+		<i lang="ain">ci=nukara</i>, <i lang="ain">ci=nu</i>), each clause keeping to one series as the
+		personal agreement rule requires; the KU-series never appears in the letters (<Xr
+			ch="person-and-alignment">Chapter 13</Xr
+		>). Clauses are chained with
 		<i lang="ain">renkayne</i> ‘because’ and conditional <i lang="ain">ciki(n)</i>
 		(<Xr ch="clause-linking">Chapter 23</Xr>); existential negation is
 		<i lang="ain">isan</i> (<Xr ch="copula-and-existence">Chapter 18</Xr>,
 		<Xr ch="negation">Chapter 17</Xr>); and reported information is marked with
-		<i lang="ain">manuy</i>, the letters' form of the reportative
-		(<Xr ch="evidentiality">Chapter 16</Xr>). The Cyrillic spelling is itself linguistic
-		evidence: <span lang="ru">нисьпа</span> with palatalized <span lang="ru">сь</span> for
-		the [ɕ]-coloured sibilant, and <span lang="ru">канби</span> beside
-		<i lang="ain">kanpi</i> showing the intervocalic voicing of plosives that Piłsudski
-		also recorded on the east coast (<Xr ch="phonology">Chapter 4</Xr>;
+		<i lang="ain">manuy</i>, the letters' form of the reportative (<Xr ch="evidentiality"
+			>Chapter 16</Xr
+		>). The Cyrillic spelling is itself linguistic evidence: <span lang="ru">нисьпа</span> with
+		palatalized <span lang="ru">сь</span> for the [ɕ]-coloured sibilant, and
+		<span lang="ru">канби</span>
+		beside
+		<i lang="ain">kanpi</i> showing the intervocalic voicing of plosives that Piłsudski also
+		recorded on the east coast (<Xr ch="phonology">Chapter 4</Xr>;
 		<Ref k="dalcorso2024" p="61" paren />).
 	</p>
 </S>
@@ -340,32 +347,35 @@
 	<p>
 		Piłsudski's <em>Materials for the Study of the Ainu Language and Folklore</em>
 		<Ref k="pilsudski1912" paren /> contains twenty-seven <i lang="ain">ucaskuma</i>
-		dictated by east-coast speakers in 1903–04, the only substantial record of the eastern
-		dialects <Ref k="dalcorso2024" p="54–58" paren />. The medium is dictation: the texts
-		were taken down in handwriting, sentence by sentence, at a pace the speaker had to hold
-		to — a circumstance with grammatical consequences taken up at the end of this section
-		<Ref k="dalcorso2024" p="59" paren />. The collection was published in Cracow in 1912
-		and is most accessible today in the annotated reprint in Piłsudski's collected works
-		<Ref k="pilsudski1998" paren />. The first two texts carry
-		Piłsudski's own word-for-word English translation beside the Ainu. Our extract is the
-		opening of text 2 (lines 1–34, p. 45), dictated in January 1903 by Sisratoka, aged 28,
-		of Tarayka on the Bay of Patience. Sisratoka is no anonymous informant: three years
-		later Sentoku's second letter reports the death of his wife and his move within
-		Tarayka <Ref k="tangiku2001" p="Letter 2" paren /> — the two texts of this chapter
-		document one small community. The passage itself, a sober account of the
-		depopulation of the village of Paratunnay, is as much historical as literary
-		testimony (<Xr ch="language-and-speakers">Chapter 1</Xr>).
+		dictated by east-coast speakers in 1903–04, the only substantial record of the eastern dialects <Ref
+			k="dalcorso2024"
+			p="54–58"
+			paren
+		/>. The medium is dictation: the texts were taken down in handwriting, sentence by sentence, at
+		a pace the speaker had to hold to — a circumstance with grammatical consequences taken up at the
+		end of this section
+		<Ref k="dalcorso2024" p="59" paren />. The collection was published in Cracow in 1912 and is
+		most accessible today in the annotated reprint in Piłsudski's collected works
+		<Ref k="pilsudski1998" paren />. The first two texts carry Piłsudski's own word-for-word English
+		translation beside the Ainu. Our extract is the opening of text 2 (lines 1–34, p. 45), dictated
+		in January 1903 by Sisratoka, aged 28, of Tarayka on the Bay of Patience. Sisratoka is no
+		anonymous informant: three years later Sentoku's second letter reports the death of his wife and
+		his move within Tarayka <Ref k="tangiku2001" p="Letter 2" paren /> — the two texts of this chapter
+		document one small community. The passage itself, a sober account of the depopulation of the village
+		of Paratunnay, is as much historical as literary testimony (<Xr ch="language-and-speakers"
+			>Chapter 1</Xr
+		>).
 	</p>
 	<p>
-		Each example shows Piłsudski's transcription (accents and all) above our
-		retranscription. The interpretation of his orthography follows
-		<Ref k="dalcorso2024" p="59–66" />: <i lang="ain">x</i> is the debuccalized coda
-		plosive, our <i lang="ain">h</i>; <i lang="ain">ś</i> and <i lang="ain">ć</i> are the
-		palatal allophone of /s/ and the affricate /c/; <i lang="ain">j</i> is /y/; and the
-		voiced letters <i lang="ain">b d g</i> note the intervocalic voicing of /p t k/, which
-		is not phonemic and is undone in retranscription
-		(<Xr ch="phonology">Chapter 4</Xr>). His acute accents we reproduce in the
-		transcription line but do not interpret: they are left out of the retranscription.
+		Each example shows Piłsudski's transcription (accents and all) above our retranscription. The
+		interpretation of his orthography follows
+		<Ref k="dalcorso2024" p="59–66" />: <i lang="ain">x</i> is the debuccalized coda plosive, our
+		<i lang="ain">h</i>; <i lang="ain">ś</i> and <i lang="ain">ć</i> are the palatal allophone of
+		/s/ and the affricate /c/; <i lang="ain">j</i> is /y/; and the voiced letters
+		<i lang="ain">b d g</i>
+		note the intervocalic voicing of /p t k/, which is not phonemic and is undone in retranscription
+		(<Xr ch="phonology">Chapter 4</Xr>). His acute accents we reproduce in the transcription line
+		but do not interpret: they are left out of the retranscription.
 	</p>
 	<Ex
 		m="Paratunnay ohta etokota aynu porono an"
@@ -469,25 +479,25 @@
 	/>
 	<p>
 		The dictated <i lang="ain">ucaskuma</i> differs sharply in texture from Asai Take's
-		<i lang="ain">tuytah</i>. There is no reportative framing: where the west-coast oral
-		tale stamps nearly every sentence with <i lang="ain">manu</i>, Sisratoka's narration
-		runs in plain zero-marked third-person clauses, the evidential burden carried by the
-		genre itself (<Xr ch="evidentiality">Chapter 16</Xr>) — a difference of elicitation as
-		much as of dialect, since dictation suppresses the performative particles of live
-		telling <Ref k="dalcorso2024" p="59" paren />. Aspect is articulated by the
-		perfective auxiliary <i lang="ain">hemaka</i> ‘finish’ (28)
-		(<Xr ch="tense-aspect-mood">Chapter 15</Xr>); modality and negation by
+		<i lang="ain">tuytah</i>. There is no reportative framing: where the west-coast oral tale stamps
+		nearly every sentence with <i lang="ain">manu</i>, Sisratoka's narration runs in plain
+		zero-marked third-person clauses, the evidential burden carried by the genre itself (<Xr
+			ch="evidentiality">Chapter 16</Xr
+		>) — a difference of elicitation as much as of dialect, since dictation suppresses the
+		performative particles of live telling <Ref k="dalcorso2024" p="59" paren />. Aspect is
+		articulated by the perfective auxiliary <i lang="ain">hemaka</i> ‘finish’ (28) (<Xr
+			ch="tense-aspect-mood">Chapter 15</Xr
+		>); modality and negation by
 		<i lang="ain">koyakus</i> ‘be unable’ (30) and the volitional negative verb
-		<i lang="ain">etunne</i> ‘refuse, not want’ (27)
-		(<Xr ch="negation">Chapter 17</Xr>). The possessive forms <i lang="ain">kotan-u</i>
-		and <i lang="ain">utar-hi</i>, with the <i lang="ain">h</i> of the suffix elided,
-		illustrate the morphophonology of the belonging form
-		(<Xr ch="nouns-and-possession">Chapter 7</Xr>,
+		<i lang="ain">etunne</i> ‘refuse, not want’ (27) (<Xr ch="negation">Chapter 17</Xr>). The
+		possessive forms <i lang="ain">kotan-u</i>
+		and <i lang="ain">utar-hi</i>, with the <i lang="ain">h</i> of the suffix elided, illustrate the
+		morphophonology of the belonging form (<Xr ch="nouns-and-possession">Chapter 7</Xr>,
 		<Xr ch="morphophonology">Chapter 5</Xr>), and plural <i lang="ain">-(a)hci</i> on
-		<i lang="ain">ray-ahci</i> and <i lang="ain">yapa-hci</i> tracks the plural subjects
-		that the zero third person leaves unexpressed (<Xr ch="number">Chapter 8</Xr>,
-		<Xr ch="person-and-alignment">Chapter 13</Xr>). For the dialect position of Tarayka
-		within East Sakhalin, and for the other tales of the collection, see
+		<i lang="ain">ray-ahci</i> and <i lang="ain">yapa-hci</i> tracks the plural subjects that the
+		zero third person leaves unexpressed (<Xr ch="number">Chapter 8</Xr>,
+		<Xr ch="person-and-alignment">Chapter 13</Xr>). For the dialect position of Tarayka within East
+		Sakhalin, and for the other tales of the collection, see
 		<Xr ch="dialects-and-sources">Chapter 2</Xr>.
 	</p>
 </S>
@@ -495,26 +505,27 @@
 <S t="The Dobrotvorsky dialogues (1875)" id="dobrotvorsky-dialogues">
 	<p>
 		The Ainu–Russian dictionary of Mikhail Dobrotvorsky <Ref k="dobrotvorsky1875" paren />,
-		published at Kazan in 1875, carries in its appendix two short connected texts — the
-		oldest connected prose in Sakhalin Ainu, predating Piłsudski's fieldwork by a
-		generation. The first is a scene of confession told by a man named Ciwokanke; the
-		second a dialogue of request and marriage. Both come from the Kusunnay area of the
-		west-central coast. They were re-edited, with romanisation, Japanese translation, and
-		philological commentary, by Sakaguchi Ryō <Ref k="sakaguchi2021" paren />, whose
-		reading we follow throughout; the accented romanisation shown with the examples is
+		published at Kazan in 1875, carries in its appendix two short connected texts — the oldest
+		connected prose in Sakhalin Ainu, predating Piłsudski's fieldwork by a generation. The first is
+		a scene of confession told by a man named Ciwokanke; the second a dialogue of request and
+		marriage. Both come from the Kusunnay area of the west-central coast. They were re-edited, with
+		romanisation, Japanese translation, and philological commentary, by Sakaguchi Ryō <Ref
+			k="sakaguchi2021"
+			paren
+		/>, whose reading we follow throughout; the accented romanisation shown with the examples is
 		his. We give four sentences from the first text and two from the second.
 	</p>
 	<p>
-		As with Sentoku's letters (§26.2), the Cyrillic record is strong exactly where the
-		grammatical interest lies. Dobrotvorsky's transcription registers syllable-final
-		consonants faithfully, but it ignores vowel length and wavers between
+		As with Sentoku's letters (§26.2), the Cyrillic record is strong exactly where the grammatical
+		interest lies. Dobrotvorsky's transcription registers syllable-final consonants faithfully, but
+		it ignores vowel length and wavers between
 		<span lang="ru">и</span> and <span lang="ru">е</span> and between
-		<span lang="ru">о</span> and <span lang="ru">у</span>, so that contrasts hinging on
-		vowel quality or quantity cannot always be recovered from the spelling. The person
-		markers — <i lang="ain">an=</i>, <i lang="ain">-an</i>, <i lang="ain">in=</i>,
-		<i lang="ain">i=</i>, <i lang="ain">e=</i> — live on consonants, and these the texts
-		attest beyond doubt: for the morphology they are cited for here, the dialogues are
-		more reliable witnesses than their age and script would suggest
+		<span lang="ru">о</span> and <span lang="ru">у</span>, so that contrasts hinging on vowel
+		quality or quantity cannot always be recovered from the spelling. The person markers —
+		<i lang="ain">an=</i>, <i lang="ain">-an</i>, <i lang="ain">in=</i>,
+		<i lang="ain">i=</i>, <i lang="ain">e=</i> — live on consonants, and these the texts attest
+		beyond doubt: for the morphology they are cited for here, the dialogues are more reliable
+		witnesses than their age and script would suggest
 		<Ref k="sakaguchi2021" paren />.
 	</p>
 	<Ex
@@ -577,26 +588,27 @@
 		place="Kusunnay"
 	/>
 	<p>
-		Short as they are, the dialogues anchor the time-depth of everything else in this
-		chapter. Their chief witness is the person system
-		(<Xr ch="person-and-alignment">Chapter 13</Xr>): the INDEF-series runs throughout —
+		Short as they are, the dialogues anchor the time-depth of everything else in this chapter. Their
+		chief witness is the person system (<Xr ch="person-and-alignment">Chapter 13</Xr>): the
+		INDEF-series runs throughout —
 		<i lang="ain">-an</i> on intransitives (32), the stacked <i lang="ain">an=e=</i>
-		‘I…you’ frame (33) — and beside it stands <i lang="ain">in=</i> ‘me’ (34), the object
-		prefix elsewhere characteristic of the east coast <Ref k="sato1985" paren />, so that
-		this west-central material patterns with the East rather than with the north-west
-		(<Xr ch="dialects-and-sources">Chapter 2</Xr>). The negative system is already the
-		analytic one: <i lang="ain">hanne</i> (36) and <i lang="ain">ham</i> (37) negate in
-		1875 exactly as in the twentieth-century corpus, a fixed point for the history traced
-		in <Xr ch="negation">Chapter 17</Xr>. The politeness formulae run on the
-		clause-linking inventory — purposive and causal <i lang="ain">kusu</i>, conditional
+		‘I…you’ frame (33) — and beside it stands <i lang="ain">in=</i> ‘me’ (34), the object prefix
+		elsewhere characteristic of the east coast <Ref k="sato1985" paren />, so that this west-central
+		material patterns with the East rather than with the north-west (<Xr ch="dialects-and-sources"
+			>Chapter 2</Xr
+		>). The negative system is already the analytic one: <i lang="ain">hanne</i> (36) and
+		<i lang="ain">ham</i>
+		(37) negate in 1875 exactly as in the twentieth-century corpus, a fixed point for the history traced
+		in <Xr ch="negation">Chapter 17</Xr>. The politeness formulae run on the clause-linking
+		inventory — purposive and causal <i lang="ain">kusu</i>, conditional
 		<i lang="ain">ciki</i>, concessive <i lang="ain">yahka</i>
 		(<Xr ch="clause-linking">Chapter 23</Xr>) — and the epistemic close
-		<i lang="ain">nankoro pe ne</i> stacks the modal <i lang="ain">nankoro</i> on the
-		nominalizer <i lang="ain">pe</i> and the copula <i lang="ain">ne</i>
+		<i lang="ain">nankoro pe ne</i> stacks the modal <i lang="ain">nankoro</i> on the nominalizer
+		<i lang="ain">pe</i>
+		and the copula <i lang="ain">ne</i>
 		(<Xr ch="tense-aspect-mood">Chapter 15</Xr>, <Xr ch="nominalization">Chapter 20</Xr>,
-		<Xr ch="copula-and-existence">Chapter 18</Xr>). Genre matters here too: where the
-		folktales above are narrative, these are face-to-face exchanges, and their grammar is
-		correspondingly that of address — second persons, softened requests, and not a
-		single <i lang="ain">manu</i>.
+		<Xr ch="copula-and-existence">Chapter 18</Xr>). Genre matters here too: where the folktales
+		above are narrative, these are face-to-face exchanges, and their grammar is correspondingly that
+		of address — second persons, softened requests, and not a single <i lang="ain">manu</i>.
 	</p>
 </S>

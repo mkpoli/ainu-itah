@@ -90,7 +90,9 @@
 	</a>
 </nav>
 
-<h2 id="dictionaries" class="my-6 scroll-mt-4 text-center text-2xl font-bold">{m.dictionaries()}</h2>
+<h2 id="dictionaries" class="my-6 scroll-mt-4 text-center text-2xl font-bold">
+	{m.dictionaries()}
+</h2>
 
 <DictionaryTable />
 

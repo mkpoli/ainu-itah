@@ -94,7 +94,11 @@
 				const color = COAST_COLOR[p.coast];
 				const mk = new maplibre.Marker({ element: dot(color) })
 					.setLngLat([p.lng, p.lat])
-					.setPopup(new maplibre.Popup({ offset: 12, closeButton: false }).setDOMContent(popupNode(p, color)))
+					.setPopup(
+						new maplibre.Popup({ offset: 12, closeButton: false }).setDOMContent(
+							popupNode(p, color)
+						)
+					)
 					.addTo(map);
 				void mk;
 				bounds.extend([p.lng, p.lat]);

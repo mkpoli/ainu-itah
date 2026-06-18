@@ -1,6 +1,8 @@
 # Aynu Itah
 
-S0akhalin Ainu Website with dictionary, tools and resources.
+Sakhalin (Karafuto) Ainu website — a searchable dictionary and a modern reference grammar.
+
+Live at <https://itah.aynu.org/>.
 
 ## Developing
 

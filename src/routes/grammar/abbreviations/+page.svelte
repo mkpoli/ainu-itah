@@ -18,18 +18,18 @@
 	<h2>Interlinear glossing</h2>
 	<p>
 		Interlinear examples follow the Leipzig Glossing Rules. In the morphemic line, a hyphen
-		<i>-</i> separates affixes from stems and an equals sign <i>=</i> marks clitic boundaries.
-		In the gloss line, grammatical categories appear in small capitals and lexical glosses in
-		lower case; a period joins several gloss elements that correspond to a single unsegmentable
-		morpheme (as in <i>an</i> ‘exist.<abbr title="singular">SG</abbr>’). Every Ainu word and
-		morpheme in an example is linked to the dictionary of this site, and every example carries
-		its source and a dialect tag.
+		<i>-</i> separates affixes from stems and an equals sign <i>=</i> marks clitic boundaries. In
+		the gloss line, grammatical categories appear in small capitals and lexical glosses in lower
+		case; a period joins several gloss elements that correspond to a single unsegmentable morpheme
+		(as in <i>an</i> ‘exist.<abbr title="singular">SG</abbr>’). Every Ainu word and morpheme in an
+		example is linked to the dictionary of this site, and every example carries its source and a
+		dialect tag.
 	</p>
 	<p>
 		An asterisk <i>*</i> marks an ungrammatical form; a preceding question mark marks a form of
-		doubtful acceptability. Examples labelled <em>constructed example</em> are illustrations
-		assembled for expository purposes and are not attested utterances; all other examples are
-		attested in the cited source.
+		doubtful acceptability. Examples labelled <em>constructed example</em> are illustrations assembled
+		for expository purposes and are not attested utterances; all other examples are attested in the cited
+		source.
 	</p>
 
 	<h2>Gloss abbreviations</h2>
@@ -75,8 +75,9 @@
 			representations appear between slashes and phonetic ones in square brackets.
 		</li>
 		<li>
-			Japanese and Russian names and titles are given in the original script at first mention,
-			e.g. <span lang="ja">樺太</span> <i>Karafuto</i>, <span lang="ru">Сахалин</span>
+			Japanese and Russian names and titles are given in the original script at first mention, e.g. <span
+				lang="ja">樺太</span
+			> <i>Karafuto</i>, <span lang="ru">Сахалин</span>
 			<i>Sakhalin</i>.
 		</li>
 		<li>

@@ -12,15 +12,27 @@ await page.goto(`${base}/ja`, { waitUntil: 'networkidle' });
 await page.waitForSelector('table tbody tr', { timeout: 15000 });
 
 const tog = await page.$('table tbody button[aria-expanded]');
-if (tog) { await tog.click(); await page.waitForTimeout(300); }
+if (tog) {
+	await tog.click();
+	await page.waitForTimeout(300);
+}
 
-const ths = await page.$$eval('thead th', els => els.map(e => Math.round(e.getBoundingClientRect().left)));
-const tds = await page.$$eval('tbody tr:first-child td', els => els.map(e => Math.round(e.getBoundingClientRect().left)));
-const tableW = await page.$eval('table', e => Math.round(e.getBoundingClientRect().width));
+const ths = await page.$$eval('thead th', (els) =>
+	els.map((e) => Math.round(e.getBoundingClientRect().left))
+);
+const tds = await page.$$eval('tbody tr:first-child td', (els) =>
+	els.map((e) => Math.round(e.getBoundingClientRect().left))
+);
+const tableW = await page.$eval('table', (e) => Math.round(e.getBoundingClientRect().width));
 await browser.close();
 
 const aligned = ths.length === tds.length && ths.every((x, i) => Math.abs(x - tds[i]) <= 1);
 const overflow = tableW > VW + 1;
-console.log(`cols header=${ths.length} row=${tds.length} aligned=${aligned} tableW=${tableW} overflow=${overflow}`);
-if (!aligned || overflow) { console.error('LAYOUT CHECK FAILED'); process.exit(1); }
+console.log(
+	`cols header=${ths.length} row=${tds.length} aligned=${aligned} tableW=${tableW} overflow=${overflow}`
+);
+if (!aligned || overflow) {
+	console.error('LAYOUT CHECK FAILED');
+	process.exit(1);
+}
 console.log('LAYOUT CHECK PASSED');

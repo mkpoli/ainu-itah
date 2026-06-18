@@ -82,8 +82,7 @@ export const parts: Part[] = [
 			{
 				slug: 'word-classes',
 				title: 'Word classes',
-				summary:
-					'The parts of speech of Sakhalin Ainu and the criteria that distinguish them.'
+				summary: 'The parts of speech of Sakhalin Ainu and the criteria that distinguish them.'
 			},
 			{
 				slug: 'nouns-and-possession',
@@ -108,15 +107,13 @@ export const parts: Part[] = [
 			{
 				slug: 'numerals',
 				title: 'Numerals and quantification',
-				summary:
-					'The vigesimal numeral system, classifier suffixes, ordinals, and quantifiers.'
+				summary: 'The vigesimal numeral system, classifier suffixes, ordinals, and quantifiers.'
 			},
 			{
 				slug: 'postpositions',
 				title: 'Postpositions and relational nouns',
 				short: 'Postpositions',
-				summary:
-					'Case postpositions, relational (locative) nouns, and adverbial particles.'
+				summary: 'Case postpositions, relational (locative) nouns, and adverbial particles.'
 			}
 		]
 	},
@@ -126,8 +123,7 @@ export const parts: Part[] = [
 			{
 				slug: 'verb-structure',
 				title: 'Verb structure and transitivity',
-				summary:
-					'The verbal template, strict transitivity classes, verbal number, and suppletion.'
+				summary: 'The verbal template, strict transitivity classes, verbal number, and suppletion.'
 			},
 			{
 				slug: 'person-and-alignment',

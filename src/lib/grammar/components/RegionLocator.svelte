@@ -43,7 +43,7 @@
 	const [tx, ty] = proj(toyohara.lng, toyohara.lat);
 </script>
 
-<figure class="my-6 mx-auto" style="max-width:440px">
+<figure class="mx-auto my-6" style="max-width:440px">
 	<svg
 		viewBox="0 0 360 430"
 		class="w-full"
@@ -88,7 +88,8 @@
 		>
 
 		<!-- Aniva Bay notch + La Pérouse Strait -->
-		<text x="176" y="400" font-size="8.5" fill="#8a7f63" text-anchor="middle">Aniva Bay 亜庭湾</text>
+		<text x="176" y="400" font-size="8.5" fill="#8a7f63" text-anchor="middle">Aniva Bay 亜庭湾</text
+		>
 		<text x="210" y="424" font-size="8.5" fill="#6b6450" text-anchor="middle"
 			>La Pérouse (Sōya) Strait 宗谷海峡 · to Hokkaidō</text
 		>

@@ -1,12 +1,7 @@
 <script lang="ts">
 	import { setContext, type Component } from 'svelte';
 	import { SvelteSet } from 'svelte/reactivity';
-	import {
-		GRAMMAR_CTX,
-		SECTION_CTX,
-		type GrammarContext,
-		type SectionContext
-	} from '../context';
+	import { GRAMMAR_CTX, SECTION_CTX, type GrammarContext, type SectionContext } from '../context';
 	import { bibliography } from '../bibliography';
 
 	let {
@@ -53,7 +48,8 @@
 			<p class="ch-refs-list">
 				{#each citedEntries as [key, e], i (key)}<a href={`/grammar/references#${key}`}
 						>{e.citeAuthor} ({e.year})</a
-					>{#if i < citedEntries.length - 1}&nbsp;· {/if}{/each}
+					>{#if i < citedEntries.length - 1}&nbsp;·
+					{/if}{/each}
 			</p>
 		</section>
 	{/if}

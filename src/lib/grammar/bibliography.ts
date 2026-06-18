@@ -58,8 +58,7 @@ export const bibliography: Record<string, BibEntry> = {
 		citeAuthor: 'Asai',
 		year: '1974',
 		title: 'Classification of dialects: Cluster analysis of Ainu dialects',
-		container:
-			'北方文化研究 [Bulletin of the Institute for the Study of North Eurasian Cultures]',
+		container: '北方文化研究 [Bulletin of the Institute for the Study of North Eurasian Cultures]',
 		pages: '8: 45–136',
 		publisher: 'Hokkaido University',
 		place: 'Sapporo'
@@ -101,16 +100,14 @@ export const bibliography: Record<string, BibEntry> = {
 		author: 'Bugaeva, Anna',
 		citeAuthor: 'Bugaeva',
 		year: '2015',
-		title:
-			'An equivalent of the standard-of-comparison relativization in Ainu'
+		title: 'An equivalent of the standard-of-comparison relativization in Ainu'
 	},
 	bugaeva2016: {
 		region: 'sakhalin',
 		author: 'Bugaeva, Anna',
 		citeAuthor: 'Bugaeva',
 		year: '2016',
-		title:
-			'On the innovative nature of Sakhalin Ainu: Focusing on nominalization',
+		title: 'On the innovative nature of Sakhalin Ainu: Focusing on nominalization',
 		container: 'Studia Orientalia',
 		pages: '117: 95–117'
 	},
@@ -188,8 +185,7 @@ export const bibliography: Record<string, BibEntry> = {
 		author: 'Comrie, Bernard, Martin Haspelmath & Balthasar Bickel',
 		citeAuthor: 'Comrie, Haspelmath & Bickel',
 		year: '2015',
-		title:
-			'The Leipzig Glossing Rules: Conventions for interlinear morpheme-by-morpheme glosses',
+		title: 'The Leipzig Glossing Rules: Conventions for interlinear morpheme-by-morpheme glosses',
 		publisher: 'Max Planck Institute for Evolutionary Anthropology',
 		place: 'Leipzig',
 		url: 'https://www.eva.mpg.de/lingua/resources/glossing-rules.php'
@@ -209,8 +205,7 @@ export const bibliography: Record<string, BibEntry> = {
 		author: 'Dal Corso, Elia',
 		citeAuthor: 'Dal Corso',
 		year: '2018',
-		title:
-			'Ainu evidentiality: A semantico-pragmatic analysis and a morphosyntactic account',
+		title: 'Ainu evidentiality: A semantico-pragmatic analysis and a morphosyntactic account',
 		container: 'Doctoral dissertation, SOAS University of London',
 		place: 'London'
 	},
@@ -219,8 +214,7 @@ export const bibliography: Record<string, BibEntry> = {
 		author: 'Dal Corso, Elia',
 		citeAuthor: 'Dal Corso',
 		year: '2020',
-		title:
-			'The interaction of relativization and noun incorporation in Southern Hokkaidō Ainu',
+		title: 'The interaction of relativization and noun incorporation in Southern Hokkaidō Ainu',
 		container: 'European approaches to Japanese language and linguistics',
 		editor: 'Pappalardo, Giuseppe & Patrick Heinrich',
 		publisher: 'Edizioni Ca’ Foscari',
@@ -267,8 +261,7 @@ export const bibliography: Record<string, BibEntry> = {
 		author: 'Dal Corso, Elia',
 		citeAuthor: 'Dal Corso',
 		year: '2025a',
-		title:
-			'The mixed nominative-neutral-inverse morphological alignment of Sakhalin Ainu',
+		title: 'The mixed nominative-neutral-inverse morphological alignment of Sakhalin Ainu',
 		container: 'Studia Orientalia',
 		pages: '126: 187–218'
 	},
@@ -295,8 +288,7 @@ export const bibliography: Record<string, BibEntry> = {
 	},
 	'frpac-karafuto': {
 		region: 'sakhalin',
-		author:
-			'Ainu Bunka Shinkō Kenkyū Suishin Kikō アイヌ文化振興・研究推進機構 (FRPAC)',
+		author: 'Ainu Bunka Shinkō Kenkyū Suishin Kikō アイヌ文化振興・研究推進機構 (FRPAC)',
 		citeAuthor: 'FRPAC',
 		year: '2014',
 		title: 'アイヌ語教材テキスト「カラフトのアイヌ語」（入門・初級・中級）',
@@ -424,7 +416,8 @@ export const bibliography: Record<string, BibEntry> = {
 		title: 'ピウスツキ蠟管の音声再生と録音内容——レーザビーム反射法による光学式音声再生',
 		titleTr:
 			'Sound-reproduction from Bronisław Piłsudski’s recordings and their contents: Reproduction of sound from old wax cylinders using the laser-beam reflection method',
-		container: '国立民族学博物館研究報告別冊 [Bulletin of the National Museum of Ethnology, special issue]',
+		container:
+			'国立民族学博物館研究報告別冊 [Bulletin of the National Museum of Ethnology, special issue]',
 		pages: '5: 147–163',
 		url: 'https://doi.org/10.15021/00003757',
 		lang: 'ja'
@@ -507,8 +500,7 @@ export const bibliography: Record<string, BibEntry> = {
 		year: '2006',
 		title: 'アイヌ人によるアイヌ語表記への取り組み',
 		titleTr: 'Ainu efforts at writing the Ainu language',
-		container:
-			'表記の習慣のない言語の表記 [Writing unwritten languages]',
+		container: '表記の習慣のない言語の表記 [Writing unwritten languages]',
 		publisher:
 			'Research Institute for Languages and Cultures of Asia and Africa (ILCAA), Tokyo University of Foreign Studies',
 		place: 'Tokyo',
@@ -571,8 +563,7 @@ export const bibliography: Record<string, BibEntry> = {
 		year: '2001',
 		title: '改訂浅井タケ昔話全集 I・II',
 		titleTr: 'The complete folktales of Asai Take, vols. I–II, revised edition',
-		container:
-			'Endangered Languages of the Pacific Rim (ELPR) Publication Series A2-010',
+		container: 'Endangered Languages of the Pacific Rim (ELPR) Publication Series A2-010',
 		publisher: 'Osaka Gakuin University',
 		place: 'Suita',
 		lang: 'ja'
@@ -599,10 +590,8 @@ export const bibliography: Record<string, BibEntry> = {
 		citeAuthor: 'Murasaki',
 		year: '2013',
 		title: '藤山ハル口述 カラフトアイヌ語例文集 1',
-		titleTr:
-			'Short sentences in Sakhalin Ainu spoken by Fujiyama Haru, vol. 1',
-		publisher:
-			'Hokkaido University Center for Ainu and Indigenous Studies (online publication)',
+		titleTr: 'Short sentences in Sakhalin Ainu spoken by Fujiyama Haru, vol. 1',
+		publisher: 'Hokkaido University Center for Ainu and Indigenous Studies (online publication)',
 		place: 'Sapporo',
 		lang: 'ja'
 	},
@@ -622,8 +611,7 @@ export const bibliography: Record<string, BibEntry> = {
 		author: 'Ochiai Izumi 落合いずみ',
 		citeAuthor: 'Ochiai',
 		year: '2021',
-		title:
-			'Ainugo no sūshi saikō: nijisshinpō ni okeru kahō-sanpō kara jōhō-sanpō e no kirikae',
+		title: 'Ainugo no sūshi saikō: nijisshinpō ni okeru kahō-sanpō kara jōhō-sanpō e no kirikae',
 		titleTr:
 			'Ainu numerals reconsidered: the switch from undercounting to overcounting in the vigesimal system',
 		lang: 'ja'
@@ -729,8 +717,7 @@ export const bibliography: Record<string, BibEntry> = {
 		citeAuthor: 'Sakaguchi',
 		year: '2021',
 		title: '『アイヌ語ロシア語辞典』中のアイヌ語樺太方言テキスト',
-		titleTr:
-			'Sakhalin Ainu texts in the Ainu–Russian dictionary (of Dobrotvorsky)',
+		titleTr: 'Sakhalin Ainu texts in the Ainu–Russian dictionary (of Dobrotvorsky)',
 		container:
 			'アイヌ語・アイヌ文化研究の課題 [Issues in Ainu language and culture studies]（千葉大学大学院人文公共学府研究プロジェクト報告書 358）',
 		pages: '43–55',
@@ -776,8 +763,7 @@ export const bibliography: Record<string, BibEntry> = {
 		author: 'Satō, Tomomi',
 		citeAuthor: 'Satō',
 		year: '1985',
-		title:
-			'The first person objective affix in- in the East Coast dialects of Sakhalin Ainu',
+		title: 'The first person objective affix in- in the East Coast dialects of Sakhalin Ainu',
 		container:
 			'Proceedings of the International Symposium on B. Piłsudski’s Phonographic Records and the Ainu Culture',
 		pages: '157–167',
@@ -894,8 +880,7 @@ export const bibliography: Record<string, BibEntry> = {
 		citeAuthor: 'Tangiku & Ogihara',
 		year: '2001',
 		title: '千徳太郎治のピウスツキ宛書簡——「ニシパ」へのキリル文字の手紙',
-		titleTr:
-			'Sentoku Tarōji’s letters to Piłsudski: Letters in Cyrillic script to “nispa”',
+		titleTr: 'Sentoku Tarōji’s letters to Piłsudski: Letters in Cyrillic script to “nispa”',
 		container:
 			'千葉大学ユーラシア言語文化論集 [Chiba University Eurasian languages and cultures studies]',
 		pages: '4: 187–226',

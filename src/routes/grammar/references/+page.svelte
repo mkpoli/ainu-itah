@@ -40,8 +40,8 @@
 	<h1><span class="ch-num">Back matter</span>References</h1>
 
 	<p class="bib-note">
-		Entries marked <span class="reported-badge">reported</span> are cited second-hand, through
-		the source named in the citation, and were not consulted directly.
+		Entries marked <span class="reported-badge">reported</span> are cited second-hand, through the source
+		named in the citation, and were not consulted directly.
 	</p>
 
 	{#each byRegion as group (group.id)}
@@ -52,8 +52,9 @@
 				<li id={key}>
 					{e.author}. {e.year}.
 					{#if e.url}
-						<cite lang={e.lang ?? 'en'}><a href={e.url}>{e.title}</a></cite
-						>{:else}<cite lang={e.lang ?? 'en'}>{e.title}</cite>{/if}{#if e.titleTr}
+						<cite lang={e.lang ?? 'en'}><a href={e.url}>{e.title}</a></cite>{:else}<cite
+							lang={e.lang ?? 'en'}>{e.title}</cite
+						>{/if}{#if e.titleTr}
 						[{e.titleTr}]{/if}.
 					{#if e.container}
 						{#if e.editor}In {e.editor} (ed.),{/if}
