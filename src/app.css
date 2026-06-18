@@ -1,3 +1,26 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* Visible keyboard focus everywhere (the grammar strips link underlines, so without
+   this keyboard focus is nearly invisible). */
+@layer base {
+	:focus-visible {
+		outline: 2px solid #1e40af;
+		outline-offset: 2px;
+	}
+}
+
+/* Honor the OS "reduce motion" preference: neutralize the chevron transitions, the
+   loading spinner, and any smooth scrolling. Placed after the utilities import so it
+   wins over Tailwind's transition/animate utilities. */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

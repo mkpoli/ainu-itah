@@ -55,8 +55,13 @@
 
 <ParaglideJS {i18n}>
 	<div class="flex min-h-screen flex-col">
+		<a
+			href="#main-content"
+			class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-blue-900 focus:px-3 focus:py-2 focus:text-white"
+			>Skip to content</a
+		>
 		<SiteHeader />
-		<main class="flex-1">
+		<main id="main-content" tabindex="-1" class="flex-1">
 			{@render children()}
 		</main>
 		<SiteFooter />

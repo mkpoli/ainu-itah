@@ -60,7 +60,10 @@
 		href="#dictionaries"
 		onclick={(e) => {
 			e.preventDefault();
-			document.getElementById('dictionaries')?.scrollIntoView({ behavior: 'smooth' });
+			const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+			document
+				.getElementById('dictionaries')
+				?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
 		}}
 		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm"
 	>
