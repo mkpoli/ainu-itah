@@ -3120,7 +3120,7 @@
 		"ja": ["このように"],
 		"en": ["like this", "in this way"],
 		"ru": ["таким образом", "в таком виде"],
-		"poses": ["pl"],
+		"poses": ["adv"],
 		"frequency": 5
 	},
 	{
@@ -7403,7 +7403,7 @@
 		"ja": ["今", "もう"],
 		"en": ["now", "already"],
 		"ru": ["сейчас", "уже"],
-		"poses": ["pl"],
+		"poses": ["adv"],
 		"frequency": 1190,
 		"hokkaido": [{ "lemma": "tane", "type": "irregular-correspondence", "curated": true }]
 	},
