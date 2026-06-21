@@ -1027,7 +1027,7 @@
 				"ja": ["いる", "する"],
 				"en": ["to be", "to do (plural)"],
 				"ru": ["быть", "делать (мн.)"],
-				"poses": ["vi", "aux"],
+				"poses": ["vi", "auxv"],
 				"frequency": 10,
 				"freqSource": "marker",
 				"analysis": [
@@ -4905,7 +4905,7 @@
 		"ja": ["よ", "ね", "～しつつ"],
 		"en": ["yo", "ne", "while doing ~"],
 		"ru": ["ё", "нэ", "пока делаешь ~"],
-		"poses": ["sconj", "sconj", "sfp"],
+		"poses": ["sconj", "sfp"],
 		"frequency": 120,
 		"hokkaido": [{ "lemma": "kane", "type": "irregular-correspondence", "curated": true }],
 		"cognates": ["kane"]
@@ -9694,7 +9694,7 @@
 		"ja": ["は", "それ", "そのもの", "それは"],
 		"en": ["as of ~", "that", "that thing", "it (topic)"],
 		"ru": ["на ~", "это", "то", "та вещь", "оно"],
-		"poses": ["nmlz", "n", "advp", "pron", "ptcl"],
+		"poses": ["nmlz", "n", "advp", "pron", "parti"],
 		"frequency": 975,
 		"hokkaido": [{ "lemma": "neanpe", "type": "identity", "curated": true }],
 		"cognates": ["neanpe"]
@@ -11581,7 +11581,7 @@
 				"ja": ["matの所属形", "～の妻", "～の女"],
 				"en": ["the wife of ~", "the woman of ~"],
 				"ru": ["жена ~", "женщина ~"],
-				"poses": ["n", "n"],
+				"poses": ["n"],
 				"frequency": 50,
 				"analysis": [
 					["maci", "wife"],
@@ -13653,7 +13653,7 @@
 		"ja": ["（複数）"],
 		"en": ["(plural verb marker)"],
 		"ru": ["(показатель мн. ч. глагола)"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 21,
 		"freqSource": "marker"
 	},
@@ -13732,7 +13732,7 @@
 		"ja": ["だけ", "ばかり"],
 		"en": ["only", "just"],
 		"ru": ["только", "лишь"],
-		"poses": ["adv", "ptcl"],
+		"poses": ["adv", "parti"],
 		"frequency": 15
 	},
 	{
@@ -14306,7 +14306,7 @@
 		"ja": ["（使役接尾辞 -te の断片）"],
 		"en": ["(fragment of causative suffix -te)"],
 		"ru": ["(фрагмент каузативного суффикса -te)"],
-		"poses": ["aux"],
+		"poses": ["auxv"],
 		"frequency": 2
 	},
 	{
@@ -14504,7 +14504,7 @@
 		"ja": ["～か", "～だろうか", "のか"],
 		"en": ["question particle (or what?)", "I wonder"],
 		"ru": ["ли", "вопросительная частица"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 6
 	},
 	{
@@ -14591,7 +14591,7 @@
 		"ja": ["～のところに"],
 		"en": ["in the place of ~"],
 		"ru": ["в месте ~"],
-		"poses": ["colloc", "colloc"],
+		"poses": ["colloc"],
 		"frequency": 501,
 		"hokkaido": [
 			{ "lemma": "or ta", "type": "contraction", "curated": true },
@@ -14642,7 +14642,7 @@
 		"ja": ["(複数主語標示)", "彼らが"],
 		"en": ["plural-subject marker", "they (subject)"],
 		"ru": ["показатель множественного подлежащего"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 2,
 		"freqSource": "marker"
 	},
@@ -14986,7 +14986,7 @@
 		"ja": ["さようなら"],
 		"en": ["goodbye"],
 		"ru": ["прощай"],
-		"poses": ["interj"],
+		"poses": ["intj"],
 		"frequency": 1,
 		"hokkaido": [
 			{ "lemma": "sarampa", "type": "irregular-correspondence", "curated": true },
@@ -15243,7 +15243,7 @@
 		"ja": ["ねえ", "おい", "どれどれ"],
 		"en": ["hey", "say", "well now", "eh"],
 		"ru": ["эй", "послушай", "ну-ка"],
-		"poses": ["intj", "interj"],
+		"poses": ["intj"],
 		"frequency": 189,
 		"structure": [
 			["iineah", "say!"],
@@ -15631,7 +15631,7 @@
 		"ja": ["〜しない", "〜なかった"],
 		"en": ["not", "did not"],
 		"ru": ["не", "нет"],
-		"poses": ["aux", "ptcl"],
+		"poses": ["auxv", "parti"],
 		"frequency": 31,
 		"structure": [
 			["han", "not (negative)"],
@@ -16665,7 +16665,7 @@
 		"ja": ["〜しては", "〜すると"],
 		"en": ["whenever, and then (iterative)"],
 		"ru": ["когда, и тогда (итеративно)"],
-		"poses": ["conj", "ptcl"],
+		"poses": ["conj", "parti"],
 		"frequency": 14
 	},
 	{
@@ -16884,7 +16884,7 @@
 		"ja": ["〜ても", "〜だが"],
 		"en": ["even though", "although"],
 		"ru": ["хотя", "даже если"],
-		"poses": ["sconj", "ptcl"],
+		"poses": ["sconj", "parti"],
 		"frequency": 13
 	},
 	{
@@ -17574,7 +17574,7 @@
 		"ja": ["～しない", "～ない"],
 		"en": ["not (negation)"],
 		"ru": ["не"],
-		"poses": ["aux", "ptcl"],
+		"poses": ["auxv", "parti"],
 		"frequency": 10
 	},
 	{
@@ -17941,7 +17941,7 @@
 		"ja": ["（強調）まったく", "すぐに"],
 		"en": ["(emphatic particle) indeed", "right away"],
 		"ru": ["(усилит.) ведь", "сразу же"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 9
 	},
 	{
@@ -19154,7 +19154,7 @@
 				"ja": ["hawの所属形", "～の声"],
 				"en": ["the voice of ~"],
 				"ru": ["голос ~"],
-				"poses": ["n", "n"],
+				"poses": ["n"],
 				"frequency": 70,
 				"cognates": ["hawehe"],
 				"analysis": [
@@ -19314,7 +19314,7 @@
 		"ja": ["～でない", "ではない"],
 		"en": ["it is not", "not (negation)"],
 		"ru": ["не", "это не"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 6
 	},
 	{
@@ -19422,7 +19422,7 @@
 		"ja": ["～か", "～なのか", "のだろうか"],
 		"en": ["is it that...?", "question particle"],
 		"ru": ["разве", "ли (вопросительная частица)"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 6,
 		"structure": [
 			["heta", "come now"],
@@ -20054,7 +20054,7 @@
 		"ja": ["～なのだ", "そうなのだ", "というわけだ"],
 		"en": ["it is so", "that is how it is"],
 		"ru": ["так оно и есть", "вот так"],
-		"poses": ["ptcl", "aux"],
+		"poses": ["parti", "auxv"],
 		"frequency": 6
 	},
 	{
@@ -20746,7 +20746,7 @@
 		"ja": ["～だなあ", "～なのだなあ"],
 		"en": ["it was, wasn't it", "indeed"],
 		"ru": ["вот ведь", "не правда ли"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 4
 	},
 	{
@@ -21442,7 +21442,7 @@
 		"ja": ["～だろう", "～にちがいない"],
 		"en": ["it must be", "probably it is"],
 		"ru": ["наверное", "должно быть"],
-		"poses": ["aux"],
+		"poses": ["auxv"],
 		"frequency": 4,
 		"structure": [
 			["nee", "to be"],
@@ -22706,7 +22706,7 @@
 		"ja": ["～し続ける", "繰り返し～する"],
 		"en": ["to keep doing", "to do repeatedly"],
 		"ru": ["продолжать делать", "делать снова и снова"],
-		"poses": ["aux"],
+		"poses": ["auxv"],
 		"frequency": 3,
 		"structure": [
 			["ran", "to descend"],
@@ -23696,7 +23696,7 @@
 		"ja": ["～なのだ", "そうである"],
 		"en": ["it is so", "it is the case (that)"],
 		"ru": ["так и есть", "это так"],
-		"poses": ["aux"],
+		"poses": ["auxv"],
 		"frequency": 3,
 		"structure": [
 			["nea", "that"],
@@ -23840,7 +23840,7 @@
 		"ja": ["～だとさ", "～という"],
 		"en": ["it is said (reportative)", "so the story goes"],
 		"ru": ["говорят", "как рассказывают"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 3,
 		"hokkaido": [
 			{
@@ -24271,7 +24271,7 @@
 		"ja": ["いくつ"],
 		"en": ["how many"],
 		"ru": ["сколько"],
-		"poses": ["adv", "adv"],
+		"poses": ["adv"],
 		"frequency": 5,
 		"hokkaido": [
 			{ "lemma": "hempak", "type": "irregular-correspondence", "curated": true },
@@ -24709,7 +24709,7 @@
 		"ja": ["…するうちに", "…してついに", "…するまで"],
 		"en": ["until", "while", "at length"],
 		"ru": ["пока", "в конце концов"],
-		"poses": ["aux", "sconj"],
+		"poses": ["auxv", "sconj"],
 		"frequency": 2
 	},
 	{
@@ -24753,7 +24753,7 @@
 		"ja": ["したらしい", "するようだ"],
 		"en": ["it seems that one did", "apparently does"],
 		"ru": ["кажется, сделал", "по-видимому"],
-		"poses": ["aux"],
+		"poses": ["auxv"],
 		"frequency": 2,
 		"structure": [
 			["kii", "to do ~"],
@@ -25649,7 +25649,7 @@
 		"ja": ["自分自身を…", "自分に…", "再帰接頭辞"],
 		"en": ["oneself (reflexive prefix)", "self-"],
 		"ru": ["себя (возвратная приставка)", "само-"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "yayko-", "type": "identity", "conf": 0.9 }]
 	},
@@ -26918,7 +26918,7 @@
 		"ja": ["いつ"],
 		"en": ["when"],
 		"ru": ["когда"],
-		"poses": ["adv", "adv"],
+		"poses": ["adv"],
 		"frequency": 6,
 		"hokkaido": [
 			{ "lemma": "hempara", "type": "irregular-correspondence", "curated": true },
@@ -27019,7 +27019,7 @@
 		"ja": ["～だよ", "～なのだよ"],
 		"en": ["it is (you know)", "right?"],
 		"ru": ["ведь это", "не так ли"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 4
 	},
 	{
@@ -27144,7 +27144,7 @@
 		"ja": ["彼らの～", "～たちの"],
 		"en": ["their (3pl possessive suffix)"],
 		"ru": ["их (суффикс притяжательности 3 мн.)"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 2,
 		"structure": [
 			["*hi", "their (3pl possessive suffix)"],
@@ -27189,7 +27189,7 @@
 		"ja": ["する", "言う"],
 		"en": ["to do", "to say (so)"],
 		"ru": ["делать", "говорить (так)"],
-		"poses": ["vt", "aux"],
+		"poses": ["vt", "auxv"],
 		"frequency": 2
 	},
 	{
@@ -28277,7 +28277,7 @@
 		"ja": ["けれども", "とはいえ", "だが"],
 		"en": ["even so", "nevertheless", "though"],
 		"ru": ["хотя", "тем не менее"],
-		"poses": ["conj", "ptcl"],
+		"poses": ["conj", "parti"],
 		"frequency": 2,
 		"structure": [
 			["wah", "(meaningless song-refrain word)"],
@@ -28494,7 +28494,7 @@
 		"ja": ["できる", "～しうる"],
 		"en": ["to be able to", "can"],
 		"ru": ["мочь", "быть способным"],
-		"poses": ["vi", "aux"],
+		"poses": ["vi", "auxv"],
 		"frequency": 6
 	},
 	{
@@ -28731,7 +28731,7 @@
 		"ja": ["～のようだ", "～かのように", "あたかも"],
 		"en": ["as if", "like", "seemingly"],
 		"ru": ["как будто", "словно"],
-		"poses": ["ptcl"],
+		"poses": ["parti"],
 		"frequency": 3
 	},
 	{
@@ -28835,7 +28835,7 @@
 		"ja": ["（コピュラ）である"],
 		"en": ["to be (copula; truncated token)"],
 		"ru": ["быть (связка; усечённый токен)"],
-		"poses": ["aux"],
+		"poses": ["auxv"],
 		"frequency": 2
 	},
 	{
@@ -29656,7 +29656,7 @@
 		"ja": ["（引用）～と", "そう", "そのように"],
 		"en": ["(quotative) that, …", "so, like that"],
 		"ru": ["(цитатив) что", "так"],
-		"poses": ["ptcl", "adv"],
+		"poses": ["parti", "adv"],
 		"frequency": 1150,
 		"hokkaido": [
 			{
