@@ -28711,7 +28711,12 @@
 		"en": ["to make peace", "to be on good terms", "to reconcile"],
 		"ru": ["мириться", "ладить", "примиряться"],
 		"poses": ["vi"],
-		"frequency": 3
+		"frequency": 3,
+		"structure": [
+			["uko", "REC"],
+			["ramu", "mind"],
+			["pirika", "good"]
+		]
 	},
 	{
 		"lemma": "konep",
@@ -28888,7 +28893,12 @@
 		"en": ["quarrel", "be at odds", "fall out"],
 		"ru": ["ссориться", "быть в раздоре"],
 		"poses": ["vi"],
-		"frequency": 2
+		"frequency": 2,
+		"structure": [
+			["uko", "REC"],
+			["ramu", "mind"],
+			["wen", "bad"]
+		]
 	},
 	{
 		"lemma": "kouekarpa",
