@@ -15523,10 +15523,10 @@
 	},
 	{
 		"lemma": "yoy",
-		"ja": ["良い"],
-		"en": ["good"],
-		"ru": ["хорошо"],
-		"poses": ["adj"],
+		"ja": ["立派な", "美しい", "良い"],
+		"en": ["fine", "splendid", "beautiful", "good"],
+		"ru": ["прекрасный", "красивый", "хороший"],
+		"poses": ["adn"],
 		"frequency": 37,
 		"hokkaido": [{ "lemma": "yey", "type": "irregular-correspondence", "curated": true }],
 		"cognates": ["yey"]
