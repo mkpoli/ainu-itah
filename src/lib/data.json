@@ -13679,7 +13679,7 @@
 		"ja": ["私たちが", "神の一人称"],
 		"en": ["we", "us (divine)"],
 		"ru": ["мы (божественное)"],
-		"poses": ["pfx", "v"],
+		"poses": ["pers"],
 		"frequency": 17,
 		"freqSource": "marker",
 		"hokkaido": [{ "lemma": "ci-", "type": "identity", "conf": 0.75 }]
@@ -14191,10 +14191,10 @@
 	},
 	{
 		"lemma": "i",
-		"ja": ["意味的に目的語を補い", "それ", "tranverb}}を{{intrverb}}化する"],
-		"en": ["it (object complement)", "to transform"],
-		"ru": ["оно (дополнение объекта)", "преобразовывать"],
-		"poses": ["pfx"],
+		"ja": ["それ（目的語を補う）", "他動詞を自動詞化する"],
+		"en": ["it (object complement)", "antipassive (detransitivizes a transitive verb)"],
+		"ru": ["оно (дополнение объекта)", "антипассив (детранзитивирует)"],
+		"poses": ["pers"],
 		"frequency": 17,
 		"freqSource": "marker",
 		"hokkaido": [
@@ -28362,7 +28362,7 @@
 		],
 		"en": ["you (plural)", "someone", "we", "they"],
 		"ru": ["вы", "кто-то", "мы", "они"],
-		"poses": ["pfx", "v"],
+		"poses": ["pers"],
 		"frequency": 13,
 		"hokkaido": [{ "lemma": "a", "type": "identity", "conf": 0.9 }]
 	},
