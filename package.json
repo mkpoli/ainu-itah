@@ -47,6 +47,7 @@
 		"@tailwindcss/container-queries": "^0.1.1",
 		"@tailwindcss/forms": "^0.5.9",
 		"ainconv": "^0.5.1",
+		"bits-ui": "^1.8.0",
 		"maplibre-gl": "^5.24.0"
 	}
 }
