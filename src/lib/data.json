@@ -9691,10 +9691,10 @@
 	},
 	{
 		"lemma": "neanpe",
-		"ja": ["は", "それ", "そのもの", "それは"],
-		"en": ["as of ~", "that", "that thing", "it (topic)"],
-		"ru": ["на ~", "это", "то", "та вещь", "оно"],
-		"poses": ["nmlz", "n", "advp", "pron", "parti"],
+		"ja": ["は", "～は（とりたて）", "すると", "そして"],
+		"en": ["as for ~ (topic)", "and then", "so"],
+		"ru": ["что касается ~ (тема)", "и тогда", "и вот"],
+		"poses": ["parti"],
 		"frequency": 975,
 		"hokkaido": [{ "lemma": "neanpe", "type": "identity", "curated": true }],
 		"cognates": ["neanpe"]
