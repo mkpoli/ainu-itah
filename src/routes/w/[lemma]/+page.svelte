@@ -6,6 +6,7 @@
 	import { languageTag } from '$lib/paraglide/runtime';
 	import KampisosIcon from '$lib/icons/Kampisos.svg.svelte';
 	import type { WordForm } from '$lib/dict';
+	import { senseSuper } from '$lib/homographs';
 
 	let { data } = $props();
 	const entry = $derived(data.entry);
@@ -118,12 +119,31 @@
 
 	{#if entry}
 		<header>
-			<h1 class="text-4xl font-bold" lang="ain-Latn">{entry.lemma}</h1>
+			<h1 class="text-4xl font-bold" lang="ain-Latn">
+				{entry.lemma}{#if entry.id}<sup class="text-2xl text-gray-400">{senseSuper(entry)}</sup
+					>{/if}{#if entry.sense}<span
+						class="ml-2 align-middle text-lg font-normal text-gray-500 dark:text-gray-400"
+						>{entry.sense}</span
+					>{/if}
+			</h1>
 			<p class="mt-1 text-lg text-gray-500 dark:text-gray-400">
 				<span lang="ain-Kana">{latn2kana(entry.lemma)}</span>
 				<span aria-hidden="true">·</span>
 				<span lang="ain-Cyrl">{latn2cyrl(entry.lemma)}</span>
 			</p>
+			{#if data.siblings?.length}
+				<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+					{m.other_senses()}:
+					{#each data.siblings as s, i}{#if i > 0}<span aria-hidden="true">, </span>{/if}<a
+							href="/w/{encodeURIComponent(s.slug)}"
+							class="text-blue-800 hover:underline dark:text-blue-300"
+							lang="ain-Latn"
+							>{s.lemma}{#if s.sense}<span class="text-gray-500 dark:text-gray-400">
+									({s.sense})</span
+								>{/if}</a
+						>{/each}
+				</p>
+			{/if}
 			{#if data.viaForm}
 				<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
 					<span lang="ain-Latn">{data.viaForm}</span> — {m.forms()} ·
@@ -256,6 +276,29 @@
 				>{m.reference_grammar()} →</a
 			>
 		</footer>
+	{:else if data.homographs}
+		<header>
+			<h1 class="text-4xl font-bold" lang="ain-Latn">{data.lemma}</h1>
+			<p class="mt-1 text-gray-500 dark:text-gray-400">{m.homograph_intro()}</p>
+		</header>
+		<ul class="mt-6 space-y-3">
+			{#each data.homographs as h}
+				<li>
+					<a
+						href="/w/{encodeURIComponent(h.slug)}"
+						class="font-medium text-blue-800 hover:underline dark:text-blue-300"
+						lang="ain-Latn"
+						>{h.lemma}{#if h.sense}<span class="font-normal text-gray-500 dark:text-gray-400">
+								— {h.sense}</span
+							>{/if}</a
+					>
+					<span class="text-sm text-gray-600 dark:text-gray-300">{h.gloss}</span>
+					{#if h.poses?.length}
+						<span class="text-xs text-gray-400">({h.poses.map(posLabel).join(', ')})</span>
+					{/if}
+				</li>
+			{/each}
+		</ul>
 	{:else}
 		<h1 class="text-2xl font-bold" lang="ain-Latn">{data.lemma}</h1>
 		<p class="mt-3 text-gray-600">

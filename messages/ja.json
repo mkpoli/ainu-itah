@@ -19,6 +19,8 @@
 	"freq": "頻度順",
 	"frequency": "頻度",
 	"forms": "語形",
+	"other_senses": "他の語義",
+	"homograph_intro": "この綴りには複数の異なる語があります：",
 	"freq_incl_forms": "語形を含む。単独: {own}",
 	"freq_marker_qualifier": "概数：接語マーカー付きトークンに基づく",
 	"pos": "品詞順",

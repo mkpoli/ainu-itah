@@ -19,6 +19,8 @@
 	"freq": "Frequency",
 	"frequency": "Frequency",
 	"forms": "forms",
+	"other_senses": "Other senses",
+	"homograph_intro": "Several distinct words share this spelling:",
 	"freq_incl_forms": "incl. forms; own: {own}",
 	"freq_marker_qualifier": "approximate: from clitic-marked tokens",
 	"pos": "POS",

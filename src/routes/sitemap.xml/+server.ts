@@ -47,8 +47,11 @@ function generateSitemap(): string {
 	);
 	// Each dictionary entry's /w/[lemma] page, listed once at the English locale
 	// (the per-page hreflang cluster from the root layout links the other locales).
-	const wordUrls = (data as { lemma: string }[]).map((e) => {
-		const loc = new URL(`/en/w/${encodeURIComponent(e.lemma)}`, CANONICAL_HOSTNAME).toString();
+	const wordUrls = (data as { lemma: string; id?: string }[]).map((e) => {
+		const loc = new URL(
+			`/en/w/${encodeURIComponent(e.id ?? e.lemma)}`,
+			CANONICAL_HOSTNAME
+		).toString();
 		return `<url><loc>${loc}</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`;
 	});
 	return `<?xml version="1.0" encoding="UTF-8" ?>

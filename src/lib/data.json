@@ -13916,15 +13916,34 @@
 	},
 	{
 		"lemma": "pa",
-		"ja": ["口", "頭", "年"],
-		"en": ["mouth", "head", "year"],
-		"ru": ["рот", "голова", "год"],
-		"poses": ["n", "adv", "v", "auxv", "sfx", "root"],
-		"frequency": 10,
-		"hokkaido": [
-			{ "lemma": "pa", "type": "identity", "conf": 0.9 },
-			{ "lemma": "pa/pa(ha)", "type": "identity", "conf": 0.9 }
-		]
+		"id": "pa-1",
+		"sense": "year",
+		"ja": ["年"],
+		"en": ["year"],
+		"ru": ["год"],
+		"poses": ["n"],
+		"frequency": 6,
+		"hokkaido": [{ "lemma": "pa", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "pa",
+		"id": "pa-2",
+		"sense": "head/mouth",
+		"ja": ["頭", "口"],
+		"en": ["head", "mouth"],
+		"ru": ["голова", "рот"],
+		"poses": ["n"],
+		"frequency": 4,
+		"hokkaido": [{ "lemma": "pa/pa(ha)", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "-pa",
+		"ja": ["（複数・反復を表す動詞接尾辞）"],
+		"en": ["pluractional (plural participants or repeated action)"],
+		"ru": ["плюракциональный суффикс (множественность или повторность)"],
+		"poses": ["sfx"],
+		"frequency": 8,
+		"hokkaido": [{ "lemma": "-pa", "type": "identity", "conf": 0.9 }]
 	},
 	{
 		"lemma": "seraroka",

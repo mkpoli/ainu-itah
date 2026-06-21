@@ -24,6 +24,15 @@ export interface Correspondence {
 
 export interface Entry {
 	lemma: string;
+	/**
+	 * Stable per-sense id for homographs (etymologically distinct words sharing a
+	 * surface form), e.g. "pa-1", "pa-2". Absent for entries whose lemma is unique;
+	 * those are addressed by the bare lemma. This — never the surface string — is
+	 * the entry's identity and URL slug (see $lib/homographs).
+	 */
+	id?: string;
+	/** Short disambiguating sense label for a homograph, e.g. "year", "head". */
+	sense?: string;
 	ja?: string[];
 	en?: string[];
 	ru?: string[];
