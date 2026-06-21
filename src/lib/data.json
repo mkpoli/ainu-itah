@@ -14211,14 +14211,6 @@
 		"frequency": 3
 	},
 	{
-		"lemma": "=",
-		"ja": ["（はやし詞）"],
-		"en": ["(meaningless song-refrain word)"],
-		"ru": ["(песенный припев)"],
-		"poses": ["refrain"],
-		"frequency": 6
-	},
-	{
 		"lemma": "nuye",
 		"ja": ["彫る", "描く", "書く", "記す", "入れ墨をする"],
 		"en": ["to carve", "to draw", "to write", "to tattoo"],
