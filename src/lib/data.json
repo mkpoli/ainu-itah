@@ -5637,7 +5637,7 @@
 		"ja": ["～に与える"],
 		"en": ["to give to ~"],
 		"ru": ["давать ~"],
-		"poses": ["v"],
+		"poses": ["vd"],
 		"frequency": 1
 	},
 	{
@@ -13786,7 +13786,7 @@
 		"ja": ["〜を聞く", "目"],
 		"en": ["to listen to", "eye"],
 		"ru": ["слушать", "глаз"],
-		"poses": ["v", "root"],
+		"poses": ["vt", "root"],
 		"frequency": 13,
 		"frequencyRolled": 27,
 		"forms": [
@@ -14179,7 +14179,7 @@
 		],
 		"en": ["to be born", "to rise", "to sprout", "to emerge"],
 		"ru": ["родиться", "подниматься", "пускать ростки", "появляться"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 3,
 		"hokkaido": [{ "lemma": "hetuku", "type": "identity", "conf": 0.9 }]
 	},
@@ -14406,7 +14406,7 @@
 		"ja": ["達者である", "元気だ", "健康だ"],
 		"en": ["to be healthy", "to be well"],
 		"ru": ["быть здоровым", "чувствовать себя хорошо"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "iwanke", "type": "identity", "conf": 0.9 }]
 	},
@@ -15084,7 +15084,7 @@
 		"ja": ["集う"],
 		"en": ["to gather"],
 		"ru": ["собираться"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "uwekari", "type": "identity", "curated": true }]
 	},
@@ -15110,7 +15110,7 @@
 		"ja": ["酒を飲む"],
 		"en": ["to drink alcohol"],
 		"ru": ["пить алкоголь"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "iku", "type": "identity", "curated": true }]
 	},
@@ -15690,7 +15690,7 @@
 		"ja": ["知る", "分る", "わかる", "思う", "気づく"],
 		"en": ["to know", "to understand", "to realize", "to think"],
 		"ru": ["знать", "понимать", "сознавать", "думать"],
-		"poses": ["v", "vt"],
+		"poses": ["vt"],
 		"frequency": 28,
 		"hokkaido": [{ "lemma": "eraman", "type": "identity", "conf": 0.9 }]
 	},
@@ -17854,7 +17854,7 @@
 		"ja": ["揺らす"],
 		"en": ["to shake"],
 		"ru": ["трясти"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 10,
 		"hokkaido": [{ "lemma": "suye", "type": "identity", "conf": 0.9 }]
 	},
@@ -17903,7 +17903,7 @@
 		"ja": ["生える", "消える", "つく"],
 		"en": ["to grow", "to disappear", "to attach"],
 		"ru": ["расти", "исчезать", "прикрепляться"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 9,
 		"frequencyRolled": 17,
 		"forms": [
@@ -18708,7 +18708,7 @@
 		"ja": ["とまる"],
 		"en": ["to stop"],
 		"ru": ["остановиться"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 8,
 		"frequencyRolled": 17,
 		"forms": [
@@ -20595,7 +20595,7 @@
 		"ja": ["～を剥がす"],
 		"en": ["to peel ~", "to strip ~"],
 		"ru": ["снять ~", "отслоить ~"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 5,
 		"hokkaido": [{ "lemma": "soso", "type": "identity", "conf": 0.75 }]
 	},
@@ -22018,7 +22018,7 @@
 		"ja": ["太い"],
 		"en": ["thick"],
 		"ru": ["толстый"],
-		"poses": ["v", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 3,
 		"hokkaido": [{ "lemma": "ruwe", "type": "identity", "conf": 0.9 }]
 	},
@@ -23685,7 +23685,7 @@
 		"ja": ["～を引き摺る"],
 		"en": ["to drag"],
 		"ru": ["тащить"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 3,
 		"hokkaido": [{ "lemma": "ninpa", "type": "identity", "conf": 0.9 }]
 	},
@@ -27300,7 +27300,7 @@
 		"ja": ["～に戻る"],
 		"en": ["to return to ~"],
 		"ru": ["вернуться к ~"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 2
 	},
 	{
@@ -27776,7 +27776,7 @@
 		"ja": ["洗う"],
 		"en": ["to wash"],
 		"ru": ["мыть"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "huraye", "type": "identity", "curated": true }]
 	},
@@ -28206,7 +28206,7 @@
 		"ja": ["〜で", "残す"],
 		"en": ["at ~", "to leave"],
 		"ru": ["в ~", "оставить"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "anu", "type": "identity", "conf": 0.9 }]
 	},
@@ -28231,7 +28231,7 @@
 		"ja": ["発酵する"],
 		"en": ["to ferment"],
 		"ru": ["ферментироваться"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "on", "type": "identity", "conf": 0.9 }]
 	},
@@ -28317,7 +28317,7 @@
 		"ja": ["赤い"],
 		"en": ["red"],
 		"ru": ["красный"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "húre", "type": "identity", "conf": 0.9 }]
 	},
@@ -28390,7 +28390,7 @@
 		"ja": ["～して", "持つ", "ものを"],
 		"en": ["to hold", "to have"],
 		"ru": ["держать", "иметь"],
-		"poses": ["parti", "v"],
+		"poses": ["vt", "parti"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "kor'", "type": "identity", "conf": 0.9 }]
 	},
@@ -28433,7 +28433,7 @@
 		"ja": ["多い", "大勢だ", "たくさんいる"],
 		"en": ["many", "numerous"],
 		"ru": ["много", "многочисленные"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 11,
 		"hokkaido": [{ "lemma": "inne", "type": "identity", "conf": 0.9 }]
 	},
@@ -28450,7 +28450,7 @@
 		"ja": ["ものを見る"],
 		"en": ["to see", "to observe"],
 		"ru": ["видеть", "наблюдать"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "inkar", "type": "identity", "conf": 0.9 }]
 	},
@@ -28530,7 +28530,7 @@
 		"ja": ["置く～しておく残す"],
 		"en": ["to place", "to leave"],
 		"ru": ["класть", "оставлять"],
-		"poses": ["parti", "v"],
+		"poses": ["vt", "parti"],
 		"frequency": 5,
 		"hokkaido": [{ "lemma": "ari", "type": "identity", "conf": 0.9 }]
 	},
@@ -28539,7 +28539,7 @@
 		"ja": ["話", "噂"],
 		"en": ["talk", "rumor"],
 		"ru": ["разговор", "слух"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 5
 	},
 	{
@@ -28605,7 +28605,7 @@
 		"ja": ["昼間"],
 		"en": ["daytime"],
 		"ru": ["дневное время"],
-		"poses": ["v"],
+		"poses": ["vc"],
 		"frequency": 4,
 		"hokkaido": [{ "lemma": "sirpeker", "type": "identity", "curated": true }]
 	},
@@ -28684,7 +28684,7 @@
 		"ja": ["跳ぶ"],
 		"en": ["to jump"],
 		"ru": ["прыгать"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 3,
 		"hokkaido": [{ "lemma": "terke", "type": "identity", "conf": 0.9 }]
 	},
@@ -28701,7 +28701,7 @@
 		"ja": ["思う"],
 		"en": ["to think"],
 		"ru": ["думать"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 3,
 		"hokkaido": [{ "lemma": "yaynu", "type": "identity", "conf": 0.9 }]
 	},
@@ -28910,7 +28910,7 @@
 		"ja": ["様子である", "様子になる"],
 		"en": ["to look like ~", "to seem like ~"],
 		"ru": ["похоже на ~", "выглядеть как ~"],
-		"poses": ["v"],
+		"poses": ["vc"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "síran", "type": "identity", "conf": 0.75 }]
 	},
@@ -28953,7 +28953,7 @@
 		"ja": ["眠る", "寝る"],
 		"en": ["to sleep"],
 		"ru": ["спать"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "mokor", "type": "identity", "conf": 0.9 }]
 	},
@@ -28970,7 +28970,7 @@
 		"ja": ["それを", "通す"],
 		"en": ["to pass through"],
 		"ru": ["пропустить"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "kus", "type": "identity", "conf": 0.9 }]
 	},
@@ -29004,7 +29004,7 @@
 		"ja": ["できる"],
 		"en": ["can", "able to"],
 		"ru": ["может"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "askay", "type": "identity", "curated": true }]
 	},
@@ -29117,7 +29117,7 @@
 		"ja": ["起こる"],
 		"en": ["to happen"],
 		"ru": ["происходить"],
-		"poses": ["v", "sfx"],
+		"poses": ["vi", "sfx"],
 		"frequency": 1
 	},
 	{
@@ -29125,7 +29125,7 @@
 		"ja": ["飲むBiiru"],
 		"en": ["to drink (beer)"],
 		"ru": ["пить (пиво)"],
-		"poses": ["v", "n"],
+		"poses": ["vt", "n"],
 		"frequency": 100,
 		"frequencyRolled": 101,
 		"forms": [
@@ -29232,7 +29232,7 @@
 		"ja": ["夜", "日暮れ"],
 		"en": ["night", "dusk"],
 		"ru": ["ночь", "сумерки"],
-		"poses": ["v"],
+		"poses": ["vc"],
 		"frequency": 2,
 		"hokkaido": [{ "lemma": "sirkunne", "type": "identity", "conf": 0.9 }]
 	},
@@ -29291,7 +29291,7 @@
 		"ja": ["喋る", "話す"],
 		"en": ["to speak", "to talk"],
 		"ru": ["говорить", "разговаривать"],
-		"poses": ["v", "n"],
+		"poses": ["vi", "n"],
 		"frequency": 2,
 		"frequencyRolled": 5,
 		"forms": [
@@ -29336,7 +29336,7 @@
 		"ja": ["する", "作る"],
 		"en": ["to do", "to make"],
 		"ru": ["делать", "создавать"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 1
 	},
 	{
@@ -29362,7 +29362,7 @@
 		"ja": ["観察する"],
 		"en": ["to observe"],
 		"ru": ["наблюдать"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "uwanpare", "type": "identity", "curated": true }]
 	},
@@ -29371,7 +29371,7 @@
 		"ja": ["外へ出る"],
 		"en": ["to go outside", "to exit"],
 		"ru": ["выйти наружу"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "soyne", "type": "identity", "curated": true }]
 	},
@@ -29380,7 +29380,7 @@
 		"ja": ["起きる"],
 		"en": ["to wake up", "to get up"],
 		"ru": ["проснуться", "встать"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "hopuni", "type": "identity", "conf": 0.9 }]
 	},
@@ -29389,7 +29389,7 @@
 		"ja": ["明るくなる"],
 		"en": ["to brighten", "to become light"],
 		"ru": ["светлеть", "становиться ярче"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "peker", "type": "identity", "conf": 0.9 }]
 	},
@@ -29398,7 +29398,7 @@
 		"ja": ["助ける"],
 		"en": ["to help", "to assist"],
 		"ru": ["помогать", "ассистировать"],
-		"poses": ["v"],
+		"poses": ["vt"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "kasuy", "type": "identity", "conf": 0.75 }]
 	},
@@ -29407,7 +29407,7 @@
 		"ja": ["来る"],
 		"en": ["to come"],
 		"ru": ["приходить"],
-		"poses": ["v"],
+		"poses": ["vi"],
 		"frequency": 1,
 		"hokkaido": [{ "lemma": "arki", "type": "identity", "conf": 0.9 }]
 	},
