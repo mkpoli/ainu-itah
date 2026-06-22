@@ -2,6 +2,7 @@ import data from '$lib/data.json';
 import examplesData from '$lib/data/examples.json';
 import type { Entry } from '$lib/dict';
 import { slugOf } from '$lib/homographs';
+import { buildSurfaceIndex, linkTokens, type TextToken } from '$lib/exampleLinks';
 import type { PageServerLoad } from './$types';
 
 // Imported server-side only, so data.json never reaches the client bundle. Each
@@ -19,8 +20,14 @@ export interface Example {
 	source: string;
 	uri: string;
 }
+/** A displayed example: the stored sentence plus its tokenized, linkable text. */
+export type DisplayExample = Example & { tokens: TextToken[] };
 const EXAMPLES = examplesData as { sentences: Example[]; byLemma: Record<string, number[]> };
 const DISPLAY_LIMIT = 8;
+
+// Built once: every dictionary surface form → the entry slug it links to, so
+// example sentences can cross-link each word to its /w/ page.
+const SURFACE_INDEX = buildSurfaceIndex(entries);
 
 /** A compact pointer to another sense, for disambiguation lists and "other senses" nav. */
 export interface SenseLink {
@@ -58,7 +65,7 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 				homographs: sameLemma.map(senseLink),
 				siblings: [] as SenseLink[],
 				viaForm: null,
-				examples: [] as Example[],
+				examples: [] as DisplayExample[],
 				exampleCount: 0
 			};
 		}
@@ -84,7 +91,10 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 	// Examples are keyed by the base entry's lemma (the surface form), so all
 	// homographs of a lemma share its attestations.
 	const exIdx = entry ? (EXAMPLES.byLemma[entry.lemma] ?? []) : [];
-	const examples = exIdx.slice(0, DISPLAY_LIMIT).map((i) => EXAMPLES.sentences[i]);
+	const examples = exIdx.slice(0, DISPLAY_LIMIT).map((i) => {
+		const s = EXAMPLES.sentences[i];
+		return { ...s, tokens: linkTokens(s.text, SURFACE_INDEX) as TextToken[] };
+	});
 
 	return {
 		lemma: slug,

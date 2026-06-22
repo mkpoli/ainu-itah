@@ -178,7 +178,13 @@
 				<ul class="space-y-3">
 					{#each data.examples as ex}
 						<li>
-							<p lang="ain-Latn">{ex.text}</p>
+							<p lang="ain-Latn">
+								{#each ex.tokens as tok}{#if tok.href}<a
+											href="/w/{encodeURIComponent(tok.href)}"
+											class="hover:text-blue-800 hover:underline dark:hover:text-blue-300"
+											>{tok.t}</a
+										>{:else}{tok.t}{/if}{/each}
+							</p>
 							<p class="text-sm text-gray-600 dark:text-gray-300" lang="ja">{ex.translation}</p>
 							<p class="mt-0.5 text-xs text-gray-500 dark:text-gray-400">
 								{ex.dialect} ·
