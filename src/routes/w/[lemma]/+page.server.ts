@@ -1,5 +1,6 @@
 import data from '$lib/data.json';
 import examplesData from '$lib/data/examples.json';
+import collocationsData from '$lib/data/collocations.json';
 import type { Entry } from '$lib/dict';
 import { slugOf } from '$lib/homographs';
 import { buildSurfaceIndex, linkTokens, type TextToken } from '$lib/exampleLinks';
@@ -28,6 +29,15 @@ const DISPLAY_LIMIT = 8;
 // Built once: every dictionary surface form → the entry slug it links to, so
 // example sentences can cross-link each word to its /w/ page.
 const SURFACE_INDEX = buildSurfaceIndex(entries);
+
+// Corpus-derived collocates (content words a lemma most often sits next to),
+// keyed by entry slug; built by scripts/gen-collocations.ts.
+export interface Collocate {
+	w: string;
+	slug: string;
+	count: number;
+}
+const COLLOCATIONS = collocationsData as { byLemma: Record<string, Collocate[]> };
 
 /** A compact pointer to another sense, for disambiguation lists and "other senses" nav. */
 export interface SenseLink {
@@ -66,7 +76,8 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 				siblings: [] as SenseLink[],
 				viaForm: null,
 				examples: [] as DisplayExample[],
-				exampleCount: 0
+				exampleCount: 0,
+				collocations: [] as Collocate[]
 			};
 		}
 	}
@@ -96,6 +107,8 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 		return { ...s, tokens: linkTokens(s.text, SURFACE_INDEX) as TextToken[] };
 	});
 
+	const collocations = entry ? (COLLOCATIONS.byLemma[slugOf(entry)] ?? []) : [];
+
 	return {
 		lemma: slug,
 		entry,
@@ -103,6 +116,7 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 		siblings,
 		viaForm,
 		examples,
-		exampleCount: exIdx.length
+		exampleCount: exIdx.length,
+		collocations
 	};
 };

@@ -258,6 +258,26 @@
 			</section>
 		{/if}
 
+		{#if data.collocations?.length}
+			<section class="mt-6">
+				<h2 class="mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">
+					{m.collocations()}
+				</h2>
+				<ul class="flex flex-wrap gap-2">
+					{#each data.collocations as col}
+						<li>
+							<a
+								href="/w/{encodeURIComponent(col.slug)}"
+								class="inline-flex items-baseline gap-1 border border-gray-200 px-2 py-0.5 text-sm hover:border-blue-300 hover:text-blue-800 dark:border-gray-700 dark:hover:text-blue-300"
+								lang="ain-Latn"
+								>{col.w}<span class="text-xs tabular-nums text-gray-400">{col.count}</span></a
+							>
+						</li>
+					{/each}
+				</ul>
+			</section>
+		{/if}
+
 		<dl class="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
 			<dt class="font-semibold text-gray-500 dark:text-gray-400">{m.frequency()}</dt>
 			<dd class="tabular-nums">{entry.frequencyRolled ?? entry.frequency}</dd>
