@@ -172,9 +172,19 @@
 			{/each}
 		</dl>
 
+		{#if entry.structure}
+			<section class="mt-6">
+				<h2 class="text-sm font-semibold text-gray-500 dark:text-gray-400">{m.word_structure()}</h2>
+				<p class="mt-1">
+					<span lang="ain-Latn">{joinMorphs(entry.structure)}</span>
+					<span class="text-gray-500 dark:text-gray-400">— {joinGlosses(entry.structure)}</span>
+				</p>
+			</section>
+		{/if}
+
 		{#if data.examples?.length}
 			<section class="mt-6">
-				<h2 class="mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Examples</h2>
+				<h2 class="mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">{m.examples()}</h2>
 				<ul class="space-y-3">
 					{#each data.examples as ex}
 						<li>
@@ -203,20 +213,10 @@
 							href={kampisosUrl(entry.lemma)}
 							target="_blank"
 							rel="noopener"
-							class="text-blue-800 hover:underline dark:text-blue-300">More in the corpus →</a
+							class="text-blue-800 hover:underline dark:text-blue-300">{m.more_in_corpus()} →</a
 						>
 					</p>
 				{/if}
-			</section>
-		{/if}
-
-		{#if entry.structure}
-			<section class="mt-6">
-				<h2 class="text-sm font-semibold text-gray-500 dark:text-gray-400">{m.ikiri()}</h2>
-				<p class="mt-1">
-					<span lang="ain-Latn">{joinMorphs(entry.structure)}</span>
-					<span class="text-gray-500 dark:text-gray-400">— {joinGlosses(entry.structure)}</span>
-				</p>
 			</section>
 		{/if}
 
@@ -280,7 +280,12 @@
 
 		<dl class="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
 			<dt class="font-semibold text-gray-500 dark:text-gray-400">{m.frequency()}</dt>
-			<dd class="tabular-nums">{entry.frequencyRolled ?? entry.frequency}</dd>
+			<dd
+				class="tabular-nums"
+				title={entry.freqSource === 'marker' ? m.freq_marker_qualifier() : ''}
+			>
+				{#if entry.freqSource === 'marker'}≈{/if}{entry.frequencyRolled ?? entry.frequency}
+			</dd>
 		</dl>
 
 		<footer
