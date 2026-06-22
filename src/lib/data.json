@@ -14137,10 +14137,10 @@
 	},
 	{
 		"lemma": "caca",
-		"ja": ["鋸で切る"],
-		"en": ["to saw"],
-		"ru": ["пилить"],
-		"poses": ["v", "n"],
+		"ja": ["おじいさん", "老人", "祖父"],
+		"en": ["old man", "grandfather", "elder"],
+		"ru": ["старик", "дед"],
+		"poses": ["n"],
 		"frequency": 3
 	},
 	{
@@ -14536,21 +14536,33 @@
 	},
 	{
 		"lemma": "rep",
-		"ja": ["拍子をとる"],
-		"en": ["to keep rhythm"],
-		"ru": ["держать ритм"],
-		"poses": ["n", "v", "num"],
+		"id": "rep-1",
+		"sense": "three",
+		"ja": ["三"],
+		"en": ["three (counting form)"],
+		"ru": ["три"],
+		"poses": ["num"],
+		"frequency": 2
+	},
+	{
+		"lemma": "rep",
+		"id": "rep-2",
+		"sense": "offshore",
+		"ja": ["沖", "沖合"],
+		"en": ["offshore", "the open sea"],
+		"ru": ["открытое море", "взморье"],
+		"poses": ["nl"],
 		"frequency": 2,
 		"frequencyRolled": 33,
 		"forms": [
 			{
 				"lemma": "repun",
-				"ja": ["沖へ出る海外へ行く沖の～"],
+				"ja": ["沖へ出る", "海外へ行く"],
 				"en": ["to go offshore", "to go abroad"],
 				"ru": ["выйти в открытое море", "уехать за границу"],
 				"frequency": 24,
 				"analysis": [
-					["rep", "to keep rhythm"],
+					["rep", "offshore"],
 					["=un", "ALL"]
 				],
 				"type": "case"
@@ -14564,7 +14576,7 @@
 				"frequency": 4,
 				"analysis": [
 					["si-", "REFL"],
-					["rep", "to keep rhythm"],
+					["rep", "offshore"],
 					["=ahci", "COLL"]
 				],
 				"type": "plural"
@@ -14577,7 +14589,7 @@
 				"poses": ["vi"],
 				"frequency": 3,
 				"analysis": [
-					["rep", "to keep rhythm"],
+					["rep", "offshore"],
 					["=ahci", "COLL"]
 				],
 				"type": "plural"
@@ -14988,19 +15000,6 @@
 		"hokkaido": [{ "lemma": "u'", "type": "identity", "conf": 0.9 }]
 	},
 	{
-		"lemma": "ci",
-		"ja": ["それそこ自ら"],
-		"en": ["itself", "oneself"],
-		"ru": ["само", "себя"],
-		"poses": ["v"],
-		"frequency": 3,
-		"freqSource": "marker",
-		"hokkaido": [
-			{ "lemma": "ci'", "type": "identity", "conf": 0.75 },
-			{ "lemma": "ci-", "type": "identity", "conf": 0.75 }
-		]
-	},
-	{
 		"lemma": "saranpa",
 		"ja": ["さようなら"],
 		"en": ["goodbye"],
@@ -15041,22 +15040,21 @@
 	},
 	{
 		"lemma": "o",
-		"ja": ["ある", "～にある", "尻", "付く", "生える", "たくさんある"],
-		"en": ["to exist", "to be at ~", "buttocks", "to stick", "to grow", "to abound"],
-		"ru": [
-			"существовать",
-			"находиться в ~",
-			"ягодицы",
-			"прикрепляться",
-			"расти",
-			"быть в изобилии"
-		],
-		"poses": ["v"],
-		"frequency": 10,
-		"hokkaido": [
-			{ "lemma": "o'", "type": "identity", "conf": 0.9 },
-			{ "lemma": "o-", "type": "identity", "conf": 0.9 }
-		]
+		"ja": ["（容器・舟に）入れる", "（容器に）入っている"],
+		"en": ["to put into (a container, boat)", "to be loaded in"],
+		"ru": ["класть (в сосуд, лодку)", "быть положенным внутрь"],
+		"poses": ["vt"],
+		"frequency": 6,
+		"hokkaido": [{ "lemma": "o'", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "o-",
+		"ja": ["～の所で（位置接頭辞）"],
+		"en": ["locative prefix (at, in the place of ~)"],
+		"ru": ["локативный префикс (в, у ~)"],
+		"poses": ["pfx"],
+		"frequency": 4,
+		"hokkaido": [{ "lemma": "o-", "type": "identity", "conf": 0.9 }]
 	},
 	{
 		"lemma": "sino",
@@ -15913,16 +15911,21 @@
 	},
 	{
 		"lemma": "e",
-		"ja": ["～について", "彼らが食べる", "～で", "～に"],
-		"en": ["about ~", "they eat", "at ~", "to ~"],
-		"ru": ["о ~", "они едят", "в ~", "к ~"],
-		"poses": ["intj", "v", "root"],
+		"ja": ["食べる"],
+		"en": ["to eat"],
+		"ru": ["есть", "кушать"],
+		"poses": ["vt"],
 		"frequency": 34,
-		"freqSource": "marker",
-		"hokkaido": [
-			{ "lemma": "e", "type": "identity", "conf": 0.9 },
-			{ "lemma": "e-", "type": "identity", "conf": 0.9 }
-		]
+		"hokkaido": [{ "lemma": "e", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "e-",
+		"ja": ["～について", "～で", "～に（適用接頭辞）"],
+		"en": ["applicative prefix (to, at, with, about ~)"],
+		"ru": ["аппликативный префикс (к, в, о ~)"],
+		"poses": ["pfx"],
+		"frequency": 34,
+		"hokkaido": [{ "lemma": "e-", "type": "identity", "conf": 0.9 }]
 	},
 	{
 		"lemma": "kuinkaara",
@@ -16907,18 +16910,6 @@
 		"frequency": 13
 	},
 	{
-		"lemma": "atu",
-		"ja": ["（*at の所属形）"],
-		"en": ["3sg-possessed form of *at (sense unclear)"],
-		"ru": ["притяжательная форма *at (значение неясно)"],
-		"poses": ["v", "n"],
-		"frequency": 13,
-		"structure": [
-			["*at", "(unclear)"],
-			["u", "POSS"]
-		]
-	},
-	{
 		"lemma": "konpura",
 		"ja": ["昆布"],
 		"en": ["kelp", "kombu"],
@@ -17093,10 +17084,10 @@
 	},
 	{
 		"lemma": "ah",
-		"ja": ["光る"],
-		"en": ["to shine"],
-		"ru": ["светиться"],
-		"poses": ["v", "n"],
+		"ja": ["掛かる", "垂れ下がる"],
+		"en": ["to hang", "to be suspended"],
+		"ru": ["висеть", "свисать"],
+		"poses": ["vi"],
 		"frequency": 13,
 		"frequencyRolled": 26,
 		"forms": [
@@ -18066,12 +18057,21 @@
 	},
 	{
 		"lemma": "un",
-		"ja": ["に", "に有る"],
-		"en": ["to", "exists at"],
-		"ru": ["в", "находится в"],
-		"poses": ["parti", "v"],
+		"ja": ["～へ", "～の方へ"],
+		"en": ["to, into, toward"],
+		"ru": ["к, в (направление)"],
+		"poses": ["postp"],
 		"frequency": 23,
 		"hokkaido": [{ "lemma": "un", "type": "identity", "curated": true }]
+	},
+	{
+		"lemma": "-un",
+		"ja": ["～にある（位置名詞接尾辞）"],
+		"en": ["located at, of (a place) — locative-noun suffix"],
+		"ru": ["находящийся в ~ (суффикс локативного имени)"],
+		"poses": ["sfx"],
+		"frequency": 23,
+		"hokkaido": [{ "lemma": "-un", "type": "identity", "conf": 0.9 }]
 	},
 	{
 		"lemma": "niosuhtaa",
@@ -19769,13 +19769,24 @@
 	},
 	{
 		"lemma": "a",
-		"ja": ["多い"],
-		"en": ["many"],
-		"ru": ["много"],
-		"poses": ["auxv", "v"],
-		"frequency": 11,
-		"freqSource": "marker",
+		"id": "a-1",
+		"sense": "sit",
+		"ja": ["座る"],
+		"en": ["to sit (singular subject)"],
+		"ru": ["сидеть"],
+		"poses": ["vi"],
+		"frequency": 4,
 		"hokkaido": [{ "lemma": "a", "type": "identity", "conf": 0.9 }]
+	},
+	{
+		"lemma": "a",
+		"id": "a-2",
+		"sense": "perfective",
+		"ja": ["（完了・過去の助動詞）"],
+		"en": ["perfective/past auxiliary"],
+		"ru": ["вспомогательный глагол совершенного вида / прошедшего"],
+		"poses": ["auxv"],
+		"frequency": 7
 	},
 	{
 		"lemma": "ekira",
@@ -28837,14 +28848,6 @@
 		"ru": ["взаимно", "друг с другом", "по очереди"],
 		"poses": ["adv"],
 		"frequency": 1
-	},
-	{
-		"lemma": "rok",
-		"ja": ["alang=ain"],
-		"en": ["equivalent to alang"],
-		"ru": ["эквивалент alang"],
-		"poses": ["auxv", "v"],
-		"frequency": 2
 	},
 	{
 		"lemma": "ciramantep",
