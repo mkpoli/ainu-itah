@@ -23,6 +23,24 @@ const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
 const tq = (s: string) => '"' + s.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"';
 const clean = (s: string | undefined) => (s ?? '').replace(/\s+/g, ' ').trim();
 const tight = (s: string | undefined) => (s ?? '').replace(/\s+/g, '').trim();
+// Escape text destined for Typst *content* mode (markup metacharacters).
+const escTyp = (s: string | undefined) => (s ?? '').replace(/([#$*_`<>@~\\[\]])/g, '\\$1');
+
+// The "Gloss abbreviations" table reads better in print as a compact two-column
+// list (tag — meaning) than as a full-width bordered table.
+function abbrevListToTypst(table: HTMLElement): string {
+	const rows = table
+		.querySelectorAll('tbody tr')
+		.map((r) => {
+			const td = r.querySelectorAll('td');
+			return { tag: clean(td[0]?.text), def: clean(td[1]?.text) };
+		})
+		.filter((r) => r.tag);
+	const body = rows
+		.map((r) => `#smallcaps[${escTyp(r.tag.toLowerCase())}]#h(0.5em)${escTyp(r.def)}`)
+		.join(' \\\n');
+	return `#columns(2, gutter: 1.4em)[\n#set par(justify: false, leading: 0.5em, spacing: 0.5em)\n${body}\n]`;
+}
 
 // ---- one interlinear example -> a Typst #ex(...) call --------------------------
 let exSeq = 0;
@@ -49,6 +67,39 @@ function exToTypst(ex: HTMLElement): string {
 	return `#ex(${tq(num)}, (${wordArr},)${opt.length ? ', ' + opt.join(', ') : ''})`;
 }
 
+// ---- figures: constrain width, embed inline SVG, caption ------------------------
+// pandoc would emit unconstrained #image() (overflowing the page) and silently drops
+// inline <svg>. We pull each <figure> out into a width-capped, centred Typst block;
+// inline SVGs are written to a temp file so Typst can render them.
+const tmpFigs: string[] = [];
+const TEXT_PT = 465; // ≈ A4 text-column width in pt
+function figureToTypst(fig: HTMLElement): string | null {
+	const img = fig.querySelector('img');
+	const svg = fig.querySelector('svg');
+	const caption = escTyp(clean(fig.querySelector('figcaption')?.text));
+	const styleMW = /max-width:\s*(\d+)px/.exec(fig.getAttribute('style') ?? '')?.[1];
+	const imgW = img?.getAttribute('width')?.replace(/px$/, '');
+	const px = Number(styleMW ?? imgW ?? '420') || 420;
+	const pct = Math.min(100, Math.max(25, Math.round(((px * 0.75) / TEXT_PT) * 100)));
+
+	let src: string | null = null;
+	if (img) {
+		src = img.getAttribute('src') ?? null;
+	} else if (svg) {
+		// Typst's SVG parser needs the xmlns declaration (the DOM serialization
+		// omits it) and chokes on Svelte's <!--[--> hydration markers.
+		let s = svg.outerHTML.replace(/<!--[\s\S]*?-->/g, '');
+		if (!/xmlns=/.test(s)) s = s.replace(/^<svg /, '<svg xmlns="http://www.w3.org/2000/svg" ');
+		const file = `_pdffig_${tmpFigs.length}.svg`;
+		fs.writeFileSync(path.resolve(ROOT, 'static', file), s);
+		tmpFigs.push(file);
+		src = '/' + file;
+	}
+	if (!src) return null;
+	const cap = caption ? `\n  #v(0.3em); #text(size: 0.8em, fill: luma(45%))[${caption}]` : '';
+	return `#align(center, block(breakable: false, width: ${pct}%)[\n  #image(${tq(src)}, width: 100%)${cap}\n])`;
+}
+
 // ---- fetch + clean one chapter's body, return its Typst -------------------------
 async function chapterBody(slug: string): Promise<string> {
 	const html = await (await fetch(`${BASE}/en/grammar/${slug}`)).text();
@@ -64,6 +115,32 @@ async function chapterBody(slug: string): Promise<string> {
 		const token = `EXSLOT${exSeq++}EXSLOT`;
 		exCalls.set(token, exToTypst(ex));
 		ex.replaceWith(parse(`<p>${token}</p>`));
+	}
+
+	// figures → width-capped centred blocks (or a temp-file SVG embed); the
+	// DialectMap's interactive canvas has no print form, so drop the empty map div
+	// and keep its place-name list + caption.
+	for (const fig of main.querySelectorAll('figure')) {
+		const typ = figureToTypst(fig);
+		if (typ) {
+			const token = `EXSLOT${exSeq++}EXSLOT`;
+			exCalls.set(token, typ);
+			fig.replaceWith(parse(`<p>${token}</p>`));
+		} else {
+			fig.querySelectorAll('[aria-hidden="true"]').forEach((n) => n.remove());
+		}
+	}
+
+	// the gloss-abbreviation table → a two-column list
+	if (slug === 'abbreviations') {
+		for (const t of main.querySelectorAll('table')) {
+			if (clean(t.querySelector('th')?.text).toLowerCase().includes('abbrev')) {
+				const token = `EXSLOT${exSeq++}EXSLOT`;
+				exCalls.set(token, abbrevListToTypst(t));
+				t.replaceWith(parse(`<p>${token}</p>`));
+				break;
+			}
+		}
 	}
 	// unwrap links/abbr to plain text (no clickable refs in print)
 	for (const a of main.querySelectorAll('a, abbr'))
@@ -132,14 +209,21 @@ const TITLE = `#page(numbering: none, header: none)[
 
 // ---- assemble ------------------------------------------------------------------
 async function main() {
-	console.log('building…');
-	execFileSync('bun', ['run', 'build'], { cwd: ROOT, stdio: 'inherit' });
-	console.log('starting preview…');
-	const preview = spawn('bun', ['run', 'preview', '--port', String(PORT)], {
-		cwd: ROOT,
-		stdio: 'ignore',
-		detached: true
-	});
+	// PDF_PREVIEW_RUNNING=1 skips the build + preview spawn and reuses a preview
+	// server the caller already has running on PORT (lets the heavy steps run
+	// outside a sandbox that kills detached child processes).
+	const external = process.env.PDF_PREVIEW_RUNNING === '1';
+	let preview: ReturnType<typeof spawn> | null = null;
+	if (!external) {
+		console.log('building…');
+		execFileSync('bun', ['run', 'build'], { cwd: ROOT, stdio: 'inherit' });
+		console.log('starting preview…');
+		preview = spawn('bun', ['run', 'preview', '--port', String(PORT)], {
+			cwd: ROOT,
+			stdio: 'ignore',
+			detached: true
+		});
+	}
 	try {
 		for (let i = 0; i < 60; i++) {
 			try {
@@ -183,10 +267,19 @@ async function main() {
 		);
 		console.log(`wrote static/grammar.pdf (${mb} MB)`);
 	} finally {
-		try {
-			process.kill(-preview.pid!, 'SIGTERM');
-		} catch {
-			/* already gone */
+		if (preview) {
+			try {
+				process.kill(-preview.pid!, 'SIGTERM');
+			} catch {
+				/* already gone */
+			}
+		}
+		for (const f of tmpFigs) {
+			try {
+				fs.unlinkSync(path.resolve(ROOT, 'static', f));
+			} catch {
+				/* already gone */
+			}
 		}
 	}
 }
