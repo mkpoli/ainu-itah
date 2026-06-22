@@ -355,7 +355,9 @@
 	<p>
 		What does it index? Murasaki listed it as an optional third person plural
 		<Ref k="murasaki1979" p="49–51" paren />, but it co-occurs with overt person markers of any
-		person, so it is a number marker, not person agreement (<Xr ch="person-and-alignment"
+		person, so it is a number marker, not person agreement — the conclusion Nakagawa too reaches,
+		taking <i lang="ain">-hci</i> to be an optionally deployed marker of plurality rather than part
+		of the person paradigm <Ref k="nakagawa2024" p="151–153" paren /> (<Xr ch="person-and-alignment"
 			>Chapter 13</Xr
 		>). Its controller is a core argument: normally the subject, but Piłsudski already glossed
 		<i lang="ain">an-kuyra-si</i>

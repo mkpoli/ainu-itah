@@ -165,8 +165,12 @@
 		exclusive–inclusive opposition of the Hokkaidō colloquial kind; an ordinary first person
 		singular ‘I’; an indefinite or unspecified agent; and the agent slot of the impersonal passive
 		construction (<Ref k="chiri1942" p="§37" />;
-		<Ref k="sakaguchi2024" p="27–28" />; <Ref k="dalcorso2025align" p="196–197" />). The honorific
-		second-person use of Hokkaidō dialects is unattested in Sakhalin
+		<Ref k="sakaguchi2024" p="27–28" />; <Ref k="dalcorso2025align" p="196–197" />; <Ref
+			k="nakagawa2024"
+			p="179"
+		/>, who likewise gives Sakhalin <i lang="ain">an=</i> the first-person-plural slot and notes the
+		near-absence of the Hokkaidō exclusive <i lang="ain">ci=</i>). The honorific second-person use
+		of Hokkaidō dialects is unattested in Sakhalin
 		<Ref k="dalcorso2025align" p="196" paren />. Chiri observed that Sakhalin uses one and the same
 		paradigm in literary and colloquial registers, essentially the epic paradigm of Hokkaidō <Ref
 			k="chiri1942"

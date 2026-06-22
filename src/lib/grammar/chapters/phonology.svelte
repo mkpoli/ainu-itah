@@ -17,7 +17,12 @@
 		k="dalcorso2024"
 		p="59–66"
 	/>. On vowel length and its history see
-	<Ref k="itabashi2001" />. Examples are given in the romanisation defined in
+	<Ref k="itabashi2001" />; Nakagawa sets the same coda neutralisation and the systematic
+	correspondence between Sakhalin vowel length and Hokkaidō accent in their pan-Ainu frame <Ref
+		k="nakagawa2024"
+		p="25, 45–49"
+		paren
+	/>. Examples are given in the romanisation defined in
 	<Xr ch="orthography">Chapter 3</Xr>; phonetic detail is added in square brackets where the sources
 	supply it.
 </p>

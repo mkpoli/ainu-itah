@@ -506,6 +506,17 @@ export const bibliography: Record<string, BibEntry> = {
 		place: 'Tokyo',
 		lang: 'ja'
 	},
+	nakagawa2024: {
+		region: 'general',
+		author: 'Nakagawa Hiroshi 中川裕',
+		citeAuthor: 'Nakagawa',
+		year: '2024',
+		title: 'アイヌ語広文典',
+		titleTr: 'Ainugo kōbunten [An extensive grammar of the Ainu language]',
+		publisher: 'Hakusuisha 白水社',
+		place: 'Tokyo',
+		lang: 'ja'
+	},
 	noonan2007: {
 		region: 'general',
 		author: 'Noonan, Michael',
