@@ -160,8 +160,10 @@
 		<p>
 			Sentence-initially, with no host at all, <i lang="ain">neampe</i> resumes the previous
 			discourse wholesale — ‘as for that, thereupon’ — and functions as a topic-switching
-			connective; this absolute use accounts for most of the remaining tokens. Independent personal
-			pronouns, themselves optional emphatic adjuncts, are the other main carriers of contrast:
+			connective, frozen above all in <i lang="ain">ne'ampe kusu</i> ‘and so’ and
+			<i lang="ain">ne'ampe taa</i> ‘and then’; this absolute use accounts for most of the remaining
+			tokens. Independent personal pronouns, themselves optional emphatic adjuncts, are the other
+			main carriers of contrast:
 			<i lang="ain">kuani</i>
 			‘I (and not you)’, <i lang="ain">eani</i> ‘YOU’, frequently reinforced by
 			<i lang="ain">neampe</i>
