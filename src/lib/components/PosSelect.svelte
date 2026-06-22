@@ -24,6 +24,56 @@
 		return fn?.() ?? code;
 	}
 
+	// Group the part-of-speech codes into linguistic super-categories so the long
+	// flat list reads as a hierarchy. Order here is the display order of the groups.
+	type Cat = 'verb' | 'noun' | 'modifier' | 'particle' | 'affix' | 'other';
+	const CAT_ORDER: Cat[] = ['verb', 'noun', 'modifier', 'particle', 'affix', 'other'];
+	const CATEGORY: Record<string, Cat> = {
+		vi: 'verb',
+		vt: 'verb',
+		vd: 'verb',
+		vc: 'verb',
+		v: 'verb',
+		auxv: 'verb',
+		cop: 'verb',
+		n: 'noun',
+		nl: 'noun',
+		pron: 'noun',
+		nmlz: 'noun',
+		num: 'noun',
+		adn: 'modifier',
+		adv: 'modifier',
+		advp: 'modifier',
+		padv: 'modifier',
+		parti: 'particle',
+		postp: 'particle',
+		sfp: 'particle',
+		conj: 'particle',
+		cconj: 'particle',
+		sconj: 'particle',
+		int: 'particle',
+		rel: 'particle',
+		pers: 'affix',
+		pfx: 'affix',
+		sfx: 'affix',
+		root: 'affix',
+		refrain: 'other',
+		intj: 'other',
+		colloc: 'other'
+	};
+	const catName = (c: Cat) =>
+		(m[`pos_cat_${c}` as keyof typeof m] as (() => string) | undefined)?.() ?? c;
+
+	// Options bucketed by category (preserving the incoming count-desc order within
+	// each), dropping empty groups.
+	const groups = $derived(
+		CAT_ORDER.map((cat) => ({
+			cat,
+			heading: catName(cat),
+			options: options.filter((o) => (CATEGORY[o.code] ?? 'other') === cat)
+		})).filter((g) => g.options.length)
+	);
+
 	// Feed the localized names to bits-ui so focused-trigger typeahead works.
 	const items = $derived(options.map((o) => ({ value: o.code, label: posName(o.code) })));
 	const selectedName = $derived(value ? posName(value) : '—');
@@ -61,8 +111,16 @@
 		>
 			<Select.Viewport>
 				{@render row('', '—', allCount)}
-				{#each options as opt (opt.code)}
-					{@render row(opt.code, posName(opt.code), opt.count)}
+				{#each groups as group (group.cat)}
+					<Select.Group>
+						<Select.GroupHeading
+							class="px-2 pb-0.5 pt-2 text-[11px] font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500"
+							>{group.heading}</Select.GroupHeading
+						>
+						{#each group.options as opt (opt.code)}
+							{@render row(opt.code, posName(opt.code), opt.count)}
+						{/each}
+					</Select.Group>
 				{/each}
 			</Select.Viewport>
 		</Select.Content>
