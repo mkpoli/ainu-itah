@@ -1,7 +1,9 @@
 import data from '$lib/data.json';
 import examplesData from '$lib/data/examples.json';
 import collocationsData from '$lib/data/collocations.json';
+import citationsData from '$lib/data/citations.json';
 import type { Entry } from '$lib/dict';
+import { SOURCE_MAP, type Source } from '$lib/sources';
 import { slugOf } from '$lib/homographs';
 import { buildSurfaceIndex, linkTokens, type TextToken } from '$lib/exampleLinks';
 import type { PageServerLoad } from './$types';
@@ -38,6 +40,10 @@ export interface Collocate {
 	count: number;
 }
 const COLLOCATIONS = collocationsData as { byLemma: Record<string, Collocate[]> };
+
+// Lexical sources each entry is attested in (built by scripts/gen-citations.ts),
+// keyed by entry slug; resolved against the bibliography in $lib/sources.
+const CITATIONS = citationsData as { byLemma: Record<string, string[]> };
 
 /** A compact pointer to another sense, for disambiguation lists and "other senses" nav. */
 export interface SenseLink {
@@ -77,7 +83,8 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 				viaForm: null,
 				examples: [] as DisplayExample[],
 				exampleCount: 0,
-				collocations: [] as Collocate[]
+				collocations: [] as Collocate[],
+				sources: [] as Source[]
 			};
 		}
 	}
@@ -108,6 +115,11 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 	});
 
 	const collocations = entry ? (COLLOCATIONS.byLemma[slugOf(entry)] ?? []) : [];
+	const sources: Source[] = entry
+		? (CITATIONS.byLemma[slugOf(entry)] ?? [])
+				.map((k) => SOURCE_MAP.get(k))
+				.filter((s): s is Source => !!s)
+		: [];
 
 	return {
 		lemma: slug,
@@ -117,6 +129,7 @@ export const load: PageServerLoad = ({ params, setHeaders }) => {
 		viaForm,
 		examples,
 		exampleCount: exIdx.length,
-		collocations
+		collocations,
+		sources
 	};
 };

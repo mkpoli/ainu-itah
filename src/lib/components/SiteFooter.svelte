@@ -20,6 +20,10 @@
 				>Resources</a
 			>
 			<span aria-hidden="true">·</span>
+			<a href="/sources" class="hover:text-blue-800 hover:underline dark:hover:text-blue-300"
+				>{m.sources_title()}</a
+			>
+			<span aria-hidden="true">·</span>
 			<a href="/about" class="hover:text-blue-800 hover:underline dark:hover:text-blue-300">About</a
 			>
 		</nav>

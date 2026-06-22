@@ -258,6 +258,26 @@
 			</section>
 		{/if}
 
+		{#if data.sources?.length}
+			<section class="mt-6">
+				<h2 class="mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">
+					{m.attested_in()}
+				</h2>
+				<ul class="flex flex-wrap gap-2">
+					{#each data.sources as src}
+						<li>
+							<a
+								href="/sources#{src.key}"
+								title={src.full}
+								class="inline-block border border-gray-200 px-2 py-0.5 text-sm text-gray-700 hover:border-blue-300 hover:text-blue-800 dark:border-gray-700 dark:text-gray-300 dark:hover:text-blue-300"
+								>{src.short}</a
+							>
+						</li>
+					{/each}
+				</ul>
+			</section>
+		{/if}
+
 		{#if data.collocations?.length}
 			<section class="mt-6">
 				<h2 class="mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">
