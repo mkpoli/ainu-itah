@@ -63,7 +63,7 @@
 			{#each Object.keys(LANGUAGE_LABELS) as lang}
 				<button
 					type="button"
-					class="rounded border border-gray-300 px-1.5 py-0.5 hover:bg-gray-100 data-[active=true]:bg-gray-800 data-[active=true]:text-white dark:border-gray-700 dark:hover:bg-gray-800 dark:data-[active=true]:bg-gray-200 dark:data-[active=true]:text-gray-900"
+					class=" border border-gray-300 px-1.5 py-0.5 hover:bg-gray-100 data-[active=true]:bg-gray-800 data-[active=true]:text-white dark:border-gray-700 dark:hover:bg-gray-800 dark:data-[active=true]:bg-gray-200 dark:data-[active=true]:text-gray-900"
 					data-active={languageTag() === lang}
 					aria-current={languageTag() === lang ? 'true' : undefined}
 					onclick={() => switchTo(lang as AvailableLanguageTag)}

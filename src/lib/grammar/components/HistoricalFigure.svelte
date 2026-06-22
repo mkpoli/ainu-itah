@@ -29,12 +29,7 @@
 </script>
 
 <figure class="my-6 {floatClass}" style="max-width:{width}">
-	<img
-		{src}
-		{alt}
-		loading="lazy"
-		class="w-full rounded-lg border border-gray-300 bg-gray-100 shadow-sm"
-	/>
+	<img {src} {alt} loading="lazy" class="w-full border border-gray-300 bg-gray-100 shadow-sm" />
 	<figcaption class="mt-2 text-sm leading-snug text-gray-600">
 		{caption}
 		<span class="mt-0.5 block text-xs text-gray-400">

@@ -69,7 +69,7 @@
 				.getElementById('dictionaries')
 				?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
 		}}
-		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
+		class="group flex flex-col border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
 	>
 		<p class="text-3xl" aria-hidden="true">📚</p>
 		<p
@@ -82,7 +82,7 @@
 	</a>
 	<a
 		href="/grammar"
-		class="group flex flex-col rounded-lg border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
+		class="group flex flex-col border border-gray-200 p-5 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
 	>
 		<p class="text-3xl" aria-hidden="true">📖</p>
 		<p

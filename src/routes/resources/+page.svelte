@@ -235,7 +235,7 @@
 
 {#snippet card(r: Res)}
 	<li
-		class="rounded-lg border border-gray-200 p-4 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
+		class=" border border-gray-200 p-4 transition hover:border-blue-800/40 hover:shadow-sm dark:border-gray-700 dark:hover:border-blue-500/50"
 	>
 		<a
 			href={r.url}
@@ -244,7 +244,7 @@
 			class="font-semibold text-blue-800 hover:underline dark:text-blue-300">{r.name}</a
 		>
 		{#if r.lang}<span
-				class="ml-2 rounded bg-gray-100 px-1.5 py-0.5 text-[10px] uppercase tracking-wide text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+				class="ml-2 bg-gray-100 px-1.5 py-0.5 text-[10px] uppercase tracking-wide text-gray-500 dark:bg-gray-800 dark:text-gray-400"
 				>{r.lang}</span
 			>{/if}
 		<p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{r.description}</p>

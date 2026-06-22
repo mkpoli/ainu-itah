@@ -153,7 +153,7 @@
 			{#if entry.poses?.length}
 				<div class="mt-3 flex flex-wrap gap-2">
 					{#each entry.poses as pos}
-						<span class="rounded bg-gray-100 px-2 py-0.5 text-sm text-gray-600 dark:bg-gray-800"
+						<span class=" bg-gray-100 px-2 py-0.5 text-sm text-gray-600 dark:bg-gray-800"
 							>{posLabel(pos)}</span
 						>
 					{/each}
@@ -226,7 +226,7 @@
 								lang="ain-Latn">{form.lemma}</a
 							>
 							<span
-								class="rounded bg-gray-100 px-1 text-[10px] uppercase tracking-wide text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+								class=" bg-gray-100 px-1 text-[10px] uppercase tracking-wide text-gray-500 dark:bg-gray-800 dark:text-gray-400"
 								>{FORM_TYPE_ABBRS[form.type] ?? form.type}</span
 							>
 							<span class="text-sm text-gray-500 dark:text-gray-400" lang="ain-Latn"

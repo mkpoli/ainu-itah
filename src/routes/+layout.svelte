@@ -59,7 +59,7 @@
 	<div class="flex min-h-screen flex-col">
 		<a
 			href="#main-content"
-			class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-blue-900 focus:px-3 focus:py-2 focus:text-white"
+			class="focus: sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:bg-blue-900 focus:px-3 focus:py-2 focus:text-white"
 			>Skip to content</a
 		>
 		<SiteHeader />

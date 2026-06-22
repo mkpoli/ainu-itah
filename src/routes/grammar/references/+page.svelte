@@ -111,7 +111,6 @@
 		font-variant-caps: all-small-caps;
 		letter-spacing: 0.06em;
 		border: 1px solid #d1d5db;
-		border-radius: 0.5em;
 		padding: 0 0.5em;
 		color: #6b7280;
 		vertical-align: 0.1em;

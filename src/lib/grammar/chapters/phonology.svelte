@@ -295,8 +295,8 @@
 	</table>
 	<p>
 		The five qualities <i lang="ain">a e i o u</i> are constant across all Ainu varieties
-		<Ref k="chiri1942" p="§1" paren />. The back vowel <i lang="ain">u</i> is only weakly rounded
-		and approaches [o], which is why early hearers wrote
+		<Ref k="chiri1942" p="§1" paren />. The back vowel <i lang="ain">u</i> is only weakly and
+		approaches [o], which is why early hearers wrote
 		<i lang="ain">ayno</i> for <A w="aynu" /> and <i lang="ain">inao</i> for
 		<A w="inaw" gl="ritual shaving" />
 		<Ref k="chiri1942" p="§1(1)" paren />. The mid vowels differ by coast: West Sakhalin

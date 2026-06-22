@@ -151,7 +151,6 @@
 		display: inline-block;
 		padding: 0.4em 0.9em;
 		border: 1px solid #1e40af;
-		border-radius: 0.4rem;
 		color: #1e40af;
 		font-size: 0.95rem;
 	}

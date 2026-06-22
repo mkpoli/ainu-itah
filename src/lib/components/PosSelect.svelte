@@ -32,13 +32,13 @@
 <Select.Root type="single" {items} bind:value>
 	<Select.Trigger
 		aria-label={ariaLabel}
-		class="flex min-w-[13rem] items-center justify-between gap-2 rounded border border-gray-300 bg-white px-3 py-1 text-left text-sm dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100"
+		class="flex min-w-[13rem] items-center justify-between gap-2 border border-gray-300 bg-white px-3 py-1 text-left text-sm dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100"
 	>
 		<span class="flex min-w-0 items-center gap-2">
 			<span class="truncate">{selectedName}</span>
 			{#if value}
 				<span
-					class="rounded bg-gray-100 px-1 font-mono text-xs text-gray-500 dark:bg-gray-700 dark:text-gray-300"
+					class=" bg-gray-100 px-1 font-mono text-xs text-gray-500 dark:bg-gray-700 dark:text-gray-300"
 					>{value}</span
 				>
 			{/if}
@@ -57,7 +57,7 @@
 	<Select.Portal>
 		<Select.Content
 			sideOffset={4}
-			class="z-50 max-h-80 min-w-[19rem] max-w-[24rem] overflow-y-auto rounded border border-gray-200 bg-white p-1 shadow-lg dark:border-gray-700 dark:bg-gray-800"
+			class="z-50 max-h-80 min-w-[19rem] max-w-[24rem] overflow-y-auto border border-gray-200 bg-white p-1 shadow-lg dark:border-gray-700 dark:bg-gray-800"
 		>
 			<Select.Viewport>
 				{@render row('', '—', allCount)}
@@ -73,14 +73,14 @@
 	<Select.Item
 		value={code}
 		label={name}
-		class="flex cursor-pointer items-center gap-2 rounded px-2 py-1.5 text-sm outline-none data-[highlighted]:bg-blue-50 dark:text-gray-100 dark:data-[highlighted]:bg-blue-900/40"
+		class="flex cursor-pointer items-center gap-2 px-2 py-1.5 text-sm outline-none data-[highlighted]:bg-blue-50 dark:text-gray-100 dark:data-[highlighted]:bg-blue-900/40"
 	>
 		{#snippet children({ selected })}
 			<span class="w-3.5 shrink-0 text-blue-600 dark:text-blue-400">{selected ? '✓' : ''}</span>
 			<span class="grow whitespace-nowrap">{name}</span>
 			{#if code}
 				<span
-					class="rounded bg-gray-100 px-1 font-mono text-[11px] text-gray-500 dark:bg-gray-700 dark:text-gray-300"
+					class=" bg-gray-100 px-1 font-mono text-[11px] text-gray-500 dark:bg-gray-700 dark:text-gray-300"
 					>{code}</span
 				>
 			{/if}

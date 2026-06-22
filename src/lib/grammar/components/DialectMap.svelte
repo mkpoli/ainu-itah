@@ -119,13 +119,13 @@
 	<div
 		bind:this={el}
 		aria-hidden="true"
-		class="z-0 w-full overflow-hidden rounded-xl border border-gray-300"
+		class="z-0 w-full overflow-hidden border border-gray-300"
 		style="height:{height}"
 	></div>
 	<div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1">
 		{#each legendCoasts as c (c)}
 			<span class="flex items-center gap-1.5 text-xs text-gray-500">
-				<span class="inline-block size-2.5 rounded-full" style="background:{COAST_COLOR[c]}"></span>
+				<span class="inline-block size-2.5" style="background:{COAST_COLOR[c]}"></span>
 				{COAST_LABEL[c]}
 			</span>
 		{/each}

@@ -142,7 +142,6 @@
 
 		.g-toc {
 			border: 1px solid #e5e7eb;
-			border-radius: 0.4rem;
 			padding: 0.6rem 0.8rem;
 		}
 	}

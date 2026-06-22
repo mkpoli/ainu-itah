@@ -457,8 +457,8 @@
 		<i lang="ain">pono</i>
 		‘a little’; the Hokkaidō negator <i lang="ain">somo</i> continues the same Proto-Ainu verb
 		through just such an adverbialized form, *<i lang="ain">sam-no</i>, whose final stress explains
-		its rounded vowel; and <i lang="ain">hamo</i> itself keeps first-syllable stress despite its
-		CV.CV shape, the unstressed final vowel rising to give the variant <i lang="ain">hamu</i> — the
+		its vowel; and <i lang="ain">hamo</i> itself keeps first-syllable stress despite its CV.CV
+		shape, the unstressed final vowel rising to give the variant <i lang="ain">hamu</i> — the
 		profile of a stressed negator univerbated with a stressless suffix
 		<Ref k="dalcorso2025neg" p="44–45, 47" paren />. Chiri supplies an inner-Ainu parallel: in
 		Tokachi (Hokkaidō), <i lang="ain">sem-ki-no</i> ‘without doing’ contracts to
