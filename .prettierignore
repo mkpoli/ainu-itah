@@ -16,3 +16,6 @@ build/
 .claude/
 src/lib/data/collocations.json
 src/lib/data/citations.json
+
+# Generated grammar search index (built by scripts/gen-grammar-search.ts)
+static/grammar-search.json

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { parts, appendices, chapterNumber } from '$lib/grammar/toc';
+	import GrammarSearch from '$lib/grammar/components/GrammarSearch.svelte';
 	let { children } = $props();
 
 	let current = $derived($page.url.pathname.replace(/^\/grammar\/?/, '').replace(/\/$/, ''));
@@ -9,6 +10,7 @@
 <div class="grammar-root">
 	<div class="g-shell">
 		<aside class="g-sidebar">
+			<GrammarSearch />
 			<details class="g-toc" open>
 				<summary>Contents</summary>
 				<nav aria-label="Grammar table of contents">
