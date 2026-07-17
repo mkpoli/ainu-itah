@@ -18,7 +18,7 @@
 	"devDependencies": {
 		"@eslint/compat": "^1.2.4",
 		"@iconify/json": "^2.2.282",
-		"@sveltejs/adapter-vercel": "^5.5.2",
+		"@sveltejs/adapter-cloudflare": "^7.2.9",
 		"@sveltejs/kit": "^2.11.1",
 		"@sveltejs/vite-plugin-svelte": "^5.0.2",
 		"@tailwindcss/typography": "^0.5.20",
