@@ -6,10 +6,9 @@ import { i18n } from '$lib/i18n';
 // aliased to the default locale, so tell search engines with a 301 instead.
 const handleRootRedirect: Handle = ({ event, resolve }) => {
 	if (event.url.pathname === '/') {
-		const to = new URL(`/${i18n.config.defaultLanguageTag}`, event.url);
 		return new Response(undefined, {
 			status: 301,
-			headers: { Location: to.pathname + to.search }
+			headers: { Location: `/${i18n.config.defaultLanguageTag}${event.url.search}` }
 		});
 	}
 	return resolve(event);
